@@ -1,0 +1,301 @@
+removed_label,added_label,companies
+Artificial Intelligence,AI,1351
+AI,Artificial Intelligence,1281
+Developer Tools,AI,40
+B2B,Artificial Intelligence,39
+SaaS,AI,28
+Generative AI,Artificial Intelligence,27
+SaaS,Artificial Intelligence,27
+Developer Tools,Artificial Intelligence,26
+B2B,AI,22
+AI Assistant,AI,21
+Generative AI,AI,19
+AI,B2B,18
+Fintech,Artificial Intelligence,18
+AI,AI Assistant,17
+Fintech,AI,17
+API,Artificial Intelligence,15
+AI Assistant,Artificial Intelligence,15
+Consumer,B2B,15
+Developer Tools,B2B,14
+Analytics,AI,14
+B2B,Consumer,14
+Machine Learning,Artificial Intelligence,13
+AI,Developer Tools,13
+Artificial Intelligence,Consumer,13
+B2B,Developer Tools,13
+API,AI,13
+Analytics,Artificial Intelligence,13
+AI,Automation,13
+Artificial Intelligence,Developer Tools,13
+Artificial Intelligence,B2B,12
+Open Source,AI,12
+Productivity,AI,12
+AI,Consumer,12
+Workflow Automation,Artificial Intelligence,12
+Artificial Intelligence,Generative AI,11
+Sales,Artificial Intelligence,11
+AI,SaaS,10
+Generative AI,B2B,10
+Consumer,AI,10
+Open Source,Artificial Intelligence,10
+Generative AI,Developer Tools,10
+Developer Tools,AI Assistant,9
+Infrastructure,Artificial Intelligence,9
+Enterprise,Artificial Intelligence,9
+AI,Generative AI,9
+Artificial Intelligence,AI Assistant,9
+B2B,AI Assistant,9
+Artificial Intelligence,Sales,8
+Infrastructure,AI,8
+Generative AI,AI Assistant,8
+Fintech,SaaS,8
+Consumer,Artificial Intelligence,8
+Productivity,Artificial Intelligence,8
+AI,Open Source,8
+AI,Data Engineering,8
+SaaS,Developer Tools,8
+AI,Infrastructure,8
+AI Assistant,B2B,8
+Artificial Intelligence,Enterprise Software,8
+Marketplace,Artificial Intelligence,8
+B2B,Enterprise,7
+Artificial Intelligence,SaaS,7
+AI Assistant,Sales,7
+Finance,Artificial Intelligence,7
+Marketplace,AI,7
+Productivity,Developer Tools,7
+AI,Enterprise,7
+Marketing,Artificial Intelligence,7
+Artificial Intelligence,Fintech,7
+AIOps,Artificial Intelligence,7
+E-Commerce,E-commerce,7
+SaaS,Open Source,7
+AI Assistant,Developer Tools,7
+Health Tech,AI,7
+Enterprise,AI,7
+Automation,Artificial Intelligence,7
+AI,Fintech,7
+Enterprise Software,B2B,7
+AI,API,6
+Customer Success,Artificial Intelligence,6
+Enterprise Software,Artificial Intelligence,6
+E-commerce,Artificial Intelligence,6
+AI,Logistics,6
+AI,Supply Chain,6
+SaaS,AI Assistant,6
+Computer Vision,Artificial Intelligence,6
+Customer Success,AI,6
+Customer Support,Artificial Intelligence,6
+Automation,AI,6
+SaaS,Consumer,6
+Artificial Intelligence,Marketing,6
+Enterprise Software,AI,6
+AI,Finance,6
+Artificial Intelligence,Open Source,6
+Compliance,AI,6
+Artificial Intelligence,Finance,6
+Artificial Intelligence,Automation,6
+Artificial Intelligence,Healthcare,6
+Compliance,Artificial Intelligence,6
+Artificial Intelligence,Web Development,5
+AI,Workflow Automation,5
+Artificial Intelligence,Productivity,5
+Data Engineering,Artificial Intelligence,5
+B2B,Generative AI,5
+AI,Manufacturing,5
+Developer Tools,SaaS,5
+Artificial Intelligence,Social,5
+Consumer,Operations,5
+Artificial Intelligence,Machine Learning,5
+Developer Tools,Infrastructure,5
+B2B,Open Source,5
+Artificial Intelligence,Supply Chain,5
+Recruiting,AI,5
+AI,Conversational AI,5
+AI-Enhanced Learning,Artificial Intelligence,5
+AI,AIOps,5
+Manufacturing,Artificial Intelligence,5
+Developer Tools,No-code,5
+Sales Enablement,Artificial Intelligence,5
+AI Assistant,Infrastructure,5
+SaaS,Infrastructure,5
+Workflow Automation,Developer Tools,5
+AI,Robotics,5
+Conversational AI,Artificial Intelligence,5
+Artificial Intelligence,Infrastructure,5
+Web Development,AI,5
+Customer Support,AI,5
+Developer Tools,Automation,5
+Developer Tools,Marketing,5
+Security,AI,5
+Generative AI,Conversational AI,5
+Machine Learning,AI,5
+Climate,Artificial Intelligence,5
+Healthcare,AI,5
+Fintech,Developer Tools,5
+Video,AI,5
+Developer Tools,Consumer,5
+Artificial Intelligence,Hard Tech,5
+Artificial Intelligence,LegalTech,5
+Customer Success,Developer Tools,5
+AI,Productivity,5
+SaaS,Data Labeling,5
+AI,Media,5
+Developer Tools,Finance,5
+Conversational AI,AI,4
+Conversational AI,B2B,4
+Web Development,AI Assistant,4
+ClimateTech,Artificial Intelligence,4
+AIOps,AI,4
+Artificial Intelligence,Data Engineering,4
+Infrastructure,Finance,4
+No-code,Artificial Intelligence,4
+E-commerce,AI,4
+Healthcare,Artificial Intelligence,4
+Fintech,Generative AI,4
+Fintech,Web Development,4
+AI,Operations,4
+AI,Data Science,4
+Developer Tools,Data Engineering,4
+Developer Tools,Data Visualization,4
+SaaS,Data Science,4
+Generative AI,Consumer,4
+Automation,Developer Tools,4
+SaaS,Enterprise,4
+Sales,AI Assistant,4
+Fintech,B2B,4
+SaaS,Machine Learning,4
+API,Developer Tools,4
+Artificial Intelligence,Industrial,4
+Productivity,B2B,4
+Supply Chain,AI,4
+AI,Robotic Process Automation,4
+Artificial Intelligence,Conversational AI,4
+B2B,Fintech,4
+AI,Video,4
+Media,AI,4
+Web Development,Artificial Intelligence,4
+SaaS,Manufacturing,4
+Education,AI,4
+Developer Tools,Web Development,4
+SaaS,Enterprise Software,4
+B2B,Computer Vision,4
+Recruiting,Artificial Intelligence,4
+Generative AI,Infrastructure,4
+Sales,AI,4
+Fintech,Workflow Automation,4
+Payments,AI,4
+Payments,Artificial Intelligence,4
+B2B,Productivity,4
+DevOps,Artificial Intelligence,4
+Artificial Intelligence,Biotech,4
+Security,Artificial Intelligence,4
+Enterprise,Sales,4
+SaaS,Fintech,4
+Developer Tools,Analytics,4
+Fintech,Automation,4
+Artificial Intelligence,Enterprise,4
+Developer Tools,Healthcare,4
+Artificial Intelligence,Health Insurance,4
+Artificial Intelligence,Operations,4
+AI,Computer Vision,4
+Artificial Intelligence,Computer Vision,4
+AI,Legal,4
+Deep Learning,AI,4
+Computer Vision,Infrastructure,4
+Marketplace,AI Assistant,4
+Artificial Intelligence,Cybersecurity,4
+Health Tech,Artificial Intelligence,4
+Data Visualization,Artificial Intelligence,4
+Artificial Intelligence,Advertising,4
+Climate,AI,4
+Artificial Intelligence,API,4
+Workflow Automation,AI,4
+Generative AI,Productivity,4
+AI,Energy,4
+Artificial Intelligence,Construction,4
+Sales,Enterprise Software,4
+Artificial Intelligence,Reinforcement Learning,4
+Developer Tools,Reinforcement Learning,4
+AI,Analytics,4
+Reinforcement Learning,Artificial Intelligence,4
+Manufacturing,AI,4
+SaaS,Reinforcement Learning,4
+B2B,SaaS,4
+Developer Tools,Data Labeling,4
+Artificial Intelligence,DevOps,3
+Mental Health,Artificial Intelligence,3
+Developer Tools,Sales,3
+Developer Tools,Generative AI,3
+Developer Tools,Productivity,3
+AI,Customer Service,3
+Procurement,Artificial Intelligence,3
+Cloud Computing,Artificial Intelligence,3
+Productivity,SaaS,3
+Enterprise,Developer Tools,3
+Design Tools,AI,3
+SaaS,Marketing,3
+Productivity,AI Assistant,3
+API,Conversational AI,3
+Developer Tools,Manufacturing,3
+Developer Tools,Operations,3
+AI Assistant,Conversational AI,3
+AI Assistant,SaaS,3
+Developer Tools,Conversational AI,3
+AI,Data Visualization,3
+Infrastructure,Data Engineering,3
+SaaS,Data Engineering,3
+Artificial Intelligence,Gaming,3
+B2B,Social,3
+Sales,Developer Tools,3
+Finance,SaaS,3
+Open Source,SaaS,3
+Computer Vision,Automation,3
+Open Source,Automation,3
+Analytics,Fintech,3
+Artificial Intelligence,Manufacturing,3
+AI,Compliance,3
+AIOps,DevOps,3
+Robotic Process Automation,Hard Tech,3
+Logistics,AI,3
+AIOps,Robotic Process Automation,3
+Productivity,Fintech,3
+Construction,AI,3
+Analytics,Marketing,3
+Analytics,Sales,3
+AI Assistant,Sales Enablement,3
+Customer Success,Sales,3
+Artificial Intelligence,Digital Health,3
+Artificial Intelligence,Health Tech,3
+AI,Insurance,3
+E-commerce,API,3
+Fintech,Sales,3
+Robotic Process Automation,Artificial Intelligence,3
+HR Tech,AI,3
+B2B,Video,3
+Developer Tools,Legal,3
+Developer Tools,LegalTech,3
+B2B,Manufacturing,3
+Operations,Artificial Intelligence,3
+Supply Chain,Artificial Intelligence,3
+Fintech,Marketing,3
+Artificial Intelligence,Customer Success,3
+Artificial Intelligence,Customer Support,3
+Developer Tools,Customer Success,3
+API,Data Science,3
+Artificial Intelligence,Data Science,3
+B2B,Machine Learning,3
+Generative AI,Data Engineering,3
+Artificial Intelligence,Investing,3
+AI Assistant,Marketing,3
+Consumer,SaaS,3
+Productivity,Marketing,3
+Developer Tools,Enterprise,3
+Data Science,Artificial Intelligence,3
+Market Research,Artificial Intelligence,3
+Developer Tools,Machine Learning,3
+AI Assistant,API,3
+B2B,API,3
+SaaS,API,3
+Sales,API,3

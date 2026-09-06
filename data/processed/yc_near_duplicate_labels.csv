@@ -1,0 +1,19 @@
+rule,labels
+same after lowercasing/punctuation/plural,API | APIs
+same after lowercasing/punctuation/plural,Chatbot | Chatbots
+same after lowercasing/punctuation/plural,E-Commerce | E-commerce
+"overlapping meaning by name (listed, not merged)",AI | Artificial Intelligence
+"overlapping meaning by name (listed, not merged)",Biotech | Biotechnology
+"overlapping meaning by name (listed, not merged)",Climate | ClimateTech
+"overlapping meaning by name (listed, not merged)",Cultivated Meat | Cultured Meat
+"overlapping meaning by name (listed, not merged)",Cultivated Meat | Clean Meat
+"overlapping meaning by name (listed, not merged)",Crypto / Web3 | Cryptocurrency
+"overlapping meaning by name (listed, not merged)",Chatbot | Chatbots
+"overlapping meaning by name (listed, not merged)",API | APIs
+"overlapping meaning by name (listed, not merged)",Machine Learning | ML
+"overlapping meaning by name (listed, not merged)",SaaS | Enterprise Software
+"overlapping meaning by name (listed, not merged)",Health Tech | Healthcare
+"overlapping meaning by name (listed, not merged)",Edtech | Education
+"overlapping meaning by name (listed, not merged)",Proptech | Real Estate
+"overlapping meaning by name (listed, not merged)",Conversational AI | Chatbot
+"overlapping meaning by name (listed, not merged)",AI Assistant | AI

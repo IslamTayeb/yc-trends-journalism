@@ -101,3 +101,10 @@ STANDALONE_INDUSTRIES:
 
 OUT_DIR: data/processed
 FIG_DIR: figures
+
+# Tag coverage: a batch where more than this % of companies have zero tags is flagged "low tag coverage";
+# it stays in all matrices but is excluded from tag rankings / latest-share / emergence statistics.
+TAG_COVERAGE_MAX_ZERO_TAG_PCT: 50
+
+# Batches with fewer companies than this are omitted from charts only (kept in every table)
+MIN_PLOT_BATCH: 5

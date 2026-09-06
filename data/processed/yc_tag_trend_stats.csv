@@ -1,304 +1,304 @@
-tag,total_companies,first_observed_batch,latest_observed_batch,n_batches_present,peak_batch,peak_count,peak_share_pct,earliest_year,earliest_year_count,earliest_year_share_pct,earliest_batch_share_pct,latest_full_batch,latest_count,latest_share_pct,count_change,count_change_vs_earliest_year_avg,pp_change,rolling3_latest_share_pct,mean_share_full_batches_pct,newly_appearing,peaked_then_declined,early_share_pct,late_share_pct,median_share_pct,cv_share,emergence_class,rank_latest,rank_earliest_year,rank_change
-Artificial Intelligence,844,Winter 2021,Fall 2026,17,Winter 2024,93,37.5,2021,87,11.967,11.905,Summer 2026,87,37.021,47,43.5,25.054,18.76,24.034,False,False,11.962,22.613,26.934,0.411,Low-volume / mixed,1,4,3
-AI,778,Winter 2021,Fall 2026,17,Fall 2024,34,36.17,2021,66,9.078,8.333,Summer 2026,74,31.489,46,41.0,22.411,15.231,22.857,False,False,9.026,19.078,25.602,0.443,Emerging,2,6,4
-B2B,868,Winter 2021,Winter 2027,18,Summer 2022,89,38.034,2021,180,24.759,23.214,Summer 2026,53,22.553,-25,-37.0,-2.206,11.241,22.292,False,False,24.651,14.097,23.099,0.366,Low-volume / mixed,3,2,-1
-Robotics,104,Winter 2021,Fall 2026,16,Summer 2026,28,11.915,2021,12,1.651,2.679,Summer 2026,28,11.915,19,22.0,10.264,5.329,2.996,False,False,1.723,7.239,2.492,0.967,Emerging,4,35,31
-Hard Tech,104,Winter 2021,Fall 2026,17,Summer 2026,25,10.638,2021,20,2.751,3.274,Summer 2026,25,10.638,14,15.0,7.887,4.732,2.656,False,False,2.788,6.345,2.176,0.891,Emerging,5,19,14
-SaaS,709,Winter 2021,Fall 2026,17,Winter 2023,86,31.387,2021,214,29.436,27.976,Summer 2026,24,10.213,-70,-83.0,-19.223,5.268,16.873,False,True,29.334,6.645,15.896,0.558,Declining,6,1,-5
-Developer Tools,402,Winter 2021,Fall 2026,17,Fall 2024,18,19.149,2021,67,9.216,10.119,Summer 2026,23,9.787,-11,-10.5,0.571,5.468,11.113,False,False,9.279,6.945,10.188,0.382,Low-volume / mixed,7,5,-2
-Hardware,90,Winter 2021,Fall 2026,16,Summer 2026,20,8.511,2021,12,1.651,1.786,Summer 2026,20,8.511,14,14.0,6.86,3.852,2.45,False,False,1.66,5.024,1.662,0.858,Emerging,8,35,27
-Infrastructure,127,Winter 2021,Fall 2026,17,Summer 2026,19,8.085,2021,10,1.376,2.083,Summer 2026,19,8.085,12,14.0,6.709,4.38,3.733,False,False,1.425,4.812,3.566,0.554,Emerging,9,42,33
-Manufacturing,79,Winter 2021,Fall 2026,16,Summer 2026,16,6.809,2021,6,0.825,0.595,Summer 2026,16,6.809,14,13.0,5.984,2.441,2.288,False,False,0.809,3.661,1.914,0.833,Emerging,10,65,55
-Enterprise Software,112,Winter 2021,Summer 2026,16,Summer 2026,14,5.957,2021,8,1.1,1.19,Summer 2026,14,5.957,10,10.0,4.857,3.678,3.314,False,False,1.107,4.261,2.742,0.477,Emerging,11,51,40
-Fintech,432,Winter 2021,Fall 2026,17,Winter 2022,92,23.116,2021,139,19.12,17.262,Summer 2026,14,5.957,-44,-55.5,-13.163,3.339,9.432,False,True,18.989,4.004,6.741,0.779,Declining,11,3,-8
-Reinforcement Learning,41,Winter 2023,Summer 2026,10,Summer 2026,14,5.957,2021,0,0.0,0.0,Summer 2026,14,5.957,14,14.0,5.957,2.656,1.359,True,False,0.0,2.978,0.897,1.183,Emerging,11,231,220
-Machine Learning,147,Winter 2021,Summer 2026,15,Fall 2024,6,6.383,2021,30,4.127,2.976,Summer 2026,12,5.106,2,-3.0,0.979,2.205,3.881,False,False,4.046,2.553,4.206,0.436,Low-volume / mixed,14,12,-2
-Workflow Automation,68,Winter 2021,Winter 2027,15,Summer 2026,11,4.681,2021,5,0.688,0.893,Summer 2026,11,4.681,8,8.5,3.993,1.56,1.924,False,False,0.703,2.341,2.091,0.719,Low-volume / mixed,15,75,60
-Finance,79,Winter 2021,Fall 2026,17,Summer 2026,11,4.681,2021,8,1.1,0.893,Summer 2026,11,4.681,8,7.0,3.581,2.066,2.184,False,False,1.086,2.597,1.649,0.63,Low-volume / mixed,15,51,36
-Automation,80,Winter 2021,Fall 2026,17,Summer 2026,11,4.681,2021,5,0.688,1.19,Summer 2026,11,4.681,7,8.5,3.993,2.405,2.417,False,False,0.723,2.853,2.575,0.573,Emerging,15,75,60
-Healthcare,143,Winter 2021,Summer 2026,16,Summer 2023,20,9.091,2021,25,3.439,3.274,Summer 2026,11,4.681,0,-1.5,1.242,1.899,3.788,False,False,3.428,2.597,3.622,0.543,Low-volume / mixed,15,14,-1
-Generative AI,227,Winter 2021,Summer 2026,15,Winter 2023,49,17.883,2021,19,2.613,1.488,Summer 2026,10,4.255,5,0.5,1.642,1.753,6.2,False,True,2.534,2.127,5.21,0.762,Spiky,19,23,4
-Biotech,93,Winter 2021,Summer 2026,16,Summer 2024,11,4.435,2021,20,2.751,1.488,Summer 2026,9,3.83,4,-1.0,1.079,1.786,2.378,False,False,2.662,2.428,2.274,0.444,Low-volume / mixed,20,19,-1
-Industrial,31,Summer 2021,Summer 2026,9,Summer 2026,9,3.83,2021,1,0.138,0.0,Summer 2026,9,3.83,9,8.5,3.692,1.277,0.977,True,False,0.128,1.915,0.254,1.223,Spiky,20,185,165
-Energy,40,Winter 2021,Fall 2026,14,Summer 2026,9,3.83,2021,7,0.963,1.488,Summer 2026,9,3.83,4,5.5,2.867,1.444,1.026,False,False,1.0,1.915,0.852,0.926,Spiky,20,58,38
-Data Engineering,75,Winter 2021,Summer 2026,15,Summer 2026,8,3.404,2021,15,2.063,1.786,Summer 2026,8,3.404,2,0.5,1.341,1.805,1.894,False,False,2.044,1.702,2.013,0.449,Low-volume / mixed,23,27,4
-Supply Chain,62,Winter 2021,Summer 2026,14,Summer 2025,7,4.217,2021,10,1.376,1.786,Summer 2026,8,3.404,2,3.0,2.028,1.302,1.643,False,False,1.405,1.702,1.454,0.768,Low-volume / mixed,23,42,19
-Investing,41,Winter 2021,Summer 2026,15,Summer 2026,8,3.404,2021,6,0.825,0.298,Summer 2026,8,3.404,7,5.0,2.579,1.306,1.051,False,False,0.788,1.958,0.96,0.725,Spiky,23,65,42
-Construction,51,Winter 2021,Summer 2026,14,Summer 2026,8,3.404,2021,9,1.238,1.488,Summer 2026,8,3.404,3,3.5,2.166,1.637,1.323,False,False,1.256,1.702,1.385,0.685,Low-volume / mixed,23,46,23
-Defense,25,Winter 2021,Summer 2026,11,Summer 2026,8,3.404,2021,4,0.55,0.298,Summer 2026,8,3.404,7,6.0,2.854,1.644,0.765,False,False,0.532,2.215,0.453,1.231,Spiky,23,97,74
-Open Source,127,Winter 2021,Summer 2026,14,Winter 2023,21,7.664,2021,21,2.889,3.869,Summer 2026,8,3.404,-5,-2.5,0.515,1.477,3.273,False,True,2.958,2.215,3.45,0.598,Low-volume / mixed,23,16,-7
-Logistics,77,Winter 2021,Summer 2026,15,Summer 2022,8,3.419,2021,13,1.788,2.976,Summer 2026,7,2.979,-3,0.5,1.191,1.496,1.991,False,False,1.871,1.49,1.962,0.479,Low-volume / mixed,29,32,3
-Semiconductors,19,Summer 2023,Fall 2026,9,Summer 2026,7,2.979,2021,0,0.0,0.0,Summer 2026,7,2.979,7,7.0,2.979,1.332,0.514,True,False,0.0,1.746,0.202,1.508,Spiky,29,231,202
-Insurance,58,Winter 2021,Winter 2027,17,Summer 2026,6,2.553,2021,8,1.1,1.488,Summer 2026,6,2.553,1,2.0,1.453,1.361,1.406,False,False,1.127,1.789,1.302,0.498,Low-volume / mixed,31,51,20
-AIOps,57,Winter 2021,Fall 2026,16,Summer 2024,10,4.032,2021,5,0.688,0.595,Summer 2026,6,2.553,4,3.5,1.865,1.186,1.511,False,False,0.681,1.276,1.16,0.69,Spiky,31,75,44
-Security,59,Winter 2021,Summer 2026,14,Spring 2025,4,2.797,2021,12,1.651,1.488,Summer 2026,6,2.553,1,0.0,0.902,1.022,1.504,False,False,1.639,1.533,1.474,0.543,Low-volume / mixed,31,35,4
-Enterprise,83,Winter 2021,Summer 2026,16,Winter 2023,15,5.474,2021,8,1.1,1.19,Summer 2026,6,2.553,2,2.0,1.453,1.361,2.245,False,True,1.107,1.789,1.937,0.597,Low-volume / mixed,31,51,20
-Cybersecurity,34,Winter 2021,Summer 2026,14,Fall 2025,4,2.74,2021,4,0.55,0.298,Summer 2026,6,2.553,5,4.0,2.003,1.019,1.058,False,False,0.532,1.276,0.935,0.748,Low-volume / mixed,31,97,66
-Consumer,197,Winter 2021,Fall 2026,17,Winter 2022,39,9.799,2021,26,3.576,4.167,Summer 2026,6,2.553,-8,-7.0,-1.023,2.215,5.285,False,True,3.618,3.071,4.901,0.454,Low-volume / mixed,31,13,-18
-Marketplace,125,Winter 2021,Summer 2026,14,Summer 2021,33,8.44,2021,53,7.29,5.952,Summer 2026,6,2.553,-14,-20.5,-4.737,0.851,2.585,False,True,7.196,1.276,1.768,1.005,Declining,31,7,-24
-AI Assistant,143,Winter 2021,Fall 2026,17,Winter 2024,20,8.065,2021,14,1.926,1.488,Summer 2026,5,2.128,0,-2.0,0.202,1.561,4.033,False,True,1.895,2.09,3.73,0.512,Low-volume / mixed,38,30,-8
-Aerospace,39,Winter 2021,Fall 2026,15,Fall 2024,3,3.191,2021,5,0.688,0.595,Summer 2026,5,2.128,3,2.5,1.44,1.051,1.199,False,False,0.681,1.577,0.968,0.785,Spiky,38,75,37
-Drones,18,Summer 2021,Fall 2026,12,Summer 2026,5,2.128,2021,2,0.275,0.0,Summer 2026,5,2.128,5,4.0,1.853,1.215,0.456,True,False,0.256,1.321,0.403,1.134,Spiky,38,143,105
-Deep Learning,24,Winter 2021,Fall 2026,12,Summer 2026,5,2.128,2021,5,0.688,1.488,Summer 2026,5,2.128,0,2.5,1.44,1.215,0.607,False,False,0.744,1.321,0.47,0.972,Spiky,38,75,37
-Health Tech,97,Winter 2021,Summer 2026,13,Summer 2023,12,5.455,2021,17,2.338,2.381,Summer 2026,5,2.128,-3,-3.5,-0.21,0.709,2.66,False,True,2.341,1.064,2.419,0.603,Low-volume / mixed,38,25,-13
-Robotic Process Automation,27,Winter 2021,Summer 2026,14,Summer 2026,4,1.702,2021,5,0.688,1.19,Summer 2026,4,1.702,0,1.5,1.014,0.906,0.735,False,False,0.723,1.107,0.692,0.651,Low-volume / mixed,43,75,32
-Sales,99,Winter 2021,Summer 2026,14,Summer 2022,13,5.556,2021,12,1.651,1.488,Summer 2026,4,1.702,-1,-2.0,0.051,0.567,2.667,False,True,1.639,0.851,1.968,0.645,Low-volume / mixed,43,35,-8
-Real Estate,48,Winter 2021,Summer 2026,15,Summer 2022,8,3.419,2021,6,0.825,1.19,Summer 2026,4,1.702,0,1.0,0.877,0.735,1.218,False,True,0.851,0.851,1.127,0.665,Spiky,43,65,22
-Cloud Computing,38,Winter 2021,Fall 2026,14,Summer 2024,6,2.419,2021,3,0.413,0.595,Summer 2026,4,1.702,2,2.5,1.289,0.738,0.964,False,False,0.425,1.107,0.831,0.777,Low-volume / mixed,43,111,68
-Health & Wellness,31,Winter 2021,Fall 2026,11,Summer 2021,10,2.558,2021,12,1.651,0.595,Summer 2026,4,1.702,2,-2.0,0.051,0.738,0.75,False,False,1.576,1.107,0.554,1.053,Spiky,43,35,-8
-Data Labeling,18,Summer 2021,Summer 2026,10,Spring 2025,3,2.098,2021,1,0.138,0.0,Summer 2026,4,1.702,4,3.5,1.564,0.735,0.529,True,False,0.128,0.851,0.479,1.134,Spiky,43,185,142
-Trading,16,Winter 2021,Summer 2026,10,Summer 2026,4,1.702,2021,3,0.413,0.298,Summer 2026,4,1.702,3,2.5,1.289,1.077,0.455,False,False,0.405,1.364,0.434,1.046,Low-volume / mixed,43,111,68
-Gaming,38,Winter 2021,Summer 2026,12,Winter 2022,9,2.261,2021,7,0.963,1.488,Summer 2026,4,1.702,-1,0.5,0.739,0.909,0.903,False,False,1.0,1.364,0.82,0.803,Low-volume / mixed,43,58,15
-GovTech,33,Winter 2021,Fall 2026,14,Winter 2025,5,3.012,2021,6,0.825,0.595,Summer 2026,4,1.702,2,1.0,0.877,0.738,0.878,False,False,0.809,1.107,0.78,0.818,Spiky,43,65,22
-Computer Vision,45,Winter 2021,Summer 2026,14,Fall 2025,3,2.055,2021,9,1.238,1.19,Summer 2026,4,1.702,0,-0.5,0.464,1.07,1.235,False,False,1.234,0.851,1.323,0.501,Low-volume / mixed,43,46,3
-Productivity,115,Winter 2021,Fall 2026,16,Summer 2022,14,5.983,2021,20,2.751,2.381,Summer 2026,3,1.277,-5,-7.0,-1.474,0.938,3.012,False,True,2.725,1.407,2.878,0.524,Low-volume / mixed,53,19,-34
-Market Research,16,Winter 2021,Summer 2026,12,Summer 2026,3,1.277,2021,3,0.413,0.298,Summer 2026,3,1.277,2,1.5,0.864,0.426,0.489,False,False,0.405,0.638,0.429,0.831,Low-volume / mixed,53,111,58
-Personalization,5,Winter 2024,Summer 2026,3,Summer 2026,3,1.277,2021,0,0.0,0.0,Summer 2026,3,1.277,3,3.0,1.277,0.426,0.143,True,False,0.0,0.638,0.0,2.371,Low-volume / mixed,53,231,178
-Home Services,14,Winter 2021,Summer 2026,11,Summer 2026,3,1.277,2021,1,0.138,0.298,Summer 2026,3,1.277,2,2.5,1.139,0.597,0.397,False,False,0.149,0.895,0.384,0.889,Low-volume / mixed,53,185,132
-LegalTech,39,Winter 2021,Summer 2026,14,Summer 2024,7,2.823,2021,6,0.825,1.19,Summer 2026,3,1.277,-1,0.0,0.452,0.426,1.1,False,True,0.851,0.638,0.987,0.708,Low-volume / mixed,53,65,12
-Crypto / Web3,63,Winter 2021,Summer 2026,14,Summer 2022,13,5.556,2021,16,2.201,2.083,Summer 2026,3,1.277,-4,-5.0,-0.924,0.597,1.425,False,True,2.192,0.895,0.935,1.021,Spiky,53,26,-27
-Data Science,24,Summer 2021,Summer 2026,10,Summer 2023,5,2.273,2021,1,0.138,0.0,Summer 2026,3,1.277,3,2.5,1.139,0.426,0.678,True,False,0.128,0.638,0.31,1.085,Spiky,53,185,132
-Big Data,21,Summer 2021,Summer 2026,12,Fall 2024,2,2.128,2021,3,0.413,0.0,Summer 2026,3,1.277,3,1.5,0.864,0.597,0.694,True,False,0.384,0.895,0.65,0.829,Spiky,53,111,58
-Swarm Robotics,4,Summer 2024,Summer 2026,2,Summer 2026,3,1.277,2021,0,0.0,0.0,Summer 2026,3,1.277,3,3.0,1.277,0.426,0.105,False,False,0.0,0.638,0.0,3.027,Low-volume / mixed,53,231,178
-Analytics,113,Winter 2021,Summer 2026,15,Winter 2023,15,5.474,2021,21,2.889,2.679,Summer 2026,3,1.277,-6,-7.5,-1.612,0.593,2.83,False,True,2.874,0.638,3.04,0.553,Declining,53,16,-37
-API,99,Winter 2021,Summer 2026,16,Summer 2022,14,5.983,2021,15,2.063,2.381,Summer 2026,3,1.277,-5,-4.5,-0.786,0.932,2.524,False,True,2.085,0.895,2.085,0.643,Low-volume / mixed,53,27,-26
-AI-Enhanced Learning,38,Winter 2021,Fall 2026,15,Winter 2025,4,2.41,2021,7,0.963,0.595,Summer 2026,2,0.851,0,-1.5,-0.112,0.284,0.992,False,False,0.937,0.425,0.928,0.647,Low-volume / mixed,64,58,-6
-AI-powered Drug Discovery,20,Winter 2021,Summer 2026,10,Summer 2021,7,1.79,2021,8,1.1,0.298,Summer 2026,2,0.851,1,-2.0,-0.249,0.284,0.451,False,True,1.044,0.425,0.351,1.11,Low-volume / mixed,64,51,-13
-Agriculture,14,Winter 2021,Summer 2026,10,Summer 2025,2,1.205,2021,2,0.275,0.298,Summer 2026,2,0.851,1,1.0,0.576,0.451,0.357,False,False,0.277,0.425,0.351,0.992,Low-volume / mixed,64,143,79
-Advanced Materials,4,Summer 2025,Fall 2026,3,Summer 2026,2,0.851,2021,0,0.0,0.0,Summer 2026,2,0.851,2,2.0,0.851,0.284,0.091,False,False,0.0,0.425,0.0,2.69,Low-volume / mixed,64,231,167
-Space Exploration,13,Winter 2021,Fall 2026,8,Summer 2021,4,1.023,2021,6,0.825,0.595,Summer 2026,2,0.851,0,-1.0,0.026,0.284,0.259,False,False,0.809,0.425,0.0,1.299,Low-volume / mixed,64,65,1
-Stocks,5,Summer 2021,Summer 2026,3,Summer 2026,2,0.851,2021,2,0.275,0.0,Summer 2026,2,0.851,2,1.0,0.576,0.455,0.117,True,False,0.256,0.682,0.0,2.163,Low-volume / mixed,64,143,79
-Sustainability,6,Summer 2021,Summer 2026,3,Summer 2026,2,0.851,2021,3,0.413,0.0,Summer 2026,2,0.851,2,0.5,0.438,0.284,0.126,True,False,0.384,0.425,0.0,2.186,Low-volume / mixed,64,111,47
-Synthetic Biology,23,Summer 2021,Summer 2026,9,Summer 2024,5,2.016,2021,4,0.55,0.0,Summer 2026,2,0.851,2,0.0,0.301,0.284,0.542,True,True,0.511,0.425,0.479,1.091,Spiky,64,97,33
-Entertainment,26,Winter 2021,Summer 2026,11,Winter 2022,7,1.759,2021,3,0.413,0.298,Summer 2026,2,0.851,1,0.5,0.438,0.284,0.617,False,True,0.405,0.425,0.557,0.915,Low-volume / mixed,64,111,47
-Creator Economy,25,Winter 2021,Summer 2026,12,Summer 2022,4,1.709,2021,5,0.688,0.298,Summer 2026,2,0.851,1,-0.5,0.163,0.284,0.629,False,False,0.66,0.425,0.602,0.803,Low-volume / mixed,64,75,11
-Consumer Finance,29,Winter 2021,Summer 2026,15,Fall 2025,3,2.055,2021,5,0.688,0.595,Summer 2026,2,0.851,0,-0.5,0.163,0.626,0.846,False,False,0.681,0.939,0.733,0.599,Low-volume / mixed,64,75,11
-Consumer Health Services,67,Winter 2021,Summer 2026,11,Summer 2021,21,5.371,2021,34,4.677,3.869,Summer 2026,2,0.851,-11,-15.0,-3.826,0.284,1.413,False,True,4.62,0.425,0.96,1.074,Declining,64,9,-55
-Conversational AI,41,Winter 2021,Summer 2026,13,Winter 2025,6,3.614,2021,3,0.413,0.595,Summer 2026,2,0.851,0,0.5,0.438,0.284,1.214,False,True,0.425,0.425,0.853,0.899,Spiky,64,111,47
-Education,71,Winter 2021,Summer 2026,14,Summer 2021,18,4.604,2021,32,4.402,4.167,Summer 2026,2,0.851,-12,-14.0,-3.551,0.284,1.697,False,True,4.386,0.425,1.246,0.759,Declining,64,10,-54
-E-commerce,108,Winter 2021,Summer 2026,14,Summer 2021,25,6.394,2021,44,6.052,5.655,Summer 2026,2,0.851,-17,-20.0,-5.201,0.626,2.328,False,True,6.024,0.939,1.63,0.872,Declining,64,8,-56
-Digital Health,77,Winter 2021,Summer 2026,15,Winter 2022,14,3.518,2021,21,2.889,2.976,Summer 2026,2,0.851,-8,-8.5,-2.038,0.622,1.937,False,True,2.894,0.682,2.487,0.599,Declining,64,16,-48
-DevOps,30,Summer 2021,Fall 2026,13,Fall 2024,3,3.191,2021,3,0.413,0.0,Summer 2026,2,0.851,2,0.5,0.438,0.284,0.874,True,False,0.384,0.425,0.733,0.927,Spiky,64,111,47
-Design,21,Winter 2021,Summer 2026,11,Fall 2025,4,2.74,2021,2,0.275,0.298,Summer 2026,2,0.851,1,1.0,0.576,0.284,0.75,False,False,0.277,0.425,0.351,1.116,Spiky,64,143,79
-Procurement,10,Winter 2021,Summer 2026,8,Fall 2024,1,1.064,2021,3,0.413,0.595,Summer 2026,2,0.851,0,0.5,0.438,0.284,0.289,False,False,0.425,0.425,0.128,1.169,Low-volume / mixed,64,111,47
-ClimateTech,23,Winter 2021,Summer 2026,10,Winter 2023,4,1.46,2021,5,0.688,0.595,Summer 2026,2,0.851,0,-0.5,0.163,0.284,0.538,False,False,0.681,0.425,0.599,0.881,Low-volume / mixed,64,75,11
-Sales Enablement,33,Winter 2021,Summer 2026,13,Winter 2025,4,2.41,2021,5,0.688,0.298,Summer 2026,2,0.851,1,-0.5,0.163,0.455,0.849,False,False,0.66,0.682,0.88,0.751,Low-volume / mixed,64,75,11
-Restaurant Tech,9,Winter 2021,Summer 2026,8,Summer 2026,2,0.851,2021,2,0.275,0.298,Summer 2026,2,0.851,1,1.0,0.576,0.284,0.245,False,False,0.277,0.425,0.128,1.145,Low-volume / mixed,64,143,79
-Renewable Energy,13,Winter 2021,Summer 2026,11,Summer 2026,2,0.851,2021,2,0.275,0.298,Summer 2026,2,0.851,1,1.0,0.576,0.451,0.324,False,False,0.277,0.425,0.351,0.82,Low-volume / mixed,64,143,79
-Recruiting,32,Winter 2021,Fall 2026,13,Winter 2021,7,2.083,2021,13,1.788,2.083,Summer 2026,2,0.851,-5,-4.5,-0.937,0.455,0.792,False,True,1.809,0.682,0.746,0.797,Low-volume / mixed,64,32,-32
-Biotechnology,11,Summer 2021,Summer 2026,9,Summer 2026,2,0.851,2021,2,0.275,0.0,Summer 2026,2,0.851,2,1.0,0.576,0.451,0.302,True,False,0.256,0.425,0.327,0.971,Low-volume / mixed,64,143,79
-Oncology,15,Winter 2021,Summer 2026,8,Winter 2024,4,1.613,2021,2,0.275,0.298,Summer 2026,2,0.851,1,1.0,0.576,0.284,0.355,False,False,0.277,0.425,0.126,1.383,Low-volume / mixed,64,143,79
-Monitoring,11,Winter 2021,Summer 2026,8,Summer 2026,2,0.851,2021,1,0.138,0.298,Summer 2026,2,0.851,1,1.5,0.713,0.284,0.308,False,False,0.149,0.425,0.149,1.091,Low-volume / mixed,64,185,121
-Marketing,76,Winter 2021,Summer 2026,16,Summer 2023,10,4.545,2021,8,1.1,1.19,Summer 2026,2,0.851,-2,-2.0,-0.249,0.961,2.087,False,True,1.107,0.939,2.072,0.485,Low-volume / mixed,64,51,-13
-Legal,31,Winter 2021,Fall 2026,13,Winter 2025,5,3.012,2021,2,0.275,0.595,Summer 2026,2,0.851,0,1.0,0.576,0.284,0.929,False,True,0.297,0.425,0.723,0.917,Spiky,64,143,79
-ML,18,Summer 2021,Summer 2026,10,Spring 2025,3,2.098,2021,2,0.275,0.0,Summer 2026,2,0.851,2,1.0,0.576,0.622,0.499,True,False,0.256,0.682,0.465,1.124,Spiky,64,143,79
-Healthcare IT,33,Winter 2021,Summer 2026,15,Summer 2023,9,4.091,2021,5,0.688,1.19,Summer 2026,2,0.851,-2,-0.5,0.163,0.455,1.002,False,True,0.723,0.682,0.775,0.946,Spiky,64,75,11
-Health Insurance,18,Winter 2021,Summer 2026,9,Summer 2023,5,2.273,2021,4,0.55,0.298,Summer 2026,2,0.851,1,0.0,0.301,0.284,0.481,False,True,0.532,0.425,0.351,1.269,Spiky,64,97,33
-Time Series,1,Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.027,False,False,0.0,0.213,0.0,3.873,Low-volume / mixed,96,231,135
-Exascale Computing,1,Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.027,False,False,0.0,0.213,0.0,3.873,Low-volume / mixed,96,231,135
-Telehealth,19,Winter 2021,Summer 2026,10,Summer 2022,3,1.282,2021,7,0.963,0.595,Summer 2026,1,0.426,-1,-2.5,-0.537,0.142,0.434,False,False,0.937,0.213,0.414,0.969,Low-volume / mixed,96,58,-38
-Therapeutics,31,Winter 2021,Summer 2026,11,Summer 2022,7,2.991,2021,7,0.963,0.298,Summer 2026,1,0.426,0,-2.5,-0.537,0.313,0.711,False,True,0.916,0.47,0.484,1.143,Spiky,96,58,-38
-Consumer Products,8,Summer 2021,Summer 2026,7,Spring 2025,1,0.699,2021,2,0.275,0.0,Summer 2026,1,0.426,1,0.0,0.151,0.142,0.221,True,False,0.256,0.213,0.0,1.226,Low-volume / mixed,96,143,47
-Edge Computing Semiconductors,3,Summer 2024,Summer 2026,3,Summer 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.089,False,False,0.0,0.213,0.0,2.126,Low-volume / mixed,96,231,135
-Telecommunications,16,Winter 2021,Summer 2026,10,Winter 2024,3,1.21,2021,5,0.688,0.893,Summer 2026,1,0.426,-2,-1.5,-0.262,0.313,0.442,False,False,0.703,0.47,0.426,0.972,Low-volume / mixed,96,75,-21
-Self-Driving Vehicles,2,Winter 2021,Summer 2026,2,Summer 2026,1,0.426,2021,1,0.138,0.298,Summer 2026,1,0.426,0,0.5,0.288,0.142,0.045,False,False,0.149,0.213,0.0,2.693,Low-volume / mixed,96,185,89
-Genomics,7,Summer 2021,Summer 2026,4,Summer 2021,3,0.767,2021,3,0.413,0.0,Summer 2026,1,0.426,1,-0.5,0.013,0.142,0.149,True,False,0.384,0.213,0.0,1.792,Low-volume / mixed,96,111,15
-Digital Freight Brokerage,1,Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.027,False,False,0.0,0.213,0.0,3.873,Low-volume / mixed,96,231,135
-Customer Success,24,Winter 2021,Summer 2026,11,Winter 2023,7,2.555,2021,4,0.55,0.595,Summer 2026,1,0.426,-1,-1.0,-0.124,0.142,0.637,False,True,0.553,0.213,0.47,1.117,Spiky,96,97,1
-Customer Support,27,Winter 2021,Summer 2026,11,Winter 2023,7,2.555,2021,2,0.275,0.595,Summer 2026,1,0.426,-1,0.0,0.151,0.142,0.728,False,True,0.297,0.213,0.726,0.938,Spiky,96,143,47
-Geographic Information System,5,Summer 2021,Summer 2026,4,Summer 2025,1,0.602,2021,2,0.275,0.0,Summer 2026,1,0.426,1,0.0,0.151,0.142,0.123,True,False,0.256,0.213,0.0,1.757,Low-volume / mixed,96,143,47
-Design Tools,30,Winter 2021,Summer 2026,13,Fall 2024,3,3.191,2021,9,1.238,2.083,Summer 2026,1,0.426,-6,-3.5,-0.812,0.142,0.864,False,False,1.298,0.213,0.65,0.936,Spiky,96,46,-50
-Customer Service,14,Winter 2021,Summer 2026,10,Fall 2024,1,1.064,2021,2,0.275,0.595,Summer 2026,1,0.426,-1,0.0,0.151,0.142,0.387,False,False,0.297,0.213,0.441,0.869,Low-volume / mixed,96,143,47
-Databases,18,Winter 2021,Summer 2026,10,Summer 2023,5,2.273,2021,2,0.275,0.298,Summer 2026,1,0.426,0,0.0,0.151,0.142,0.527,False,True,0.277,0.213,0.277,1.223,Spiky,96,143,47
-eLearning,32,Winter 2021,Summer 2026,10,Winter 2021,12,3.571,2021,20,2.751,3.571,Summer 2026,1,0.426,-11,-9.0,-2.325,0.142,0.642,False,True,2.808,0.213,0.426,1.424,Declining,96,19,-77
-Satellites,19,Winter 2021,Fall 2026,11,Fall 2025,2,1.37,2021,5,0.688,1.19,Summer 2026,1,0.426,-3,-1.5,-0.262,0.142,0.43,False,False,0.723,0.213,0.384,1.013,Low-volume / mixed,96,75,-21
-HR Tech,44,Winter 2021,Fall 2026,14,Summer 2023,4,1.818,2021,12,1.651,1.488,Summer 2026,1,0.426,-4,-5.0,-1.225,0.313,1.033,False,False,1.639,0.47,1.137,0.649,Low-volume / mixed,96,35,-61
-Mental Health,4,Summer 2021,Summer 2026,3,Summer 2025,1,0.602,2021,2,0.275,0.0,Summer 2026,1,0.426,1,0.0,0.151,0.142,0.096,False,False,0.256,0.213,0.0,2.107,Low-volume / mixed,96,143,47
-Operations,36,Winter 2021,Summer 2026,15,Summer 2024,7,2.823,2021,5,0.688,0.595,Summer 2026,1,0.426,-1,-1.5,-0.262,0.645,1.04,False,True,0.681,0.213,0.684,0.721,Spiky,96,75,-21
-Housing,7,Winter 2021,Summer 2026,6,Winter 2025,1,0.602,2021,3,0.413,0.595,Summer 2026,1,0.426,-1,-0.5,0.013,0.142,0.169,False,False,0.425,0.213,0.0,1.361,Low-volume / mixed,96,111,15
-Neurotechnology,9,Winter 2021,Summer 2026,6,Winter 2022,3,0.754,2021,3,0.413,0.595,Summer 2026,1,0.426,-1,-0.5,0.013,0.142,0.19,False,False,0.425,0.213,0.0,1.393,Low-volume / mixed,96,111,15
-Careers,2,Summer 2022,Summer 2026,2,Summer 2022,1,0.427,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.053,False,False,0.0,0.213,0.0,2.646,Low-volume / mixed,96,231,135
-Regtech,17,Summer 2021,Summer 2026,11,Fall 2024,1,1.064,2021,2,0.275,0.0,Summer 2026,1,0.426,1,0.0,0.151,0.31,0.448,True,False,0.256,0.213,0.465,0.784,Low-volume / mixed,96,143,47
-eSports,1,Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.027,False,False,0.0,0.213,0.0,3.873,Low-volume / mixed,96,231,135
-SMB,9,Winter 2021,Summer 2026,7,Winter 2024,3,1.21,2021,1,0.138,0.298,Summer 2026,1,0.426,0,0.5,0.288,0.142,0.231,False,False,0.149,0.213,0.0,1.436,Low-volume / mixed,96,185,89
-Retail,21,Winter 2021,Summer 2026,10,Winter 2023,5,1.825,2021,4,0.55,0.298,Summer 2026,1,0.426,0,-1.0,-0.124,0.142,0.525,False,True,0.532,0.213,0.351,1.088,Low-volume / mixed,96,97,1
-Climate,81,Winter 2021,Summer 2026,9,Winter 2022,20,5.025,2021,32,4.402,3.869,Summer 2026,1,0.426,-12,-15.0,-3.976,0.142,1.599,False,True,4.364,0.213,0.616,1.13,Declining,96,10,-86
-Compliance,63,Winter 2021,Summer 2026,16,Fall 2025,5,3.425,2021,6,0.825,1.19,Summer 2026,1,0.426,-3,-2.0,-0.399,0.648,1.815,False,True,0.851,0.47,1.928,0.551,Low-volume / mixed,96,65,-31
-Privacy,12,Winter 2021,Summer 2026,8,Summer 2024,2,0.806,2021,3,0.413,0.595,Summer 2026,1,0.426,-1,-0.5,0.013,0.142,0.272,False,False,0.425,0.213,0.128,1.11,Low-volume / mixed,96,111,15
-Radar,1,Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.027,False,False,0.0,0.213,0.0,3.873,Low-volume / mixed,96,231,135
-Medical Devices,30,Winter 2021,Summer 2026,8,Summer 2021,12,3.069,2021,14,1.926,0.595,Summer 2026,1,0.426,-1,-6.0,-1.5,0.142,0.594,False,True,1.832,0.213,0.202,1.424,Spiky,96,30,-66
-Location-based,1,Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.027,False,False,0.0,0.213,0.0,3.873,Low-volume / mixed,96,231,135
-Electronics,10,Winter 2022,Fall 2026,7,Winter 2025,4,2.41,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.287,True,False,0.0,0.213,0.0,2.052,Spiky,96,231,135
-Drug discovery,21,Winter 2021,Summer 2026,9,Winter 2024,3,1.21,2021,5,0.688,0.893,Summer 2026,1,0.426,-2,-1.5,-0.262,0.142,0.466,False,False,0.703,0.213,0.426,1.01,Low-volume / mixed,96,75,-21
-AR,3,Winter 2021,Summer 2026,3,Winter 2025,1,0.602,2021,1,0.138,0.298,Summer 2026,1,0.426,0,0.5,0.288,0.142,0.083,False,False,0.149,0.213,0.0,2.181,Low-volume / mixed,96,185,89
-APIs,8,Winter 2021,Summer 2026,7,Spring 2025,1,0.699,2021,3,0.413,0.595,Summer 2026,1,0.426,-1,-0.5,0.013,0.313,0.224,False,False,0.425,0.47,0.0,1.217,Low-volume / mixed,96,111,15
-Airlines,3,Summer 2023,Summer 2026,3,Fall 2024,1,1.064,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.122,False,False,0.0,0.213,0.0,2.331,Low-volume / mixed,96,231,135
-Alternative Fuels,1,Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.027,False,False,0.0,0.213,0.0,3.873,Low-volume / mixed,96,231,135
-Architecture,5,Winter 2022,Summer 2026,4,Fall 2025,2,1.37,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.153,True,False,0.0,0.213,0.0,2.256,Low-volume / mixed,96,231,135
-Skincare,2,Winter 2022,Summer 2026,2,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.042,False,False,0.0,0.213,0.0,2.745,Low-volume / mixed,96,231,135
-Travel,21,Winter 2021,Summer 2026,10,Winter 2024,3,1.21,2021,5,0.688,0.893,Summer 2026,1,0.426,-2,-1.5,-0.262,0.142,0.527,False,False,0.703,0.213,0.557,0.877,Low-volume / mixed,96,75,-21
-Unmanned Vehicle,2,Summer 2022,Summer 2026,2,Summer 2022,1,0.427,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.053,False,False,0.0,0.213,0.0,2.646,Low-volume / mixed,96,231,135
-Video,44,Winter 2021,Summer 2026,12,Fall 2024,3,3.191,2021,8,1.1,1.19,Summer 2026,1,0.426,-3,-3.0,-0.674,0.142,1.265,False,False,1.107,0.213,1.2,0.824,Low-volume / mixed,96,51,-45
-Vaccines,1,Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.027,False,False,0.0,0.213,0.0,3.873,Low-volume / mixed,96,231,135
-Warehouse Management Tech,9,Winter 2021,Summer 2026,6,Winter 2021,2,0.595,2021,4,0.55,0.595,Summer 2026,1,0.426,-1,-1.0,-0.124,0.142,0.175,False,False,0.553,0.213,0.0,1.319,Low-volume / mixed,96,97,1
-Virtual Reality,9,Winter 2021,Summer 2026,5,Winter 2022,4,1.005,2021,2,0.275,0.298,Summer 2026,1,0.426,0,0.0,0.151,0.142,0.177,False,False,0.277,0.213,0.0,1.766,Low-volume / mixed,96,143,47
-Smart Waste Management,1,Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.027,False,False,0.0,0.213,0.0,3.873,Low-volume / mixed,96,231,135
-Automotive,16,Winter 2022,Summer 2026,10,Fall 2024,2,2.128,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.31,0.505,True,False,0.0,0.213,0.395,1.184,Spiky,96,231,135
-Telemedicine,17,Winter 2021,Winter 2023,4,Winter 2022,6,1.508,2021,10,1.376,1.488,Summer 2026,0,0.0,-5,-5.0,-1.376,0.0,0.29,False,True,1.383,0.0,0.0,1.911,Low-volume / mixed,146,42,-104
-Sustainable Tourism,1,Winter 2022,Winter 2022,1,Winter 2022,1,0.251,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.016,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Sports Tech,8,Winter 2021,Fall 2025,5,Fall 2025,2,1.37,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.0,0.239,False,False,0.297,0.0,0.0,1.677,Low-volume / mixed,146,143,-3
-Speech Recognition,5,Summer 2021,Summer 2025,4,Summer 2025,1,0.602,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.11,True,False,0.128,0.0,0.0,1.827,Low-volume / mixed,146,185,39
-Subscriptions,23,Winter 2021,Winter 2024,7,Winter 2021,9,2.679,2021,13,1.788,2.679,Summer 2026,0,0.0,-9,-6.5,-1.788,0.0,0.436,False,True,1.851,0.0,0.0,1.607,Spiky,146,32,-114
-Sustainable Fashion,4,Winter 2021,Summer 2022,3,Summer 2022,2,0.855,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.088,False,False,0.277,0.0,0.0,2.477,Low-volume / mixed,146,143,-3
-Solar Power,13,Summer 2021,Winter 2026,8,Summer 2022,2,0.855,2021,2,0.275,0.0,Summer 2026,0,0.0,0,-1.0,-0.275,0.168,0.298,True,False,0.256,0.0,0.202,1.068,Low-volume / mixed,146,143,-3
-Scheduling,4,Winter 2021,Winter 2026,3,Winter 2021,2,0.595,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.168,0.095,False,False,0.297,0.0,0.0,2.105,Low-volume / mixed,146,143,-3
-Talent Acquisition,2,Summer 2021,Fall 2026,2,Summer 2021,1,0.256,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.016,False,False,0.128,0.0,0.0,3.873,Low-volume / mixed,146,185,39
-Team Collaboration,6,Winter 2021,Spring 2025,5,Spring 2025,2,1.399,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.197,False,False,0.149,0.0,0.0,1.86,Low-volume / mixed,146,185,39
-Smart Home Assistants,1,Fall 2025,Fall 2025,1,Fall 2025,1,0.685,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.043,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Social,22,Winter 2021,Fall 2026,11,Winter 2022,6,1.508,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.342,0.561,False,True,0.425,0.513,0.384,0.997,Low-volume / mixed,146,111,-35
-Social Media,18,Winter 2021,Fall 2025,7,Fall 2024,3,3.191,2021,3,0.413,0.893,Summer 2026,0,0.0,-3,-1.5,-0.413,0.0,0.627,False,False,0.447,0.0,0.0,1.472,Spiky,146,111,-35
-Social Network,7,Winter 2021,Fall 2025,5,Winter 2024,3,1.21,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.197,False,False,0.277,0.0,0.0,1.777,Low-volume / mixed,146,143,-3
-Autonomous Trucking,2,Winter 2021,Winter 2021,1,Winter 2021,2,0.595,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.0,0.037,False,False,0.297,0.0,0.0,3.873,Low-volume / mixed,146,143,-3
-Autonomous Shipping,1,Spring 2025,Spring 2025,1,Spring 2025,1,0.699,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.044,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Autonomous Delivery,2,Winter 2021,Summer 2021,2,Winter 2021,1,0.298,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.035,False,False,0.277,0.0,0.0,2.654,Low-volume / mixed,146,143,-3
-Banking as a Service,12,Winter 2021,Summer 2023,5,Winter 2022,6,1.508,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.0,0.229,False,True,0.425,0.0,0.0,1.821,Low-volume / mixed,146,111,-35
-Search,18,Summer 2021,Summer 2025,8,Winter 2024,5,2.016,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.495,True,True,0.128,0.0,0.128,1.25,Spiky,146,185,39
-Assistive Tech,1,Summer 2021,Summer 2021,1,Summer 2021,1,0.256,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.016,False,False,0.128,0.0,0.0,3.873,Low-volume / mixed,146,185,39
-Augmented Reality,5,Winter 2021,Winter 2025,5,Winter 2025,1,0.602,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.124,False,False,0.277,0.0,0.0,1.579,Low-volume / mixed,146,143,-3
-Auto Commerce,2,Summer 2021,Summer 2022,2,Summer 2022,1,0.427,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.043,False,False,0.128,0.0,0.0,2.739,Low-volume / mixed,146,185,39
-Email,12,Winter 2021,Summer 2025,8,Summer 2025,2,1.205,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.0,0.34,False,False,0.425,0.0,0.128,1.184,Low-volume / mixed,146,111,-35
-Electric Vehicles,12,Winter 2021,Winter 2025,5,Winter 2021,4,1.19,2021,5,0.688,1.19,Summer 2026,0,0.0,-4,-2.5,-0.688,0.0,0.236,False,False,0.723,0.0,0.0,1.669,Low-volume / mixed,146,75,-71
-Beauty,4,Winter 2021,Fall 2025,3,Fall 2025,1,0.685,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.0,0.096,False,False,0.425,0.0,0.0,2.242,Low-volume / mixed,146,111,-35
-Sleep Tech,3,Winter 2021,Summer 2021,2,Summer 2021,2,0.512,2021,3,0.413,0.298,Summer 2026,0,0.0,-1,-1.5,-0.413,0.0,0.051,False,False,0.405,0.0,0.0,2.749,Low-volume / mixed,146,111,-35
-Anti-Aging,3,Winter 2021,Summer 2021,2,Winter 2021,2,0.595,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.0,0.053,False,False,0.425,0.0,0.0,2.876,Low-volume / mixed,146,111,-35
-Airplanes,6,Winter 2021,Winter 2023,5,Summer 2022,2,0.855,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.127,False,False,0.277,0.0,0.0,1.794,Low-volume / mixed,146,143,-3
-Advertising,23,Summer 2021,Spring 2026,11,Fall 2025,5,3.425,2021,2,0.275,0.0,Summer 2026,0,0.0,0,-1.0,-0.275,0.51,0.692,True,True,0.256,0.513,0.508,1.179,Spiky,146,143,-3
-Art Trading Platforms,1,Summer 2021,Summer 2021,1,Summer 2021,1,0.256,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.016,False,False,0.128,0.0,0.0,3.873,Low-volume / mixed,146,185,39
-Ghost Kitchens,7,Winter 2021,Summer 2022,3,Summer 2021,4,1.023,2021,6,0.825,0.595,Summer 2026,0,0.0,-2,-3.0,-0.825,0.0,0.128,False,False,0.809,0.0,0.0,2.249,Low-volume / mixed,146,65,-81
-Genetic Engineering,3,Summer 2023,Spring 2026,3,Fall 2025,1,0.685,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.171,0.103,False,False,0.0,0.257,0.0,2.122,Low-volume / mixed,146,231,85
-Gardening,1,Winter 2021,Winter 2021,1,Winter 2021,1,0.298,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.019,False,False,0.149,0.0,0.0,3.873,Low-volume / mixed,146,185,39
-Gene Therapy,8,Winter 2021,Spring 2026,7,Winter 2025,1,0.602,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.171,0.193,False,False,0.149,0.257,0.0,1.18,Low-volume / mixed,146,185,39
-Fusion Energy,2,Winter 2025,Fall 2025,2,Fall 2025,1,0.685,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.08,False,False,0.0,0.0,0.0,2.652,Low-volume / mixed,146,231,85
-Fundraising,2,Winter 2023,Winter 2023,1,Winter 2023,2,0.73,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.046,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Fraud Detection,7,Summer 2021,Winter 2026,5,Summer 2022,2,0.855,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.168,0.172,True,False,0.128,0.0,0.0,1.643,Low-volume / mixed,146,185,39
-Fraud Prevention,3,Summer 2022,Winter 2024,3,Summer 2023,1,0.455,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.08,False,False,0.0,0.0,0.0,2.085,Low-volume / mixed,146,231,85
-Food & Beverage,10,Winter 2021,Fall 2026,7,Summer 2023,2,0.909,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.0,0.221,False,False,0.425,0.0,0.0,1.437,Low-volume / mixed,146,111,-35
-Food Service Robots & Machines,3,Winter 2021,Summer 2021,2,Summer 2021,2,0.512,2021,3,0.413,0.298,Summer 2026,0,0.0,-1,-1.5,-0.413,0.0,0.051,False,False,0.405,0.0,0.0,2.749,Low-volume / mixed,146,111,-35
-Food Tech,22,Winter 2021,Summer 2025,7,Winter 2022,7,1.759,2021,7,0.963,1.19,Summer 2026,0,0.0,-4,-3.5,-0.963,0.0,0.448,False,True,0.978,0.0,0.0,1.354,Low-volume / mixed,146,58,-88
-Dating,1,Winter 2021,Winter 2021,1,Winter 2021,1,0.298,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.019,False,False,0.149,0.0,0.0,3.873,Low-volume / mixed,146,185,39
-DeFi,10,Winter 2021,Summer 2022,4,Summer 2022,3,1.282,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.0,0.196,False,False,0.425,0.0,0.0,1.998,Low-volume / mixed,146,111,-35
-Deepfake Detection,1,Winter 2022,Winter 2022,1,Winter 2022,1,0.251,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.016,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Delivery,22,Winter 2021,Fall 2024,7,Summer 2021,8,2.046,2021,12,1.651,1.19,Summer 2026,0,0.0,-4,-6.0,-1.651,0.0,0.452,False,True,1.618,0.0,0.0,1.368,Spiky,146,35,-111
-Dental,4,Winter 2024,Summer 2025,4,Winter 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.126,False,False,0.0,0.0,0.0,1.777,Low-volume / mixed,146,231,85
-Crowdsourcing,2,Summer 2025,Spring 2026,2,Summer 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.171,0.07,False,False,0.0,0.257,0.0,2.655,Low-volume / mixed,146,231,85
-Cryptocurrency,10,Winter 2021,Winter 2026,6,Summer 2022,2,0.855,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.168,0.234,False,False,0.149,0.0,0.0,1.378,Low-volume / mixed,146,185,39
-Cryptography,2,Winter 2022,Winter 2022,1,Winter 2022,2,0.503,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.031,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Culture,2,Winter 2021,Winter 2026,2,Winter 2026,1,0.503,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.168,0.05,False,False,0.149,0.0,0.0,2.743,Low-volume / mixed,146,185,39
-DAO,2,Winter 2022,Winter 2022,1,Winter 2022,2,0.503,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.031,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Data Visualization,20,Winter 2021,Summer 2025,8,Winter 2024,5,2.016,2021,3,0.413,0.298,Summer 2026,0,0.0,-1,-1.5,-0.413,0.0,0.526,False,True,0.405,0.0,0.149,1.305,Spiky,146,111,-35
-Cultured Meat,3,Winter 2021,Winter 2022,3,Winter 2021,1,0.298,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.05,False,False,0.277,0.0,0.0,2.09,Low-volume / mixed,146,143,-3
-Energy Storage,8,Winter 2021,Spring 2025,5,Winter 2024,2,0.806,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.0,0.185,False,False,0.297,0.0,0.0,1.553,Low-volume / mixed,146,143,-3
-FinOps,26,Winter 2021,Winter 2026,10,Winter 2025,3,1.807,2021,9,1.238,0.893,Summer 2026,0,0.0,-3,-4.5,-1.238,0.168,0.61,False,False,1.214,0.0,0.594,0.96,Low-volume / mixed,146,46,-100
-Femtech,4,Winter 2021,Summer 2022,3,Summer 2022,2,0.855,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.088,False,False,0.149,0.0,0.0,2.483,Low-volume / mixed,146,185,39
-Feedback,5,Winter 2021,Summer 2024,3,Summer 2024,3,1.21,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.119,False,False,0.149,0.0,0.0,2.552,Low-volume / mixed,146,185,39
-Fashion,2,Winter 2022,Winter 2023,2,Winter 2023,1,0.365,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.038,False,False,0.0,0.0,0.0,2.697,Low-volume / mixed,146,231,85
-Emerging Markets,6,Winter 2021,Winter 2026,6,Winter 2025,1,0.602,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.168,0.161,False,False,0.149,0.0,0.0,1.344,Low-volume / mixed,146,185,39
-Food,5,Winter 2021,Summer 2023,4,Winter 2021,2,0.595,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.0,0.097,False,False,0.425,0.0,0.0,1.884,Low-volume / mixed,146,111,-35
-Fitness,10,Winter 2021,Fall 2024,5,Fall 2024,1,1.064,2021,5,0.688,0.595,Summer 2026,0,0.0,-2,-2.5,-0.688,0.0,0.248,False,False,0.681,0.0,0.0,1.523,Low-volume / mixed,146,75,-71
-Conversational Banking,1,Summer 2023,Summer 2023,1,Summer 2023,1,0.455,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.028,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Drug Delivery,3,Summer 2022,Summer 2025,3,Summer 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.093,False,False,0.0,0.0,0.0,2.112,Low-volume / mixed,146,231,85
-Documents,22,Winter 2021,Fall 2026,11,Winter 2023,4,1.46,2021,4,0.55,0.893,Summer 2026,0,0.0,-3,-2.0,-0.55,0.0,0.592,False,False,0.575,0.0,0.356,0.972,Low-volume / mixed,146,97,-49
-DevSecOps,14,Winter 2021,Spring 2026,9,Summer 2022,2,0.855,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.171,0.341,False,False,0.425,0.257,0.356,0.958,Low-volume / mixed,146,111,-35
-Diagnostics,13,Winter 2021,Summer 2024,7,Summer 2022,2,0.855,2021,5,0.688,0.595,Summer 2026,0,0.0,-2,-2.5,-0.688,0.0,0.272,False,False,0.681,0.0,0.0,1.213,Low-volume / mixed,146,75,-71
-Edtech,14,Winter 2021,Spring 2025,8,Winter 2025,2,1.205,2021,4,0.55,1.19,Summer 2026,0,0.0,-4,-2.0,-0.55,0.0,0.364,False,False,0.595,0.0,0.126,1.202,Low-volume / mixed,146,97,-49
-E-Commerce,3,Winter 2021,Winter 2022,3,Winter 2021,1,0.298,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.05,False,False,0.277,0.0,0.0,2.09,Low-volume / mixed,146,143,-3
-Mental Health Tech,19,Winter 2021,Winter 2023,5,Summer 2021,7,1.79,2021,10,1.376,0.893,Summer 2026,0,0.0,-3,-5.0,-1.376,0.0,0.334,False,True,1.341,0.0,0.0,1.706,Low-volume / mixed,146,42,-104
-Medical Robotics,3,Summer 2021,Summer 2023,3,Summer 2023,1,0.455,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.071,False,False,0.128,0.0,0.0,2.149,Low-volume / mixed,146,185,39
-Media,17,Winter 2021,Fall 2025,10,Fall 2024,2,2.128,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.0,0.512,False,False,0.425,0.0,0.33,1.187,Spiky,146,111,-35
-Maritime,3,Winter 2021,Summer 2025,2,Summer 2025,1,0.602,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.0,0.075,False,False,0.297,0.0,0.0,2.646,Low-volume / mixed,146,143,-3
-Livestock Health,1,Summer 2025,Summer 2025,1,Summer 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.038,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Live,2,Winter 2021,Fall 2024,2,Fall 2024,1,1.064,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.085,False,False,0.149,0.0,0.0,3.087,Low-volume / mixed,146,185,39
-Kubernetes,7,Winter 2021,Spring 2026,6,Spring 2026,1,0.513,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.171,0.16,False,False,0.149,0.257,0.0,1.323,Low-volume / mixed,146,185,39
-Metaverse,2,Winter 2022,Summer 2022,2,Summer 2022,1,0.427,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.042,False,False,0.0,0.0,0.0,2.746,Low-volume / mixed,146,231,85
-Immigration,3,Summer 2024,Fall 2025,3,Fall 2025,1,0.685,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.106,False,False,0.0,0.0,0.0,2.137,Low-volume / mixed,146,231,85
-Hydrogen Energy,4,Winter 2022,Summer 2023,3,Winter 2022,2,0.503,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.083,False,False,0.0,0.0,0.0,2.103,Low-volume / mixed,146,231,85
-Investments,7,Summer 2021,Spring 2026,6,Fall 2025,1,0.685,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.171,0.17,True,False,0.128,0.257,0.0,1.379,Low-volume / mixed,146,185,39
-International,4,Summer 2021,Fall 2024,4,Fall 2024,1,1.064,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.133,False,False,0.128,0.0,0.0,2.095,Low-volume / mixed,146,185,39
-Industrial Workplace Safety,1,Summer 2021,Summer 2021,1,Summer 2021,1,0.256,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.016,False,False,0.128,0.0,0.0,3.873,Low-volume / mixed,146,185,39
-India,8,Winter 2021,Summer 2023,3,Winter 2022,4,1.005,2021,3,0.413,0.893,Summer 2026,0,0.0,-3,-1.5,-0.413,0.0,0.147,False,False,0.447,0.0,0.0,2.196,Low-volume / mixed,146,111,-35
-Income Share Agreements,2,Winter 2021,Summer 2021,2,Winter 2021,1,0.298,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.035,False,False,0.277,0.0,0.0,2.654,Low-volume / mixed,146,143,-3
-IoT,7,Winter 2021,Fall 2026,4,Winter 2021,3,0.893,2021,4,0.55,0.893,Summer 2026,0,0.0,-3,-2.0,-0.55,0.0,0.103,False,False,0.575,0.0,0.0,2.354,Low-volume / mixed,146,97,-49
-Kids,2,Winter 2021,Summer 2021,2,Winter 2021,1,0.298,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.035,False,False,0.277,0.0,0.0,2.654,Low-volume / mixed,146,143,-3
-IoT Security,1,Summer 2025,Summer 2025,1,Summer 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.038,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Lidar,1,Summer 2024,Summer 2024,1,Summer 2024,1,0.403,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.025,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Lending,15,Winter 2021,Winter 2026,8,Winter 2021,3,0.893,2021,6,0.825,0.893,Summer 2026,0,0.0,-3,-3.0,-0.825,0.168,0.322,False,False,0.83,0.0,0.202,1.07,Low-volume / mixed,146,65,-81
-Latin America,8,Winter 2021,Winter 2024,5,Winter 2021,3,0.893,2021,4,0.55,0.893,Summer 2026,0,0.0,-3,-2.0,-0.55,0.0,0.179,False,False,0.575,0.0,0.0,1.684,Low-volume / mixed,146,97,-49
-Identity,12,Winter 2021,Winter 2026,6,Summer 2022,4,1.709,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.168,0.264,False,False,0.425,0.0,0.0,1.699,Low-volume / mixed,146,111,-35
-GraphQL,1,Winter 2023,Winter 2023,1,Winter 2023,1,0.365,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.023,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Grocery,15,Winter 2021,Spring 2025,7,Summer 2021,5,1.279,2021,9,1.238,1.19,Summer 2026,0,0.0,-4,-4.5,-1.238,0.0,0.32,False,True,1.234,0.0,0.0,1.377,Low-volume / mixed,146,46,-100
-Home Automation,2,Summer 2023,Fall 2025,2,Fall 2025,1,0.685,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.071,False,False,0.0,0.0,0.0,2.707,Low-volume / mixed,146,231,85
-Human Resources,12,Winter 2021,Fall 2026,7,Winter 2021,3,0.893,2021,4,0.55,0.893,Summer 2026,0,0.0,-3,-2.0,-0.55,0.171,0.239,False,False,0.575,0.257,0.0,1.42,Low-volume / mixed,146,97,-49
-Biometrics,3,Summer 2021,Fall 2025,3,Fall 2025,1,0.685,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.075,False,False,0.128,0.0,0.0,2.394,Low-volume / mixed,146,185,39
-Billing,5,Summer 2021,Summer 2024,4,Summer 2023,2,0.909,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.114,True,False,0.128,0.0,0.0,2.098,Low-volume / mixed,146,185,39
-Podcasts,3,Summer 2021,Summer 2024,3,Summer 2022,1,0.427,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.068,False,False,0.128,0.0,0.0,2.137,Low-volume / mixed,146,185,39
-Pediatrics,1,Winter 2022,Winter 2022,1,Winter 2022,1,0.251,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.016,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Payroll,11,Summer 2021,Winter 2026,8,Summer 2023,2,0.909,2021,2,0.275,0.0,Summer 2026,0,0.0,0,-1.0,-0.275,0.168,0.259,True,False,0.256,0.0,0.126,1.133,Low-volume / mixed,146,143,-3
-Payments,91,Winter 2021,Spring 2026,14,Summer 2022,15,6.41,2021,23,3.164,2.679,Summer 2026,0,0.0,-9,-11.5,-3.164,0.339,2.057,False,True,3.13,0.257,1.409,0.906,Declining,146,15,-131
-Nonprofit,4,Winter 2021,Summer 2022,3,Winter 2021,2,0.595,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.0,0.08,False,False,0.297,0.0,0.0,2.218,Low-volume / mixed,146,143,-3
-Note-taking,3,Winter 2021,Summer 2025,3,Summer 2025,1,0.602,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.072,False,False,0.149,0.0,0.0,2.283,Low-volume / mixed,146,185,39
-Networks,1,Summer 2025,Summer 2025,1,Summer 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.038,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Neobank,44,Winter 2021,Spring 2026,13,Winter 2022,15,3.769,2021,7,0.963,1.19,Summer 2026,0,0.0,-4,-3.5,-0.963,0.171,1.011,False,True,0.978,0.257,0.733,0.991,Spiky,146,58,-88
-No-code,27,Winter 2021,Fall 2025,11,Fall 2025,4,2.74,2021,6,0.825,0.298,Summer 2026,0,0.0,-1,-3.0,-0.825,0.0,0.776,False,False,0.788,0.0,0.479,1.053,Spiky,146,65,-81
-Next-gen Network Security,2,Winter 2022,Winter 2022,1,Winter 2022,2,0.503,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.031,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Navigation,2,Summer 2022,Summer 2024,2,Summer 2022,1,0.427,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.052,False,False,0.0,0.0,0.0,2.647,Low-volume / mixed,146,231,85
-Nanomedicine,2,Winter 2021,Summer 2023,2,Summer 2023,1,0.455,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.047,False,False,0.149,0.0,0.0,2.711,Low-volume / mixed,146,185,39
-Nanosensors,1,Summer 2024,Summer 2024,1,Summer 2024,1,0.403,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.025,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Nanotechnology,3,Summer 2022,Winter 2023,2,Winter 2023,2,0.73,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.072,False,False,0.0,0.0,0.0,2.747,Low-volume / mixed,146,231,85
-Messaging,9,Summer 2021,Spring 2026,6,Summer 2022,3,1.282,2021,2,0.275,0.0,Summer 2026,0,0.0,0,-1.0,-0.275,0.171,0.252,True,False,0.256,0.257,0.0,1.576,Low-volume / mixed,146,143,-3
-Microinsurance,2,Winter 2021,Winter 2022,2,Winter 2021,1,0.298,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.034,False,False,0.149,0.0,0.0,2.657,Low-volume / mixed,146,185,39
-Microfluidics,2,Summer 2021,Winter 2023,2,Winter 2023,1,0.365,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.039,False,False,0.128,0.0,0.0,2.692,Low-volume / mixed,146,185,39
-NLP,10,Winter 2021,Fall 2025,7,Summer 2022,2,0.855,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.0,0.229,False,False,0.425,0.0,0.0,1.26,Low-volume / mixed,146,111,-35
-NFT,3,Winter 2022,Summer 2022,2,Winter 2022,2,0.503,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.058,False,False,0.0,0.0,0.0,2.656,Low-volume / mixed,146,231,85
-Music,6,Winter 2021,Fall 2025,4,Winter 2024,2,0.806,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.143,False,False,0.149,0.0,0.0,1.857,Low-volume / mixed,146,185,39
-Mobility,4,Winter 2021,Summer 2024,3,Winter 2021,2,0.595,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.0,0.078,False,False,0.297,0.0,0.0,2.223,Low-volume / mixed,146,143,-3
-Mining,3,Winter 2022,Summer 2024,2,Winter 2022,2,0.503,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.057,False,False,0.0,0.0,0.0,2.664,Low-volume / mixed,146,231,85
-Call Center,9,Winter 2022,Winter 2025,6,Summer 2024,3,1.21,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.274,True,False,0.0,0.0,0.0,1.503,Low-volume / mixed,146,231,85
-Carbon Capture and Removal,8,Winter 2021,Summer 2022,4,Summer 2021,4,1.023,2021,5,0.688,0.298,Summer 2026,0,0.0,-1,-2.5,-0.688,0.0,0.141,False,False,0.66,0.0,0.0,1.99,Low-volume / mixed,146,75,-71
-Booking,1,Winter 2025,Winter 2025,1,Winter 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.038,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Bioplastic,1,Summer 2022,Summer 2022,1,Summer 2022,1,0.427,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.027,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-CRISPR,1,Winter 2025,Winter 2025,1,Winter 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.038,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-CRM,11,Summer 2021,Fall 2025,9,Winter 2025,2,1.205,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.306,True,False,0.128,0.0,0.254,1.157,Low-volume / mixed,146,185,39
-Calendar,1,Summer 2021,Summer 2021,1,Summer 2021,1,0.256,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.016,False,False,0.128,0.0,0.0,3.873,Low-volume / mixed,146,185,39
-COVID-19,1,Winter 2022,Winter 2022,1,Winter 2022,1,0.251,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.016,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Recommendation System,2,Winter 2022,Winter 2023,2,Winter 2023,1,0.365,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.038,False,False,0.0,0.0,0.0,2.697,Low-volume / mixed,146,231,85
-Quantum Computing,1,Summer 2024,Summer 2024,1,Summer 2024,1,0.403,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.025,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Proptech,58,Winter 2021,Fall 2025,12,Winter 2022,14,3.518,2021,15,2.063,2.083,Summer 2026,0,0.0,-7,-7.5,-2.063,0.0,1.314,False,True,2.064,0.0,1.287,0.817,Declining,146,27,-119
-Primary Care,4,Summer 2021,Winter 2022,2,Summer 2021,3,0.767,2021,3,0.413,0.0,Summer 2026,0,0.0,0,-1.5,-0.413,0.0,0.064,False,False,0.384,0.0,0.0,3.009,Low-volume / mixed,146,111,-35
-Cloud Workload Protection,2,Winter 2021,Summer 2021,2,Winter 2021,1,0.298,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.035,False,False,0.277,0.0,0.0,2.654,Low-volume / mixed,146,143,-3
-Collaboration,18,Winter 2021,Summer 2024,7,Winter 2023,5,1.825,2021,5,0.688,0.595,Summer 2026,0,0.0,-2,-2.5,-0.688,0.0,0.366,False,True,0.681,0.0,0.0,1.4,Low-volume / mixed,146,75,-71
-Commercial Space Launch,2,Summer 2021,Summer 2022,2,Summer 2022,1,0.427,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.043,False,False,0.128,0.0,0.0,2.739,Low-volume / mixed,146,185,39
-Community,25,Winter 2021,Winter 2025,5,Summer 2021,12,3.069,2021,19,2.613,2.083,Summer 2026,0,0.0,-7,-9.5,-2.613,0.0,0.46,False,True,2.576,0.0,0.0,1.884,Declining,146,23,-123
-Civic Tech,2,Summer 2024,Summer 2024,1,Summer 2024,2,0.806,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.05,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Clean Meat,1,Winter 2022,Winter 2022,1,Winter 2022,1,0.251,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.016,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Cashierless Checkout,1,Winter 2022,Winter 2022,1,Winter 2022,1,0.251,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.016,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Cell Therapy,3,Winter 2022,Winter 2023,3,Summer 2022,1,0.427,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.065,False,False,0.0,0.0,0.0,2.137,Low-volume / mixed,146,231,85
-Cellular Agriculture,2,Winter 2022,Winter 2022,1,Winter 2022,2,0.503,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.031,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Chat,4,Winter 2021,Spring 2026,4,Winter 2025,1,0.602,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.171,0.126,False,False,0.149,0.257,0.0,1.801,Low-volume / mixed,146,185,39
-Chatbot,5,Winter 2021,Summer 2023,5,Summer 2023,1,0.455,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.102,False,False,0.277,0.0,0.0,1.542,Low-volume / mixed,146,143,-3
-Chatbots,1,Winter 2024,Winter 2024,1,Winter 2024,1,0.403,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.025,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-SMS,4,Winter 2022,Summer 2024,3,Summer 2024,2,0.806,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.095,False,False,0.0,0.0,0.0,2.332,Low-volume / mixed,146,231,85
-SEO,4,Summer 2021,Spring 2026,4,Fall 2024,1,1.064,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.171,0.13,False,False,0.128,0.257,0.0,2.148,Low-volume / mixed,146,185,39
-Rocketry,2,Winter 2024,Fall 2025,2,Fall 2025,1,0.685,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.068,False,False,0.0,0.0,0.0,2.745,Low-volume / mixed,146,231,85
-Robotic Surgery,1,Summer 2022,Summer 2022,1,Summer 2022,1,0.427,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.027,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Reviews,1,Summer 2024,Summer 2024,1,Summer 2024,1,0.403,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.025,False,False,0.0,0.0,0.0,3.873,Low-volume / mixed,146,231,85
-Ridesharing,1,Summer 2021,Summer 2021,1,Summer 2021,1,0.256,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.016,False,False,0.128,0.0,0.0,3.873,Low-volume / mixed,146,185,39
-Retail Tech,5,Winter 2021,Winter 2025,4,Fall 2024,2,2.128,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.214,False,False,0.149,0.0,0.0,2.447,Spiky,146,185,39
-Remote Work,9,Winter 2021,Winter 2026,6,Summer 2021,3,0.767,2021,5,0.688,0.595,Summer 2026,0,0.0,-2,-2.5,-0.688,0.168,0.18,False,False,0.681,0.0,0.0,1.41,Low-volume / mixed,146,75,-71
-Remittances,3,Winter 2022,Winter 2024,3,Summer 2023,1,0.455,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.069,False,False,0.0,0.0,0.0,2.151,Low-volume / mixed,146,231,85
-Remote,2,Winter 2021,Winter 2021,1,Winter 2021,2,0.595,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.0,0.037,False,False,0.297,0.0,0.0,3.873,Low-volume / mixed,146,143,-3
-Trust & Safety,3,Winter 2022,Spring 2026,3,Spring 2026,1,0.513,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.171,0.076,False,False,0.0,0.257,0.0,2.177,Low-volume / mixed,146,231,85
-Transportation,15,Summer 2021,Fall 2025,10,Fall 2024,1,1.064,2021,2,0.275,0.0,Summer 2026,0,0.0,0,-1.0,-0.275,0.0,0.422,True,False,0.256,0.0,0.484,0.85,Low-volume / mixed,146,143,-3
-Web Development,18,Winter 2021,Spring 2026,13,Summer 2023,4,1.818,2021,4,0.55,0.595,Summer 2026,0,0.0,-2,-2.0,-0.55,0.171,0.492,False,False,0.553,0.257,0.47,0.834,Low-volume / mixed,146,97,-49
-Weather,1,Winter 2021,Winter 2021,1,Winter 2021,1,0.298,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.019,False,False,0.149,0.0,0.0,3.873,Low-volume / mixed,146,185,39
-3D Printing,3,Spring 2025,Fall 2026,3,Spring 2025,1,0.699,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.081,False,False,0.0,0.0,0.0,2.654,Low-volume / mixed,146,231,85
-Women's Health,8,Summer 2021,Fall 2025,5,Summer 2021,4,1.023,2021,4,0.55,0.0,Summer 2026,0,0.0,0,-2.0,-0.55,0.0,0.174,True,False,0.511,0.0,0.0,1.725,Low-volume / mixed,146,97,-49
+tag,total_companies,batches_excluded_from_stats,first_observed_batch,latest_observed_batch,n_batches_present,peak_batch,peak_count,peak_share_pct,earliest_year,earliest_year_count,earliest_year_share_pct,earliest_batch_share_pct,latest_full_batch,latest_count,latest_share_pct,count_change,count_change_vs_earliest_year_avg,pp_change,rolling3_latest_share_pct,mean_share_full_batches_pct,newly_appearing,peaked_then_declined,early_share_pct,late_share_pct,median_share_pct,cv_share,emergence_class,rank_latest,rank_earliest_year,rank_change
+Artificial Intelligence,844,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,17,Winter 2024,93,37.5,2021,87,11.967,11.905,Summer 2026,87,37.021,47,43.5,25.054,32.718,26.092,False,False,11.962,32.209,27.335,0.337,Emerging,1,4,3
+AI,778,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,17,Fall 2024,34,36.17,2021,66,9.078,8.333,Summer 2026,74,31.489,46,41.0,22.411,29.862,25.108,False,False,9.026,31.84,26.816,0.348,Emerging,2,6,4
+B2B,868,"Spring 2026,Winter 2026",Winter 2021,Winter 2027,18,Summer 2022,89,38.034,2021,180,24.759,23.214,Summer 2026,53,22.553,-25,-37.0,-2.206,22.364,24.678,False,False,24.651,23.605,23.425,0.224,Persistent,3,2,-1
+Robotics,104,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,16,Summer 2026,28,11.915,2021,12,1.651,2.679,Summer 2026,28,11.915,19,22.0,10.264,7.03,3.133,False,False,1.723,9.04,2.549,0.979,Emerging,4,35,31
+Hard Tech,104,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,17,Summer 2026,25,10.638,2021,20,2.751,3.274,Summer 2026,25,10.638,14,15.0,7.887,4.861,2.781,False,False,2.788,6.689,2.521,0.9,Emerging,5,19,14
+SaaS,709,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,17,Winter 2023,86,31.387,2021,214,29.436,27.976,Summer 2026,24,10.213,-70,-83.0,-19.223,9.329,18.885,False,True,29.334,8.873,16.575,0.44,Declining,6,1,-5
+Developer Tools,402,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,17,Fall 2024,18,19.149,2021,67,9.216,10.119,Summer 2026,23,9.787,-11,-10.5,0.571,11.077,12.228,False,False,9.279,9.688,11.378,0.265,Persistent,7,5,-2
+Hardware,90,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,16,Summer 2026,20,8.511,2021,12,1.651,1.786,Summer 2026,20,8.511,14,14.0,6.86,5.183,2.583,False,False,1.66,5.968,2.149,0.858,Emerging,8,35,27
+Infrastructure,127,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,17,Summer 2026,19,8.085,2021,10,1.376,2.083,Summer 2026,19,8.085,12,14.0,6.709,6.301,3.905,False,False,1.425,6.44,4.024,0.544,Emerging,9,42,33
+Manufacturing,79,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,16,Summer 2026,16,6.809,2021,6,0.825,0.595,Summer 2026,16,6.809,14,13.0,5.984,3.986,2.578,False,False,0.809,4.774,2.069,0.722,Emerging,10,65,55
+Enterprise Software,112,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,16,Summer 2026,14,5.957,2021,8,1.1,1.19,Summer 2026,14,5.957,10,10.0,4.857,4.478,3.425,False,False,1.107,4.006,3.073,0.485,Emerging,11,51,40
+Fintech,432,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,17,Winter 2022,92,23.116,2021,139,19.12,17.262,Summer 2026,14,5.957,-44,-55.5,-13.163,4.104,10.489,False,True,18.989,4.348,8.064,0.692,Declining,11,3,-8
+Reinforcement Learning,41,"Spring 2026,Winter 2026",Winter 2023,Summer 2026,10,Summer 2026,14,5.957,2021,0,0.0,0.0,Summer 2026,14,5.957,14,14.0,5.957,3.474,1.41,True,False,0.0,4.006,0.897,1.184,Emerging,11,231,220
+Machine Learning,147,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,15,Fall 2024,6,6.383,2021,30,4.127,2.976,Summer 2026,12,5.106,2,-3.0,0.979,3.647,4.327,False,False,4.046,4.265,4.54,0.292,Persistent,14,12,-2
+Workflow Automation,68,"Spring 2026,Winter 2026",Winter 2021,Winter 2027,15,Summer 2026,11,4.681,2021,5,0.688,0.893,Summer 2026,11,4.681,8,8.5,3.993,3.249,2.199,False,False,0.703,3.368,2.133,0.572,Emerging,15,75,60
+Finance,79,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,17,Summer 2026,11,4.681,2021,8,1.1,0.893,Summer 2026,11,4.681,8,7.0,3.581,3.104,2.388,False,False,1.086,4.053,2.144,0.565,Emerging,15,51,36
+Automation,80,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,17,Summer 2026,11,4.681,2021,5,0.688,1.19,Summer 2026,11,4.681,7,8.5,3.993,3.076,2.581,False,False,0.723,3.711,2.83,0.543,Emerging,15,75,60
+Healthcare,143,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,16,Summer 2023,20,9.091,2021,25,3.439,3.274,Summer 2026,11,4.681,0,-1.5,1.242,2.903,4.257,False,False,3.428,4.053,3.912,0.412,Low-volume / mixed,15,14,-1
+Generative AI,227,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,15,Winter 2023,49,17.883,2021,19,2.613,1.488,Summer 2026,10,4.255,5,0.5,1.642,4.276,7.014,False,True,2.534,5.21,6.274,0.641,Emerging,19,23,4
+Biotech,93,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,16,Summer 2024,11,4.435,2021,20,2.751,1.488,Summer 2026,9,3.83,4,-1.0,1.079,2.564,2.608,False,False,2.662,2.942,2.466,0.351,Low-volume / mixed,20,19,-1
+Industrial,31,"Spring 2026,Winter 2026",Summer 2021,Summer 2026,9,Summer 2026,9,3.83,2021,1,0.138,0.0,Summer 2026,9,3.83,9,8.5,3.692,2.564,1.116,True,False,0.128,2.942,0.531,1.088,Emerging,20,185,165
+Energy,40,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,14,Summer 2026,9,3.83,2021,7,0.963,1.488,Summer 2026,9,3.83,4,5.5,2.867,1.277,1.136,False,False,1.0,1.915,1.034,0.846,Spiky,20,58,38
+Data Engineering,75,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,15,Summer 2026,8,3.404,2021,15,2.063,1.786,Summer 2026,8,3.404,2,0.5,1.341,1.792,2.021,False,False,2.044,2.387,2.072,0.368,Low-volume / mixed,23,27,4
+Supply Chain,62,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,14,Summer 2025,7,4.217,2021,10,1.376,1.786,Summer 2026,8,3.404,2,3.0,2.028,2.54,1.842,False,False,1.405,1.702,1.56,0.664,Low-volume / mixed,23,42,19
+Investing,41,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,15,Summer 2026,8,3.404,2021,6,0.825,0.298,Summer 2026,8,3.404,7,5.0,2.579,1.765,1.164,False,False,0.788,2.045,1.135,0.637,Spiky,23,65,42
+Construction,51,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,14,Summer 2026,8,3.404,2021,9,1.238,1.488,Summer 2026,8,3.404,3,3.5,2.166,2.02,1.404,False,False,1.256,2.729,1.385,0.639,Low-volume / mixed,23,46,23
+Defense,25,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,11,Summer 2026,8,3.404,2021,4,0.55,0.298,Summer 2026,8,3.404,7,6.0,2.854,2.02,0.765,False,False,0.532,2.729,0.351,1.309,Emerging,23,97,74
+Open Source,127,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,14,Winter 2023,21,7.664,2021,21,2.889,3.869,Summer 2026,8,3.404,-5,-2.5,0.515,3.024,3.668,False,True,2.958,2.729,3.555,0.48,Low-volume / mixed,23,16,-7
+Logistics,77,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,15,Summer 2022,8,3.419,2021,13,1.788,2.976,Summer 2026,7,2.979,-3,0.5,1.191,2.253,2.167,False,False,1.871,2.175,2.254,0.388,Low-volume / mixed,29,32,3
+Semiconductors,19,"Spring 2026,Winter 2026",Summer 2023,Fall 2026,9,Summer 2026,7,2.979,2021,0,0.0,0.0,Summer 2026,7,2.979,7,7.0,2.979,0.993,0.515,True,False,0.0,1.49,0.0,1.61,Spiky,29,231,202
+Insurance,58,"Spring 2026,Winter 2026",Winter 2021,Winter 2027,17,Summer 2026,6,2.553,2021,8,1.1,1.488,Summer 2026,6,2.553,1,2.0,1.453,1.253,1.498,False,False,1.127,1.276,1.444,0.464,Low-volume / mixed,31,51,20
+AIOps,57,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,16,Summer 2024,10,4.032,2021,5,0.688,0.595,Summer 2026,6,2.553,4,3.5,1.865,1.682,1.655,False,False,0.681,1.619,1.531,0.616,Low-volume / mixed,31,75,44
+Security,59,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,14,Spring 2025,4,2.797,2021,12,1.651,1.488,Summer 2026,6,2.553,1,0.0,0.902,1.91,1.682,False,False,1.639,1.962,1.599,0.42,Low-volume / mixed,31,35,4
+Enterprise,83,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,16,Winter 2023,15,5.474,2021,8,1.1,1.19,Summer 2026,6,2.553,2,2.0,1.453,1.709,2.457,False,True,1.107,1.962,2.336,0.529,Low-volume / mixed,31,51,20
+Cybersecurity,34,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,14,Fall 2025,4,2.74,2021,4,0.55,0.298,Summer 2026,6,2.553,5,4.0,2.003,2.166,1.173,False,False,0.532,2.647,1.079,0.66,Emerging,31,97,66
+Consumer,197,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,17,Winter 2022,39,9.799,2021,26,3.576,4.167,Summer 2026,6,2.553,-8,-7.0,-1.023,4.083,5.747,False,True,3.618,4.016,5.45,0.37,Low-volume / mixed,31,13,-18
+Marketplace,125,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,14,Summer 2021,33,8.44,2021,53,7.29,5.952,Summer 2026,6,2.553,-14,-20.5,-4.737,1.965,2.955,False,True,7.196,2.647,2.278,0.871,Declining,31,7,-24
+AI Assistant,143,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,17,Winter 2024,20,8.065,2021,14,1.926,1.488,Summer 2026,5,2.128,0,-2.0,0.202,4.17,4.426,False,True,1.895,4.146,4.031,0.425,Emerging,38,30,-8
+Aerospace,39,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,15,Fall 2024,3,3.191,2021,5,0.688,0.595,Summer 2026,5,2.128,3,2.5,1.44,1.623,1.297,False,False,0.681,2.434,1.059,0.731,Spiky,38,75,37
+Drones,18,"Spring 2026,Winter 2026",Summer 2021,Fall 2026,12,Summer 2026,5,2.128,2021,2,0.275,0.0,Summer 2026,5,2.128,5,4.0,1.853,1.138,0.413,True,False,0.256,1.407,0.384,1.286,Spiky,38,143,105
+Deep Learning,24,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,12,Summer 2026,5,2.128,2021,5,0.688,1.488,Summer 2026,5,2.128,0,2.5,1.44,0.91,0.585,False,False,0.744,1.064,0.415,1.061,Spiky,38,75,37
+Health Tech,97,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,13,Summer 2023,12,5.455,2021,17,2.338,2.381,Summer 2026,5,2.128,-3,-3.5,-0.21,2.308,3.04,False,True,2.341,3.462,2.717,0.44,Low-volume / mixed,38,25,-13
+Robotic Process Automation,27,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,14,Summer 2026,4,1.702,2021,5,0.688,1.19,Summer 2026,4,1.702,0,1.5,1.014,0.996,0.768,False,False,0.723,1.194,0.714,0.656,Low-volume / mixed,43,75,32
+Sales,99,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,14,Summer 2022,13,5.556,2021,12,1.651,1.488,Summer 2026,4,1.702,-1,-2.0,0.051,1.626,3.048,False,True,1.639,1.536,2.697,0.489,Low-volume / mixed,43,35,-8
+Real Estate,48,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,15,Summer 2022,8,3.419,2021,6,0.825,1.19,Summer 2026,4,1.702,0,1.0,0.877,1.197,1.356,False,True,0.851,1.194,1.198,0.566,Low-volume / mixed,43,65,22
+Cloud Computing,38,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,14,Summer 2024,6,2.419,2021,3,0.413,0.595,Summer 2026,4,1.702,2,2.5,1.289,1.17,1.065,False,False,0.425,0.851,1.03,0.696,Low-volume / mixed,43,111,68
+Health & Wellness,31,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,11,Summer 2021,10,2.558,2021,12,1.651,0.595,Summer 2026,4,1.702,2,-2.0,0.051,1.252,0.821,False,False,1.576,1.879,0.647,0.993,Spiky,43,35,-8
+Data Labeling,18,"Spring 2026,Winter 2026",Summer 2021,Summer 2026,10,Spring 2025,3,2.098,2021,1,0.138,0.0,Summer 2026,4,1.702,4,3.5,1.564,0.996,0.569,True,False,0.128,1.194,0.528,1.098,Spiky,43,185,142
+Trading,16,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,10,Summer 2026,4,1.702,2021,3,0.413,0.298,Summer 2026,4,1.702,3,2.5,1.289,0.567,0.41,False,False,0.405,0.851,0.332,1.176,Low-volume / mixed,43,111,68
+Gaming,38,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,12,Winter 2022,9,2.261,2021,7,0.963,1.488,Summer 2026,4,1.702,-1,0.5,0.739,1.024,0.959,False,False,1.0,1.536,0.82,0.765,Low-volume / mixed,43,58,15
+GovTech,33,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,14,Winter 2025,5,3.012,2021,6,0.825,0.595,Summer 2026,4,1.702,2,1.0,0.877,1.225,0.967,False,False,0.809,1.536,0.831,0.744,Spiky,43,65,22
+Computer Vision,45,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,14,Fall 2025,3,2.055,2021,9,1.238,1.19,Summer 2026,4,1.702,0,-0.5,0.464,1.654,1.304,False,False,1.234,1.879,1.323,0.433,Low-volume / mixed,43,46,3
+Productivity,115,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,16,Summer 2022,14,5.983,2021,20,2.751,2.381,Summer 2026,3,1.277,-5,-7.0,-1.474,3.146,3.333,False,True,2.725,2.009,3.042,0.418,Low-volume / mixed,53,19,-34
+Market Research,16,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,12,Summer 2026,3,1.277,2021,3,0.413,0.298,Summer 2026,3,1.277,2,1.5,0.864,1.056,0.558,False,False,0.405,0.981,0.484,0.692,Low-volume / mixed,53,111,58
+Personalization,5,"Spring 2026,Winter 2026",Winter 2024,Summer 2026,3,Summer 2026,3,1.277,2021,0,0.0,0.0,Summer 2026,3,1.277,3,3.0,1.277,0.426,0.163,True,False,0.0,0.638,0.0,2.19,Low-volume / mixed,53,231,178
+Home Services,14,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,11,Summer 2026,3,1.277,2021,1,0.138,0.298,Summer 2026,3,1.277,2,2.5,1.139,0.654,0.417,False,False,0.149,0.981,0.384,0.864,Low-volume / mixed,53,185,132
+LegalTech,39,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,14,Summer 2024,7,2.823,2021,6,0.825,1.19,Summer 2026,3,1.277,-1,0.0,0.452,1.54,1.257,False,True,0.851,2.009,1.127,0.56,Low-volume / mixed,53,65,12
+Crypto / Web3,63,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,14,Summer 2022,13,5.556,2021,16,2.201,2.083,Summer 2026,3,1.277,-4,-5.0,-0.924,0.855,1.592,False,True,2.192,0.981,1.135,0.929,Spiky,53,26,-27
+Data Science,24,"Spring 2026,Winter 2026",Summer 2021,Summer 2026,10,Summer 2023,5,2.273,2021,1,0.138,0.0,Summer 2026,3,1.277,3,2.5,1.139,0.827,0.775,True,False,0.128,0.638,0.483,0.952,Spiky,53,185,132
+Big Data,21,"Spring 2026,Winter 2026",Summer 2021,Summer 2026,12,Fall 2024,2,2.128,2021,3,0.413,0.0,Summer 2026,3,1.277,3,1.5,0.864,1.284,0.757,True,False,0.384,1.324,0.733,0.768,Low-volume / mixed,53,111,58
+Swarm Robotics,4,"Spring 2026,Winter 2026",Summer 2024,Summer 2026,2,Summer 2026,3,1.277,2021,0,0.0,0.0,Summer 2026,3,1.277,3,3.0,1.277,0.426,0.12,False,False,0.0,0.638,0.0,2.81,Low-volume / mixed,53,231,178
+Analytics,113,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,15,Winter 2023,15,5.474,2021,21,2.889,2.679,Summer 2026,3,1.277,-6,-7.5,-1.612,1.969,3.198,False,True,2.874,2.351,3.147,0.408,Low-volume / mixed,53,16,-37
+API,99,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,16,Summer 2022,14,5.983,2021,15,2.063,2.381,Summer 2026,3,1.277,-5,-4.5,-0.786,1.284,2.776,False,True,2.085,1.324,2.4,0.569,Low-volume / mixed,53,27,-26
+AI-Enhanced Learning,38,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,15,Winter 2025,4,2.41,2021,7,0.963,0.595,Summer 2026,2,0.851,0,-1.5,-0.112,0.941,1.134,False,False,0.937,1.111,1.034,0.492,Low-volume / mixed,64,58,-6
+AI-powered Drug Discovery,20,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,10,Summer 2021,7,1.79,2021,8,1.1,0.298,Summer 2026,2,0.851,1,-2.0,-0.249,0.685,0.515,False,True,1.044,0.425,0.415,0.977,Low-volume / mixed,64,51,-13
+Agriculture,14,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,10,Summer 2025,2,1.205,2021,2,0.275,0.298,Summer 2026,2,0.851,1,1.0,0.576,0.685,0.372,False,False,0.277,0.425,0.351,0.978,Low-volume / mixed,64,143,79
+Advanced Materials,4,"Spring 2026,Winter 2026",Summer 2025,Fall 2026,3,Summer 2026,2,0.851,2021,0,0.0,0.0,Summer 2026,2,0.851,2,2.0,0.851,0.484,0.104,False,False,0.0,0.425,0.0,2.491,Low-volume / mixed,64,231,167
+Space Exploration,13,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,8,Summer 2021,4,1.023,2021,6,0.825,0.595,Summer 2026,2,0.851,0,-1.0,0.026,0.284,0.297,False,False,0.809,0.425,0.126,1.162,Low-volume / mixed,64,65,1
+Stocks,5,"Spring 2026,Winter 2026",Summer 2021,Summer 2026,3,Summer 2026,2,0.851,2021,2,0.275,0.0,Summer 2026,2,0.851,2,1.0,0.576,0.284,0.097,True,False,0.256,0.425,0.0,2.536,Low-volume / mixed,64,143,79
+Sustainability,6,"Spring 2026,Winter 2026",Summer 2021,Summer 2026,3,Summer 2026,2,0.851,2021,3,0.413,0.0,Summer 2026,2,0.851,2,0.5,0.438,0.284,0.144,True,False,0.384,0.425,0.0,2.014,Low-volume / mixed,64,111,47
+Synthetic Biology,23,"Spring 2026,Winter 2026",Summer 2021,Summer 2026,9,Summer 2024,5,2.016,2021,4,0.55,0.0,Summer 2026,2,0.851,2,0.0,0.301,0.484,0.619,True,True,0.511,0.425,0.552,0.958,Spiky,64,97,33
+Entertainment,26,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,11,Winter 2022,7,1.759,2021,3,0.413,0.298,Summer 2026,2,0.851,1,0.5,0.438,0.74,0.705,False,True,0.405,1.111,0.666,0.779,Low-volume / mixed,64,111,47
+Creator Economy,25,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,12,Summer 2022,4,1.709,2021,5,0.688,0.298,Summer 2026,2,0.851,1,-0.5,0.163,0.941,0.719,False,False,0.66,1.111,0.65,0.663,Low-volume / mixed,64,75,11
+Consumer Finance,29,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,15,Fall 2025,3,2.055,2021,5,0.688,0.595,Summer 2026,2,0.851,0,-0.5,0.163,1.37,0.894,False,False,0.681,1.453,0.733,0.546,Low-volume / mixed,64,75,11
+Consumer Health Services,67,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,11,Summer 2021,21,5.371,2021,34,4.677,3.869,Summer 2026,2,0.851,-11,-15.0,-3.826,0.969,1.615,False,True,4.62,1.453,1.079,0.941,Declining,64,9,-55
+Conversational AI,41,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,13,Winter 2025,6,3.614,2021,3,0.413,0.595,Summer 2026,2,0.851,0,0.5,0.438,2.0,1.387,False,True,0.425,1.796,0.975,0.763,Spiky,64,111,47
+Education,71,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,14,Summer 2021,18,4.604,2021,32,4.402,4.167,Summer 2026,2,0.851,-12,-14.0,-3.551,1.315,1.939,False,True,4.386,0.768,1.55,0.616,Declining,64,10,-54
+E-commerce,108,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,14,Summer 2021,25,6.394,2021,44,6.052,5.655,Summer 2026,2,0.851,-17,-20.0,-5.201,1.37,2.587,False,True,6.024,1.453,2.091,0.786,Declining,64,8,-56
+Digital Health,77,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,15,Winter 2022,14,3.518,2021,21,2.889,2.976,Summer 2026,2,0.851,-8,-8.5,-2.038,1.197,2.141,False,True,2.894,1.796,2.646,0.512,Low-volume / mixed,64,16,-48
+DevOps,30,"Spring 2026,Winter 2026",Summer 2021,Fall 2026,13,Fall 2024,3,3.191,2021,3,0.413,0.0,Summer 2026,2,0.851,2,0.5,0.438,1.142,0.999,True,False,0.384,1.111,0.809,0.792,Spiky,64,111,47
+Design,21,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,11,Fall 2025,4,2.74,2021,2,0.275,0.298,Summer 2026,2,0.851,1,1.0,0.576,1.599,0.857,False,False,0.277,1.796,0.551,0.982,Spiky,64,143,79
+Procurement,10,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,8,Fall 2024,1,1.064,2021,3,0.413,0.595,Summer 2026,2,0.851,0,0.5,0.438,0.484,0.331,False,False,0.425,0.425,0.33,1.035,Low-volume / mixed,64,111,47
+ClimateTech,23,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,10,Winter 2023,4,1.46,2021,5,0.688,0.595,Summer 2026,2,0.851,0,-0.5,0.163,0.484,0.614,False,False,0.681,0.425,0.684,0.744,Low-volume / mixed,64,75,11
+Sales Enablement,33,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,13,Winter 2025,4,2.41,2021,5,0.688,0.298,Summer 2026,2,0.851,1,-0.5,0.163,0.685,0.933,False,False,0.66,0.425,0.966,0.675,Low-volume / mixed,64,75,11
+Restaurant Tech,9,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,8,Summer 2026,2,0.851,2021,2,0.275,0.298,Summer 2026,2,0.851,1,1.0,0.576,0.713,0.28,False,False,0.277,0.768,0.277,1.011,Low-volume / mixed,64,143,79
+Renewable Energy,13,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,11,Summer 2026,2,0.851,2021,2,0.275,0.298,Summer 2026,2,0.851,1,1.0,0.576,0.284,0.334,False,False,0.277,0.425,0.351,0.796,Low-volume / mixed,64,143,79
+Recruiting,32,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,13,Winter 2021,7,2.083,2021,13,1.788,2.083,Summer 2026,2,0.851,-5,-4.5,-0.937,0.713,0.868,False,True,1.809,0.768,0.829,0.728,Low-volume / mixed,64,32,-32
+Biotechnology,11,"Spring 2026,Winter 2026",Summer 2021,Summer 2026,9,Summer 2026,2,0.851,2021,2,0.275,0.0,Summer 2026,2,0.851,2,1.0,0.576,0.713,0.309,True,False,0.256,0.768,0.327,0.964,Low-volume / mixed,64,143,79
+Oncology,15,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,8,Winter 2024,4,1.613,2021,2,0.275,0.298,Summer 2026,2,0.851,1,1.0,0.576,0.284,0.406,False,False,0.277,0.425,0.254,1.245,Low-volume / mixed,64,143,79
+Monitoring,11,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,8,Summer 2026,2,0.851,2021,1,0.138,0.298,Summer 2026,2,0.851,1,1.5,0.713,0.512,0.352,False,False,0.149,0.768,0.351,0.957,Low-volume / mixed,64,185,121
+Marketing,76,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,16,Summer 2023,10,4.545,2021,8,1.1,1.19,Summer 2026,2,0.851,-2,-2.0,-0.249,2.229,2.24,False,True,1.107,2.138,2.133,0.443,Low-volume / mixed,64,51,-13
+Legal,31,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,13,Winter 2025,5,3.012,2021,2,0.275,0.595,Summer 2026,2,0.851,0,1.0,0.576,0.969,1.062,False,True,0.297,1.453,0.958,0.782,Spiky,64,143,79
+ML,18,"Spring 2026,Winter 2026",Summer 2021,Summer 2026,10,Spring 2025,3,2.098,2021,2,0.275,0.0,Summer 2026,2,0.851,2,1.0,0.576,0.284,0.497,True,False,0.256,0.425,0.415,1.205,Spiky,64,143,79
+Healthcare IT,33,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,15,Summer 2023,9,4.091,2021,5,0.688,1.19,Summer 2026,2,0.851,-2,-0.5,0.163,1.142,1.109,False,True,0.723,1.111,0.853,0.868,Spiky,64,75,11
+Health Insurance,18,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,9,Summer 2023,5,2.273,2021,4,0.55,0.298,Summer 2026,2,0.851,1,0.0,0.301,0.74,0.55,False,True,0.532,1.111,0.403,1.133,Spiky,64,97,33
+Time Series,1,"Spring 2026,Winter 2026",Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.03,False,False,0.0,0.213,0.0,3.606,Low-volume / mixed,96,231,135
+Exascale Computing,1,"Spring 2026,Winter 2026",Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.03,False,False,0.0,0.213,0.0,3.606,Low-volume / mixed,96,231,135
+Telehealth,19,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,10,Summer 2022,3,1.282,2021,7,0.963,0.595,Summer 2026,1,0.426,-1,-2.5,-0.537,0.37,0.496,False,False,0.937,0.555,0.441,0.835,Low-volume / mixed,96,58,-38
+Therapeutics,31,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,11,Summer 2022,7,2.991,2021,7,0.963,0.298,Summer 2026,1,0.426,0,-2.5,-0.537,0.142,0.776,False,True,0.916,0.213,0.528,1.087,Spiky,96,58,-38
+Consumer Products,8,"Spring 2026,Winter 2026",Summer 2021,Summer 2026,7,Spring 2025,1,0.699,2021,2,0.275,0.0,Summer 2026,1,0.426,1,0.0,0.151,0.37,0.253,True,False,0.256,0.555,0.126,1.091,Low-volume / mixed,96,143,47
+Edge Computing Semiconductors,3,"Spring 2026,Winter 2026",Summer 2024,Summer 2026,3,Summer 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.343,0.102,False,False,0.0,0.213,0.0,1.957,Low-volume / mixed,96,231,135
+Telecommunications,16,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,10,Winter 2024,3,1.21,2021,5,0.688,0.893,Summer 2026,1,0.426,-2,-1.5,-0.262,0.142,0.468,False,False,0.703,0.213,0.426,0.945,Low-volume / mixed,96,75,-21
+Self-Driving Vehicles,2,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,2,Summer 2026,1,0.426,2021,1,0.138,0.298,Summer 2026,1,0.426,0,0.5,0.288,0.142,0.052,False,False,0.149,0.213,0.0,2.494,Low-volume / mixed,96,185,89
+Genomics,7,"Spring 2026,Winter 2026",Summer 2021,Summer 2026,4,Summer 2021,3,0.767,2021,3,0.413,0.0,Summer 2026,1,0.426,1,-0.5,0.013,0.37,0.17,True,False,0.384,0.555,0.0,1.638,Low-volume / mixed,96,111,15
+Digital Freight Brokerage,1,"Spring 2026,Winter 2026",Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.03,False,False,0.0,0.213,0.0,3.606,Low-volume / mixed,96,231,135
+Customer Success,24,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,11,Winter 2023,7,2.555,2021,4,0.55,0.595,Summer 2026,1,0.426,-1,-1.0,-0.124,0.827,0.729,False,True,0.553,1.241,0.553,0.983,Spiky,96,97,1
+Customer Support,27,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,11,Winter 2023,7,2.555,2021,2,0.275,0.595,Summer 2026,1,0.426,-1,0.0,0.151,0.599,0.832,False,True,0.297,0.898,0.78,0.803,Spiky,96,143,47
+Geographic Information System,5,"Spring 2026,Winter 2026",Summer 2021,Summer 2026,4,Summer 2025,1,0.602,2021,2,0.275,0.0,Summer 2026,1,0.426,1,0.0,0.151,0.343,0.14,True,False,0.256,0.213,0.0,1.605,Low-volume / mixed,96,143,47
+Design Tools,30,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,13,Fall 2024,3,3.191,2021,9,1.238,2.083,Summer 2026,1,0.426,-6,-3.5,-0.812,0.799,0.987,False,False,1.298,0.898,0.726,0.801,Spiky,96,46,-50
+Customer Service,14,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,10,Fall 2024,1,1.064,2021,2,0.275,0.595,Summer 2026,1,0.426,-1,0.0,0.151,0.343,0.442,False,False,0.297,0.213,0.479,0.732,Low-volume / mixed,96,143,47
+Databases,18,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,10,Summer 2023,5,2.273,2021,2,0.275,0.298,Summer 2026,1,0.426,0,0.0,0.151,0.37,0.602,False,True,0.277,0.555,0.362,1.088,Spiky,96,143,47
+eLearning,32,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,10,Winter 2021,12,3.571,2021,20,2.751,3.571,Summer 2026,1,0.426,-11,-9.0,-2.325,0.343,0.733,False,True,2.808,0.213,0.441,1.284,Declining,96,19,-77
+Satellites,19,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,11,Fall 2025,2,1.37,2021,5,0.688,1.19,Summer 2026,1,0.426,-3,-1.5,-0.262,0.599,0.491,False,False,0.723,0.898,0.414,0.879,Low-volume / mixed,96,75,-21
+HR Tech,44,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,14,Summer 2023,4,1.818,2021,12,1.651,1.488,Summer 2026,1,0.426,-4,-5.0,-1.225,0.37,1.144,False,False,1.639,0.555,1.335,0.557,Low-volume / mixed,96,35,-61
+Mental Health,4,"Spring 2026,Winter 2026",Summer 2021,Summer 2026,3,Summer 2025,1,0.602,2021,2,0.275,0.0,Summer 2026,1,0.426,1,0.0,0.151,0.343,0.11,False,False,0.256,0.213,0.0,1.939,Low-volume / mixed,96,143,47
+Operations,36,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,15,Summer 2024,7,2.823,2021,5,0.688,0.595,Summer 2026,1,0.426,-1,-1.5,-0.262,1.028,1.08,False,True,0.681,1.241,0.684,0.685,Spiky,96,75,-21
+Housing,7,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,6,Winter 2025,1,0.602,2021,3,0.413,0.595,Summer 2026,1,0.426,-1,-0.5,0.013,0.142,0.194,False,False,0.425,0.213,0.0,1.223,Low-volume / mixed,96,111,15
+Neurotechnology,9,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,6,Winter 2022,3,0.754,2021,3,0.413,0.595,Summer 2026,1,0.426,-1,-0.5,0.013,0.142,0.217,False,False,0.425,0.213,0.0,1.254,Low-volume / mixed,96,111,15
+Careers,2,"Spring 2026,Winter 2026",Summer 2022,Summer 2026,2,Summer 2022,1,0.427,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.061,False,False,0.0,0.213,0.0,2.449,Low-volume / mixed,96,231,135
+Regtech,17,"Spring 2026,Winter 2026",Summer 2021,Summer 2026,11,Fall 2024,1,1.064,2021,2,0.275,0.0,Summer 2026,1,0.426,1,0.0,0.151,0.142,0.476,True,False,0.256,0.213,0.469,0.745,Low-volume / mixed,96,143,47
+eSports,1,"Spring 2026,Winter 2026",Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.03,False,False,0.0,0.213,0.0,3.606,Low-volume / mixed,96,231,135
+SMB,9,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,7,Winter 2024,3,1.21,2021,1,0.138,0.298,Summer 2026,1,0.426,0,0.5,0.288,0.37,0.264,False,False,0.149,0.555,0.126,1.296,Low-volume / mixed,96,185,89
+Retail,21,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,10,Winter 2023,5,1.825,2021,4,0.55,0.298,Summer 2026,1,0.426,0,-1.0,-0.124,0.142,0.6,False,True,0.532,0.213,0.414,0.954,Low-volume / mixed,96,97,1
+Climate,81,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,9,Winter 2022,20,5.025,2021,32,4.402,3.869,Summer 2026,1,0.426,-12,-15.0,-3.976,0.142,1.828,False,True,4.364,0.213,1.54,0.996,Declining,96,10,-86
+Compliance,63,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,16,Fall 2025,5,3.425,2021,6,0.825,1.19,Summer 2026,1,0.426,-3,-2.0,-0.399,1.484,1.966,False,False,0.851,1.925,2.113,0.496,Low-volume / mixed,96,65,-31
+Privacy,12,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,8,Summer 2024,2,0.806,2021,3,0.413,0.595,Summer 2026,1,0.426,-1,-0.5,0.013,0.142,0.311,False,False,0.425,0.213,0.31,0.977,Low-volume / mixed,96,111,15
+Radar,1,"Spring 2026,Winter 2026",Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.03,False,False,0.0,0.213,0.0,3.606,Low-volume / mixed,96,231,135
+Medical Devices,30,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,8,Summer 2021,12,3.069,2021,14,1.926,0.595,Summer 2026,1,0.426,-1,-6.0,-1.5,0.343,0.679,False,True,1.832,0.213,0.414,1.284,Spiky,96,30,-66
+Location-based,1,"Spring 2026,Winter 2026",Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.03,False,False,0.0,0.213,0.0,3.606,Low-volume / mixed,96,231,135
+Electronics,10,"Spring 2026,Winter 2026",Winter 2022,Fall 2026,7,Winter 2025,4,2.41,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.328,True,False,0.0,0.213,0.0,1.886,Spiky,96,231,135
+Drug discovery,21,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,9,Winter 2024,3,1.21,2021,5,0.688,0.893,Summer 2026,1,0.426,-2,-1.5,-0.262,0.37,0.533,False,False,0.703,0.555,0.47,0.876,Low-volume / mixed,96,75,-21
+AR,3,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,3,Winter 2025,1,0.602,2021,1,0.138,0.298,Summer 2026,1,0.426,0,0.5,0.288,0.142,0.095,False,False,0.149,0.213,0.0,2.009,Low-volume / mixed,96,185,89
+APIs,8,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,7,Spring 2025,1,0.699,2021,3,0.413,0.595,Summer 2026,1,0.426,-1,-0.5,0.013,0.37,0.219,False,False,0.425,0.555,0.0,1.252,Low-volume / mixed,96,111,15
+Airlines,3,"Spring 2026,Winter 2026",Summer 2023,Summer 2026,3,Fall 2024,1,1.064,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.139,False,False,0.0,0.213,0.0,2.151,Low-volume / mixed,96,231,135
+Alternative Fuels,1,"Spring 2026,Winter 2026",Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.03,False,False,0.0,0.213,0.0,3.606,Low-volume / mixed,96,231,135
+Architecture,5,"Spring 2026,Winter 2026",Winter 2022,Summer 2026,4,Fall 2025,2,1.37,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.599,0.175,True,False,0.0,0.898,0.0,2.08,Low-volume / mixed,96,231,135
+Skincare,2,"Spring 2026,Winter 2026",Winter 2022,Summer 2026,2,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.048,False,False,0.0,0.213,0.0,2.543,Low-volume / mixed,96,231,135
+Travel,21,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,10,Winter 2024,3,1.21,2021,5,0.688,0.893,Summer 2026,1,0.426,-2,-1.5,-0.262,0.343,0.602,False,False,0.703,0.213,0.602,0.74,Low-volume / mixed,96,75,-21
+Unmanned Vehicle,2,"Spring 2026,Winter 2026",Summer 2022,Summer 2026,2,Summer 2022,1,0.427,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.061,False,False,0.0,0.213,0.0,2.449,Low-volume / mixed,96,231,135
+Video,44,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,12,Fall 2024,3,3.191,2021,8,1.1,1.19,Summer 2026,1,0.426,-3,-3.0,-0.674,1.859,1.446,False,False,1.107,1.583,1.246,0.685,Low-volume / mixed,96,51,-45
+Vaccines,1,"Spring 2026,Winter 2026",Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.03,False,False,0.0,0.213,0.0,3.606,Low-volume / mixed,96,231,135
+Warehouse Management Tech,9,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,6,Winter 2021,2,0.595,2021,4,0.55,0.595,Summer 2026,1,0.426,-1,-1.0,-0.124,0.142,0.2,False,False,0.553,0.213,0.0,1.182,Low-volume / mixed,96,97,1
+Virtual Reality,9,"Spring 2026,Winter 2026",Winter 2021,Summer 2026,5,Winter 2022,4,1.005,2021,2,0.275,0.298,Summer 2026,1,0.426,0,0.0,0.151,0.142,0.203,False,False,0.277,0.213,0.0,1.614,Low-volume / mixed,96,143,47
+Smart Waste Management,1,"Spring 2026,Winter 2026",Summer 2026,Summer 2026,1,Summer 2026,1,0.426,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,0.03,False,False,0.0,0.213,0.0,3.606,Low-volume / mixed,96,231,135
+Automotive,16,"Spring 2026,Winter 2026",Winter 2022,Summer 2026,10,Fall 2024,2,2.128,2021,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.37,0.542,True,False,0.0,0.555,0.395,1.152,Spiky,96,231,135
+Telemedicine,17,"Spring 2026,Winter 2026",Winter 2021,Winter 2023,4,Winter 2022,6,1.508,2021,10,1.376,1.488,Summer 2026,0,0.0,-5,-5.0,-1.376,0.0,0.331,False,True,1.383,0.0,0.0,1.752,Low-volume / mixed,146,42,-104
+Sustainable Tourism,1,"Spring 2026,Winter 2026",Winter 2022,Winter 2022,1,Winter 2022,1,0.251,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.018,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Sports Tech,8,"Spring 2026,Winter 2026",Winter 2021,Fall 2025,5,Fall 2025,2,1.37,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.457,0.273,False,False,0.297,0.685,0.0,1.529,Low-volume / mixed,146,143,-3
+Speech Recognition,5,"Spring 2026,Winter 2026",Summer 2021,Summer 2025,4,Summer 2025,1,0.602,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.201,0.126,True,False,0.128,0.0,0.0,1.672,Low-volume / mixed,146,185,39
+Subscriptions,23,"Spring 2026,Winter 2026",Winter 2021,Winter 2024,7,Winter 2021,9,2.679,2021,13,1.788,2.679,Summer 2026,0,0.0,-9,-6.5,-1.788,0.0,0.498,False,True,1.851,0.0,0.202,1.461,Spiky,146,32,-114
+Sustainable Fashion,4,"Spring 2026,Winter 2026",Winter 2021,Summer 2022,3,Summer 2022,2,0.855,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.101,False,False,0.277,0.0,0.0,2.29,Low-volume / mixed,146,143,-3
+Solar Power,13,"Spring 2026,Winter 2026",Summer 2021,Winter 2026,8,Summer 2022,2,0.855,2021,2,0.275,0.0,Summer 2026,0,0.0,0,-1.0,-0.275,0.0,0.304,True,False,0.256,0.0,0.202,1.071,Low-volume / mixed,146,143,-3
+Scheduling,4,"Spring 2026,Winter 2026",Winter 2021,Winter 2026,3,Winter 2021,2,0.595,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.0,0.073,False,False,0.297,0.0,0.0,2.488,Low-volume / mixed,146,143,-3
+Talent Acquisition,2,"Spring 2026,Winter 2026",Summer 2021,Fall 2026,2,Summer 2021,1,0.256,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.018,False,False,0.128,0.0,0.0,3.606,Low-volume / mixed,146,185,39
+Team Collaboration,6,"Spring 2026,Winter 2026",Winter 2021,Spring 2025,5,Spring 2025,2,1.399,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.226,False,False,0.149,0.0,0.0,1.704,Low-volume / mixed,146,185,39
+Smart Home Assistants,1,"Spring 2026,Winter 2026",Fall 2025,Fall 2025,1,Fall 2025,1,0.685,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.228,0.049,False,False,0.0,0.343,0.0,3.606,Low-volume / mixed,146,231,85
+Social,22,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,11,Winter 2022,6,1.508,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.457,0.568,False,True,0.425,0.685,0.384,0.996,Low-volume / mixed,146,111,-35
+Social Media,18,"Spring 2026,Winter 2026",Winter 2021,Fall 2025,7,Fall 2024,3,3.191,2021,3,0.413,0.893,Summer 2026,0,0.0,-3,-1.5,-0.413,0.685,0.716,False,False,0.447,1.028,0.182,1.331,Spiky,146,111,-35
+Social Network,7,"Spring 2026,Winter 2026",Winter 2021,Fall 2025,5,Winter 2024,3,1.21,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.228,0.225,False,False,0.277,0.343,0.0,1.625,Low-volume / mixed,146,143,-3
+Autonomous Trucking,2,"Spring 2026,Winter 2026",Winter 2021,Winter 2021,1,Winter 2021,2,0.595,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.0,0.042,False,False,0.297,0.0,0.0,3.606,Low-volume / mixed,146,143,-3
+Autonomous Shipping,1,"Spring 2026,Winter 2026",Spring 2025,Spring 2025,1,Spring 2025,1,0.699,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.05,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Autonomous Delivery,2,"Spring 2026,Winter 2026",Winter 2021,Summer 2021,2,Winter 2021,1,0.298,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.04,False,False,0.277,0.0,0.0,2.458,Low-volume / mixed,146,143,-3
+Banking as a Service,12,"Spring 2026,Winter 2026",Winter 2021,Summer 2023,5,Winter 2022,6,1.508,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.0,0.262,False,True,0.425,0.0,0.0,1.666,Low-volume / mixed,146,111,-35
+Search,18,"Spring 2026,Winter 2026",Summer 2021,Summer 2025,8,Winter 2024,5,2.016,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.402,0.566,True,True,0.128,0.0,0.33,1.114,Spiky,146,185,39
+Assistive Tech,1,"Spring 2026,Winter 2026",Summer 2021,Summer 2021,1,Summer 2021,1,0.256,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.018,False,False,0.128,0.0,0.0,3.606,Low-volume / mixed,146,185,39
+Augmented Reality,5,"Spring 2026,Winter 2026",Winter 2021,Winter 2025,5,Winter 2025,1,0.602,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.142,False,False,0.277,0.0,0.0,1.435,Low-volume / mixed,146,143,-3
+Auto Commerce,2,"Spring 2026,Winter 2026",Summer 2021,Summer 2022,2,Summer 2022,1,0.427,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.049,False,False,0.128,0.0,0.0,2.537,Low-volume / mixed,146,185,39
+Email,12,"Spring 2026,Winter 2026",Winter 2021,Summer 2025,8,Summer 2025,2,1.205,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.402,0.388,False,False,0.425,0.0,0.33,1.049,Low-volume / mixed,146,111,-35
+Electric Vehicles,12,"Spring 2026,Winter 2026",Winter 2021,Winter 2025,5,Winter 2021,4,1.19,2021,5,0.688,1.19,Summer 2026,0,0.0,-4,-2.5,-0.688,0.0,0.27,False,False,0.723,0.0,0.0,1.521,Low-volume / mixed,146,75,-71
+Beauty,4,"Spring 2026,Winter 2026",Winter 2021,Fall 2025,3,Fall 2025,1,0.685,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.228,0.11,False,False,0.425,0.343,0.0,2.067,Low-volume / mixed,146,111,-35
+Sleep Tech,3,"Spring 2026,Winter 2026",Winter 2021,Summer 2021,2,Summer 2021,2,0.512,2021,3,0.413,0.298,Summer 2026,0,0.0,-1,-1.5,-0.413,0.0,0.058,False,False,0.405,0.0,0.0,2.547,Low-volume / mixed,146,111,-35
+Anti-Aging,3,"Spring 2026,Winter 2026",Winter 2021,Summer 2021,2,Winter 2021,2,0.595,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.0,0.061,False,False,0.425,0.0,0.0,2.667,Low-volume / mixed,146,111,-35
+Airplanes,6,"Spring 2026,Winter 2026",Winter 2021,Winter 2023,5,Summer 2022,2,0.855,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.145,False,False,0.277,0.0,0.0,1.641,Low-volume / mixed,146,143,-3
+Advertising,23,"Spring 2026,Winter 2026",Summer 2021,Spring 2026,11,Fall 2025,5,3.425,2021,2,0.275,0.0,Summer 2026,0,0.0,0,-1.0,-0.275,1.142,0.681,True,False,0.256,1.712,0.47,1.271,Spiky,146,143,-3
+Art Trading Platforms,1,"Spring 2026,Winter 2026",Summer 2021,Summer 2021,1,Summer 2021,1,0.256,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.018,False,False,0.128,0.0,0.0,3.606,Low-volume / mixed,146,185,39
+Ghost Kitchens,7,"Spring 2026,Winter 2026",Winter 2021,Summer 2022,3,Summer 2021,4,1.023,2021,6,0.825,0.595,Summer 2026,0,0.0,-2,-3.0,-0.825,0.0,0.146,False,False,0.809,0.0,0.0,2.073,Low-volume / mixed,146,65,-81
+Genetic Engineering,3,"Spring 2026,Winter 2026",Summer 2023,Spring 2026,3,Fall 2025,1,0.685,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.228,0.081,False,False,0.0,0.343,0.0,2.507,Low-volume / mixed,146,231,85
+Gardening,1,"Spring 2026,Winter 2026",Winter 2021,Winter 2021,1,Winter 2021,1,0.298,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.021,False,False,0.149,0.0,0.0,3.606,Low-volume / mixed,146,185,39
+Gene Therapy,8,"Spring 2026,Winter 2026",Winter 2021,Spring 2026,7,Winter 2025,1,0.602,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.184,False,False,0.149,0.0,0.0,1.207,Low-volume / mixed,146,185,39
+Fusion Energy,2,"Spring 2026,Winter 2026",Winter 2025,Fall 2025,2,Fall 2025,1,0.685,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.228,0.092,False,False,0.0,0.343,0.0,2.455,Low-volume / mixed,146,231,85
+Fundraising,2,"Spring 2026,Winter 2026",Winter 2023,Winter 2023,1,Winter 2023,2,0.73,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.052,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Fraud Detection,7,"Spring 2026,Winter 2026",Summer 2021,Winter 2026,5,Summer 2022,2,0.855,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.16,True,False,0.128,0.0,0.0,1.774,Low-volume / mixed,146,185,39
+Fraud Prevention,3,"Spring 2026,Winter 2026",Summer 2022,Winter 2024,3,Summer 2023,1,0.455,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.092,False,False,0.0,0.0,0.0,1.918,Low-volume / mixed,146,231,85
+Food & Beverage,10,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,7,Summer 2023,2,0.909,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.201,0.252,False,False,0.425,0.0,0.0,1.297,Low-volume / mixed,146,111,-35
+Food Service Robots & Machines,3,"Spring 2026,Winter 2026",Winter 2021,Summer 2021,2,Summer 2021,2,0.512,2021,3,0.413,0.298,Summer 2026,0,0.0,-1,-1.5,-0.413,0.0,0.058,False,False,0.405,0.0,0.0,2.547,Low-volume / mixed,146,111,-35
+Food Tech,22,"Spring 2026,Winter 2026",Winter 2021,Summer 2025,7,Winter 2022,7,1.759,2021,7,0.963,1.19,Summer 2026,0,0.0,-4,-3.5,-0.963,0.201,0.511,False,True,0.978,0.0,0.202,1.216,Low-volume / mixed,146,58,-88
+Dating,1,"Spring 2026,Winter 2026",Winter 2021,Winter 2021,1,Winter 2021,1,0.298,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.021,False,False,0.149,0.0,0.0,3.606,Low-volume / mixed,146,185,39
+DeFi,10,"Spring 2026,Winter 2026",Winter 2021,Summer 2022,4,Summer 2022,3,1.282,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.0,0.224,False,False,0.425,0.0,0.0,1.836,Low-volume / mixed,146,111,-35
+Deepfake Detection,1,"Spring 2026,Winter 2026",Winter 2022,Winter 2022,1,Winter 2022,1,0.251,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.018,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Delivery,22,"Spring 2026,Winter 2026",Winter 2021,Fall 2024,7,Summer 2021,8,2.046,2021,12,1.651,1.19,Summer 2026,0,0.0,-4,-6.0,-1.651,0.0,0.516,False,True,1.618,0.0,0.182,1.23,Spiky,146,35,-111
+Dental,4,"Spring 2026,Winter 2026",Winter 2024,Summer 2025,4,Winter 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.201,0.144,False,False,0.0,0.0,0.0,1.624,Low-volume / mixed,146,231,85
+Crowdsourcing,2,"Spring 2026,Winter 2026",Summer 2025,Spring 2026,2,Summer 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.201,0.043,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Cryptocurrency,10,"Spring 2026,Winter 2026",Winter 2021,Winter 2026,6,Summer 2022,2,0.855,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.231,False,False,0.149,0.0,0.0,1.431,Low-volume / mixed,146,185,39
+Cryptography,2,"Spring 2026,Winter 2026",Winter 2022,Winter 2022,1,Winter 2022,2,0.503,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.036,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Culture,2,"Spring 2026,Winter 2026",Winter 2021,Winter 2026,2,Winter 2021,1,0.298,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.021,False,False,0.149,0.0,0.0,3.606,Low-volume / mixed,146,185,39
+DAO,2,"Spring 2026,Winter 2026",Winter 2022,Winter 2022,1,Winter 2022,2,0.503,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.036,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Data Visualization,20,"Spring 2026,Winter 2026",Winter 2021,Summer 2025,8,Winter 2024,5,2.016,2021,3,0.413,0.298,Summer 2026,0,0.0,-1,-1.5,-0.413,0.402,0.601,False,True,0.405,0.0,0.351,1.169,Spiky,146,111,-35
+Cultured Meat,3,"Spring 2026,Winter 2026",Winter 2021,Winter 2022,3,Winter 2021,1,0.298,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.058,False,False,0.277,0.0,0.0,1.922,Low-volume / mixed,146,143,-3
+Energy Storage,8,"Spring 2026,Winter 2026",Winter 2021,Spring 2025,5,Winter 2024,2,0.806,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.0,0.212,False,False,0.297,0.0,0.0,1.409,Low-volume / mixed,146,143,-3
+FinOps,26,"Spring 2026,Winter 2026",Winter 2021,Winter 2026,10,Winter 2025,3,1.807,2021,9,1.238,0.893,Summer 2026,0,0.0,-3,-4.5,-1.238,0.228,0.661,False,False,1.214,0.343,0.72,0.91,Low-volume / mixed,146,46,-100
+Femtech,4,"Spring 2026,Winter 2026",Winter 2021,Summer 2022,3,Summer 2022,2,0.855,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.1,False,False,0.149,0.0,0.0,2.296,Low-volume / mixed,146,185,39
+Feedback,5,"Spring 2026,Winter 2026",Winter 2021,Summer 2024,3,Summer 2024,3,1.21,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.137,False,False,0.149,0.0,0.0,2.361,Low-volume / mixed,146,185,39
+Fashion,2,"Spring 2026,Winter 2026",Winter 2022,Winter 2023,2,Winter 2023,1,0.365,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.044,False,False,0.0,0.0,0.0,2.498,Low-volume / mixed,146,231,85
+Emerging Markets,6,"Spring 2026,Winter 2026",Winter 2021,Winter 2026,6,Winter 2025,1,0.602,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.148,False,False,0.149,0.0,0.0,1.403,Low-volume / mixed,146,185,39
+Food,5,"Spring 2026,Winter 2026",Winter 2021,Summer 2023,4,Winter 2021,2,0.595,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.0,0.111,False,False,0.425,0.0,0.0,1.727,Low-volume / mixed,146,111,-35
+Fitness,10,"Spring 2026,Winter 2026",Winter 2021,Fall 2024,5,Fall 2024,1,1.064,2021,5,0.688,0.595,Summer 2026,0,0.0,-2,-2.5,-0.688,0.0,0.283,False,False,0.681,0.0,0.0,1.38,Low-volume / mixed,146,75,-71
+Conversational Banking,1,"Spring 2026,Winter 2026",Summer 2023,Summer 2023,1,Summer 2023,1,0.455,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.033,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Drug Delivery,3,"Spring 2026,Winter 2026",Summer 2022,Summer 2025,3,Summer 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.201,0.106,False,False,0.0,0.0,0.0,1.944,Low-volume / mixed,146,231,85
+Documents,22,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,11,Winter 2023,4,1.46,2021,4,0.55,0.893,Summer 2026,0,0.0,-3,-2.0,-0.55,0.0,0.677,False,False,0.575,0.0,0.674,0.838,Low-volume / mixed,146,97,-49
+DevSecOps,14,"Spring 2026,Winter 2026",Winter 2021,Spring 2026,9,Summer 2022,2,0.855,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.201,0.353,False,False,0.425,0.0,0.356,0.946,Low-volume / mixed,146,111,-35
+Diagnostics,13,"Spring 2026,Winter 2026",Winter 2021,Summer 2024,7,Summer 2022,2,0.855,2021,5,0.688,0.595,Summer 2026,0,0.0,-2,-2.5,-0.688,0.0,0.31,False,False,0.681,0.0,0.182,1.078,Low-volume / mixed,146,75,-71
+Edtech,14,"Spring 2026,Winter 2026",Winter 2021,Spring 2025,8,Winter 2025,2,1.205,2021,4,0.55,1.19,Summer 2026,0,0.0,-4,-2.0,-0.55,0.0,0.416,False,False,0.595,0.0,0.308,1.068,Low-volume / mixed,146,97,-49
+E-Commerce,3,"Spring 2026,Winter 2026",Winter 2021,Winter 2022,3,Winter 2021,1,0.298,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.058,False,False,0.277,0.0,0.0,1.922,Low-volume / mixed,146,143,-3
+Mental Health Tech,19,"Spring 2026,Winter 2026",Winter 2021,Winter 2023,5,Summer 2021,7,1.79,2021,10,1.376,0.893,Summer 2026,0,0.0,-3,-5.0,-1.376,0.0,0.382,False,True,1.341,0.0,0.0,1.556,Low-volume / mixed,146,42,-104
+Medical Robotics,3,"Spring 2026,Winter 2026",Summer 2021,Summer 2023,3,Summer 2023,1,0.455,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.081,False,False,0.128,0.0,0.0,1.979,Low-volume / mixed,146,185,39
+Media,17,"Spring 2026,Winter 2026",Winter 2021,Fall 2025,10,Fall 2024,2,2.128,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.457,0.585,False,False,0.425,0.685,0.415,1.053,Spiky,146,111,-35
+Maritime,3,"Spring 2026,Winter 2026",Winter 2021,Summer 2025,2,Summer 2025,1,0.602,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.201,0.086,False,False,0.297,0.0,0.0,2.45,Low-volume / mixed,146,143,-3
+Livestock Health,1,"Spring 2026,Winter 2026",Summer 2025,Summer 2025,1,Summer 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.201,0.043,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Live,2,"Spring 2026,Winter 2026",Winter 2021,Fall 2024,2,Fall 2024,1,1.064,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.097,False,False,0.149,0.0,0.0,2.866,Low-volume / mixed,146,185,39
+Kubernetes,7,"Spring 2026,Winter 2026",Winter 2021,Spring 2026,6,Winter 2022,2,0.503,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.146,False,False,0.149,0.0,0.0,1.373,Low-volume / mixed,146,185,39
+Metaverse,2,"Spring 2026,Winter 2026",Winter 2022,Summer 2022,2,Summer 2022,1,0.427,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.048,False,False,0.0,0.0,0.0,2.544,Low-volume / mixed,146,231,85
+Immigration,3,"Spring 2026,Winter 2026",Summer 2024,Fall 2025,3,Fall 2025,1,0.685,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.228,0.121,False,False,0.0,0.343,0.0,1.968,Low-volume / mixed,146,231,85
+Hydrogen Energy,4,"Spring 2026,Winter 2026",Winter 2022,Summer 2023,3,Winter 2022,2,0.503,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.095,False,False,0.0,0.0,0.0,1.935,Low-volume / mixed,146,231,85
+Investments,7,"Spring 2026,Winter 2026",Summer 2021,Spring 2026,6,Fall 2025,1,0.685,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.228,0.158,True,False,0.128,0.343,0.0,1.449,Low-volume / mixed,146,185,39
+International,4,"Spring 2026,Winter 2026",Summer 2021,Fall 2024,4,Fall 2024,1,1.064,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.152,False,False,0.128,0.0,0.0,1.928,Low-volume / mixed,146,185,39
+Industrial Workplace Safety,1,"Spring 2026,Winter 2026",Summer 2021,Summer 2021,1,Summer 2021,1,0.256,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.018,False,False,0.128,0.0,0.0,3.606,Low-volume / mixed,146,185,39
+India,8,"Spring 2026,Winter 2026",Winter 2021,Summer 2023,3,Winter 2022,4,1.005,2021,3,0.413,0.893,Summer 2026,0,0.0,-3,-1.5,-0.413,0.0,0.168,False,False,0.447,0.0,0.0,2.023,Low-volume / mixed,146,111,-35
+Income Share Agreements,2,"Spring 2026,Winter 2026",Winter 2021,Summer 2021,2,Winter 2021,1,0.298,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.04,False,False,0.277,0.0,0.0,2.458,Low-volume / mixed,146,143,-3
+IoT,7,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,4,Winter 2021,3,0.893,2021,4,0.55,0.893,Summer 2026,0,0.0,-3,-2.0,-0.55,0.0,0.118,False,False,0.575,0.0,0.0,2.174,Low-volume / mixed,146,97,-49
+Kids,2,"Spring 2026,Winter 2026",Winter 2021,Summer 2021,2,Winter 2021,1,0.298,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.04,False,False,0.277,0.0,0.0,2.458,Low-volume / mixed,146,143,-3
+IoT Security,1,"Spring 2026,Winter 2026",Summer 2025,Summer 2025,1,Summer 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.201,0.043,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Lidar,1,"Spring 2026,Winter 2026",Summer 2024,Summer 2024,1,Summer 2024,1,0.403,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.029,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Lending,15,"Spring 2026,Winter 2026",Winter 2021,Winter 2026,8,Winter 2021,3,0.893,2021,6,0.825,0.893,Summer 2026,0,0.0,-3,-3.0,-0.825,0.201,0.332,False,False,0.83,0.0,0.202,1.069,Low-volume / mixed,146,65,-81
+Latin America,8,"Spring 2026,Winter 2026",Winter 2021,Winter 2024,5,Winter 2021,3,0.893,2021,4,0.55,0.893,Summer 2026,0,0.0,-3,-2.0,-0.55,0.0,0.204,False,False,0.575,0.0,0.0,1.535,Low-volume / mixed,146,97,-49
+Identity,12,"Spring 2026,Winter 2026",Winter 2021,Winter 2026,6,Summer 2022,4,1.709,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.0,0.266,False,False,0.425,0.0,0.0,1.768,Low-volume / mixed,146,111,-35
+GraphQL,1,"Spring 2026,Winter 2026",Winter 2023,Winter 2023,1,Winter 2023,1,0.365,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.026,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Grocery,15,"Spring 2026,Winter 2026",Winter 2021,Spring 2025,7,Summer 2021,5,1.279,2021,9,1.238,1.19,Summer 2026,0,0.0,-4,-4.5,-1.238,0.0,0.366,False,True,1.234,0.0,0.126,1.239,Low-volume / mixed,146,46,-100
+Home Automation,2,"Spring 2026,Winter 2026",Summer 2023,Fall 2025,2,Fall 2025,1,0.685,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.228,0.081,False,False,0.0,0.343,0.0,2.507,Low-volume / mixed,146,231,85
+Human Resources,12,"Spring 2026,Winter 2026",Winter 2021,Fall 2026,7,Winter 2021,3,0.893,2021,4,0.55,0.893,Summer 2026,0,0.0,-3,-2.0,-0.55,0.0,0.237,False,False,0.575,0.0,0.0,1.478,Low-volume / mixed,146,97,-49
+Biometrics,3,"Spring 2026,Winter 2026",Summer 2021,Fall 2025,3,Fall 2025,1,0.685,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.228,0.085,False,False,0.128,0.343,0.0,2.211,Low-volume / mixed,146,185,39
+Billing,5,"Spring 2026,Winter 2026",Summer 2021,Summer 2024,4,Summer 2023,2,0.909,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.13,True,False,0.128,0.0,0.0,1.931,Low-volume / mixed,146,185,39
+Podcasts,3,"Spring 2026,Winter 2026",Summer 2021,Summer 2024,3,Summer 2022,1,0.427,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.078,False,False,0.128,0.0,0.0,1.967,Low-volume / mixed,146,185,39
+Pediatrics,1,"Spring 2026,Winter 2026",Winter 2022,Winter 2022,1,Winter 2022,1,0.251,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.018,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Payroll,11,"Spring 2026,Winter 2026",Summer 2021,Winter 2026,8,Summer 2023,2,0.909,2021,2,0.275,0.0,Summer 2026,0,0.0,0,-1.0,-0.275,0.0,0.26,True,False,0.256,0.0,0.126,1.15,Low-volume / mixed,146,143,-3
+Payments,91,"Spring 2026,Winter 2026",Winter 2021,Spring 2026,14,Summer 2022,15,6.41,2021,23,3.164,2.679,Summer 2026,0,0.0,-9,-11.5,-3.164,0.429,2.279,False,True,3.13,0.343,1.613,0.83,Declining,146,15,-131
+Nonprofit,4,"Spring 2026,Winter 2026",Winter 2021,Summer 2022,3,Winter 2021,2,0.595,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.0,0.091,False,False,0.297,0.0,0.0,2.044,Low-volume / mixed,146,143,-3
+Note-taking,3,"Spring 2026,Winter 2026",Winter 2021,Summer 2025,3,Summer 2025,1,0.602,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.201,0.082,False,False,0.149,0.0,0.0,2.106,Low-volume / mixed,146,185,39
+Networks,1,"Spring 2026,Winter 2026",Summer 2025,Summer 2025,1,Summer 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.201,0.043,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Neobank,44,"Spring 2026,Winter 2026",Winter 2021,Spring 2026,13,Winter 2022,15,3.769,2021,7,0.963,1.19,Summer 2026,0,0.0,-4,-3.5,-0.963,0.657,1.118,False,True,0.978,0.685,0.786,0.913,Spiky,146,58,-88
+No-code,27,"Spring 2026,Winter 2026",Winter 2021,Fall 2025,11,Fall 2025,4,2.74,2021,6,0.825,0.298,Summer 2026,0,0.0,-1,-3.0,-0.825,1.114,0.887,False,False,0.788,1.37,0.552,0.919,Spiky,146,65,-81
+Next-gen Network Security,2,"Spring 2026,Winter 2026",Winter 2022,Winter 2022,1,Winter 2022,2,0.503,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.036,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Navigation,2,"Spring 2026,Winter 2026",Summer 2022,Summer 2024,2,Summer 2022,1,0.427,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.059,False,False,0.0,0.0,0.0,2.451,Low-volume / mixed,146,231,85
+Nanomedicine,2,"Spring 2026,Winter 2026",Winter 2021,Summer 2023,2,Summer 2023,1,0.455,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.054,False,False,0.149,0.0,0.0,2.511,Low-volume / mixed,146,185,39
+Nanosensors,1,"Spring 2026,Winter 2026",Summer 2024,Summer 2024,1,Summer 2024,1,0.403,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.029,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Nanotechnology,3,"Spring 2026,Winter 2026",Summer 2022,Winter 2023,2,Winter 2023,2,0.73,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.083,False,False,0.0,0.0,0.0,2.546,Low-volume / mixed,146,231,85
+Messaging,9,"Spring 2026,Winter 2026",Summer 2021,Spring 2026,6,Summer 2022,3,1.282,2021,2,0.275,0.0,Summer 2026,0,0.0,0,-1.0,-0.275,0.0,0.251,True,False,0.256,0.0,0.0,1.644,Low-volume / mixed,146,143,-3
+Microinsurance,2,"Spring 2026,Winter 2026",Winter 2021,Winter 2022,2,Winter 2021,1,0.298,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.039,False,False,0.149,0.0,0.0,2.46,Low-volume / mixed,146,185,39
+Microfluidics,2,"Spring 2026,Winter 2026",Summer 2021,Winter 2023,2,Winter 2023,1,0.365,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.044,False,False,0.128,0.0,0.0,2.493,Low-volume / mixed,146,185,39
+NLP,10,"Spring 2026,Winter 2026",Winter 2021,Fall 2025,7,Summer 2022,2,0.855,2021,3,0.413,0.595,Summer 2026,0,0.0,-2,-1.5,-0.413,0.228,0.262,False,False,0.425,0.343,0.128,1.124,Low-volume / mixed,146,111,-35
+NFT,3,"Spring 2026,Winter 2026",Winter 2022,Summer 2022,2,Winter 2022,2,0.503,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.066,False,False,0.0,0.0,0.0,2.459,Low-volume / mixed,146,231,85
+Music,6,"Spring 2026,Winter 2026",Winter 2021,Fall 2025,4,Winter 2024,2,0.806,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.228,0.164,False,False,0.149,0.343,0.0,1.701,Low-volume / mixed,146,185,39
+Mobility,4,"Spring 2026,Winter 2026",Winter 2021,Summer 2024,3,Winter 2021,2,0.595,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.0,0.089,False,False,0.297,0.0,0.0,2.049,Low-volume / mixed,146,143,-3
+Mining,3,"Spring 2026,Winter 2026",Winter 2022,Summer 2024,2,Winter 2022,2,0.503,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.065,False,False,0.0,0.0,0.0,2.467,Low-volume / mixed,146,231,85
+Call Center,9,"Spring 2026,Winter 2026",Winter 2022,Winter 2025,6,Summer 2024,3,1.21,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.313,True,False,0.0,0.0,0.0,1.36,Low-volume / mixed,146,231,85
+Carbon Capture and Removal,8,"Spring 2026,Winter 2026",Winter 2021,Summer 2022,4,Summer 2021,4,1.023,2021,5,0.688,0.298,Summer 2026,0,0.0,-1,-2.5,-0.688,0.0,0.161,False,False,0.66,0.0,0.0,1.827,Low-volume / mixed,146,75,-71
+Booking,1,"Spring 2026,Winter 2026",Winter 2025,Winter 2025,1,Winter 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.043,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Bioplastic,1,"Spring 2026,Winter 2026",Summer 2022,Summer 2022,1,Summer 2022,1,0.427,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.03,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+CRISPR,1,"Spring 2026,Winter 2026",Winter 2025,Winter 2025,1,Winter 2025,1,0.602,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.043,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+CRM,11,"Spring 2026,Winter 2026",Summer 2021,Fall 2025,9,Winter 2025,2,1.205,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.228,0.35,True,False,0.128,0.343,0.31,1.023,Low-volume / mixed,146,185,39
+Calendar,1,"Spring 2026,Winter 2026",Summer 2021,Summer 2021,1,Summer 2021,1,0.256,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.018,False,False,0.128,0.0,0.0,3.606,Low-volume / mixed,146,185,39
+COVID-19,1,"Spring 2026,Winter 2026",Winter 2022,Winter 2022,1,Winter 2022,1,0.251,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.018,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Recommendation System,2,"Spring 2026,Winter 2026",Winter 2022,Winter 2023,2,Winter 2023,1,0.365,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.044,False,False,0.0,0.0,0.0,2.498,Low-volume / mixed,146,231,85
+Quantum Computing,1,"Spring 2026,Winter 2026",Summer 2024,Summer 2024,1,Summer 2024,1,0.403,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.029,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Proptech,58,"Spring 2026,Winter 2026",Winter 2021,Fall 2025,12,Winter 2022,14,3.518,2021,15,2.063,2.083,Summer 2026,0,0.0,-7,-7.5,-2.063,0.657,1.501,False,True,2.064,0.685,1.367,0.677,Low-volume / mixed,146,27,-119
+Primary Care,4,"Spring 2026,Winter 2026",Summer 2021,Winter 2022,2,Summer 2021,3,0.767,2021,3,0.413,0.0,Summer 2026,0,0.0,0,-1.5,-0.413,0.0,0.073,False,False,0.384,0.0,0.0,2.793,Low-volume / mixed,146,111,-35
+Cloud Workload Protection,2,"Spring 2026,Winter 2026",Winter 2021,Summer 2021,2,Winter 2021,1,0.298,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.04,False,False,0.277,0.0,0.0,2.458,Low-volume / mixed,146,143,-3
+Collaboration,18,"Spring 2026,Winter 2026",Winter 2021,Summer 2024,7,Winter 2023,5,1.825,2021,5,0.688,0.595,Summer 2026,0,0.0,-2,-2.5,-0.688,0.0,0.418,False,True,0.681,0.0,0.202,1.261,Low-volume / mixed,146,75,-71
+Commercial Space Launch,2,"Spring 2026,Winter 2026",Summer 2021,Summer 2022,2,Summer 2022,1,0.427,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.049,False,False,0.128,0.0,0.0,2.537,Low-volume / mixed,146,185,39
+Community,25,"Spring 2026,Winter 2026",Winter 2021,Winter 2025,5,Summer 2021,12,3.069,2021,19,2.613,2.083,Summer 2026,0,0.0,-7,-9.5,-2.613,0.0,0.526,False,True,2.576,0.0,0.0,1.727,Declining,146,23,-123
+Civic Tech,2,"Spring 2026,Winter 2026",Summer 2024,Summer 2024,1,Summer 2024,2,0.806,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.058,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Clean Meat,1,"Spring 2026,Winter 2026",Winter 2022,Winter 2022,1,Winter 2022,1,0.251,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.018,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Cashierless Checkout,1,"Spring 2026,Winter 2026",Winter 2022,Winter 2022,1,Winter 2022,1,0.251,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.018,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Cell Therapy,3,"Spring 2026,Winter 2026",Winter 2022,Winter 2023,3,Summer 2022,1,0.427,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.074,False,False,0.0,0.0,0.0,1.968,Low-volume / mixed,146,231,85
+Cellular Agriculture,2,"Spring 2026,Winter 2026",Winter 2022,Winter 2022,1,Winter 2022,2,0.503,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.036,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Chat,4,"Spring 2026,Winter 2026",Winter 2021,Spring 2026,4,Winter 2025,1,0.602,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.201,0.107,False,False,0.149,0.0,0.0,2.012,Low-volume / mixed,146,185,39
+Chatbot,5,"Spring 2026,Winter 2026",Winter 2021,Summer 2023,5,Summer 2023,1,0.455,2021,2,0.275,0.298,Summer 2026,0,0.0,-1,-1.0,-0.275,0.0,0.116,False,False,0.277,0.0,0.0,1.399,Low-volume / mixed,146,143,-3
+Chatbots,1,"Spring 2026,Winter 2026",Winter 2024,Winter 2024,1,Winter 2024,1,0.403,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.029,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+SMS,4,"Spring 2026,Winter 2026",Winter 2022,Summer 2024,3,Summer 2024,2,0.806,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.108,False,False,0.0,0.0,0.0,2.152,Low-volume / mixed,146,231,85
+SEO,4,"Spring 2026,Winter 2026",Summer 2021,Spring 2026,4,Fall 2024,1,1.064,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.112,False,False,0.128,0.0,0.0,2.48,Low-volume / mixed,146,185,39
+Rocketry,2,"Spring 2026,Winter 2026",Winter 2024,Fall 2025,2,Fall 2025,1,0.685,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.228,0.078,False,False,0.0,0.343,0.0,2.544,Low-volume / mixed,146,231,85
+Robotic Surgery,1,"Spring 2026,Winter 2026",Summer 2022,Summer 2022,1,Summer 2022,1,0.427,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.03,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Reviews,1,"Spring 2026,Winter 2026",Summer 2024,Summer 2024,1,Summer 2024,1,0.403,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.029,False,False,0.0,0.0,0.0,3.606,Low-volume / mixed,146,231,85
+Ridesharing,1,"Spring 2026,Winter 2026",Summer 2021,Summer 2021,1,Summer 2021,1,0.256,2021,1,0.138,0.0,Summer 2026,0,0.0,0,-0.5,-0.138,0.0,0.018,False,False,0.128,0.0,0.0,3.606,Low-volume / mixed,146,185,39
+Retail Tech,5,"Spring 2026,Winter 2026",Winter 2021,Winter 2025,4,Fall 2024,2,2.128,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.245,False,False,0.149,0.0,0.0,2.262,Spiky,146,185,39
+Remote Work,9,"Spring 2026,Winter 2026",Winter 2021,Winter 2026,6,Summer 2021,3,0.767,2021,5,0.688,0.595,Summer 2026,0,0.0,-2,-2.5,-0.688,0.0,0.17,False,False,0.681,0.0,0.0,1.488,Low-volume / mixed,146,75,-71
+Remittances,3,"Spring 2026,Winter 2026",Winter 2022,Winter 2024,3,Summer 2023,1,0.455,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.079,False,False,0.0,0.0,0.0,1.981,Low-volume / mixed,146,231,85
+Remote,2,"Spring 2026,Winter 2026",Winter 2021,Winter 2021,1,Winter 2021,2,0.595,2021,2,0.275,0.595,Summer 2026,0,0.0,-2,-1.0,-0.275,0.0,0.042,False,False,0.297,0.0,0.0,3.606,Low-volume / mixed,146,143,-3
+Trust & Safety,3,"Spring 2026,Winter 2026",Winter 2022,Spring 2026,3,Summer 2023,1,0.455,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.05,False,False,0.0,0.0,0.0,2.566,Low-volume / mixed,146,231,85
+Transportation,15,"Spring 2026,Winter 2026",Summer 2021,Fall 2025,10,Fall 2024,1,1.064,2021,2,0.275,0.0,Summer 2026,0,0.0,0,-1.0,-0.275,0.228,0.483,True,False,0.256,0.343,0.557,0.712,Low-volume / mixed,146,143,-3
+Web Development,18,"Spring 2026,Winter 2026",Winter 2021,Spring 2026,13,Summer 2023,4,1.818,2021,4,0.55,0.595,Summer 2026,0,0.0,-2,-2.0,-0.55,0.429,0.526,False,False,0.553,0.343,0.47,0.793,Low-volume / mixed,146,97,-49
+Weather,1,"Spring 2026,Winter 2026",Winter 2021,Winter 2021,1,Winter 2021,1,0.298,2021,1,0.138,0.298,Summer 2026,0,0.0,-1,-0.5,-0.138,0.0,0.021,False,False,0.149,0.0,0.0,3.606,Low-volume / mixed,146,185,39
+3D Printing,3,"Spring 2026,Winter 2026",Spring 2025,Fall 2026,3,Spring 2025,1,0.699,2021,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.201,0.093,False,False,0.0,0.0,0.0,2.457,Low-volume / mixed,146,231,85
+Women's Health,8,"Spring 2026,Winter 2026",Summer 2021,Fall 2025,5,Summer 2021,4,1.023,2021,4,0.55,0.0,Summer 2026,0,0.0,0,-2.0,-0.55,0.228,0.199,True,False,0.511,0.343,0.0,1.574,Low-volume / mixed,146,97,-49

@@ -1,0 +1,822 @@
+label_type,label,era,edition_label,edition_order,requests_mentioning,mentions,in_title_any
+industry,B2B,seasonal,Summer 2024,20242,2,2,False
+industry,B2B,seasonal,Spring 2025,20251,1,4,False
+industry,B2B,seasonal,Summer 2025,20252,1,1,False
+industry,B2B,seasonal,Fall 2025,20253,1,1,False
+industry,Consumer,consolidated,March 2018,20180,2,3,False
+industry,Consumer,consolidated,April 2020,20201,1,1,False
+industry,Consumer,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+industry,Consumer,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+industry,Consumer,seasonal,Summer 2024,20242,4,4,False
+industry,Consumer,seasonal,Summer 2025,20252,1,1,False
+industry,Consumer,seasonal,Fall 2026,20263,2,6,True
+industry,Education,essays,RFS 6,20100,1,1,False
+industry,Education,consolidated,March 2014,20140,1,3,True
+industry,Education,essays,RFS 10,20140,1,3,False
+industry,Education,consolidated,July 2014,20142,1,3,True
+industry,Education,consolidated,September 2014,20142,1,3,True
+industry,Education,consolidated,August 2015,20152,1,3,True
+industry,Education,consolidated,September 2016,20162,1,3,True
+industry,Education,consolidated,March 2018,20180,2,6,True
+industry,Education,consolidated,April 2020,20201,2,6,True
+industry,Education,consolidated,undated version first captured 2022-03-02,20220,2,6,True
+industry,Education,consolidated,undated version first captured 2022-07-01,20222,2,6,True
+industry,Education,seasonal,Summer 2025,20252,2,6,True
+industry,Education,seasonal,Fall 2026,20263,1,1,False
+industry,Fintech,seasonal,Summer 2024,20242,1,1,False
+industry,Fintech,seasonal,Winter 2025,20250,1,3,True
+industry,Government,consolidated,March 2014,20140,1,1,False
+industry,Government,essays,RFS 10,20140,1,1,False
+industry,Government,consolidated,July 2014,20142,1,1,False
+industry,Government,consolidated,September 2014,20142,1,3,True
+industry,Government,consolidated,August 2015,20152,1,1,False
+industry,Government,consolidated,September 2016,20162,1,1,False
+industry,Government,consolidated,March 2018,20180,2,3,True
+industry,Government,consolidated,April 2020,20201,2,3,True
+industry,Government,consolidated,undated version first captured 2022-03-02,20220,2,3,True
+industry,Government,consolidated,undated version first captured 2022-07-01,20222,2,3,True
+industry,Government,seasonal,Summer 2024,20242,1,1,False
+industry,Government,seasonal,Winter 2025,20250,1,8,True
+industry,Government,seasonal,Fall 2025,20253,2,9,True
+industry,Government,seasonal,Spring 2026,20261,2,10,True
+industry,Government,seasonal,Fall 2026,20263,2,2,False
+industry,Healthcare,consolidated,March 2014,20140,1,6,True
+industry,Healthcare,essays,RFS 10,20140,1,6,False
+industry,Healthcare,consolidated,July 2014,20142,1,6,True
+industry,Healthcare,consolidated,September 2014,20142,1,6,True
+industry,Healthcare,consolidated,August 2015,20152,1,6,True
+industry,Healthcare,consolidated,September 2016,20162,2,7,True
+industry,Healthcare,consolidated,March 2018,20180,5,10,True
+industry,Healthcare,consolidated,April 2020,20201,4,9,True
+industry,Healthcare,consolidated,undated version first captured 2022-03-02,20220,4,9,True
+industry,Healthcare,consolidated,undated version first captured 2022-07-01,20222,4,9,True
+industry,Healthcare,seasonal,Summer 2024,20242,4,7,True
+industry,Healthcare,seasonal,Summer 2025,20252,1,5,True
+industry,Healthcare,seasonal,Spring 2026,20261,1,1,False
+industry,Healthcare,seasonal,Summer 2026,20262,1,1,False
+subindustry_child,Agriculture,consolidated,September 2016,20162,1,1,False
+subindustry_child,Agriculture,consolidated,March 2018,20180,2,3,True
+subindustry_child,Agriculture,consolidated,April 2020,20201,2,3,True
+subindustry_child,Agriculture,consolidated,undated version first captured 2022-03-02,20220,2,3,True
+subindustry_child,Agriculture,consolidated,undated version first captured 2022-07-01,20222,2,3,True
+subindustry_child,Agriculture,seasonal,Summer 2026,20262,1,3,True
+subindustry_child,Agriculture,seasonal,Fall 2026,20263,1,1,False
+subindustry_child,Climate,consolidated,March 2014,20140,1,1,False
+subindustry_child,Climate,essays,RFS 10,20140,1,1,False
+subindustry_child,Climate,consolidated,July 2014,20142,1,1,False
+subindustry_child,Climate,consolidated,September 2014,20142,1,1,False
+subindustry_child,Climate,consolidated,August 2015,20152,1,1,False
+subindustry_child,Climate,consolidated,March 2018,20180,1,1,False
+subindustry_child,Climate,consolidated,April 2020,20201,1,1,False
+subindustry_child,Climate,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+subindustry_child,Climate,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+subindustry_child,Climate,seasonal,Summer 2024,20242,1,5,True
+subindustry_child,Construction,seasonal,Summer 2024,20242,1,1,False
+subindustry_child,Construction,seasonal,Spring 2025,20251,1,1,False
+subindustry_child,Construction,seasonal,Fall 2026,20263,2,2,False
+subindustry_child,Content,essays,RFS 1,20090,1,3,False
+subindustry_child,Content,consolidated,March 2014,20140,1,1,False
+subindustry_child,Content,essays,RFS 10,20140,1,1,False
+subindustry_child,Content,consolidated,July 2014,20142,1,1,False
+subindustry_child,Content,consolidated,September 2014,20142,2,4,False
+subindustry_child,Content,consolidated,August 2015,20152,2,4,False
+subindustry_child,Content,consolidated,September 2016,20162,2,4,False
+subindustry_child,Content,seasonal,Summer 2025,20252,1,1,False
+subindustry_child,Defense,seasonal,Summer 2024,20242,1,4,True
+subindustry_child,Defense,seasonal,Summer 2026,20262,1,4,True
+subindustry_child,Defense,seasonal,Fall 2026,20263,1,1,True
+subindustry_child,Diagnostics,consolidated,March 2018,20180,2,4,False
+subindustry_child,Diagnostics,consolidated,April 2020,20201,2,4,False
+subindustry_child,Diagnostics,consolidated,undated version first captured 2022-03-02,20220,2,4,False
+subindustry_child,Diagnostics,consolidated,undated version first captured 2022-07-01,20222,1,3,False
+subindustry_child,Diagnostics,seasonal,Summer 2026,20262,1,2,False
+subindustry_child,Drones,seasonal,Summer 2026,20262,1,4,False
+subindustry_child,Drones,seasonal,Fall 2026,20263,1,1,False
+subindustry_child,Energy,essays,RFS 9,20120,1,1,False
+subindustry_child,Energy,consolidated,March 2014,20140,2,9,True
+subindustry_child,Energy,essays,RFS 10,20140,1,9,False
+subindustry_child,Energy,consolidated,July 2014,20142,2,9,True
+subindustry_child,Energy,consolidated,September 2014,20142,2,9,True
+subindustry_child,Energy,consolidated,August 2015,20152,2,9,True
+subindustry_child,Energy,consolidated,September 2016,20162,2,9,True
+subindustry_child,Energy,consolidated,March 2018,20180,3,10,True
+subindustry_child,Energy,consolidated,April 2020,20201,3,10,True
+subindustry_child,Energy,consolidated,undated version first captured 2022-03-02,20220,3,10,True
+subindustry_child,Energy,consolidated,undated version first captured 2022-07-01,20222,3,10,True
+subindustry_child,Energy,seasonal,Summer 2024,20242,1,1,False
+subindustry_child,Energy,seasonal,Winter 2025,20250,1,1,False
+subindustry_child,Energy,seasonal,Spring 2026,20261,1,5,False
+subindustry_child,Energy,seasonal,Fall 2026,20263,1,1,False
+subindustry_child,Gaming,seasonal,Summer 2024,20242,1,1,False
+subindustry_child,Gaming,seasonal,Fall 2025,20253,1,1,False
+subindustry_child,Human Resources,consolidated,July 2014,20142,1,1,False
+subindustry_child,Human Resources,consolidated,September 2014,20142,1,1,False
+subindustry_child,Human Resources,consolidated,August 2015,20152,1,1,False
+subindustry_child,Human Resources,consolidated,September 2016,20162,1,1,False
+subindustry_child,Human Resources,consolidated,March 2018,20180,1,1,False
+subindustry_child,Human Resources,consolidated,April 2020,20201,1,1,False
+subindustry_child,Human Resources,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+subindustry_child,Human Resources,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+subindustry_child,Infrastructure,essays,RFS 4,20090,1,5,False
+subindustry_child,Infrastructure,consolidated,March 2014,20140,1,2,True
+subindustry_child,Infrastructure,essays,RFS 10,20140,1,2,False
+subindustry_child,Infrastructure,consolidated,July 2014,20142,1,2,True
+subindustry_child,Infrastructure,consolidated,September 2014,20142,3,4,True
+subindustry_child,Infrastructure,consolidated,August 2015,20152,3,7,True
+subindustry_child,Infrastructure,consolidated,September 2016,20162,1,1,False
+subindustry_child,Infrastructure,consolidated,March 2018,20180,2,2,False
+subindustry_child,Infrastructure,consolidated,April 2020,20201,1,1,False
+subindustry_child,Infrastructure,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+subindustry_child,Infrastructure,seasonal,Winter 2025,20250,1,1,False
+subindustry_child,Infrastructure,seasonal,Spring 2025,20251,4,6,True
+subindustry_child,Infrastructure,seasonal,Summer 2025,20252,2,4,False
+subindustry_child,Infrastructure,seasonal,Fall 2025,20253,4,5,True
+subindustry_child,Infrastructure,seasonal,Spring 2026,20261,1,2,False
+subindustry_child,Infrastructure,seasonal,Fall 2026,20263,3,6,True
+subindustry_child,Insurance,seasonal,Summer 2024,20242,2,2,False
+subindustry_child,Insurance,seasonal,Winter 2025,20250,1,1,False
+subindustry_child,Insurance,seasonal,Spring 2025,20251,1,1,False
+subindustry_child,Insurance,seasonal,Summer 2026,20262,1,1,False
+subindustry_child,Legal,essays,RFS 1,20090,1,1,False
+subindustry_child,Legal,essays,RFS 2,20090,1,1,False
+subindustry_child,Legal,essays,RFS 3,20090,1,1,False
+subindustry_child,Legal,essays,RFS 4,20090,1,1,False
+subindustry_child,Legal,essays,RFS 5,20090,1,1,False
+subindustry_child,Legal,essays,RFS 6,20100,1,1,False
+subindustry_child,Legal,essays,RFS 7,20100,1,1,False
+subindustry_child,Legal,essays,RFS 8,20110,1,1,False
+subindustry_child,Legal,essays,RFS 9,20120,1,1,False
+subindustry_child,Legal,essays,RFS 10,20140,1,1,False
+subindustry_child,Legal,consolidated,March 2018,20180,1,1,False
+subindustry_child,Legal,consolidated,April 2020,20201,1,1,False
+subindustry_child,Legal,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+subindustry_child,Legal,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+subindustry_child,Legal,seasonal,Summer 2025,20252,1,1,False
+subindustry_child,Legal,seasonal,Fall 2025,20253,1,1,False
+subindustry_child,Legal,seasonal,Spring 2026,20261,1,1,False
+subindustry_child,Legal,seasonal,Fall 2026,20263,1,1,False
+subindustry_child,Marketing,seasonal,Summer 2024,20242,1,1,False
+subindustry_child,Medical Devices,consolidated,September 2014,20142,1,1,False
+subindustry_child,Medical Devices,consolidated,August 2015,20152,1,1,False
+subindustry_child,Medical Devices,consolidated,September 2016,20162,1,1,False
+subindustry_child,Medical Devices,consolidated,March 2018,20180,1,2,False
+subindustry_child,Medical Devices,consolidated,April 2020,20201,1,2,False
+subindustry_child,Medical Devices,consolidated,undated version first captured 2022-03-02,20220,1,2,False
+subindustry_child,Medical Devices,consolidated,undated version first captured 2022-07-01,20222,1,2,False
+subindustry_child,Medical Devices,seasonal,Summer 2026,20262,1,1,False
+subindustry_child,Operations,seasonal,Summer 2024,20242,1,1,False
+subindustry_child,Operations,seasonal,Winter 2025,20250,1,1,False
+subindustry_child,Operations,seasonal,Spring 2025,20251,1,1,False
+subindustry_child,Operations,seasonal,Summer 2025,20252,1,1,False
+subindustry_child,Operations,seasonal,Spring 2026,20261,1,1,False
+subindustry_child,Operations,seasonal,Fall 2026,20263,2,2,False
+subindustry_child,Payments,consolidated,September 2014,20142,1,1,False
+subindustry_child,Payments,seasonal,Summer 2024,20242,1,1,False
+subindustry_child,Payments,seasonal,Winter 2025,20250,1,1,False
+subindustry_child,Payments,seasonal,Spring 2025,20251,1,1,False
+subindustry_child,Payments,seasonal,Spring 2026,20261,1,1,False
+subindustry_child,Payments,seasonal,Fall 2026,20263,1,1,False
+subindustry_child,Productivity,consolidated,March 2014,20140,1,1,False
+subindustry_child,Productivity,essays,RFS 10,20140,1,1,False
+subindustry_child,Productivity,consolidated,July 2014,20142,1,1,False
+subindustry_child,Productivity,consolidated,March 2018,20180,1,1,False
+subindustry_child,Productivity,consolidated,April 2020,20201,1,1,False
+subindustry_child,Productivity,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+subindustry_child,Productivity,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+subindustry_child,Productivity,seasonal,Spring 2025,20251,1,1,False
+subindustry_child,Productivity,seasonal,Summer 2025,20252,1,2,False
+subindustry_child,Retail,essays,RFS 2,20090,1,1,False
+subindustry_child,Retail,consolidated,September 2014,20142,1,1,False
+subindustry_child,Retail,consolidated,August 2015,20152,1,1,False
+subindustry_child,Retail,consolidated,September 2016,20162,1,1,False
+subindustry_child,Retail,consolidated,March 2018,20180,2,5,False
+subindustry_child,Retail,consolidated,April 2020,20201,2,5,False
+subindustry_child,Retail,consolidated,undated version first captured 2022-03-02,20220,2,5,False
+subindustry_child,Retail,consolidated,undated version first captured 2022-07-01,20222,2,5,False
+subindustry_child,Sales,consolidated,March 2018,20180,1,1,False
+subindustry_child,Sales,consolidated,April 2020,20201,1,1,False
+subindustry_child,Sales,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+subindustry_child,Sales,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+subindustry_child,Sales,seasonal,Summer 2024,20242,2,4,False
+subindustry_child,Sales,seasonal,Spring 2025,20251,1,1,False
+subindustry_child,Sales,seasonal,Fall 2025,20253,1,1,False
+subindustry_child,Sales,seasonal,Fall 2026,20263,1,1,False
+subindustry_child,Security,consolidated,March 2014,20140,1,1,False
+subindustry_child,Security,essays,RFS 10,20140,1,1,False
+subindustry_child,Security,consolidated,July 2014,20142,1,1,False
+subindustry_child,Security,consolidated,September 2014,20142,1,1,False
+subindustry_child,Security,consolidated,August 2015,20152,2,2,True
+subindustry_child,Security,consolidated,September 2016,20162,1,1,True
+subindustry_child,Security,consolidated,March 2018,20180,1,1,True
+subindustry_child,Security,seasonal,Spring 2025,20251,1,1,False
+subindustry_child,Security,seasonal,Summer 2025,20252,1,3,True
+subindustry_child,Social,essays,RFS 9,20120,1,1,False
+subindustry_child,Social,consolidated,March 2014,20140,1,1,False
+subindustry_child,Social,essays,RFS 10,20140,1,1,False
+subindustry_child,Social,consolidated,July 2014,20142,1,1,False
+subindustry_child,Social,consolidated,September 2014,20142,1,1,False
+subindustry_child,Social,consolidated,September 2016,20162,1,2,True
+subindustry_child,Social,consolidated,March 2018,20180,3,4,True
+subindustry_child,Social,consolidated,April 2020,20201,3,4,True
+subindustry_child,Social,consolidated,undated version first captured 2022-03-02,20220,3,4,True
+subindustry_child,Social,consolidated,undated version first captured 2022-07-01,20222,3,4,True
+subindustry_child,Social,seasonal,Summer 2024,20242,1,1,False
+subindustry_child,Social,seasonal,Winter 2025,20250,1,1,False
+subindustry_child,Therapeutics,seasonal,Summer 2024,20242,1,2,False
+tag,3D Printing,seasonal,Summer 2026,20262,1,1,False
+tag,AI,consolidated,March 2014,20140,1,1,False
+tag,AI,essays,RFS 10,20140,1,1,False
+tag,AI,consolidated,July 2014,20142,1,1,False
+tag,AI,consolidated,September 2014,20142,1,1,False
+tag,AI,consolidated,August 2015,20152,1,1,False
+tag,AI,consolidated,September 2016,20162,1,1,False
+tag,AI,consolidated,March 2018,20180,3,4,False
+tag,AI,consolidated,April 2020,20201,3,4,False
+tag,AI,consolidated,undated version first captured 2022-03-02,20220,3,4,False
+tag,AI,consolidated,undated version first captured 2022-07-01,20222,3,4,False
+tag,AI,seasonal,Summer 2024,20242,5,15,True
+tag,AI,seasonal,Winter 2025,20250,5,12,True
+tag,AI,seasonal,Spring 2025,20251,11,48,True
+tag,AI,seasonal,Summer 2025,20252,13,34,True
+tag,AI,seasonal,Fall 2025,20253,5,21,True
+tag,AI,seasonal,Spring 2026,20261,9,30,True
+tag,AI,seasonal,Summer 2026,20262,12,34,True
+tag,AI,seasonal,Fall 2026,20263,7,20,True
+tag,API,essays,RFS 4,20090,1,3,False
+tag,API,consolidated,March 2014,20140,1,2,False
+tag,API,essays,RFS 10,20140,1,2,False
+tag,API,consolidated,July 2014,20142,1,2,False
+tag,API,consolidated,September 2014,20142,1,2,False
+tag,API,consolidated,August 2015,20152,1,2,False
+tag,API,seasonal,Spring 2025,20251,2,2,False
+tag,API,seasonal,Summer 2025,20252,1,1,False
+tag,API,seasonal,Fall 2026,20263,1,5,False
+tag,APIs,seasonal,Spring 2025,20251,3,3,False
+tag,APIs,seasonal,Summer 2025,20252,1,1,False
+tag,APIs,seasonal,Fall 2025,20253,1,1,False
+tag,APIs,seasonal,Spring 2026,20261,1,1,False
+tag,APIs,seasonal,Summer 2026,20262,1,1,False
+tag,APIs,seasonal,Fall 2026,20263,1,2,True
+tag,AR,consolidated,September 2014,20142,1,1,True
+tag,AR,consolidated,August 2015,20152,1,1,True
+tag,AR,consolidated,September 2016,20162,1,1,True
+tag,AR,consolidated,March 2018,20180,1,1,True
+tag,AR,consolidated,April 2020,20201,1,1,True
+tag,AR,consolidated,undated version first captured 2022-03-02,20220,1,1,True
+tag,AR,consolidated,undated version first captured 2022-07-01,20222,1,1,True
+tag,AR,seasonal,Summer 2024,20242,1,1,False
+tag,AR,seasonal,Fall 2025,20253,1,1,False
+tag,Aerospace,seasonal,Winter 2025,20250,1,1,False
+tag,Agriculture,consolidated,September 2016,20162,1,1,False
+tag,Agriculture,consolidated,March 2018,20180,2,3,True
+tag,Agriculture,consolidated,April 2020,20201,2,3,True
+tag,Agriculture,consolidated,undated version first captured 2022-03-02,20220,2,3,True
+tag,Agriculture,consolidated,undated version first captured 2022-07-01,20222,2,3,True
+tag,Agriculture,seasonal,Summer 2026,20262,1,3,True
+tag,Agriculture,seasonal,Fall 2026,20263,1,1,False
+tag,Airplanes,seasonal,Summer 2024,20242,1,1,False
+tag,Anti-Aging,consolidated,March 2018,20180,1,1,True
+tag,Anti-Aging,consolidated,April 2020,20201,1,1,True
+tag,Anti-Aging,consolidated,undated version first captured 2022-03-02,20220,1,1,True
+tag,Anti-Aging,consolidated,undated version first captured 2022-07-01,20222,1,1,True
+tag,Architecture,seasonal,Winter 2025,20250,1,1,False
+tag,Architecture,seasonal,Summer 2026,20262,1,1,False
+tag,Architecture,seasonal,Fall 2026,20263,1,1,False
+tag,Artificial Intelligence,seasonal,Fall 2026,20263,1,1,False
+tag,Augmented Reality,consolidated,March 2014,20140,1,1,False
+tag,Augmented Reality,essays,RFS 10,20140,1,1,False
+tag,Augmented Reality,consolidated,July 2014,20142,1,1,False
+tag,Augmented Reality,consolidated,September 2014,20142,1,1,False
+tag,Augmented Reality,consolidated,August 2015,20152,1,1,False
+tag,Augmented Reality,consolidated,September 2016,20162,1,1,False
+tag,Augmented Reality,consolidated,March 2018,20180,1,1,False
+tag,Augmented Reality,consolidated,April 2020,20201,1,1,False
+tag,Augmented Reality,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Augmented Reality,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Automation,consolidated,September 2016,20162,1,1,False
+tag,Automation,consolidated,March 2018,20180,1,1,False
+tag,Automation,consolidated,April 2020,20201,1,1,False
+tag,Automation,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Automation,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Automation,seasonal,Summer 2024,20242,1,1,False
+tag,Automation,seasonal,Spring 2025,20251,2,2,True
+tag,Automation,seasonal,Spring 2026,20261,1,3,False
+tag,Automation,seasonal,Summer 2026,20262,1,3,False
+tag,B2B,seasonal,Summer 2024,20242,2,2,False
+tag,B2B,seasonal,Spring 2025,20251,1,4,False
+tag,B2B,seasonal,Summer 2025,20252,1,1,False
+tag,B2B,seasonal,Fall 2025,20253,1,1,False
+tag,Billing,seasonal,Summer 2024,20242,2,3,False
+tag,Billing,seasonal,Fall 2026,20263,1,1,False
+tag,Biotech,consolidated,March 2014,20140,1,1,True
+tag,Biotech,essays,RFS 10,20140,1,1,False
+tag,Biotech,consolidated,July 2014,20142,1,1,True
+tag,Biotech,consolidated,September 2014,20142,2,3,True
+tag,Biotech,consolidated,August 2015,20152,2,3,True
+tag,Biotech,consolidated,September 2016,20162,2,3,True
+tag,Biotech,consolidated,March 2018,20180,1,1,False
+tag,Biotech,consolidated,April 2020,20201,1,1,False
+tag,Biotech,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Biotech,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,COVID-19,consolidated,March 2018,20180,1,5,True
+tag,COVID-19,consolidated,April 2020,20201,1,5,True
+tag,COVID-19,consolidated,undated version first captured 2022-03-02,20220,1,5,True
+tag,CRM,seasonal,Summer 2024,20242,1,1,False
+tag,CRM,seasonal,Fall 2025,20253,1,1,False
+tag,Calendar,seasonal,Spring 2025,20251,1,1,False
+tag,Calendar,seasonal,Summer 2025,20252,1,1,False
+tag,Calendar,seasonal,Summer 2026,20262,1,1,False
+tag,Careers,seasonal,Winter 2025,20250,1,3,False
+tag,Cellular Agriculture,consolidated,March 2018,20180,1,2,True
+tag,Cellular Agriculture,consolidated,April 2020,20201,1,2,True
+tag,Cellular Agriculture,consolidated,undated version first captured 2022-03-02,20220,1,2,True
+tag,Cellular Agriculture,consolidated,undated version first captured 2022-07-01,20222,1,2,True
+tag,Chat,seasonal,Fall 2025,20253,1,1,False
+tag,Chat,seasonal,Fall 2026,20263,1,1,False
+tag,Chatbot,seasonal,Summer 2026,20262,2,2,False
+tag,Clean Meat,consolidated,March 2018,20180,1,1,True
+tag,Clean Meat,consolidated,April 2020,20201,1,1,True
+tag,Clean Meat,consolidated,undated version first captured 2022-03-02,20220,1,1,True
+tag,Clean Meat,consolidated,undated version first captured 2022-07-01,20222,1,1,True
+tag,Climate,consolidated,March 2014,20140,1,1,False
+tag,Climate,essays,RFS 10,20140,1,1,False
+tag,Climate,consolidated,July 2014,20142,1,1,False
+tag,Climate,consolidated,September 2014,20142,1,1,False
+tag,Climate,consolidated,August 2015,20152,1,1,False
+tag,Climate,consolidated,March 2018,20180,1,1,False
+tag,Climate,consolidated,April 2020,20201,1,1,False
+tag,Climate,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Climate,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Climate,seasonal,Summer 2024,20242,1,5,True
+tag,Cloud Computing,seasonal,Fall 2025,20253,2,3,False
+tag,Community,consolidated,March 2018,20180,1,1,False
+tag,Community,consolidated,April 2020,20201,1,1,False
+tag,Community,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Community,seasonal,Summer 2024,20242,2,2,False
+tag,Community,seasonal,Winter 2025,20250,1,1,False
+tag,Community,seasonal,Spring 2025,20251,1,1,False
+tag,Compliance,seasonal,Summer 2024,20242,1,1,False
+tag,Compliance,seasonal,Spring 2025,20251,3,6,True
+tag,Compliance,seasonal,Spring 2026,20261,3,3,False
+tag,Compliance,seasonal,Summer 2026,20262,2,2,False
+tag,Compliance,seasonal,Fall 2026,20263,1,7,True
+tag,Computer Vision,seasonal,Winter 2025,20250,1,2,False
+tag,Construction,seasonal,Summer 2024,20242,1,1,False
+tag,Construction,seasonal,Spring 2025,20251,1,1,False
+tag,Construction,seasonal,Fall 2026,20263,2,2,False
+tag,Consumer,consolidated,March 2018,20180,2,3,False
+tag,Consumer,consolidated,April 2020,20201,1,1,False
+tag,Consumer,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Consumer,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Consumer,seasonal,Summer 2024,20242,4,4,False
+tag,Consumer,seasonal,Summer 2025,20252,1,1,False
+tag,Consumer,seasonal,Fall 2026,20263,2,6,True
+tag,Consumer Products,consolidated,March 2018,20180,1,2,False
+tag,Consumer Products,seasonal,Summer 2024,20242,2,2,False
+tag,Consumer Products,seasonal,Fall 2026,20263,1,2,True
+tag,Cryptocurrency,seasonal,Winter 2025,20250,1,1,False
+tag,Databases,seasonal,Spring 2026,20261,1,1,False
+tag,Databases,seasonal,Summer 2026,20262,1,1,False
+tag,Dating,seasonal,Fall 2026,20263,1,1,False
+tag,DeFi,seasonal,Spring 2026,20261,1,2,False
+tag,Defense,seasonal,Summer 2024,20242,1,4,True
+tag,Defense,seasonal,Summer 2026,20262,1,4,True
+tag,Defense,seasonal,Fall 2026,20263,1,1,True
+tag,Delivery,consolidated,March 2018,20180,1,1,False
+tag,Delivery,consolidated,April 2020,20201,1,1,False
+tag,Delivery,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Delivery,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Delivery,seasonal,Summer 2026,20262,2,3,False
+tag,Design,essays,RFS 1,20090,1,1,False
+tag,Design,essays,RFS 2,20090,1,1,False
+tag,Design,seasonal,Winter 2025,20250,2,7,True
+tag,Design,seasonal,Summer 2025,20252,1,6,True
+tag,Design,seasonal,Spring 2026,20261,3,4,False
+tag,Design,seasonal,Summer 2026,20262,6,8,False
+tag,Developer Tools,seasonal,Summer 2024,20242,2,2,True
+tag,Diagnostics,consolidated,March 2018,20180,2,4,False
+tag,Diagnostics,consolidated,April 2020,20201,2,4,False
+tag,Diagnostics,consolidated,undated version first captured 2022-03-02,20220,2,4,False
+tag,Diagnostics,consolidated,undated version first captured 2022-07-01,20222,1,3,False
+tag,Diagnostics,seasonal,Summer 2026,20262,1,2,False
+tag,Documents,seasonal,Winter 2025,20250,1,1,False
+tag,Documents,seasonal,Spring 2025,20251,2,7,False
+tag,Documents,seasonal,Spring 2026,20261,1,1,False
+tag,Documents,seasonal,Summer 2026,20262,1,1,False
+tag,Drones,seasonal,Summer 2026,20262,1,4,False
+tag,Drones,seasonal,Fall 2026,20263,1,1,False
+tag,Drug discovery,consolidated,August 2015,20152,1,1,False
+tag,Drug discovery,consolidated,September 2016,20162,1,1,False
+tag,Drug discovery,consolidated,March 2018,20180,2,2,False
+tag,Drug discovery,consolidated,April 2020,20201,2,2,False
+tag,Drug discovery,consolidated,undated version first captured 2022-03-02,20220,2,2,False
+tag,Drug discovery,consolidated,undated version first captured 2022-07-01,20222,2,2,False
+tag,Drug discovery,seasonal,Summer 2024,20242,1,1,False
+tag,Drug discovery,seasonal,Summer 2025,20252,1,1,False
+tag,Drug discovery,seasonal,Summer 2026,20262,1,1,False
+tag,Education,essays,RFS 6,20100,1,1,False
+tag,Education,consolidated,March 2014,20140,1,3,True
+tag,Education,essays,RFS 10,20140,1,3,False
+tag,Education,consolidated,July 2014,20142,1,3,True
+tag,Education,consolidated,September 2014,20142,1,3,True
+tag,Education,consolidated,August 2015,20152,1,3,True
+tag,Education,consolidated,September 2016,20162,1,3,True
+tag,Education,consolidated,March 2018,20180,2,6,True
+tag,Education,consolidated,April 2020,20201,2,6,True
+tag,Education,consolidated,undated version first captured 2022-03-02,20220,2,6,True
+tag,Education,consolidated,undated version first captured 2022-07-01,20222,2,6,True
+tag,Education,seasonal,Summer 2025,20252,2,6,True
+tag,Education,seasonal,Fall 2026,20263,1,1,False
+tag,Electronics,seasonal,Summer 2026,20262,1,2,True
+tag,Email,essays,RFS 3,20090,1,1,False
+tag,Email,seasonal,Summer 2025,20252,1,2,True
+tag,Email,seasonal,Summer 2026,20262,2,5,False
+tag,Energy,essays,RFS 9,20120,1,1,False
+tag,Energy,consolidated,March 2014,20140,2,9,True
+tag,Energy,essays,RFS 10,20140,1,9,False
+tag,Energy,consolidated,July 2014,20142,2,9,True
+tag,Energy,consolidated,September 2014,20142,2,9,True
+tag,Energy,consolidated,August 2015,20152,2,9,True
+tag,Energy,consolidated,September 2016,20162,2,9,True
+tag,Energy,consolidated,March 2018,20180,3,10,True
+tag,Energy,consolidated,April 2020,20201,3,10,True
+tag,Energy,consolidated,undated version first captured 2022-03-02,20220,3,10,True
+tag,Energy,consolidated,undated version first captured 2022-07-01,20222,3,10,True
+tag,Energy,seasonal,Summer 2024,20242,1,1,False
+tag,Energy,seasonal,Winter 2025,20250,1,1,False
+tag,Energy,seasonal,Spring 2026,20261,1,5,False
+tag,Energy,seasonal,Fall 2026,20263,1,1,False
+tag,Energy Storage,consolidated,March 2014,20140,1,1,False
+tag,Energy Storage,essays,RFS 10,20140,1,1,False
+tag,Energy Storage,consolidated,July 2014,20142,1,1,False
+tag,Energy Storage,consolidated,September 2014,20142,1,1,False
+tag,Energy Storage,consolidated,August 2015,20152,1,1,False
+tag,Energy Storage,consolidated,September 2016,20162,1,1,False
+tag,Energy Storage,consolidated,March 2018,20180,1,1,False
+tag,Energy Storage,consolidated,April 2020,20201,1,1,False
+tag,Energy Storage,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Energy Storage,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Enterprise,consolidated,September 2014,20142,1,4,True
+tag,Enterprise,consolidated,August 2015,20152,1,4,True
+tag,Enterprise,consolidated,September 2016,20162,1,4,True
+tag,Enterprise,consolidated,March 2018,20180,1,4,True
+tag,Enterprise,consolidated,April 2020,20201,1,4,True
+tag,Enterprise,consolidated,undated version first captured 2022-03-02,20220,1,4,True
+tag,Enterprise,consolidated,undated version first captured 2022-07-01,20222,1,4,True
+tag,Enterprise,seasonal,Summer 2024,20242,3,12,True
+tag,Enterprise,seasonal,Spring 2025,20251,1,1,False
+tag,Enterprise,seasonal,Fall 2025,20253,1,4,True
+tag,Enterprise,seasonal,Summer 2026,20262,1,1,False
+tag,Enterprise Software,consolidated,September 2014,20142,1,4,True
+tag,Enterprise Software,consolidated,August 2015,20152,1,4,True
+tag,Enterprise Software,consolidated,September 2016,20162,1,4,True
+tag,Enterprise Software,consolidated,March 2018,20180,1,4,True
+tag,Enterprise Software,consolidated,April 2020,20201,1,4,True
+tag,Enterprise Software,consolidated,undated version first captured 2022-03-02,20220,1,4,True
+tag,Enterprise Software,consolidated,undated version first captured 2022-07-01,20222,1,4,True
+tag,Enterprise Software,seasonal,Summer 2024,20242,2,7,True
+tag,Enterprise Software,seasonal,Fall 2025,20253,1,4,True
+tag,Enterprise Software,seasonal,Summer 2026,20262,1,1,False
+tag,Entertainment,consolidated,March 2018,20180,1,1,False
+tag,Entertainment,consolidated,April 2020,20201,1,1,False
+tag,Entertainment,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Entertainment,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Entertainment,seasonal,Fall 2025,20253,1,1,False
+tag,Feedback,seasonal,Summer 2024,20242,1,1,False
+tag,Feedback,seasonal,Fall 2025,20253,1,1,False
+tag,Feedback,seasonal,Spring 2026,20261,1,2,False
+tag,Finance,seasonal,Summer 2024,20242,1,4,True
+tag,Finance,seasonal,Winter 2025,20250,1,1,False
+tag,Finance,seasonal,Summer 2025,20252,1,2,True
+tag,Finance,seasonal,Spring 2026,20261,1,1,False
+tag,Finance,seasonal,Fall 2026,20263,2,2,False
+tag,Fintech,seasonal,Summer 2024,20242,1,1,False
+tag,Fintech,seasonal,Winter 2025,20250,1,3,True
+tag,Food,consolidated,March 2014,20140,2,3,True
+tag,Food,essays,RFS 10,20140,1,3,False
+tag,Food,consolidated,July 2014,20142,2,3,True
+tag,Food,consolidated,September 2014,20142,2,3,True
+tag,Food,consolidated,August 2015,20152,1,1,False
+tag,Food,consolidated,September 2016,20162,2,3,True
+tag,Food,consolidated,March 2018,20180,4,4,False
+tag,Food,consolidated,April 2020,20201,4,4,False
+tag,Food,consolidated,undated version first captured 2022-03-02,20220,4,4,False
+tag,Food,consolidated,undated version first captured 2022-07-01,20222,4,4,False
+tag,Food,seasonal,Summer 2026,20262,1,3,False
+tag,Fraud Detection,consolidated,August 2015,20152,1,1,False
+tag,Fraud Detection,consolidated,September 2016,20162,1,1,False
+tag,Fraud Detection,consolidated,March 2018,20180,1,1,False
+tag,Fraud Detection,consolidated,April 2020,20201,1,1,False
+tag,Fraud Detection,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Fraud Detection,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Gaming,seasonal,Summer 2024,20242,1,1,False
+tag,Gaming,seasonal,Fall 2025,20253,1,1,False
+tag,Grocery,consolidated,March 2018,20180,1,1,False
+tag,Hardware,essays,RFS 5,20090,1,1,False
+tag,Hardware,consolidated,March 2018,20180,1,1,False
+tag,Hardware,consolidated,April 2020,20201,1,1,False
+tag,Hardware,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Hardware,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Hardware,seasonal,Summer 2024,20242,2,2,False
+tag,Hardware,seasonal,Spring 2025,20251,2,8,True
+tag,Hardware,seasonal,Spring 2026,20261,1,1,False
+tag,Hardware,seasonal,Summer 2026,20262,2,8,True
+tag,Hardware,seasonal,Fall 2026,20263,1,1,False
+tag,Healthcare,consolidated,March 2014,20140,1,6,True
+tag,Healthcare,essays,RFS 10,20140,1,6,False
+tag,Healthcare,consolidated,July 2014,20142,1,6,True
+tag,Healthcare,consolidated,September 2014,20142,1,6,True
+tag,Healthcare,consolidated,August 2015,20152,1,6,True
+tag,Healthcare,consolidated,September 2016,20162,2,7,True
+tag,Healthcare,consolidated,March 2018,20180,5,10,True
+tag,Healthcare,consolidated,April 2020,20201,4,9,True
+tag,Healthcare,consolidated,undated version first captured 2022-03-02,20220,4,9,True
+tag,Healthcare,consolidated,undated version first captured 2022-07-01,20222,4,9,True
+tag,Healthcare,seasonal,Summer 2024,20242,4,7,True
+tag,Healthcare,seasonal,Summer 2025,20252,1,5,True
+tag,Healthcare,seasonal,Spring 2026,20261,1,1,False
+tag,Healthcare,seasonal,Summer 2026,20262,1,1,False
+tag,Housing,consolidated,March 2014,20140,1,2,True
+tag,Housing,essays,RFS 10,20140,1,2,False
+tag,Housing,consolidated,July 2014,20142,1,2,True
+tag,Housing,consolidated,September 2014,20142,1,2,True
+tag,Housing,consolidated,August 2015,20152,2,3,True
+tag,Housing,consolidated,September 2016,20162,2,3,True
+tag,Housing,consolidated,March 2018,20180,3,4,True
+tag,Housing,consolidated,April 2020,20201,3,4,True
+tag,Housing,consolidated,undated version first captured 2022-03-02,20220,3,4,True
+tag,Housing,consolidated,undated version first captured 2022-07-01,20222,3,4,True
+tag,Human Resources,consolidated,July 2014,20142,1,1,False
+tag,Human Resources,consolidated,September 2014,20142,1,1,False
+tag,Human Resources,consolidated,August 2015,20152,1,1,False
+tag,Human Resources,consolidated,September 2016,20162,1,1,False
+tag,Human Resources,consolidated,March 2018,20180,1,1,False
+tag,Human Resources,consolidated,April 2020,20201,1,1,False
+tag,Human Resources,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Human Resources,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,India,consolidated,September 2014,20142,1,1,False
+tag,India,seasonal,Fall 2026,20263,1,1,False
+tag,Industrial,consolidated,March 2018,20180,1,1,False
+tag,Industrial,seasonal,Summer 2024,20242,2,4,False
+tag,Industrial,seasonal,Winter 2025,20250,1,3,False
+tag,Industrial,seasonal,Summer 2025,20252,1,1,False
+tag,Industrial,seasonal,Spring 2026,20261,1,1,False
+tag,Industrial,seasonal,Summer 2026,20262,2,3,True
+tag,Infrastructure,essays,RFS 4,20090,1,5,False
+tag,Infrastructure,consolidated,March 2014,20140,1,2,True
+tag,Infrastructure,essays,RFS 10,20140,1,2,False
+tag,Infrastructure,consolidated,July 2014,20142,1,2,True
+tag,Infrastructure,consolidated,September 2014,20142,3,4,True
+tag,Infrastructure,consolidated,August 2015,20152,3,7,True
+tag,Infrastructure,consolidated,September 2016,20162,1,1,False
+tag,Infrastructure,consolidated,March 2018,20180,2,2,False
+tag,Infrastructure,consolidated,April 2020,20201,1,1,False
+tag,Infrastructure,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Infrastructure,seasonal,Winter 2025,20250,1,1,False
+tag,Infrastructure,seasonal,Spring 2025,20251,4,6,True
+tag,Infrastructure,seasonal,Summer 2025,20252,2,4,False
+tag,Infrastructure,seasonal,Fall 2025,20253,4,5,True
+tag,Infrastructure,seasonal,Spring 2026,20261,1,2,False
+tag,Infrastructure,seasonal,Fall 2026,20263,3,6,True
+tag,Insurance,seasonal,Summer 2024,20242,2,2,False
+tag,Insurance,seasonal,Winter 2025,20250,1,1,False
+tag,Insurance,seasonal,Spring 2025,20251,1,1,False
+tag,Insurance,seasonal,Summer 2026,20262,1,1,False
+tag,International,seasonal,Winter 2025,20250,1,1,False
+tag,Investing,consolidated,September 2014,20142,1,1,False
+tag,Investing,consolidated,August 2015,20152,1,1,False
+tag,Investing,seasonal,Summer 2024,20242,1,1,False
+tag,Kids,seasonal,Fall 2025,20253,1,1,False
+tag,Latin America,seasonal,Fall 2026,20263,1,1,False
+tag,Legal,essays,RFS 1,20090,1,1,False
+tag,Legal,essays,RFS 2,20090,1,1,False
+tag,Legal,essays,RFS 3,20090,1,1,False
+tag,Legal,essays,RFS 4,20090,1,1,False
+tag,Legal,essays,RFS 5,20090,1,1,False
+tag,Legal,essays,RFS 6,20100,1,1,False
+tag,Legal,essays,RFS 7,20100,1,1,False
+tag,Legal,essays,RFS 8,20110,1,1,False
+tag,Legal,essays,RFS 9,20120,1,1,False
+tag,Legal,essays,RFS 10,20140,1,1,False
+tag,Legal,consolidated,March 2018,20180,1,1,False
+tag,Legal,consolidated,April 2020,20201,1,1,False
+tag,Legal,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Legal,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Legal,seasonal,Summer 2025,20252,1,1,False
+tag,Legal,seasonal,Fall 2025,20253,1,1,False
+tag,Legal,seasonal,Spring 2026,20261,1,1,False
+tag,Legal,seasonal,Fall 2026,20263,1,1,False
+tag,Live,essays,RFS 4,20090,1,8,True
+tag,Live,consolidated,March 2014,20140,1,1,False
+tag,Live,essays,RFS 10,20140,1,1,False
+tag,Live,consolidated,July 2014,20142,1,1,False
+tag,Live,consolidated,September 2014,20142,2,2,False
+tag,Live,consolidated,August 2015,20152,3,3,False
+tag,Live,consolidated,September 2016,20162,2,2,False
+tag,Live,consolidated,March 2018,20180,2,2,False
+tag,Live,consolidated,April 2020,20201,1,1,False
+tag,Live,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Live,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Live,seasonal,Summer 2024,20242,1,1,False
+tag,Live,seasonal,Fall 2026,20263,1,1,False
+tag,Logistics,seasonal,Summer 2026,20262,1,1,False
+tag,Logistics,seasonal,Fall 2026,20263,2,2,False
+tag,ML,seasonal,Summer 2024,20242,2,3,False
+tag,ML,seasonal,Winter 2025,20250,1,1,False
+tag,ML,seasonal,Spring 2026,20261,1,1,False
+tag,Machine Learning,seasonal,Summer 2024,20242,2,2,True
+tag,Manufacturing,consolidated,March 2018,20180,3,3,False
+tag,Manufacturing,consolidated,April 2020,20201,3,3,False
+tag,Manufacturing,consolidated,undated version first captured 2022-03-02,20220,3,3,False
+tag,Manufacturing,consolidated,undated version first captured 2022-07-01,20222,3,3,False
+tag,Manufacturing,seasonal,Summer 2024,20242,1,5,True
+tag,Manufacturing,seasonal,Winter 2025,20250,1,3,False
+tag,Manufacturing,seasonal,Spring 2026,20261,1,1,False
+tag,Manufacturing,seasonal,Summer 2026,20262,1,1,False
+tag,Manufacturing,seasonal,Fall 2026,20263,1,1,False
+tag,Marketing,seasonal,Summer 2024,20242,1,1,False
+tag,Marketplace,seasonal,Spring 2025,20251,1,1,False
+tag,Media,essays,RFS 1,20090,1,2,False
+tag,Media,essays,RFS 9,20120,1,1,False
+tag,Media,consolidated,September 2016,20162,2,5,True
+tag,Media,seasonal,Fall 2025,20253,1,1,False
+tag,Medical Devices,consolidated,September 2014,20142,1,1,False
+tag,Medical Devices,consolidated,August 2015,20152,1,1,False
+tag,Medical Devices,consolidated,September 2016,20162,1,1,False
+tag,Medical Devices,consolidated,March 2018,20180,1,2,False
+tag,Medical Devices,consolidated,April 2020,20201,1,2,False
+tag,Medical Devices,consolidated,undated version first captured 2022-03-02,20220,1,2,False
+tag,Medical Devices,consolidated,undated version first captured 2022-07-01,20222,1,2,False
+tag,Medical Devices,seasonal,Summer 2026,20262,1,1,False
+tag,Mental Health,seasonal,Summer 2024,20242,1,1,False
+tag,Messaging,essays,RFS 3,20090,1,1,False
+tag,Mining,essays,RFS 1,20090,1,1,False
+tag,Mining,seasonal,Winter 2025,20250,1,1,False
+tag,Mining,seasonal,Summer 2025,20252,1,1,False
+tag,Mobility,consolidated,March 2018,20180,1,1,False
+tag,Mobility,consolidated,April 2020,20201,1,1,False
+tag,Mobility,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Mobility,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Monitoring,consolidated,March 2018,20180,2,2,False
+tag,Monitoring,consolidated,April 2020,20201,2,2,False
+tag,Monitoring,consolidated,undated version first captured 2022-03-02,20220,2,2,False
+tag,Monitoring,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Monitoring,seasonal,Summer 2024,20242,1,1,False
+tag,Monitoring,seasonal,Summer 2026,20262,1,1,False
+tag,Monitoring,seasonal,Fall 2026,20263,2,2,False
+tag,Music,seasonal,Summer 2024,20242,1,1,False
+tag,Networks,seasonal,Summer 2026,20262,1,1,False
+tag,Networks,seasonal,Fall 2026,20263,1,1,False
+tag,Open Source,seasonal,Summer 2024,20242,1,6,True
+tag,Open Source,seasonal,Spring 2025,20251,2,8,True
+tag,Operations,seasonal,Summer 2024,20242,1,1,False
+tag,Operations,seasonal,Winter 2025,20250,1,1,False
+tag,Operations,seasonal,Spring 2025,20251,1,1,False
+tag,Operations,seasonal,Summer 2025,20252,1,1,False
+tag,Operations,seasonal,Spring 2026,20261,1,1,False
+tag,Operations,seasonal,Fall 2026,20263,2,2,False
+tag,Payments,consolidated,September 2014,20142,1,1,False
+tag,Payments,seasonal,Summer 2024,20242,1,1,False
+tag,Payments,seasonal,Winter 2025,20250,1,1,False
+tag,Payments,seasonal,Spring 2025,20251,1,1,False
+tag,Payments,seasonal,Spring 2026,20261,1,1,False
+tag,Payments,seasonal,Fall 2026,20263,1,1,False
+tag,Personalization,essays,RFS 7,20100,1,5,True
+tag,Personalization,seasonal,Summer 2026,20262,2,2,False
+tag,Privacy,seasonal,Summer 2024,20242,1,1,False
+tag,Privacy,seasonal,Winter 2025,20250,1,1,False
+tag,Privacy,seasonal,Fall 2026,20263,1,1,False
+tag,Procurement,seasonal,Spring 2025,20251,1,1,False
+tag,Productivity,consolidated,March 2014,20140,1,1,False
+tag,Productivity,essays,RFS 10,20140,1,1,False
+tag,Productivity,consolidated,July 2014,20142,1,1,False
+tag,Productivity,consolidated,March 2018,20180,1,1,False
+tag,Productivity,consolidated,April 2020,20201,1,1,False
+tag,Productivity,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Productivity,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Productivity,seasonal,Spring 2025,20251,1,1,False
+tag,Productivity,seasonal,Summer 2025,20252,1,2,False
+tag,Radar,seasonal,Summer 2024,20242,1,1,False
+tag,Remittances,seasonal,Winter 2025,20250,1,1,False
+tag,Remote,seasonal,Fall 2026,20263,1,1,False
+tag,Retail,essays,RFS 2,20090,1,1,False
+tag,Retail,consolidated,September 2014,20142,1,1,False
+tag,Retail,consolidated,August 2015,20152,1,1,False
+tag,Retail,consolidated,September 2016,20162,1,1,False
+tag,Retail,consolidated,March 2018,20180,2,5,False
+tag,Retail,consolidated,April 2020,20201,2,5,False
+tag,Retail,consolidated,undated version first captured 2022-03-02,20220,2,5,False
+tag,Retail,consolidated,undated version first captured 2022-07-01,20222,2,5,False
+tag,Reviews,seasonal,Summer 2024,20242,1,1,False
+tag,Reviews,seasonal,Spring 2025,20251,1,1,False
+tag,Reviews,seasonal,Fall 2026,20263,1,1,False
+tag,Robotics,consolidated,March 2014,20140,1,1,True
+tag,Robotics,essays,RFS 10,20140,1,1,False
+tag,Robotics,consolidated,July 2014,20142,1,1,True
+tag,Robotics,consolidated,September 2014,20142,1,1,True
+tag,Robotics,consolidated,August 2015,20152,1,1,True
+tag,Robotics,consolidated,September 2016,20162,1,1,True
+tag,Robotics,consolidated,March 2018,20180,2,2,True
+tag,Robotics,consolidated,April 2020,20201,1,1,False
+tag,Robotics,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Robotics,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Robotics,seasonal,Summer 2024,20242,2,7,True
+tag,Robotics,seasonal,Winter 2025,20250,1,2,False
+tag,Robotics,seasonal,Summer 2025,20252,1,3,False
+tag,Robotics,seasonal,Summer 2026,20262,1,1,False
+tag,Robotics,seasonal,Fall 2026,20263,3,3,False
+tag,SaaS,seasonal,Spring 2025,20251,1,4,False
+tag,SaaS,seasonal,Fall 2025,20253,1,1,False
+tag,SaaS,seasonal,Summer 2026,20262,2,7,True
+tag,Sales,consolidated,March 2018,20180,1,1,False
+tag,Sales,consolidated,April 2020,20201,1,1,False
+tag,Sales,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Sales,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Sales,seasonal,Summer 2024,20242,2,4,False
+tag,Sales,seasonal,Spring 2025,20251,1,1,False
+tag,Sales,seasonal,Fall 2025,20253,1,1,False
+tag,Sales,seasonal,Fall 2026,20263,1,1,False
+tag,Satellites,seasonal,Summer 2024,20242,1,1,False
+tag,Satellites,seasonal,Winter 2025,20250,2,2,False
+tag,Scheduling,seasonal,Summer 2024,20242,1,1,False
+tag,Scheduling,seasonal,Summer 2025,20252,2,2,False
+tag,Scheduling,seasonal,Spring 2026,20261,1,1,False
+tag,Search,seasonal,Fall 2025,20253,1,1,False
+tag,Search,seasonal,Summer 2026,20262,1,1,False
+tag,Security,consolidated,March 2014,20140,1,1,False
+tag,Security,essays,RFS 10,20140,1,1,False
+tag,Security,consolidated,July 2014,20142,1,1,False
+tag,Security,consolidated,September 2014,20142,1,1,False
+tag,Security,consolidated,August 2015,20152,2,2,True
+tag,Security,consolidated,September 2016,20162,1,1,True
+tag,Security,consolidated,March 2018,20180,1,1,True
+tag,Security,seasonal,Spring 2025,20251,1,1,False
+tag,Security,seasonal,Summer 2025,20252,1,3,True
+tag,Semiconductors,seasonal,Summer 2026,20262,1,1,True
+tag,Social,essays,RFS 9,20120,1,1,False
+tag,Social,consolidated,March 2014,20140,1,1,False
+tag,Social,essays,RFS 10,20140,1,1,False
+tag,Social,consolidated,July 2014,20142,1,1,False
+tag,Social,consolidated,September 2014,20142,1,1,False
+tag,Social,consolidated,September 2016,20162,1,2,True
+tag,Social,consolidated,March 2018,20180,3,4,True
+tag,Social,consolidated,April 2020,20201,3,4,True
+tag,Social,consolidated,undated version first captured 2022-03-02,20220,3,4,True
+tag,Social,consolidated,undated version first captured 2022-07-01,20222,3,4,True
+tag,Social,seasonal,Summer 2024,20242,1,1,False
+tag,Social,seasonal,Winter 2025,20250,1,1,False
+tag,Stocks,consolidated,September 2014,20142,1,1,False
+tag,Stocks,consolidated,August 2015,20152,1,1,False
+tag,Stocks,seasonal,Fall 2026,20263,1,1,False
+tag,Supply Chain,seasonal,Summer 2026,20262,3,7,True
+tag,Synthetic Biology,consolidated,March 2018,20180,1,1,False
+tag,Synthetic Biology,consolidated,April 2020,20201,1,1,False
+tag,Synthetic Biology,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Synthetic Biology,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Telecommunications,consolidated,September 2014,20142,1,1,True
+tag,Telecommunications,seasonal,Summer 2024,20242,1,1,False
+tag,Telecommunications,seasonal,Winter 2025,20250,1,1,False
+tag,Therapeutics,seasonal,Summer 2024,20242,1,2,False
+tag,Trading,seasonal,Spring 2025,20251,1,1,False
+tag,Trading,seasonal,Spring 2026,20261,1,1,False
+tag,Trading,seasonal,Fall 2026,20263,1,2,False
+tag,Transportation,consolidated,March 2014,20140,1,3,True
+tag,Transportation,essays,RFS 10,20140,1,3,False
+tag,Transportation,consolidated,July 2014,20142,1,3,True
+tag,Transportation,consolidated,September 2014,20142,1,4,True
+tag,Transportation,consolidated,August 2015,20152,1,4,True
+tag,Transportation,consolidated,September 2016,20162,1,4,True
+tag,Transportation,consolidated,March 2018,20180,1,4,True
+tag,Transportation,consolidated,April 2020,20201,1,4,True
+tag,Transportation,consolidated,undated version first captured 2022-03-02,20220,1,4,True
+tag,Transportation,consolidated,undated version first captured 2022-07-01,20222,1,4,True
+tag,Travel,seasonal,Summer 2024,20242,1,1,False
+tag,Travel,seasonal,Winter 2025,20250,1,1,False
+tag,Travel,seasonal,Spring 2025,20251,2,3,False
+tag,Travel,seasonal,Summer 2025,20252,1,1,False
+tag,Vaccines,consolidated,September 2014,20142,1,1,False
+tag,Vaccines,consolidated,August 2015,20152,2,2,False
+tag,Vaccines,consolidated,September 2016,20162,2,2,False
+tag,Vaccines,consolidated,March 2018,20180,2,2,False
+tag,Vaccines,consolidated,April 2020,20201,2,2,False
+tag,Vaccines,consolidated,undated version first captured 2022-03-02,20220,2,2,False
+tag,Vaccines,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Video,essays,RFS 4,20090,1,9,True
+tag,Video,consolidated,March 2018,20180,1,2,True
+tag,Video,seasonal,Winter 2025,20250,1,1,False
+tag,Video,seasonal,Spring 2025,20251,1,1,False
+tag,Video,seasonal,Summer 2025,20252,1,2,False
+tag,Video,seasonal,Fall 2025,20253,1,10,True
+tag,Video,seasonal,Spring 2026,20261,1,1,False
+tag,Video,seasonal,Fall 2026,20263,1,3,False
+tag,Virtual Reality,consolidated,September 2014,20142,1,1,False
+tag,Virtual Reality,consolidated,August 2015,20152,1,1,False
+tag,Virtual Reality,consolidated,September 2016,20162,1,1,False
+tag,Virtual Reality,consolidated,March 2018,20180,1,1,False
+tag,Virtual Reality,consolidated,April 2020,20201,1,1,False
+tag,Virtual Reality,consolidated,undated version first captured 2022-03-02,20220,1,1,False
+tag,Virtual Reality,consolidated,undated version first captured 2022-07-01,20222,1,1,False
+tag,Weather,consolidated,September 2014,20142,1,1,False
+tag,Weather,consolidated,August 2015,20152,1,1,False
+tag,Weather,seasonal,Summer 2024,20242,1,1,False
+tag,Weather,seasonal,Fall 2026,20263,1,2,False

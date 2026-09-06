@@ -76,6 +76,7 @@ def select_window(df: pd.DataFrame, start_year: int, end_year: int | None, min_f
     if end_year is not None:
         valid &= df["n_year"] <= end_year
     sel = df[valid].copy()
+    sel["n_year"] = sel["n_year"].astype(int); sel["n_batch_order"] = sel["n_batch_order"].astype(int)
     sizes = sel.groupby("batch")["id"].size()
     sel["n_batch_size"] = sel["batch"].map(sizes)
     sel["n_batch_is_partial"] = sel["n_batch_size"] < min_full_batch
