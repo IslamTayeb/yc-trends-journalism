@@ -1,0 +1,59 @@
+industry,level,companies
+B2B,top,2135
+"Engineering, Product and Design",child,431
+Fintech,top,425
+Healthcare,top,384
+Industrials,top,312
+Consumer,top,308
+Infrastructure,child,219
+Productivity,child,116
+Operations,child,111
+Manufacturing and Robotics,child,107
+Finance and Accounting,child,103
+Sales,child,91
+Supply Chain and Logistics,child,87
+Healthcare IT,child,83
+Real Estate and Construction,top,83
+Security,child,81
+Marketing,child,80
+Analytics,child,80
+Payments,child,73
+Education,top,59
+Consumer Health and Wellness,child,56
+Insurance,child,51
+Aviation and Space,child,48
+Legal,child,47
+Consumer Finance,child,45
+Credit and Lending,child,41
+Retail,child,41
+Human Resources,child,41
+Content,child,41
+Asset Management,child,35
+Drug Discovery and Delivery,child,34
+Therapeutics,child,34
+Healthcare Services,child,33
+Energy,child,33
+Food and Beverage,child,32
+Climate,child,32
+Construction,child,32
+Banking and Exchange,child,31
+Housing and Real Estate,child,30
+Recruiting and Talent,child,26
+Defense,child,24
+Government,top,23
+Medical Devices,child,22
+Gaming,child,21
+Diagnostics,child,20
+Consumer Electronics,child,15
+Home and Personal,child,13
+Social,child,11
+Drones,child,10
+Agriculture,child,10
+Industrial Bio,child,10
+Apparel and Cosmetics,child,9
+"Travel, Leisure and Tourism",child,8
+Automotive,child,7
+Job and Career Services,child,7
+Office Management,child,3
+Transportation Services,child,3
+Virtual and Augmented Reality,child,3

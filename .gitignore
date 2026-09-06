@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# project
+data/raw/clones/
+.venv/
+*.xlsx#
+~$*.xlsx
+# large raw copies kept on disk, tracked via data/raw/file_manifest.json
+data/raw/yc-oss-api/batches/
+data/raw/yc-oss-api/tags/
+data/raw/yc-oss-api/industries/
+data/raw/snapshots/*.json
+!data/raw/snapshots/snapshot_commits.json
+data/raw/rfs/wayback/html/
+data/raw/yc-dataset/yc_directory.json
+
+# raw scraped HTML stays local only (parsed text is committed instead)
+data/raw/rfs/**/*.html

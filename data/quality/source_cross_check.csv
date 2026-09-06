@@ -1,0 +1,446 @@
+kind,label,our_count,source_count,match,source_file,meta_count
+batch,Winter 2012,66,66,True,batches/winter-2012.json,66.0
+batch,Summer 2011,60,60,True,batches/summer-2011.json,60.0
+batch,Winter 2011,45,45,True,batches/winter-2011.json,45.0
+batch,Summer 2010,36,36,True,batches/summer-2010.json,36.0
+batch,Winter 2010,27,27,True,batches/winter-2010.json,27.0
+batch,Summer 2009,26,26,True,batches/summer-2009.json,26.0
+batch,Winter 2009,16,16,True,batches/winter-2009.json,16.0
+batch,Summer 2008,22,22,True,batches/summer-2008.json,22.0
+batch,Winter 2008,21,21,True,batches/winter-2008.json,21.0
+batch,Summer 2007,19,19,True,batches/summer-2007.json,19.0
+batch,Winter 2007,13,13,True,batches/winter-2007.json,13.0
+batch,Summer 2006,10,10,True,batches/summer-2006.json,10.0
+batch,Winter 2006,7,7,True,batches/winter-2006.json,7.0
+batch,Summer 2005,9,9,True,batches/summer-2005.json,9.0
+batch,Summer 2012,83,83,True,batches/summer-2012.json,83.0
+batch,Winter 2013,46,46,True,batches/winter-2013.json,46.0
+batch,Summer 2013,52,52,True,batches/summer-2013.json,52.0
+batch,Winter 2014,74,74,True,batches/winter-2014.json,74.0
+batch,Summer 2014,78,78,True,batches/summer-2014.json,78.0
+batch,Winter 2015,110,110,True,batches/winter-2015.json,110.0
+batch,Summer 2015,104,104,True,batches/summer-2015.json,104.0
+batch,Winter 2016,122,122,True,batches/winter-2016.json,122.0
+batch,Summer 2017,125,125,True,batches/summer-2017.json,125.0
+batch,Summer 2016,102,102,True,batches/summer-2016.json,102.0
+batch,Winter 2017,116,116,True,batches/winter-2017.json,116.0
+batch,Winter 2018,146,146,True,batches/winter-2018.json,146.0
+batch,Summer 2018,131,131,True,batches/summer-2018.json,131.0
+batch,Summer 2019,176,176,True,batches/summer-2019.json,176.0
+batch,Winter 2019,194,194,True,batches/winter-2019.json,194.0
+batch,Winter 2020,228,228,True,batches/winter-2020.json,228.0
+batch,Summer 2020,209,209,True,batches/summer-2020.json,209.0
+batch,Winter 2021,336,336,True,batches/winter-2021.json,336.0
+batch,Summer 2021,391,391,True,batches/summer-2021.json,391.0
+batch,Winter 2022,398,398,True,batches/winter-2022.json,398.0
+batch,Summer 2022,234,234,True,batches/summer-2022.json,234.0
+batch,Fall 2025,146,146,True,batches/fall-2025.json,146.0
+batch,Winter 2023,274,274,True,batches/winter-2023.json,274.0
+batch,Summer 2023,220,220,True,batches/summer-2023.json,220.0
+batch,Summer 2026,235,235,True,batches/summer-2026.json,235.0
+batch,Winter 2026,199,199,True,batches/winter-2026.json,199.0
+batch,Winter 2024,248,248,True,batches/winter-2024.json,248.0
+batch,Winter 2025,166,166,True,batches/winter-2025.json,166.0
+batch,Spring 2026,195,195,True,batches/spring-2026.json,195.0
+batch,Summer 2024,248,248,True,batches/summer-2024.json,248.0
+batch,Fall 2024,94,94,True,batches/fall-2024.json,94.0
+batch,Spring 2025,143,143,True,batches/spring-2025.json,143.0
+batch,Summer 2025,166,166,True,batches/summer-2025.json,166.0
+batch,Fall 2026,35,35,True,batches/fall-2026.json,35.0
+batch,Winter 2027,1,1,True,batches/winter-2027.json,1.0
+batch,Unspecified,1,1,True,batches/unspecified.json,1.0
+industry(array),Agriculture,31,31,True,industries/agriculture.json,31.0
+industry(array),Analytics,125,125,True,industries/analytics.json,125.0
+industry(array),Apparel and Cosmetics,50,50,True,industries/apparel-and-cosmetics.json,50.0
+industry(array),Asset Management,55,55,True,industries/asset-management.json,55.0
+industry(array),Automotive,21,21,True,industries/automotive.json,21.0
+industry(array),Aviation and Space,65,65,True,industries/aviation-and-space.json,65.0
+industry(array),B2B,3158,3158,True,industries/b2b.json,3158.0
+industry(array),Banking and Exchange,73,73,True,industries/banking-and-exchange.json,73.0
+industry(array),Climate,53,53,True,industries/climate.json,53.0
+industry(array),Construction,51,51,True,industries/construction.json,51.0
+industry(array),Consumer,884,884,True,industries/consumer.json,884.0
+industry(array),Consumer Electronics,47,47,True,industries/consumer-electronics.json,47.0
+industry(array),Consumer Finance,90,90,True,industries/consumer-finance.json,90.0
+industry(array),Consumer Health and Wellness,118,118,True,industries/consumer-health-and-wellness.json,118.0
+industry(array),Content,115,115,True,industries/content.json,115.0
+industry(array),Credit and Lending,74,74,True,industries/credit-and-lending.json,74.0
+industry(array),Defense,25,25,True,industries/defense.json,25.0
+industry(array),Diagnostics,57,57,True,industries/diagnostics.json,57.0
+industry(array),Drones,23,23,True,industries/drones.json,23.0
+industry(array),Drug Discovery and Delivery,59,59,True,industries/drug-discovery-and-delivery.json,59.0
+industry(array),Education,123,123,True,industries/education.json,123.0
+industry(array),Energy,51,51,True,industries/energy.json,51.0
+industry(array),"Engineering, Product and Design",620,620,True,industries/engineering-product-and-design.json,620.0
+industry(array),Finance and Accounting,138,138,True,industries/finance-and-accounting.json,138.0
+industry(array),Fintech,658,658,True,industries/fintech.json,658.0
+industry(array),Food and Beverage,94,94,True,industries/food-and-beverage.json,94.0
+industry(array),Gaming,70,70,True,industries/gaming.json,70.0
+industry(array),Government,44,44,True,industries/government.json,44.0
+industry(array),Healthcare,697,697,True,industries/healthcare.json,697.0
+industry(array),Healthcare IT,141,141,True,industries/healthcare-it.json,141.0
+industry(array),Healthcare Services,74,74,True,industries/healthcare-services.json,74.0
+industry(array),Home and Personal,123,123,True,industries/home-and-personal.json,123.0
+industry(array),Housing and Real Estate,85,85,True,industries/housing-and-real-estate.json,85.0
+industry(array),Human Resources,82,82,True,industries/human-resources.json,82.0
+industry(array),Industrial Bio,33,33,True,industries/industrial-bio.json,33.0
+industry(array),Industrials,459,459,True,industries/industrials.json,459.0
+industry(array),Infrastructure,322,322,True,industries/infrastructure.json,322.0
+industry(array),Insurance,69,69,True,industries/insurance.json,69.0
+industry(array),Job and Career Services,19,19,True,industries/job-and-career-services.json,19.0
+industry(array),Legal,60,60,True,industries/legal.json,60.0
+industry(array),Manufacturing and Robotics,146,146,True,industries/manufacturing-and-robotics.json,146.0
+industry(array),Marketing,169,169,True,industries/marketing.json,169.0
+industry(array),Medical Devices,44,44,True,industries/medical-devices.json,44.0
+industry(array),Office Management,25,25,True,industries/office-management.json,25.0
+industry(array),Operations,152,152,True,industries/operations.json,152.0
+industry(array),Payments,125,125,True,industries/payments.json,125.0
+industry(array),Productivity,230,230,True,industries/productivity.json,230.0
+industry(array),Real Estate and Construction,162,162,True,industries/real-estate-and-construction.json,162.0
+industry(array),Recruiting and Talent,76,76,True,industries/recruiting-and-talent.json,76.0
+industry(array),Retail,128,128,True,industries/retail.json,128.0
+industry(array),Sales,135,135,True,industries/sales.json,135.0
+industry(array),Security,121,121,True,industries/security.json,121.0
+industry(array),Social,111,111,True,industries/social.json,111.0
+industry(array),Supply Chain and Logistics,138,138,True,industries/supply-chain-and-logistics.json,138.0
+industry(array),Therapeutics,64,64,True,industries/therapeutics.json,64.0
+industry(array),Transportation Services,27,27,True,industries/transportation-services.json,27.0
+industry(array),"Travel, Leisure and Tourism",36,36,True,industries/travel-leisure-and-tourism.json,36.0
+industry(array),Unspecified,18,18,True,industries/unspecified.json,18.0
+industry(array),Virtual and Augmented Reality,20,20,True,industries/virtual-and-augmented-reality.json,20.0
+tag,3D Printed Foods,1,1,True,tags/3d-printed-foods.json,1.0
+tag,3D Printing,12,12,True,tags/3d-printing.json,12.0
+tag,Advanced Materials,8,8,True,tags/advanced-materials.json,8.0
+tag,Advertising,48,48,True,tags/advertising.json,48.0
+tag,Aerospace,44,44,True,tags/aerospace.json,44.0
+tag,Agriculture,34,34,True,tags/agriculture.json,34.0
+tag,AI,890,890,True,tags/ai.json,890.0
+tag,AI Assistant,161,161,True,tags/ai-assistant.json,161.0
+tag,AI-Enhanced Learning,47,47,True,tags/ai-enhanced-learning.json,47.0
+tag,AI-powered Drug Discovery,35,35,True,tags/ai-powered-drug-discovery.json,35.0
+tag,AIOps,62,62,True,tags/aiops.json,62.0
+tag,Air Taxis,5,5,True,tags/air-taxis.json,5.0
+tag,Airlines,5,5,True,tags/airlines.json,5.0
+tag,Airplanes,11,11,True,tags/airplanes.json,11.0
+tag,Alternative Battery Tech,2,2,True,tags/alternative-battery-tech.json,2.0
+tag,Alternative Fuels,2,2,True,tags/alternative-fuels.json,2.0
+tag,Analytics,186,186,True,tags/analytics.json,186.0
+tag,Anti-Aging,7,7,True,tags/anti-aging.json,7.0
+tag,API,142,142,True,tags/api.json,142.0
+tag,APIs,11,11,True,tags/apis.json,11.0
+tag,Apparel,4,4,True,tags/apparel.json,4.0
+tag,AR,7,7,True,tags/ar.json,7.0
+tag,Architecture,5,5,True,tags/architecture.json,5.0
+tag,Art Trading Platforms,1,1,True,tags/art-trading-platforms.json,1.0
+tag,Artificial Intelligence,998,998,True,tags/artificial-intelligence.json,998.0
+tag,Assistive Tech,6,6,True,tags/assistive-tech.json,6.0
+tag,Augmented Reality,23,23,True,tags/augmented-reality.json,23.0
+tag,Auto Commerce,5,5,True,tags/auto-commerce.json,5.0
+tag,Automation,95,95,True,tags/automation.json,95.0
+tag,Automotive,24,24,True,tags/automotive.json,24.0
+tag,Autonomous Delivery,8,8,True,tags/autonomous-delivery.json,8.0
+tag,Autonomous Shipping,1,1,True,tags/autonomous-shipping.json,1.0
+tag,Autonomous Trucking,11,11,True,tags/autonomous-trucking.json,11.0
+tag,B2B,1124,1124,True,tags/b2b.json,1124.0
+tag,Banking as a Service,26,26,True,tags/banking-as-a-service.json,26.0
+tag,Batteryless IoT Sensors,1,1,True,tags/batteryless-iot-sensors.json,1.0
+tag,Beauty,11,11,True,tags/beauty.json,11.0
+tag,Big Data,29,29,True,tags/big-data.json,29.0
+tag,Billing,5,5,True,tags/billing.json,5.0
+tag,Biometrics,7,7,True,tags/biometrics.json,7.0
+tag,Bioplastic,3,3,True,tags/bioplastic.json,3.0
+tag,Biotech,148,148,True,tags/biotech.json,148.0
+tag,Biotechnology,17,17,True,tags/biotechnology.json,17.0
+tag,Blockchain,2,2,True,tags/blockchain.json,2.0
+tag,Booking,3,3,True,tags/booking.json,3.0
+tag,Calendar,6,6,True,tags/calendar.json,6.0
+tag,Call Center,9,9,True,tags/call-center.json,9.0
+tag,Cannabis,7,7,True,tags/cannabis.json,7.0
+tag,Carbon Capture and Removal,12,12,True,tags/carbon-capture-and-removal.json,12.0
+tag,Careers,5,5,True,tags/careers.json,5.0
+tag,Cashierless Checkout,5,5,True,tags/cashierless-checkout.json,5.0
+tag,Cell Therapy,5,5,True,tags/cell-therapy.json,5.0
+tag,Cellular Agriculture,6,6,True,tags/cellular-agriculture.json,6.0
+tag,Chat,6,6,True,tags/chat.json,6.0
+tag,Chatbot,9,9,True,tags/chatbot.json,9.0
+tag,Chatbots,3,3,True,tags/chatbots.json,3.0
+tag,China,3,3,True,tags/china.json,3.0
+tag,Civic Tech,8,8,True,tags/civic-tech.json,8.0
+tag,Clean Meat,1,1,True,tags/clean-meat.json,1.0
+tag,Climate,141,141,True,tags/climate.json,141.0
+tag,ClimateTech,32,32,True,tags/climatetech.json,32.0
+tag,Cloud Computing,52,52,True,tags/cloud-computing.json,52.0
+tag,Cloud Gaming,2,2,True,tags/cloud-gaming.json,2.0
+tag,Cloud Workload Protection,5,5,True,tags/cloud-workload-protection.json,5.0
+tag,Coding Bootcamps,2,2,True,tags/coding-bootcamps.json,2.0
+tag,Collaboration,44,44,True,tags/collaboration.json,44.0
+tag,Commercial Space Launch,6,6,True,tags/commercial-space-launch.json,6.0
+tag,Community,58,58,True,tags/community.json,58.0
+tag,Compliance,74,74,True,tags/compliance.json,74.0
+tag,Computational Storage,1,1,True,tags/computational-storage.json,1.0
+tag,Computer Vision,78,78,True,tags/computer-vision.json,78.0
+tag,Construction,75,75,True,tags/construction.json,75.0
+tag,Consumer,249,249,True,tags/consumer.json,249.0
+tag,Consumer Finance,34,34,True,tags/consumer-finance.json,34.0
+tag,Consumer Health Services,109,109,True,tags/consumer-health-services.json,109.0
+tag,Consumer Products,12,12,True,tags/consumer-products.json,12.0
+tag,Conversational AI,46,46,True,tags/conversational-ai.json,46.0
+tag,Conversational Banking,2,2,True,tags/conversational-banking.json,2.0
+tag,COVID-19,4,4,True,tags/covid-19.json,4.0
+tag,Creator Economy,37,37,True,tags/creator-economy.json,37.0
+tag,CRISPR,4,4,True,tags/crispr.json,4.0
+tag,CRM,21,21,True,tags/crm.json,21.0
+tag,Crowdfunding,9,9,True,tags/crowdfunding.json,9.0
+tag,Crowdsourcing,5,5,True,tags/crowdsourcing.json,5.0
+tag,Crypto / Web3,93,93,True,tags/crypto-web3.json,93.0
+tag,Cryptocurrency,11,11,True,tags/cryptocurrency.json,11.0
+tag,Cryptography,3,3,True,tags/cryptography.json,3.0
+tag,Cultivated Meat,2,2,True,tags/cultivated-meat.json,2.0
+tag,Culture,3,3,True,tags/culture.json,3.0
+tag,Cultured Meat,3,3,True,tags/cultured-meat.json,3.0
+tag,Customer Service,24,24,True,tags/customer-service.json,24.0
+tag,Customer Success,27,27,True,tags/customer-success.json,27.0
+tag,Customer Support,30,30,True,tags/customer-support.json,30.0
+tag,Customization,2,2,True,tags/customization.json,2.0
+tag,Cyber Insurance,1,1,True,tags/cyber-insurance.json,1.0
+tag,Cybersecurity,48,48,True,tags/cybersecurity.json,48.0
+tag,DAO,2,2,True,tags/dao.json,2.0
+tag,Data Engineering,107,107,True,tags/data-engineering.json,107.0
+tag,Data Labeling,19,19,True,tags/data-labeling.json,19.0
+tag,Data Science,32,32,True,tags/data-science.json,32.0
+tag,Data Visualization,30,30,True,tags/data-visualization.json,30.0
+tag,Databases,24,24,True,tags/databases.json,24.0
+tag,Dating,6,6,True,tags/dating.json,6.0
+tag,Deep Learning,44,44,True,tags/deep-learning.json,44.0
+tag,Deepfake Detection,1,1,True,tags/deepfake-detection.json,1.0
+tag,Defense,29,29,True,tags/defense.json,29.0
+tag,DeFi,12,12,True,tags/defi.json,12.0
+tag,Delivery,54,54,True,tags/delivery.json,54.0
+tag,Dental,5,5,True,tags/dental.json,5.0
+tag,Design,30,30,True,tags/design.json,30.0
+tag,Design Tools,57,57,True,tags/design-tools.json,57.0
+tag,Developer Tools,548,548,True,tags/developer-tools.json,548.0
+tag,DevOps,51,51,True,tags/devops.json,51.0
+tag,DevSecOps,33,33,True,tags/devsecops.json,33.0
+tag,Diagnostics,32,32,True,tags/diagnostics.json,32.0
+tag,Digital Freight Brokerage,3,3,True,tags/digital-freight-brokerage.json,3.0
+tag,Digital Health,116,116,True,tags/digital-health.json,116.0
+tag,Diversity & Inclusion,3,3,True,tags/diversity-and-inclusion.json,3.0
+tag,Documents,34,34,True,tags/documents.json,34.0
+tag,Drones,34,34,True,tags/drones.json,34.0
+tag,Drug Delivery,6,6,True,tags/drug-delivery.json,6.0
+tag,Drug discovery,34,34,True,tags/drug-discovery.json,34.0
+tag,E-Commerce,40,40,True,tags/e-commerce.json,40.0
+tag,Edge Computing Semiconductors,4,4,True,tags/edge-computing-semiconductors.json,4.0
+tag,Edtech,20,20,True,tags/edtech.json,20.0
+tag,Education,164,164,True,tags/education.json,164.0
+tag,eLearning,52,52,True,tags/elearning.json,52.0
+tag,Election Tech,2,2,True,tags/election-tech.json,2.0
+tag,Electric Vehicles,23,23,True,tags/electric-vehicles.json,23.0
+tag,Electronics,12,12,True,tags/electronics.json,12.0
+tag,Email,26,26,True,tags/email.json,26.0
+tag,Emerging Markets,9,9,True,tags/emerging-markets.json,9.0
+tag,Energy,53,53,True,tags/energy.json,53.0
+tag,Energy Storage,13,13,True,tags/energy-storage.json,13.0
+tag,Enterprise,113,113,True,tags/enterprise.json,113.0
+tag,Enterprise Software,132,132,True,tags/enterprise-software.json,132.0
+tag,Entertainment,52,52,True,tags/entertainment.json,52.0
+tag,eSports,3,3,True,tags/esports.json,3.0
+tag,Exascale Computing,1,1,True,tags/exascale-computing.json,1.0
+tag,Fashion,20,20,True,tags/fashion.json,20.0
+tag,Feedback,6,6,True,tags/feedback.json,6.0
+tag,Femtech,5,5,True,tags/femtech.json,5.0
+tag,Fertility Tech,8,8,True,tags/fertility-tech.json,8.0
+tag,Finance,99,99,True,tags/finance.json,99.0
+tag,FinOps,31,31,True,tags/finops.json,31.0
+tag,Fintech,705,705,True,tags/fintech.json,705.0
+tag,Fitness,19,19,True,tags/fitness.json,19.0
+tag,Food,9,9,True,tags/food.json,9.0
+tag,Food & Beverage,30,30,True,tags/food-and-beverage.json,30.0
+tag,Food Service Robots & Machines,10,10,True,tags/food-service-robots-and-machines.json,10.0
+tag,Food Tech,48,48,True,tags/food-tech.json,48.0
+tag,Fraud Detection,10,10,True,tags/fraud-detection.json,10.0
+tag,Fraud Prevention,5,5,True,tags/fraud-prevention.json,5.0
+tag,Fundraising,3,3,True,tags/fundraising.json,3.0
+tag,Furniture,6,6,True,tags/furniture.json,6.0
+tag,Fusion Energy,3,3,True,tags/fusion-energy.json,3.0
+tag,Gaming,88,88,True,tags/gaming.json,88.0
+tag,Gardening,1,1,True,tags/gardening.json,1.0
+tag,Gene Therapy,14,14,True,tags/gene-therapy.json,14.0
+tag,Generative AI,255,255,True,tags/generative-ai.json,255.0
+tag,Genetic Engineering,4,4,True,tags/genetic-engineering.json,4.0
+tag,Genomics,28,28,True,tags/genomics.json,28.0
+tag,Geographic Information System,6,6,True,tags/geographic-information-system.json,6.0
+tag,Ghost Kitchens,11,11,True,tags/ghost-kitchens.json,11.0
+tag,GovTech,53,53,True,tags/govtech.json,53.0
+tag,GraphQL,3,3,True,tags/graphql.json,3.0
+tag,Grocery,32,32,True,tags/grocery.json,32.0
+tag,Hard Tech,132,132,True,tags/hard-tech.json,132.0
+tag,Hardware,160,160,True,tags/hardware.json,160.0
+tag,Health & Wellness,49,49,True,tags/health-and-wellness.json,49.0
+tag,Health Insurance,28,28,True,tags/health-insurance.json,28.0
+tag,Health Tech,173,173,True,tags/health-tech.json,173.0
+tag,Healthcare,211,211,True,tags/healthcare.json,211.0
+tag,Healthcare IT,38,38,True,tags/healthcare-it.json,38.0
+tag,Home Automation,4,4,True,tags/home-automation.json,4.0
+tag,Home Services,17,17,True,tags/home-services.json,17.0
+tag,Housing,20,20,True,tags/housing.json,20.0
+tag,HR Tech,74,74,True,tags/hr-tech.json,74.0
+tag,Human Resources,22,22,True,tags/human-resources.json,22.0
+tag,Hydrogen Energy,4,4,True,tags/hydrogen-energy.json,4.0
+tag,Identity,16,16,True,tags/identity.json,16.0
+tag,Immigration,6,6,True,tags/immigration.json,6.0
+tag,Income Share Agreements,4,4,True,tags/income-share-agreements.json,4.0
+tag,India,35,35,True,tags/india.json,35.0
+tag,Indoor Mapping,2,2,True,tags/indoor-mapping.json,2.0
+tag,Industrial,34,34,True,tags/industrial.json,34.0
+tag,Industrial Workplace Safety,4,4,True,tags/industrial-workplace-safety.json,4.0
+tag,Infrastructure,132,132,True,tags/infrastructure.json,132.0
+tag,Insurance,84,84,True,tags/insurance.json,84.0
+tag,International,6,6,True,tags/international.json,6.0
+tag,Investing,64,64,True,tags/investing.json,64.0
+tag,Investments,8,8,True,tags/investments.json,8.0
+tag,IoT,44,44,True,tags/iot.json,44.0
+tag,IoT Security,2,2,True,tags/iot-security.json,2.0
+tag,Kids,9,9,True,tags/kids.json,9.0
+tag,Kubernetes,14,14,True,tags/kubernetes.json,14.0
+tag,Lab-on-a-chip,1,1,True,tags/lab-on-a-chip.json,1.0
+tag,Latin America,20,20,True,tags/latin-america.json,20.0
+tag,Legal,40,40,True,tags/legal.json,40.0
+tag,LegalTech,58,58,True,tags/legaltech.json,58.0
+tag,Lending,17,17,True,tags/lending.json,17.0
+tag,Lidar,1,1,True,tags/lidar.json,1.0
+tag,Live,6,6,True,tags/live.json,6.0
+tag,Livestock Health,1,1,True,tags/livestock-health.json,1.0
+tag,Location-based,3,3,True,tags/location-based.json,3.0
+tag,Logistics,133,133,True,tags/logistics.json,133.0
+tag,Machine Learning,236,236,True,tags/machine-learning.json,236.0
+tag,Manufacturing,99,99,True,tags/manufacturing.json,99.0
+tag,Maritime,3,3,True,tags/maritime.json,3.0
+tag,Market Research,18,18,True,tags/market-research.json,18.0
+tag,Marketing,110,110,True,tags/marketing.json,110.0
+tag,Marketplace,307,307,True,tags/marketplace.json,307.0
+tag,Media,42,42,True,tags/media.json,42.0
+tag,Medical Devices,67,67,True,tags/medical-devices.json,67.0
+tag,Medical Robotics,5,5,True,tags/medical-robotics.json,5.0
+tag,Mental Health,9,9,True,tags/mental-health.json,9.0
+tag,Mental Health Tech,36,36,True,tags/mental-health-tech.json,36.0
+tag,Messaging,43,43,True,tags/messaging.json,43.0
+tag,Metaverse,8,8,True,tags/metaverse.json,8.0
+tag,Microfluidics,5,5,True,tags/microfluidics.json,5.0
+tag,Microinsurance,3,3,True,tags/microinsurance.json,3.0
+tag,Mining,6,6,True,tags/mining.json,6.0
+tag,ML,21,21,True,tags/ml.json,21.0
+tag,Mobility,13,13,True,tags/mobility.json,13.0
+tag,Monitoring,15,15,True,tags/monitoring.json,15.0
+tag,Music,20,20,True,tags/music.json,20.0
+tag,Nanomedicine,5,5,True,tags/nanomedicine.json,5.0
+tag,Nanosensors,5,5,True,tags/nanosensors.json,5.0
+tag,Nanotechnology,10,10,True,tags/nanotechnology.json,10.0
+tag,Navigation,4,4,True,tags/navigation.json,4.0
+tag,Neobank,52,52,True,tags/neobank.json,52.0
+tag,Networks,4,4,True,tags/networks.json,4.0
+tag,Neurotechnology,18,18,True,tags/neurotechnology.json,18.0
+tag,Next-gen Network Security,5,5,True,tags/next-gen-network-security.json,5.0
+tag,NFT,4,4,True,tags/nft.json,4.0
+tag,NLP,21,21,True,tags/nlp.json,21.0
+tag,No-code,33,33,True,tags/no-code.json,33.0
+tag,Nonprofit,26,26,True,tags/nonprofit.json,26.0
+tag,Note-taking,5,5,True,tags/note-taking.json,5.0
+tag,Notifications,2,2,True,tags/notifications.json,2.0
+tag,Oncology,22,22,True,tags/oncology.json,22.0
+tag,Open Source,170,170,True,tags/open-source.json,170.0
+tag,Operations,38,38,True,tags/operations.json,38.0
+tag,Payments,146,146,True,tags/payments.json,146.0
+tag,Payroll,16,16,True,tags/payroll.json,16.0
+tag,Pediatrics,3,3,True,tags/pediatrics.json,3.0
+tag,Personalization,13,13,True,tags/personalization.json,13.0
+tag,Plant-based Meat,2,2,True,tags/plant-based-meat.json,2.0
+tag,Podcasts,7,7,True,tags/podcasts.json,7.0
+tag,Primary Care,8,8,True,tags/primary-care.json,8.0
+tag,Privacy,20,20,True,tags/privacy.json,20.0
+tag,Procurement,14,14,True,tags/procurement.json,14.0
+tag,Productivity,168,168,True,tags/productivity.json,168.0
+tag,Proptech,84,84,True,tags/proptech.json,84.0
+tag,Psychedelics,1,1,True,tags/psychedelics.json,1.0
+tag,Quantum Computing,4,4,True,tags/quantum-computing.json,4.0
+tag,Radar,3,3,True,tags/radar.json,3.0
+tag,Real Estate,84,84,True,tags/real-estate.json,84.0
+tag,Recommendation System,4,4,True,tags/recommendation-system.json,4.0
+tag,Recruiting,69,69,True,tags/recruiting.json,69.0
+tag,Referrals,2,2,True,tags/referrals.json,2.0
+tag,Regtech,20,20,True,tags/regtech.json,20.0
+tag,Reinforcement Learning,43,43,True,tags/reinforcement-learning.json,43.0
+tag,Remittances,6,6,True,tags/remittances.json,6.0
+tag,Remote,6,6,True,tags/remote.json,6.0
+tag,Remote Work,16,16,True,tags/remote-work.json,16.0
+tag,Renewable Energy,19,19,True,tags/renewable-energy.json,19.0
+tag,Restaurant Tech,16,16,True,tags/restaurant-tech.json,16.0
+tag,Retail,49,49,True,tags/retail.json,49.0
+tag,Retail Tech,18,18,True,tags/retail-tech.json,18.0
+tag,Reviews,3,3,True,tags/reviews.json,3.0
+tag,Ridesharing,2,2,True,tags/ridesharing.json,2.0
+tag,Robotic Process Automation,33,33,True,tags/robotic-process-automation.json,33.0
+tag,Robotic Surgery,3,3,True,tags/robotic-surgery.json,3.0
+tag,Robotics,142,142,True,tags/robotics.json,142.0
+tag,Rocketry,4,4,True,tags/rocketry.json,4.0
+tag,SaaS,1097,1097,True,tags/saas.json,1097.0
+tag,Sales,118,118,True,tags/sales.json,118.0
+tag,Sales Enablement,40,40,True,tags/sales-enablement.json,40.0
+tag,Satellites,23,23,True,tags/satellites.json,23.0
+tag,Scheduling,12,12,True,tags/scheduling.json,12.0
+tag,Search,18,18,True,tags/search.json,18.0
+tag,Security,93,93,True,tags/security.json,93.0
+tag,"Security Orchestration, Automation and Response (SOAR)",1,1,True,tags/security-orchestration-automation-and-response-(soar).json,1.0
+tag,Self-Driving Vehicles,6,6,True,tags/self-driving-vehicles.json,6.0
+tag,Semiconductors,20,20,True,tags/semiconductors.json,20.0
+tag,SEO,5,5,True,tags/seo.json,5.0
+tag,Skincare,2,2,True,tags/skincare.json,2.0
+tag,Sleep Tech,9,9,True,tags/sleep-tech.json,9.0
+tag,Small Modular Reactors,2,2,True,tags/small-modular-reactors.json,2.0
+tag,Smart Clothing,5,5,True,tags/smart-clothing.json,5.0
+tag,Smart Home Assistants,7,7,True,tags/smart-home-assistants.json,7.0
+tag,Smart Locks,1,1,True,tags/smart-locks.json,1.0
+tag,Smart Waste Management,1,1,True,tags/smart-waste-management.json,1.0
+tag,SMB,18,18,True,tags/smb.json,18.0
+tag,SMS,7,7,True,tags/sms.json,7.0
+tag,Social,75,75,True,tags/social.json,75.0
+tag,Social Media,34,34,True,tags/social-media.json,34.0
+tag,Social Network,22,22,True,tags/social-network.json,22.0
+tag,Solar Power,19,19,True,tags/solar-power.json,19.0
+tag,Space Exploration,20,20,True,tags/space-exploration.json,20.0
+tag,Speech Recognition,6,6,True,tags/speech-recognition.json,6.0
+tag,Sports Tech,18,18,True,tags/sports-tech.json,18.0
+tag,Stocks,7,7,True,tags/stocks.json,7.0
+tag,Subscriptions,37,37,True,tags/subscriptions.json,37.0
+tag,Supply Chain,91,91,True,tags/supply-chain.json,91.0
+tag,Sustainability,16,16,True,tags/sustainability.json,16.0
+tag,Sustainable Agriculture,3,3,True,tags/sustainable-agriculture.json,3.0
+tag,Sustainable Fashion,9,9,True,tags/sustainable-fashion.json,9.0
+tag,Sustainable Tourism,3,3,True,tags/sustainable-tourism.json,3.0
+tag,Swarm Robotics,4,4,True,tags/swarm-robotics.json,4.0
+tag,Synthetic Biology,33,33,True,tags/synthetic-biology.json,33.0
+tag,Talent Acquisition,7,7,True,tags/talent-acquisition.json,7.0
+tag,Team Collaboration,14,14,True,tags/team-collaboration.json,14.0
+tag,Telecommunications,27,27,True,tags/telecommunications.json,27.0
+tag,Telehealth,30,30,True,tags/telehealth.json,30.0
+tag,Telemedicine,30,30,True,tags/telemedicine.json,30.0
+tag,Therapeutics,45,45,True,tags/therapeutics.json,45.0
+tag,Ticketing,2,2,True,tags/ticketing.json,2.0
+tag,Time Series,4,4,True,tags/time-series.json,4.0
+tag,Trading,18,18,True,tags/trading.json,18.0
+tag,Transportation,37,37,True,tags/transportation.json,37.0
+tag,Travel,49,49,True,tags/travel.json,49.0
+tag,Trust & Safety,3,3,True,tags/trust-and-safety.json,3.0
+tag,Unmanned Vehicle,4,4,True,tags/unmanned-vehicle.json,4.0
+tag,Vaccines,1,1,True,tags/vaccines.json,1.0
+tag,Vertical Farming,2,2,True,tags/vertical-farming.json,2.0
+tag,Video,89,89,True,tags/video.json,89.0
+tag,Virtual Reality,14,14,True,tags/virtual-reality.json,14.0
+tag,VR Health,2,2,True,tags/vr-health.json,2.0
+tag,Warehouse Management Tech,14,14,True,tags/warehouse-management-tech.json,14.0
+tag,Weather,3,3,True,tags/weather.json,3.0
+tag,Web Development,21,21,True,tags/web-development.json,21.0
+tag,Women's Health,15,15,True,tags/women's-health.json,15.0
+tag,Workflow Automation,79,79,True,tags/workflow-automation.json,79.0
+total,all companies,6203,6203,True,meta.json,

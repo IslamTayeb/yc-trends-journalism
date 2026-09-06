@@ -1,0 +1,304 @@
+tag,2021.0,2022.0,2023.0,2024.0,2025.0,2026.0,2027.0
+3D Printing,0,0,0,0,2,1,0
+AI,66,102,124,198,177,111,0
+AI Assistant,14,20,30,41,27,11,0
+AI-Enhanced Learning,7,5,9,6,8,3,0
+AI-powered Drug Discovery,8,2,3,3,2,2,0
+AIOps,5,7,11,12,11,11,0
+API,15,31,24,13,10,6,0
+APIs,3,0,0,1,2,2,0
+AR,1,0,0,0,1,1,0
+Advanced Materials,0,0,0,0,1,3,0
+Advertising,2,5,5,2,6,3,0
+Aerospace,5,4,3,11,8,8,0
+Agriculture,2,3,1,3,2,3,0
+Airlines,0,0,1,1,0,1,0
+Airplanes,2,3,1,0,0,0,0
+Alternative Fuels,0,0,0,0,0,1,0
+Analytics,21,28,25,19,16,4,0
+Anti-Aging,3,0,0,0,0,0,0
+Architecture,0,1,0,1,2,1,0
+Art Trading Platforms,1,0,0,0,0,0,0
+Artificial Intelligence,87,98,134,201,186,138,0
+Assistive Tech,1,0,0,0,0,0,0
+Augmented Reality,2,1,0,1,1,0,0
+Auto Commerce,1,1,0,0,0,0,0
+Automation,5,4,15,23,16,17,0
+Automotive,0,3,2,8,1,2,0
+Autonomous Delivery,2,0,0,0,0,0,0
+Autonomous Shipping,0,0,0,0,1,0,0
+Autonomous Trucking,2,0,0,0,0,0,0
+B2B,180,191,149,140,128,79,1
+Banking as a Service,3,8,1,0,0,0,0
+Beauty,3,0,0,0,1,0,0
+Big Data,3,1,2,5,6,4,0
+Billing,1,1,2,1,0,0,0
+Biometrics,1,1,0,0,1,0,0
+Bioplastic,0,1,0,0,0,0,0
+Biotech,20,18,13,19,11,12,0
+Biotechnology,2,2,0,1,3,3,0
+Booking,0,0,0,0,1,0,0
+COVID-19,0,1,0,0,0,0,0
+CRISPR,0,0,0,0,1,0,0
+CRM,1,2,3,2,3,0,0
+Calendar,1,0,0,0,0,0,0
+Call Center,0,3,0,5,1,0,0
+Carbon Capture and Removal,5,3,0,0,0,0,0
+Careers,0,1,0,0,0,1,0
+Cashierless Checkout,0,1,0,0,0,0,0
+Cell Therapy,0,2,1,0,0,0,0
+Cellular Agriculture,0,2,0,0,0,0,0
+Chat,1,0,0,0,2,1,0
+Chatbot,2,1,2,0,0,0,0
+Chatbots,0,0,0,1,0,0,0
+Civic Tech,0,0,0,2,0,0,0
+Clean Meat,0,1,0,0,0,0,0
+Climate,32,27,13,8,0,1,0
+ClimateTech,5,6,5,2,3,2,0
+Cloud Computing,3,7,5,8,8,7,0
+Cloud Workload Protection,2,0,0,0,0,0,0
+Collaboration,5,6,5,2,0,0,0
+Commercial Space Launch,1,1,0,0,0,0,0
+Community,19,5,0,0,1,0,0
+Compliance,6,15,12,12,14,4,0
+Computer Vision,9,4,6,9,10,7,0
+Construction,9,13,6,7,5,11,0
+Consumer,26,58,20,43,34,16,0
+Consumer Finance,5,3,4,6,7,4,0
+Consumer Health Services,34,13,8,7,3,2,0
+Consumer Products,2,1,1,0,3,1,0
+Conversational AI,3,4,6,11,15,2,0
+Conversational Banking,0,0,1,0,0,0,0
+Creator Economy,5,8,3,2,5,2,0
+Crowdsourcing,0,0,0,0,1,1,0
+Crypto / Web3,16,29,6,4,4,4,0
+Cryptocurrency,1,5,2,0,1,1,0
+Cryptography,0,2,0,0,0,0,0
+Culture,1,0,0,0,0,1,0
+Cultured Meat,2,1,0,0,0,0,0
+Customer Service,2,2,3,4,2,1,0
+Customer Success,4,4,7,4,4,1,0
+Customer Support,2,5,9,7,3,1,0
+Cybersecurity,4,1,6,5,11,7,0
+DAO,0,2,0,0,0,0,0
+Data Engineering,15,19,11,11,7,12,0
+Data Labeling,1,3,1,2,6,5,0
+Data Science,1,1,6,8,5,3,0
+Data Visualization,3,0,8,6,3,0,0
+Databases,2,2,5,3,5,1,0
+Dating,1,0,0,0,0,0,0
+DeFi,3,7,0,0,0,0,0
+Deep Learning,5,1,3,4,1,10,0
+Deepfake Detection,0,1,0,0,0,0,0
+Defense,4,1,0,5,4,11,0
+Delivery,12,7,2,1,0,0,0
+Dental,0,0,0,2,2,0,0
+Design,2,1,3,3,10,2,0
+Design Tools,9,3,6,6,5,1,0
+DevOps,3,2,8,7,6,4,0
+DevSecOps,3,5,3,0,2,1,0
+Developer Tools,67,58,81,81,73,42,0
+Diagnostics,5,4,2,2,0,0,0
+Digital Freight Brokerage,0,0,0,0,0,1,0
+Digital Health,21,20,10,13,9,4,0
+Documents,4,4,5,4,4,1,0
+Drones,2,2,1,2,2,9,0
+Drug Delivery,0,1,1,0,1,0,0
+Drug discovery,5,5,3,6,1,1,0
+E-Commerce,2,1,0,0,0,0,0
+E-commerce,44,32,10,11,7,4,0
+Edge Computing Semiconductors,0,0,0,1,1,1,0
+Edtech,4,1,3,3,3,0,0
+Education,32,11,6,7,13,2,0
+Electric Vehicles,5,4,2,0,1,0,0
+Electronics,0,1,0,2,5,2,0
+Email,3,2,0,4,3,0,0
+Emerging Markets,1,0,1,2,1,1,0
+Energy,7,8,5,5,4,11,0
+Energy Storage,2,2,1,2,1,0,0
+Enterprise,8,20,22,14,10,9,0
+Enterprise Software,8,15,20,23,22,24,0
+Entertainment,3,8,4,6,3,2,0
+Exascale Computing,0,0,0,0,0,1,0
+Fashion,0,1,1,0,0,0,0
+Feedback,1,0,0,4,0,0,0
+Femtech,1,3,0,0,0,0,0
+FinOps,9,5,5,2,4,1,0
+Finance,8,8,17,19,12,15,0
+Fintech,139,145,56,42,26,24,0
+Fitness,5,0,2,3,0,0,0
+Food,3,1,1,0,0,0,0
+Food & Beverage,3,0,3,2,1,1,0
+Food Service Robots & Machines,3,0,0,0,0,0,0
+Food Tech,7,11,2,1,1,0,0
+Fraud Detection,1,2,2,1,0,1,0
+Fraud Prevention,0,1,1,1,0,0,0
+Fundraising,0,0,2,0,0,0,0
+Fusion Energy,0,0,0,0,2,0,0
+Gaming,7,14,4,4,3,6,0
+Gardening,1,0,0,0,0,0,0
+Gene Therapy,1,2,1,2,1,1,0
+Generative AI,19,35,78,50,33,12,0
+Genetic Engineering,0,0,1,0,1,1,0
+Genomics,3,2,0,0,1,1,0
+Geographic Information System,2,1,0,0,1,1,0
+Ghost Kitchens,6,1,0,0,0,0,0
+GovTech,6,5,2,5,9,6,0
+GraphQL,0,0,1,0,0,0,0
+Grocery,9,2,3,0,1,0,0
+HR Tech,12,11,8,6,4,3,0
+Hard Tech,20,13,4,14,17,36,0
+Hardware,12,12,3,9,25,29,0
+Health & Wellness,12,2,3,2,6,6,0
+Health Insurance,4,0,7,2,3,2,0
+Health Tech,17,20,22,16,17,5,0
+Healthcare,25,27,33,27,18,13,0
+Healthcare IT,5,4,10,4,7,3,0
+Home Automation,0,0,1,0,1,0,0
+Home Services,1,1,2,3,3,4,0
+Housing,3,1,0,1,1,1,0
+Human Resources,4,4,0,2,0,2,0
+Hydrogen Energy,0,2,2,0,0,0,0
+Identity,3,7,0,1,0,1,0
+Immigration,0,0,0,1,2,0,0
+Income Share Agreements,2,0,0,0,0,0,0
+India,3,4,1,0,0,0,0
+Industrial,1,1,0,7,13,9,0
+Industrial Workplace Safety,1,0,0,0,0,0,0
+Infrastructure,10,9,18,23,32,35,0
+Insurance,8,15,5,11,7,11,1
+International,1,0,0,3,0,0,0
+Investing,6,8,6,7,5,9,0
+Investments,1,2,1,1,1,1,0
+IoT,4,2,0,0,0,1,0
+IoT Security,0,0,0,0,1,0,0
+Kids,2,0,0,0,0,0,0
+Kubernetes,1,3,2,0,0,1,0
+Latin America,4,2,1,1,0,0,0
+Legal,2,3,4,9,10,3,0
+LegalTech,6,6,4,11,9,3,0
+Lending,6,4,0,3,1,1,0
+Lidar,0,0,0,1,0,0,0
+Live,1,0,0,1,0,0,0
+Livestock Health,0,0,0,0,1,0,0
+Location-based,0,0,0,0,0,1,0
+Logistics,13,20,12,11,11,10,0
+ML,2,3,3,3,3,4,0
+Machine Learning,30,35,23,22,22,15,0
+Manufacturing,6,11,6,15,22,19,0
+Maritime,2,0,0,0,1,0,0
+Market Research,3,1,2,2,5,3,0
+Marketing,8,17,16,15,14,6,0
+Marketplace,53,37,13,8,8,6,0
+Media,3,2,4,6,2,0,0
+Medical Devices,14,10,3,1,1,1,0
+Medical Robotics,1,1,1,0,0,0,0
+Mental Health,2,0,0,0,1,1,0
+Mental Health Tech,10,7,2,0,0,0,0
+Messaging,2,4,0,2,0,1,0
+Metaverse,0,2,0,0,0,0,0
+Microfluidics,1,0,1,0,0,0,0
+Microinsurance,1,1,0,0,0,0,0
+Mining,0,2,0,1,0,0,0
+Mobility,2,1,0,1,0,0,0
+Monitoring,1,0,3,3,2,2,0
+Music,1,2,0,2,1,0,0
+NFT,0,3,0,0,0,0,0
+NLP,3,4,1,1,1,0,0
+Nanomedicine,1,0,1,0,0,0,0
+Nanosensors,0,0,0,1,0,0,0
+Nanotechnology,0,1,2,0,0,0,0
+Navigation,0,1,0,1,0,0,0
+Neobank,7,22,6,3,5,1,0
+Networks,0,0,0,0,1,0,0
+Neurotechnology,3,3,0,1,1,1,0
+Next-gen Network Security,0,2,0,0,0,0,0
+No-code,6,6,4,6,5,0,0
+Nonprofit,2,2,0,0,0,0,0
+Note-taking,1,1,0,0,1,0,0
+Oncology,2,4,2,5,0,2,0
+Open Source,21,24,32,19,21,10,0
+Operations,5,3,4,12,8,4,0
+Payments,23,33,20,9,4,2,0
+Payroll,2,2,4,2,0,1,0
+Pediatrics,0,1,0,0,0,0,0
+Personalization,0,0,0,1,1,3,0
+Podcasts,1,1,0,1,0,0,0
+Primary Care,3,1,0,0,0,0,0
+Privacy,3,3,2,2,1,1,0
+Procurement,3,0,1,3,1,2,0
+Productivity,20,26,19,23,20,7,0
+Proptech,15,21,10,8,4,0,0
+Quantum Computing,0,0,0,1,0,0,0
+Radar,0,0,0,0,0,1,0
+Real Estate,6,17,7,8,5,5,0
+Recommendation System,0,1,1,0,0,0,0
+Recruiting,13,4,3,3,5,4,0
+Regtech,2,5,4,3,1,2,0
+Reinforcement Learning,0,0,2,5,16,18,0
+Remittances,0,1,1,1,0,0,0
+Remote,2,0,0,0,0,0,0
+Remote Work,5,1,1,1,0,1,0
+Renewable Energy,2,2,3,2,1,3,0
+Restaurant Tech,2,0,2,1,2,2,0
+Retail,4,3,8,3,2,1,0
+Retail Tech,1,0,0,3,1,0,0
+Reviews,0,0,0,1,0,0,0
+Ridesharing,1,0,0,0,0,0,0
+Robotic Process Automation,5,3,5,3,5,6,0
+Robotic Surgery,0,1,0,0,0,0,0
+Robotics,12,8,1,16,28,39,0
+Rocketry,0,0,0,1,1,0,0
+SEO,1,1,0,1,0,1,0
+SMB,1,1,2,3,1,1,0
+SMS,0,1,1,2,0,0,0
+SaaS,214,174,129,87,68,37,0
+Sales,12,26,20,18,19,4,0
+Sales Enablement,5,9,5,4,7,3,0
+Satellites,5,5,2,3,2,2,0
+Scheduling,2,1,0,0,0,1,0
+Search,1,5,3,7,2,0,0
+Security,12,14,7,10,9,7,0
+Self-Driving Vehicles,1,0,0,0,0,1,0
+Semiconductors,0,0,2,5,2,10,0
+Skincare,0,1,0,0,0,1,0
+Sleep Tech,3,0,0,0,0,0,0
+Smart Home Assistants,0,0,0,0,1,0,0
+Smart Waste Management,0,0,0,0,0,1,0
+Social,3,8,1,1,6,3,0
+Social Media,3,0,1,10,4,0,0
+Social Network,2,0,0,3,2,0,0
+Solar Power,2,5,2,2,1,1,0
+Space Exploration,6,2,0,1,1,3,0
+Speech Recognition,1,2,0,1,1,0,0
+Sports Tech,2,2,0,1,3,0,0
+Stocks,2,0,0,0,0,3,0
+Subscriptions,13,6,3,1,0,0,0
+Supply Chain,10,11,7,15,10,9,0
+Sustainability,3,0,0,1,0,2,0
+Sustainable Fashion,2,2,0,0,0,0,0
+Sustainable Tourism,0,1,0,0,0,0,0
+Swarm Robotics,0,0,0,1,0,3,0
+Synthetic Biology,4,5,3,8,1,2,0
+Talent Acquisition,1,0,0,0,0,1,0
+Team Collaboration,1,0,1,1,3,0,0
+Telecommunications,5,1,2,4,2,2,0
+Telehealth,7,6,2,1,2,1,0
+Telemedicine,10,6,1,0,0,0,0
+Therapeutics,7,11,3,7,1,2,0
+Time Series,0,0,0,0,0,1,0
+Trading,3,2,1,1,2,7,0
+Transportation,2,5,3,2,3,0,0
+Travel,5,4,2,7,2,1,0
+Trust & Safety,0,1,1,0,0,1,0
+Unmanned Vehicle,0,1,0,0,0,1,0
+Vaccines,0,0,0,0,0,1,0
+Video,8,6,8,13,8,1,0
+Virtual Reality,2,6,0,0,0,1,0
+Warehouse Management Tech,4,2,1,1,0,1,0
+Weather,1,0,0,0,0,0,0
+Web Development,4,2,5,2,4,1,0
+Women's Health,4,1,2,0,1,0,0
+Workflow Automation,5,7,10,21,13,11,1
+eLearning,20,5,3,1,2,1,0
+eSports,0,0,0,0,0,1,0

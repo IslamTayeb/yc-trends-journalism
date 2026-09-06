@@ -1,0 +1,59 @@
+subindustry,2021.0,2022.0,2023.0,2024.0,2025.0,2026.0,2027.0
+B2B,8.666,9.968,17.206,18.305,20.773,19.578,0.0
+B2B -> Analytics,2.338,2.215,3.036,1.864,2.093,1.506,0.0
+"B2B -> Engineering, Product and Design",8.391,7.278,15.587,16.61,15.298,8.133,0.0
+B2B -> Finance and Accounting,3.851,2.532,3.846,1.864,2.576,1.958,0.0
+B2B -> Human Resources,2.476,2.057,0.405,0.678,0.483,0.151,0.0
+B2B -> Infrastructure,2.889,5.222,5.466,5.085,6.119,10.542,0.0
+B2B -> Legal,0.55,0.475,1.619,1.695,1.932,1.506,0.0
+B2B -> Marketing,2.751,3.165,1.822,1.525,1.932,1.506,0.0
+B2B -> Office Management,0.138,0.0,0.202,0.169,0.0,0.0,0.0
+B2B -> Operations,3.026,2.373,4.049,3.729,1.771,3.012,100.0
+B2B -> Productivity,2.889,3.323,3.036,3.39,3.221,2.861,0.0
+B2B -> Recruiting and Talent,1.1,0.633,0.405,0.339,0.805,0.753,0.0
+B2B -> Retail,1.926,0.949,1.619,1.186,0.644,0.301,0.0
+B2B -> Sales,1.788,3.006,4.453,2.542,2.576,0.904,0.0
+B2B -> Security,1.788,1.899,2.834,1.695,2.576,2.41,0.0
+B2B -> Supply Chain and Logistics,2.613,2.373,2.429,2.542,1.932,2.108,0.0
+Consumer,3.439,3.639,3.441,5.763,4.67,2.56,0.0
+Consumer -> Apparel and Cosmetics,0.55,0.475,0.202,0.0,0.161,0.0,0.0
+Consumer -> Consumer Electronics,0.138,0.316,0.0,0.508,0.483,0.904,0.0
+Consumer -> Content,0.963,1.424,1.012,1.864,0.966,0.452,0.0
+Consumer -> Food and Beverage,2.613,1.582,0.405,0.0,0.0,0.151,0.0
+Consumer -> Gaming,0.413,0.791,0.202,0.339,0.483,1.054,0.0
+Consumer -> Home and Personal,1.376,0.158,0.405,0.0,0.0,0.0,0.0
+Consumer -> Job and Career Services,0.413,0.158,0.0,0.169,0.0,0.301,0.0
+Consumer -> Social,0.413,0.475,0.0,0.508,0.322,0.0,0.0
+Consumer -> Transportation Services,0.138,0.158,0.0,0.169,0.0,0.0,0.0
+"Consumer -> Travel, Leisure and Tourism",0.138,0.158,0.405,0.508,0.0,0.151,0.0
+Consumer -> Virtual and Augmented Reality,0.138,0.158,0.0,0.0,0.161,0.0,0.0
+Education,3.851,1.424,1.215,0.847,1.61,0.151,0.0
+Fintech,3.576,9.652,4.656,2.203,1.449,2.56,0.0
+Fintech -> Asset Management,1.376,1.424,0.607,0.847,0.0,1.205,0.0
+Fintech -> Banking and Exchange,1.788,0.949,0.405,0.339,0.644,0.602,0.0
+Fintech -> Consumer Finance,2.063,1.424,1.215,0.339,1.127,0.904,0.0
+Fintech -> Credit and Lending,2.476,1.899,0.81,0.339,0.322,0.452,0.0
+Fintech -> Insurance,0.963,1.741,0.405,1.017,1.61,2.259,0.0
+Fintech -> Payments,3.439,3.956,1.619,1.017,0.644,0.753,0.0
+Government,0.275,0.158,0.202,1.017,1.449,0.602,0.0
+Healthcare,1.926,1.741,1.822,3.559,2.415,3.313,0.0
+Healthcare -> Consumer Health and Wellness,3.301,1.741,1.215,0.847,0.805,0.753,0.0
+Healthcare -> Diagnostics,1.376,0.633,0.607,0.339,0.0,0.151,0.0
+Healthcare -> Drug Discovery and Delivery,1.238,0.475,1.822,0.339,0.483,1.205,0.0
+Healthcare -> Healthcare IT,2.201,2.057,3.036,3.051,2.415,0.904,0.0
+Healthcare -> Healthcare Services,0.825,1.424,1.012,0.339,0.483,1.205,0.0
+Healthcare -> Industrial Bio,0.413,0.316,0.202,0.339,0.161,0.151,0.0
+Healthcare -> Medical Devices,1.513,1.108,0.405,0.169,0.0,0.151,0.0
+Healthcare -> Therapeutics,1.651,1.266,0.202,1.356,0.483,0.301,0.0
+Industrials,0.138,0.475,0.81,0.847,1.127,3.163,0.0
+Industrials -> Agriculture,0.275,0.158,0.405,0.0,0.483,0.301,0.0
+Industrials -> Automotive,0.413,0.316,0.0,0.169,0.161,0.0,0.0
+Industrials -> Aviation and Space,1.513,1.108,0.607,1.695,1.127,1.506,0.0
+Industrials -> Climate,1.1,2.373,0.202,0.678,0.161,0.452,0.0
+Industrials -> Defense,0.138,0.0,0.0,0.169,0.805,2.56,0.0
+Industrials -> Drones,0.275,0.158,0.0,0.339,0.161,0.602,0.0
+Industrials -> Energy,1.1,0.633,0.405,0.508,0.644,1.807,0.0
+Industrials -> Manufacturing and Robotics,0.963,0.791,0.0,2.373,5.314,7.229,0.0
+Real Estate and Construction,0.0,1.108,0.81,0.508,0.483,0.602,0.0
+Real Estate and Construction -> Construction,0.825,0.949,0.81,0.847,0.805,0.904,0.0
+Real Estate and Construction -> Housing and Real Estate,1.1,1.582,0.405,0.508,0.644,0.452,0.0

@@ -1,0 +1,361 @@
+batch,rank,tag,share_pct,count
+Winter 2021,1,SaaS,27.976,94
+Winter 2021,2,B2B,23.214,78
+Winter 2021,3,Fintech,17.262,58
+Winter 2021,4,Artificial Intelligence,11.905,40
+Winter 2021,5,Developer Tools,10.119,34
+Winter 2021,6,AI,8.333,28
+Winter 2021,7,Marketplace,5.952,20
+Winter 2021,8,E-commerce,5.655,19
+Winter 2021,9,Education,4.167,14
+Winter 2021,10,Consumer,4.167,14
+Winter 2021,11,Open Source,3.869,13
+Winter 2021,12,Consumer Health Services,3.869,13
+Winter 2021,13,Climate,3.869,13
+Winter 2021,14,eLearning,3.571,12
+Winter 2021,15,Healthcare,3.274,11
+Winter 2021,16,Hard Tech,3.274,11
+Winter 2021,17,Machine Learning,2.976,10
+Winter 2021,18,Digital Health,2.976,10
+Winter 2021,19,Logistics,2.976,10
+Winter 2021,20,Robotics,2.679,9
+Summer 2021,1,SaaS,30.691,120
+Summer 2021,2,B2B,26.087,102
+Summer 2021,3,Fintech,20.716,81
+Summer 2021,4,Artificial Intelligence,12.02,47
+Summer 2021,5,AI,9.719,38
+Summer 2021,6,Marketplace,8.44,33
+Summer 2021,7,Developer Tools,8.44,33
+Summer 2021,8,E-commerce,6.394,25
+Summer 2021,9,Consumer Health Services,5.371,21
+Summer 2021,10,Machine Learning,5.115,20
+Summer 2021,11,Climate,4.859,19
+Summer 2021,12,Education,4.604,18
+Summer 2021,13,Biotech,3.836,15
+Summer 2021,14,Generative AI,3.581,14
+Summer 2021,15,Healthcare,3.581,14
+Summer 2021,16,Payments,3.581,14
+Summer 2021,17,Medical Devices,3.069,12
+Summer 2021,18,Productivity,3.069,12
+Summer 2021,19,Analytics,3.069,12
+Summer 2021,20,Consumer,3.069,12
+Winter 2022,1,SaaS,26.633,106
+Winter 2022,2,B2B,25.628,102
+Winter 2022,3,Fintech,23.116,92
+Winter 2022,4,Artificial Intelligence,14.07,56
+Winter 2022,5,AI,13.568,54
+Winter 2022,6,Consumer,9.799,39
+Winter 2022,7,Developer Tools,8.543,34
+Winter 2022,8,Marketplace,8.04,32
+Winter 2022,9,E-commerce,6.281,25
+Winter 2022,10,Machine Learning,6.03,24
+Winter 2022,11,Climate,5.025,20
+Winter 2022,12,Healthcare,4.774,19
+Winter 2022,13,Payments,4.523,18
+Winter 2022,14,API,4.271,17
+Winter 2022,15,Analytics,4.271,17
+Winter 2022,16,Crypto / Web3,4.02,16
+Winter 2022,17,Neobank,3.769,15
+Winter 2022,18,Digital Health,3.518,14
+Winter 2022,19,Proptech,3.518,14
+Winter 2022,20,Generative AI,3.266,13
+Summer 2022,1,B2B,38.034,89
+Summer 2022,2,SaaS,29.06,68
+Summer 2022,3,Fintech,22.65,53
+Summer 2022,4,AI,20.513,48
+Summer 2022,5,Artificial Intelligence,17.949,42
+Summer 2022,6,Developer Tools,10.256,24
+Summer 2022,7,Generative AI,9.402,22
+Summer 2022,8,Consumer,8.12,19
+Summer 2022,9,Payments,6.41,15
+Summer 2022,10,API,5.983,14
+Summer 2022,11,Productivity,5.983,14
+Summer 2022,12,Open Source,5.556,13
+Summer 2022,13,Crypto / Web3,5.556,13
+Summer 2022,14,Sales,5.556,13
+Summer 2022,15,Machine Learning,4.701,11
+Summer 2022,16,Analytics,4.701,11
+Summer 2022,17,Enterprise,4.701,11
+Summer 2022,18,AI Assistant,3.846,9
+Summer 2022,19,Compliance,3.419,8
+Summer 2022,20,Biotech,3.419,8
+Winter 2023,1,B2B,35.401,97
+Winter 2023,2,SaaS,31.387,86
+Winter 2023,3,AI,22.993,63
+Winter 2023,4,Artificial Intelligence,21.533,59
+Winter 2023,5,Generative AI,17.883,49
+Winter 2023,6,Developer Tools,17.883,49
+Winter 2023,7,Fintech,12.409,34
+Winter 2023,8,Open Source,7.664,21
+Winter 2023,9,AI Assistant,6.204,17
+Winter 2023,10,Enterprise,5.474,15
+Winter 2023,11,Analytics,5.474,15
+Winter 2023,12,API,5.109,14
+Winter 2023,13,Productivity,4.745,13
+Winter 2023,14,Payments,4.745,13
+Winter 2023,15,Healthcare,4.745,13
+Winter 2023,16,Consumer,4.38,12
+Winter 2023,17,Finance,4.38,12
+Winter 2023,18,Machine Learning,4.38,12
+Winter 2023,19,Health Tech,3.65,10
+Winter 2023,20,Marketplace,3.65,10
+Summer 2023,1,Artificial Intelligence,34.091,75
+Summer 2023,2,AI,27.727,61
+Summer 2023,3,B2B,23.636,52
+Summer 2023,4,SaaS,19.545,43
+Summer 2023,5,Developer Tools,14.545,32
+Summer 2023,6,Generative AI,13.182,29
+Summer 2023,7,Fintech,10.0,22
+Summer 2023,8,Healthcare,9.091,20
+Summer 2023,9,AI Assistant,5.909,13
+Summer 2023,10,Enterprise Software,5.455,12
+Summer 2023,11,Infrastructure,5.455,12
+Summer 2023,12,Health Tech,5.455,12
+Summer 2023,13,Open Source,5.0,11
+Summer 2023,14,Machine Learning,5.0,11
+Summer 2023,15,API,4.545,10
+Summer 2023,16,Marketing,4.545,10
+Summer 2023,17,Analytics,4.545,10
+Summer 2023,18,Sales,4.545,10
+Summer 2023,19,Healthcare IT,4.091,9
+Summer 2023,20,Consumer,3.636,8
+Winter 2024,1,Artificial Intelligence,37.5,93
+Winter 2024,2,AI,31.452,78
+Winter 2024,3,B2B,22.984,57
+Winter 2024,4,SaaS,12.5,31
+Winter 2024,5,Developer Tools,12.5,31
+Winter 2024,6,AI Assistant,8.065,20
+Winter 2024,7,Generative AI,7.661,19
+Winter 2024,8,Consumer,6.855,17
+Winter 2024,9,Fintech,6.855,17
+Winter 2024,10,Healthcare,5.242,13
+Winter 2024,11,Sales,4.839,12
+Winter 2024,12,Open Source,4.839,12
+Winter 2024,13,Automation,4.435,11
+Winter 2024,14,Productivity,4.032,10
+Winter 2024,15,Workflow Automation,4.032,10
+Winter 2024,16,Marketing,3.226,8
+Winter 2024,17,Analytics,3.226,8
+Winter 2024,18,Digital Health,3.226,8
+Winter 2024,19,Enterprise Software,3.226,8
+Winter 2024,20,Video,2.823,7
+Summer 2024,1,AI,34.677,86
+Summer 2024,2,Artificial Intelligence,33.468,83
+Summer 2024,3,B2B,26.21,65
+Summer 2024,4,SaaS,16.129,40
+Summer 2024,5,Developer Tools,12.903,32
+Summer 2024,6,Generative AI,10.081,25
+Summer 2024,7,Fintech,9.274,23
+Summer 2024,8,Consumer,7.258,18
+Summer 2024,9,AI Assistant,6.452,16
+Summer 2024,10,Hard Tech,4.435,11
+Summer 2024,11,Finance,4.435,11
+Summer 2024,12,Biotech,4.435,11
+Summer 2024,13,Productivity,4.435,11
+Summer 2024,14,Infrastructure,4.435,11
+Summer 2024,15,Analytics,4.032,10
+Summer 2024,16,Enterprise Software,4.032,10
+Summer 2024,17,AIOps,4.032,10
+Summer 2024,18,Machine Learning,4.032,10
+Summer 2024,19,Manufacturing,4.032,10
+Summer 2024,20,Supply Chain,4.032,10
+Fall 2024,1,AI,36.17,34
+Fall 2024,2,Artificial Intelligence,26.596,25
+Fall 2024,3,Developer Tools,19.149,18
+Fall 2024,4,B2B,19.149,18
+Fall 2024,5,SaaS,17.021,16
+Fall 2024,6,Consumer,8.511,8
+Fall 2024,7,Machine Learning,6.383,6
+Fall 2024,8,Generative AI,6.383,6
+Fall 2024,9,AI Assistant,5.319,5
+Fall 2024,10,Healthcare,5.319,5
+Fall 2024,11,Enterprise Software,5.319,5
+Fall 2024,12,Infrastructure,5.319,5
+Fall 2024,13,Health Tech,4.255,4
+Fall 2024,14,Automation,4.255,4
+Fall 2024,15,Finance,3.191,3
+Fall 2024,16,DevOps,3.191,3
+Fall 2024,17,Video,3.191,3
+Fall 2024,18,Social Media,3.191,3
+Fall 2024,19,Aerospace,3.191,3
+Fall 2024,20,API,3.191,3
+Winter 2025,1,Artificial Intelligence,30.723,51
+Winter 2025,2,AI,25.301,42
+Winter 2025,3,B2B,19.88,33
+Winter 2025,4,SaaS,15.663,26
+Winter 2025,5,Developer Tools,9.639,16
+Winter 2025,6,Generative AI,9.639,16
+Winter 2025,7,Fintech,6.627,11
+Winter 2025,8,Sales,5.422,9
+Winter 2025,9,Consumer,5.422,9
+Winter 2025,10,Hardware,4.819,8
+Winter 2025,11,Health Tech,4.217,7
+Winter 2025,12,Open Source,4.217,7
+Winter 2025,13,AI Assistant,3.614,6
+Winter 2025,14,Conversational AI,3.614,6
+Winter 2025,15,Healthcare,3.614,6
+Winter 2025,16,Infrastructure,3.614,6
+Winter 2025,17,Manufacturing,3.012,5
+Winter 2025,18,Robotics,3.012,5
+Winter 2025,19,Compliance,3.012,5
+Winter 2025,20,Legal,3.012,5
+Spring 2025,1,AI,31.469,45
+Spring 2025,2,Artificial Intelligence,27.273,39
+Spring 2025,3,B2B,18.182,26
+Spring 2025,4,Developer Tools,13.986,20
+Spring 2025,5,SaaS,9.79,14
+Spring 2025,6,Consumer,6.993,10
+Spring 2025,7,Manufacturing,6.294,9
+Spring 2025,8,Robotics,6.294,9
+Spring 2025,9,Infrastructure,6.294,9
+Spring 2025,10,Machine Learning,5.594,8
+Spring 2025,11,Enterprise Software,4.895,7
+Spring 2025,12,Healthcare,4.196,6
+Spring 2025,13,Hardware,4.196,6
+Spring 2025,14,Hard Tech,4.196,6
+Spring 2025,15,Open Source,3.497,5
+Spring 2025,16,Sales,3.497,5
+Spring 2025,17,Productivity,3.497,5
+Spring 2025,18,Fintech,3.497,5
+Spring 2025,19,Automation,3.497,5
+Spring 2025,20,Reinforcement Learning,3.497,5
+Summer 2025,1,Artificial Intelligence,33.735,56
+Summer 2025,2,AI,25.904,43
+Summer 2025,3,B2B,19.88,33
+Summer 2025,4,Developer Tools,13.855,23
+Summer 2025,5,SaaS,10.241,17
+Summer 2025,6,Infrastructure,6.024,10
+Summer 2025,7,Productivity,5.422,9
+Summer 2025,8,Enterprise Software,5.422,9
+Summer 2025,9,Consumer,4.217,7
+Summer 2025,10,AI Assistant,4.217,7
+Summer 2025,11,Supply Chain,4.217,7
+Summer 2025,12,Fintech,3.614,6
+Summer 2025,13,Hardware,3.614,6
+Summer 2025,14,Open Source,3.614,6
+Summer 2025,15,Robotics,3.012,5
+Summer 2025,16,Workflow Automation,3.012,5
+Summer 2025,17,Manufacturing,2.41,4
+Summer 2025,18,Logistics,2.41,4
+Summer 2025,19,Machine Learning,2.41,4
+Summer 2025,20,Video,2.41,4
+Fall 2025,1,AI,32.192,47
+Fall 2025,2,Artificial Intelligence,27.397,40
+Fall 2025,3,B2B,24.658,36
+Fall 2025,4,Developer Tools,9.589,14
+Fall 2025,5,SaaS,7.534,11
+Fall 2025,6,AI Assistant,6.164,9
+Fall 2025,7,Generative AI,6.164,9
+Fall 2025,8,Robotics,6.164,9
+Fall 2025,9,Consumer,5.479,8
+Fall 2025,10,Infrastructure,4.795,7
+Fall 2025,11,Health Tech,4.795,7
+Fall 2025,12,Finance,3.425,5
+Fall 2025,13,Machine Learning,3.425,5
+Fall 2025,14,Advertising,3.425,5
+Fall 2025,15,Marketing,3.425,5
+Fall 2025,16,Hardware,3.425,5
+Fall 2025,17,Analytics,3.425,5
+Fall 2025,18,Compliance,3.425,5
+Fall 2025,19,Healthcare,3.425,5
+Fall 2025,20,LegalTech,2.74,4
+Winter 2026,1,Artificial Intelligence,11.055,22
+Winter 2026,2,AI,7.538,15
+Winter 2026,3,B2B,5.528,11
+Winter 2026,4,Infrastructure,3.518,7
+Winter 2026,5,Enterprise Software,2.513,5
+Winter 2026,6,SaaS,2.513,5
+Winter 2026,7,Developer Tools,2.513,5
+Winter 2026,8,Data Engineering,2.01,4
+Winter 2026,9,Fintech,2.01,4
+Winter 2026,10,Reinforcement Learning,2.01,4
+Winter 2026,11,Hardware,1.508,3
+Winter 2026,12,Operations,1.508,3
+Winter 2026,13,Logistics,1.508,3
+Winter 2026,14,Automation,1.508,3
+Winter 2026,15,Construction,1.508,3
+Winter 2026,16,Computer Vision,1.508,3
+Winter 2026,17,Machine Learning,1.508,3
+Winter 2026,18,Hard Tech,1.508,3
+Winter 2026,19,Robotics,1.508,3
+Winter 2026,20,API,1.005,2
+Spring 2026,1,Artificial Intelligence,8.205,16
+Spring 2026,2,AI,6.667,13
+Spring 2026,3,B2B,5.641,11
+Spring 2026,4,Developer Tools,4.103,8
+Spring 2026,5,Consumer,3.59,7
+Spring 2026,6,SaaS,3.077,6
+Spring 2026,7,Enterprise Software,2.564,5
+Spring 2026,8,Robotics,2.564,5
+Spring 2026,9,AI Assistant,2.051,4
+Spring 2026,10,Hard Tech,2.051,4
+Spring 2026,11,Fintech,2.051,4
+Spring 2026,12,Infrastructure,1.538,3
+Spring 2026,13,Hardware,1.538,3
+Spring 2026,14,Productivity,1.538,3
+Spring 2026,15,Enterprise,1.026,2
+Spring 2026,16,Gaming,1.026,2
+Spring 2026,17,Insurance,1.026,2
+Spring 2026,18,Marketing,1.026,2
+Spring 2026,19,Open Source,1.026,2
+Spring 2026,20,Biotech,1.026,2
+Summer 2026,1,Artificial Intelligence,37.021,87
+Summer 2026,2,AI,31.489,74
+Summer 2026,3,B2B,22.553,53
+Summer 2026,4,Robotics,11.915,28
+Summer 2026,5,Hard Tech,10.638,25
+Summer 2026,6,SaaS,10.213,24
+Summer 2026,7,Developer Tools,9.787,23
+Summer 2026,8,Hardware,8.511,20
+Summer 2026,9,Infrastructure,8.085,19
+Summer 2026,10,Manufacturing,6.809,16
+Summer 2026,11,Enterprise Software,5.957,14
+Summer 2026,12,Fintech,5.957,14
+Summer 2026,13,Reinforcement Learning,5.957,14
+Summer 2026,14,Machine Learning,5.106,12
+Summer 2026,15,Workflow Automation,4.681,11
+Summer 2026,16,Finance,4.681,11
+Summer 2026,17,Automation,4.681,11
+Summer 2026,18,Healthcare,4.681,11
+Summer 2026,19,Generative AI,4.255,10
+Summer 2026,20,Biotech,3.83,9
+Fall 2026,1,Artificial Intelligence,37.143,13
+Fall 2026,2,AI,25.714,9
+Fall 2026,3,Infrastructure,17.143,6
+Fall 2026,4,Developer Tools,17.143,6
+Fall 2026,5,Hard Tech,11.429,4
+Fall 2026,6,B2B,11.429,4
+Fall 2026,7,Hardware,8.571,3
+Fall 2026,8,Robotics,8.571,3
+Fall 2026,9,AIOps,8.571,3
+Fall 2026,10,Deep Learning,5.714,2
+Fall 2026,11,Consumer,5.714,2
+Fall 2026,12,Fintech,5.714,2
+Fall 2026,13,Cloud Computing,5.714,2
+Fall 2026,14,Manufacturing,5.714,2
+Fall 2026,15,SaaS,5.714,2
+Fall 2026,16,DevOps,5.714,2
+Fall 2026,17,Insurance,5.714,2
+Fall 2026,18,Advanced Materials,2.857,1
+Fall 2026,19,Semiconductors,2.857,1
+Fall 2026,20,AI Assistant,2.857,1
+Winter 2027,1,B2B,100.0,1
+Winter 2027,2,Insurance,100.0,1
+Winter 2027,3,Workflow Automation,100.0,1
+Winter 2027,4,NLP,0.0,0
+Winter 2027,5,NFT,0.0,0
+Winter 2027,6,Music,0.0,0
+Winter 2027,7,Monitoring,0.0,0
+Winter 2027,8,Mobility,0.0,0
+Winter 2027,9,Mining,0.0,0
+Winter 2027,10,Microinsurance,0.0,0
+Winter 2027,11,Nanomedicine,0.0,0
+Winter 2027,12,Metaverse,0.0,0
+Winter 2027,13,Messaging,0.0,0
+Winter 2027,14,Mental Health Tech,0.0,0
+Winter 2027,15,Mental Health,0.0,0
+Winter 2027,16,Medical Robotics,0.0,0
+Winter 2027,17,Medical Devices,0.0,0
+Winter 2027,18,Media,0.0,0
+Winter 2027,19,Marketplace,0.0,0
+Winter 2027,20,Microfluidics,0.0,0

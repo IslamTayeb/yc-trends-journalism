@@ -1,0 +1,103 @@
+# Analysis window. END_YEAR: "latest" = include everything up to the newest batch.
+START_YEAR: 2021
+END_YEAR: latest
+
+# A batch with fewer companies than this is treated as "partial / in progress":
+# it is kept in every matrix but excluded from rankings, "latest share", emergence rules.
+MIN_FULL_BATCH: 50
+
+# Periods for tag co-occurrence (inclusive year ranges; last period open-ended).
+PERIODS:
+  - {label: "2021-2022", start: 2021, end: 2022}
+  - {label: "2023-2024", start: 2023, end: 2024}
+  - {label: "2025-present", start: 2025, end: 9999}
+
+# Co-occurrence thresholds
+COOC_MIN_TAG_COMPANIES: 10
+COOC_MIN_PAIR_COUNT: 5
+COOC_NEW_PAIR_MAX_EARLY: 2
+
+# Emergence rules (shares are fractions of batch, pp = percentage points)
+EMERGENCE:
+  n_early_batches: 2
+  n_late_batches: 2
+  emerging_min_pp_gain: 2.0
+  emerging_min_ratio: 2.0
+  emerging_min_latest_count: 5
+  declining_min_early_share_pct: 2.0
+  declining_max_ratio: 0.5
+  declining_min_pp_loss: 2.0
+  spiky_peak_over_median: 3.0
+  spiky_min_peak_pct: 2.0
+  persistent_min_mean_pct: 1.0
+  persistent_max_cv: 0.35
+
+# Rankings
+TOP_N_INDUSTRIES: 10
+TOP_N_TAGS: 20
+MAJOR_MOVER_RANK_CHANGE: 5
+MAJOR_MOVER_PP: 3.0
+NEW_LABEL_MIN_COUNT: 5
+
+# Diversity: rarefaction
+RAREFY_N: 150
+RAREFY_DRAWS: 200
+RANDOM_SEED: 20260906
+
+# Exact YC-native labels to plot standalone (only those present in data are used)
+STANDALONE_SUBINDUSTRIES:
+  - Manufacturing and Robotics
+  - Defense
+  - Aviation and Space
+  - Drones
+  - Energy
+  - Industrial Bio
+  - Medical Devices
+  - Construction
+  - Real Estate and Construction
+  - Agriculture
+  - Climate
+  - Automotive
+  - Healthcare IT
+  - Drug Discovery and Delivery
+  - Supply Chain and Logistics
+  - Finance and Accounting
+  - Semiconductors
+STANDALONE_TAGS:
+  - Robotics
+  - Hard Tech
+  - Semiconductors
+  - Defense
+  - Aerospace
+  - Drones
+  - Manufacturing
+  - Energy
+  - Agriculture
+  - Construction
+  - Medical Devices
+  - Healthcare
+  - Fintech
+  - Consumer
+  - Developer Tools
+  - Artificial Intelligence
+  - AI
+  - Generative AI
+  - Machine Learning
+  - Crypto / Web3
+  - Climate
+  - SaaS
+  - Marketplace
+  - Biotech
+  - Space
+STANDALONE_INDUSTRIES:
+  - B2B
+  - Consumer
+  - Healthcare
+  - Fintech
+  - Industrials
+  - Education
+  - Government
+  - Real Estate and Construction
+
+OUT_DIR: data/processed
+FIG_DIR: figures

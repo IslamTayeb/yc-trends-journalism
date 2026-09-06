@@ -1,0 +1,361 @@
+batch,rank,subindustry,share_pct,count
+Winter 2021,1,"B2B -> Engineering, Product and Design",9.524,32
+Winter 2021,2,B2B,5.952,20
+Winter 2021,3,B2B -> Operations,5.655,19
+Winter 2021,4,B2B -> Infrastructure,3.869,13
+Winter 2021,5,B2B -> Finance and Accounting,3.869,13
+Winter 2021,6,Education,3.869,13
+Winter 2021,7,Healthcare -> Healthcare IT,3.869,13
+Winter 2021,8,B2B -> Productivity,3.571,12
+Winter 2021,9,Fintech -> Credit and Lending,3.274,11
+Winter 2021,10,Fintech -> Payments,3.274,11
+Winter 2021,11,B2B -> Supply Chain and Logistics,2.976,10
+Winter 2021,12,B2B -> Retail,2.679,9
+Winter 2021,13,Consumer -> Food and Beverage,2.679,9
+Winter 2021,14,Fintech -> Banking and Exchange,2.381,8
+Winter 2021,15,Healthcare -> Consumer Health and Wellness,2.381,8
+Winter 2021,16,B2B -> Marketing,2.381,8
+Winter 2021,17,Consumer -> Home and Personal,2.083,7
+Winter 2021,18,Consumer,2.083,7
+Winter 2021,19,Fintech -> Consumer Finance,2.083,7
+Winter 2021,20,Healthcare -> Therapeutics,1.786,6
+Summer 2021,1,B2B,10.997,43
+Summer 2021,2,"B2B -> Engineering, Product and Design",7.417,29
+Summer 2021,3,Fintech,5.371,21
+Summer 2021,4,Consumer,4.604,18
+Summer 2021,5,Healthcare -> Consumer Health and Wellness,4.092,16
+Summer 2021,6,B2B -> Finance and Accounting,3.836,15
+Summer 2021,7,Education,3.836,15
+Summer 2021,8,Fintech -> Payments,3.581,14
+Summer 2021,9,B2B -> Human Resources,3.581,14
+Summer 2021,10,B2B -> Analytics,3.069,12
+Summer 2021,11,B2B -> Marketing,3.069,12
+Summer 2021,12,Healthcare,2.813,11
+Summer 2021,13,Consumer -> Food and Beverage,2.558,10
+Summer 2021,14,Healthcare -> Drug Discovery and Delivery,2.302,9
+Summer 2021,15,B2B -> Supply Chain and Logistics,2.302,9
+Summer 2021,16,B2B -> Security,2.302,9
+Summer 2021,17,B2B -> Productivity,2.302,9
+Summer 2021,18,B2B -> Sales,2.046,8
+Summer 2021,19,Healthcare -> Medical Devices,2.046,8
+Summer 2021,20,Fintech -> Consumer Finance,2.046,8
+Winter 2022,1,Fintech,9.548,38
+Winter 2022,2,B2B,8.794,35
+Winter 2022,3,"B2B -> Engineering, Product and Design",6.784,27
+Winter 2022,4,B2B -> Infrastructure,4.523,18
+Winter 2022,5,Fintech -> Payments,4.02,16
+Winter 2022,6,Consumer,3.769,15
+Winter 2022,7,B2B -> Marketing,3.266,13
+Winter 2022,8,B2B -> Supply Chain and Logistics,3.015,12
+Winter 2022,9,B2B -> Analytics,2.764,11
+Winter 2022,10,B2B -> Productivity,2.764,11
+Winter 2022,11,Fintech -> Credit and Lending,2.764,11
+Winter 2022,12,Industrials -> Climate,2.513,10
+Winter 2022,13,B2B -> Security,2.513,10
+Winter 2022,14,B2B -> Human Resources,2.261,9
+Winter 2022,15,B2B -> Operations,2.261,9
+Winter 2022,16,B2B -> Sales,2.01,8
+Winter 2022,17,Consumer -> Content,2.01,8
+Winter 2022,18,Fintech -> Insurance,2.01,8
+Winter 2022,19,Education,2.01,8
+Winter 2022,20,Healthcare -> Healthcare Services,2.01,8
+Summer 2022,1,B2B,11.966,28
+Summer 2022,2,Fintech,9.829,23
+Summer 2022,3,"B2B -> Engineering, Product and Design",8.12,19
+Summer 2022,4,B2B -> Infrastructure,6.41,15
+Summer 2022,5,B2B -> Sales,4.701,11
+Summer 2022,6,B2B -> Productivity,4.274,10
+Summer 2022,7,Fintech -> Payments,3.846,9
+Summer 2022,8,B2B -> Finance and Accounting,3.846,9
+Summer 2022,9,Consumer,3.419,8
+Summer 2022,10,B2B -> Marketing,2.991,7
+Summer 2022,11,Healthcare -> Healthcare IT,2.991,7
+Summer 2022,12,B2B -> Operations,2.564,6
+Summer 2022,13,Healthcare,2.137,5
+Summer 2022,14,Industrials -> Climate,2.137,5
+Summer 2022,15,Healthcare -> Therapeutics,2.137,5
+Summer 2022,16,Consumer -> Food and Beverage,2.137,5
+Summer 2022,17,Consumer -> Gaming,1.709,4
+Summer 2022,18,B2B -> Human Resources,1.709,4
+Summer 2022,19,Real Estate and Construction -> Housing and Real Estate,1.709,4
+Summer 2022,20,Industrials -> Aviation and Space,1.709,4
+Winter 2023,1,B2B,16.423,45
+Winter 2023,2,"B2B -> Engineering, Product and Design",16.423,45
+Winter 2023,3,B2B -> Infrastructure,5.839,16
+Winter 2023,4,B2B -> Operations,5.109,14
+Winter 2023,5,Fintech,5.109,14
+Winter 2023,6,B2B -> Finance and Accounting,4.745,13
+Winter 2023,7,Consumer,4.38,12
+Winter 2023,8,B2B -> Sales,4.015,11
+Winter 2023,9,B2B -> Analytics,3.285,9
+Winter 2023,10,B2B -> Security,2.92,8
+Winter 2023,11,Healthcare -> Drug Discovery and Delivery,2.555,7
+Winter 2023,12,Healthcare -> Healthcare IT,2.19,6
+Winter 2023,13,B2B -> Supply Chain and Logistics,1.825,5
+Winter 2023,14,Fintech -> Payments,1.825,5
+Winter 2023,15,Fintech -> Consumer Finance,1.825,5
+Winter 2023,16,B2B -> Productivity,1.825,5
+Winter 2023,17,B2B -> Marketing,1.825,5
+Winter 2023,18,Consumer -> Content,1.46,4
+Winter 2023,19,Healthcare,1.46,4
+Winter 2023,20,Fintech -> Asset Management,1.095,3
+Summer 2023,1,B2B,18.182,40
+Summer 2023,2,"B2B -> Engineering, Product and Design",14.545,32
+Summer 2023,3,B2B -> Infrastructure,5.0,11
+Summer 2023,4,B2B -> Sales,5.0,11
+Summer 2023,5,B2B -> Productivity,4.545,10
+Summer 2023,6,Fintech,4.091,9
+Summer 2023,7,Healthcare -> Healthcare IT,4.091,9
+Summer 2023,8,B2B -> Supply Chain and Logistics,3.182,7
+Summer 2023,9,B2B -> Security,2.727,6
+Summer 2023,10,B2B -> Analytics,2.727,6
+Summer 2023,11,B2B -> Finance and Accounting,2.727,6
+Summer 2023,12,B2B -> Operations,2.727,6
+Summer 2023,13,Consumer,2.273,5
+Summer 2023,14,B2B -> Retail,2.273,5
+Summer 2023,15,Healthcare -> Consumer Health and Wellness,2.273,5
+Summer 2023,16,Healthcare,2.273,5
+Summer 2023,17,B2B -> Legal,2.273,5
+Summer 2023,18,B2B -> Marketing,1.818,4
+Summer 2023,19,Healthcare -> Healthcare Services,1.364,3
+Summer 2023,20,Real Estate and Construction -> Construction,1.364,3
+Winter 2024,1,B2B,19.355,48
+Winter 2024,2,"B2B -> Engineering, Product and Design",16.532,41
+Winter 2024,3,Consumer,6.452,16
+Winter 2024,4,B2B -> Infrastructure,5.242,13
+Winter 2024,5,B2B -> Operations,3.629,9
+Winter 2024,6,Healthcare -> Healthcare IT,3.629,9
+Winter 2024,7,B2B -> Sales,3.226,8
+Winter 2024,8,B2B -> Analytics,3.226,8
+Winter 2024,9,Healthcare,3.226,8
+Winter 2024,10,B2B -> Productivity,2.823,7
+Winter 2024,11,Consumer -> Content,2.823,7
+Winter 2024,12,Fintech,2.419,6
+Winter 2024,13,Healthcare -> Therapeutics,2.419,6
+Winter 2024,14,B2B -> Supply Chain and Logistics,2.419,6
+Winter 2024,15,B2B -> Security,2.016,5
+Winter 2024,16,Fintech -> Payments,1.613,4
+Winter 2024,17,Industrials -> Manufacturing and Robotics,1.613,4
+Winter 2024,18,Industrials -> Aviation and Space,1.613,4
+Winter 2024,19,Fintech -> Insurance,1.21,3
+Winter 2024,20,B2B -> Legal,1.21,3
+Summer 2024,1,B2B,18.548,46
+Summer 2024,2,"B2B -> Engineering, Product and Design",16.532,41
+Summer 2024,3,B2B -> Infrastructure,4.435,11
+Summer 2024,4,Consumer,4.435,11
+Summer 2024,5,B2B -> Productivity,4.032,10
+Summer 2024,6,B2B -> Operations,3.629,9
+Summer 2024,7,Industrials -> Manufacturing and Robotics,3.629,9
+Summer 2024,8,B2B -> Supply Chain and Logistics,3.226,8
+Summer 2024,9,Healthcare -> Healthcare IT,2.823,7
+Summer 2024,10,B2B -> Finance and Accounting,2.823,7
+Summer 2024,11,Healthcare,2.823,7
+Summer 2024,12,Industrials,2.016,5
+Summer 2024,13,B2B -> Retail,2.016,5
+Summer 2024,14,B2B -> Legal,2.016,5
+Summer 2024,15,B2B -> Security,1.613,4
+Summer 2024,16,B2B -> Marketing,1.613,4
+Summer 2024,17,Industrials -> Climate,1.613,4
+Summer 2024,18,Government,1.613,4
+Summer 2024,19,Fintech,1.21,3
+Summer 2024,20,Fintech -> Asset Management,1.21,3
+Fall 2024,1,"B2B -> Engineering, Product and Design",17.021,16
+Fall 2024,2,B2B,14.894,14
+Fall 2024,3,Consumer,7.447,7
+Fall 2024,4,B2B -> Infrastructure,6.383,6
+Fall 2024,5,Healthcare,6.383,6
+Fall 2024,6,B2B -> Sales,4.255,4
+Fall 2024,7,Fintech,4.255,4
+Fall 2024,8,B2B -> Operations,4.255,4
+Fall 2024,9,B2B -> Productivity,3.191,3
+Fall 2024,10,Real Estate and Construction -> Construction,3.191,3
+Fall 2024,11,Industrials -> Aviation and Space,3.191,3
+Fall 2024,12,B2B -> Legal,2.128,2
+Fall 2024,13,B2B -> Marketing,2.128,2
+Fall 2024,14,Healthcare -> Healthcare IT,2.128,2
+Fall 2024,15,B2B -> Finance and Accounting,2.128,2
+Fall 2024,16,Consumer -> Social,1.064,1
+Fall 2024,17,B2B -> Supply Chain and Logistics,1.064,1
+Fall 2024,18,Consumer -> Content,1.064,1
+Fall 2024,19,"Consumer -> Travel, Leisure and Tourism",1.064,1
+Fall 2024,20,Fintech -> Insurance,1.064,1
+Winter 2025,1,B2B,21.084,35
+Winter 2025,2,"B2B -> Engineering, Product and Design",14.458,24
+Winter 2025,3,B2B -> Infrastructure,4.819,8
+Winter 2025,4,B2B -> Productivity,4.217,7
+Winter 2025,5,Industrials -> Manufacturing and Robotics,4.217,7
+Winter 2025,6,B2B -> Recruiting and Talent,3.012,5
+Winter 2025,7,Consumer,3.012,5
+Winter 2025,8,B2B -> Sales,3.012,5
+Winter 2025,9,Education,3.012,5
+Winter 2025,10,B2B -> Finance and Accounting,3.012,5
+Winter 2025,11,Government,2.41,4
+Winter 2025,12,Healthcare -> Healthcare IT,2.41,4
+Winter 2025,13,B2B -> Legal,2.41,4
+Winter 2025,14,Industrials -> Aviation and Space,2.41,4
+Winter 2025,15,B2B -> Operations,1.807,3
+Winter 2025,16,Fintech -> Insurance,1.807,3
+Winter 2025,17,Healthcare,1.807,3
+Winter 2025,18,B2B -> Analytics,1.807,3
+Winter 2025,19,Fintech,1.807,3
+Winter 2025,20,B2B -> Security,1.205,2
+Spring 2025,1,B2B,20.979,30
+Spring 2025,2,"B2B -> Engineering, Product and Design",16.783,24
+Spring 2025,3,B2B -> Infrastructure,6.294,9
+Spring 2025,4,Industrials -> Manufacturing and Robotics,6.294,9
+Spring 2025,5,B2B -> Security,5.594,8
+Spring 2025,6,Consumer,3.497,5
+Spring 2025,7,B2B -> Supply Chain and Logistics,2.797,4
+Spring 2025,8,B2B -> Productivity,2.797,4
+Spring 2025,9,B2B -> Legal,2.797,4
+Spring 2025,10,B2B -> Finance and Accounting,2.797,4
+Spring 2025,11,Healthcare -> Healthcare IT,2.797,4
+Spring 2025,12,Healthcare,2.098,3
+Spring 2025,13,Education,2.098,3
+Spring 2025,14,B2B -> Analytics,2.098,3
+Spring 2025,15,B2B -> Retail,1.399,2
+Spring 2025,16,B2B -> Sales,1.399,2
+Spring 2025,17,B2B -> Operations,1.399,2
+Spring 2025,18,Fintech -> Insurance,1.399,2
+Spring 2025,19,Fintech -> Banking and Exchange,1.399,2
+Spring 2025,20,Healthcare -> Consumer Health and Wellness,1.399,2
+Summer 2025,1,B2B,20.482,34
+Summer 2025,2,"B2B -> Engineering, Product and Design",15.06,25
+Summer 2025,3,B2B -> Infrastructure,8.434,14
+Summer 2025,4,Consumer,5.422,9
+Summer 2025,5,B2B -> Productivity,4.217,7
+Summer 2025,6,Industrials -> Manufacturing and Robotics,4.217,7
+Summer 2025,7,B2B -> Supply Chain and Logistics,3.614,6
+Summer 2025,8,B2B -> Analytics,3.614,6
+Summer 2025,9,Healthcare -> Healthcare IT,3.012,5
+Summer 2025,10,B2B -> Sales,3.012,5
+Summer 2025,11,B2B -> Security,1.807,3
+Summer 2025,12,Healthcare,1.807,3
+Summer 2025,13,Real Estate and Construction,1.807,3
+Summer 2025,14,Industrials,1.807,3
+Summer 2025,15,Fintech,1.807,3
+Summer 2025,16,B2B -> Marketing,1.807,3
+Summer 2025,17,B2B -> Operations,1.807,3
+Summer 2025,18,Consumer -> Content,1.205,2
+Summer 2025,19,Education,1.205,2
+Summer 2025,20,Fintech -> Insurance,1.205,2
+Fall 2025,1,B2B,20.548,30
+Fall 2025,2,"B2B -> Engineering, Product and Design",15.068,22
+Fall 2025,3,Consumer,6.849,10
+Fall 2025,4,Industrials -> Manufacturing and Robotics,6.849,10
+Fall 2025,5,B2B -> Infrastructure,4.795,7
+Fall 2025,6,B2B -> Marketing,4.795,7
+Fall 2025,7,Healthcare,4.11,6
+Fall 2025,8,B2B -> Finance and Accounting,3.425,5
+Fall 2025,9,B2B -> Sales,2.74,4
+Fall 2025,10,B2B -> Security,2.055,3
+Fall 2025,11,Fintech -> Insurance,2.055,3
+Fall 2025,12,Real Estate and Construction -> Housing and Real Estate,2.055,3
+Fall 2025,13,Consumer -> Content,2.055,3
+Fall 2025,14,B2B -> Operations,2.055,3
+Fall 2025,15,Consumer -> Gaming,1.37,2
+Fall 2025,16,B2B -> Productivity,1.37,2
+Fall 2025,17,B2B -> Legal,1.37,2
+Fall 2025,18,Healthcare -> Consumer Health and Wellness,1.37,2
+Fall 2025,19,Fintech -> Consumer Finance,1.37,2
+Fall 2025,20,Fintech,1.37,2
+Winter 2026,1,B2B,23.116,46
+Winter 2026,2,B2B -> Infrastructure,11.558,23
+Winter 2026,3,"B2B -> Engineering, Product and Design",9.045,18
+Winter 2026,4,Fintech,4.02,8
+Winter 2026,5,B2B -> Legal,3.015,6
+Winter 2026,6,B2B -> Operations,3.015,6
+Winter 2026,7,B2B -> Security,3.015,6
+Winter 2026,8,Industrials -> Energy,3.015,6
+Winter 2026,9,Industrials -> Manufacturing and Robotics,3.015,6
+Winter 2026,10,B2B -> Productivity,3.015,6
+Winter 2026,11,Industrials,3.015,6
+Winter 2026,12,B2B -> Finance and Accounting,2.513,5
+Winter 2026,13,Healthcare,2.513,5
+Winter 2026,14,Industrials -> Aviation and Space,2.01,4
+Winter 2026,15,Healthcare -> Drug Discovery and Delivery,2.01,4
+Winter 2026,16,Healthcare -> Healthcare IT,2.01,4
+Winter 2026,17,B2B -> Analytics,1.508,3
+Winter 2026,18,B2B -> Supply Chain and Logistics,1.508,3
+Winter 2026,19,Consumer -> Gaming,1.508,3
+Winter 2026,20,Consumer,1.508,3
+Spring 2026,1,B2B,18.974,37
+Spring 2026,2,B2B -> Infrastructure,9.231,18
+Spring 2026,3,"B2B -> Engineering, Product and Design",8.718,17
+Spring 2026,4,Industrials -> Manufacturing and Robotics,6.667,13
+Spring 2026,5,B2B -> Marketing,4.103,8
+Spring 2026,6,B2B -> Operations,4.103,8
+Spring 2026,7,B2B -> Productivity,4.103,8
+Spring 2026,8,Consumer,3.59,7
+Spring 2026,9,Industrials -> Defense,3.077,6
+Spring 2026,10,Fintech -> Asset Management,2.564,5
+Spring 2026,11,Fintech -> Insurance,2.564,5
+Spring 2026,12,Healthcare,2.564,5
+Spring 2026,13,Healthcare -> Healthcare Services,2.051,4
+Spring 2026,14,Fintech -> Consumer Finance,1.538,3
+Spring 2026,15,Fintech,1.538,3
+Spring 2026,16,B2B -> Security,1.538,3
+Spring 2026,17,B2B -> Recruiting and Talent,1.538,3
+Spring 2026,18,Fintech -> Payments,1.538,3
+Spring 2026,19,B2B -> Supply Chain and Logistics,1.538,3
+Spring 2026,20,B2B -> Analytics,1.026,2
+Summer 2026,1,B2B,17.447,41
+Summer 2026,2,B2B -> Infrastructure,10.638,25
+Summer 2026,3,Industrials -> Manufacturing and Robotics,10.213,24
+Summer 2026,4,"B2B -> Engineering, Product and Design",5.957,14
+Summer 2026,5,Industrials,5.957,14
+Summer 2026,6,Healthcare,5.106,12
+Summer 2026,7,Industrials -> Defense,3.83,9
+Summer 2026,8,B2B -> Supply Chain and Logistics,3.404,8
+Summer 2026,9,B2B -> Security,2.979,7
+Summer 2026,10,B2B -> Finance and Accounting,2.553,6
+Summer 2026,11,B2B -> Operations,2.553,6
+Summer 2026,12,Consumer,2.553,6
+Summer 2026,13,Fintech,2.553,6
+Summer 2026,14,Fintech -> Insurance,2.128,5
+Summer 2026,15,B2B -> Analytics,2.128,5
+Summer 2026,16,B2B -> Productivity,1.702,4
+Summer 2026,17,Fintech -> Asset Management,1.277,3
+Summer 2026,18,Healthcare -> Drug Discovery and Delivery,1.277,3
+Summer 2026,19,Industrials -> Energy,1.277,3
+Summer 2026,20,Real Estate and Construction -> Construction,1.277,3
+Fall 2026,1,B2B,17.143,6
+Fall 2026,2,"B2B -> Engineering, Product and Design",14.286,5
+Fall 2026,3,Industrials -> Manufacturing and Robotics,14.286,5
+Fall 2026,4,B2B -> Infrastructure,11.429,4
+Fall 2026,5,Fintech -> Insurance,8.571,3
+Fall 2026,6,Consumer -> Consumer Electronics,5.714,2
+Fall 2026,7,Consumer,2.857,1
+Fall 2026,8,Consumer -> Food and Beverage,2.857,1
+Fall 2026,9,B2B -> Legal,2.857,1
+Fall 2026,10,B2B -> Human Resources,2.857,1
+Fall 2026,11,"Consumer -> Travel, Leisure and Tourism",2.857,1
+Fall 2026,12,Industrials -> Aviation and Space,2.857,1
+Fall 2026,13,Industrials -> Energy,2.857,1
+Fall 2026,14,Industrials -> Drones,2.857,1
+Fall 2026,15,B2B -> Productivity,2.857,1
+Fall 2026,16,Government,2.857,1
+Fall 2026,17,B2B -> Operations,0.0,0
+Fall 2026,18,B2B -> Recruiting and Talent,0.0,0
+Fall 2026,19,Consumer -> Apparel and Cosmetics,0.0,0
+Fall 2026,20,B2B -> Office Management,0.0,0
+Winter 2027,1,B2B -> Operations,100.0,1
+Winter 2027,2,B2B,0.0,0
+Winter 2027,3,B2B -> Analytics,0.0,0
+Winter 2027,4,"B2B -> Engineering, Product and Design",0.0,0
+Winter 2027,5,B2B -> Human Resources,0.0,0
+Winter 2027,6,B2B -> Finance and Accounting,0.0,0
+Winter 2027,7,B2B -> Infrastructure,0.0,0
+Winter 2027,8,B2B -> Legal,0.0,0
+Winter 2027,9,B2B -> Marketing,0.0,0
+Winter 2027,10,B2B -> Office Management,0.0,0
+Winter 2027,11,B2B -> Productivity,0.0,0
+Winter 2027,12,B2B -> Recruiting and Talent,0.0,0
+Winter 2027,13,B2B -> Retail,0.0,0
+Winter 2027,14,B2B -> Sales,0.0,0
+Winter 2027,15,B2B -> Security,0.0,0
+Winter 2027,16,B2B -> Supply Chain and Logistics,0.0,0
+Winter 2027,17,Consumer,0.0,0
+Winter 2027,18,Consumer -> Apparel and Cosmetics,0.0,0
+Winter 2027,19,Consumer -> Consumer Electronics,0.0,0
+Winter 2027,20,Consumer -> Content,0.0,0

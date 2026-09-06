@@ -1,0 +1,311 @@
+country,batch,count,batch_order,total_companies,share_pct
+Argentina,Winter 2021,2,20210,336,0.6
+Argentina,Summer 2021,2,20212,391,0.51
+Argentina,Winter 2022,4,20220,398,1.01
+Argentina,Summer 2022,2,20222,234,0.85
+Argentina,Winter 2023,1,20230,274,0.36
+Argentina,Summer 2024,1,20242,248,0.4
+Australia,Winter 2021,1,20210,336,0.3
+Australia,Summer 2021,3,20212,391,0.77
+Australia,Winter 2022,6,20220,398,1.51
+Australia,Summer 2022,2,20222,234,0.85
+Australia,Winter 2023,2,20230,274,0.73
+Australia,Winter 2025,1,20250,166,0.6
+Australia,Winter 2026,2,20260,199,1.01
+Australia,Summer 2026,1,20262,235,0.43
+Austria,Winter 2021,2,20210,336,0.6
+Austria,Summer 2022,1,20222,234,0.43
+Austria,Fall 2025,1,20253,146,0.68
+Bahrain,Winter 2022,1,20220,398,0.25
+Belgium,Winter 2021,1,20210,336,0.3
+Belgium,Winter 2025,2,20250,166,1.2
+Belgium,Fall 2025,1,20253,146,0.68
+Brazil,Winter 2021,8,20210,336,2.38
+Brazil,Summer 2021,12,20212,391,3.07
+Brazil,Winter 2022,6,20220,398,1.51
+Brazil,Summer 2022,2,20222,234,0.85
+Brazil,Winter 2023,1,20230,274,0.36
+Brazil,Summer 2023,1,20232,220,0.45
+Brazil,Winter 2024,1,20240,248,0.4
+Brazil,Summer 2024,1,20242,248,0.4
+Brazil,Summer 2025,1,20252,166,0.6
+Bulgaria,Summer 2021,1,20212,391,0.26
+Bulgaria,Summer 2023,1,20232,220,0.45
+Canada,Winter 2021,12,20210,336,3.57
+Canada,Summer 2021,14,20212,391,3.58
+Canada,Winter 2022,13,20220,398,3.27
+Canada,Summer 2022,5,20222,234,2.14
+Canada,Winter 2023,5,20230,274,1.82
+Canada,Summer 2023,4,20232,220,1.82
+Canada,Winter 2024,4,20240,248,1.61
+Canada,Summer 2024,2,20242,248,0.81
+Canada,Fall 2024,1,20243,94,1.06
+Canada,Winter 2025,4,20250,166,2.41
+Canada,Spring 2025,1,20251,143,0.7
+Canada,Summer 2025,1,20252,166,0.6
+Canada,Winter 2026,3,20260,199,1.51
+Canada,Summer 2026,2,20262,235,0.85
+Canada,Fall 2026,1,20263,35,2.86
+Cayman Islands,Summer 2026,1,20262,235,0.43
+Chile,Winter 2021,4,20210,336,1.19
+Chile,Summer 2021,7,20212,391,1.79
+Chile,Winter 2022,1,20220,398,0.25
+Chile,Summer 2022,1,20222,234,0.43
+Chile,Winter 2023,2,20230,274,0.73
+Colombia,Winter 2021,4,20210,336,1.19
+Colombia,Summer 2021,2,20212,391,0.51
+Colombia,Winter 2022,7,20220,398,1.76
+Colombia,Winter 2023,3,20230,274,1.09
+Colombia,Winter 2025,1,20250,166,0.6
+Costa Rica,Winter 2022,1,20220,398,0.25
+Costa Rica,Summer 2026,1,20262,235,0.43
+Croatia,Winter 2021,2,20210,336,0.6
+Cyprus,Summer 2021,1,20212,391,0.26
+Democratic Republic of the Congo,Summer 2023,1,20232,220,0.45
+Denmark,Winter 2021,3,20210,336,0.89
+Denmark,Summer 2021,3,20212,391,0.77
+Denmark,Winter 2022,1,20220,398,0.25
+Denmark,Winter 2023,1,20230,274,0.36
+Denmark,Summer 2023,2,20232,220,0.91
+Denmark,Winter 2025,1,20250,166,0.6
+Denmark,Spring 2026,1,20261,195,0.51
+Ecuador,Summer 2021,1,20212,391,0.26
+Egypt,Winter 2021,3,20210,336,0.89
+Egypt,Summer 2021,3,20212,391,0.77
+Egypt,Winter 2022,1,20220,398,0.25
+Estonia,Winter 2021,1,20210,336,0.3
+Estonia,Summer 2021,1,20212,391,0.26
+Ethiopia,Winter 2022,1,20220,398,0.25
+Finland,Summer 2021,1,20212,391,0.26
+Finland,Winter 2022,1,20220,398,0.25
+Finland,Winter 2026,1,20260,199,0.5
+Finland,Summer 2026,1,20262,235,0.43
+France,Winter 2021,6,20210,336,1.79
+France,Summer 2021,7,20212,391,1.79
+France,Winter 2022,5,20220,398,1.26
+France,Summer 2022,4,20222,234,1.71
+France,Winter 2023,4,20230,274,1.46
+France,Summer 2023,5,20232,220,2.27
+France,Winter 2024,4,20240,248,1.61
+France,Summer 2024,5,20242,248,2.02
+France,Fall 2024,1,20243,94,1.06
+France,Winter 2025,2,20250,166,1.2
+France,Spring 2025,6,20251,143,4.2
+France,Summer 2025,1,20252,166,0.6
+France,Fall 2025,2,20253,146,1.37
+France,Winter 2026,2,20260,199,1.01
+France,Spring 2026,1,20261,195,0.51
+France,Summer 2026,1,20262,235,0.43
+Georgia,Summer 2021,1,20212,391,0.26
+Georgia,Winter 2022,1,20220,398,0.25
+Germany,Winter 2021,3,20210,336,0.89
+Germany,Summer 2021,5,20212,391,1.28
+Germany,Winter 2022,6,20220,398,1.51
+Germany,Summer 2022,4,20222,234,1.71
+Germany,Winter 2023,6,20230,274,2.19
+Germany,Summer 2023,4,20232,220,1.82
+Germany,Winter 2024,3,20240,248,1.21
+Germany,Summer 2024,4,20242,248,1.61
+Germany,Fall 2024,3,20243,94,3.19
+Germany,Winter 2025,4,20250,166,2.41
+Germany,Spring 2025,2,20251,143,1.4
+Germany,Summer 2025,3,20252,166,1.81
+Germany,Fall 2025,3,20253,146,2.05
+Germany,Winter 2026,1,20260,199,0.5
+Germany,Spring 2026,2,20261,195,1.03
+Ghana,Summer 2021,1,20212,391,0.26
+Ghana,Winter 2022,1,20220,398,0.25
+Hong Kong,Winter 2021,1,20210,336,0.3
+Hong Kong,Winter 2022,1,20220,398,0.25
+Hong Kong,Fall 2024,1,20243,94,1.06
+India,Winter 2021,36,20210,336,10.71
+India,Summer 2021,25,20212,391,6.39
+India,Winter 2022,24,20220,398,6.03
+India,Summer 2022,18,20222,234,7.69
+India,Winter 2023,8,20230,274,2.92
+India,Summer 2023,2,20232,220,0.91
+India,Winter 2024,4,20240,248,1.61
+India,Summer 2024,3,20242,248,1.21
+India,Winter 2025,1,20250,166,0.6
+India,Fall 2025,2,20253,146,1.37
+India,Winter 2026,2,20260,199,1.01
+India,Summer 2026,1,20262,235,0.43
+India,Fall 2026,2,20263,35,5.71
+Indonesia,Winter 2021,1,20210,336,0.3
+Indonesia,Summer 2021,3,20212,391,0.77
+Indonesia,Winter 2022,14,20220,398,3.52
+Indonesia,Summer 2022,3,20222,234,1.28
+Indonesia,Winter 2023,2,20230,274,0.73
+Ireland,Summer 2021,4,20212,391,1.02
+Ireland,Summer 2022,1,20222,234,0.43
+Ireland,Summer 2023,1,20232,220,0.45
+Israel,Winter 2021,3,20210,336,0.89
+Israel,Summer 2021,1,20212,391,0.26
+Israel,Winter 2022,3,20220,398,0.75
+Israel,Summer 2022,6,20222,234,2.56
+Israel,Winter 2023,7,20230,274,2.55
+Israel,Summer 2023,1,20232,220,0.45
+Israel,Winter 2025,1,20250,166,0.6
+Israel,Summer 2026,1,20262,235,0.43
+Italy,Winter 2021,1,20210,336,0.3
+Ivory Coast,Winter 2021,1,20210,336,0.3
+Japan,Summer 2022,1,20222,234,0.43
+Jordan,Winter 2022,1,20220,398,0.25
+Kenya,Winter 2021,1,20210,336,0.3
+Kenya,Summer 2021,1,20212,391,0.26
+Kenya,Winter 2022,2,20220,398,0.5
+Kenya,Summer 2022,1,20222,234,0.43
+Kenya,Summer 2023,1,20232,220,0.45
+Kenya,Winter 2024,1,20240,248,0.4
+Lithuania,Winter 2021,1,20210,336,0.3
+Malaysia,Winter 2021,1,20210,336,0.3
+Malaysia,Summer 2021,2,20212,391,0.51
+Malaysia,Winter 2022,2,20220,398,0.5
+Mexico,Winter 2021,12,20210,336,3.57
+Mexico,Summer 2021,19,20212,391,4.86
+Mexico,Winter 2022,12,20220,398,3.02
+Mexico,Summer 2022,4,20222,234,1.71
+Mexico,Winter 2023,3,20230,274,1.09
+Mexico,Summer 2023,1,20232,220,0.45
+Mexico,Summer 2025,1,20252,166,0.6
+Morocco,Summer 2021,2,20212,391,0.51
+Namibia,Summer 2021,1,20212,391,0.26
+Netherlands,Summer 2021,4,20212,391,1.02
+Netherlands,Winter 2022,2,20220,398,0.5
+Netherlands,Summer 2022,2,20222,234,0.85
+Netherlands,Winter 2025,1,20250,166,0.6
+Netherlands,Summer 2025,1,20252,166,0.6
+Netherlands,Winter 2026,1,20260,199,0.5
+New Zealand,Winter 2022,1,20220,398,0.25
+Nigeria,Winter 2021,4,20210,336,1.19
+Nigeria,Summer 2021,4,20212,391,1.02
+Nigeria,Winter 2022,15,20220,398,3.77
+Nigeria,Summer 2022,5,20222,234,2.14
+Nigeria,Winter 2023,2,20230,274,0.73
+Nigeria,Summer 2023,1,20232,220,0.45
+Nigeria,Winter 2024,1,20240,248,0.4
+Norway,Winter 2021,2,20210,336,0.6
+Norway,Winter 2022,1,20220,398,0.25
+Norway,Summer 2022,1,20222,234,0.43
+Norway,Fall 2025,1,20253,146,0.68
+Norway,Winter 2026,1,20260,199,0.5
+Norway,Summer 2026,1,20262,235,0.43
+Pakistan,Winter 2021,1,20210,336,0.3
+Pakistan,Summer 2021,2,20212,391,0.51
+Pakistan,Winter 2022,4,20220,398,1.01
+Pakistan,Summer 2022,1,20222,234,0.43
+Pakistan,Winter 2023,1,20230,274,0.36
+Panama,Winter 2022,2,20220,398,0.5
+Panama,Summer 2022,1,20222,234,0.43
+Peru,Winter 2021,2,20210,336,0.6
+Peru,Summer 2021,2,20212,391,0.51
+Peru,Winter 2022,1,20220,398,0.25
+Peru,Summer 2022,1,20222,234,0.43
+Philippines,Winter 2021,3,20210,336,0.89
+Philippines,Summer 2021,3,20212,391,0.77
+Philippines,Summer 2022,1,20222,234,0.43
+Poland,Winter 2021,2,20210,336,0.6
+Poland,Summer 2021,1,20212,391,0.26
+Puerto Rico,Summer 2022,1,20222,234,0.43
+Romania,Winter 2021,1,20210,336,0.3
+Romania,Summer 2021,1,20212,391,0.26
+Saudi Arabia,Winter 2022,1,20220,398,0.25
+Saudi Arabia,Summer 2022,3,20222,234,1.28
+Saudi Arabia,Winter 2023,1,20230,274,0.36
+Senegal,Winter 2021,1,20210,336,0.3
+Singapore,Winter 2021,4,20210,336,1.19
+Singapore,Summer 2021,14,20212,391,3.58
+Singapore,Winter 2022,11,20220,398,2.76
+Singapore,Summer 2022,4,20222,234,1.71
+Singapore,Winter 2023,2,20230,274,0.73
+Singapore,Summer 2023,1,20232,220,0.45
+Singapore,Fall 2024,1,20243,94,1.06
+Singapore,Winter 2026,1,20260,199,0.5
+Singapore,Summer 2026,2,20262,235,0.85
+Singapore,Fall 2026,1,20263,35,2.86
+Slovenia,Winter 2021,1,20210,336,0.3
+Slovenia,Summer 2022,1,20222,234,0.43
+South Africa,Summer 2021,2,20212,391,0.51
+South Korea,Winter 2021,1,20210,336,0.3
+South Korea,Summer 2021,1,20212,391,0.26
+South Korea,Winter 2022,1,20220,398,0.25
+South Korea,Summer 2022,1,20222,234,0.43
+South Korea,Winter 2025,1,20250,166,0.6
+South Korea,Summer 2025,1,20252,166,0.6
+South Korea,Spring 2026,1,20261,195,0.51
+Spain,Winter 2021,2,20210,336,0.6
+Spain,Summer 2021,5,20212,391,1.28
+Spain,Winter 2022,4,20220,398,1.01
+Spain,Summer 2022,3,20222,234,1.28
+Spain,Winter 2023,1,20230,274,0.36
+Spain,Winter 2025,1,20250,166,0.6
+Sweden,Winter 2021,2,20210,336,0.6
+Sweden,Winter 2022,3,20220,398,0.75
+Sweden,Winter 2024,1,20240,248,0.4
+Sweden,Summer 2024,1,20242,248,0.4
+Sweden,Winter 2025,3,20250,166,1.81
+Sweden,Spring 2025,1,20251,143,0.7
+Sweden,Fall 2025,3,20253,146,2.05
+Sweden,Winter 2026,1,20260,199,0.5
+Sweden,Spring 2026,2,20261,195,1.03
+Sweden,Summer 2026,1,20262,235,0.43
+Switzerland,Summer 2021,2,20212,391,0.51
+Switzerland,Winter 2022,2,20220,398,0.5
+Switzerland,Summer 2022,3,20222,234,1.28
+Switzerland,Winter 2023,2,20230,274,0.73
+Switzerland,Summer 2023,1,20232,220,0.45
+Switzerland,Winter 2025,1,20250,166,0.6
+Switzerland,Spring 2025,1,20251,143,0.7
+Switzerland,Summer 2026,1,20262,235,0.43
+Taiwan,Summer 2022,1,20222,234,0.43
+Turkey,Summer 2022,1,20222,234,0.43
+Turkey,Summer 2024,1,20242,248,0.4
+Turkey,Fall 2026,1,20263,35,2.86
+Uganda,Winter 2022,1,20220,398,0.25
+Ukraine,Summer 2022,1,20222,234,0.43
+United Arab Emirates,Winter 2021,1,20210,336,0.3
+United Arab Emirates,Summer 2021,4,20212,391,1.02
+United Arab Emirates,Winter 2022,5,20220,398,1.26
+United Arab Emirates,Winter 2023,2,20230,274,0.73
+United Arab Emirates,Summer 2023,1,20232,220,0.45
+United Arab Emirates,Winter 2025,1,20250,166,0.6
+United Kingdom,Winter 2021,15,20210,336,4.46
+United Kingdom,Summer 2021,21,20212,391,5.37
+United Kingdom,Winter 2022,17,20220,398,4.27
+United Kingdom,Summer 2022,11,20222,234,4.7
+United Kingdom,Winter 2023,5,20230,274,1.82
+United Kingdom,Summer 2023,14,20232,220,6.36
+United Kingdom,Winter 2024,7,20240,248,2.82
+United Kingdom,Summer 2024,17,20242,248,6.85
+United Kingdom,Fall 2024,2,20243,94,2.13
+United Kingdom,Winter 2025,5,20250,166,3.01
+United Kingdom,Spring 2025,13,20251,143,9.09
+United Kingdom,Summer 2025,3,20252,166,1.81
+United Kingdom,Fall 2025,6,20253,146,4.11
+United Kingdom,Winter 2026,8,20260,199,4.02
+United Kingdom,Spring 2026,5,20261,195,2.56
+United Kingdom,Summer 2026,5,20262,235,2.13
+United States of America,Winter 2021,188,20210,336,55.95
+United States of America,Summer 2021,212,20212,391,54.22
+United States of America,Winter 2022,224,20220,398,56.28
+United States of America,Summer 2022,145,20222,234,61.97
+United States of America,Winter 2023,198,20230,274,72.26
+United States of America,Summer 2023,162,20232,220,73.64
+United States of America,Winter 2024,208,20240,248,83.87
+United States of America,Summer 2024,205,20242,248,82.66
+United States of America,Fall 2024,84,20243,94,89.36
+United States of America,Winter 2025,133,20250,166,80.12
+United States of America,Spring 2025,113,20251,143,79.02
+United States of America,Summer 2025,151,20252,166,90.96
+United States of America,Fall 2025,119,20253,146,81.51
+United States of America,Winter 2026,160,20260,199,80.4
+United States of America,Spring 2026,181,20261,195,92.82
+United States of America,Summer 2026,215,20262,235,91.49
+United States of America,Fall 2026,27,20263,35,77.14
+United States of America,Winter 2027,1,20270,1,100.0
+Uruguay,Winter 2023,1,20230,274,0.36
+Venezuela,Winter 2022,1,20220,398,0.25
+Vietnam,Winter 2021,2,20210,336,0.6
+Vietnam,Summer 2021,1,20212,391,0.26
+Vietnam,Winter 2022,4,20220,398,1.01
+Zambia,Summer 2021,1,20212,391,0.26

@@ -1,0 +1,115 @@
+macro_region,batch,count,batch_order,total_companies,share_pct
+Africa,Winter 2021,6,20210,336,1.79
+Africa,Summer 2021,9,20212,391,2.3
+Africa,Winter 2022,20,20220,398,5.03
+Africa,Summer 2022,6,20222,234,2.56
+Africa,Winter 2023,2,20230,274,0.73
+Africa,Summer 2023,3,20232,220,1.36
+Africa,Winter 2024,2,20240,248,0.81
+America / Canada,Winter 2021,198,20210,336,58.93
+America / Canada,Summer 2021,225,20212,391,57.54
+America / Canada,Winter 2022,237,20220,398,59.55
+America / Canada,Summer 2022,150,20222,234,64.1
+America / Canada,Winter 2023,202,20230,274,73.72
+America / Canada,Summer 2023,166,20232,220,75.45
+America / Canada,Winter 2024,212,20240,248,85.48
+America / Canada,Summer 2024,207,20242,248,83.47
+America / Canada,Fall 2024,85,20243,94,90.43
+America / Canada,Winter 2025,137,20250,166,82.53
+America / Canada,Spring 2025,114,20251,143,79.72
+America / Canada,Summer 2025,152,20252,166,91.57
+America / Canada,Fall 2025,119,20253,146,81.51
+America / Canada,Winter 2026,163,20260,199,81.91
+America / Canada,Spring 2026,181,20261,195,92.82
+America / Canada,Summer 2026,217,20262,235,92.34
+America / Canada,Fall 2026,28,20263,35,80.0
+America / Canada,Winter 2027,1,20270,1,100.0
+East Asia,Winter 2021,2,20210,336,0.6
+East Asia,Summer 2021,1,20212,391,0.26
+East Asia,Winter 2022,2,20220,398,0.5
+East Asia,Summer 2022,3,20222,234,1.28
+East Asia,Fall 2024,1,20243,94,1.06
+East Asia,Winter 2025,1,20250,166,0.6
+East Asia,Summer 2025,1,20252,166,0.6
+East Asia,Spring 2026,1,20261,195,0.51
+Europe,Winter 2021,42,20210,336,12.5
+Europe,Summer 2021,57,20212,391,14.58
+Europe,Winter 2022,41,20220,398,10.3
+Europe,Summer 2022,32,20222,234,13.68
+Europe,Winter 2023,19,20230,274,6.93
+Europe,Summer 2023,28,20232,220,12.73
+Europe,Winter 2024,15,20240,248,6.05
+Europe,Summer 2024,27,20242,248,10.89
+Europe,Fall 2024,6,20243,94,6.38
+Europe,Winter 2025,20,20250,166,12.05
+Europe,Spring 2025,23,20251,143,16.08
+Europe,Summer 2025,8,20252,166,4.82
+Europe,Fall 2025,17,20253,146,11.64
+Europe,Winter 2026,15,20260,199,7.54
+Europe,Spring 2026,11,20261,195,5.64
+Europe,Summer 2026,10,20262,235,4.26
+Latin America,Winter 2021,31,20210,336,9.23
+Latin America,Summer 2021,44,20212,391,11.25
+Latin America,Winter 2022,33,20220,398,8.29
+Latin America,Summer 2022,12,20222,234,5.13
+Latin America,Winter 2023,10,20230,274,3.65
+Latin America,Summer 2023,2,20232,220,0.91
+Latin America,Winter 2024,1,20240,248,0.4
+Latin America,Summer 2024,2,20242,248,0.81
+Latin America,Winter 2025,1,20250,166,0.6
+Latin America,Summer 2025,2,20252,166,1.2
+Latin America,Summer 2026,2,20262,235,0.85
+Middle East and North Africa,Winter 2021,7,20210,336,2.08
+Middle East and North Africa,Summer 2021,11,20212,391,2.81
+Middle East and North Africa,Winter 2022,11,20220,398,2.76
+Middle East and North Africa,Summer 2022,10,20222,234,4.27
+Middle East and North Africa,Winter 2023,10,20230,274,3.65
+Middle East and North Africa,Summer 2023,2,20232,220,0.91
+Middle East and North Africa,Summer 2024,1,20242,248,0.4
+Middle East and North Africa,Winter 2025,2,20250,166,1.2
+Middle East and North Africa,Summer 2026,1,20262,235,0.43
+Middle East and North Africa,Fall 2026,1,20263,35,2.86
+Oceania,Winter 2021,1,20210,336,0.3
+Oceania,Summer 2021,3,20212,391,0.77
+Oceania,Winter 2022,7,20220,398,1.76
+Oceania,Summer 2022,2,20222,234,0.85
+Oceania,Winter 2023,2,20230,274,0.73
+Oceania,Winter 2025,1,20250,166,0.6
+Oceania,Winter 2026,2,20260,199,1.01
+Oceania,Summer 2026,1,20262,235,0.43
+South Asia,Winter 2021,37,20210,336,11.01
+South Asia,Summer 2021,27,20212,391,6.91
+South Asia,Winter 2022,28,20220,398,7.04
+South Asia,Summer 2022,19,20222,234,8.12
+South Asia,Winter 2023,9,20230,274,3.28
+South Asia,Summer 2023,2,20232,220,0.91
+South Asia,Winter 2024,4,20240,248,1.61
+South Asia,Summer 2024,3,20242,248,1.21
+South Asia,Winter 2025,1,20250,166,0.6
+South Asia,Fall 2025,2,20253,146,1.37
+South Asia,Winter 2026,2,20260,199,1.01
+South Asia,Summer 2026,1,20262,235,0.43
+South Asia,Fall 2026,2,20263,35,5.71
+Southeast Asia,Winter 2021,11,20210,336,3.27
+Southeast Asia,Summer 2021,22,20212,391,5.63
+Southeast Asia,Winter 2022,30,20220,398,7.54
+Southeast Asia,Summer 2022,8,20222,234,3.42
+Southeast Asia,Winter 2023,4,20230,274,1.46
+Southeast Asia,Summer 2023,1,20232,220,0.45
+Southeast Asia,Fall 2024,1,20243,94,1.06
+Southeast Asia,Winter 2026,1,20260,199,0.5
+Southeast Asia,Summer 2026,2,20262,235,0.85
+Southeast Asia,Fall 2026,1,20263,35,2.86
+Unspecified,Summer 2021,1,20212,391,0.26
+Unspecified,Winter 2023,7,20230,274,2.55
+Unspecified,Summer 2023,7,20232,220,3.18
+Unspecified,Winter 2024,9,20240,248,3.63
+Unspecified,Summer 2024,3,20242,248,1.21
+Unspecified,Winter 2025,3,20250,166,1.81
+Unspecified,Spring 2025,4,20251,143,2.8
+Unspecified,Summer 2025,3,20252,166,1.81
+Unspecified,Fall 2025,6,20253,146,4.11
+Unspecified,Winter 2026,9,20260,199,4.52
+Unspecified,Spring 2026,1,20261,195,0.51
+Unspecified,Summer 2026,1,20262,235,0.43
+Unspecified,Fall 2026,2,20263,35,5.71

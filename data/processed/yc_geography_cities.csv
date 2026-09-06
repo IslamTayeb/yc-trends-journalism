@@ -1,0 +1,666 @@
+city,batch,count,batch_order,total_companies,share_pct
+"A Coruña, Spain",Summer 2021,1,20212,391,0.26
+"Aarhus, Denmark",Winter 2021,1,20210,336,0.3
+"Abidjan, Ivory Coast",Winter 2021,1,20210,336,0.3
+"Accra, Ghana",Summer 2021,1,20212,391,0.26
+"Accra, Ghana",Winter 2022,1,20220,398,0.25
+"Addis Ababa, Ethiopia",Winter 2022,1,20220,398,0.25
+"Alexandria, USA",Winter 2022,1,20220,398,0.25
+"Amman, Jordan",Winter 2022,1,20220,398,0.25
+"Amsterdam, Netherlands",Summer 2021,2,20212,391,0.51
+"Amsterdam, Netherlands",Winter 2022,1,20220,398,0.25
+"Amsterdam, Netherlands",Summer 2022,2,20222,234,0.85
+"Amsterdam, Netherlands",Winter 2025,1,20250,166,0.6
+"Amsterdam, Netherlands",Summer 2025,1,20252,166,0.6
+"Amsterdam, Netherlands",Winter 2026,1,20260,199,0.5
+"Ankara, Turkey",Fall 2026,1,20263,35,2.86
+"Ann Arbor, USA",Winter 2024,1,20240,248,0.4
+"Ann Arbor, USA",Spring 2025,1,20251,143,0.7
+"Ann Arbor, USA",Summer 2026,1,20262,235,0.43
+"Ashburn, USA",Winter 2023,1,20230,274,0.36
+"Asheville, USA",Summer 2023,1,20232,220,0.45
+"Atlanta, USA",Winter 2021,2,20210,336,0.6
+"Atlanta, USA",Summer 2021,3,20212,391,0.77
+"Atlanta, USA",Winter 2022,4,20220,398,1.01
+"Atlanta, USA",Summer 2024,1,20242,248,0.4
+"Atlanta, USA",Winter 2025,1,20250,166,0.6
+"Atlanta, USA",Fall 2025,2,20253,146,1.37
+"Auckland, New Zealand",Winter 2022,1,20220,398,0.25
+"Austin, USA",Winter 2021,6,20210,336,1.79
+"Austin, USA",Summer 2021,5,20212,391,1.28
+"Austin, USA",Winter 2022,2,20220,398,0.5
+"Austin, USA",Summer 2022,6,20222,234,2.56
+"Austin, USA",Winter 2023,1,20230,274,0.36
+"Austin, USA",Summer 2023,1,20232,220,0.45
+"Austin, USA",Winter 2024,3,20240,248,1.21
+"Austin, USA",Summer 2024,4,20242,248,1.61
+"Austin, USA",Winter 2025,1,20250,166,0.6
+"Austin, USA",Summer 2025,2,20252,166,1.2
+"Austin, USA",Fall 2025,1,20253,146,0.68
+"Austin, USA",Winter 2026,1,20260,199,0.5
+"Austin, USA",Spring 2026,1,20261,195,0.51
+"Austin, USA",Summer 2026,1,20262,235,0.43
+"BY, Germany",Summer 2023,1,20232,220,0.45
+"BY, Germany",Fall 2024,1,20243,94,1.06
+"BY, Germany",Winter 2025,3,20250,166,1.81
+"BY, Germany",Spring 2025,1,20251,143,0.7
+"BY, Germany",Summer 2025,1,20252,166,0.6
+"BY, Germany",Fall 2025,2,20253,146,1.37
+"BY, Germany",Winter 2026,1,20260,199,0.5
+"BY, Germany",Spring 2026,1,20261,195,0.51
+"Baltimore, USA",Summer 2021,1,20212,391,0.26
+"Baltimore, USA",Winter 2023,1,20230,274,0.36
+"Baltimore, USA",Fall 2026,1,20263,35,2.86
+"Bandung, Indonesia",Winter 2021,1,20210,336,0.3
+"Bandung, Indonesia",Summer 2022,1,20222,234,0.43
+"Barcelona, Spain",Winter 2021,2,20210,336,0.6
+"Barcelona, Spain",Summer 2021,2,20212,391,0.51
+"Barcelona, Spain",Winter 2022,2,20220,398,0.5
+"Barcelona, Spain",Summer 2022,2,20222,234,0.85
+"Barranco, Peru",Winter 2021,1,20210,336,0.3
+"Barranquilla, Colombia",Winter 2021,1,20210,336,0.3
+"Bengaluru, India",Winter 2021,17,20210,336,5.06
+"Bengaluru, India",Summer 2021,12,20212,391,3.07
+"Bengaluru, India",Winter 2022,15,20220,398,3.77
+"Bengaluru, India",Summer 2022,10,20222,234,4.27
+"Bengaluru, India",Winter 2023,7,20230,274,2.55
+"Bengaluru, India",Summer 2023,2,20232,220,0.91
+"Bengaluru, India",Winter 2024,4,20240,248,1.61
+"Bengaluru, India",Summer 2024,1,20242,248,0.4
+"Bengaluru, India",Winter 2025,1,20250,166,0.6
+"Bengaluru, India",Fall 2025,2,20253,146,1.37
+"Bengaluru, India",Winter 2026,2,20260,199,1.01
+"Bengaluru, India",Fall 2026,2,20263,35,5.71
+"Berlin, Germany",Winter 2021,2,20210,336,0.6
+"Berlin, Germany",Summer 2021,3,20212,391,0.77
+"Berlin, Germany",Winter 2022,3,20220,398,0.75
+"Berlin, Germany",Summer 2022,3,20222,234,1.28
+"Berlin, Germany",Winter 2023,3,20230,274,1.09
+"Berlin, Germany",Summer 2023,3,20232,220,1.36
+"Berlin, Germany",Winter 2024,1,20240,248,0.4
+"Berlin, Germany",Summer 2024,3,20242,248,1.21
+"Berlin, Germany",Fall 2024,2,20243,94,2.13
+"Berlin, Germany",Winter 2025,1,20250,166,0.6
+"Berlin, Germany",Spring 2025,1,20251,143,0.7
+"Berlin, Germany",Summer 2025,1,20252,166,0.6
+"Berlin, Germany",Fall 2025,1,20253,146,0.68
+"Berlin, Germany",Spring 2026,1,20261,195,0.51
+"Birmingham, United Kingdom",Winter 2021,1,20210,336,0.3
+"Bogotá, Colombia",Winter 2021,2,20210,336,0.6
+"Bogotá, Colombia",Summer 2021,2,20212,391,0.51
+"Bogotá, Colombia",Winter 2022,5,20220,398,1.26
+"Bogotá, Colombia",Winter 2023,2,20230,274,0.73
+"Bogotá, Colombia",Winter 2025,1,20250,166,0.6
+"Boston, USA",Winter 2021,2,20210,336,0.6
+"Boston, USA",Summer 2021,8,20212,391,2.05
+"Boston, USA",Winter 2022,3,20220,398,0.75
+"Boston, USA",Summer 2022,3,20222,234,1.28
+"Boston, USA",Winter 2023,5,20230,274,1.82
+"Boston, USA",Summer 2023,2,20232,220,0.91
+"Boston, USA",Winter 2024,2,20240,248,0.81
+"Boston, USA",Summer 2024,1,20242,248,0.4
+"Boston, USA",Fall 2024,1,20243,94,1.06
+"Boston, USA",Winter 2025,1,20250,166,0.6
+"Boston, USA",Spring 2025,3,20251,143,2.1
+"Boston, USA",Summer 2025,1,20252,166,0.6
+"Boston, USA",Fall 2025,1,20253,146,0.68
+"Boston, USA",Spring 2026,2,20261,195,1.03
+"Boston, USA",Summer 2026,8,20262,235,3.4
+"Boston, USA",Fall 2026,1,20263,35,2.86
+"Boulder, USA",Winter 2021,1,20210,336,0.3
+"Boulder, USA",Summer 2023,1,20232,220,0.45
+"Boulder, USA",Fall 2025,1,20253,146,0.68
+"Brisbane, Australia",Summer 2021,1,20212,391,0.26
+"Brisbane, Australia",Winter 2022,1,20220,398,0.25
+"Brisbane, Australia",Winter 2023,1,20230,274,0.36
+"Brisbane, Australia",Winter 2025,1,20250,166,0.6
+"Brussels, Belgium",Winter 2021,1,20210,336,0.3
+"Brussels, Belgium",Fall 2025,1,20253,146,0.68
+"Bucharest, Romania",Winter 2021,1,20210,336,0.3
+"Bucharest, Romania",Summer 2021,1,20212,391,0.26
+"Buenos Aires, Argentina",Winter 2021,2,20210,336,0.6
+"Buenos Aires, Argentina",Summer 2021,1,20212,391,0.26
+"Buenos Aires, Argentina",Winter 2022,3,20220,398,0.75
+"Buenos Aires, Argentina",Summer 2022,1,20222,234,0.43
+"Buenos Aires, Argentina",Winter 2023,1,20230,274,0.36
+"Buenos Aires, Argentina",Summer 2024,1,20242,248,0.4
+"CA, USA",Winter 2022,1,20220,398,0.25
+"Cairo, Egypt",Winter 2021,3,20210,336,0.89
+"Cairo, Egypt",Summer 2021,3,20212,391,0.77
+"Calgary, Canada",Winter 2021,1,20210,336,0.3
+"Calgary, Canada",Summer 2021,1,20212,391,0.26
+"Campinas, Brazil",Winter 2022,1,20220,398,0.25
+"Cancún, Mexico",Winter 2022,1,20220,398,0.25
+"Cape Town, South Africa",Summer 2021,2,20212,391,0.51
+"Carlsbad, USA",Winter 2021,1,20210,336,0.3
+"Carlsbad, USA",Winter 2022,1,20220,398,0.25
+"Casablanca, Morocco",Summer 2021,2,20212,391,0.51
+"Charleston, USA",Summer 2021,1,20212,391,0.26
+"Charlotte, USA",Summer 2023,1,20232,220,0.45
+"Chennai, India",Winter 2022,1,20220,398,0.25
+"Chicago, USA",Winter 2021,1,20210,336,0.3
+"Chicago, USA",Summer 2021,2,20212,391,0.51
+"Chicago, USA",Summer 2022,2,20222,234,0.85
+"Chicago, USA",Summer 2023,1,20232,220,0.45
+"Chicago, USA",Summer 2025,1,20252,166,0.6
+"Chicago, USA",Summer 2026,1,20262,235,0.43
+"Cincinnati, USA",Winter 2022,1,20220,398,0.25
+"Cincinnati, USA",Winter 2023,1,20230,274,0.36
+"Claymont, USA",Winter 2022,1,20220,398,0.25
+"Claymont, USA",Summer 2022,1,20222,234,0.43
+"Cleburne, USA",Spring 2025,1,20251,143,0.7
+"Cleveland, USA",Winter 2021,1,20210,336,0.3
+"Coimbatore, India",Winter 2021,1,20210,336,0.3
+"College Park, USA",Summer 2022,1,20222,234,0.43
+"Columbus, USA",Winter 2024,1,20240,248,0.4
+"Copenhagen, Denmark",Winter 2021,2,20210,336,0.6
+"Copenhagen, Denmark",Summer 2021,3,20212,391,0.77
+"Copenhagen, Denmark",Winter 2022,1,20220,398,0.25
+"Copenhagen, Denmark",Winter 2023,1,20230,274,0.36
+"Copenhagen, Denmark",Summer 2023,2,20232,220,0.91
+"Copenhagen, Denmark",Winter 2025,1,20250,166,0.6
+"Copenhagen, Denmark",Spring 2026,1,20261,195,0.51
+"Curitiba, Brazil",Winter 2024,1,20240,248,0.4
+"Cyberjaya, Malaysia",Winter 2022,1,20220,398,0.25
+"Córdoba, Argentina",Summer 2021,1,20212,391,0.26
+"Córdoba, Argentina",Winter 2022,1,20220,398,0.25
+"Córdoba, Argentina",Summer 2022,1,20222,234,0.43
+"Dallas, USA",Summer 2021,1,20212,391,0.26
+"Dallas, USA",Summer 2022,1,20222,234,0.43
+"Dallas, USA",Summer 2024,1,20242,248,0.4
+"Davis, USA",Summer 2021,1,20212,391,0.26
+"Dayton, USA",Winter 2022,1,20220,398,0.25
+"Dayton, USA",Summer 2022,1,20222,234,0.43
+"Delaware City, USA",Summer 2022,1,20222,234,0.43
+"Delft, Netherlands",Summer 2021,1,20212,391,0.26
+"Delhi, India",Winter 2021,3,20210,336,0.89
+"Delhi, India",Summer 2021,2,20212,391,0.51
+"Delhi, India",Winter 2022,1,20220,398,0.25
+"Delhi, India",Summer 2022,1,20222,234,0.43
+"Denver, USA",Winter 2021,2,20210,336,0.6
+"Denver, USA",Summer 2021,2,20212,391,0.51
+"Denver, USA",Winter 2022,2,20220,398,0.5
+"Denver, USA",Summer 2022,1,20222,234,0.43
+"Denver, USA",Summer 2024,2,20242,248,0.81
+"Denver, USA",Fall 2024,1,20243,94,1.06
+"Denver, USA",Summer 2026,1,20262,235,0.43
+"Detroit, USA",Winter 2021,1,20210,336,0.3
+"Detroit, USA",Winter 2022,1,20220,398,0.25
+"Detroit, USA",Summer 2025,1,20252,166,0.6
+"Dover, USA",Summer 2023,1,20232,220,0.45
+"Downers Grove, USA",Summer 2022,1,20222,234,0.43
+"Dubai, United Arab Emirates",Winter 2021,1,20210,336,0.3
+"Dubai, United Arab Emirates",Summer 2021,3,20212,391,0.77
+"Dubai, United Arab Emirates",Winter 2022,5,20220,398,1.26
+"Dubai, United Arab Emirates",Winter 2023,2,20230,274,0.73
+"Dubai, United Arab Emirates",Summer 2023,1,20232,220,0.45
+"Dubai, United Arab Emirates",Winter 2025,1,20250,166,0.6
+"Dublin, Ireland",Summer 2021,1,20212,391,0.26
+"Durham, USA",Winter 2021,1,20210,336,0.3
+"Durham, USA",Spring 2026,1,20261,195,0.51
+"Durham, USA",Summer 2026,1,20262,235,0.43
+"Edmonton, Canada",Winter 2022,1,20220,398,0.25
+"El Segundo, USA",Fall 2026,1,20263,35,2.86
+"Emeryville, USA",Summer 2021,1,20212,391,0.26
+"Emeryville, USA",Summer 2026,1,20262,235,0.43
+"FL, USA",Summer 2021,1,20212,391,0.26
+"Fort Collins, USA",Winter 2021,1,20210,336,0.3
+"Fort Worth, USA",Summer 2021,1,20212,391,0.26
+"Fredericton, Canada",Winter 2022,1,20220,398,0.25
+"Fresno, USA",Spring 2025,1,20251,143,0.7
+"Galway, Ireland",Summer 2021,1,20212,391,0.26
+"Galway, Ireland",Summer 2022,1,20222,234,0.43
+"George Town, Cayman Islands",Summer 2026,1,20262,235,0.43
+"Ghent, Belgium",Winter 2025,1,20250,166,0.6
+"Glasgow, United Kingdom",Winter 2021,1,20210,336,0.3
+"Grand Rapids, USA",Summer 2022,1,20222,234,0.43
+"Graz, Austria",Winter 2021,1,20210,336,0.3
+"Guadalajara, Mexico",Winter 2022,1,20220,398,0.25
+"Gurugram, India",Winter 2021,6,20210,336,1.79
+"Gurugram, India",Summer 2021,3,20212,391,0.77
+"Gurugram, India",Winter 2022,2,20220,398,0.5
+"Gurugram, India",Summer 2022,1,20222,234,0.43
+"Gurugram, India",Summer 2024,1,20242,248,0.4
+"Gurugram, India",Summer 2026,1,20262,235,0.43
+"Haifa, Israel",Winter 2023,1,20230,274,0.36
+"Hanoi, Vietnam",Winter 2021,1,20210,336,0.3
+"Hanoi, Vietnam",Winter 2022,1,20220,398,0.25
+"Helsinki, Finland",Summer 2021,1,20212,391,0.26
+"Helsinki, Finland",Winter 2022,1,20220,398,0.25
+"Helsinki, Finland",Winter 2026,1,20260,199,0.5
+"Helsinki, Finland",Summer 2026,1,20262,235,0.43
+"Ho Chi Minh City, Vietnam",Winter 2021,1,20210,336,0.3
+"Ho Chi Minh City, Vietnam",Summer 2021,1,20212,391,0.26
+"Ho Chi Minh City, Vietnam",Winter 2022,3,20220,398,0.75
+"Hong Kong, Hong Kong",Winter 2021,1,20210,336,0.3
+"Hong Kong, Hong Kong",Winter 2022,1,20220,398,0.25
+"Hong Kong, Hong Kong",Fall 2024,1,20243,94,1.06
+"Honolulu, USA",Summer 2021,2,20212,391,0.51
+"Houston, USA",Winter 2021,1,20210,336,0.3
+"Houston, USA",Summer 2021,2,20212,391,0.51
+"Houston, USA",Winter 2022,5,20220,398,1.26
+"Houston, USA",Summer 2022,1,20222,234,0.43
+"Houston, USA",Spring 2025,1,20251,143,0.7
+"Hyderabad, India",Winter 2021,3,20210,336,0.89
+"Hyderabad, India",Summer 2021,2,20212,391,0.51
+"Hyderabad, India",Winter 2022,1,20220,398,0.25
+"Hyderabad, India",Summer 2022,2,20222,234,0.85
+"Ibadan, Nigeria",Winter 2022,2,20220,398,0.5
+"Ikeja, Nigeria",Winter 2024,1,20240,248,0.4
+"India, ",Summer 2021,1,20212,391,0.26
+"Irvine, USA",Winter 2021,1,20210,336,0.3
+"Irvine, USA",Spring 2026,1,20261,195,0.51
+"Islamabad, Pakistan",Summer 2021,1,20212,391,0.26
+"Islamabad, Pakistan",Winter 2022,1,20220,398,0.25
+"Issaquah, USA",Summer 2022,1,20222,234,0.43
+"Istanbul, Turkey",Summer 2022,1,20222,234,0.43
+"Istanbul, Turkey",Summer 2024,1,20242,248,0.4
+"Jacksonville, USA",Winter 2023,1,20230,274,0.36
+"Jaco, Costa Rica",Summer 2026,1,20262,235,0.43
+"Jakarta, Indonesia",Summer 2021,3,20212,391,0.77
+"Jakarta, Indonesia",Winter 2022,13,20220,398,3.27
+"Jakarta, Indonesia",Summer 2022,2,20222,234,0.85
+"Jakarta, Indonesia",Winter 2023,2,20230,274,0.73
+"Jeddah, Saudi Arabia",Summer 2022,1,20222,234,0.43
+"Kampala, Uganda",Winter 2022,1,20220,398,0.25
+"Karachi, Pakistan",Winter 2021,1,20210,336,0.3
+"Karachi, Pakistan",Winter 2022,2,20220,398,0.5
+"Karachi, Pakistan",Summer 2022,1,20222,234,0.43
+"Kinshasa, Democratic Republic of the Congo",Summer 2023,1,20232,220,0.45
+"Kitchener, Canada",Summer 2021,1,20212,391,0.26
+"Kitchener, Canada",Winter 2022,2,20220,398,0.5
+"Kitchener, Canada",Summer 2022,1,20222,234,0.43
+"Kraków, Poland",Summer 2021,1,20212,391,0.26
+"Kristiansand, Norway",Summer 2022,1,20222,234,0.43
+"Kuala Lumpur, Malaysia",Winter 2021,1,20210,336,0.3
+"Kuala Lumpur, Malaysia",Summer 2021,2,20212,391,0.51
+"Kuala Lumpur, Malaysia",Winter 2022,1,20220,398,0.25
+"Kyiv, Ukraine",Summer 2022,1,20222,234,0.43
+"LA, Nigeria",Winter 2022,1,20220,398,0.25
+"LA, Nigeria",Summer 2022,1,20222,234,0.43
+"Lagos, Nigeria",Winter 2021,4,20210,336,1.19
+"Lagos, Nigeria",Summer 2021,2,20212,391,0.51
+"Lagos, Nigeria",Winter 2022,9,20220,398,2.26
+"Lagos, Nigeria",Summer 2022,4,20222,234,1.71
+"Lagos, Nigeria",Winter 2023,2,20230,274,0.73
+"Lagos, Nigeria",Summer 2023,1,20232,220,0.45
+"Lahore, Pakistan",Winter 2023,1,20230,274,0.36
+"Lake Oswego, USA",Summer 2024,1,20242,248,0.4
+"Las Vegas, USA",Winter 2021,1,20210,336,0.3
+"Las Vegas, USA",Winter 2022,1,20220,398,0.25
+"Lausanne, Switzerland",Summer 2021,1,20212,391,0.26
+"Lausanne, Switzerland",Winter 2022,2,20220,398,0.5
+"Lehi, USA",Winter 2022,1,20220,398,0.25
+"Lehi, USA",Summer 2022,1,20222,234,0.43
+"Lehi, USA",Winter 2023,1,20230,274,0.36
+"Lehi, USA",Winter 2024,2,20240,248,0.81
+"Lehi, USA",Fall 2024,1,20243,94,1.06
+"Leuven, Belgium",Winter 2025,1,20250,166,0.6
+"Lima, Peru",Winter 2021,1,20210,336,0.3
+"Lima, Peru",Summer 2021,2,20212,391,0.51
+"Lima, Peru",Winter 2022,1,20220,398,0.25
+"Lima, Peru",Summer 2022,1,20222,234,0.43
+"Limerick, Ireland",Summer 2021,2,20212,391,0.51
+"Limerick, Ireland",Summer 2023,1,20232,220,0.45
+"Ljubljana, Slovenia",Winter 2021,1,20210,336,0.3
+"Ljubljana, Slovenia",Summer 2022,1,20222,234,0.43
+"London, United Kingdom",Winter 2021,10,20210,336,2.98
+"London, United Kingdom",Summer 2021,19,20212,391,4.86
+"London, United Kingdom",Winter 2022,14,20220,398,3.52
+"London, United Kingdom",Summer 2022,10,20222,234,4.27
+"London, United Kingdom",Winter 2023,4,20230,274,1.46
+"London, United Kingdom",Summer 2023,14,20232,220,6.36
+"London, United Kingdom",Winter 2024,7,20240,248,2.82
+"London, United Kingdom",Summer 2024,16,20242,248,6.45
+"London, United Kingdom",Fall 2024,2,20243,94,2.13
+"London, United Kingdom",Winter 2025,5,20250,166,3.01
+"London, United Kingdom",Spring 2025,13,20251,143,9.09
+"London, United Kingdom",Summer 2025,3,20252,166,1.81
+"London, United Kingdom",Fall 2025,6,20253,146,4.11
+"London, United Kingdom",Winter 2026,8,20260,199,4.02
+"London, United Kingdom",Spring 2026,4,20261,195,2.05
+"London, United Kingdom",Summer 2026,5,20262,235,2.13
+"Los Angeles, USA",Winter 2021,9,20210,336,2.68
+"Los Angeles, USA",Summer 2021,17,20212,391,4.35
+"Los Angeles, USA",Winter 2022,15,20220,398,3.77
+"Los Angeles, USA",Summer 2022,7,20222,234,2.99
+"Los Angeles, USA",Winter 2023,7,20230,274,2.55
+"Los Angeles, USA",Summer 2023,4,20232,220,1.82
+"Los Angeles, USA",Winter 2024,1,20240,248,0.4
+"Los Angeles, USA",Summer 2024,5,20242,248,2.02
+"Los Angeles, USA",Fall 2024,1,20243,94,1.06
+"Los Angeles, USA",Winter 2025,3,20250,166,1.81
+"Los Angeles, USA",Spring 2025,5,20251,143,3.5
+"Los Angeles, USA",Summer 2025,2,20252,166,1.2
+"Los Angeles, USA",Fall 2025,4,20253,146,2.74
+"Los Angeles, USA",Winter 2026,2,20260,199,1.01
+"Los Angeles, USA",Spring 2026,2,20261,195,1.03
+"Los Angeles, USA",Summer 2026,7,20262,235,2.98
+"Lusaka, Zambia",Summer 2021,1,20212,391,0.26
+"MH, India",Winter 2021,3,20210,336,0.89
+"MH, India",Summer 2021,3,20212,391,0.77
+"MH, India",Winter 2022,2,20220,398,0.5
+"Madrid, Spain",Summer 2021,2,20212,391,0.51
+"Madrid, Spain",Winter 2022,2,20220,398,0.5
+"Madrid, Spain",Summer 2022,1,20222,234,0.43
+"Madrid, Spain",Winter 2023,1,20230,274,0.36
+"Makati, Philippines",Winter 2021,1,20210,336,0.3
+"Makati, Philippines",Summer 2021,1,20212,391,0.26
+"Makati, Philippines",Summer 2022,1,20222,234,0.43
+"Manama, Bahrain",Winter 2022,1,20220,398,0.25
+"Manaus, Brazil",Summer 2022,1,20222,234,0.43
+"Manchester, United Kingdom",Winter 2022,1,20220,398,0.25
+"Manchester, United Kingdom",Winter 2023,1,20230,274,0.36
+"Manchester, United Kingdom",Spring 2026,1,20261,195,0.51
+"Manila, Philippines",Winter 2021,2,20210,336,0.6
+"Manila, Philippines",Summer 2021,1,20212,391,0.26
+"Mannheim, Germany",Winter 2022,1,20220,398,0.25
+"Maracaibo, Venezuela",Winter 2022,1,20220,398,0.25
+"Maringá, Brazil",Summer 2021,1,20212,391,0.26
+"McKinney, USA",Summer 2021,1,20212,391,0.26
+"Medellín, Colombia",Winter 2021,1,20210,336,0.3
+"Medellín, Colombia",Winter 2022,1,20220,398,0.25
+"Medellín, Colombia",Winter 2023,1,20230,274,0.36
+"Memphis, USA",Summer 2021,1,20212,391,0.26
+"Mexico City, Mexico",Winter 2021,8,20210,336,2.38
+"Mexico City, Mexico",Summer 2021,8,20212,391,2.05
+"Mexico City, Mexico",Winter 2022,8,20220,398,2.01
+"Mexico City, Mexico",Summer 2022,4,20222,234,1.71
+"Mexico City, Mexico",Winter 2023,2,20230,274,0.73
+"Mexico City, Mexico",Summer 2025,1,20252,166,0.6
+"Miami, USA",Winter 2021,3,20210,336,0.89
+"Miami, USA",Summer 2021,5,20212,391,1.28
+"Miami, USA",Winter 2022,4,20220,398,1.01
+"Miami, USA",Summer 2022,2,20222,234,0.85
+"Miami, USA",Winter 2023,1,20230,274,0.36
+"Miami, USA",Fall 2024,1,20243,94,1.06
+"Milan, Italy",Winter 2021,1,20210,336,0.3
+"Minneapolis, USA",Winter 2022,1,20220,398,0.25
+"Monterrey, Mexico",Winter 2021,2,20210,336,0.6
+"Monterrey, Mexico",Summer 2021,9,20212,391,2.3
+"Monterrey, Mexico",Summer 2023,1,20232,220,0.45
+"Montevideo, Uruguay",Winter 2023,1,20230,274,0.36
+"Montreal, Canada",Winter 2023,1,20230,274,0.36
+"Montreal, Canada",Winter 2024,1,20240,248,0.4
+"Mumbai, India",Summer 2022,1,20222,234,0.43
+"Munich, Germany",Summer 2021,2,20212,391,0.51
+"Munich, Germany",Winter 2022,2,20220,398,0.5
+"Munich, Germany",Winter 2023,2,20230,274,0.73
+"Munich, Germany",Winter 2024,2,20240,248,0.81
+"Munich, Germany",Summer 2024,1,20242,248,0.4
+"Munich, Germany",Summer 2025,1,20252,166,0.6
+"Mérida, Mexico",Summer 2021,1,20212,391,0.26
+"Nairobi, Kenya",Winter 2021,1,20210,336,0.3
+"Nairobi, Kenya",Summer 2021,1,20212,391,0.26
+"Nairobi, Kenya",Winter 2022,1,20220,398,0.25
+"Nairobi, Kenya",Summer 2022,1,20222,234,0.43
+"Nairobi, Kenya",Summer 2023,1,20232,220,0.45
+"Nairobi, Kenya",Winter 2024,1,20240,248,0.4
+"Nashville, USA",Winter 2022,1,20220,398,0.25
+"New Delhi, India",Winter 2021,1,20210,336,0.3
+"New Delhi, India",Summer 2021,2,20212,391,0.51
+"New Delhi, India",Summer 2024,1,20242,248,0.4
+"New York City, USA",Winter 2021,44,20210,336,13.1
+"New York City, USA",Summer 2021,36,20212,391,9.21
+"New York City, USA",Winter 2022,51,20220,398,12.81
+"New York City, USA",Summer 2022,26,20222,234,11.11
+"New York City, USA",Winter 2023,49,20230,274,17.88
+"New York City, USA",Summer 2023,42,20232,220,19.09
+"New York City, USA",Winter 2024,40,20240,248,16.13
+"New York City, USA",Summer 2024,28,20242,248,11.29
+"New York City, USA",Fall 2024,22,20243,94,23.4
+"New York City, USA",Winter 2025,19,20250,166,11.45
+"New York City, USA",Spring 2025,21,20251,143,14.69
+"New York City, USA",Summer 2025,25,20252,166,15.06
+"New York City, USA",Fall 2025,15,20253,146,10.27
+"New York City, USA",Winter 2026,20,20260,199,10.05
+"New York City, USA",Spring 2026,16,20261,195,8.21
+"New York City, USA",Summer 2026,16,20262,235,6.81
+"Nicosia, Cyprus",Summer 2021,1,20212,391,0.26
+"North Kingstown, USA",Winter 2021,1,20210,336,0.3
+"North Vancouver, Canada",Winter 2023,1,20230,274,0.36
+"Norwalk, USA",Winter 2022,1,20220,398,0.25
+"Nottingham, United Kingdom",Winter 2022,1,20220,398,0.25
+"Olathe, USA",Summer 2025,1,20252,166,0.6
+"Omaha, USA",Winter 2021,1,20210,336,0.3
+"Ontario, USA",Winter 2021,2,20210,336,0.6
+"Orem, USA",Winter 2021,2,20210,336,0.6
+"Orem, USA",Winter 2022,1,20220,398,0.25
+"Orem, USA",Winter 2023,1,20230,274,0.36
+"Orlando, USA",Summer 2022,1,20222,234,0.43
+"Orlando, USA",Summer 2025,1,20252,166,0.6
+"Oslo, Norway",Winter 2021,2,20210,336,0.6
+"Oslo, Norway",Winter 2022,1,20220,398,0.25
+"Oslo, Norway",Fall 2025,1,20253,146,0.68
+"Oslo, Norway",Winter 2026,1,20260,199,0.5
+"Oslo, Norway",Summer 2026,1,20262,235,0.43
+"Ottawa, Canada",Summer 2021,1,20212,391,0.26
+"Ottawa, Canada",Summer 2024,1,20242,248,0.4
+"Oxford, United Kingdom",Summer 2021,1,20212,391,0.26
+"Oxford, United Kingdom",Summer 2024,1,20242,248,0.4
+"Palm Beach Gardens, USA",Summer 2022,1,20222,234,0.43
+"Panama City, Panama",Winter 2022,2,20220,398,0.5
+"Panama City, Panama",Summer 2022,1,20222,234,0.43
+"Paris, France",Winter 2021,6,20210,336,1.79
+"Paris, France",Summer 2021,7,20212,391,1.79
+"Paris, France",Winter 2022,3,20220,398,0.75
+"Paris, France",Summer 2022,4,20222,234,1.71
+"Paris, France",Winter 2023,4,20230,274,1.46
+"Paris, France",Summer 2023,5,20232,220,2.27
+"Paris, France",Winter 2024,4,20240,248,1.61
+"Paris, France",Summer 2024,5,20242,248,2.02
+"Paris, France",Fall 2024,1,20243,94,1.06
+"Paris, France",Winter 2025,2,20250,166,1.2
+"Paris, France",Spring 2025,6,20251,143,4.2
+"Paris, France",Summer 2025,1,20252,166,0.6
+"Paris, France",Fall 2025,2,20253,146,1.37
+"Paris, France",Winter 2026,2,20260,199,1.01
+"Paris, France",Spring 2026,1,20261,195,0.51
+"Paris, France",Summer 2026,1,20262,235,0.43
+"Philadelphia, USA",Winter 2021,1,20210,336,0.3
+"Philadelphia, USA",Summer 2021,2,20212,391,0.51
+"Philadelphia, USA",Winter 2023,2,20230,274,0.73
+"Philadelphia, USA",Summer 2023,1,20232,220,0.45
+"Philadelphia, USA",Summer 2024,1,20242,248,0.4
+"Philadelphia, USA",Summer 2025,1,20252,166,0.6
+"Pittsburgh, USA",Winter 2023,2,20230,274,0.73
+"Pittsburgh, USA",Summer 2025,1,20252,166,0.6
+"Portland, USA",Winter 2022,1,20220,398,0.25
+"Portland, USA",Summer 2022,1,20222,234,0.43
+"Portland, USA",Winter 2023,1,20230,274,0.36
+"Potsdam, Germany",Summer 2022,1,20222,234,0.43
+"Provo, USA",Winter 2021,1,20210,336,0.3
+"Provo, USA",Summer 2023,1,20232,220,0.45
+"Pune, India",Summer 2022,1,20222,234,0.43
+"Quito, Ecuador",Summer 2021,1,20212,391,0.26
+"Raipur, India",Winter 2021,1,20210,336,0.3
+"Raleigh, USA",Winter 2022,1,20220,398,0.25
+"Remote, USA",Winter 2021,1,20210,336,0.3
+"Remote, USA",Summer 2021,1,20212,391,0.26
+"Remote, USA",Summer 2022,1,20222,234,0.43
+"Reston, USA",Winter 2021,1,20210,336,0.3
+"Rio de Janeiro, Brazil",Summer 2021,1,20212,391,0.26
+"Riyadh, Saudi Arabia",Summer 2022,2,20222,234,0.85
+"Riyadh, Saudi Arabia",Winter 2023,1,20230,274,0.36
+"Rochester, USA",Summer 2021,1,20212,391,0.26
+"SC, Brazil",Winter 2021,1,20210,336,0.3
+"Sacramento, USA",Winter 2023,1,20230,274,0.36
+"Saint Petersburg, USA",Winter 2021,1,20210,336,0.3
+"Saint Petersburg, USA",Winter 2022,1,20220,398,0.25
+"Salt Lake City, USA",Summer 2021,1,20212,391,0.26
+"Salt Lake City, USA",Winter 2022,3,20220,398,0.75
+"Salt Lake City, USA",Summer 2022,2,20222,234,0.85
+"Salt Lake City, USA",Winter 2024,1,20240,248,0.4
+"Salt Lake City, USA",Fall 2024,1,20243,94,1.06
+"Salt Lake City, USA",Winter 2025,1,20250,166,0.6
+"Salt Lake City, USA",Spring 2026,1,20261,195,0.51
+"Salt Lake City, USA",Summer 2026,1,20262,235,0.43
+"Salt Lake City, USA",Fall 2026,1,20263,35,2.86
+"San Clemente, USA",Summer 2021,1,20212,391,0.26
+"San Diego, USA",Winter 2021,3,20210,336,0.89
+"San Diego, USA",Summer 2021,2,20212,391,0.51
+"San Diego, USA",Winter 2022,1,20220,398,0.25
+"San Diego, USA",Summer 2022,2,20222,234,0.85
+"San Diego, USA",Summer 2023,1,20232,220,0.45
+"San Diego, USA",Fall 2025,1,20253,146,0.68
+"San Diego, USA",Winter 2026,1,20260,199,0.5
+"San Francisco, USA",Winter 2021,84,20210,336,25.0
+"San Francisco, USA",Summer 2021,100,20212,391,25.58
+"San Francisco, USA",Winter 2022,105,20220,398,26.38
+"San Francisco, USA",Summer 2022,69,20222,234,29.49
+"San Francisco, USA",Winter 2023,112,20230,274,40.88
+"San Francisco, USA",Summer 2023,99,20232,220,45.0
+"San Francisco, USA",Winter 2024,152,20240,248,61.29
+"San Francisco, USA",Summer 2024,154,20242,248,62.1
+"San Francisco, USA",Fall 2024,55,20243,94,58.51
+"San Francisco, USA",Winter 2025,105,20250,166,63.25
+"San Francisco, USA",Spring 2025,80,20251,143,55.94
+"San Francisco, USA",Summer 2025,115,20252,166,69.28
+"San Francisco, USA",Fall 2025,94,20253,146,64.38
+"San Francisco, USA",Winter 2026,131,20260,199,65.83
+"San Francisco, USA",Spring 2026,157,20261,195,80.51
+"San Francisco, USA",Summer 2026,173,20262,235,73.62
+"San Francisco, USA",Fall 2026,23,20263,35,65.71
+"San Francisco, USA",Winter 2027,1,20270,1,100.0
+"San José, Costa Rica",Winter 2022,1,20220,398,0.25
+"Santa Barbara, USA",Summer 2023,1,20232,220,0.45
+"Santa Barbara, USA",Winter 2024,1,20240,248,0.4
+"Santiago, Chile",Winter 2021,4,20210,336,1.19
+"Santiago, Chile",Summer 2021,7,20212,391,1.79
+"Santiago, Chile",Winter 2022,1,20220,398,0.25
+"Santiago, Chile",Summer 2022,1,20222,234,0.43
+"Santiago, Chile",Winter 2023,1,20230,274,0.36
+"Seattle, USA",Winter 2021,4,20210,336,1.19
+"Seattle, USA",Summer 2021,3,20212,391,0.77
+"Seattle, USA",Winter 2022,4,20220,398,1.01
+"Seattle, USA",Summer 2022,4,20222,234,1.71
+"Seattle, USA",Winter 2023,7,20230,274,2.55
+"Seattle, USA",Summer 2023,3,20232,220,1.36
+"Seattle, USA",Winter 2024,4,20240,248,1.61
+"Seattle, USA",Summer 2024,4,20242,248,1.61
+"Seattle, USA",Fall 2024,1,20243,94,1.06
+"Seattle, USA",Winter 2025,2,20250,166,1.2
+"Seattle, USA",Winter 2026,4,20260,199,2.01
+"Seattle, USA",Summer 2026,3,20262,235,1.28
+"Seoul, South Korea",Winter 2021,1,20210,336,0.3
+"Seoul, South Korea",Winter 2022,1,20220,398,0.25
+"Seoul, South Korea",Summer 2022,1,20222,234,0.43
+"Seoul, South Korea",Winter 2025,1,20250,166,0.6
+"Seoul, South Korea",Summer 2025,1,20252,166,0.6
+"Seoul, South Korea",Spring 2026,1,20261,195,0.51
+"Sindh, Pakistan",Summer 2021,1,20212,391,0.26
+"Sindh, Pakistan",Winter 2022,1,20220,398,0.25
+"Singapore, Singapore",Winter 2021,4,20210,336,1.19
+"Singapore, Singapore",Summer 2021,12,20212,391,3.07
+"Singapore, Singapore",Winter 2022,11,20220,398,2.76
+"Singapore, Singapore",Summer 2022,4,20222,234,1.71
+"Singapore, Singapore",Winter 2023,2,20230,274,0.73
+"Singapore, Singapore",Summer 2023,1,20232,220,0.45
+"Singapore, Singapore",Fall 2024,1,20243,94,1.06
+"Singapore, Singapore",Winter 2026,1,20260,199,0.5
+"Singapore, Singapore",Summer 2026,2,20262,235,0.85
+"Singapore, Singapore",Fall 2026,1,20263,35,2.86
+"Sofia City Province, Bulgaria",Summer 2021,1,20212,391,0.26
+"Sofia City Province, Bulgaria",Summer 2023,1,20232,220,0.45
+"Southern Pines, USA",Winter 2021,1,20210,336,0.3
+"Springfield, USA",Summer 2022,1,20222,234,0.43
+"St. Louis, USA",Summer 2021,1,20212,391,0.26
+"St. Petersburg, USA",Summer 2021,1,20212,391,0.26
+"Stockholm, Sweden",Winter 2021,2,20210,336,0.6
+"Stockholm, Sweden",Winter 2022,2,20220,398,0.5
+"Stockholm, Sweden",Winter 2024,1,20240,248,0.4
+"Stockholm, Sweden",Summer 2024,1,20242,248,0.4
+"Stockholm, Sweden",Winter 2025,3,20250,166,1.81
+"Stockholm, Sweden",Spring 2025,1,20251,143,0.7
+"Stockholm, Sweden",Fall 2025,3,20253,146,2.05
+"Stockholm, Sweden",Winter 2026,1,20260,199,0.5
+"Stockholm, Sweden",Spring 2026,2,20261,195,1.03
+"Stockholm, Sweden",Summer 2026,1,20262,235,0.43
+"Stuttgart, Germany",Winter 2021,1,20210,336,0.3
+"Sunshine Coast, Australia",Winter 2021,1,20210,336,0.3
+"Surat, India",Winter 2023,1,20230,274,0.36
+"Sydney, Australia",Summer 2021,2,20212,391,0.51
+"Sydney, Australia",Winter 2022,4,20220,398,1.01
+"Sydney, Australia",Summer 2022,1,20222,234,0.43
+"Sydney, Australia",Winter 2023,1,20230,274,0.36
+"Sydney, Australia",Winter 2026,2,20260,199,1.01
+"Sydney, Australia",Summer 2026,1,20262,235,0.43
+"São Paulo, Brazil",Winter 2021,6,20210,336,1.79
+"São Paulo, Brazil",Summer 2021,9,20212,391,2.3
+"São Paulo, Brazil",Winter 2022,5,20220,398,1.26
+"São Paulo, Brazil",Summer 2022,1,20222,234,0.43
+"São Paulo, Brazil",Winter 2023,1,20230,274,0.36
+"São Paulo, Brazil",Summer 2023,1,20232,220,0.45
+"São Paulo, Brazil",Summer 2024,1,20242,248,0.4
+"São Paulo, Brazil",Summer 2025,1,20252,166,0.6
+"Taipei, Taiwan",Summer 2022,1,20222,234,0.43
+"Tallinn, Estonia",Winter 2021,1,20210,336,0.3
+"Tallinn, Estonia",Summer 2021,1,20212,391,0.26
+"Tbilisi, Georgia",Summer 2021,1,20212,391,0.26
+"Tbilisi, Georgia",Winter 2022,1,20220,398,0.25
+"Tel Aviv-Yafo, Israel",Winter 2021,3,20210,336,0.89
+"Tel Aviv-Yafo, Israel",Summer 2021,1,20212,391,0.26
+"Tel Aviv-Yafo, Israel",Winter 2022,2,20220,398,0.5
+"Tel Aviv-Yafo, Israel",Summer 2022,6,20222,234,2.56
+"Tel Aviv-Yafo, Israel",Winter 2023,6,20230,274,2.19
+"Tel Aviv-Yafo, Israel",Summer 2023,1,20232,220,0.45
+"Tel Aviv-Yafo, Israel",Winter 2025,1,20250,166,0.6
+"Tel Aviv-Yafo, Israel",Summer 2026,1,20262,235,0.43
+"Temecula, USA",Winter 2023,1,20230,274,0.36
+"Tempe, USA",Winter 2021,1,20210,336,0.3
+"The Hague, Netherlands",Winter 2022,1,20220,398,0.25
+"Tokyo, Japan",Summer 2022,1,20222,234,0.43
+"Toronto, Canada",Winter 2021,9,20210,336,2.68
+"Toronto, Canada",Summer 2021,8,20212,391,2.05
+"Toronto, Canada",Winter 2022,6,20220,398,1.51
+"Toronto, Canada",Summer 2022,3,20222,234,1.28
+"Toronto, Canada",Winter 2023,1,20230,274,0.36
+"Toronto, Canada",Summer 2023,3,20232,220,1.36
+"Toronto, Canada",Winter 2024,3,20240,248,1.21
+"Toronto, Canada",Summer 2024,1,20242,248,0.4
+"Toronto, Canada",Fall 2024,1,20243,94,1.06
+"Toronto, Canada",Winter 2025,2,20250,166,1.2
+"Toronto, Canada",Spring 2025,1,20251,143,0.7
+"Toronto, Canada",Winter 2026,3,20260,199,1.51
+"Toronto, Canada",Summer 2026,2,20262,235,0.85
+"Toulouse, France",Winter 2022,1,20220,398,0.25
+"Truckee, USA",Summer 2021,1,20212,391,0.26
+"Truckee, USA",Winter 2022,1,20220,398,0.25
+"Uberlândia, Brazil",Summer 2021,1,20212,391,0.26
+"United States, ",Winter 2021,1,20210,336,0.3
+"Utrecht, Netherlands",Summer 2021,1,20212,391,0.26
+"VC, Spain",Winter 2025,1,20250,166,0.6
+"Vancouver, Canada",Winter 2021,1,20210,336,0.3
+"Vancouver, Canada",Summer 2021,2,20212,391,0.51
+"Vancouver, Canada",Winter 2022,1,20220,398,0.25
+"Vancouver, Canada",Winter 2023,2,20230,274,0.73
+"Vancouver, Canada",Winter 2025,2,20250,166,1.2
+"Vancouver, Canada",Summer 2025,1,20252,166,0.6
+"Victoria, Canada",Winter 2022,1,20220,398,0.25
+"Victoria, Canada",Summer 2022,1,20222,234,0.43
+"Vienna, Austria",Winter 2021,1,20210,336,0.3
+"Vienna, Austria",Summer 2022,1,20222,234,0.43
+"Vienna, Austria",Fall 2025,1,20253,146,0.68
+"Vilnius, Lithuania",Winter 2021,1,20210,336,0.3
+"Warsaw, Poland",Winter 2021,2,20210,336,0.6
+"Washington, USA",Summer 2021,1,20212,391,0.26
+"Washington, USA",Winter 2022,2,20220,398,0.5
+"Washington, USA",Summer 2022,1,20222,234,0.43
+"Washington, USA",Summer 2024,3,20242,248,1.21
+"Washington, USA",Winter 2026,1,20260,199,0.5
+"Washington, USA",Summer 2026,1,20262,235,0.43
+"Waterloo, Canada",Winter 2022,1,20220,398,0.25
+"Waterloo, Canada",Fall 2026,1,20263,35,2.86
+"White Rock, Canada",Summer 2023,1,20232,220,0.45
+"Wilmington, USA",Winter 2022,2,20220,398,0.5
+"Wilmington, USA",Winter 2023,1,20230,274,0.36
+"ZH, Switzerland",Winter 2023,1,20230,274,0.36
+"ZH, Switzerland",Spring 2025,1,20251,143,0.7
+"Zagreb, Croatia",Winter 2021,2,20210,336,0.6
+"Zapopan, Mexico",Winter 2021,1,20210,336,0.3
+"Zug, Switzerland",Summer 2023,1,20232,220,0.45
+"Zürich, Switzerland",Summer 2021,1,20212,391,0.26
+"Zürich, Switzerland",Summer 2022,2,20222,234,0.85
+"Zürich, Switzerland",Winter 2023,1,20230,274,0.36
+"Zürich, Switzerland",Winter 2025,1,20250,166,0.6
+"Zürich, Switzerland",Summer 2026,1,20262,235,0.43

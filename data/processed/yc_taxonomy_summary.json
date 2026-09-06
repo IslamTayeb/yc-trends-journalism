@@ -1,0 +1,29 @@
+{
+ "companies_selected": 3729,
+ "unique_industries_top_level": 8,
+ "unique_subindustry_strings": 58,
+ "unique_subindustry_children": 50,
+ "unique_industries_array_values": 58,
+ "unique_tags": 303,
+ "companies_missing_industry": 0,
+ "companies_industry_unspecified": 0,
+ "companies_missing_subindustry": 0,
+ "companies_without_subindustry_child": 1108,
+ "companies_zero_tags": 661,
+ "companies_multiple_industries_array": 2621,
+ "companies_multiple_tags": 2859,
+ "companies_missing_regions": 0,
+ "companies_missing_locations": 86,
+ "companies_missing_long_description": 161,
+ "companies_missing_team_size": 63,
+ "unique_regions_values": 84,
+ "unique_status_values": [
+  "Acquired",
+  "Active",
+  "Inactive"
+ ],
+ "unique_stage_values": [
+  "Early",
+  "Growth"
+ ]
+}

@@ -1,0 +1,2094 @@
+{
+ "data/raw/yc-oss-api/batches/f24.json": {
+  "bytes": 150763,
+  "sha256": "084fc690e283a28011993ceffad93e1f2e4f935964b5e7c53acbb9084836fb92"
+ },
+ "data/raw/yc-oss-api/batches/fall-2024.json": {
+  "bytes": 154575,
+  "sha256": "1804ddb3ac61f77e741f92f680fc19020c907708b4cb79760be05f22250fd0c5"
+ },
+ "data/raw/yc-oss-api/batches/fall-2025.json": {
+  "bytes": 255416,
+  "sha256": "1f4a3b5f2c3990330922f0159ade08fe006aa8ca110035cc1fc8468140362cfe"
+ },
+ "data/raw/yc-oss-api/batches/fall-2026.json": {
+  "bytes": 54285,
+  "sha256": "2b9e201a66a0b655fe0b29da68e0e23d2af895194ac20198a5a8512788fceb80"
+ },
+ "data/raw/yc-oss-api/batches/ik12.json": {
+  "bytes": 1373,
+  "sha256": "a244fe42ad925633b970259529316ab0f0c052d796ba762f2445d8543448514d"
+ },
+ "data/raw/yc-oss-api/batches/s05.json": {
+  "bytes": 12272,
+  "sha256": "df18b5fa122b568d47e009c54b3a77d9a1ade0e776a586d430219f996b2ef1df"
+ },
+ "data/raw/yc-oss-api/batches/s06.json": {
+  "bytes": 13737,
+  "sha256": "c7251037487d5f8a212db5a9092e93db1ba3218b302cc587b43569c066b5a870"
+ },
+ "data/raw/yc-oss-api/batches/s07.json": {
+  "bytes": 26137,
+  "sha256": "45da6f1922adb8fbb4049b4f6203991dc10e90ceab74be3efcf40ede4130d8ff"
+ },
+ "data/raw/yc-oss-api/batches/s08.json": {
+  "bytes": 32179,
+  "sha256": "117c76102bf0840dbb69d88e25c51a079a77e67ecb6118abfd801bdec8963a77"
+ },
+ "data/raw/yc-oss-api/batches/s09.json": {
+  "bytes": 38574,
+  "sha256": "f717f7048cf3a61db1245d1063f8e8132edd1eba5b99684898fb3f44188bd256"
+ },
+ "data/raw/yc-oss-api/batches/s10.json": {
+  "bytes": 55824,
+  "sha256": "e8f109bfc03aedd1c3884f71c1604bd678ea293f1943088e93c809ab9ba2100d"
+ },
+ "data/raw/yc-oss-api/batches/s11.json": {
+  "bytes": 93345,
+  "sha256": "d929f3a237ed56f7e3c1007d1cfb68ac3ddcd2903407815c704ec2a12aa7e900"
+ },
+ "data/raw/yc-oss-api/batches/s12.json": {
+  "bytes": 127909,
+  "sha256": "486f1cb142b248d01f4ff3d2e9ad687a3ed95dc442b69fc78be3ca5a89db61a8"
+ },
+ "data/raw/yc-oss-api/batches/s13.json": {
+  "bytes": 82337,
+  "sha256": "d7173a88268aefdf04d21bac5fbfc883d8aee8dbdf4c69c01126fe1771928978"
+ },
+ "data/raw/yc-oss-api/batches/s14.json": {
+  "bytes": 137430,
+  "sha256": "b99e65dce9c9304a395c769c8269f4234198a942e11eea7b31e1492a711ce166"
+ },
+ "data/raw/yc-oss-api/batches/s15.json": {
+  "bytes": 179648,
+  "sha256": "5d4d25d562cc574bba4a157eafa7bf2a4366bb86c3bf6c4b810a71310786ddfb"
+ },
+ "data/raw/yc-oss-api/batches/s16.json": {
+  "bytes": 167833,
+  "sha256": "dbcf1ec80c38760601e531476db911fdc35021dbbbf020e49fd401da1376c86c"
+ },
+ "data/raw/yc-oss-api/batches/s17.json": {
+  "bytes": 211017,
+  "sha256": "7afd1b2c39f2db4ab422128d2e0eb81d9d4f89ffe3d4d210e19944778d35e56a"
+ },
+ "data/raw/yc-oss-api/batches/s18.json": {
+  "bytes": 211555,
+  "sha256": "0c192ca92e31773744e062c978115097dabae6ecb058aa988afab5b01dc28f46"
+ },
+ "data/raw/yc-oss-api/batches/s19.json": {
+  "bytes": 282639,
+  "sha256": "3a4487e90c44fee3294a85c92bae9601b2ddc434aa5fbe5c2e0dc884edea1859"
+ },
+ "data/raw/yc-oss-api/batches/s20.json": {
+  "bytes": 338522,
+  "sha256": "997ba7ae648f0c792d1dc7b86a8c9776ca381d80de166a2134f5435790af244a"
+ },
+ "data/raw/yc-oss-api/batches/s21.json": {
+  "bytes": 659867,
+  "sha256": "b8018c31c3af22aca3b00ee9624a9124edac880315d3b5aeba287d3ef5917c73"
+ },
+ "data/raw/yc-oss-api/batches/s22.json": {
+  "bytes": 396685,
+  "sha256": "aec434d6224961976828e47556a7664adaed5c186327fa400d6583052111e3a9"
+ },
+ "data/raw/yc-oss-api/batches/s23.json": {
+  "bytes": 349490,
+  "sha256": "77118bc111bd0944e568cc11be3f2db8d46246af5024a617198c4a45eeef2ae4"
+ },
+ "data/raw/yc-oss-api/batches/s24.json": {
+  "bytes": 432254,
+  "sha256": "061bd287dc5d1c13c3a2ad7aa1aabb793e293c8e57072359832c2feed3488f00"
+ },
+ "data/raw/yc-oss-api/batches/spring-2025.json": {
+  "bytes": 237519,
+  "sha256": "937d7455acf64c205c7c04746d60eb77d4a9cd568f0cbc9a0c364a7d40e2374a"
+ },
+ "data/raw/yc-oss-api/batches/spring-2026.json": {
+  "bytes": 319984,
+  "sha256": "a1ed7c7af174bc5d0c45818c1e55d5ae592435122c446f631e953fe50ac20440"
+ },
+ "data/raw/yc-oss-api/batches/summer-2005.json": {
+  "bytes": 14065,
+  "sha256": "3fe1ced45bd558ab0ba752c54a20d330723a9e2506fb03b4fe2488b5e3de2523"
+ },
+ "data/raw/yc-oss-api/batches/summer-2006.json": {
+  "bytes": 13186,
+  "sha256": "cbc963e22b43d993a2f6ff2605ad37c9851f9b690952cc4420a015e35eda3e48"
+ },
+ "data/raw/yc-oss-api/batches/summer-2007.json": {
+  "bytes": 26681,
+  "sha256": "27654448199092960536c6f6caf2040cacd3005a9bb6ca5e94e348a33c33c997"
+ },
+ "data/raw/yc-oss-api/batches/summer-2008.json": {
+  "bytes": 32810,
+  "sha256": "c393870facc04e5eae477d5217223c0d4617a9923dd3a3b776082e35d924cf0f"
+ },
+ "data/raw/yc-oss-api/batches/summer-2009.json": {
+  "bytes": 39403,
+  "sha256": "3aa6e434b3a299af7a3d2416dc2b38d2ddb0030b4355e4c8823c4aeec79cb486"
+ },
+ "data/raw/yc-oss-api/batches/summer-2010.json": {
+  "bytes": 56691,
+  "sha256": "0ca91eadc006ad95bc8fbbc6bb19aa727ada847b36047c7dae4e83804ac91525"
+ },
+ "data/raw/yc-oss-api/batches/summer-2011.json": {
+  "bytes": 94912,
+  "sha256": "2e00343550d0be85fdeb59b06fb3837735e6996cfacad57b51c04bec551e0e2c"
+ },
+ "data/raw/yc-oss-api/batches/summer-2012.json": {
+  "bytes": 129393,
+  "sha256": "41a9fc9bf919c7baad03d082dee99fb6737fe335797f82a11afdc599b20fde6f"
+ },
+ "data/raw/yc-oss-api/batches/summer-2013.json": {
+  "bytes": 83458,
+  "sha256": "36e069c2413eb98fbf5e4533c7f4ba49b69a61c5b30951b65f0f0b4ce53fa6ef"
+ },
+ "data/raw/yc-oss-api/batches/summer-2014.json": {
+  "bytes": 135251,
+  "sha256": "99509e886b56e2a0fc6ffbaded23a216ac1d4ad8130852ca270aae300d09d15e"
+ },
+ "data/raw/yc-oss-api/batches/summer-2015.json": {
+  "bytes": 180814,
+  "sha256": "b8540849e6157e4b33805a06ab978f6f8772aa78f34ff4c71ba5d21196135ee7"
+ },
+ "data/raw/yc-oss-api/batches/summer-2016.json": {
+  "bytes": 169952,
+  "sha256": "38c937b6727d3eac6ccb13df4432f342b73dcd2c0233903797c15d039e3d53b0"
+ },
+ "data/raw/yc-oss-api/batches/summer-2017.json": {
+  "bytes": 216015,
+  "sha256": "14ed9f5fcda43352878e578fadb949a87601fb5b5d73c6e6867233be34a47cbc"
+ },
+ "data/raw/yc-oss-api/batches/summer-2018.json": {
+  "bytes": 219427,
+  "sha256": "c4fedd97c5457828092450d0049fdbe04c8a951b10a97dc187a67790fd6363e4"
+ },
+ "data/raw/yc-oss-api/batches/summer-2019.json": {
+  "bytes": 293998,
+  "sha256": "e7ecde81a5756c6b3b1441377b13056dfbffaedf5a798c010c40184958f49140"
+ },
+ "data/raw/yc-oss-api/batches/summer-2020.json": {
+  "bytes": 342574,
+  "sha256": "a5dec3af136b6f35a85ecc87f767efd9c273f179d56f590046df822690137471"
+ },
+ "data/raw/yc-oss-api/batches/summer-2021.json": {
+  "bytes": 666895,
+  "sha256": "1dec1daf540f23b099a80cb3c49661f795f2f557c91a4482600bdfbad2d2d30b"
+ },
+ "data/raw/yc-oss-api/batches/summer-2022.json": {
+  "bytes": 408245,
+  "sha256": "d0223d7e83a6b69f16001cca9a8d075e05d5f32fa7674013af7aca9d8b5a7e19"
+ },
+ "data/raw/yc-oss-api/batches/summer-2023.json": {
+  "bytes": 366330,
+  "sha256": "51808872234f3642300de33e03741ce40a35d73e24c99b419cb99d79f2941c5e"
+ },
+ "data/raw/yc-oss-api/batches/summer-2024.json": {
+  "bytes": 434363,
+  "sha256": "63b9a11b0d22e639d95ec06e3dd9d4e9fcd81ce35727cb2b4daec71e8d58b931"
+ },
+ "data/raw/yc-oss-api/batches/summer-2025.json": {
+  "bytes": 284485,
+  "sha256": "738aa8a9dc478c2cbdea317e7b81a845173c3992deb3c8207840a64535f76e55"
+ },
+ "data/raw/yc-oss-api/batches/summer-2026.json": {
+  "bytes": 406408,
+  "sha256": "ae001b6fe6ba132b5f842bb0e75c89e9a6d4c5adbb12571b4ece00a27a913403"
+ },
+ "data/raw/yc-oss-api/batches/unspecified.json": {
+  "bytes": 1082,
+  "sha256": "aa475f01a07e0b8615d69475b1b57d2246c7f59380aaa3d27c1ab560e85af4f0"
+ },
+ "data/raw/yc-oss-api/batches/w06.json": {
+  "bytes": 10726,
+  "sha256": "07006302931af1f6885afbb12338b57d1a62edf9fcba482f8090f8a6b72419e0"
+ },
+ "data/raw/yc-oss-api/batches/w07.json": {
+  "bytes": 21258,
+  "sha256": "225854db2db43296ed6c580676cb4f82ca1faee042e81d675289568182c08c5c"
+ },
+ "data/raw/yc-oss-api/batches/w08.json": {
+  "bytes": 29578,
+  "sha256": "9ed0bdeff1b15c7ec84678dc61dc1a78b6469216d18d43f4d07c3b5829851a81"
+ },
+ "data/raw/yc-oss-api/batches/w09.json": {
+  "bytes": 22389,
+  "sha256": "d088be1eea1d3f2b562666f847ecc84f5efe54d1336cd2b7f2ae60a2caf995f3"
+ },
+ "data/raw/yc-oss-api/batches/w10.json": {
+  "bytes": 38194,
+  "sha256": "5877c5171ff81d2224e133caa30953006690e97a828e50cd4832d82c35d4a973"
+ },
+ "data/raw/yc-oss-api/batches/w11.json": {
+  "bytes": 71075,
+  "sha256": "f8060ef7e9c94704a5359296a37c61081dc96a7c09096d5af8c751e1c0878c6d"
+ },
+ "data/raw/yc-oss-api/batches/w12.json": {
+  "bytes": 107890,
+  "sha256": "d15be7523f1bc794c5df019db5a5d9879766c2243544b869077f1b48d1d7cfa8"
+ },
+ "data/raw/yc-oss-api/batches/w13.json": {
+  "bytes": 78602,
+  "sha256": "368e994a9d5c4c00438a979aee82b05c23f8b83db71781c1f2c11f76d1446470"
+ },
+ "data/raw/yc-oss-api/batches/w14.json": {
+  "bytes": 126592,
+  "sha256": "1731f877a43a633a8b4ea7faa4811bea9087848c0c64ec54030807461691de4a"
+ },
+ "data/raw/yc-oss-api/batches/w15.json": {
+  "bytes": 200072,
+  "sha256": "f7d214c535c2c4c0fe858b961c913a32f112938df9d13127b12d328a3654c6ee"
+ },
+ "data/raw/yc-oss-api/batches/w16.json": {
+  "bytes": 208163,
+  "sha256": "ff203cacb15c77ca994469a59e192a12f84947bb71fff081a2155f2d28d64584"
+ },
+ "data/raw/yc-oss-api/batches/w17.json": {
+  "bytes": 199379,
+  "sha256": "a73b5ed193e035eb70da11e227d3210c6733e6d3766e529a092004f49053169a"
+ },
+ "data/raw/yc-oss-api/batches/w18.json": {
+  "bytes": 245734,
+  "sha256": "b341bd28cf8a4b2f310ff2ba9e9a29fe34b7e3a2def76118617053e37f2e79c3"
+ },
+ "data/raw/yc-oss-api/batches/w19.json": {
+  "bytes": 319761,
+  "sha256": "a76399c3f99748f1e85c2f879be250e97a882aed41418a3b8542446642c72b72"
+ },
+ "data/raw/yc-oss-api/batches/w20.json": {
+  "bytes": 372809,
+  "sha256": "17a8677cc545a6c3ef6a4251c68642f342ec540e01650fd04a6239b9bd72d7e6"
+ },
+ "data/raw/yc-oss-api/batches/w21.json": {
+  "bytes": 543330,
+  "sha256": "f619a072595de4f9b20e483ed9d838dfdd316314eae71d6de261926d579b3a71"
+ },
+ "data/raw/yc-oss-api/batches/w22.json": {
+  "bytes": 677967,
+  "sha256": "658d3aefe52b1afc11daf8deb4b1e328ff020eca06f8f742a569be060ae46f90"
+ },
+ "data/raw/yc-oss-api/batches/w23.json": {
+  "bytes": 444198,
+  "sha256": "f19b3c47558314639ec30f3038e2ad45629bcac50924921ea3c1936336aa85f2"
+ },
+ "data/raw/yc-oss-api/batches/w24.json": {
+  "bytes": 403003,
+  "sha256": "314327ce877906fd6148876493129a3ae534a3fdda1bded7f6e71874d85a6c28"
+ },
+ "data/raw/yc-oss-api/batches/w25.json": {
+  "bytes": 271885,
+  "sha256": "c2827f32728c7eeb2a7c6e794f37f251f71668569b38dce78ac5f69b867b61fb"
+ },
+ "data/raw/yc-oss-api/batches/winter-2006.json": {
+  "bytes": 10877,
+  "sha256": "f298795f9e148b412a89994bb5d0ae5e84d0e29f426aa6e3b391c8b3c1a6d7ac"
+ },
+ "data/raw/yc-oss-api/batches/winter-2007.json": {
+  "bytes": 21579,
+  "sha256": "e238a41460a7ae478c0f0eb472ec61b42c1dee3069021159c5da49f380cae843"
+ },
+ "data/raw/yc-oss-api/batches/winter-2008.json": {
+  "bytes": 30096,
+  "sha256": "f9042978fd4805006b24e1d2e5c9fa2620e30dbe607e80be62a44b6424ed78eb"
+ },
+ "data/raw/yc-oss-api/batches/winter-2009.json": {
+  "bytes": 22694,
+  "sha256": "6a2911b6f3712f75f33338ffaaeb2697f2ea147b7fb9851bbe050d1379856d3f"
+ },
+ "data/raw/yc-oss-api/batches/winter-2010.json": {
+  "bytes": 38744,
+  "sha256": "549c05c6d1515d6c472a072f4c3126a722a654edb8b353ea6b2c9b9e47ccc445"
+ },
+ "data/raw/yc-oss-api/batches/winter-2011.json": {
+  "bytes": 72084,
+  "sha256": "d3cbef8f2eb763db2ae0c26880fd769134c59334c043c65bdacf463f3fbd6a30"
+ },
+ "data/raw/yc-oss-api/batches/winter-2012.json": {
+  "bytes": 109434,
+  "sha256": "1f1ff5565af7022087c48d1c71cf16cb527759d35c711a45d7a71e0adbc57717"
+ },
+ "data/raw/yc-oss-api/batches/winter-2013.json": {
+  "bytes": 79593,
+  "sha256": "a5ef5459032f43b991773713a376afbeb738627914221f3b0cefb8066f22f73b"
+ },
+ "data/raw/yc-oss-api/batches/winter-2014.json": {
+  "bytes": 129287,
+  "sha256": "e45d74c2c6f1ec45cd4ef943fdf2fc775e0367dd8b40eec6565580d21d144337"
+ },
+ "data/raw/yc-oss-api/batches/winter-2015.json": {
+  "bytes": 201347,
+  "sha256": "1078736f354c96703671b7382de0050bdcb6cd3569abd2b0327861455114b1ac"
+ },
+ "data/raw/yc-oss-api/batches/winter-2016.json": {
+  "bytes": 212118,
+  "sha256": "672fd7623b72856616dc466b4e8e3e602a492a28bf39cf3dfa0d7f18ac0a97d1"
+ },
+ "data/raw/yc-oss-api/batches/winter-2017.json": {
+  "bytes": 201292,
+  "sha256": "52b6ff72cdf2c34b0a985c66051872fcc1a115d29514032d29022555c6f81fd5"
+ },
+ "data/raw/yc-oss-api/batches/winter-2018.json": {
+  "bytes": 251557,
+  "sha256": "2a68cfb6608a69567961357d0d804a9129f8b89efd35bd48b84ba6aaadcb6286"
+ },
+ "data/raw/yc-oss-api/batches/winter-2019.json": {
+  "bytes": 322432,
+  "sha256": "474bbc364e2969656e940c144bd3559dda021cca5edd084d01b738f5fe53c2a5"
+ },
+ "data/raw/yc-oss-api/batches/winter-2020.json": {
+  "bytes": 379862,
+  "sha256": "2a8a94ec84894c89fa8d9cc207320ffc7d3a2fda8aa9164d1b8b807293d64688"
+ },
+ "data/raw/yc-oss-api/batches/winter-2021.json": {
+  "bytes": 554551,
+  "sha256": "c71fc9151715438c4ecfb88d5b1de42789b737381da536c02463200f0310fbd7"
+ },
+ "data/raw/yc-oss-api/batches/winter-2022.json": {
+  "bytes": 686346,
+  "sha256": "3e3ac25dd01fa76eb0cafdd5bf678aa3ab46878fb963ef4bc290d4d9bf880cc2"
+ },
+ "data/raw/yc-oss-api/batches/winter-2023.json": {
+  "bytes": 455187,
+  "sha256": "c4a689ec148490e2ffe65345217690987076ac664a70516a6449902e325ee81c"
+ },
+ "data/raw/yc-oss-api/batches/winter-2024.json": {
+  "bytes": 401516,
+  "sha256": "479984271d00fb854558e0d847b067ecaa19394086d3cefd19114f1c9c2f0688"
+ },
+ "data/raw/yc-oss-api/batches/winter-2025.json": {
+  "bytes": 271916,
+  "sha256": "5f5de474a8d0a0c702e3f233323bdbf84b6b552c0f15c34d502c70e1d56c3d0d"
+ },
+ "data/raw/yc-oss-api/batches/winter-2026.json": {
+  "bytes": 338161,
+  "sha256": "fcfcbbc9ee6bd51040ddcb35515e24b1b1c5d811e783f01adddaf2c9b5ed2c4a"
+ },
+ "data/raw/yc-oss-api/batches/winter-2027.json": {
+  "bytes": 1594,
+  "sha256": "a2b743122fe2dcb04603b5b3183dadd253f25d2e2979a70632f4acb63e57190f"
+ },
+ "data/raw/yc-oss-api/batches/x25.json": {
+  "bytes": 91560,
+  "sha256": "a734fb796602a05e60b07a1118e173bde39740da262b7324612808da4479aa30"
+ },
+ "data/raw/yc-oss-api/batches/ycc_only.json": {
+  "bytes": 4182,
+  "sha256": "37984df97c6a51e82e422a3244c2e62a17d22f571e979a3c5975fa56d7ec5bca"
+ },
+ "data/raw/yc-oss-api/companies/all.json": {
+  "bytes": 10430337,
+  "sha256": "26a74aae907784b19ef46212cc111ca4c1c8c97203ce4f7952b1fb8ef4e71e9d"
+ },
+ "data/raw/yc-oss-api/industries/agriculture.json": {
+  "bytes": 54988,
+  "sha256": "67369c88994ececd7d35f144aa47ada2dd820f61af53d0f3bd92c3df8d96ed31"
+ },
+ "data/raw/yc-oss-api/industries/analytics.json": {
+  "bytes": 209975,
+  "sha256": "5ef6d3eef846eeecc0c2ed0088bc20c09e8550a293ca2393913e9843dc4395e8"
+ },
+ "data/raw/yc-oss-api/industries/apparel-and-cosmetics.json": {
+  "bytes": 81306,
+  "sha256": "4236b9840f303ded25b7a69d9ca6d7bdb4b3669be249e7db7f31af73dce07f09"
+ },
+ "data/raw/yc-oss-api/industries/asset-management.json": {
+  "bytes": 92855,
+  "sha256": "9f71e6f2cbf49d014897be0fe2e6b5870675a9df9f1ea057fd3c40ed7adf6106"
+ },
+ "data/raw/yc-oss-api/industries/automotive.json": {
+  "bytes": 35426,
+  "sha256": "3ee983147b33421defa3856c36a660ea1ec0ed243c280abf8f7c620df35bccc8"
+ },
+ "data/raw/yc-oss-api/industries/aviation-and-space.json": {
+  "bytes": 117840,
+  "sha256": "4f6e7c8812ec5ba74663b066cb784d47bf337dea6cce548d2803df33589daad6"
+ },
+ "data/raw/yc-oss-api/industries/b2b.json": {
+  "bytes": 5270345,
+  "sha256": "6bc830b7c8108814052dec6649f77ebd5e75cff9b2c09fd3fbb8940a7505cd6a"
+ },
+ "data/raw/yc-oss-api/industries/banking-and-exchange.json": {
+  "bytes": 120569,
+  "sha256": "67fc6c02a83d6ce167d81c6857fbd2d5d9bdb3c1069bcb018cc6049efb353d62"
+ },
+ "data/raw/yc-oss-api/industries/climate.json": {
+  "bytes": 90405,
+  "sha256": "4b435d40e6ff29044c1161e841ad1a90588ad979b82d74aafde1edc2760fbb73"
+ },
+ "data/raw/yc-oss-api/industries/construction.json": {
+  "bytes": 90962,
+  "sha256": "3a2d905fd3a081523c4a1f2e182442d17b5f5ac4704e659547801e062da6ec33"
+ },
+ "data/raw/yc-oss-api/industries/consumer-electronics.json": {
+  "bytes": 77406,
+  "sha256": "1edc3a174fc6c1437f0b9db51b36fed070c67e36c85b7ab58aa45780fdcf0d34"
+ },
+ "data/raw/yc-oss-api/industries/consumer-finance.json": {
+  "bytes": 144465,
+  "sha256": "85292a190c83a43c17cee03519a896c089ed53d9a799a11f8864b9b4bb7e4a73"
+ },
+ "data/raw/yc-oss-api/industries/consumer-goods-and-services.json": {
+  "bytes": 1493,
+  "sha256": "784337ab373302692b39b23fcc41637b2abda0215ff13d5bf14c75682328c677"
+ },
+ "data/raw/yc-oss-api/industries/consumer-health-and-wellness.json": {
+  "bytes": 207574,
+  "sha256": "748dcbfc823e146cb0847ef722152f01df0746eef259152ec860844f73155f5f"
+ },
+ "data/raw/yc-oss-api/industries/consumer.json": {
+  "bytes": 1428564,
+  "sha256": "3b2d3ef2287cfe47bdada08bad57bf949065bf492ae01ad7bbee17fddcc84b97"
+ },
+ "data/raw/yc-oss-api/industries/content.json": {
+  "bytes": 177619,
+  "sha256": "930df74ab967fd08403f6b39a4d1c6d23fe767aec8afb1c1f185ccc1b572e187"
+ },
+ "data/raw/yc-oss-api/industries/credit-and-lending.json": {
+  "bytes": 126080,
+  "sha256": "44cf1d24e89feabd66019778d7783dcae804770b7f0d50f500dffb409cf9589e"
+ },
+ "data/raw/yc-oss-api/industries/defense.json": {
+  "bytes": 42528,
+  "sha256": "2a454496f39858576cd01239c5d9fa70a60603d9a967bf5e091ed17824926a6f"
+ },
+ "data/raw/yc-oss-api/industries/diagnostics.json": {
+  "bytes": 99933,
+  "sha256": "5d9d0215de20c0e4ca183b394b76a36aa73294f2ce6a895ced52e7ae8cd27bb7"
+ },
+ "data/raw/yc-oss-api/industries/drones.json": {
+  "bytes": 41530,
+  "sha256": "5bbc07cc1e02d03a8fbf00abe0be843ec9e67d0f9667f84250dc7b484e4e9a4f"
+ },
+ "data/raw/yc-oss-api/industries/drug-discovery-and-delivery.json": {
+  "bytes": 105172,
+  "sha256": "a30b2120ed3e3d7ee7bbfd7d1e47660a6159f7eea17f16aec778f0f63e9f8e34"
+ },
+ "data/raw/yc-oss-api/industries/education.json": {
+  "bytes": 213063,
+  "sha256": "85847bc4efef4f618c19885c25d1363bb87b1ec94bc7c5d49438922f5f738564"
+ },
+ "data/raw/yc-oss-api/industries/energy.json": {
+  "bytes": 86054,
+  "sha256": "0b5c8dc5fcd1b60cf3e4f6897fa759e4b76e272ce1a7cc02ac3d80b2d42940de"
+ },
+ "data/raw/yc-oss-api/industries/engineering-product-and-design.json": {
+  "bytes": 1037269,
+  "sha256": "75d270a04a367771f725e3a77ff00459f4977324c95413747b3e39f97527ee6b"
+ },
+ "data/raw/yc-oss-api/industries/finance-and-accounting.json": {
+  "bytes": 231189,
+  "sha256": "5a9b21cf2ed8f213982c18fa002bdbd0caddf4a80c6ce8f1f2dfce4c97b546b6"
+ },
+ "data/raw/yc-oss-api/industries/fintech.json": {
+  "bytes": 1100424,
+  "sha256": "6bff3f57c800db06673f89fa69c93c0aa80a2a0fce1b8781b0c0351294558a3f"
+ },
+ "data/raw/yc-oss-api/industries/food-and-beverage.json": {
+  "bytes": 157756,
+  "sha256": "02318bebbecd3273b8366edca955f30c7ca0675f24fdba29100d318d6f059190"
+ },
+ "data/raw/yc-oss-api/industries/gaming.json": {
+  "bytes": 110144,
+  "sha256": "bf1338890ab38816853aceef05d2617f70e63dc73b7d62a46dde0fc6f03610cf"
+ },
+ "data/raw/yc-oss-api/industries/government.json": {
+  "bytes": 71807,
+  "sha256": "27cbd6bb49a82f009f63f0c4365d7b5083e36fffab68bc97a3adf1a2bfd253e5"
+ },
+ "data/raw/yc-oss-api/industries/healthcare-it.json": {
+  "bytes": 249062,
+  "sha256": "67609d38d40eac091b4f8cc4d196cebc7f4395314a4ae5fba2392312498c4b56"
+ },
+ "data/raw/yc-oss-api/industries/healthcare-services.json": {
+  "bytes": 138197,
+  "sha256": "ccd820c8b91ffb9deeadda5b020398db2160ced12cb61997bef9a4df4a479889"
+ },
+ "data/raw/yc-oss-api/industries/healthcare.json": {
+  "bytes": 1232426,
+  "sha256": "abcb5343a47d3c09056600940227ec4dfd3ad4541f4335bd018c09ea299a2cf8"
+ },
+ "data/raw/yc-oss-api/industries/home-and-personal.json": {
+  "bytes": 206398,
+  "sha256": "c2fad9c4a3984869f6d76a57d8d8a32ebdcc77255683d4637db1c27ddb4b923b"
+ },
+ "data/raw/yc-oss-api/industries/housing-and-real-estate.json": {
+  "bytes": 147766,
+  "sha256": "2107c5eeeb5431ba095962aed1468a0336b3f9960595bd37da55fc7eba7e4bfd"
+ },
+ "data/raw/yc-oss-api/industries/human-resources.json": {
+  "bytes": 137647,
+  "sha256": "1648dcd82c4a3e10ca667b3c7552b2ba0e7763ced98410712dc26504814e26ad"
+ },
+ "data/raw/yc-oss-api/industries/industrial-bio.json": {
+  "bytes": 57858,
+  "sha256": "2657615f5dca9c1d54e3a4a3a4012083a30c32793a329e9a2102b06720cbe37e"
+ },
+ "data/raw/yc-oss-api/industries/industrials.json": {
+  "bytes": 797078,
+  "sha256": "a82b653823a9c0df2023ef1e7628b6a16094d74bc56683ed8eb72ad2b49ba80c"
+ },
+ "data/raw/yc-oss-api/industries/infrastructure.json": {
+  "bytes": 531741,
+  "sha256": "5e580bc58a11a133c8738ac91853670141db5ac391c348c05d4a219bc5206f8a"
+ },
+ "data/raw/yc-oss-api/industries/insurance.json": {
+  "bytes": 115650,
+  "sha256": "1c63d5035ce3b478b4b086c0422a80fc9a122284df23e468a2980093c12f3134"
+ },
+ "data/raw/yc-oss-api/industries/job-and-career-services.json": {
+  "bytes": 31008,
+  "sha256": "cd60126ee626acdf27401c4a8b49785ed3bef2143dc31d207b62869b1656a2fd"
+ },
+ "data/raw/yc-oss-api/industries/legal.json": {
+  "bytes": 96558,
+  "sha256": "30e4816634f9b909a0f51c56d1ee104583f5443bcec93c966c28193f20a6ee9a"
+ },
+ "data/raw/yc-oss-api/industries/manufacturing-and-robotics.json": {
+  "bytes": 248499,
+  "sha256": "cf1737b7152f68f223dfe18f3e7c1f5178ec216001146ed755c20eca657931e3"
+ },
+ "data/raw/yc-oss-api/industries/marketing.json": {
+  "bytes": 277928,
+  "sha256": "4e7c42baec2d485c2c6d4721ab3ba8d0c5fa8177d0689ddac33bdc1237958bc9"
+ },
+ "data/raw/yc-oss-api/industries/medical-devices.json": {
+  "bytes": 78470,
+  "sha256": "79bd15d8a282996084c960990fee2e4844df8db1ee139cb6510e3591c91f0bc2"
+ },
+ "data/raw/yc-oss-api/industries/office-management.json": {
+  "bytes": 44708,
+  "sha256": "35b7c83d5156837a65dd7653ba3d78a3259e2b2b60f5d19a90fddc9800789bfd"
+ },
+ "data/raw/yc-oss-api/industries/operations.json": {
+  "bytes": 257324,
+  "sha256": "cca2d61e8aa9fe8e99fd1be39a0a8e9bb97db8100d880f100c2f7676f9455516"
+ },
+ "data/raw/yc-oss-api/industries/payments.json": {
+  "bytes": 207054,
+  "sha256": "6d9ab878182bfce646289796fa0f615b3415aae6cbafc6f7d6f84d98fbf9121e"
+ },
+ "data/raw/yc-oss-api/industries/productivity.json": {
+  "bytes": 370842,
+  "sha256": "41ba459df7f354b724ccd7eeab848c397d51d0ff74299395fcb3cf4a38faaf7b"
+ },
+ "data/raw/yc-oss-api/industries/real-estate-and-construction.json": {
+  "bytes": 284455,
+  "sha256": "89c5abd321bcac96fa2340f0cbc9a3a0a9762b1e75b42e5c133507bd0ec0bdba"
+ },
+ "data/raw/yc-oss-api/industries/recruiting-and-talent.json": {
+  "bytes": 129199,
+  "sha256": "631dfdd99c834df976140cb448e6bca875755e5d88b77a91d1583718be8589ee"
+ },
+ "data/raw/yc-oss-api/industries/retail.json": {
+  "bytes": 213313,
+  "sha256": "c17d8c37530ad5738eb096eaba211aa41c019ab5f97a0bb29d355e45ad997d17"
+ },
+ "data/raw/yc-oss-api/industries/sales.json": {
+  "bytes": 227282,
+  "sha256": "86fcf7c31d951bb5b0292d7df60e7a504d8a1d4e086a51aaf4edcc5e3592a6c3"
+ },
+ "data/raw/yc-oss-api/industries/security.json": {
+  "bytes": 218315,
+  "sha256": "13355ada71b41b201a258aeed458ff10e4c432ab852c2a4ef461ee30a00acfa7"
+ },
+ "data/raw/yc-oss-api/industries/social.json": {
+  "bytes": 171543,
+  "sha256": "c390005d4252c9812c15b990f6f1f8d12819fa9525b228aa847932b1dfa92fc2"
+ },
+ "data/raw/yc-oss-api/industries/supply-chain-and-logistics.json": {
+  "bytes": 242908,
+  "sha256": "7b9afcda66ddbe171f529bb1e05f2a23292b942332d2f393b5e4e62fca66a535"
+ },
+ "data/raw/yc-oss-api/industries/therapeutics.json": {
+  "bytes": 114053,
+  "sha256": "43747302f8e5d2985a785363667e69fe4d99c0b8e040633c4e826f68ff8ca669"
+ },
+ "data/raw/yc-oss-api/industries/transportation-services.json": {
+  "bytes": 46433,
+  "sha256": "f605b2eba44be8fff09a30309df0acc5ae844e2620c8ea4ac9bec8594ad92ddf"
+ },
+ "data/raw/yc-oss-api/industries/travel-leisure-and-tourism.json": {
+  "bytes": 59805,
+  "sha256": "6c0478fa1d89ecd5cb65737b801b9bcb71102097245a09a74ee436eb92c48eef"
+ },
+ "data/raw/yc-oss-api/industries/unspecified.json": {
+  "bytes": 32199,
+  "sha256": "158e3660e1cc8ed4db75ae893a915678853888fc0b08245629dcb94e7c43e907"
+ },
+ "data/raw/yc-oss-api/industries/virtual-and-augmented-reality.json": {
+  "bytes": 33227,
+  "sha256": "9fbad5e86026cf7501ac64fed2eacb710366f8be85b226b08708133937d9bd52"
+ },
+ "data/raw/yc-oss-api/meta.json": {
+  "bytes": 66786,
+  "sha256": "ee9f12e639f6bde62673fd53897d3d65e2a649cfeb3e9bec18f2bf4f4f49ed3b"
+ },
+ "data/raw/yc-oss-api/tags/3d-printed-foods.json": {
+  "bytes": 3434,
+  "sha256": "73ffcabb2bc878376be453e318c5b370a51f2490e3170b988044b4f720d7cedb"
+ },
+ "data/raw/yc-oss-api/tags/3d-printing.json": {
+  "bytes": 21066,
+  "sha256": "aba0980b43a0d3758ff3f8d3a2d4fc8323f7fe09f830adc9977b388486b3ba1e"
+ },
+ "data/raw/yc-oss-api/tags/advanced-materials.json": {
+  "bytes": 14459,
+  "sha256": "48f4597c09ca1e9c452b343bef200dbfceb2fb9cb34af42e4eeeb2c0759e6671"
+ },
+ "data/raw/yc-oss-api/tags/advertising.json": {
+  "bytes": 74154,
+  "sha256": "bb845e464222419270e5fcf4cbfe5bb1727c020157a9f16ee6d984a0f236f9f1"
+ },
+ "data/raw/yc-oss-api/tags/aerospace.json": {
+  "bytes": 76080,
+  "sha256": "13be9a193e23c0a0cf533378151047b82eb8b9fd894d8700608df81fc8462006"
+ },
+ "data/raw/yc-oss-api/tags/agriculture.json": {
+  "bytes": 65002,
+  "sha256": "602c221c02a611f05ed91585dffef26640ff4bdfcb284b392eb12425fca19f9f"
+ },
+ "data/raw/yc-oss-api/tags/ai-assistant.json": {
+  "bytes": 282159,
+  "sha256": "4006cb90f8163781ce4d09bfc0a4288024e00a4d6e296a157a4dca11afaf6a3d"
+ },
+ "data/raw/yc-oss-api/tags/ai-enhanced-learning.json": {
+  "bytes": 82610,
+  "sha256": "bbf99911a242545943f936d55b6bcaafc69d5f6e9c814530276ebae10f188e9d"
+ },
+ "data/raw/yc-oss-api/tags/ai-powered-drug-discovery.json": {
+  "bytes": 64480,
+  "sha256": "99860b7e5d565f94f176369bd39a212eca29e10beca65c96114938e105d444ba"
+ },
+ "data/raw/yc-oss-api/tags/ai.json": {
+  "bytes": 1525159,
+  "sha256": "c0559aa9cebeacdf1ad57637987719157d98a62c14706484020c9034d77dcd4d"
+ },
+ "data/raw/yc-oss-api/tags/aiops.json": {
+  "bytes": 112682,
+  "sha256": "af6c695a26a8ffe5130b71126780505558304a8b3bf978546b84aa9ba568f97c"
+ },
+ "data/raw/yc-oss-api/tags/air-taxis.json": {
+  "bytes": 8256,
+  "sha256": "61c9d41d1614b44b25480c1274a8bf023c232e9e5f2bd070a38b982129cc9d7e"
+ },
+ "data/raw/yc-oss-api/tags/airlines.json": {
+  "bytes": 8281,
+  "sha256": "94983db0197851002847b1591d57879bccecd8ca99b64adbb9d5b6e58f03945b"
+ },
+ "data/raw/yc-oss-api/tags/airplanes.json": {
+  "bytes": 20959,
+  "sha256": "ac18fc1a2cb201c88946089bdd6515b1fdf59ec16129cb01389964d2b07c2932"
+ },
+ "data/raw/yc-oss-api/tags/alternative-battery-tech.json": {
+  "bytes": 3856,
+  "sha256": "e4d6781231a5fdabffc0f10d85565ea7fd4d51958de918f95416cb31b09fb80e"
+ },
+ "data/raw/yc-oss-api/tags/alternative-fuels.json": {
+  "bytes": 4396,
+  "sha256": "095ee45b1059e5691a6229872fdf6b243feefe6caa41166c16c73e5aa85fc033"
+ },
+ "data/raw/yc-oss-api/tags/analytics.json": {
+  "bytes": 316945,
+  "sha256": "7e49327fe8b755618ce0f1fea347cafb816e5c0926d395d4615066de3c208a28"
+ },
+ "data/raw/yc-oss-api/tags/anti-aging.json": {
+  "bytes": 11547,
+  "sha256": "e1885c291bf8129ad686218e72d7bb2f82ef276ad72b877d258c51e74a8e93a2"
+ },
+ "data/raw/yc-oss-api/tags/api.json": {
+  "bytes": 244195,
+  "sha256": "5048c8dcf861cb3dea1a99583ad3f3f709717c4380c3cea76bc894b905723b07"
+ },
+ "data/raw/yc-oss-api/tags/apis.json": {
+  "bytes": 18307,
+  "sha256": "19b33c51775410a88968fd14093243bca2f8dfdf544ccc894e664bbc76bf2609"
+ },
+ "data/raw/yc-oss-api/tags/apparel.json": {
+  "bytes": 6586,
+  "sha256": "8646fa1851ff125bc7af13449711bf1318f8b7c7d3aa501e690ca0a81f0d1d3c"
+ },
+ "data/raw/yc-oss-api/tags/ar.json": {
+  "bytes": 10674,
+  "sha256": "7483a18206e17f0222170e1fab570090e28e235c2b3eb4e8f86a126924a1aaec"
+ },
+ "data/raw/yc-oss-api/tags/architecture.json": {
+  "bytes": 10585,
+  "sha256": "03338a7da2d29bae8484fcceedeeb11c06534f161bd2dcd07ca6ca21726c1d8a"
+ },
+ "data/raw/yc-oss-api/tags/art-trading-platforms.json": {
+  "bytes": 2320,
+  "sha256": "487985b3aa5bbcb452e71458220041b8f7c9e3c2689e238f6d494d4ad18ca709"
+ },
+ "data/raw/yc-oss-api/tags/artificial-intelligence.json": {
+  "bytes": 1718877,
+  "sha256": "6877b31ef79f457bc79edd2655b51d4e13653a1857dea44cb051ddb134118474"
+ },
+ "data/raw/yc-oss-api/tags/assistive-tech.json": {
+  "bytes": 11372,
+  "sha256": "8ea188e095c0264f47f576333f940487714e8a8758a2f20fb9549a6ec66bd803"
+ },
+ "data/raw/yc-oss-api/tags/augmented-reality.json": {
+  "bytes": 38854,
+  "sha256": "43dd97dcc5d23bd336dd87081ab8983c34eff9e294ef9d74287da3a96a741c46"
+ },
+ "data/raw/yc-oss-api/tags/auto-commerce.json": {
+  "bytes": 8821,
+  "sha256": "8a847ad510f156ed0ba730315c7fafccacc143d368d1a36be9d31364a49d9085"
+ },
+ "data/raw/yc-oss-api/tags/automation.json": {
+  "bytes": 165603,
+  "sha256": "8e6bef67cf02a4ec2791e3ebc60051d72e4267188e38ceeb9c94a11fdee1cff1"
+ },
+ "data/raw/yc-oss-api/tags/automotive.json": {
+  "bytes": 43410,
+  "sha256": "8a780c1246674b1280735e8aea78219858a0eb0cfcc8c44b140bb151ed89c763"
+ },
+ "data/raw/yc-oss-api/tags/autonomous-delivery.json": {
+  "bytes": 14474,
+  "sha256": "6f7e863c8e51974a0b97c7ae8c2cd958b55284d53e9f5c62833f28547cda838e"
+ },
+ "data/raw/yc-oss-api/tags/autonomous-shipping.json": {
+  "bytes": 2909,
+  "sha256": "0d4dfbae225013b75d8dc21035c1408b9a1966fc99b77d7a6bae08db1aa8cd00"
+ },
+ "data/raw/yc-oss-api/tags/autonomous-trucking.json": {
+  "bytes": 17717,
+  "sha256": "62398d9659a7ff96b968a0eecb336ff53ceb6b1d40dc7e3425b6d8b2176bdeab"
+ },
+ "data/raw/yc-oss-api/tags/b2b.json": {
+  "bytes": 1926889,
+  "sha256": "47f3651a0464b32888f2529d0b2a9bd9db6fcfc6ab400952b0caff15b9d0b66e"
+ },
+ "data/raw/yc-oss-api/tags/banking-as-a-service.json": {
+  "bytes": 51329,
+  "sha256": "372395358141f4b3585f86508292021fe3a1b136b6a9d9ff24820add5c3ff930"
+ },
+ "data/raw/yc-oss-api/tags/batteryless-iot-sensors.json": {
+  "bytes": 1294,
+  "sha256": "d2cceeb3c43c64a98786c317bdea2071b521f18ae494517ab5ff22e859e757e7"
+ },
+ "data/raw/yc-oss-api/tags/beauty.json": {
+  "bytes": 18208,
+  "sha256": "0a70f258d466c772a0f638a78b4d32f53045b8ba4db298602535d2972a3bbcfd"
+ },
+ "data/raw/yc-oss-api/tags/big-data.json": {
+  "bytes": 50158,
+  "sha256": "d746cb63c041d07d76b9fff675178bfe48d5367b687f051945d5232433e15c5d"
+ },
+ "data/raw/yc-oss-api/tags/billing.json": {
+  "bytes": 9253,
+  "sha256": "02bdf65a0905eafbbeedadcb69323a8d75202047a1eb895e9d6a6d94532d30d9"
+ },
+ "data/raw/yc-oss-api/tags/biometrics.json": {
+  "bytes": 12106,
+  "sha256": "f3b76d31cb6d2c7256deae26701d0a898b5b3054cd09e425f919dfdc007825d0"
+ },
+ "data/raw/yc-oss-api/tags/bioplastic.json": {
+  "bytes": 5848,
+  "sha256": "686f0bcaf74f24de5cc1721303656aaa0f295ef5431446f1f70f99c13d485c57"
+ },
+ "data/raw/yc-oss-api/tags/biotech.json": {
+  "bytes": 266382,
+  "sha256": "29cf430f018a61944f4d1379c7e93eb2165da5c8e81b4305ec661ac132fd16ed"
+ },
+ "data/raw/yc-oss-api/tags/biotechnology.json": {
+  "bytes": 33317,
+  "sha256": "f7170e6216ca1bd013ed40abefceca1ac838e9453f692e9a73f88068fbcd9ec1"
+ },
+ "data/raw/yc-oss-api/tags/blockchain.json": {
+  "bytes": 3493,
+  "sha256": "736319779d0a55c1c93b0b1ab1ebb32b06af0d9d33d5af96c3a1713b736ac1fd"
+ },
+ "data/raw/yc-oss-api/tags/booking.json": {
+  "bytes": 4549,
+  "sha256": "adbef4625520f8f3b6b02ab269bd2c59a0680136accc7a5de580557ab6018944"
+ },
+ "data/raw/yc-oss-api/tags/calendar.json": {
+  "bytes": 8556,
+  "sha256": "fd1abdb0203c22f635bdcc01125d4033dcf124edf4fd57a85e507ecb30392beb"
+ },
+ "data/raw/yc-oss-api/tags/call-center.json": {
+  "bytes": 15211,
+  "sha256": "090cf79667ec28e0cd1ac3aa4d51025bf6d3d05e2a7c22abb153c36dd81fe3cc"
+ },
+ "data/raw/yc-oss-api/tags/cannabis.json": {
+  "bytes": 12290,
+  "sha256": "b01fadd0365d08f192f5d4703b31e87ab297776a98ecd7eef8789e4eaa01f639"
+ },
+ "data/raw/yc-oss-api/tags/carbon-capture-and-removal.json": {
+  "bytes": 20577,
+  "sha256": "003769d48136754d8d34c9dc10fd0fc041e5d395a816758bbf54529d1264076b"
+ },
+ "data/raw/yc-oss-api/tags/careers.json": {
+  "bytes": 8154,
+  "sha256": "67d4733db7c8844a1f5f996e0464ef71ba9df3ecbf722f9084a1b052a363d92c"
+ },
+ "data/raw/yc-oss-api/tags/cashierless-checkout.json": {
+  "bytes": 8117,
+  "sha256": "5c4781244510105c36ddd6f11bed818cd2a2fae5e012cd84edc65d07b49bec45"
+ },
+ "data/raw/yc-oss-api/tags/cell-therapy.json": {
+  "bytes": 9393,
+  "sha256": "e7d38a912911dd79dd0b5523f9faac3867a0dbe595f0d4b7718555f06e6a0fab"
+ },
+ "data/raw/yc-oss-api/tags/cellular-agriculture.json": {
+  "bytes": 10027,
+  "sha256": "9fa31251d68d986ce5a53c6b0edcb4e07ff176a8171eccaf98bc55d7bea84735"
+ },
+ "data/raw/yc-oss-api/tags/chat.json": {
+  "bytes": 10083,
+  "sha256": "df4c8b88711068252dae6a085f4740e4dba896f866d16808727812f9e599dd2a"
+ },
+ "data/raw/yc-oss-api/tags/chatbot.json": {
+  "bytes": 17706,
+  "sha256": "ab0f8e9337a75bca89d92ebfa109c2562f3a5e4ca6bce9c81f26c2ed7f726be2"
+ },
+ "data/raw/yc-oss-api/tags/chatbots.json": {
+  "bytes": 5008,
+  "sha256": "7515e0004a0a222059cde67c9d14971ba2cb91cd7b3003b16c41a640a35405dd"
+ },
+ "data/raw/yc-oss-api/tags/china.json": {
+  "bytes": 5554,
+  "sha256": "6f5191b3fd29396fd52ba737f33e4b984b81b2164a60a946fb9049d2fa0a658b"
+ },
+ "data/raw/yc-oss-api/tags/civic-tech.json": {
+  "bytes": 14456,
+  "sha256": "41c892f8d4a618e69eaed24e5b4e0a84b458f13089d39108ed989f701548134c"
+ },
+ "data/raw/yc-oss-api/tags/clean-meat.json": {
+  "bytes": 1594,
+  "sha256": "570de18b9aea1f13b8628ee6bfbc26c0cadbbfbaeeb3914a80ea92b182c6a74c"
+ },
+ "data/raw/yc-oss-api/tags/climate.json": {
+  "bytes": 248911,
+  "sha256": "fd4ed5e13102b4eec585696d6b8ad481fa48e284ecf69b0fe82dcf594b81f77b"
+ },
+ "data/raw/yc-oss-api/tags/climatetech.json": {
+  "bytes": 56583,
+  "sha256": "e772dbcf8c214d1024d57edf904e8cebfd6020804642d7186e0e9f5e66475171"
+ },
+ "data/raw/yc-oss-api/tags/cloud-computing.json": {
+  "bytes": 90320,
+  "sha256": "ea62dda58733e58347b518019b092893332895b60b7385e6f8a153a1057bcc5e"
+ },
+ "data/raw/yc-oss-api/tags/cloud-gaming.json": {
+  "bytes": 3640,
+  "sha256": "e00b14f3ddd5c89e1785c5a450762ccb039cdae2570f25bb6dd0997b0d89efd7"
+ },
+ "data/raw/yc-oss-api/tags/cloud-workload-protection.json": {
+  "bytes": 7723,
+  "sha256": "4cbff25d8c2b058472a017afb2b8bc64ca977b32dca0b2ad5ab5f293fb20dc9f"
+ },
+ "data/raw/yc-oss-api/tags/coding-bootcamps.json": {
+  "bytes": 3516,
+  "sha256": "4d2fc4682a20292ea330476024e53135b6db565ce7774c3d0676f23cfb00e570"
+ },
+ "data/raw/yc-oss-api/tags/collaboration.json": {
+  "bytes": 76841,
+  "sha256": "8f378cb5a1f2fa1ac25bedc7bc74c646db56b79bb6a2dacd5685ba822ed6b285"
+ },
+ "data/raw/yc-oss-api/tags/commercial-space-launch.json": {
+  "bytes": 10944,
+  "sha256": "60df2177df0ba877e393272c64756d151dec203dd83f0b5436813ef17c63b823"
+ },
+ "data/raw/yc-oss-api/tags/community.json": {
+  "bytes": 97544,
+  "sha256": "f68a7473f28f02829ea15535e423ccd0d5c411b407919baf88a6484e75b8866f"
+ },
+ "data/raw/yc-oss-api/tags/compliance.json": {
+  "bytes": 136834,
+  "sha256": "1ce75bbe111e3a3aee178d1497118febee1a94002b03de7ec4afe4074a0aca9c"
+ },
+ "data/raw/yc-oss-api/tags/computational-storage.json": {
+  "bytes": 2489,
+  "sha256": "2c3e79aba526a05d1ba42e1f67459acfc0b1ce806a733e7373dd82795331d43f"
+ },
+ "data/raw/yc-oss-api/tags/computer-vision.json": {
+  "bytes": 146418,
+  "sha256": "f48dc390061609fb7c11b96e710dac3331b7c96662d45f25fa773f816eb04a07"
+ },
+ "data/raw/yc-oss-api/tags/construction.json": {
+  "bytes": 135811,
+  "sha256": "76267950115ae2b72e819c1eebc66a9ec33b843278e456319e30775a58084a77"
+ },
+ "data/raw/yc-oss-api/tags/consumer-finance.json": {
+  "bytes": 58958,
+  "sha256": "c9f1f03cb84ab4ea963c9d64ef0a03d50b4bf1f3dc371113e3877996153be2d5"
+ },
+ "data/raw/yc-oss-api/tags/consumer-health-services.json": {
+  "bytes": 198729,
+  "sha256": "9e2cdad681afed894290b50f686dab0e317c41a4af50ff6697ddb66c8d737b50"
+ },
+ "data/raw/yc-oss-api/tags/consumer-products.json": {
+  "bytes": 23707,
+  "sha256": "dab67b1dbe742652c5e34403f6efb93827718d77c524a3a2d70ef534984e3f47"
+ },
+ "data/raw/yc-oss-api/tags/consumer.json": {
+  "bytes": 422540,
+  "sha256": "b107998a2f39724bebf71066e7f995fa9eb95325da13779fae9444cdfd43d50f"
+ },
+ "data/raw/yc-oss-api/tags/conversational-ai.json": {
+  "bytes": 84977,
+  "sha256": "c549d51eec2f7112e0d828adf9dd8221cf2fda0e051ce83873e95fb03dd32978"
+ },
+ "data/raw/yc-oss-api/tags/conversational-banking.json": {
+  "bytes": 3585,
+  "sha256": "f11b02e202ffbd0d0031c81cf7fa686c2f31ed81f5a2f3b016951083a2f67142"
+ },
+ "data/raw/yc-oss-api/tags/covid-19.json": {
+  "bytes": 8144,
+  "sha256": "e96f76a298a071b4f2b423abc5d2a0a30d85a3c357ddc9a99a7e3d6a17c2d3e1"
+ },
+ "data/raw/yc-oss-api/tags/creator-economy.json": {
+  "bytes": 66793,
+  "sha256": "9cd943e98704d0db8f514e73ebb6b2db3cb5b26a0d9c05c548d7734dcdfa7631"
+ },
+ "data/raw/yc-oss-api/tags/crispr.json": {
+  "bytes": 7584,
+  "sha256": "c21898eb76bc7706b17438761c9fa14a54dd3c7ebf56aaee9e249f9899235568"
+ },
+ "data/raw/yc-oss-api/tags/crm.json": {
+  "bytes": 34798,
+  "sha256": "0fc3dd9490f0e2e450e1173aa52c40688a2224d36f7b292326d6504246090b64"
+ },
+ "data/raw/yc-oss-api/tags/crowdfunding.json": {
+  "bytes": 17339,
+  "sha256": "3da7a38aaa9d5e4f5ebbd5a03ee42c7640a498b7c3356aa41e3dc26635658372"
+ },
+ "data/raw/yc-oss-api/tags/crowdsourcing.json": {
+  "bytes": 8108,
+  "sha256": "a49cf419c3a1d7e6d9db83bb230bd7963bc2c9d07b05173899e0172a804a028d"
+ },
+ "data/raw/yc-oss-api/tags/crypto-web3.json": {
+  "bytes": 157857,
+  "sha256": "29bd41449e40d4f2f323fc547106ac6015753f6ea042fe5eb01fe86a4670fb3a"
+ },
+ "data/raw/yc-oss-api/tags/cryptocurrency.json": {
+  "bytes": 16332,
+  "sha256": "0b5381001f48cedca79e216ca6dd7ab7f99dbb945905bb972c425d93514d310d"
+ },
+ "data/raw/yc-oss-api/tags/cryptography.json": {
+  "bytes": 5008,
+  "sha256": "a99dd569cf58f9d907358609582dbcf90058ce76b367afb1283514b2130af37d"
+ },
+ "data/raw/yc-oss-api/tags/cultivated-meat.json": {
+  "bytes": 3731,
+  "sha256": "be8bb8f3b0fde7f2a768c9ebcf0541bf1a0383a8021b50192128c0880f6e4f17"
+ },
+ "data/raw/yc-oss-api/tags/culture.json": {
+  "bytes": 5097,
+  "sha256": "fcf781c3ccced5865250ff86ebcb86184c31af0b572eb473ea5c999f597e0ba4"
+ },
+ "data/raw/yc-oss-api/tags/cultured-meat.json": {
+  "bytes": 5337,
+  "sha256": "99eb047f5655c47ca7a15e50c52a98f0843df87b9a9879009de350ef0cd28a82"
+ },
+ "data/raw/yc-oss-api/tags/customer-service.json": {
+  "bytes": 40642,
+  "sha256": "638f3c7a8d9804556e978c1231a8951173f0ad2a0f1ef8edba2162b04ba741c6"
+ },
+ "data/raw/yc-oss-api/tags/customer-success.json": {
+  "bytes": 47847,
+  "sha256": "a6538f76e237a0a4b2ae6af9b08e348a3a832af4506bb3124194c93307fbfc22"
+ },
+ "data/raw/yc-oss-api/tags/customer-support.json": {
+  "bytes": 56064,
+  "sha256": "8f63e1f37977ae78976adae1eab35640405048875061d99ec4abf9ac88220c2e"
+ },
+ "data/raw/yc-oss-api/tags/customization.json": {
+  "bytes": 3775,
+  "sha256": "63003e66c6106a802c4dec84283c57948921f60b75204f1388d58c4ce303b549"
+ },
+ "data/raw/yc-oss-api/tags/cyber-insurance.json": {
+  "bytes": 1940,
+  "sha256": "d88cf742788a9a51a34641373714517c15b6aeafc5c90deace3cf0196d32ca8d"
+ },
+ "data/raw/yc-oss-api/tags/cybersecurity.json": {
+  "bytes": 80109,
+  "sha256": "fdf57ff564956daa7f7e5941000149f2c5723948fca28524995f30a2c4b6a364"
+ },
+ "data/raw/yc-oss-api/tags/dao.json": {
+  "bytes": 4039,
+  "sha256": "70a2bd5658b14414763dd5324f3e36bbb2254c66ff3d8dbbaee529eafcf1fe64"
+ },
+ "data/raw/yc-oss-api/tags/data-engineering.json": {
+  "bytes": 183591,
+  "sha256": "1975f0a24f98f36e816ffbaed54ad5612c11fbe923ccdfb8b837484250e85d21"
+ },
+ "data/raw/yc-oss-api/tags/data-labeling.json": {
+  "bytes": 33080,
+  "sha256": "eaed532315bdecad88ad611e37d106cfe2534d3de545a8beae12ab567699cf2e"
+ },
+ "data/raw/yc-oss-api/tags/data-science.json": {
+  "bytes": 59157,
+  "sha256": "21dbaacda40a0b4f65cf0d4545e5048a3d1ac681c1454b4af8272e9068402362"
+ },
+ "data/raw/yc-oss-api/tags/data-visualization.json": {
+  "bytes": 48691,
+  "sha256": "a80929a4a906d9c081c49cba745f6119feef83d5fb82c6d3424a237c0b395590"
+ },
+ "data/raw/yc-oss-api/tags/database-sharding.json": {
+  "bytes": 1842,
+  "sha256": "933e88b9f694e7770540e87e88e8eb66fe92eb9004811312964673d85d4b8bdc"
+ },
+ "data/raw/yc-oss-api/tags/databases.json": {
+  "bytes": 42088,
+  "sha256": "e95ceb4abd898d942bcae8d4620dbc465dc052cb8ae65359be8422e92aef88ed"
+ },
+ "data/raw/yc-oss-api/tags/dating.json": {
+  "bytes": 10861,
+  "sha256": "e0e6ac7b6087fda4e62e1a9cd87258685b8fcaa2fe04e0948555fc287dcbbfad"
+ },
+ "data/raw/yc-oss-api/tags/deep-learning.json": {
+  "bytes": 80367,
+  "sha256": "1965464b8138b0d7706bd77c9d8dc0017c5011d7677b9b539b2ba2db3ae0091e"
+ },
+ "data/raw/yc-oss-api/tags/deepfake-detection.json": {
+  "bytes": 2082,
+  "sha256": "3bf470f8805fd4eb8aab6c5745080190fe6afb979bf4c64fc76f5d1c9a0f1b60"
+ },
+ "data/raw/yc-oss-api/tags/defense.json": {
+  "bytes": 49977,
+  "sha256": "f770f79f7447ac2f45b0a0925cc41b0577534e90320a6ed6b77ea731a75b30bc"
+ },
+ "data/raw/yc-oss-api/tags/defi.json": {
+  "bytes": 21890,
+  "sha256": "580c7abc7523bd5501ecee099240e6fe0af5128d563700e9ba9a418eb042aada"
+ },
+ "data/raw/yc-oss-api/tags/delivery.json": {
+  "bytes": 93949,
+  "sha256": "7092e1a7955dacdfb3200cf095d45b56460bad163342237e5453eb9b46e2da40"
+ },
+ "data/raw/yc-oss-api/tags/dental.json": {
+  "bytes": 7978,
+  "sha256": "28b200f1312feebbeeb6bfe67fcfbb477a2dcb6540fe4623f5da989b4fee1d1d"
+ },
+ "data/raw/yc-oss-api/tags/design-tools.json": {
+  "bytes": 92916,
+  "sha256": "10793c3852e158584def9a27d86a36dc1d030782e7fd042d363ec2c73f5faecd"
+ },
+ "data/raw/yc-oss-api/tags/design.json": {
+  "bytes": 48137,
+  "sha256": "b9d4ae85eec3696c8c3df85dd28490636949f35db121bc7e81d7059489a93a70"
+ },
+ "data/raw/yc-oss-api/tags/developer-tools.json": {
+  "bytes": 933616,
+  "sha256": "e7f54f6b49fae35d9e9b1510de5e6d94e840fa738beefa11e636d31333536dfd"
+ },
+ "data/raw/yc-oss-api/tags/devops.json": {
+  "bytes": 82163,
+  "sha256": "e9249f9f854dbfb623d079798a3152500fda24a5d944723c689307f02298673e"
+ },
+ "data/raw/yc-oss-api/tags/devsecops.json": {
+  "bytes": 59504,
+  "sha256": "5b3b4c76b2b03a0c75a825d5bbe649832fcf7fbf87c3eeec5f961ed0d9321a56"
+ },
+ "data/raw/yc-oss-api/tags/diagnostics.json": {
+  "bytes": 53610,
+  "sha256": "3b2cfc2e229d0c3dafdf8ad643f30d288fc52def03e4c6a2b64f9413d7e0d0ee"
+ },
+ "data/raw/yc-oss-api/tags/digital-freight-brokerage.json": {
+  "bytes": 4514,
+  "sha256": "5e85b42418ddfa79ccbfe454a454a2dc24dc97eb2e476665b47be3dc59445fdc"
+ },
+ "data/raw/yc-oss-api/tags/digital-health.json": {
+  "bytes": 222346,
+  "sha256": "679f849673165d8945456cf286fbfcbce404cc48309ad5b6e6a97e4dfb86b026"
+ },
+ "data/raw/yc-oss-api/tags/diversity-and-inclusion.json": {
+  "bytes": 5032,
+  "sha256": "2ba7eacafa11bf6dc879efd1cff6b22d69e90986fdc7febaacfc07b8157c5308"
+ },
+ "data/raw/yc-oss-api/tags/documents.json": {
+  "bytes": 55466,
+  "sha256": "ffc894c1b46112740ef65ce20faa5a226714f17b03168251d8a4158e32a27668"
+ },
+ "data/raw/yc-oss-api/tags/drones.json": {
+  "bytes": 59532,
+  "sha256": "afddafac1d338221baa9c1afed819dff4deead0518e6037cd486c7acfa52e2f5"
+ },
+ "data/raw/yc-oss-api/tags/drug-delivery.json": {
+  "bytes": 10271,
+  "sha256": "b6bada4f7aabdb5a0913fd8f35de9335c00fd3e06dfd023a9751e04e3381447f"
+ },
+ "data/raw/yc-oss-api/tags/drug-discovery.json": {
+  "bytes": 64757,
+  "sha256": "4670f64ff96931e6eca2a55e1f414d1ed9d020a3d49dd31941c0dc4f3de76537"
+ },
+ "data/raw/yc-oss-api/tags/e-commerce.json": {
+  "bytes": 61533,
+  "sha256": "b7a5c84b481a71d79efee0f76cb3ccb30914ddfd5ecd41902ce2323a7f80c3e9"
+ },
+ "data/raw/yc-oss-api/tags/edge-computing-semiconductors.json": {
+  "bytes": 6455,
+  "sha256": "fc78f11889b9cc49c2b777d182aab9687a2151f58a224560bc67dcb165b7c39d"
+ },
+ "data/raw/yc-oss-api/tags/edtech.json": {
+  "bytes": 36817,
+  "sha256": "1367bdf244b719d49a2f18bc81618427fb8f884e4c545c41f93203834ac915d8"
+ },
+ "data/raw/yc-oss-api/tags/education.json": {
+  "bytes": 284163,
+  "sha256": "cf2c46e8fb9b7e06e28afbd2898aa2edc32139923e81fd61df48182115f26580"
+ },
+ "data/raw/yc-oss-api/tags/elearning.json": {
+  "bytes": 90039,
+  "sha256": "908acdebfe33af21e67d9c8f577f3530f308d416525f77fb81e445c6223cf1da"
+ },
+ "data/raw/yc-oss-api/tags/election-tech.json": {
+  "bytes": 4739,
+  "sha256": "82f086806bc51d01cf2cbe3453509984ab7eb7924f519d6a44e7f2d293d75311"
+ },
+ "data/raw/yc-oss-api/tags/electric-vehicles.json": {
+  "bytes": 41869,
+  "sha256": "308802c8a661a7d2b44ff8e2b9352c58317ff80862af79c7c098c7076a9dd251"
+ },
+ "data/raw/yc-oss-api/tags/electronics.json": {
+  "bytes": 20435,
+  "sha256": "3da361c5de013c73bc1c10ddea9afecbe6dacbae034a9304c8d4782eeab42e6d"
+ },
+ "data/raw/yc-oss-api/tags/email.json": {
+  "bytes": 39432,
+  "sha256": "337da9fad0856847cfad63924a2720fcc15bb2f9eae5dde4f075c3bdbc739dcb"
+ },
+ "data/raw/yc-oss-api/tags/emerging-markets.json": {
+  "bytes": 15908,
+  "sha256": "3d05854b8ec7d33bfce570e8f8e24751fe9f14a2b256d777b846af1f152377af"
+ },
+ "data/raw/yc-oss-api/tags/energy-storage.json": {
+  "bytes": 21449,
+  "sha256": "f1cb5cd32a5444a2ee9373a107794e47ac0f344dc8b108de5afaa3e739e9fe26"
+ },
+ "data/raw/yc-oss-api/tags/energy.json": {
+  "bytes": 93040,
+  "sha256": "fc263f874d0bcc81f53118cc042b18e77ca713bdc9009b651aff31b85aabb5fe"
+ },
+ "data/raw/yc-oss-api/tags/enterprise-software.json": {
+  "bytes": 233051,
+  "sha256": "4e5f192cc72f4af8200f1fc763d9d4c584569ad58853fcaf61a41938d75c48d9"
+ },
+ "data/raw/yc-oss-api/tags/enterprise.json": {
+  "bytes": 191678,
+  "sha256": "13b781652d1ff8bb9584e1e4b66f071ab2f0a83a47debe8f1481a7f05887f4d9"
+ },
+ "data/raw/yc-oss-api/tags/entertainment.json": {
+  "bytes": 86616,
+  "sha256": "f676057bc9414610c735f289d3acc513f3ba6160dc2c3653f42ff7be13cd421f"
+ },
+ "data/raw/yc-oss-api/tags/esports.json": {
+  "bytes": 5805,
+  "sha256": "9a6b0b456c51ccb41f5638ec918625eae6f5d275f120367267678fe9e4309dc9"
+ },
+ "data/raw/yc-oss-api/tags/exascale-computing.json": {
+  "bytes": 1646,
+  "sha256": "acdd45d50fa8c72ccd8ff38074567328d0765855f553b8517f7442c7bf8c5c5e"
+ },
+ "data/raw/yc-oss-api/tags/fashion.json": {
+  "bytes": 32701,
+  "sha256": "b8478835032e4a1699fd42287f81c066327ab6e1dc3e0f0d689c35df82dd8578"
+ },
+ "data/raw/yc-oss-api/tags/feedback.json": {
+  "bytes": 8550,
+  "sha256": "9a0afc41044d9274125e7d7eebb374168c86d6160f47658035c7ef1f7737bb02"
+ },
+ "data/raw/yc-oss-api/tags/femtech.json": {
+  "bytes": 10431,
+  "sha256": "85108e7ac801be7a8b76f53a18f3426265fda20d3f2752e5f1f14d52e770a5bc"
+ },
+ "data/raw/yc-oss-api/tags/fertility-tech.json": {
+  "bytes": 13996,
+  "sha256": "f3ec26e7dcb26a0e769537dcb89066111a8754f414e484a7cf60f1d646b52b11"
+ },
+ "data/raw/yc-oss-api/tags/finance.json": {
+  "bytes": 163870,
+  "sha256": "b90e2aa60f30dd6e03cd17651013cb61e19183ac41bb1044c54881758cd1ac09"
+ },
+ "data/raw/yc-oss-api/tags/finops.json": {
+  "bytes": 53276,
+  "sha256": "0134c5d6b957d1578c511d8351700ca916fd6297a99889a7dfd8104617969a43"
+ },
+ "data/raw/yc-oss-api/tags/fintech.json": {
+  "bytes": 1192082,
+  "sha256": "f077730cb61b34786cf13f2ea464a3428fba57e3669430dfca1e4d3d67c5e7b6"
+ },
+ "data/raw/yc-oss-api/tags/fitness.json": {
+  "bytes": 31374,
+  "sha256": "d021a2639baa8e50144218e81961228307e077d297bf028fc3a4487157ad2f6f"
+ },
+ "data/raw/yc-oss-api/tags/food-and-beverage.json": {
+  "bytes": 48961,
+  "sha256": "986002e56804274845adb93ac683987b19cca99a230bed2802e19f56e7753ab0"
+ },
+ "data/raw/yc-oss-api/tags/food-service-robots-and-machines.json": {
+  "bytes": 16605,
+  "sha256": "771732bad20088ffb97f790f5ab0c8b698c0f58669ba7bd3892bc542a4d06293"
+ },
+ "data/raw/yc-oss-api/tags/food-tech.json": {
+  "bytes": 86138,
+  "sha256": "2220b51c6bc91204f2f36305552e2d7af5f4d74cbefd4451f8a74f029c7b17ff"
+ },
+ "data/raw/yc-oss-api/tags/food.json": {
+  "bytes": 17140,
+  "sha256": "4e2526534f656d3b2270786e965662a22c214af1d405d7f6714e260a8eafa060"
+ },
+ "data/raw/yc-oss-api/tags/fraud-detection.json": {
+  "bytes": 16541,
+  "sha256": "b514fc8d63300832a7f5eca73f9e1068ef79405391f8ab365c72b2e67b5679c5"
+ },
+ "data/raw/yc-oss-api/tags/fraud-prevention.json": {
+  "bytes": 9369,
+  "sha256": "9e6efb7cd32e51e2e1dd0e2990891448bc3bb0e9374281685bf1649a4ad5ef4a"
+ },
+ "data/raw/yc-oss-api/tags/fuel-cells.json": {
+  "bytes": 1498,
+  "sha256": "2dac12ef8a2abd031c9c6979cf6d64ad254b87b1aa8f35052ebdb3f480d7a4e3"
+ },
+ "data/raw/yc-oss-api/tags/fundraising.json": {
+  "bytes": 4349,
+  "sha256": "eba1d5ad65e3ca3329bd38e0244ef3b162eef8d9847ba5b39eaef302da51785f"
+ },
+ "data/raw/yc-oss-api/tags/furniture.json": {
+  "bytes": 9838,
+  "sha256": "14398e04bb0aff9df89b4a51931c6dcf243b003fb8a7b8f2b207412dcd29b203"
+ },
+ "data/raw/yc-oss-api/tags/fusion-energy.json": {
+  "bytes": 5539,
+  "sha256": "a938316f6ed1cefb3557df3d251f6a52c8e78a2516c4e771b3f095c864c6eff8"
+ },
+ "data/raw/yc-oss-api/tags/gaming.json": {
+  "bytes": 144438,
+  "sha256": "9c84325b9ce8b7dfd02beb3d6aa7875343601998aa936f03d53ef334c3558cbc"
+ },
+ "data/raw/yc-oss-api/tags/gardening.json": {
+  "bytes": 1508,
+  "sha256": "6677d834dc311ad4eda6014cd348f1f0c25a0baffd268e07b4bb8796a5fab0e8"
+ },
+ "data/raw/yc-oss-api/tags/gene-therapy.json": {
+  "bytes": 23829,
+  "sha256": "dcf4643b90ba78a796d58e97906781d0d7bd78d59c4a41ac8ff0fd9278385ff9"
+ },
+ "data/raw/yc-oss-api/tags/generative-ai.json": {
+  "bytes": 444949,
+  "sha256": "60b98e804c3d97900816687c26be11c7717eb90ba1366a0b52c2d4563eb960eb"
+ },
+ "data/raw/yc-oss-api/tags/genetic-engineering.json": {
+  "bytes": 7337,
+  "sha256": "ebf418256d4332770c5620744f9b95a4b53c94ec5dec93120ff40eceb211e1fb"
+ },
+ "data/raw/yc-oss-api/tags/genomics.json": {
+  "bytes": 52588,
+  "sha256": "cd45642d7e65075d385aebe6f95978de10fb27ce741632467db1ef1f709cf7eb"
+ },
+ "data/raw/yc-oss-api/tags/geographic-information-system.json": {
+  "bytes": 11067,
+  "sha256": "8e68360171de70475d6ea0bf6290edcd5467884fd2076ae0736a80d147fb9f12"
+ },
+ "data/raw/yc-oss-api/tags/ghost-kitchens.json": {
+  "bytes": 17857,
+  "sha256": "96de1873ae0c8e04a08ff1359ce765841b6700ba228c93c4b05578a8f3c1da43"
+ },
+ "data/raw/yc-oss-api/tags/govtech.json": {
+  "bytes": 89117,
+  "sha256": "8e0801cd1893e3c50815e934fbcf104ebad54a6721517b14670bab790afe5c8a"
+ },
+ "data/raw/yc-oss-api/tags/graphql.json": {
+  "bytes": 4734,
+  "sha256": "68cdd4ffcf89a682d6821d934df573bc35c03790c85ddd5c4b57191be88c99ef"
+ },
+ "data/raw/yc-oss-api/tags/grocery.json": {
+  "bytes": 54001,
+  "sha256": "0dc84a35d962c144aed4b3f5af8bf364e49c78230ae4d8a9b160ec9ea5961694"
+ },
+ "data/raw/yc-oss-api/tags/hard-tech.json": {
+  "bytes": 231745,
+  "sha256": "58cc02d718969b7c2e03fc12143601b8126d4feb655f7d063563d36aa016215f"
+ },
+ "data/raw/yc-oss-api/tags/hardware.json": {
+  "bytes": 277199,
+  "sha256": "9b287a0005864bdbf59afc26a0bb1f5b4972fb12bbd884678e7ffc4e0d1ea11c"
+ },
+ "data/raw/yc-oss-api/tags/health-and-wellness.json": {
+  "bytes": 85407,
+  "sha256": "d49a3c2caf6ad6f6116fa98528b7be501b55ddfd903d7f21ff765f80ecf58a54"
+ },
+ "data/raw/yc-oss-api/tags/health-insurance.json": {
+  "bytes": 49023,
+  "sha256": "8c80bd2dd26f1650b8d90b81d9b11bc82fe2b90ed90741f06ef8a3564b128162"
+ },
+ "data/raw/yc-oss-api/tags/health-tech.json": {
+  "bytes": 310220,
+  "sha256": "a2d545f2cde1b6ff6ec13cf8b2fe81566875fa5b8694f6899590c33f6cc6ea98"
+ },
+ "data/raw/yc-oss-api/tags/healthcare-it.json": {
+  "bytes": 67156,
+  "sha256": "ab38cad306f53b653e0283d5cd00aadcd58e364712b5914aeda936d7265b5a5b"
+ },
+ "data/raw/yc-oss-api/tags/healthcare.json": {
+  "bytes": 377358,
+  "sha256": "44d6b219226cb7d341c860941d232d63e12e1e5907a73038618394de6b0e10dd"
+ },
+ "data/raw/yc-oss-api/tags/home-automation.json": {
+  "bytes": 6805,
+  "sha256": "25fa8aa8db2c3be2dac7d7f3c06387a985da6939023a16b9d15329847c2bc94c"
+ },
+ "data/raw/yc-oss-api/tags/home-services.json": {
+  "bytes": 29847,
+  "sha256": "b19ae52fd96e7b56aaa928cf41ad63625a4dc31ea3594d3c0cbddfb620770d43"
+ },
+ "data/raw/yc-oss-api/tags/housing.json": {
+  "bytes": 35576,
+  "sha256": "4f7c359991a54816d83d5f0f0aea147caf9b41920cd6c4d24e37cd266bb6201f"
+ },
+ "data/raw/yc-oss-api/tags/hr-tech.json": {
+  "bytes": 126955,
+  "sha256": "1bba9a47399d03d9e276fabc8bed50b14c7092e48929398f440e494ca705b9ae"
+ },
+ "data/raw/yc-oss-api/tags/human-resources.json": {
+  "bytes": 40880,
+  "sha256": "3f844aedb4499d50f5be30024e687a95c8e1e5bae65a61d0f9f9283bedac7af3"
+ },
+ "data/raw/yc-oss-api/tags/hydrogen-energy.json": {
+  "bytes": 8436,
+  "sha256": "9ca39c3333629d2a9fc88c2043bec8e4010d41c6422eacf69be7feda29511bd6"
+ },
+ "data/raw/yc-oss-api/tags/identity.json": {
+  "bytes": 26662,
+  "sha256": "8fb8806493d86ae65ae7dcebcf48ab8963b9def397d6bd92cb20997de88dadc3"
+ },
+ "data/raw/yc-oss-api/tags/immigration.json": {
+  "bytes": 9944,
+  "sha256": "042c152209f3de996e1f3169838f04443047182b4a582c377db96edb4bf9c3bc"
+ },
+ "data/raw/yc-oss-api/tags/income-share-agreements.json": {
+  "bytes": 6314,
+  "sha256": "13cf6d190d1d284349fe967ae18db7998ba57c714e24a59fd17dd2f0e1434749"
+ },
+ "data/raw/yc-oss-api/tags/india.json": {
+  "bytes": 67947,
+  "sha256": "549b6e760d5bb5771ebad192f5512a2cfa18c976b8cb27fc6fb90e2fafa0d9e5"
+ },
+ "data/raw/yc-oss-api/tags/indoor-mapping.json": {
+  "bytes": 4110,
+  "sha256": "7e06556b82ab497b9cc53bbf9dc85bc843301d9da806f6ec2b1cb8cfa29712d0"
+ },
+ "data/raw/yc-oss-api/tags/industrial-workplace-safety.json": {
+  "bytes": 8140,
+  "sha256": "1b23f5e145c0aaff38ba7d7581ba58c0f1aae596ac2b6d1e83af19d0baab7d50"
+ },
+ "data/raw/yc-oss-api/tags/industrial.json": {
+  "bytes": 60775,
+  "sha256": "0d0cab4829b70db01580c839a47d498ad05622cccc65778a817cfce6fe7b763b"
+ },
+ "data/raw/yc-oss-api/tags/infrastructure.json": {
+  "bytes": 218330,
+  "sha256": "bdb2dbe0fae2d2e8083bc636291eb80bd37b4600993b5a461c162fc0b1724e4b"
+ },
+ "data/raw/yc-oss-api/tags/insurance.json": {
+  "bytes": 143950,
+  "sha256": "7c9a5293282a2f8e31d4ad8a89dc451be2f821e6db782624916b7834a18a4146"
+ },
+ "data/raw/yc-oss-api/tags/international.json": {
+  "bytes": 11482,
+  "sha256": "5746983afb1b27486989050016a2d2b6c67cd15ac4355c2bb46f993cf4321b04"
+ },
+ "data/raw/yc-oss-api/tags/investing.json": {
+  "bytes": 109962,
+  "sha256": "32977c2e31bee6e669a8e8e40f719381543fe67b98ea199b757f86c691ff6eae"
+ },
+ "data/raw/yc-oss-api/tags/investments.json": {
+  "bytes": 14728,
+  "sha256": "5aa6fc4a23bba633e9a59f3a95366c9cb6e31122484ed4dea5141b6ba0830abb"
+ },
+ "data/raw/yc-oss-api/tags/iot-security.json": {
+  "bytes": 3148,
+  "sha256": "d6e672f89245356b8a7435133d817e0021e1b955b517dffbadfbd5b2d2b63ab4"
+ },
+ "data/raw/yc-oss-api/tags/iot.json": {
+  "bytes": 76090,
+  "sha256": "e25d76972e5b67a62742df2a64b343e8fb369d9dcf2bd3ec25181b606c1ad19a"
+ },
+ "data/raw/yc-oss-api/tags/kids.json": {
+  "bytes": 16983,
+  "sha256": "c1c3db571df87d2c47599582ba2ab7718b9f58878432f0e82e0808c4f1f26228"
+ },
+ "data/raw/yc-oss-api/tags/kubernetes.json": {
+  "bytes": 26096,
+  "sha256": "313d33167479971c1dbd4d134edea6ef12ee83da326917cd42aa855220cdb2ff"
+ },
+ "data/raw/yc-oss-api/tags/lab-on-a-chip.json": {
+  "bytes": 1850,
+  "sha256": "e00bf71a6f827ba10a1d50b7566445f2e82d68ffb1b5557dc14940ef4923771a"
+ },
+ "data/raw/yc-oss-api/tags/latin-america.json": {
+  "bytes": 31033,
+  "sha256": "f35d70a50e679bc112fc64adb22fda978107bf554044db1d545e60df761a0f22"
+ },
+ "data/raw/yc-oss-api/tags/legal.json": {
+  "bytes": 63806,
+  "sha256": "4954975f8b0ce8de82b97da85847f257edb51e5f8590a124fec58192c4301d06"
+ },
+ "data/raw/yc-oss-api/tags/legaltech.json": {
+  "bytes": 97624,
+  "sha256": "5f7a3f47ecf8b162ef48422448a7d1fdd9434e43175014f8dddceb0bb6a82aba"
+ },
+ "data/raw/yc-oss-api/tags/lending.json": {
+  "bytes": 31252,
+  "sha256": "fa2be90a813b6cbf9a5d616d2093c4e75cf966d206ac0e0ecd39bd7e98fce879"
+ },
+ "data/raw/yc-oss-api/tags/lidar.json": {
+  "bytes": 2006,
+  "sha256": "9cbdac74822cf51db2a67d7da82303eae5ee8891e506445a23ae3ec9fa9a03b7"
+ },
+ "data/raw/yc-oss-api/tags/live.json": {
+  "bytes": 7288,
+  "sha256": "39202e22c5e043a4794f2ca34500b85a26293c22bc4e11cab154a89a938c8a53"
+ },
+ "data/raw/yc-oss-api/tags/livestock-health.json": {
+  "bytes": 1844,
+  "sha256": "054026e3de273b9247398b25bbc43bc9cb880536d6fcb4ad3cc2c078a41a273c"
+ },
+ "data/raw/yc-oss-api/tags/location-based.json": {
+  "bytes": 4617,
+  "sha256": "5a9f264b2782e84ea30010e23c753fd9f161bc1ad2b3871f14835b37f743c506"
+ },
+ "data/raw/yc-oss-api/tags/logistics.json": {
+  "bytes": 236910,
+  "sha256": "29a48a76d90f353c60445c13f59fc5efd3ffd5a1d66f6c1523e64c042d417217"
+ },
+ "data/raw/yc-oss-api/tags/machine-learning.json": {
+  "bytes": 399075,
+  "sha256": "95a50c20f5c38873e4bb9f4979c4127977cc9392ed4296bc7e60a541cb271058"
+ },
+ "data/raw/yc-oss-api/tags/manufacturing.json": {
+  "bytes": 175332,
+  "sha256": "2f5ddad77aa6595491e2f44b04fd0b304ad07b7feccd4c994a2ecb4c1e637682"
+ },
+ "data/raw/yc-oss-api/tags/maritime.json": {
+  "bytes": 6312,
+  "sha256": "c2ce38a5011b4fc38ae9532b74387f833ae8a5ae8a11a71d8213d686c644afb7"
+ },
+ "data/raw/yc-oss-api/tags/market-research.json": {
+  "bytes": 30704,
+  "sha256": "aa6b9e53078510f30c275ef2686db6f14f079e6415818e3ef4585e7ea0485447"
+ },
+ "data/raw/yc-oss-api/tags/marketing.json": {
+  "bytes": 188680,
+  "sha256": "bfcfc393a4492623c44dbefa3f6722212089bfcb76980d31fd5e47e65374e270"
+ },
+ "data/raw/yc-oss-api/tags/marketplace.json": {
+  "bytes": 523659,
+  "sha256": "0f26630074571fcf05cfb7115aaece6bfd6a78e74e1346c72237ea2ad3dea95c"
+ },
+ "data/raw/yc-oss-api/tags/media.json": {
+  "bytes": 66704,
+  "sha256": "f8c03846492bf63c5f93dd5a0dda9e8fd9f3b6e54d7f6356b7f700fde67cdde3"
+ },
+ "data/raw/yc-oss-api/tags/medical-devices.json": {
+  "bytes": 124994,
+  "sha256": "39f45a10333a036037d2625fcfff1310819d3b36381fab523739cb57c39b7840"
+ },
+ "data/raw/yc-oss-api/tags/medical-robotics.json": {
+  "bytes": 8297,
+  "sha256": "31a65ccc89b117bde5b52ae0730439c6c2b2832634af6547dea1aacea93c2ccf"
+ },
+ "data/raw/yc-oss-api/tags/mental-health-tech.json": {
+  "bytes": 67991,
+  "sha256": "9ff72852e550f5621a76546fd4d92f08a91bdee30937035950b9b115277c8cf6"
+ },
+ "data/raw/yc-oss-api/tags/mental-health.json": {
+  "bytes": 16843,
+  "sha256": "f66d9446f8e24df333b427c674b89c68bd1af63febce2365ee6e04ac8d0e304f"
+ },
+ "data/raw/yc-oss-api/tags/messaging.json": {
+  "bytes": 67658,
+  "sha256": "3c6a9fb857fd2d631160ab4b2d7c329a89f81d5dd5c1a7fc3763031b1f9ed873"
+ },
+ "data/raw/yc-oss-api/tags/metaverse.json": {
+  "bytes": 14189,
+  "sha256": "912bbe7ad4e753583e444c5cbbf617019cf9b27986563ef61a29939ec9490317"
+ },
+ "data/raw/yc-oss-api/tags/microfluidics.json": {
+  "bytes": 8977,
+  "sha256": "0c7b6fe299052d528a0fdc904c8d651fbd1ffa3f1e79a986af47ab465b1bcae7"
+ },
+ "data/raw/yc-oss-api/tags/microinsurance.json": {
+  "bytes": 5526,
+  "sha256": "523cde9c41e8251079a5de38d262960254fa24ea02da5fa195b163b891cd313e"
+ },
+ "data/raw/yc-oss-api/tags/mining.json": {
+  "bytes": 12166,
+  "sha256": "f98cb533f5d87b56b691e11cc550ffe58c23342462b95eaa895096d96ada687a"
+ },
+ "data/raw/yc-oss-api/tags/ml.json": {
+  "bytes": 40135,
+  "sha256": "a18b02b40c61cd0e407f6e0a1576abcd386a4ef7a75868cbd3e5b78f93cca062"
+ },
+ "data/raw/yc-oss-api/tags/mobility.json": {
+  "bytes": 19435,
+  "sha256": "3d7b93cf9ac549b9a7db7933e99c55ab53cb661c7847ab1d74169d2a612898c9"
+ },
+ "data/raw/yc-oss-api/tags/monitoring.json": {
+  "bytes": 26217,
+  "sha256": "a0a20948151a92829d939000e211565f2cbf3c29d2dfe07492e91f2160863a52"
+ },
+ "data/raw/yc-oss-api/tags/music.json": {
+  "bytes": 29825,
+  "sha256": "621e80727027928ecd6f904157ed657ce57ea7516a1d11e4badc4f1ac803c39b"
+ },
+ "data/raw/yc-oss-api/tags/nanomedicine.json": {
+  "bytes": 8060,
+  "sha256": "2c000fd8cb414b881be9eb8ef2d092d6194db6fd2946023d7ee7166c02cb4a01"
+ },
+ "data/raw/yc-oss-api/tags/nanosensors.json": {
+  "bytes": 8252,
+  "sha256": "9237284aae4d8411dbfb4b34f8d838bbc86a41756967b51546e83f4eea23ba81"
+ },
+ "data/raw/yc-oss-api/tags/nanotechnology.json": {
+  "bytes": 19314,
+  "sha256": "72e313b11cf442be303ae093450ac01d0d970c47252bfee8e39e4a3a2e2ef39f"
+ },
+ "data/raw/yc-oss-api/tags/navigation.json": {
+  "bytes": 6305,
+  "sha256": "46a7bf955609aaf0fc72f62a9a8e9fe242615e4788ae4db29e3921ba5d2c9c43"
+ },
+ "data/raw/yc-oss-api/tags/neobank.json": {
+  "bytes": 84838,
+  "sha256": "119ada576240097d2aa11612d60832f2ac2fb10b32a0d2f1c90d2f93f9d5a650"
+ },
+ "data/raw/yc-oss-api/tags/networks.json": {
+  "bytes": 6237,
+  "sha256": "8529b17bf449b809f4310c6251415cf3c85110b814ed096388b8e7f755497652"
+ },
+ "data/raw/yc-oss-api/tags/neurotechnology.json": {
+  "bytes": 32202,
+  "sha256": "1a8a3767529566c490b8f4c21ea8d50d9293e6f9bbfc875d1e113b2bfce30dd6"
+ },
+ "data/raw/yc-oss-api/tags/next-gen-network-security.json": {
+  "bytes": 8192,
+  "sha256": "2aad2447e609e2eaeb56c9f3441478eb8626019763f998055b07d4249340374e"
+ },
+ "data/raw/yc-oss-api/tags/nft.json": {
+  "bytes": 6503,
+  "sha256": "bb8399000899c8bf8f77462b5a0e933b25c7fdd1a6307002229090a14e8862f6"
+ },
+ "data/raw/yc-oss-api/tags/nlp.json": {
+  "bytes": 36041,
+  "sha256": "39a550bdde9cb22d8e01f50e946c94405da70f840531cb9dc9df28e5989062d2"
+ },
+ "data/raw/yc-oss-api/tags/no-code.json": {
+  "bytes": 57386,
+  "sha256": "7ef08fdb60136ea564bbc51022b81cd1606abe329e5b0fe0e01e4897a4029e72"
+ },
+ "data/raw/yc-oss-api/tags/nonprofit.json": {
+  "bytes": 47291,
+  "sha256": "f5f33813de6a74e973319b24e1b96a1ff4f0d77ca28ccda37ca28d15f7d9dd36"
+ },
+ "data/raw/yc-oss-api/tags/note-taking.json": {
+  "bytes": 8133,
+  "sha256": "04a0c3b4382fffdc80ec168a57d39103eb217da2d57d0ce2a061ef0c9b07a1de"
+ },
+ "data/raw/yc-oss-api/tags/notifications.json": {
+  "bytes": 3106,
+  "sha256": "69d58af7658ff70802c81e6a9752349433bde3df64e8415bb6e6d2f9d8e5ba63"
+ },
+ "data/raw/yc-oss-api/tags/oncology.json": {
+  "bytes": 42036,
+  "sha256": "b5bb731fac51761b1f98ed04f2574509a288dee5faf56500e26501b80eb79f57"
+ },
+ "data/raw/yc-oss-api/tags/open-source.json": {
+  "bytes": 294745,
+  "sha256": "db53612b0b50ed5cfb126cdf3b9b8e8b0919ce80edd07eab98a2a23cd7c51f64"
+ },
+ "data/raw/yc-oss-api/tags/operations.json": {
+  "bytes": 63895,
+  "sha256": "6e880415a2352b963cec62975eb13312f6b53b755f906e99057bdafb5b248da5"
+ },
+ "data/raw/yc-oss-api/tags/payments.json": {
+  "bytes": 251737,
+  "sha256": "b2315ede2d194ec3e392eefed37213e436cd705e92ef501e47c1ce0e20d1d031"
+ },
+ "data/raw/yc-oss-api/tags/payroll.json": {
+  "bytes": 27092,
+  "sha256": "52bf72b8f239bea22864512e7b9e0c66dd0e188b977b5a83f55bd192d7a0900b"
+ },
+ "data/raw/yc-oss-api/tags/pediatrics.json": {
+  "bytes": 5612,
+  "sha256": "79ab85dd675253b564e11d9b25438ee732830a480303b14bbb7fb010b318e7a1"
+ },
+ "data/raw/yc-oss-api/tags/personalization.json": {
+  "bytes": 22610,
+  "sha256": "b8aedfd3555cbddd4b767d87e6f800b0d65d234fa34406d5d66f712d262ba953"
+ },
+ "data/raw/yc-oss-api/tags/plant-based-meat.json": {
+  "bytes": 3949,
+  "sha256": "9f04d4b9e40e55957e93db42761eed1c572b1a7d1c4719f6f12e257d6e984eb7"
+ },
+ "data/raw/yc-oss-api/tags/podcasts.json": {
+  "bytes": 11530,
+  "sha256": "0e3dffc23bdc573948eec314721d72336512d878e8dac5a50dfc3dd47101941c"
+ },
+ "data/raw/yc-oss-api/tags/primary-care.json": {
+  "bytes": 16820,
+  "sha256": "90b42550ef4a33abcb61eddfd2eeaed5da99e69c6e6511776ec6dbfc3afbc03a"
+ },
+ "data/raw/yc-oss-api/tags/privacy.json": {
+  "bytes": 36473,
+  "sha256": "22abaad1d89a46f2e137426ad0f6015e0e190272351a512350bc088e69a3544d"
+ },
+ "data/raw/yc-oss-api/tags/procurement.json": {
+  "bytes": 21436,
+  "sha256": "23fbc828523fe56a157799678afb8d519f55b7f8fb786acecde66f9c9fab84b6"
+ },
+ "data/raw/yc-oss-api/tags/productivity.json": {
+  "bytes": 284567,
+  "sha256": "b9132923ef4fae9353800bf6e7ce2cffbcec47204bc049bcad831e9017f38339"
+ },
+ "data/raw/yc-oss-api/tags/proptech.json": {
+  "bytes": 146168,
+  "sha256": "1c1e1837993fee4ea3afac5ad29a189f3ab70a7efb3fdd2697d77e7b143f8008"
+ },
+ "data/raw/yc-oss-api/tags/psychedelics.json": {
+  "bytes": 1827,
+  "sha256": "b0cdf3fd955802637d40642ed47fd705b954cfb242d7ce3dc29e1491617b5626"
+ },
+ "data/raw/yc-oss-api/tags/quantum-computing.json": {
+  "bytes": 8375,
+  "sha256": "6f25af7bf6df670c984658036090ee2410114b36a5229e1fca119253b6c86e41"
+ },
+ "data/raw/yc-oss-api/tags/radar.json": {
+  "bytes": 4372,
+  "sha256": "6c72ac2747453832777aaf1bd64e824c742190ec9b93e3c10f1a720c37f2d47a"
+ },
+ "data/raw/yc-oss-api/tags/real-estate.json": {
+  "bytes": 149579,
+  "sha256": "d18246b8b408be5572a0b71a3d3b2a3d464a5e40e76c0352bd49181fdac6ea5f"
+ },
+ "data/raw/yc-oss-api/tags/recommendation-system.json": {
+  "bytes": 6238,
+  "sha256": "eb829046e2e462dd10496b03afff7d309cf73334fc5ddef218e294adf540110a"
+ },
+ "data/raw/yc-oss-api/tags/recruiting.json": {
+  "bytes": 129229,
+  "sha256": "1bb55db12ae17e7998f0ac07bdc3503746c74e5c6667b1882d0c03f316fd99c4"
+ },
+ "data/raw/yc-oss-api/tags/referrals.json": {
+  "bytes": 3044,
+  "sha256": "9567b51c100cbca0fb80e79225e946b7b4607ecc9befe1cc513c043b1189c1ff"
+ },
+ "data/raw/yc-oss-api/tags/regtech.json": {
+  "bytes": 34469,
+  "sha256": "e26914784a118208b861f9bf9704053a63e882b0f40583b6d7f0c3e8c5db8f9f"
+ },
+ "data/raw/yc-oss-api/tags/reinforcement-learning.json": {
+  "bytes": 68027,
+  "sha256": "e1a4c103929ddc77dcf843d34bc04ccf91921bd9af59ce8b3070324e1964db31"
+ },
+ "data/raw/yc-oss-api/tags/remittances.json": {
+  "bytes": 10141,
+  "sha256": "60d0296572bf9e1d0938f54396366955d70c98b0f8afcd59da99fb996193aab4"
+ },
+ "data/raw/yc-oss-api/tags/remote-work.json": {
+  "bytes": 33604,
+  "sha256": "e97d44b56cee09db9e089907f35e9d50c9148dd81a5c1c3751c5c52d612546d9"
+ },
+ "data/raw/yc-oss-api/tags/remote.json": {
+  "bytes": 9065,
+  "sha256": "11abc37ce96f04c16ce11623bc0acb7cd82d2ddcc5012128b40ff98c8d7b9139"
+ },
+ "data/raw/yc-oss-api/tags/renewable-energy.json": {
+  "bytes": 32682,
+  "sha256": "4da6e2db44c9c8782bf1bb60a2e6ffb8bcca6b21588219dad181b3c13223902f"
+ },
+ "data/raw/yc-oss-api/tags/restaurant-tech.json": {
+  "bytes": 27913,
+  "sha256": "98552a01d4fc1302585ec67f91a5bddd9251cb67e957dbe85d1c6feb84d5bd1e"
+ },
+ "data/raw/yc-oss-api/tags/retail-tech.json": {
+  "bytes": 29259,
+  "sha256": "3bc29e4c5921e488c6f0506f71ff867e834a20c84b12d87893bdea0b321a62f1"
+ },
+ "data/raw/yc-oss-api/tags/retail.json": {
+  "bytes": 83535,
+  "sha256": "2b6e5b21aa9f8d09c6d9a9283d5df518eaed141f3e2a49b2725477f29a706548"
+ },
+ "data/raw/yc-oss-api/tags/reviews.json": {
+  "bytes": 5656,
+  "sha256": "40da13d1b959ef669337db736f2a8fc70cb296f419627419488877c6f415d715"
+ },
+ "data/raw/yc-oss-api/tags/ridesharing.json": {
+  "bytes": 2968,
+  "sha256": "2119d9531d1c62e562604167766752bb2707f44b62305c0ef0000889e2644e7a"
+ },
+ "data/raw/yc-oss-api/tags/robotic-process-automation.json": {
+  "bytes": 58692,
+  "sha256": "8d19881dfb681f1a027dccca0782aacfec14dc45e88000be7d70915af544f3e9"
+ },
+ "data/raw/yc-oss-api/tags/robotic-surgery.json": {
+  "bytes": 5238,
+  "sha256": "51a3270b65b60929f68f7deead09bee248a66ae05646dfd0a0f128f07237600d"
+ },
+ "data/raw/yc-oss-api/tags/robotics.json": {
+  "bytes": 243501,
+  "sha256": "233262e0c3b23e8ac55bec0df561e6cfef2ef51cabd484008f4092d47a563905"
+ },
+ "data/raw/yc-oss-api/tags/rocketry.json": {
+  "bytes": 6814,
+  "sha256": "02e65c6b09aff3ac55b637a7ee9648f97649665943562b74dbd07c5f19010612"
+ },
+ "data/raw/yc-oss-api/tags/saas.json": {
+  "bytes": 1880528,
+  "sha256": "6180fa6a556ab67604b00fc2e51f09808f1de8f767a355040327f63f6ea05f5f"
+ },
+ "data/raw/yc-oss-api/tags/sales-enablement.json": {
+  "bytes": 69383,
+  "sha256": "6018c1952fe68d1ebe7f052bb48955519ca076db78eed7ad7e763c0d8249a7ae"
+ },
+ "data/raw/yc-oss-api/tags/sales.json": {
+  "bytes": 208621,
+  "sha256": "a3693e4b85bf96ff614be7e0f04464e28e1c9cb54f2364ca8a307db841cae0be"
+ },
+ "data/raw/yc-oss-api/tags/satellites.json": {
+  "bytes": 41202,
+  "sha256": "49b808d5c880ee6fcb296d847edff8daa03bc064f41d05ef68ff3b66268d30db"
+ },
+ "data/raw/yc-oss-api/tags/scheduling.json": {
+  "bytes": 20570,
+  "sha256": "eb9aec6c0bba7aeb27fdf746c537608d1da437e7619464d4537edc1b3c502191"
+ },
+ "data/raw/yc-oss-api/tags/search.json": {
+  "bytes": 29287,
+  "sha256": "3c853dc6ff8c8b42b51af5a1cc02784b33af8d45a761e710a3a761bb3d1f48c6"
+ },
+ "data/raw/yc-oss-api/tags/security-orchestration-automation-and-response-(soar).json": {
+  "bytes": 2079,
+  "sha256": "2ed8484dcd847b5a7d38d7b24cfdf6b75b0a1da293edf5cefddf3721d92ed4d9"
+ },
+ "data/raw/yc-oss-api/tags/security.json": {
+  "bytes": 169615,
+  "sha256": "68f86fbeaa4f20ba96354613715ba7337e7357a85985d4fe8f287541a9ee100d"
+ },
+ "data/raw/yc-oss-api/tags/self-driving-vehicles.json": {
+  "bytes": 10891,
+  "sha256": "5fa8e2ee2b71dd28afd76afe584325ce78c0e35b638ff9ce3d2ae3f21cc3a274"
+ },
+ "data/raw/yc-oss-api/tags/semiconductors.json": {
+  "bytes": 34513,
+  "sha256": "207300558c99398fe246ae83f7909d41187ab0f93f2f2ae1fc38d785ace4b190"
+ },
+ "data/raw/yc-oss-api/tags/seo.json": {
+  "bytes": 8113,
+  "sha256": "d53c1d5157672029d02662328c4304cba03979b45d6665fde7c7a8d9cb9a23cb"
+ },
+ "data/raw/yc-oss-api/tags/service-mesh.json": {
+  "bytes": 1708,
+  "sha256": "b99d01d6a6d0832949070f930aed94fa26f7d4e4d39aff5c63f411ee7158e36e"
+ },
+ "data/raw/yc-oss-api/tags/skincare.json": {
+  "bytes": 3909,
+  "sha256": "898a846c60aabe252db0f07517af27414de08c55c6fedef5d42098538b55a0d6"
+ },
+ "data/raw/yc-oss-api/tags/sleep-tech.json": {
+  "bytes": 17764,
+  "sha256": "9084f76976a6a32cc4cee00c3741a2226ec697473c1b15591457cdd5b8635f7c"
+ },
+ "data/raw/yc-oss-api/tags/small-modular-reactors.json": {
+  "bytes": 4675,
+  "sha256": "16807bb32c514f931a15ed8b5fe98938a343850c3ede3f8f188e0b711980d027"
+ },
+ "data/raw/yc-oss-api/tags/smart-clothing.json": {
+  "bytes": 9320,
+  "sha256": "bca3e89b7fa46d64e70922fb8887df634897ce3e55c286efc93b782f08c0ac4f"
+ },
+ "data/raw/yc-oss-api/tags/smart-home-assistants.json": {
+  "bytes": 13488,
+  "sha256": "f43861bb5e63cd0e704f51622d4a1376c1fa34a76b414730966cdb8d6cd4476f"
+ },
+ "data/raw/yc-oss-api/tags/smart-locks.json": {
+  "bytes": 1648,
+  "sha256": "7dac2a0132e38265831f0032b17e540f863be4377138725a288b53d87e76a58f"
+ },
+ "data/raw/yc-oss-api/tags/smart-packaging.json": {
+  "bytes": 1535,
+  "sha256": "3483565b307971fc0c5e0f4176f47c1a99375a7727399e16fd0f1e0be9090edd"
+ },
+ "data/raw/yc-oss-api/tags/smart-waste-management.json": {
+  "bytes": 2383,
+  "sha256": "9930b3294788813d077e0fa3de9e8f56d303de60ac2cf0c0fb8397f3ab7144a8"
+ },
+ "data/raw/yc-oss-api/tags/smb.json": {
+  "bytes": 29069,
+  "sha256": "32d60459cabd31218e07f9cc38c0ee5876931e63196f21f73041c9585f87efa2"
+ },
+ "data/raw/yc-oss-api/tags/sms.json": {
+  "bytes": 10684,
+  "sha256": "4a3c8da8f58ce201839c10f06f2bf2e883d6ef9d769c3364b26f97f1e6d2c574"
+ },
+ "data/raw/yc-oss-api/tags/social-media.json": {
+  "bytes": 55545,
+  "sha256": "5fb0c9a3d3f12f2535fe04189042a028347941017c0eb9a76424bd80b8154d02"
+ },
+ "data/raw/yc-oss-api/tags/social-network.json": {
+  "bytes": 37688,
+  "sha256": "cd3fe054adf46c5e600224c20b3f946e515899815335034252e6246269217249"
+ },
+ "data/raw/yc-oss-api/tags/social.json": {
+  "bytes": 124277,
+  "sha256": "07fa019fdb3eb9b1dca6b158eb94d68401be99e99bcbc66f9be2d0dd92bf4b33"
+ },
+ "data/raw/yc-oss-api/tags/solar-power.json": {
+  "bytes": 32442,
+  "sha256": "3687e0f160c5a6100d300bcecbf024199ee529d4151c301597d10191a8c55bc4"
+ },
+ "data/raw/yc-oss-api/tags/space-exploration.json": {
+  "bytes": 37763,
+  "sha256": "b6e0ff94e9ef2946ca41f970644dc61e442b736c032c64674d30bccddaf326a5"
+ },
+ "data/raw/yc-oss-api/tags/speech-recognition.json": {
+  "bytes": 9907,
+  "sha256": "6821df5c5e6996ab1a8e4d10c527b7b80d792a20204d030e0b20bb1ea4754a1b"
+ },
+ "data/raw/yc-oss-api/tags/sports-tech.json": {
+  "bytes": 27161,
+  "sha256": "07d167da68e9ebf9ab43626bd1d9c409cc94c014e4d5b9de808370e36e3d6aee"
+ },
+ "data/raw/yc-oss-api/tags/stocks.json": {
+  "bytes": 11097,
+  "sha256": "86599aea40c1f485c4f272af36ddefd11a88dd50304cc4e53750f6e7b7518786"
+ },
+ "data/raw/yc-oss-api/tags/subscriptions.json": {
+  "bytes": 61512,
+  "sha256": "e0d00964f1ae629938c8c5a39c892bcec6016d4c9c3c9f94f837d8f3bf9352d9"
+ },
+ "data/raw/yc-oss-api/tags/supply-chain.json": {
+  "bytes": 159970,
+  "sha256": "4eaa2029132f0e05bea6418c31b75a4bf523c027086eb631d7caf9a46dd59f62"
+ },
+ "data/raw/yc-oss-api/tags/sustainability.json": {
+  "bytes": 30795,
+  "sha256": "8a64e11e47b0b5949388f5768ce23a38cffc6276d6db9c385d9491a59b44fc94"
+ },
+ "data/raw/yc-oss-api/tags/sustainable-agriculture.json": {
+  "bytes": 7187,
+  "sha256": "fabcf5756721d37a31b3f0af02669b92a3e0aaee306d8fea122ced591c4dab81"
+ },
+ "data/raw/yc-oss-api/tags/sustainable-fashion.json": {
+  "bytes": 16240,
+  "sha256": "35595681dbddea1848e38c782e5ba2a2f45b77c278ffd1164d7aec6921801ff8"
+ },
+ "data/raw/yc-oss-api/tags/sustainable-tourism.json": {
+  "bytes": 6053,
+  "sha256": "dc09861291e1e0569510ed26ef7134d7eeea172bea4a0bb92dad03fa0a894c0e"
+ },
+ "data/raw/yc-oss-api/tags/swarm-ai.json": {
+  "bytes": 1414,
+  "sha256": "65e90f0c073286bfe909dff7d6b8439eea9e101cc2217327163f81b972e8012a"
+ },
+ "data/raw/yc-oss-api/tags/swarm-robotics.json": {
+  "bytes": 7665,
+  "sha256": "3debaa9d411de1c89a874d00162fb820af87d83a643f1b675931916a289a75ba"
+ },
+ "data/raw/yc-oss-api/tags/synthetic-biology.json": {
+  "bytes": 56338,
+  "sha256": "030ec8c1eb75b61aa762174d1bfe405c23450c391331814cc48f5ad0bb3d0abe"
+ },
+ "data/raw/yc-oss-api/tags/talent-acquisition.json": {
+  "bytes": 11031,
+  "sha256": "0269849ad2628e6e3b50fd706c3da25a0aac1d2937b9e4180b2683f9f954faa2"
+ },
+ "data/raw/yc-oss-api/tags/team-collaboration.json": {
+  "bytes": 23718,
+  "sha256": "90bf5327350039db336b0d563470e1501a279e62c40e2bab8c33e8b2378170a0"
+ },
+ "data/raw/yc-oss-api/tags/telecommunications.json": {
+  "bytes": 45517,
+  "sha256": "115a1e3b3aa4b0553ec0a11c182abc628d3d1a0d2e0ef4ea635c8fbd283442a6"
+ },
+ "data/raw/yc-oss-api/tags/telehealth.json": {
+  "bytes": 55299,
+  "sha256": "ef68655e4810cf9abf5fe6f179679f3e9921ce6e8dfac3185eb1ec6ddd9b26a0"
+ },
+ "data/raw/yc-oss-api/tags/telemedicine.json": {
+  "bytes": 56294,
+  "sha256": "dc80552f4c366ca33f0443b0089af57ea373ee4476e96c130d225d004e8d4d40"
+ },
+ "data/raw/yc-oss-api/tags/therapeutics.json": {
+  "bytes": 83918,
+  "sha256": "4f27abeef044fd12f33453d659a1fcd4c82f435e5d5ea5a7e6094fb54afa1608"
+ },
+ "data/raw/yc-oss-api/tags/ticketing.json": {
+  "bytes": 3021,
+  "sha256": "0ee61a71f34c34a29a258ba880f6c23d5eb7aed039f86391e239ded922be68a6"
+ },
+ "data/raw/yc-oss-api/tags/time-series.json": {
+  "bytes": 6841,
+  "sha256": "3d42368fe75771f0c738632a92de119633b4044168730caf4ab499454416ca6e"
+ },
+ "data/raw/yc-oss-api/tags/trading.json": {
+  "bytes": 28573,
+  "sha256": "5b29d1a74acf2e6aaf2af70de9886312d1e8415ca96cba7dc4996827b882a9c1"
+ },
+ "data/raw/yc-oss-api/tags/transportation.json": {
+  "bytes": 67408,
+  "sha256": "45d3852b27ba9dc4d0174bfcd16272bc65efeb5086a4f7064a00d23a5dd42f4f"
+ },
+ "data/raw/yc-oss-api/tags/travel.json": {
+  "bytes": 81891,
+  "sha256": "58f98666deb60303da5fe1b1d9c2aedce105748e34e2463fc4aa9b35fae862d0"
+ },
+ "data/raw/yc-oss-api/tags/trust-and-safety.json": {
+  "bytes": 6309,
+  "sha256": "134f90bfdfe4834a6fbd4fa4db249dbb9f2a4af6309fc44199477204d730066d"
+ },
+ "data/raw/yc-oss-api/tags/unmanned-vehicle.json": {
+  "bytes": 7114,
+  "sha256": "2ef97a50117b7527fcd2015aa9eff1dc5a105b6f3908007035a8eac8fcff505a"
+ },
+ "data/raw/yc-oss-api/tags/vaccines.json": {
+  "bytes": 1640,
+  "sha256": "00ed1771ffde6203ccca822cc0638593446f27bf8a061e52cae1bf491a7d27be"
+ },
+ "data/raw/yc-oss-api/tags/vertical-farming.json": {
+  "bytes": 3859,
+  "sha256": "db6fd2f4121f1a641ef23cb0d6de6fb2390e9916e39fafad67e85896af98429a"
+ },
+ "data/raw/yc-oss-api/tags/video.json": {
+  "bytes": 142674,
+  "sha256": "fad0e437cb9cb061953897b7cb9bc71112b39a4fd1d5fac6582dd9bca64a81e9"
+ },
+ "data/raw/yc-oss-api/tags/virtual-reality.json": {
+  "bytes": 25300,
+  "sha256": "152494246800efc1e2cc74bf9bc2d678026b68131ba393fa4d4cbf51c71f5756"
+ },
+ "data/raw/yc-oss-api/tags/vr-health.json": {
+  "bytes": 3523,
+  "sha256": "dbaee6cfdd0ee302a590ca343c84388093209dd6b70cfa99180484b1430c6771"
+ },
+ "data/raw/yc-oss-api/tags/warehouse-management-tech.json": {
+  "bytes": 24713,
+  "sha256": "79424ab8a6c4b84bc4b449ebe0e04ff7bbf8c7547617a549e2ad761afa4edeff"
+ },
+ "data/raw/yc-oss-api/tags/weather.json": {
+  "bytes": 5643,
+  "sha256": "8ca0d0ac843773a33138a5ea60cad02cb67749a4d87cf0ba2d22c56fd7adeb7e"
+ },
+ "data/raw/yc-oss-api/tags/web-development.json": {
+  "bytes": 37606,
+  "sha256": "419ea05a84c187736cf9ff3eae2a950af5410bac8ce8b6895768a5f70c74cbce"
+ },
+ "data/raw/yc-oss-api/tags/women's-health.json": {
+  "bytes": 26713,
+  "sha256": "a6a79721090206cd78e774362e740ef3828cbef2b69958c356ac36091b44bf24"
+ },
+ "data/raw/yc-oss-api/tags/workflow-automation.json": {
+  "bytes": 136329,
+  "sha256": "6d28b8eac80f6ef43096eceeb1756c91520828bf625251324742043434eb9257"
+ },
+ "data/raw/yc-dataset/index.json": {
+  "bytes": 753057,
+  "sha256": "52eb3af6eb36ef273afa8aa65c9de2993891dbbdf1498a083fc9ba7fae82a8fd"
+ },
+ "data/raw/yc-dataset/yc_directory.json": {
+  "bytes": 9177279,
+  "sha256": "13f2d38da0eebd3431ba0e9108c644cc4e3fa2d33e2ca2e688d80045f6524fde"
+ },
+ "data/raw/snapshots/all_2024-08-22_15d3714.json": {
+  "bytes": 8472848,
+  "sha256": "0dd3644e679e5cafd3ba8f9ce4f07f4139eab061d16806ffda4f98c8d395e961"
+ },
+ "data/raw/snapshots/all_2024-09-01_938ab57.json": {
+  "bytes": 8538243,
+  "sha256": "0a71a5abd1e92a33c0e7a462962bef83633d9a39068626f006077e0d6fcae848"
+ },
+ "data/raw/snapshots/all_2024-10-01_7b47f3c.json": {
+  "bytes": 8580009,
+  "sha256": "29cca678f07c5bfe246eaa5c7d3cf1ea406214d3d46a8c6f6321c18be69c58e2"
+ },
+ "data/raw/snapshots/all_2024-11-01_3d4fc6c.json": {
+  "bytes": 8197780,
+  "sha256": "de25c1124f5718c8dceb59ea72a3e652ec0e999049c08d9fdde094d6585e99b2"
+ },
+ "data/raw/snapshots/all_2024-12-01_d174f4e.json": {
+  "bytes": 8274024,
+  "sha256": "c32f3bf7e234853a329903d5755baf984cc92a96ed7bcf11b52114d3fcd435dd"
+ },
+ "data/raw/snapshots/all_2025-01-01_ce8e686.json": {
+  "bytes": 8284916,
+  "sha256": "34e343de10ae14250a1af1e41758a90f937d84063a0e327050d2fdfd2b1c77e6"
+ },
+ "data/raw/snapshots/all_2025-02-01_f0a4516.json": {
+  "bytes": 8394332,
+  "sha256": "e5e20f30e1b55711bd53b91111683255302fac80c7ed1ade5d92be12970597e9"
+ },
+ "data/raw/snapshots/all_2025-03-01_38675c7.json": {
+  "bytes": 8523587,
+  "sha256": "f088824b2dbbc726a2cdc43ade0298d1e0f0ce405ea0ffe3ae4fbaf9aa8c2942"
+ },
+ "data/raw/snapshots/all_2025-04-01_208ef8d.json": {
+  "bytes": 8529622,
+  "sha256": "f5919bf5621c82fd07b19963ad77d964c2c7721fc2ca2b8ba685c52402ade24a"
+ },
+ "data/raw/snapshots/all_2025-05-01_72af1b0.json": {
+  "bytes": 8604169,
+  "sha256": "accc7f9411706240c76830b3e9526dd2e167579a4d26261d4f5ff781f0c5be2a"
+ },
+ "data/raw/snapshots/all_2025-06-01_2a8f04b.json": {
+  "bytes": 8721183,
+  "sha256": "7a7fcf37b629b2c50c020765cc7949702dcaefeffa60589813bdd69ecd6ee6bf"
+ },
+ "data/raw/snapshots/all_2025-07-01_bab0453.json": {
+  "bytes": 8756217,
+  "sha256": "c3e8c4407297da92ad088a707ac848392604359c9e879e98c5c467e777183871"
+ },
+ "data/raw/snapshots/all_2025-08-01_eb6f3ae.json": {
+  "bytes": 8921416,
+  "sha256": "edfcd39cb54254f3ba03732f1f9da1e50e405dbe1ebde966c534ab6b9a29c6f0"
+ },
+ "data/raw/snapshots/all_2025-09-01_71ceb03.json": {
+  "bytes": 9017955,
+  "sha256": "09c711ea099e7de7f4edacfade43b8361bcbf9385dec8d047e9b95c7749bc2d0"
+ },
+ "data/raw/snapshots/all_2025-10-01_11f41a6.json": {
+  "bytes": 9085014,
+  "sha256": "13d46321bf87f42f8bc3c595162bfcd52b9c89c0509b709d3006121b2662483f"
+ },
+ "data/raw/snapshots/all_2025-11-01_e995820.json": {
+  "bytes": 9220049,
+  "sha256": "b79b8bff3803f9e48104210f7347cdd0c32f95c9340b75407fd6851e0da2c5f1"
+ },
+ "data/raw/snapshots/all_2025-12-01_9b75ef6.json": {
+  "bytes": 9319612,
+  "sha256": "f1670313892355d973b212ba4cf6f71325158a25ced3b71418e1a74a19ca8725"
+ },
+ "data/raw/snapshots/all_2026-01-01_683b396.json": {
+  "bytes": 9353263,
+  "sha256": "3cba7bf9306d2305276a035be29efcc01ec9598e3414fd3a9e550becec660922"
+ },
+ "data/raw/snapshots/all_2026-02-01_32b1089.json": {
+  "bytes": 9478487,
+  "sha256": "c60503a1513d530c3bb45f1576c299ac092d8ead526e77ea9029eef1bf3e7aa0"
+ },
+ "data/raw/snapshots/all_2026-05-04_1d221c6.json": {
+  "bytes": 9811214,
+  "sha256": "70c0f79eba682d61a45ea47d02a2ac606924058b1f3d55aaf703361f8da3b83e"
+ },
+ "data/raw/snapshots/all_2026-06-01_790cf94.json": {
+  "bytes": 9971488,
+  "sha256": "cc2203517bfb4e567e88b1d97bf3a3ef7728e757b5e96908c925bf751fbeb5f2"
+ },
+ "data/raw/snapshots/all_2026-07-01_11c7e9c.json": {
+  "bytes": 10035806,
+  "sha256": "a9cdb36d2d982f0c060a425ee5424d1c3089e8fb5f45d0e17fca369795fc466b"
+ },
+ "data/raw/snapshots/all_2026-08-01_2ce5159.json": {
+  "bytes": 10253675,
+  "sha256": "b351ad4b93b7b9c7f35ba78e7041baa5d938971cd8c61c6c39e7ee5be9a3ed66"
+ },
+ "data/raw/snapshots/all_2026-09-01_ddfd5eb.json": {
+  "bytes": 10422540,
+  "sha256": "f67112482919583857d164e9af65755bd90e1bc7ab0bc86f8231ae0cc8664a92"
+ },
+ "data/raw/snapshots/snapshot_commits.json": {
+  "bytes": 1874,
+  "sha256": "5de31a8f9cea2f9711621c9e6ac51d5cad7cd0262457794a1eb144b3aa0749b4"
+ }
+}

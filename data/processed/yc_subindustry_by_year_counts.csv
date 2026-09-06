@@ -1,0 +1,59 @@
+subindustry,2021.0,2022.0,2023.0,2024.0,2025.0,2026.0,2027.0
+B2B,63,63,85,108,129,130,0
+B2B -> Analytics,17,14,15,11,13,10,0
+"B2B -> Engineering, Product and Design",61,46,77,98,95,54,0
+B2B -> Finance and Accounting,28,16,19,11,16,13,0
+B2B -> Human Resources,18,13,2,4,3,1,0
+B2B -> Infrastructure,21,33,27,30,38,70,0
+B2B -> Legal,4,3,8,10,12,10,0
+B2B -> Marketing,20,20,9,9,12,10,0
+B2B -> Office Management,1,0,1,1,0,0,0
+B2B -> Operations,22,15,20,22,11,20,1
+B2B -> Productivity,21,21,15,20,20,19,0
+B2B -> Recruiting and Talent,8,4,2,2,5,5,0
+B2B -> Retail,14,6,8,7,4,2,0
+B2B -> Sales,13,19,22,15,16,6,0
+B2B -> Security,13,12,14,10,16,16,0
+B2B -> Supply Chain and Logistics,19,15,12,15,12,14,0
+Consumer,25,23,17,34,29,17,0
+Consumer -> Apparel and Cosmetics,4,3,1,0,1,0,0
+Consumer -> Consumer Electronics,1,2,0,3,3,6,0
+Consumer -> Content,7,9,5,11,6,3,0
+Consumer -> Food and Beverage,19,10,2,0,0,1,0
+Consumer -> Gaming,3,5,1,2,3,7,0
+Consumer -> Home and Personal,10,1,2,0,0,0,0
+Consumer -> Job and Career Services,3,1,0,1,0,2,0
+Consumer -> Social,3,3,0,3,2,0,0
+Consumer -> Transportation Services,1,1,0,1,0,0,0
+"Consumer -> Travel, Leisure and Tourism",1,1,2,3,0,1,0
+Consumer -> Virtual and Augmented Reality,1,1,0,0,1,0,0
+Education,28,9,6,5,10,1,0
+Fintech,26,61,23,13,9,17,0
+Fintech -> Asset Management,10,9,3,5,0,8,0
+Fintech -> Banking and Exchange,13,6,2,2,4,4,0
+Fintech -> Consumer Finance,15,9,6,2,7,6,0
+Fintech -> Credit and Lending,18,12,4,2,2,3,0
+Fintech -> Insurance,7,11,2,6,10,15,0
+Fintech -> Payments,25,25,8,6,4,5,0
+Government,2,1,1,6,9,4,0
+Healthcare,14,11,9,21,15,22,0
+Healthcare -> Consumer Health and Wellness,24,11,6,5,5,5,0
+Healthcare -> Diagnostics,10,4,3,2,0,1,0
+Healthcare -> Drug Discovery and Delivery,9,3,9,2,3,8,0
+Healthcare -> Healthcare IT,16,13,15,18,15,6,0
+Healthcare -> Healthcare Services,6,9,5,2,3,8,0
+Healthcare -> Industrial Bio,3,2,1,2,1,1,0
+Healthcare -> Medical Devices,11,7,2,1,0,1,0
+Healthcare -> Therapeutics,12,8,1,8,3,2,0
+Industrials,1,3,4,5,7,21,0
+Industrials -> Agriculture,2,1,2,0,3,2,0
+Industrials -> Automotive,3,2,0,1,1,0,0
+Industrials -> Aviation and Space,11,7,3,10,7,10,0
+Industrials -> Climate,8,15,1,4,1,3,0
+Industrials -> Defense,1,0,0,1,5,17,0
+Industrials -> Drones,2,1,0,2,1,4,0
+Industrials -> Energy,8,4,2,3,4,12,0
+Industrials -> Manufacturing and Robotics,7,5,0,14,33,48,0
+Real Estate and Construction,0,7,4,3,3,4,0
+Real Estate and Construction -> Construction,6,6,4,5,5,6,0
+Real Estate and Construction -> Housing and Real Estate,8,10,2,3,4,3,0
