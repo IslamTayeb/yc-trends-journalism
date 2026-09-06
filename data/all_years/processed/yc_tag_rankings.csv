@@ -1,0 +1,337 @@
+tag,rank_earliest_year,rank_latest,rank_change,earliest_year_share_pct,latest_share_pct,pp_change,earliest_year_count,latest_count,latest_full_batch,major_mover
+Artificial Intelligence,6,1,5,0.0,37.021,37.021,0,87,Summer 2026,True
+AI,6,2,4,0.0,31.489,31.489,0,74,Summer 2026,True
+B2B,6,3,3,0.0,22.553,22.553,0,53,Summer 2026,True
+Robotics,6,4,2,0.0,11.915,11.915,0,28,Summer 2026,True
+Hard Tech,6,5,1,0.0,10.638,10.638,0,25,Summer 2026,True
+SaaS,6,6,0,0.0,10.213,10.213,0,24,Summer 2026,True
+Developer Tools,6,7,-1,0.0,9.787,9.787,0,23,Summer 2026,True
+Hardware,6,8,-2,0.0,8.511,8.511,0,20,Summer 2026,True
+Infrastructure,6,9,-3,0.0,8.085,8.085,0,19,Summer 2026,True
+Manufacturing,6,10,-4,0.0,6.809,6.809,0,16,Summer 2026,True
+Fintech,6,11,-5,0.0,5.957,5.957,0,14,Summer 2026,True
+Reinforcement Learning,6,11,-5,0.0,5.957,5.957,0,14,Summer 2026,True
+Enterprise Software,6,11,-5,0.0,5.957,5.957,0,14,Summer 2026,True
+Machine Learning,6,14,-8,0.0,5.106,5.106,0,12,Summer 2026,True
+Healthcare,6,15,-9,0.0,4.681,4.681,0,11,Summer 2026,True
+Automation,6,15,-9,0.0,4.681,4.681,0,11,Summer 2026,True
+Workflow Automation,6,15,-9,0.0,4.681,4.681,0,11,Summer 2026,True
+Finance,6,15,-9,0.0,4.681,4.681,0,11,Summer 2026,True
+Generative AI,6,19,-13,0.0,4.255,4.255,0,10,Summer 2026,True
+Industrial,6,20,-14,0.0,3.83,3.83,0,9,Summer 2026,True
+Biotech,6,20,-14,0.0,3.83,3.83,0,9,Summer 2026,True
+Energy,6,20,-14,0.0,3.83,3.83,0,9,Summer 2026,True
+Defense,6,23,-17,0.0,3.404,3.404,0,8,Summer 2026,True
+Open Source,6,23,-17,0.0,3.404,3.404,0,8,Summer 2026,True
+Construction,6,23,-17,0.0,3.404,3.404,0,8,Summer 2026,True
+Data Engineering,6,23,-17,0.0,3.404,3.404,0,8,Summer 2026,True
+Investing,6,23,-17,0.0,3.404,3.404,0,8,Summer 2026,True
+Supply Chain,6,23,-17,0.0,3.404,3.404,0,8,Summer 2026,True
+Semiconductors,6,29,-23,0.0,2.979,2.979,0,7,Summer 2026,True
+Logistics,6,29,-23,0.0,2.979,2.979,0,7,Summer 2026,True
+Cybersecurity,6,31,-25,0.0,2.553,2.553,0,6,Summer 2026,True
+AIOps,6,31,-25,0.0,2.553,2.553,0,6,Summer 2026,True
+Marketplace,6,31,-25,0.0,2.553,2.553,0,6,Summer 2026,True
+Enterprise,6,31,-25,0.0,2.553,2.553,0,6,Summer 2026,True
+Insurance,6,31,-25,0.0,2.553,2.553,0,6,Summer 2026,True
+Security,6,31,-25,0.0,2.553,2.553,0,6,Summer 2026,True
+Consumer,6,31,-25,0.0,2.553,2.553,0,6,Summer 2026,True
+Drones,6,38,-32,0.0,2.128,2.128,0,5,Summer 2026,True
+Aerospace,6,38,-32,0.0,2.128,2.128,0,5,Summer 2026,True
+Deep Learning,6,38,-32,0.0,2.128,2.128,0,5,Summer 2026,True
+Health Tech,6,38,-32,0.0,2.128,2.128,0,5,Summer 2026,True
+AI Assistant,6,38,-32,0.0,2.128,2.128,0,5,Summer 2026,True
+Real Estate,6,43,-37,0.0,1.702,1.702,0,4,Summer 2026,True
+Health & Wellness,6,43,-37,0.0,1.702,1.702,0,4,Summer 2026,True
+Data Labeling,6,43,-37,0.0,1.702,1.702,0,4,Summer 2026,True
+Trading,6,43,-37,0.0,1.702,1.702,0,4,Summer 2026,True
+Robotic Process Automation,6,43,-37,0.0,1.702,1.702,0,4,Summer 2026,True
+Gaming,6,43,-37,0.0,1.702,1.702,0,4,Summer 2026,True
+GovTech,6,43,-37,0.0,1.702,1.702,0,4,Summer 2026,True
+Computer Vision,6,43,-37,0.0,1.702,1.702,0,4,Summer 2026,True
+Sales,6,43,-37,0.0,1.702,1.702,0,4,Summer 2026,True
+Cloud Computing,6,43,-37,0.0,1.702,1.702,0,4,Summer 2026,True
+Data Science,6,53,-47,0.0,1.277,1.277,0,3,Summer 2026,True
+LegalTech,6,53,-47,0.0,1.277,1.277,0,3,Summer 2026,True
+Productivity,6,53,-47,0.0,1.277,1.277,0,3,Summer 2026,True
+Personalization,6,53,-47,0.0,1.277,1.277,0,3,Summer 2026,True
+Swarm Robotics,6,53,-47,0.0,1.277,1.277,0,3,Summer 2026,True
+Market Research,6,53,-47,0.0,1.277,1.277,0,3,Summer 2026,True
+Big Data,6,53,-47,0.0,1.277,1.277,0,3,Summer 2026,True
+API,6,53,-47,0.0,1.277,1.277,0,3,Summer 2026,True
+Analytics,6,53,-47,0.0,1.277,1.277,0,3,Summer 2026,True
+Home Services,6,53,-47,0.0,1.277,1.277,0,3,Summer 2026,True
+Crypto / Web3,6,53,-47,0.0,1.277,1.277,0,3,Summer 2026,True
+AI-Enhanced Learning,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+AI-powered Drug Discovery,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Oncology,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Consumer Health Services,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Conversational AI,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Stocks,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Agriculture,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Advanced Materials,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+ML,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Sustainability,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Procurement,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Recruiting,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Renewable Energy,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+ClimateTech,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Consumer Finance,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Monitoring,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Restaurant Tech,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Creator Economy,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Synthetic Biology,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Marketing,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+E-commerce,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+DevOps,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Design,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Biotechnology,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Digital Health,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Healthcare IT,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Education,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Legal,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Entertainment,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Space Exploration,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Sales Enablement,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Health Insurance,6,64,-58,0.0,0.851,0.851,0,2,Summer 2026,True
+Architecture,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+eSports,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Unmanned Vehicle,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+APIs,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Therapeutics,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Time Series,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Alternative Fuels,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Virtual Reality,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Warehouse Management Tech,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Climate,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Video,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Telecommunications,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+SMB,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Privacy,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Telehealth,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+eLearning,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Airlines,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Travel,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Edge Computing Semiconductors,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Neurotechnology,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Design Tools,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Careers,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Customer Service,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Customer Success,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Customer Support,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Databases,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Mental Health,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Medical Devices,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Retail,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Consumer Products,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Radar,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Operations,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Regtech,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Vaccines,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Compliance,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Location-based,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+HR Tech,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Housing,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Electronics,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Drug discovery,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Exascale Computing,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Digital Freight Brokerage,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Automotive,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+AR,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Genomics,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Geographic Information System,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Smart Waste Management,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Self-Driving Vehicles,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Satellites,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Skincare,6,96,-90,0.0,0.426,0.426,0,1,Summer 2026,True
+Advertising,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Air Taxis,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Social Media,1,146,-145,11.111,0.0,-11.111,1,0,Summer 2026,True
+Social Network,1,146,-145,11.111,0.0,-11.111,1,0,Summer 2026,True
+Solar Power,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Speech Recognition,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Sports Tech,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Subscriptions,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Sleep Tech,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Small Modular Reactors,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Smart Clothing,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Smart Home Assistants,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Smart Locks,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Social,1,146,-145,11.111,0.0,-11.111,1,0,Summer 2026,True
+Scheduling,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Search,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+"Security Orchestration, Automation and Response (SOAR)",6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Robotic Surgery,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Rocketry,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Sustainable Fashion,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Sustainable Tourism,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Talent Acquisition,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Bioplastic,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Blockchain,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Booking,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+COVID-19,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+CRISPR,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+CRM,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Autonomous Trucking,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Banking as a Service,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Batteryless IoT Sensors,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Beauty,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Billing,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Biometrics,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Assistive Tech,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Augmented Reality,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Auto Commerce,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Autonomous Delivery,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Autonomous Shipping,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Airplanes,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Alternative Battery Tech,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Diversity & Inclusion,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Documents,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Home Automation,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Ghost Kitchens,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+GraphQL,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Grocery,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Fundraising,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Furniture,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Fusion Energy,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Gardening,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Gene Therapy,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Genetic Engineering,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Fitness,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Food,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Food & Beverage,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Food Service Robots & Machines,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Food Tech,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Fraud Detection,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Fraud Prevention,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Lidar,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Live,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Livestock Health,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+IoT Security,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Kids,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Kubernetes,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Lab-on-a-chip,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Latin America,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Lending,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Industrial Workplace Safety,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+International,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Investments,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+IoT,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Human Resources,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Hydrogen Energy,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Crowdsourcing,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Cryptocurrency,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Cryptography,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Cultivated Meat,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Fashion,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Feedback,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Femtech,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Fertility Tech,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+FinOps,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Electric Vehicles,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Email,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Emerging Markets,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Energy Storage,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Drug Delivery,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+E-Commerce,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Edtech,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Election Tech,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+DevSecOps,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Diagnostics,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Identity,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Immigration,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Income Share Agreements,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+India,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Indoor Mapping,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Networks,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Next-gen Network Security,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+No-code,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Nonprofit,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Note-taking,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Notifications,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Music,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+NFT,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+NLP,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Nanomedicine,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Nanosensors,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Nanotechnology,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Navigation,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Neobank,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Mental Health Tech,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Messaging,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Metaverse,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Microfluidics,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Microinsurance,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Mining,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Mobility,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Maritime,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Carbon Capture and Removal,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Cashierless Checkout,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Cell Therapy,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Cellular Agriculture,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Deepfake Detection,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Delivery,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Dental,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+DAO,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Data Visualization,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Dating,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+DeFi,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Culture,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Cultured Meat,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Customization,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Cyber Insurance,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Conversational Banking,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Crowdfunding,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Media,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Medical Robotics,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Remote Work,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Retail Tech,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Reviews,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Ridesharing,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Recommendation System,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Referrals,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Remittances,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Remote,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Primary Care,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Proptech,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Psychedelics,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Quantum Computing,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Payments,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+SEO,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+SMS,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Computational Storage,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Cloud Gaming,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Cloud Workload Protection,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Coding Bootcamps,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Collaboration,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Commercial Space Launch,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Community,1,146,-145,11.111,0.0,-11.111,1,0,Summer 2026,True
+Chat,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Chatbot,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Chatbots,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+China,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Civic Tech,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Clean Meat,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Calendar,1,146,-145,11.111,0.0,-11.111,1,0,Summer 2026,True
+Call Center,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Cannabis,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Payroll,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Pediatrics,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Plant-based Meat,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Podcasts,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Weather,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Web Development,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Women's Health,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Transportation,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Trust & Safety,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+VR Health,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Vertical Farming,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Team Collaboration,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Telemedicine,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Ticketing,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Sustainable Agriculture,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+3D Printing,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Anti-Aging,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Apparel,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+3D Printed Foods,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True
+Art Trading Platforms,6,146,-140,0.0,0.0,0.0,0,0,Summer 2026,True

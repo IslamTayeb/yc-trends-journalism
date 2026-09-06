@@ -1,35 +1,35 @@
 check,value
 companies_in_source,6203
-companies_selected,3729
-companies_excluded_by_window_or_batch,2474
-start_year,2021
+companies_selected,6202
+companies_excluded_by_window_or_batch,1
+start_year,2005
 end_year,latest
 min_full_batch,50
 duplicate_ids_in_source,0
 duplicate_slugs_in_source,0
-companies_with_former_names,1994
+companies_with_former_names,3031
 malformed_or_unspecified_batch_values,Unspecified=1
-partial_batches,Fall 2026; Winter 2027
-low_tag_coverage_batches,Winter 2026; Spring 2026
+partial_batches,Summer 2005; Winter 2006; Summer 2006; Winter 2007; Summer 2007; Winter 2008; Summer 2008; Winter 2009; Summer 2009; Winter 2010; Summer 2010; Winter 2011; Winter 2013; Fall 2026; Winter 2027
+low_tag_coverage_batches,Summer 2005; Winter 2006; Winter 2007; Summer 2007; Winter 2008; Summer 2008; Winter 2009; Winter 2010; Winter 2026; Spring 2026
 source_cross_check_mismatches,0
 source_cross_check_rows,445
-companies_selected,3729
-unique_industries_top_level,8
-unique_subindustry_strings,58
+companies_selected,6202
+unique_industries_top_level,9
+unique_subindustry_strings,59
 unique_subindustry_children,50
-unique_industries_array_values,58
-unique_tags,303
+unique_industries_array_values,59
+unique_tags,336
 companies_missing_industry,0
-companies_industry_unspecified,0
+companies_industry_unspecified,18
 companies_missing_subindustry,0
-companies_without_subindustry_child,1108
-companies_zero_tags,661
-companies_multiple_industries_array,2621
-companies_multiple_tags,2859
+companies_without_subindustry_child,1342
+companies_zero_tags,880
+companies_multiple_industries_array,4860
+companies_multiple_tags,4552
 companies_missing_regions,0
-companies_missing_locations,86
-companies_missing_long_description,161
-companies_missing_team_size,63
-unique_regions_values,84
-unique_status_values,"['Acquired', 'Active', 'Inactive']"
+companies_missing_locations,154
+companies_missing_long_description,408
+companies_missing_team_size,108
+unique_regions_values,103
+unique_status_values,"['Acquired', 'Active', 'Inactive', 'Public']"
 unique_stage_values,"['Early', 'Growth']"

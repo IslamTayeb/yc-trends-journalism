@@ -1,0 +1,10 @@
+industry,total_companies,batches_excluded_from_stats,first_observed_batch,latest_observed_batch,n_batches_present,peak_batch,peak_count,peak_share_pct,earliest_year,earliest_year_count,earliest_year_share_pct,earliest_batch_share_pct,latest_full_batch,latest_count,latest_share_pct,count_change,count_change_vs_earliest_year_avg,pp_change,rolling3_latest_share_pct,mean_share_full_batches_pct,newly_appearing,peaked_then_declined,early_share_pct,late_share_pct,median_share_pct,cv_share,emergence_class,rank_latest,rank_earliest_year,rank_change
+B2B,3158,,Summer 2005,Winter 2027,49,Summer 2023,152,69.091,2005,5,55.556,55.556,Summer 2026,122,51.915,117,117.0,-3.641,57.898,49.646,False,False,47.727,55.189,50.0,0.241,Persistent,1,1,0
+Industrials,459,,Winter 2007,Fall 2026,35,Summer 2026,56,23.83,2005,0,0.0,0.0,Summer 2026,56,23.83,56,56.0,23.83,16.907,7.377,True,False,2.272,18.325,6.857,0.616,Emerging,2,4,2
+Healthcare,697,,Winter 2011,Summer 2026,36,Summer 2018,37,28.244,2005,0,0.0,0.0,Summer 2026,21,8.936,21,21.0,8.936,8.565,11.272,True,True,4.015,8.827,10.681,0.448,Emerging,3,4,1
+Fintech,657,,Summer 2005,Fall 2026,42,Winter 2022,90,22.613,2005,1,11.111,11.111,Summer 2026,16,6.809,15,15.0,-4.302,8.874,9.598,False,True,7.121,8.789,8.189,0.434,Low-volume / mixed,4,3,-1
+Consumer,884,,Summer 2005,Fall 2026,48,Summer 2012,27,32.53,2005,3,33.333,33.333,Summer 2026,11,4.681,8,8.0,-28.652,5.123,15.85,False,True,30.909,5.674,12.819,0.571,Declining,5,2,-3
+Real Estate and Construction,162,,Winter 2009,Summer 2026,38,Summer 2019,11,6.25,2005,0,0.0,0.0,Summer 2026,6,2.553,6,6.0,2.553,2.037,2.748,True,True,3.939,2.302,2.506,0.499,Low-volume / mixed,6,4,-2
+Government,44,,Summer 2014,Fall 2026,25,Summer 2017,4,3.2,2005,0,0.0,0.0,Summer 2026,2,0.851,2,2.0,0.851,0.455,0.794,True,False,0.0,0.682,0.682,1.021,Spiky,7,4,-3
+Education,123,,Summer 2009,Summer 2026,32,Summer 2012,5,6.024,2005,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,2.175,True,True,4.015,0.213,2.054,0.729,Declining,8,4,-4
+Unspecified,18,,Winter 2014,Winter 2017,7,Winter 2014,4,5.405,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.539,True,False,0.0,0.0,0.0,2.218,Spiky,9,4,-5

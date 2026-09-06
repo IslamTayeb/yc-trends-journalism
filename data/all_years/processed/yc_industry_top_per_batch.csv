@@ -1,0 +1,442 @@
+batch,rank,industry,share_pct,count
+Summer 2005,1,B2B,55.556,5
+Summer 2005,2,Consumer,33.333,3
+Summer 2005,3,Fintech,11.111,1
+Summer 2005,4,Education,0.0,0
+Summer 2005,5,Government,0.0,0
+Summer 2005,6,Healthcare,0.0,0
+Summer 2005,7,Industrials,0.0,0
+Summer 2005,8,Real Estate and Construction,0.0,0
+Summer 2005,9,Unspecified,0.0,0
+Winter 2006,1,B2B,57.143,4
+Winter 2006,2,Consumer,42.857,3
+Winter 2006,3,Education,0.0,0
+Winter 2006,4,Fintech,0.0,0
+Winter 2006,5,Government,0.0,0
+Winter 2006,6,Healthcare,0.0,0
+Winter 2006,7,Industrials,0.0,0
+Winter 2006,8,Real Estate and Construction,0.0,0
+Winter 2006,9,Unspecified,0.0,0
+Summer 2006,1,Consumer,80.0,8
+Summer 2006,2,B2B,20.0,2
+Summer 2006,3,Education,0.0,0
+Summer 2006,4,Fintech,0.0,0
+Summer 2006,5,Government,0.0,0
+Summer 2006,6,Healthcare,0.0,0
+Summer 2006,7,Industrials,0.0,0
+Summer 2006,8,Real Estate and Construction,0.0,0
+Summer 2006,9,Unspecified,0.0,0
+Winter 2007,1,Consumer,53.846,7
+Winter 2007,2,B2B,23.077,3
+Winter 2007,3,Industrials,15.385,2
+Winter 2007,4,Fintech,7.692,1
+Winter 2007,5,Education,0.0,0
+Winter 2007,6,Government,0.0,0
+Winter 2007,7,Healthcare,0.0,0
+Winter 2007,8,Real Estate and Construction,0.0,0
+Winter 2007,9,Unspecified,0.0,0
+Summer 2007,1,Consumer,63.158,12
+Summer 2007,2,B2B,36.842,7
+Summer 2007,3,Education,0.0,0
+Summer 2007,4,Fintech,0.0,0
+Summer 2007,5,Government,0.0,0
+Summer 2007,6,Healthcare,0.0,0
+Summer 2007,7,Industrials,0.0,0
+Summer 2007,8,Real Estate and Construction,0.0,0
+Summer 2007,9,Unspecified,0.0,0
+Winter 2008,1,B2B,57.143,12
+Winter 2008,2,Consumer,38.095,8
+Winter 2008,3,Fintech,4.762,1
+Winter 2008,4,Education,0.0,0
+Winter 2008,5,Government,0.0,0
+Winter 2008,6,Healthcare,0.0,0
+Winter 2008,7,Industrials,0.0,0
+Winter 2008,8,Real Estate and Construction,0.0,0
+Winter 2008,9,Unspecified,0.0,0
+Summer 2008,1,Consumer,63.636,14
+Summer 2008,2,B2B,36.364,8
+Summer 2008,3,Education,0.0,0
+Summer 2008,4,Fintech,0.0,0
+Summer 2008,5,Government,0.0,0
+Summer 2008,6,Healthcare,0.0,0
+Summer 2008,7,Industrials,0.0,0
+Summer 2008,8,Real Estate and Construction,0.0,0
+Summer 2008,9,Unspecified,0.0,0
+Winter 2009,1,Consumer,56.25,9
+Winter 2009,2,B2B,31.25,5
+Winter 2009,3,Real Estate and Construction,12.5,2
+Winter 2009,4,Fintech,0.0,0
+Winter 2009,5,Education,0.0,0
+Winter 2009,6,Government,0.0,0
+Winter 2009,7,Healthcare,0.0,0
+Winter 2009,8,Industrials,0.0,0
+Winter 2009,9,Unspecified,0.0,0
+Summer 2009,1,Consumer,46.154,12
+Summer 2009,2,B2B,34.615,9
+Summer 2009,3,Fintech,7.692,2
+Summer 2009,4,Real Estate and Construction,7.692,2
+Summer 2009,5,Education,3.846,1
+Summer 2009,6,Government,0.0,0
+Summer 2009,7,Healthcare,0.0,0
+Summer 2009,8,Industrials,0.0,0
+Summer 2009,9,Unspecified,0.0,0
+Winter 2010,1,B2B,62.963,17
+Winter 2010,2,Consumer,33.333,9
+Winter 2010,3,Real Estate and Construction,3.704,1
+Winter 2010,4,Fintech,0.0,0
+Winter 2010,5,Education,0.0,0
+Winter 2010,6,Government,0.0,0
+Winter 2010,7,Healthcare,0.0,0
+Winter 2010,8,Industrials,0.0,0
+Winter 2010,9,Unspecified,0.0,0
+Summer 2010,1,B2B,44.444,16
+Summer 2010,2,Consumer,44.444,16
+Summer 2010,3,Fintech,5.556,2
+Summer 2010,4,Education,2.778,1
+Summer 2010,5,Real Estate and Construction,2.778,1
+Summer 2010,6,Government,0.0,0
+Summer 2010,7,Healthcare,0.0,0
+Summer 2010,8,Industrials,0.0,0
+Summer 2010,9,Unspecified,0.0,0
+Winter 2011,1,B2B,51.111,23
+Winter 2011,2,Consumer,31.111,14
+Winter 2011,3,Fintech,6.667,3
+Winter 2011,4,Education,4.444,2
+Winter 2011,5,Healthcare,4.444,2
+Winter 2011,6,Real Estate and Construction,2.222,1
+Winter 2011,7,Government,0.0,0
+Winter 2011,8,Industrials,0.0,0
+Winter 2011,9,Unspecified,0.0,0
+Summer 2011,1,B2B,50.0,30
+Summer 2011,2,Consumer,30.0,18
+Summer 2011,3,Fintech,6.667,4
+Summer 2011,4,Education,5.0,3
+Summer 2011,5,Healthcare,5.0,3
+Summer 2011,6,Real Estate and Construction,3.333,2
+Summer 2011,7,Government,0.0,0
+Summer 2011,8,Industrials,0.0,0
+Summer 2011,9,Unspecified,0.0,0
+Winter 2012,1,B2B,45.455,30
+Winter 2012,2,Consumer,31.818,21
+Winter 2012,3,Fintech,7.576,5
+Winter 2012,4,Real Estate and Construction,4.545,3
+Winter 2012,5,Industrials,4.545,3
+Winter 2012,6,Healthcare,3.03,2
+Winter 2012,7,Education,3.03,2
+Winter 2012,8,Government,0.0,0
+Winter 2012,9,Unspecified,0.0,0
+Summer 2012,1,B2B,51.807,43
+Summer 2012,2,Consumer,32.53,27
+Summer 2012,3,Education,6.024,5
+Summer 2012,4,Healthcare,4.819,4
+Summer 2012,5,Fintech,3.614,3
+Summer 2012,6,Industrials,1.205,1
+Summer 2012,7,Government,0.0,0
+Summer 2012,8,Real Estate and Construction,0.0,0
+Summer 2012,9,Unspecified,0.0,0
+Winter 2013,1,B2B,54.348,25
+Winter 2013,2,Consumer,26.087,12
+Winter 2013,3,Healthcare,13.043,6
+Winter 2013,4,Fintech,4.348,2
+Winter 2013,5,Industrials,2.174,1
+Winter 2013,6,Government,0.0,0
+Winter 2013,7,Education,0.0,0
+Winter 2013,8,Real Estate and Construction,0.0,0
+Winter 2013,9,Unspecified,0.0,0
+Summer 2013,1,B2B,50.0,26
+Summer 2013,2,Consumer,28.846,15
+Summer 2013,3,Fintech,7.692,4
+Summer 2013,4,Healthcare,7.692,4
+Summer 2013,5,Education,3.846,2
+Summer 2013,6,Real Estate and Construction,1.923,1
+Summer 2013,7,Government,0.0,0
+Summer 2013,8,Industrials,0.0,0
+Summer 2013,9,Unspecified,0.0,0
+Winter 2014,1,B2B,50.0,37
+Winter 2014,2,Consumer,24.324,18
+Winter 2014,3,Industrials,6.757,5
+Winter 2014,4,Unspecified,5.405,4
+Winter 2014,5,Fintech,5.405,4
+Winter 2014,6,Healthcare,2.703,2
+Winter 2014,7,Education,2.703,2
+Winter 2014,8,Real Estate and Construction,2.703,2
+Winter 2014,9,Government,0.0,0
+Summer 2014,1,B2B,34.615,27
+Summer 2014,2,Consumer,28.205,22
+Summer 2014,3,Fintech,12.821,10
+Summer 2014,4,Healthcare,12.821,10
+Summer 2014,5,Industrials,7.692,6
+Summer 2014,6,Real Estate and Construction,1.282,1
+Summer 2014,7,Government,1.282,1
+Summer 2014,8,Unspecified,1.282,1
+Summer 2014,9,Education,0.0,0
+Winter 2015,1,B2B,40.0,44
+Winter 2015,2,Consumer,19.091,21
+Winter 2015,3,Healthcare,18.182,20
+Winter 2015,4,Fintech,8.182,9
+Winter 2015,5,Real Estate and Construction,5.455,6
+Winter 2015,6,Industrials,3.636,4
+Winter 2015,7,Government,2.727,3
+Winter 2015,8,Unspecified,2.727,3
+Winter 2015,9,Education,0.0,0
+Summer 2015,1,B2B,39.423,41
+Summer 2015,2,Consumer,24.038,25
+Summer 2015,3,Healthcare,10.577,11
+Summer 2015,4,Industrials,9.615,10
+Summer 2015,5,Fintech,8.654,9
+Summer 2015,6,Real Estate and Construction,2.885,3
+Summer 2015,7,Education,2.885,3
+Summer 2015,8,Unspecified,1.923,2
+Summer 2015,9,Government,0.0,0
+Winter 2016,1,B2B,42.623,52
+Winter 2016,2,Consumer,18.033,22
+Winter 2016,3,Healthcare,15.574,19
+Winter 2016,4,Industrials,8.197,10
+Winter 2016,5,Fintech,8.197,10
+Winter 2016,6,Real Estate and Construction,2.459,3
+Winter 2016,7,Unspecified,2.459,3
+Winter 2016,8,Education,1.639,2
+Winter 2016,9,Government,0.82,1
+Summer 2016,1,Consumer,31.373,32
+Summer 2016,2,B2B,30.392,31
+Summer 2016,3,Healthcare,10.784,11
+Summer 2016,4,Industrials,9.804,10
+Summer 2016,5,Fintech,6.863,7
+Summer 2016,6,Real Estate and Construction,3.922,4
+Summer 2016,7,Education,3.922,4
+Summer 2016,8,Unspecified,1.961,2
+Summer 2016,9,Government,0.98,1
+Winter 2017,1,B2B,35.345,41
+Winter 2017,2,Consumer,18.966,22
+Winter 2017,3,Healthcare,15.517,18
+Winter 2017,4,Industrials,10.345,12
+Winter 2017,5,Fintech,10.345,12
+Winter 2017,6,Real Estate and Construction,4.31,5
+Winter 2017,7,Unspecified,2.586,3
+Winter 2017,8,Education,1.724,2
+Winter 2017,9,Government,0.862,1
+Summer 2017,1,Consumer,26.4,33
+Summer 2017,2,B2B,21.6,27
+Summer 2017,3,Healthcare,15.2,19
+Summer 2017,4,Industrials,12.8,16
+Summer 2017,5,Fintech,11.2,14
+Summer 2017,6,Real Estate and Construction,4.8,6
+Summer 2017,7,Education,4.8,6
+Summer 2017,8,Government,3.2,4
+Summer 2017,9,Unspecified,0.0,0
+Winter 2018,1,B2B,37.671,55
+Winter 2018,2,Consumer,23.973,35
+Winter 2018,3,Healthcare,19.178,28
+Winter 2018,4,Fintech,7.534,11
+Winter 2018,5,Industrials,5.479,8
+Winter 2018,6,Education,2.74,4
+Winter 2018,7,Real Estate and Construction,2.055,3
+Winter 2018,8,Government,1.37,2
+Winter 2018,9,Unspecified,0.0,0
+Summer 2018,1,B2B,34.351,45
+Summer 2018,2,Healthcare,28.244,37
+Summer 2018,3,Consumer,13.74,18
+Summer 2018,4,Fintech,10.687,14
+Summer 2018,5,Industrials,6.87,9
+Summer 2018,6,Education,3.053,4
+Summer 2018,7,Real Estate and Construction,2.29,3
+Summer 2018,8,Government,0.763,1
+Summer 2018,9,Unspecified,0.0,0
+Winter 2019,1,B2B,41.753,81
+Winter 2019,2,Consumer,19.072,37
+Winter 2019,3,Healthcare,12.887,25
+Winter 2019,4,Fintech,11.34,22
+Winter 2019,5,Industrials,7.732,15
+Winter 2019,6,Education,3.608,7
+Winter 2019,7,Real Estate and Construction,2.577,5
+Winter 2019,8,Government,1.031,2
+Winter 2019,9,Unspecified,0.0,0
+Summer 2019,1,B2B,39.773,70
+Summer 2019,2,Consumer,15.341,27
+Summer 2019,3,Fintech,14.205,25
+Summer 2019,4,Healthcare,13.636,24
+Summer 2019,5,Industrials,6.818,12
+Summer 2019,6,Real Estate and Construction,6.25,11
+Summer 2019,7,Education,2.841,5
+Summer 2019,8,Government,1.136,2
+Summer 2019,9,Unspecified,0.0,0
+Winter 2020,1,B2B,43.86,100
+Winter 2020,2,Healthcare,15.789,36
+Winter 2020,3,Fintech,14.035,32
+Winter 2020,4,Consumer,12.719,29
+Winter 2020,5,Industrials,7.456,17
+Winter 2020,6,Real Estate and Construction,3.947,9
+Winter 2020,7,Education,2.193,5
+Winter 2020,8,Government,0.0,0
+Winter 2020,9,Unspecified,0.0,0
+Summer 2020,1,B2B,51.196,107
+Summer 2020,2,Healthcare,15.311,32
+Summer 2020,3,Consumer,12.919,27
+Summer 2020,4,Fintech,11.962,25
+Summer 2020,5,Industrials,2.871,6
+Summer 2020,6,Real Estate and Construction,2.392,5
+Summer 2020,7,Education,1.914,4
+Summer 2020,8,Government,1.435,3
+Summer 2020,9,Unspecified,0.0,0
+Winter 2021,1,B2B,48.214,162
+Winter 2021,2,Fintech,15.179,51
+Winter 2021,3,Healthcare,12.202,41
+Winter 2021,4,Consumer,11.607,39
+Winter 2021,5,Industrials,6.845,23
+Winter 2021,6,Education,3.869,13
+Winter 2021,7,Real Estate and Construction,1.786,6
+Winter 2021,8,Government,0.298,1
+Winter 2021,9,Unspecified,0.0,0
+Summer 2021,1,B2B,46.292,181
+Summer 2021,2,Healthcare,16.368,64
+Summer 2021,3,Fintech,16.113,63
+Summer 2021,4,Consumer,9.974,39
+Summer 2021,5,Industrials,5.115,20
+Summer 2021,6,Education,3.836,15
+Summer 2021,7,Real Estate and Construction,2.046,8
+Summer 2021,8,Government,0.256,1
+Summer 2021,9,Unspecified,0.0,0
+Winter 2022,1,B2B,44.975,179
+Winter 2022,2,Fintech,22.613,90
+Winter 2022,3,Healthcare,11.055,44
+Winter 2022,4,Consumer,9.548,38
+Winter 2022,5,Industrials,6.03,24
+Winter 2022,6,Real Estate and Construction,3.518,14
+Winter 2022,7,Education,2.01,8
+Winter 2022,8,Government,0.251,1
+Winter 2022,9,Unspecified,0.0,0
+Summer 2022,1,B2B,51.709,121
+Summer 2022,2,Fintech,18.376,43
+Summer 2022,3,Healthcare,10.256,24
+Summer 2022,4,Consumer,9.402,22
+Summer 2022,5,Industrials,5.983,14
+Summer 2022,6,Real Estate and Construction,3.846,9
+Summer 2022,7,Education,0.427,1
+Summer 2022,8,Government,0.0,0
+Summer 2022,9,Unspecified,0.0,0
+Winter 2023,1,B2B,67.153,184
+Winter 2023,2,Fintech,11.679,32
+Winter 2023,3,Healthcare,8.394,23
+Winter 2023,4,Consumer,7.664,21
+Winter 2023,5,Industrials,2.19,6
+Winter 2023,6,Real Estate and Construction,1.46,4
+Winter 2023,7,Education,1.095,3
+Winter 2023,8,Government,0.365,1
+Winter 2023,9,Unspecified,0.0,0
+Summer 2023,1,B2B,69.091,152
+Summer 2023,2,Healthcare,12.727,28
+Summer 2023,3,Fintech,7.273,16
+Summer 2023,4,Consumer,4.091,9
+Summer 2023,5,Industrials,2.727,6
+Summer 2023,6,Real Estate and Construction,2.727,6
+Summer 2023,7,Education,1.364,3
+Summer 2023,8,Government,0.0,0
+Summer 2023,9,Unspecified,0.0,0
+Winter 2024,1,B2B,62.903,156
+Winter 2024,2,Healthcare,11.694,29
+Winter 2024,3,Consumer,11.29,28
+Winter 2024,4,Fintech,7.258,18
+Winter 2024,5,Industrials,4.032,10
+Winter 2024,6,Real Estate and Construction,1.21,3
+Winter 2024,7,Education,1.21,3
+Winter 2024,8,Government,0.403,1
+Winter 2024,9,Unspecified,0.0,0
+Summer 2024,1,B2B,64.516,160
+Summer 2024,2,Industrials,10.081,25
+Summer 2024,3,Healthcare,9.274,23
+Summer 2024,4,Consumer,7.661,19
+Summer 2024,5,Fintech,4.839,12
+Summer 2024,6,Real Estate and Construction,1.613,4
+Summer 2024,7,Government,1.613,4
+Summer 2024,8,Education,0.403,1
+Summer 2024,9,Unspecified,0.0,0
+Fall 2024,1,B2B,60.638,57
+Fall 2024,2,Consumer,11.702,11
+Fall 2024,3,Healthcare,9.574,9
+Fall 2024,4,Fintech,6.383,6
+Fall 2024,5,Industrials,5.319,5
+Fall 2024,6,Real Estate and Construction,4.255,4
+Fall 2024,7,Education,1.064,1
+Fall 2024,8,Government,1.064,1
+Fall 2024,9,Unspecified,0.0,0
+Winter 2025,1,B2B,62.651,104
+Winter 2025,2,Industrials,11.446,19
+Winter 2025,3,Fintech,7.229,12
+Winter 2025,4,Healthcare,6.627,11
+Winter 2025,5,Consumer,5.422,9
+Winter 2025,6,Education,3.012,5
+Winter 2025,7,Government,2.41,4
+Winter 2025,8,Real Estate and Construction,1.205,2
+Winter 2025,9,Unspecified,0.0,0
+Spring 2025,1,B2B,67.832,97
+Spring 2025,2,Industrials,10.49,15
+Spring 2025,3,Healthcare,7.692,11
+Spring 2025,4,Consumer,4.895,7
+Spring 2025,5,Fintech,4.895,7
+Spring 2025,6,Education,2.098,3
+Spring 2025,7,Government,1.399,2
+Spring 2025,8,Real Estate and Construction,0.699,1
+Spring 2025,9,Unspecified,0.0,0
+Summer 2025,1,B2B,67.47,112
+Summer 2025,2,Industrials,8.434,14
+Summer 2025,3,Consumer,7.229,12
+Summer 2025,4,Healthcare,7.229,12
+Summer 2025,5,Fintech,5.422,9
+Summer 2025,6,Real Estate and Construction,2.41,4
+Summer 2025,7,Education,1.205,2
+Summer 2025,8,Government,0.602,1
+Summer 2025,9,Unspecified,0.0,0
+Fall 2025,1,B2B,60.959,89
+Fall 2025,2,Consumer,11.644,17
+Fall 2025,3,Industrials,9.589,14
+Fall 2025,4,Healthcare,7.534,11
+Fall 2025,5,Fintech,5.479,8
+Fall 2025,6,Real Estate and Construction,3.425,5
+Fall 2025,7,Government,1.37,2
+Fall 2025,8,Education,0.0,0
+Fall 2025,9,Unspecified,0.0,0
+Winter 2026,1,B2B,63.317,126
+Winter 2026,2,Industrials,14.07,28
+Winter 2026,3,Fintech,9.045,18
+Winter 2026,4,Healthcare,8.04,16
+Winter 2026,5,Consumer,4.02,8
+Winter 2026,6,Real Estate and Construction,1.508,3
+Winter 2026,7,Education,0.0,0
+Winter 2026,8,Government,0.0,0
+Winter 2026,9,Unspecified,0.0,0
+Spring 2026,1,B2B,58.462,114
+Spring 2026,2,Industrials,12.821,25
+Spring 2026,3,Fintech,10.769,21
+Spring 2026,4,Healthcare,8.718,17
+Spring 2026,5,Consumer,6.667,13
+Spring 2026,6,Real Estate and Construction,2.051,4
+Spring 2026,7,Government,0.513,1
+Spring 2026,8,Education,0.0,0
+Spring 2026,9,Unspecified,0.0,0
+Summer 2026,1,B2B,51.915,122
+Summer 2026,2,Industrials,23.83,56
+Summer 2026,3,Healthcare,8.936,21
+Summer 2026,4,Fintech,6.809,16
+Summer 2026,5,Consumer,4.681,11
+Summer 2026,6,Real Estate and Construction,2.553,6
+Summer 2026,7,Government,0.851,2
+Summer 2026,8,Education,0.426,1
+Summer 2026,9,Unspecified,0.0,0
+Fall 2026,1,B2B,51.429,18
+Fall 2026,2,Industrials,22.857,8
+Fall 2026,3,Consumer,14.286,5
+Fall 2026,4,Fintech,8.571,3
+Fall 2026,5,Government,2.857,1
+Fall 2026,6,Education,0.0,0
+Fall 2026,7,Healthcare,0.0,0
+Fall 2026,8,Real Estate and Construction,0.0,0
+Fall 2026,9,Unspecified,0.0,0
+Winter 2027,1,B2B,100.0,1
+Winter 2027,2,Consumer,0.0,0
+Winter 2027,3,Education,0.0,0
+Winter 2027,4,Fintech,0.0,0
+Winter 2027,5,Government,0.0,0
+Winter 2027,6,Healthcare,0.0,0
+Winter 2027,7,Industrials,0.0,0
+Winter 2027,8,Real Estate and Construction,0.0,0
+Winter 2027,9,Unspecified,0.0,0

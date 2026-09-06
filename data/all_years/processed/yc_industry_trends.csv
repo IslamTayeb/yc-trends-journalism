@@ -1,0 +1,442 @@
+industry,batch,count,share_pct,batch_code,year,batch_order,total_companies,is_partial_batch
+B2B,Summer 2005,5,55.556,S05,2005,20052,9,True
+B2B,Winter 2006,4,57.143,W06,2006,20060,7,True
+B2B,Summer 2006,2,20.0,S06,2006,20062,10,True
+B2B,Winter 2007,3,23.077,W07,2007,20070,13,True
+B2B,Summer 2007,7,36.842,S07,2007,20072,19,True
+B2B,Winter 2008,12,57.143,W08,2008,20080,21,True
+B2B,Summer 2008,8,36.364,S08,2008,20082,22,True
+B2B,Winter 2009,5,31.25,W09,2009,20090,16,True
+B2B,Summer 2009,9,34.615,S09,2009,20092,26,True
+B2B,Winter 2010,17,62.963,W10,2010,20100,27,True
+B2B,Summer 2010,16,44.444,S10,2010,20102,36,True
+B2B,Winter 2011,23,51.111,W11,2011,20110,45,True
+B2B,Summer 2011,30,50.0,S11,2011,20112,60,False
+B2B,Winter 2012,30,45.455,W12,2012,20120,66,False
+B2B,Summer 2012,43,51.807,S12,2012,20122,83,False
+B2B,Winter 2013,25,54.348,W13,2013,20130,46,True
+B2B,Summer 2013,26,50.0,S13,2013,20132,52,False
+B2B,Winter 2014,37,50.0,W14,2014,20140,74,False
+B2B,Summer 2014,27,34.615,S14,2014,20142,78,False
+B2B,Winter 2015,44,40.0,W15,2015,20150,110,False
+B2B,Summer 2015,41,39.423,S15,2015,20152,104,False
+B2B,Winter 2016,52,42.623,W16,2016,20160,122,False
+B2B,Summer 2016,31,30.392,S16,2016,20162,102,False
+B2B,Winter 2017,41,35.345,W17,2017,20170,116,False
+B2B,Summer 2017,27,21.6,S17,2017,20172,125,False
+B2B,Winter 2018,55,37.671,W18,2018,20180,146,False
+B2B,Summer 2018,45,34.351,S18,2018,20182,131,False
+B2B,Winter 2019,81,41.753,W19,2019,20190,194,False
+B2B,Summer 2019,70,39.773,S19,2019,20192,176,False
+B2B,Winter 2020,100,43.86,W20,2020,20200,228,False
+B2B,Summer 2020,107,51.196,S20,2020,20202,209,False
+B2B,Winter 2021,162,48.214,W21,2021,20210,336,False
+B2B,Summer 2021,181,46.292,S21,2021,20212,391,False
+B2B,Winter 2022,179,44.975,W22,2022,20220,398,False
+B2B,Summer 2022,121,51.709,S22,2022,20222,234,False
+B2B,Winter 2023,184,67.153,W23,2023,20230,274,False
+B2B,Summer 2023,152,69.091,S23,2023,20232,220,False
+B2B,Winter 2024,156,62.903,W24,2024,20240,248,False
+B2B,Summer 2024,160,64.516,S24,2024,20242,248,False
+B2B,Fall 2024,57,60.638,F24,2024,20243,94,False
+B2B,Winter 2025,104,62.651,W25,2025,20250,166,False
+B2B,Spring 2025,97,67.832,X25,2025,20251,143,False
+B2B,Summer 2025,112,67.47,S25,2025,20252,166,False
+B2B,Fall 2025,89,60.959,F25,2025,20253,146,False
+B2B,Winter 2026,126,63.317,W26,2026,20260,199,False
+B2B,Spring 2026,114,58.462,X26,2026,20261,195,False
+B2B,Summer 2026,122,51.915,S26,2026,20262,235,False
+B2B,Fall 2026,18,51.429,F26,2026,20263,35,True
+B2B,Winter 2027,1,100.0,W27,2027,20270,1,True
+Consumer,Summer 2005,3,33.333,S05,2005,20052,9,True
+Consumer,Winter 2006,3,42.857,W06,2006,20060,7,True
+Consumer,Summer 2006,8,80.0,S06,2006,20062,10,True
+Consumer,Winter 2007,7,53.846,W07,2007,20070,13,True
+Consumer,Summer 2007,12,63.158,S07,2007,20072,19,True
+Consumer,Winter 2008,8,38.095,W08,2008,20080,21,True
+Consumer,Summer 2008,14,63.636,S08,2008,20082,22,True
+Consumer,Winter 2009,9,56.25,W09,2009,20090,16,True
+Consumer,Summer 2009,12,46.154,S09,2009,20092,26,True
+Consumer,Winter 2010,9,33.333,W10,2010,20100,27,True
+Consumer,Summer 2010,16,44.444,S10,2010,20102,36,True
+Consumer,Winter 2011,14,31.111,W11,2011,20110,45,True
+Consumer,Summer 2011,18,30.0,S11,2011,20112,60,False
+Consumer,Winter 2012,21,31.818,W12,2012,20120,66,False
+Consumer,Summer 2012,27,32.53,S12,2012,20122,83,False
+Consumer,Winter 2013,12,26.087,W13,2013,20130,46,True
+Consumer,Summer 2013,15,28.846,S13,2013,20132,52,False
+Consumer,Winter 2014,18,24.324,W14,2014,20140,74,False
+Consumer,Summer 2014,22,28.205,S14,2014,20142,78,False
+Consumer,Winter 2015,21,19.091,W15,2015,20150,110,False
+Consumer,Summer 2015,25,24.038,S15,2015,20152,104,False
+Consumer,Winter 2016,22,18.033,W16,2016,20160,122,False
+Consumer,Summer 2016,32,31.373,S16,2016,20162,102,False
+Consumer,Winter 2017,22,18.966,W17,2017,20170,116,False
+Consumer,Summer 2017,33,26.4,S17,2017,20172,125,False
+Consumer,Winter 2018,35,23.973,W18,2018,20180,146,False
+Consumer,Summer 2018,18,13.74,S18,2018,20182,131,False
+Consumer,Winter 2019,37,19.072,W19,2019,20190,194,False
+Consumer,Summer 2019,27,15.341,S19,2019,20192,176,False
+Consumer,Winter 2020,29,12.719,W20,2020,20200,228,False
+Consumer,Summer 2020,27,12.919,S20,2020,20202,209,False
+Consumer,Winter 2021,39,11.607,W21,2021,20210,336,False
+Consumer,Summer 2021,39,9.974,S21,2021,20212,391,False
+Consumer,Winter 2022,38,9.548,W22,2022,20220,398,False
+Consumer,Summer 2022,22,9.402,S22,2022,20222,234,False
+Consumer,Winter 2023,21,7.664,W23,2023,20230,274,False
+Consumer,Summer 2023,9,4.091,S23,2023,20232,220,False
+Consumer,Winter 2024,28,11.29,W24,2024,20240,248,False
+Consumer,Summer 2024,19,7.661,S24,2024,20242,248,False
+Consumer,Fall 2024,11,11.702,F24,2024,20243,94,False
+Consumer,Winter 2025,9,5.422,W25,2025,20250,166,False
+Consumer,Spring 2025,7,4.895,X25,2025,20251,143,False
+Consumer,Summer 2025,12,7.229,S25,2025,20252,166,False
+Consumer,Fall 2025,17,11.644,F25,2025,20253,146,False
+Consumer,Winter 2026,8,4.02,W26,2026,20260,199,False
+Consumer,Spring 2026,13,6.667,X26,2026,20261,195,False
+Consumer,Summer 2026,11,4.681,S26,2026,20262,235,False
+Consumer,Fall 2026,5,14.286,F26,2026,20263,35,True
+Consumer,Winter 2027,0,0.0,W27,2027,20270,1,True
+Education,Summer 2005,0,0.0,S05,2005,20052,9,True
+Education,Winter 2006,0,0.0,W06,2006,20060,7,True
+Education,Summer 2006,0,0.0,S06,2006,20062,10,True
+Education,Winter 2007,0,0.0,W07,2007,20070,13,True
+Education,Summer 2007,0,0.0,S07,2007,20072,19,True
+Education,Winter 2008,0,0.0,W08,2008,20080,21,True
+Education,Summer 2008,0,0.0,S08,2008,20082,22,True
+Education,Winter 2009,0,0.0,W09,2009,20090,16,True
+Education,Summer 2009,1,3.846,S09,2009,20092,26,True
+Education,Winter 2010,0,0.0,W10,2010,20100,27,True
+Education,Summer 2010,1,2.778,S10,2010,20102,36,True
+Education,Winter 2011,2,4.444,W11,2011,20110,45,True
+Education,Summer 2011,3,5.0,S11,2011,20112,60,False
+Education,Winter 2012,2,3.03,W12,2012,20120,66,False
+Education,Summer 2012,5,6.024,S12,2012,20122,83,False
+Education,Winter 2013,0,0.0,W13,2013,20130,46,True
+Education,Summer 2013,2,3.846,S13,2013,20132,52,False
+Education,Winter 2014,2,2.703,W14,2014,20140,74,False
+Education,Summer 2014,0,0.0,S14,2014,20142,78,False
+Education,Winter 2015,0,0.0,W15,2015,20150,110,False
+Education,Summer 2015,3,2.885,S15,2015,20152,104,False
+Education,Winter 2016,2,1.639,W16,2016,20160,122,False
+Education,Summer 2016,4,3.922,S16,2016,20162,102,False
+Education,Winter 2017,2,1.724,W17,2017,20170,116,False
+Education,Summer 2017,6,4.8,S17,2017,20172,125,False
+Education,Winter 2018,4,2.74,W18,2018,20180,146,False
+Education,Summer 2018,4,3.053,S18,2018,20182,131,False
+Education,Winter 2019,7,3.608,W19,2019,20190,194,False
+Education,Summer 2019,5,2.841,S19,2019,20192,176,False
+Education,Winter 2020,5,2.193,W20,2020,20200,228,False
+Education,Summer 2020,4,1.914,S20,2020,20202,209,False
+Education,Winter 2021,13,3.869,W21,2021,20210,336,False
+Education,Summer 2021,15,3.836,S21,2021,20212,391,False
+Education,Winter 2022,8,2.01,W22,2022,20220,398,False
+Education,Summer 2022,1,0.427,S22,2022,20222,234,False
+Education,Winter 2023,3,1.095,W23,2023,20230,274,False
+Education,Summer 2023,3,1.364,S23,2023,20232,220,False
+Education,Winter 2024,3,1.21,W24,2024,20240,248,False
+Education,Summer 2024,1,0.403,S24,2024,20242,248,False
+Education,Fall 2024,1,1.064,F24,2024,20243,94,False
+Education,Winter 2025,5,3.012,W25,2025,20250,166,False
+Education,Spring 2025,3,2.098,X25,2025,20251,143,False
+Education,Summer 2025,2,1.205,S25,2025,20252,166,False
+Education,Fall 2025,0,0.0,F25,2025,20253,146,False
+Education,Winter 2026,0,0.0,W26,2026,20260,199,False
+Education,Spring 2026,0,0.0,X26,2026,20261,195,False
+Education,Summer 2026,1,0.426,S26,2026,20262,235,False
+Education,Fall 2026,0,0.0,F26,2026,20263,35,True
+Education,Winter 2027,0,0.0,W27,2027,20270,1,True
+Fintech,Summer 2005,1,11.111,S05,2005,20052,9,True
+Fintech,Winter 2006,0,0.0,W06,2006,20060,7,True
+Fintech,Summer 2006,0,0.0,S06,2006,20062,10,True
+Fintech,Winter 2007,1,7.692,W07,2007,20070,13,True
+Fintech,Summer 2007,0,0.0,S07,2007,20072,19,True
+Fintech,Winter 2008,1,4.762,W08,2008,20080,21,True
+Fintech,Summer 2008,0,0.0,S08,2008,20082,22,True
+Fintech,Winter 2009,0,0.0,W09,2009,20090,16,True
+Fintech,Summer 2009,2,7.692,S09,2009,20092,26,True
+Fintech,Winter 2010,0,0.0,W10,2010,20100,27,True
+Fintech,Summer 2010,2,5.556,S10,2010,20102,36,True
+Fintech,Winter 2011,3,6.667,W11,2011,20110,45,True
+Fintech,Summer 2011,4,6.667,S11,2011,20112,60,False
+Fintech,Winter 2012,5,7.576,W12,2012,20120,66,False
+Fintech,Summer 2012,3,3.614,S12,2012,20122,83,False
+Fintech,Winter 2013,2,4.348,W13,2013,20130,46,True
+Fintech,Summer 2013,4,7.692,S13,2013,20132,52,False
+Fintech,Winter 2014,4,5.405,W14,2014,20140,74,False
+Fintech,Summer 2014,10,12.821,S14,2014,20142,78,False
+Fintech,Winter 2015,9,8.182,W15,2015,20150,110,False
+Fintech,Summer 2015,9,8.654,S15,2015,20152,104,False
+Fintech,Winter 2016,10,8.197,W16,2016,20160,122,False
+Fintech,Summer 2016,7,6.863,S16,2016,20162,102,False
+Fintech,Winter 2017,12,10.345,W17,2017,20170,116,False
+Fintech,Summer 2017,14,11.2,S17,2017,20172,125,False
+Fintech,Winter 2018,11,7.534,W18,2018,20180,146,False
+Fintech,Summer 2018,14,10.687,S18,2018,20182,131,False
+Fintech,Winter 2019,22,11.34,W19,2019,20190,194,False
+Fintech,Summer 2019,25,14.205,S19,2019,20192,176,False
+Fintech,Winter 2020,32,14.035,W20,2020,20200,228,False
+Fintech,Summer 2020,25,11.962,S20,2020,20202,209,False
+Fintech,Winter 2021,51,15.179,W21,2021,20210,336,False
+Fintech,Summer 2021,63,16.113,S21,2021,20212,391,False
+Fintech,Winter 2022,90,22.613,W22,2022,20220,398,False
+Fintech,Summer 2022,43,18.376,S22,2022,20222,234,False
+Fintech,Winter 2023,32,11.679,W23,2023,20230,274,False
+Fintech,Summer 2023,16,7.273,S23,2023,20232,220,False
+Fintech,Winter 2024,18,7.258,W24,2024,20240,248,False
+Fintech,Summer 2024,12,4.839,S24,2024,20242,248,False
+Fintech,Fall 2024,6,6.383,F24,2024,20243,94,False
+Fintech,Winter 2025,12,7.229,W25,2025,20250,166,False
+Fintech,Spring 2025,7,4.895,X25,2025,20251,143,False
+Fintech,Summer 2025,9,5.422,S25,2025,20252,166,False
+Fintech,Fall 2025,8,5.479,F25,2025,20253,146,False
+Fintech,Winter 2026,18,9.045,W26,2026,20260,199,False
+Fintech,Spring 2026,21,10.769,X26,2026,20261,195,False
+Fintech,Summer 2026,16,6.809,S26,2026,20262,235,False
+Fintech,Fall 2026,3,8.571,F26,2026,20263,35,True
+Fintech,Winter 2027,0,0.0,W27,2027,20270,1,True
+Government,Summer 2005,0,0.0,S05,2005,20052,9,True
+Government,Winter 2006,0,0.0,W06,2006,20060,7,True
+Government,Summer 2006,0,0.0,S06,2006,20062,10,True
+Government,Winter 2007,0,0.0,W07,2007,20070,13,True
+Government,Summer 2007,0,0.0,S07,2007,20072,19,True
+Government,Winter 2008,0,0.0,W08,2008,20080,21,True
+Government,Summer 2008,0,0.0,S08,2008,20082,22,True
+Government,Winter 2009,0,0.0,W09,2009,20090,16,True
+Government,Summer 2009,0,0.0,S09,2009,20092,26,True
+Government,Winter 2010,0,0.0,W10,2010,20100,27,True
+Government,Summer 2010,0,0.0,S10,2010,20102,36,True
+Government,Winter 2011,0,0.0,W11,2011,20110,45,True
+Government,Summer 2011,0,0.0,S11,2011,20112,60,False
+Government,Winter 2012,0,0.0,W12,2012,20120,66,False
+Government,Summer 2012,0,0.0,S12,2012,20122,83,False
+Government,Winter 2013,0,0.0,W13,2013,20130,46,True
+Government,Summer 2013,0,0.0,S13,2013,20132,52,False
+Government,Winter 2014,0,0.0,W14,2014,20140,74,False
+Government,Summer 2014,1,1.282,S14,2014,20142,78,False
+Government,Winter 2015,3,2.727,W15,2015,20150,110,False
+Government,Summer 2015,0,0.0,S15,2015,20152,104,False
+Government,Winter 2016,1,0.82,W16,2016,20160,122,False
+Government,Summer 2016,1,0.98,S16,2016,20162,102,False
+Government,Winter 2017,1,0.862,W17,2017,20170,116,False
+Government,Summer 2017,4,3.2,S17,2017,20172,125,False
+Government,Winter 2018,2,1.37,W18,2018,20180,146,False
+Government,Summer 2018,1,0.763,S18,2018,20182,131,False
+Government,Winter 2019,2,1.031,W19,2019,20190,194,False
+Government,Summer 2019,2,1.136,S19,2019,20192,176,False
+Government,Winter 2020,0,0.0,W20,2020,20200,228,False
+Government,Summer 2020,3,1.435,S20,2020,20202,209,False
+Government,Winter 2021,1,0.298,W21,2021,20210,336,False
+Government,Summer 2021,1,0.256,S21,2021,20212,391,False
+Government,Winter 2022,1,0.251,W22,2022,20220,398,False
+Government,Summer 2022,0,0.0,S22,2022,20222,234,False
+Government,Winter 2023,1,0.365,W23,2023,20230,274,False
+Government,Summer 2023,0,0.0,S23,2023,20232,220,False
+Government,Winter 2024,1,0.403,W24,2024,20240,248,False
+Government,Summer 2024,4,1.613,S24,2024,20242,248,False
+Government,Fall 2024,1,1.064,F24,2024,20243,94,False
+Government,Winter 2025,4,2.41,W25,2025,20250,166,False
+Government,Spring 2025,2,1.399,X25,2025,20251,143,False
+Government,Summer 2025,1,0.602,S25,2025,20252,166,False
+Government,Fall 2025,2,1.37,F25,2025,20253,146,False
+Government,Winter 2026,0,0.0,W26,2026,20260,199,False
+Government,Spring 2026,1,0.513,X26,2026,20261,195,False
+Government,Summer 2026,2,0.851,S26,2026,20262,235,False
+Government,Fall 2026,1,2.857,F26,2026,20263,35,True
+Government,Winter 2027,0,0.0,W27,2027,20270,1,True
+Healthcare,Summer 2005,0,0.0,S05,2005,20052,9,True
+Healthcare,Winter 2006,0,0.0,W06,2006,20060,7,True
+Healthcare,Summer 2006,0,0.0,S06,2006,20062,10,True
+Healthcare,Winter 2007,0,0.0,W07,2007,20070,13,True
+Healthcare,Summer 2007,0,0.0,S07,2007,20072,19,True
+Healthcare,Winter 2008,0,0.0,W08,2008,20080,21,True
+Healthcare,Summer 2008,0,0.0,S08,2008,20082,22,True
+Healthcare,Winter 2009,0,0.0,W09,2009,20090,16,True
+Healthcare,Summer 2009,0,0.0,S09,2009,20092,26,True
+Healthcare,Winter 2010,0,0.0,W10,2010,20100,27,True
+Healthcare,Summer 2010,0,0.0,S10,2010,20102,36,True
+Healthcare,Winter 2011,2,4.444,W11,2011,20110,45,True
+Healthcare,Summer 2011,3,5.0,S11,2011,20112,60,False
+Healthcare,Winter 2012,2,3.03,W12,2012,20120,66,False
+Healthcare,Summer 2012,4,4.819,S12,2012,20122,83,False
+Healthcare,Winter 2013,6,13.043,W13,2013,20130,46,True
+Healthcare,Summer 2013,4,7.692,S13,2013,20132,52,False
+Healthcare,Winter 2014,2,2.703,W14,2014,20140,74,False
+Healthcare,Summer 2014,10,12.821,S14,2014,20142,78,False
+Healthcare,Winter 2015,20,18.182,W15,2015,20150,110,False
+Healthcare,Summer 2015,11,10.577,S15,2015,20152,104,False
+Healthcare,Winter 2016,19,15.574,W16,2016,20160,122,False
+Healthcare,Summer 2016,11,10.784,S16,2016,20162,102,False
+Healthcare,Winter 2017,18,15.517,W17,2017,20170,116,False
+Healthcare,Summer 2017,19,15.2,S17,2017,20172,125,False
+Healthcare,Winter 2018,28,19.178,W18,2018,20180,146,False
+Healthcare,Summer 2018,37,28.244,S18,2018,20182,131,False
+Healthcare,Winter 2019,25,12.887,W19,2019,20190,194,False
+Healthcare,Summer 2019,24,13.636,S19,2019,20192,176,False
+Healthcare,Winter 2020,36,15.789,W20,2020,20200,228,False
+Healthcare,Summer 2020,32,15.311,S20,2020,20202,209,False
+Healthcare,Winter 2021,41,12.202,W21,2021,20210,336,False
+Healthcare,Summer 2021,64,16.368,S21,2021,20212,391,False
+Healthcare,Winter 2022,44,11.055,W22,2022,20220,398,False
+Healthcare,Summer 2022,24,10.256,S22,2022,20222,234,False
+Healthcare,Winter 2023,23,8.394,W23,2023,20230,274,False
+Healthcare,Summer 2023,28,12.727,S23,2023,20232,220,False
+Healthcare,Winter 2024,29,11.694,W24,2024,20240,248,False
+Healthcare,Summer 2024,23,9.274,S24,2024,20242,248,False
+Healthcare,Fall 2024,9,9.574,F24,2024,20243,94,False
+Healthcare,Winter 2025,11,6.627,W25,2025,20250,166,False
+Healthcare,Spring 2025,11,7.692,X25,2025,20251,143,False
+Healthcare,Summer 2025,12,7.229,S25,2025,20252,166,False
+Healthcare,Fall 2025,11,7.534,F25,2025,20253,146,False
+Healthcare,Winter 2026,16,8.04,W26,2026,20260,199,False
+Healthcare,Spring 2026,17,8.718,X26,2026,20261,195,False
+Healthcare,Summer 2026,21,8.936,S26,2026,20262,235,False
+Healthcare,Fall 2026,0,0.0,F26,2026,20263,35,True
+Healthcare,Winter 2027,0,0.0,W27,2027,20270,1,True
+Industrials,Summer 2005,0,0.0,S05,2005,20052,9,True
+Industrials,Winter 2006,0,0.0,W06,2006,20060,7,True
+Industrials,Summer 2006,0,0.0,S06,2006,20062,10,True
+Industrials,Winter 2007,2,15.385,W07,2007,20070,13,True
+Industrials,Summer 2007,0,0.0,S07,2007,20072,19,True
+Industrials,Winter 2008,0,0.0,W08,2008,20080,21,True
+Industrials,Summer 2008,0,0.0,S08,2008,20082,22,True
+Industrials,Winter 2009,0,0.0,W09,2009,20090,16,True
+Industrials,Summer 2009,0,0.0,S09,2009,20092,26,True
+Industrials,Winter 2010,0,0.0,W10,2010,20100,27,True
+Industrials,Summer 2010,0,0.0,S10,2010,20102,36,True
+Industrials,Winter 2011,0,0.0,W11,2011,20110,45,True
+Industrials,Summer 2011,0,0.0,S11,2011,20112,60,False
+Industrials,Winter 2012,3,4.545,W12,2012,20120,66,False
+Industrials,Summer 2012,1,1.205,S12,2012,20122,83,False
+Industrials,Winter 2013,1,2.174,W13,2013,20130,46,True
+Industrials,Summer 2013,0,0.0,S13,2013,20132,52,False
+Industrials,Winter 2014,5,6.757,W14,2014,20140,74,False
+Industrials,Summer 2014,6,7.692,S14,2014,20142,78,False
+Industrials,Winter 2015,4,3.636,W15,2015,20150,110,False
+Industrials,Summer 2015,10,9.615,S15,2015,20152,104,False
+Industrials,Winter 2016,10,8.197,W16,2016,20160,122,False
+Industrials,Summer 2016,10,9.804,S16,2016,20162,102,False
+Industrials,Winter 2017,12,10.345,W17,2017,20170,116,False
+Industrials,Summer 2017,16,12.8,S17,2017,20172,125,False
+Industrials,Winter 2018,8,5.479,W18,2018,20180,146,False
+Industrials,Summer 2018,9,6.87,S18,2018,20182,131,False
+Industrials,Winter 2019,15,7.732,W19,2019,20190,194,False
+Industrials,Summer 2019,12,6.818,S19,2019,20192,176,False
+Industrials,Winter 2020,17,7.456,W20,2020,20200,228,False
+Industrials,Summer 2020,6,2.871,S20,2020,20202,209,False
+Industrials,Winter 2021,23,6.845,W21,2021,20210,336,False
+Industrials,Summer 2021,20,5.115,S21,2021,20212,391,False
+Industrials,Winter 2022,24,6.03,W22,2022,20220,398,False
+Industrials,Summer 2022,14,5.983,S22,2022,20222,234,False
+Industrials,Winter 2023,6,2.19,W23,2023,20230,274,False
+Industrials,Summer 2023,6,2.727,S23,2023,20232,220,False
+Industrials,Winter 2024,10,4.032,W24,2024,20240,248,False
+Industrials,Summer 2024,25,10.081,S24,2024,20242,248,False
+Industrials,Fall 2024,5,5.319,F24,2024,20243,94,False
+Industrials,Winter 2025,19,11.446,W25,2025,20250,166,False
+Industrials,Spring 2025,15,10.49,X25,2025,20251,143,False
+Industrials,Summer 2025,14,8.434,S25,2025,20252,166,False
+Industrials,Fall 2025,14,9.589,F25,2025,20253,146,False
+Industrials,Winter 2026,28,14.07,W26,2026,20260,199,False
+Industrials,Spring 2026,25,12.821,X26,2026,20261,195,False
+Industrials,Summer 2026,56,23.83,S26,2026,20262,235,False
+Industrials,Fall 2026,8,22.857,F26,2026,20263,35,True
+Industrials,Winter 2027,0,0.0,W27,2027,20270,1,True
+Real Estate and Construction,Summer 2005,0,0.0,S05,2005,20052,9,True
+Real Estate and Construction,Winter 2006,0,0.0,W06,2006,20060,7,True
+Real Estate and Construction,Summer 2006,0,0.0,S06,2006,20062,10,True
+Real Estate and Construction,Winter 2007,0,0.0,W07,2007,20070,13,True
+Real Estate and Construction,Summer 2007,0,0.0,S07,2007,20072,19,True
+Real Estate and Construction,Winter 2008,0,0.0,W08,2008,20080,21,True
+Real Estate and Construction,Summer 2008,0,0.0,S08,2008,20082,22,True
+Real Estate and Construction,Winter 2009,2,12.5,W09,2009,20090,16,True
+Real Estate and Construction,Summer 2009,2,7.692,S09,2009,20092,26,True
+Real Estate and Construction,Winter 2010,1,3.704,W10,2010,20100,27,True
+Real Estate and Construction,Summer 2010,1,2.778,S10,2010,20102,36,True
+Real Estate and Construction,Winter 2011,1,2.222,W11,2011,20110,45,True
+Real Estate and Construction,Summer 2011,2,3.333,S11,2011,20112,60,False
+Real Estate and Construction,Winter 2012,3,4.545,W12,2012,20120,66,False
+Real Estate and Construction,Summer 2012,0,0.0,S12,2012,20122,83,False
+Real Estate and Construction,Winter 2013,0,0.0,W13,2013,20130,46,True
+Real Estate and Construction,Summer 2013,1,1.923,S13,2013,20132,52,False
+Real Estate and Construction,Winter 2014,2,2.703,W14,2014,20140,74,False
+Real Estate and Construction,Summer 2014,1,1.282,S14,2014,20142,78,False
+Real Estate and Construction,Winter 2015,6,5.455,W15,2015,20150,110,False
+Real Estate and Construction,Summer 2015,3,2.885,S15,2015,20152,104,False
+Real Estate and Construction,Winter 2016,3,2.459,W16,2016,20160,122,False
+Real Estate and Construction,Summer 2016,4,3.922,S16,2016,20162,102,False
+Real Estate and Construction,Winter 2017,5,4.31,W17,2017,20170,116,False
+Real Estate and Construction,Summer 2017,6,4.8,S17,2017,20172,125,False
+Real Estate and Construction,Winter 2018,3,2.055,W18,2018,20180,146,False
+Real Estate and Construction,Summer 2018,3,2.29,S18,2018,20182,131,False
+Real Estate and Construction,Winter 2019,5,2.577,W19,2019,20190,194,False
+Real Estate and Construction,Summer 2019,11,6.25,S19,2019,20192,176,False
+Real Estate and Construction,Winter 2020,9,3.947,W20,2020,20200,228,False
+Real Estate and Construction,Summer 2020,5,2.392,S20,2020,20202,209,False
+Real Estate and Construction,Winter 2021,6,1.786,W21,2021,20210,336,False
+Real Estate and Construction,Summer 2021,8,2.046,S21,2021,20212,391,False
+Real Estate and Construction,Winter 2022,14,3.518,W22,2022,20220,398,False
+Real Estate and Construction,Summer 2022,9,3.846,S22,2022,20222,234,False
+Real Estate and Construction,Winter 2023,4,1.46,W23,2023,20230,274,False
+Real Estate and Construction,Summer 2023,6,2.727,S23,2023,20232,220,False
+Real Estate and Construction,Winter 2024,3,1.21,W24,2024,20240,248,False
+Real Estate and Construction,Summer 2024,4,1.613,S24,2024,20242,248,False
+Real Estate and Construction,Fall 2024,4,4.255,F24,2024,20243,94,False
+Real Estate and Construction,Winter 2025,2,1.205,W25,2025,20250,166,False
+Real Estate and Construction,Spring 2025,1,0.699,X25,2025,20251,143,False
+Real Estate and Construction,Summer 2025,4,2.41,S25,2025,20252,166,False
+Real Estate and Construction,Fall 2025,5,3.425,F25,2025,20253,146,False
+Real Estate and Construction,Winter 2026,3,1.508,W26,2026,20260,199,False
+Real Estate and Construction,Spring 2026,4,2.051,X26,2026,20261,195,False
+Real Estate and Construction,Summer 2026,6,2.553,S26,2026,20262,235,False
+Real Estate and Construction,Fall 2026,0,0.0,F26,2026,20263,35,True
+Real Estate and Construction,Winter 2027,0,0.0,W27,2027,20270,1,True
+Unspecified,Summer 2005,0,0.0,S05,2005,20052,9,True
+Unspecified,Winter 2006,0,0.0,W06,2006,20060,7,True
+Unspecified,Summer 2006,0,0.0,S06,2006,20062,10,True
+Unspecified,Winter 2007,0,0.0,W07,2007,20070,13,True
+Unspecified,Summer 2007,0,0.0,S07,2007,20072,19,True
+Unspecified,Winter 2008,0,0.0,W08,2008,20080,21,True
+Unspecified,Summer 2008,0,0.0,S08,2008,20082,22,True
+Unspecified,Winter 2009,0,0.0,W09,2009,20090,16,True
+Unspecified,Summer 2009,0,0.0,S09,2009,20092,26,True
+Unspecified,Winter 2010,0,0.0,W10,2010,20100,27,True
+Unspecified,Summer 2010,0,0.0,S10,2010,20102,36,True
+Unspecified,Winter 2011,0,0.0,W11,2011,20110,45,True
+Unspecified,Summer 2011,0,0.0,S11,2011,20112,60,False
+Unspecified,Winter 2012,0,0.0,W12,2012,20120,66,False
+Unspecified,Summer 2012,0,0.0,S12,2012,20122,83,False
+Unspecified,Winter 2013,0,0.0,W13,2013,20130,46,True
+Unspecified,Summer 2013,0,0.0,S13,2013,20132,52,False
+Unspecified,Winter 2014,4,5.405,W14,2014,20140,74,False
+Unspecified,Summer 2014,1,1.282,S14,2014,20142,78,False
+Unspecified,Winter 2015,3,2.727,W15,2015,20150,110,False
+Unspecified,Summer 2015,2,1.923,S15,2015,20152,104,False
+Unspecified,Winter 2016,3,2.459,W16,2016,20160,122,False
+Unspecified,Summer 2016,2,1.961,S16,2016,20162,102,False
+Unspecified,Winter 2017,3,2.586,W17,2017,20170,116,False
+Unspecified,Summer 2017,0,0.0,S17,2017,20172,125,False
+Unspecified,Winter 2018,0,0.0,W18,2018,20180,146,False
+Unspecified,Summer 2018,0,0.0,S18,2018,20182,131,False
+Unspecified,Winter 2019,0,0.0,W19,2019,20190,194,False
+Unspecified,Summer 2019,0,0.0,S19,2019,20192,176,False
+Unspecified,Winter 2020,0,0.0,W20,2020,20200,228,False
+Unspecified,Summer 2020,0,0.0,S20,2020,20202,209,False
+Unspecified,Winter 2021,0,0.0,W21,2021,20210,336,False
+Unspecified,Summer 2021,0,0.0,S21,2021,20212,391,False
+Unspecified,Winter 2022,0,0.0,W22,2022,20220,398,False
+Unspecified,Summer 2022,0,0.0,S22,2022,20222,234,False
+Unspecified,Winter 2023,0,0.0,W23,2023,20230,274,False
+Unspecified,Summer 2023,0,0.0,S23,2023,20232,220,False
+Unspecified,Winter 2024,0,0.0,W24,2024,20240,248,False
+Unspecified,Summer 2024,0,0.0,S24,2024,20242,248,False
+Unspecified,Fall 2024,0,0.0,F24,2024,20243,94,False
+Unspecified,Winter 2025,0,0.0,W25,2025,20250,166,False
+Unspecified,Spring 2025,0,0.0,X25,2025,20251,143,False
+Unspecified,Summer 2025,0,0.0,S25,2025,20252,166,False
+Unspecified,Fall 2025,0,0.0,F25,2025,20253,146,False
+Unspecified,Winter 2026,0,0.0,W26,2026,20260,199,False
+Unspecified,Spring 2026,0,0.0,X26,2026,20261,195,False
+Unspecified,Summer 2026,0,0.0,S26,2026,20262,235,False
+Unspecified,Fall 2026,0,0.0,F26,2026,20263,35,True
+Unspecified,Winter 2027,0,0.0,W27,2027,20270,1,True

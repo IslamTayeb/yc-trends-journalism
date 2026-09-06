@@ -1,0 +1,1172 @@
+label_type,label,era,edition_label,edition_order,request_title,mentions,in_title
+tag,3D Printing,seasonal,Summer 2026,20262,Industrial Capabilities in Space,1,False
+tag,AI,essays,RFS 10,20140,Breakthrough Technologies,1,False
+tag,AI,consolidated,March 2014,20140,A.I.,1,False
+tag,AI,consolidated,July 2014,20142,A.I.,1,False
+tag,AI,consolidated,September 2014,20142,A.I.,1,False
+tag,AI,consolidated,August 2015,20152,A.I.,1,False
+tag,AI,consolidated,September 2016,20162,A.I.,1,False
+tag,AI,consolidated,March 2018,20180,A.I.,2,False
+tag,AI,consolidated,March 2018,20180,Future of Work:,1,False
+tag,AI,consolidated,March 2018,20180,Healthcare,1,False
+tag,AI,consolidated,April 2020,20201,A.I.,2,False
+tag,AI,consolidated,April 2020,20201,Future of Work:,1,False
+tag,AI,consolidated,April 2020,20201,Healthcare,1,False
+tag,AI,consolidated,undated version first captured 2022-03-02,20220,A.I.,2,False
+tag,AI,consolidated,undated version first captured 2022-03-02,20220,Future of Work:,1,False
+tag,AI,consolidated,undated version first captured 2022-03-02,20220,Healthcare,1,False
+tag,AI,consolidated,undated version first captured 2022-07-01,20222,A.I.,2,False
+tag,AI,consolidated,undated version first captured 2022-07-01,20222,Future of Work:,1,False
+tag,AI,consolidated,undated version first captured 2022-07-01,20222,Healthcare,1,False
+tag,AI,seasonal,Summer 2024,20242,A way to end cancer,1,False
+tag,AI,seasonal,Summer 2024,20242,AI to build enterprise software,7,True
+tag,AI,seasonal,Summer 2024,20242,Eliminating middlemen in healthcare,1,False
+tag,AI,seasonal,Summer 2024,20242,Explainable AI,5,True
+tag,AI,seasonal,Summer 2024,20242,Using machine learning to simulate the physical world,1,False
+tag,AI,seasonal,Winter 2025,20250,AI-aided engineering tools,4,True
+tag,AI,seasonal,Winter 2025,20250,Fintech 2.0,1,False
+tag,AI,seasonal,Winter 2025,20250,Government software,2,False
+tag,AI,seasonal,Winter 2025,20250,LLMs for chip design,2,False
+tag,AI,seasonal,Winter 2025,20250,One million jobs 2.0,3,False
+tag,AI,seasonal,Spring 2025,20251,A Secure AI App Store,7,True
+tag,AI,seasonal,Spring 2025,20251,AI Coding Agents for Hardware-Optimized Code,5,True
+tag,AI,seasonal,Spring 2025,20251,AI Commercial Open Source Software (AICOSS),4,True
+tag,AI,seasonal,Spring 2025,20251,AI Personal Staff for Everyone,4,True
+tag,AI,seasonal,Spring 2025,20251,B2A: Software Where the Customers Will All Be Agents,1,False
+tag,AI,seasonal,Spring 2025,20251,Browser & Computer Automation,3,False
+tag,AI,seasonal,Spring 2025,20251,Datacenters,1,False
+tag,AI,seasonal,Spring 2025,20251,Devtools for AI Agents,7,True
+tag,AI,seasonal,Spring 2025,20251,DocuSign 2.0,1,False
+tag,AI,seasonal,Spring 2025,20251,Inference AI Infrastructure in the World of Test-Time Compute,4,True
+tag,AI,seasonal,Spring 2025,20251,Vertical AI Agents,11,True
+tag,AI,seasonal,Summer 2025,20252,AI Personal Assistant,3,True
+tag,AI,seasonal,Summer 2025,20252,AI Personal Tutor for Everyone,4,True
+tag,AI,seasonal,Summer 2025,20252,AI Research Labs,4,True
+tag,AI,seasonal,Summer 2025,20252,AI Residential Security,5,True
+tag,AI,seasonal,Summer 2025,20252,AI Voice Assistants for Email,1,True
+tag,AI,seasonal,Summer 2025,20252,AI for Personal Finance,1,True
+tag,AI,seasonal,Summer 2025,20252,AI for Scientific Advancement,2,True
+tag,AI,seasonal,Summer 2025,20252,Full-stack AI Companies,5,True
+tag,AI,seasonal,Summer 2025,20252,Healthcare AI,1,True
+tag,AI,seasonal,Summer 2025,20252,Internal Agent Builder,1,False
+tag,AI,seasonal,Summer 2025,20252,More Design Founders,2,False
+tag,AI,seasonal,Summer 2025,20252,The Future of Education,2,False
+tag,AI,seasonal,Summer 2025,20252,Voice AI,3,True
+tag,AI,seasonal,Fall 2025,20253,AI Native Enterprise Software,4,True
+tag,AI,seasonal,Fall 2025,20253,Infrastructure for Multi-Agent Systems,1,False
+tag,AI,seasonal,Fall 2025,20253,Retraining Workers for the AI Economy,13,True
+tag,AI,seasonal,Fall 2025,20253,"The First 10-person, $100B Company",2,False
+tag,AI,seasonal,Fall 2025,20253,Video Generation as a Primitive,1,False
+tag,AI,seasonal,Spring 2026,20261,AI Guidance for Physical Work,7,True
+tag,AI,seasonal,Spring 2026,20261,AI for Government,3,True
+tag,AI,seasonal,Spring 2026,20261,AI-Native Agencies,5,True
+tag,AI,seasonal,Spring 2026,20261,AI-Native Hedge Funds,4,True
+tag,AI,seasonal,Spring 2026,20261,Cursor for Product Managers,3,False
+tag,AI,seasonal,Spring 2026,20261,Modern Metal Mills,1,False
+tag,AI,seasonal,Spring 2026,20261,Infra for Government Fraud Hunters,1,False
+tag,AI,seasonal,Spring 2026,20261,Large Spatial Models,5,False
+tag,AI,seasonal,Spring 2026,20261,Make LLMs Easy to Train,1,False
+tag,AI,seasonal,Summer 2026,20262,AI Personalized Medicine,1,True
+tag,AI,seasonal,Summer 2026,20262,AI for Low-Pesticide Agriculture,3,True
+tag,AI,seasonal,Summer 2026,20262,AI-Native Discovery Engines,2,True
+tag,AI,seasonal,Summer 2026,20262,AI-Native Service Companies,5,True
+tag,AI,seasonal,Summer 2026,20262,Company Brain,6,False
+tag,AI,seasonal,Summer 2026,20262,Dynamic Software Interfaces,1,False
+tag,AI,seasonal,Summer 2026,20262,Inference Chips for Agent Workflows,2,False
+tag,AI,seasonal,Summer 2026,20262,SaaS Challengers,4,False
+tag,AI,seasonal,Summer 2026,20262,Software for Agents,1,False
+tag,AI,seasonal,Summer 2026,20262,Startups That Want to Sell to Huge Companies,4,False
+tag,AI,seasonal,Summer 2026,20262,Supply Chain 2.0 for Semiconductors,2,False
+tag,AI,seasonal,Summer 2026,20262,The AI Operating System for Companies,3,True
+tag,AI,seasonal,Fall 2026,20263,AI for the Aging Population,2,True
+tag,AI,seasonal,Fall 2026,20263,AI-Native Compliance Infrastructure,4,True
+tag,AI,seasonal,Fall 2026,20263,AI-Powered Consumer Products for 1 Billion People,3,True
+tag,AI,seasonal,Fall 2026,20263,Data for the Real World,2,False
+tag,AI,seasonal,Fall 2026,20263,Multiplayer AI,5,True
+tag,AI,seasonal,Fall 2026,20263,New Operating Systems for the Physical World,2,False
+tag,AI,seasonal,Fall 2026,20263,The Primer,2,False
+tag,API,essays,RFS 4,20090,New Ways to Use Live Video,3,False
+tag,API,essays,RFS 10,20140,Breakthrough Technologies,2,False
+tag,API,consolidated,March 2014,20140,Internet Infrastructure,2,False
+tag,API,consolidated,July 2014,20142,Internet Infrastructure,2,False
+tag,API,consolidated,September 2014,20142,Internet Infrastructure,2,False
+tag,API,consolidated,August 2015,20152,Internet Infrastructure,2,False
+tag,API,seasonal,Spring 2025,20251,Browser & Computer Automation,1,False
+tag,API,seasonal,Spring 2025,20251,Inference AI Infrastructure in the World of Test-Time Compute,1,False
+tag,API,seasonal,Summer 2025,20252,AI for Personal Finance,1,False
+tag,API,seasonal,Fall 2026,20263,Self-Maintaining APIs,5,False
+tag,APIs,seasonal,Spring 2025,20251,A Secure AI App Store,1,False
+tag,APIs,seasonal,Spring 2025,20251,B2A: Software Where the Customers Will All Be Agents,1,False
+tag,APIs,seasonal,Spring 2025,20251,Devtools for AI Agents,1,False
+tag,APIs,seasonal,Summer 2025,20252,Healthcare AI,1,False
+tag,APIs,seasonal,Fall 2025,20253,Video Generation as a Primitive,1,False
+tag,APIs,seasonal,Spring 2026,20261,Make LLMs Easy to Train,1,False
+tag,APIs,seasonal,Summer 2026,20262,Software for Agents,1,False
+tag,APIs,seasonal,Fall 2026,20263,Self-Maintaining APIs,2,True
+tag,AR,consolidated,September 2014,20142,VR and AR,1,True
+tag,AR,consolidated,August 2015,20152,VR and AR,1,True
+tag,AR,consolidated,September 2016,20162,VR and AR,1,True
+tag,AR,consolidated,March 2018,20180,VR and AR,1,True
+tag,AR,consolidated,April 2020,20201,VR and AR,1,True
+tag,AR,consolidated,undated version first captured 2022-03-02,20220,VR and AR,1,True
+tag,AR,consolidated,undated version first captured 2022-07-01,20222,VR and AR,1,True
+tag,AR,seasonal,Summer 2024,20242,Spatial computing,1,False
+tag,AR,seasonal,Fall 2025,20253,Retraining Workers for the AI Economy,1,False
+tag,Aerospace,seasonal,Winter 2025,20250,AI-aided engineering tools,1,False
+tag,Agriculture,consolidated,September 2016,20162,Food and Farming:,1,False
+tag,Agriculture,consolidated,March 2018,20180,Bio,1,False
+tag,Agriculture,consolidated,March 2018,20180,Cellular Agriculture and Clean Meat,2,True
+tag,Agriculture,consolidated,April 2020,20201,Bio,1,False
+tag,Agriculture,consolidated,April 2020,20201,Cellular Agriculture and Clean Meat,2,True
+tag,Agriculture,consolidated,undated version first captured 2022-03-02,20220,Bio,1,False
+tag,Agriculture,consolidated,undated version first captured 2022-03-02,20220,Cellular Agriculture and Clean Meat,2,True
+tag,Agriculture,consolidated,undated version first captured 2022-07-01,20222,Bio,1,False
+tag,Agriculture,consolidated,undated version first captured 2022-07-01,20222,Cellular Agriculture and Clean Meat,2,True
+tag,Agriculture,seasonal,Summer 2026,20262,AI for Low-Pesticide Agriculture,3,True
+tag,Agriculture,seasonal,Fall 2026,20263,Data for the Real World,1,False
+tag,Airplanes,seasonal,Summer 2024,20242,Using machine learning to simulate the physical world,1,False
+tag,Anti-Aging,consolidated,March 2018,20180,Longevity and Anti-aging,1,True
+tag,Anti-Aging,consolidated,April 2020,20201,Longevity and Anti-aging,1,True
+tag,Anti-Aging,consolidated,undated version first captured 2022-03-02,20220,Longevity and Anti-aging,1,True
+tag,Anti-Aging,consolidated,undated version first captured 2022-07-01,20222,Longevity and Anti-aging,1,True
+tag,Architecture,seasonal,Winter 2025,20250,LLMs for chip design,1,False
+tag,Architecture,seasonal,Summer 2026,20262,Inference Chips for Agent Workflows,1,False
+tag,Architecture,seasonal,Fall 2026,20263,The Future of American Defense,1,False
+tag,Artificial Intelligence,seasonal,Fall 2026,20263,Compute at Sea,1,False
+tag,Augmented Reality,essays,RFS 10,20140,Breakthrough Technologies,1,False
+tag,Augmented Reality,consolidated,March 2014,20140,Levers,1,False
+tag,Augmented Reality,consolidated,July 2014,20142,Levers,1,False
+tag,Augmented Reality,consolidated,September 2014,20142,VR and AR,1,False
+tag,Augmented Reality,consolidated,August 2015,20152,VR and AR,1,False
+tag,Augmented Reality,consolidated,September 2016,20162,VR and AR,1,False
+tag,Augmented Reality,consolidated,March 2018,20180,VR and AR,1,False
+tag,Augmented Reality,consolidated,April 2020,20201,VR and AR,1,False
+tag,Augmented Reality,consolidated,undated version first captured 2022-03-02,20220,VR and AR,1,False
+tag,Augmented Reality,consolidated,undated version first captured 2022-07-01,20222,VR and AR,1,False
+tag,Automation,consolidated,September 2016,20162,Future of Work:,1,False
+tag,Automation,consolidated,March 2018,20180,Future of Work:,1,False
+tag,Automation,consolidated,April 2020,20201,Future of Work:,1,False
+tag,Automation,consolidated,undated version first captured 2022-03-02,20220,Future of Work:,1,False
+tag,Automation,consolidated,undated version first captured 2022-07-01,20222,Future of Work:,1,False
+tag,Automation,seasonal,Summer 2024,20242,LLMs for manual back office processes in legacy enterprises,1,False
+tag,Automation,seasonal,Spring 2025,20251,Browser & Computer Automation,1,True
+tag,Automation,seasonal,Spring 2025,20251,Compliance and Audit,1,False
+tag,Automation,seasonal,Spring 2026,20261,Modern Metal Mills,3,False
+tag,Automation,seasonal,Summer 2026,20262,Company Brain,3,False
+tag,B2B,seasonal,Summer 2024,20242,Applying machine learning to robotics,1,False
+tag,B2B,seasonal,Summer 2024,20242,Stablecoin finance,1,False
+tag,B2B,seasonal,Spring 2025,20251,Vertical AI Agents,4,False
+tag,B2B,seasonal,Summer 2025,20252,Software Tools To Make Robots,1,False
+tag,B2B,seasonal,Fall 2025,20253,AI Native Enterprise Software,1,False
+tag,Billing,seasonal,Summer 2024,20242,LLMs for manual back office processes in legacy enterprises,1,False
+tag,Billing,seasonal,Summer 2024,20242,The Managed Service Organization model for healthcare,2,False
+tag,Billing,seasonal,Fall 2026,20263,New Operating Systems for the Physical World,1,False
+tag,Biotech,essays,RFS 10,20140,Breakthrough Technologies,1,False
+tag,Biotech,consolidated,March 2014,20140,Biotech,1,True
+tag,Biotech,consolidated,July 2014,20142,Biotech,1,True
+tag,Biotech,consolidated,September 2014,20142,Biotech,2,True
+tag,Biotech,consolidated,September 2014,20142,Human Augmentation,1,False
+tag,Biotech,consolidated,August 2015,20152,Biotech,2,True
+tag,Biotech,consolidated,August 2015,20152,Human Augmentation,1,False
+tag,Biotech,consolidated,September 2016,20162,Biotech,2,True
+tag,Biotech,consolidated,September 2016,20162,Human Augmentation,1,False
+tag,Biotech,consolidated,March 2018,20180,Bio,1,False
+tag,Biotech,consolidated,April 2020,20201,Bio,1,False
+tag,Biotech,consolidated,undated version first captured 2022-03-02,20220,Bio,1,False
+tag,Biotech,consolidated,undated version first captured 2022-07-01,20222,Bio,1,False
+tag,Blockchain,seasonal,Summer 2024,20242,Stablecoin finance,2,False
+tag,COVID-19,consolidated,March 2018,20180,Response to COVID-19,5,True
+tag,COVID-19,consolidated,April 2020,20201,Response to COVID-19,5,True
+tag,COVID-19,consolidated,undated version first captured 2022-03-02,20220,Response to COVID-19,5,True
+tag,CRM,seasonal,Summer 2024,20242,AI to build enterprise software,1,False
+tag,CRM,seasonal,Fall 2025,20253,AI Native Enterprise Software,1,False
+tag,Calendar,seasonal,Spring 2025,20251,A Secure AI App Store,1,False
+tag,Calendar,seasonal,Summer 2025,20252,AI Personal Assistant,1,False
+tag,Calendar,seasonal,Summer 2026,20262,Dynamic Software Interfaces,1,False
+tag,Careers,seasonal,Winter 2025,20250,One million jobs 2.0,3,False
+tag,Cellular Agriculture,consolidated,March 2018,20180,Cellular Agriculture and Clean Meat,2,True
+tag,Cellular Agriculture,consolidated,April 2020,20201,Cellular Agriculture and Clean Meat,2,True
+tag,Cellular Agriculture,consolidated,undated version first captured 2022-03-02,20220,Cellular Agriculture and Clean Meat,2,True
+tag,Cellular Agriculture,consolidated,undated version first captured 2022-07-01,20222,Cellular Agriculture and Clean Meat,2,True
+tag,Chat,seasonal,Fall 2025,20253,AI Native Enterprise Software,1,False
+tag,Chat,seasonal,Fall 2026,20263,Multiplayer AI,1,False
+tag,Chatbot,seasonal,Summer 2026,20262,Company Brain,1,False
+tag,Chatbot,seasonal,Summer 2026,20262,SaaS Challengers,1,False
+tag,China,consolidated,September 2014,20142,Developing Countries,1,False
+tag,China,seasonal,Summer 2026,20262,Hardware Supply Chain,2,False
+tag,Clean Meat,consolidated,March 2018,20180,Cellular Agriculture and Clean Meat,1,True
+tag,Clean Meat,consolidated,April 2020,20201,Cellular Agriculture and Clean Meat,1,True
+tag,Clean Meat,consolidated,undated version first captured 2022-03-02,20220,Cellular Agriculture and Clean Meat,1,True
+tag,Clean Meat,consolidated,undated version first captured 2022-07-01,20222,Cellular Agriculture and Clean Meat,1,True
+tag,Climate,essays,RFS 10,20140,Breakthrough Technologies,1,False
+tag,Climate,consolidated,March 2014,20140,Science,1,False
+tag,Climate,consolidated,July 2014,20142,Science,1,False
+tag,Climate,consolidated,September 2014,20142,Science,1,False
+tag,Climate,consolidated,August 2015,20152,Science,1,False
+tag,Climate,consolidated,March 2018,20180,Carbon Removal Technologies,1,False
+tag,Climate,consolidated,April 2020,20201,Carbon Removal Technologies,1,False
+tag,Climate,consolidated,undated version first captured 2022-03-02,20220,Carbon Removal Technologies,1,False
+tag,Climate,consolidated,undated version first captured 2022-07-01,20222,Carbon Removal Technologies,1,False
+tag,Climate,seasonal,Summer 2024,20242,Climate tech,5,True
+tag,Cloud Computing,seasonal,Fall 2025,20253,AI Native Enterprise Software,2,False
+tag,Cloud Computing,seasonal,Fall 2025,20253,"The First 10-person, $100B Company",1,False
+tag,Coding Bootcamps,seasonal,Fall 2025,20253,Retraining Workers for the AI Economy,1,False
+tag,Community,consolidated,March 2018,20180,Response to COVID-19,1,False
+tag,Community,consolidated,April 2020,20201,Response to COVID-19,1,False
+tag,Community,consolidated,undated version first captured 2022-03-02,20220,Response to COVID-19,1,False
+tag,Community,seasonal,Summer 2024,20242,A way to end cancer,1,False
+tag,Community,seasonal,Summer 2024,20242,Commercial open source companies,1,False
+tag,Community,seasonal,Winter 2025,20250,Public safety technology,1,False
+tag,Community,seasonal,Spring 2025,20251,Startup Founders with Systems Programming Expertise,1,False
+tag,Compliance,seasonal,Summer 2024,20242,LLMs for manual back office processes in legacy enterprises,1,False
+tag,Compliance,seasonal,Spring 2025,20251,Compliance and Audit,4,True
+tag,Compliance,seasonal,Spring 2025,20251,The Future of Software Engineering,1,False
+tag,Compliance,seasonal,Spring 2025,20251,Vertical AI Agents,1,False
+tag,Compliance,seasonal,Spring 2026,20261,AI-Native Hedge Funds,1,False
+tag,Compliance,seasonal,Spring 2026,20261,Stablecoin Financial Services,1,False
+tag,Compliance,seasonal,Spring 2026,20261,Infra for Government Fraud Hunters,1,False
+tag,Compliance,seasonal,Summer 2026,20262,AI-Native Service Companies,1,False
+tag,Compliance,seasonal,Summer 2026,20262,Supply Chain 2.0 for Semiconductors,1,False
+tag,Compliance,seasonal,Fall 2026,20263,AI-Native Compliance Infrastructure,7,True
+tag,Computer Vision,seasonal,Winter 2025,20250,Public safety technology,2,False
+tag,Construction,seasonal,Summer 2024,20242,Small fine-tuned models as an alternative to giant generic ones,1,False
+tag,Construction,seasonal,Spring 2025,20251,Datacenters,1,False
+tag,Construction,seasonal,Fall 2026,20263,Data for the Real World,1,False
+tag,Construction,seasonal,Fall 2026,20263,New Operating Systems for the Physical World,1,False
+tag,Consumer,consolidated,March 2018,20180,Brick and Mortar 2.0,1,False
+tag,Consumer,consolidated,March 2018,20180,Cleaner Commodities,2,False
+tag,Consumer,consolidated,April 2020,20201,Brick and Mortar 2.0,1,False
+tag,Consumer,consolidated,undated version first captured 2022-03-02,20220,Brick and Mortar 2.0,1,False
+tag,Consumer,consolidated,undated version first captured 2022-07-01,20222,Brick and Mortar 2.0,1,False
+tag,Consumer,seasonal,Summer 2024,20242,A way to end cancer,1,False
+tag,Consumer,seasonal,Summer 2024,20242,Applying machine learning to robotics,1,False
+tag,Consumer,seasonal,Summer 2024,20242,Foundation models for biological systems,1,False
+tag,Consumer,seasonal,Summer 2024,20242,Stablecoin finance,1,False
+tag,Consumer,seasonal,Summer 2025,20252,Software Tools To Make Robots,1,False
+tag,Consumer,seasonal,Fall 2026,20263,AI-Powered Consumer Products for 1 Billion People,5,True
+tag,Consumer,seasonal,Fall 2026,20263,The Primer,1,False
+tag,Consumer Products,consolidated,March 2018,20180,Cleaner Commodities,2,False
+tag,Consumer Products,seasonal,Summer 2024,20242,Foundation models for biological systems,1,False
+tag,Consumer Products,seasonal,Summer 2024,20242,Stablecoin finance,1,False
+tag,Consumer Products,seasonal,Fall 2026,20263,AI-Powered Consumer Products for 1 Billion People,2,True
+tag,Crowdfunding,essays,RFS 10,20140,Breakthrough Technologies,1,False
+tag,Crowdfunding,consolidated,March 2014,20140,Internet Infrastructure,1,False
+tag,Crowdfunding,consolidated,July 2014,20142,Internet Infrastructure,1,False
+tag,Crowdfunding,consolidated,September 2014,20142,Government,1,False
+tag,Cryptocurrency,seasonal,Winter 2025,20250,LLMs for chip design,1,False
+tag,Databases,seasonal,Spring 2026,20261,Make LLMs Easy to Train,1,False
+tag,Databases,seasonal,Summer 2026,20262,Company Brain,1,False
+tag,Dating,seasonal,Fall 2026,20263,Proving You're Human,1,False
+tag,DeFi,seasonal,Spring 2026,20261,Stablecoin Financial Services,2,False
+tag,Defense,seasonal,Summer 2024,20242,New defense technology,4,True
+tag,Defense,seasonal,Summer 2026,20262,Counter-Swarm Defense,4,True
+tag,Defense,seasonal,Fall 2026,20263,The Future of American Defense,1,True
+tag,Delivery,consolidated,March 2018,20180,Brick and Mortar 2.0,1,False
+tag,Delivery,consolidated,April 2020,20201,Brick and Mortar 2.0,1,False
+tag,Delivery,consolidated,undated version first captured 2022-03-02,20220,Brick and Mortar 2.0,1,False
+tag,Delivery,consolidated,undated version first captured 2022-07-01,20222,Brick and Mortar 2.0,1,False
+tag,Delivery,seasonal,Summer 2026,20262,AI Personalized Medicine,2,False
+tag,Delivery,seasonal,Summer 2026,20262,Dynamic Software Interfaces,1,False
+tag,Design,essays,RFS 1,20090,The Future of Journalism,1,False
+tag,Design,essays,RFS 2,20090,New Paths Through Product Space,1,False
+tag,Design,seasonal,Winter 2025,20250,AI-aided engineering tools,2,False
+tag,Design,seasonal,Winter 2025,20250,LLMs for chip design,5,True
+tag,Design,seasonal,Summer 2025,20252,More Design Founders,6,True
+tag,Design,seasonal,Spring 2026,20261,AI-Native Agencies,2,False
+tag,Design,seasonal,Spring 2026,20261,Modern Metal Mills,1,False
+tag,Design,seasonal,Spring 2026,20261,Large Spatial Models,1,False
+tag,Design,seasonal,Summer 2026,20262,AI Personalized Medicine,1,False
+tag,Design,seasonal,Summer 2026,20262,AI-Native Discovery Engines,1,False
+tag,Design,seasonal,Summer 2026,20262,Dynamic Software Interfaces,1,False
+tag,Design,seasonal,Summer 2026,20262,Electronics in Space,1,False
+tag,Design,seasonal,Summer 2026,20262,Hardware Supply Chain,3,False
+tag,Design,seasonal,Summer 2026,20262,SaaS Challengers,1,False
+tag,Developer Tools,seasonal,Summer 2024,20242,Commercial open source companies,1,False
+tag,Developer Tools,seasonal,Summer 2024,20242,Developer tools inspired by existing internal tools,1,True
+tag,Diagnostics,consolidated,March 2018,20180,Healthcare,3,False
+tag,Diagnostics,consolidated,March 2018,20180,Response to COVID-19,1,False
+tag,Diagnostics,consolidated,April 2020,20201,Healthcare,3,False
+tag,Diagnostics,consolidated,April 2020,20201,Response to COVID-19,1,False
+tag,Diagnostics,consolidated,undated version first captured 2022-03-02,20220,Healthcare,3,False
+tag,Diagnostics,consolidated,undated version first captured 2022-03-02,20220,Response to COVID-19,1,False
+tag,Diagnostics,consolidated,undated version first captured 2022-07-01,20222,Healthcare,3,False
+tag,Diagnostics,seasonal,Summer 2026,20262,AI Personalized Medicine,2,False
+tag,Documents,seasonal,Winter 2025,20250,Government software,1,False
+tag,Documents,seasonal,Spring 2025,20251,Compliance and Audit,3,False
+tag,Documents,seasonal,Spring 2025,20251,DocuSign 2.0,4,False
+tag,Documents,seasonal,Spring 2026,20261,Infra for Government Fraud Hunters,1,False
+tag,Documents,seasonal,Summer 2026,20262,Company Brain,1,False
+tag,Drones,seasonal,Summer 2026,20262,Counter-Swarm Defense,4,False
+tag,Drones,seasonal,Fall 2026,20263,The Future of American Defense,1,False
+tag,Drug discovery,consolidated,August 2015,20152,A.I.,1,False
+tag,Drug discovery,consolidated,September 2016,20162,A.I.,1,False
+tag,Drug discovery,consolidated,March 2018,20180,A.I.,1,False
+tag,Drug discovery,consolidated,March 2018,20180,Healthcare,1,False
+tag,Drug discovery,consolidated,April 2020,20201,A.I.,1,False
+tag,Drug discovery,consolidated,April 2020,20201,Healthcare,1,False
+tag,Drug discovery,consolidated,undated version first captured 2022-03-02,20220,A.I.,1,False
+tag,Drug discovery,consolidated,undated version first captured 2022-03-02,20220,Healthcare,1,False
+tag,Drug discovery,consolidated,undated version first captured 2022-07-01,20222,A.I.,1,False
+tag,Drug discovery,consolidated,undated version first captured 2022-07-01,20222,Healthcare,1,False
+tag,Drug discovery,seasonal,Summer 2024,20242,Using machine learning to simulate the physical world,1,False
+tag,Drug discovery,seasonal,Summer 2025,20252,AI for Scientific Advancement,1,False
+tag,Drug discovery,seasonal,Summer 2026,20262,AI-Native Discovery Engines,1,False
+tag,Education,essays,RFS 6,20100,iPad Applications,1,False
+tag,Education,essays,RFS 10,20140,Breakthrough Technologies,3,False
+tag,Education,consolidated,March 2014,20140,Education,3,True
+tag,Education,consolidated,July 2014,20142,Education,3,True
+tag,Education,consolidated,September 2014,20142,Education,3,True
+tag,Education,consolidated,August 2015,20152,Education,3,True
+tag,Education,consolidated,September 2016,20162,Education,3,True
+tag,Education,consolidated,March 2018,20180,Education,5,True
+tag,Education,consolidated,March 2018,20180,Government 2.0,1,False
+tag,Education,consolidated,April 2020,20201,Education,5,True
+tag,Education,consolidated,April 2020,20201,Government 2.0,1,False
+tag,Education,consolidated,undated version first captured 2022-03-02,20220,Education,5,True
+tag,Education,consolidated,undated version first captured 2022-03-02,20220,Government 2.0,1,False
+tag,Education,consolidated,undated version first captured 2022-07-01,20222,Education,5,True
+tag,Education,consolidated,undated version first captured 2022-07-01,20222,Government 2.0,1,False
+tag,Education,seasonal,Summer 2025,20252,AI Personal Tutor for Everyone,1,False
+tag,Education,seasonal,Summer 2025,20252,The Future of Education,5,True
+tag,Education,seasonal,Fall 2026,20263,The Primer,1,False
+tag,Electronics,seasonal,Summer 2026,20262,Electronics in Space,2,True
+tag,Email,essays,RFS 3,20090,Things Built on Twitter,1,False
+tag,Email,seasonal,Summer 2025,20252,AI Voice Assistants for Email,2,True
+tag,Email,seasonal,Summer 2026,20262,Company Brain,1,False
+tag,Email,seasonal,Summer 2026,20262,Dynamic Software Interfaces,4,False
+tag,Energy,essays,RFS 9,20120,Kill Hollywood,1,False
+tag,Energy,essays,RFS 10,20140,Breakthrough Technologies,9,False
+tag,Energy,consolidated,March 2014,20140,Energy,8,True
+tag,Energy,consolidated,March 2014,20140,Transportation & Housing,1,False
+tag,Energy,consolidated,July 2014,20142,Energy,8,True
+tag,Energy,consolidated,July 2014,20142,Transportation & Housing,1,False
+tag,Energy,consolidated,September 2014,20142,Energy,8,True
+tag,Energy,consolidated,September 2014,20142,Transportation & Housing,1,False
+tag,Energy,consolidated,August 2015,20152,Energy,8,True
+tag,Energy,consolidated,August 2015,20152,Transportation & Housing,1,False
+tag,Energy,consolidated,September 2016,20162,Energy,8,True
+tag,Energy,consolidated,September 2016,20162,Transportation & Housing,1,False
+tag,Energy,consolidated,March 2018,20180,Cellular Agriculture and Clean Meat,1,False
+tag,Energy,consolidated,March 2018,20180,Energy,8,True
+tag,Energy,consolidated,March 2018,20180,Transportation & Housing,1,False
+tag,Energy,consolidated,April 2020,20201,Cellular Agriculture and Clean Meat,1,False
+tag,Energy,consolidated,April 2020,20201,Energy,8,True
+tag,Energy,consolidated,April 2020,20201,Transportation and Housing,1,False
+tag,Energy,consolidated,undated version first captured 2022-03-02,20220,Cellular Agriculture and Clean Meat,1,False
+tag,Energy,consolidated,undated version first captured 2022-03-02,20220,Energy,8,True
+tag,Energy,consolidated,undated version first captured 2022-03-02,20220,Transportation and Housing,1,False
+tag,Energy,consolidated,undated version first captured 2022-07-01,20222,Cellular Agriculture and Clean Meat,1,False
+tag,Energy,consolidated,undated version first captured 2022-07-01,20222,Energy,8,True
+tag,Energy,consolidated,undated version first captured 2022-07-01,20222,Transportation and Housing,1,False
+tag,Energy,seasonal,Summer 2024,20242,Climate tech,1,False
+tag,Energy,seasonal,Winter 2025,20250,LLMs for chip design,1,False
+tag,Energy,seasonal,Spring 2026,20261,Modern Metal Mills,5,False
+tag,Energy,seasonal,Fall 2026,20263,Data for the Real World,1,False
+tag,Energy Storage,essays,RFS 10,20140,Breakthrough Technologies,1,False
+tag,Energy Storage,consolidated,March 2014,20140,Energy,1,False
+tag,Energy Storage,consolidated,July 2014,20142,Energy,1,False
+tag,Energy Storage,consolidated,September 2014,20142,Energy,1,False
+tag,Energy Storage,consolidated,August 2015,20152,Energy,1,False
+tag,Energy Storage,consolidated,September 2016,20162,Energy,1,False
+tag,Energy Storage,consolidated,March 2018,20180,Energy,1,False
+tag,Energy Storage,consolidated,April 2020,20201,Energy,1,False
+tag,Energy Storage,consolidated,undated version first captured 2022-03-02,20220,Energy,1,False
+tag,Energy Storage,consolidated,undated version first captured 2022-07-01,20222,Energy,1,False
+tag,Enterprise,consolidated,September 2014,20142,Enterprise Software,4,True
+tag,Enterprise,consolidated,August 2015,20152,Enterprise Software,4,True
+tag,Enterprise,consolidated,September 2016,20162,Enterprise Software,4,True
+tag,Enterprise,consolidated,March 2018,20180,Enterprise Software,4,True
+tag,Enterprise,consolidated,April 2020,20201,Enterprise Software,4,True
+tag,Enterprise,consolidated,undated version first captured 2022-03-02,20220,Enterprise Software,4,True
+tag,Enterprise,consolidated,undated version first captured 2022-07-01,20222,Enterprise Software,4,True
+tag,Enterprise,seasonal,Summer 2024,20242,AI to build enterprise software,7,True
+tag,Enterprise,seasonal,Summer 2024,20242,Better enterprise glue,3,True
+tag,Enterprise,seasonal,Summer 2024,20242,New Enterprise Resource Planning software,2,True
+tag,Enterprise,seasonal,Spring 2025,20251,AI Commercial Open Source Software (AICOSS),1,False
+tag,Enterprise,seasonal,Fall 2025,20253,AI Native Enterprise Software,4,True
+tag,Enterprise,seasonal,Summer 2026,20262,Dynamic Software Interfaces,1,False
+tag,Enterprise Software,consolidated,September 2014,20142,Enterprise Software,4,True
+tag,Enterprise Software,consolidated,August 2015,20152,Enterprise Software,4,True
+tag,Enterprise Software,consolidated,September 2016,20162,Enterprise Software,4,True
+tag,Enterprise Software,consolidated,March 2018,20180,Enterprise Software,4,True
+tag,Enterprise Software,consolidated,April 2020,20201,Enterprise Software,4,True
+tag,Enterprise Software,consolidated,undated version first captured 2022-03-02,20220,Enterprise Software,4,True
+tag,Enterprise Software,consolidated,undated version first captured 2022-07-01,20222,Enterprise Software,4,True
+tag,Enterprise Software,seasonal,Summer 2024,20242,AI to build enterprise software,5,True
+tag,Enterprise Software,seasonal,Summer 2024,20242,Better enterprise glue,2,False
+tag,Enterprise Software,seasonal,Fall 2025,20253,AI Native Enterprise Software,4,True
+tag,Enterprise Software,seasonal,Summer 2026,20262,Dynamic Software Interfaces,1,False
+tag,Entertainment,consolidated,March 2018,20180,Brick and Mortar 2.0,1,False
+tag,Entertainment,consolidated,April 2020,20201,Brick and Mortar 2.0,1,False
+tag,Entertainment,consolidated,undated version first captured 2022-03-02,20220,Brick and Mortar 2.0,1,False
+tag,Entertainment,consolidated,undated version first captured 2022-07-01,20222,Brick and Mortar 2.0,1,False
+tag,Entertainment,seasonal,Fall 2025,20253,Video Generation as a Primitive,1,False
+tag,Feedback,seasonal,Summer 2024,20242,Commercial open source companies,1,False
+tag,Feedback,seasonal,Fall 2025,20253,Retraining Workers for the AI Economy,1,False
+tag,Feedback,seasonal,Spring 2026,20261,Cursor for Product Managers,2,False
+tag,Finance,seasonal,Summer 2024,20242,Stablecoin finance,4,True
+tag,Finance,seasonal,Winter 2025,20250,Stablecoins 2.0,1,False
+tag,Finance,seasonal,Summer 2025,20252,AI for Personal Finance,2,True
+tag,Finance,seasonal,Spring 2026,20261,Stablecoin Financial Services,1,False
+tag,Finance,seasonal,Fall 2026,20263,AI-Native Compliance Infrastructure,1,False
+tag,Finance,seasonal,Fall 2026,20263,Proving You're Human,1,False
+tag,Fintech,seasonal,Summer 2024,20242,Climate tech,1,False
+tag,Fintech,seasonal,Winter 2025,20250,Fintech 2.0,3,True
+tag,Food,essays,RFS 10,20140,Breakthrough Technologies,3,False
+tag,Food,consolidated,March 2014,20140,Energy,1,False
+tag,Food,consolidated,March 2014,20140,Food & Water,2,True
+tag,Food,consolidated,July 2014,20142,Energy,1,False
+tag,Food,consolidated,July 2014,20142,Food & Water,2,True
+tag,Food,consolidated,September 2014,20142,Energy,1,False
+tag,Food,consolidated,September 2014,20142,Food & Water,2,True
+tag,Food,consolidated,August 2015,20152,Energy,1,False
+tag,Food,consolidated,September 2016,20162,Energy,1,False
+tag,Food,consolidated,September 2016,20162,Food and Farming:,2,True
+tag,Food,consolidated,March 2018,20180,Bio,1,False
+tag,Food,consolidated,March 2018,20180,Cellular Agriculture and Clean Meat,1,False
+tag,Food,consolidated,March 2018,20180,Energy,1,False
+tag,Food,consolidated,March 2018,20180,Government 2.0,1,False
+tag,Food,consolidated,April 2020,20201,Bio,1,False
+tag,Food,consolidated,April 2020,20201,Cellular Agriculture and Clean Meat,1,False
+tag,Food,consolidated,April 2020,20201,Energy,1,False
+tag,Food,consolidated,April 2020,20201,Government 2.0,1,False
+tag,Food,consolidated,undated version first captured 2022-03-02,20220,Bio,1,False
+tag,Food,consolidated,undated version first captured 2022-03-02,20220,Cellular Agriculture and Clean Meat,1,False
+tag,Food,consolidated,undated version first captured 2022-03-02,20220,Energy,1,False
+tag,Food,consolidated,undated version first captured 2022-03-02,20220,Government 2.0,1,False
+tag,Food,consolidated,undated version first captured 2022-07-01,20222,Bio,1,False
+tag,Food,consolidated,undated version first captured 2022-07-01,20222,Cellular Agriculture and Clean Meat,1,False
+tag,Food,consolidated,undated version first captured 2022-07-01,20222,Energy,1,False
+tag,Food,consolidated,undated version first captured 2022-07-01,20222,Government 2.0,1,False
+tag,Food,seasonal,Summer 2026,20262,AI for Low-Pesticide Agriculture,3,False
+tag,Fraud Detection,consolidated,August 2015,20152,A.I.,1,False
+tag,Fraud Detection,consolidated,September 2016,20162,A.I.,1,False
+tag,Fraud Detection,consolidated,March 2018,20180,A.I.,1,False
+tag,Fraud Detection,consolidated,April 2020,20201,A.I.,1,False
+tag,Fraud Detection,consolidated,undated version first captured 2022-03-02,20220,A.I.,1,False
+tag,Fraud Detection,consolidated,undated version first captured 2022-07-01,20222,A.I.,1,False
+tag,Gaming,seasonal,Summer 2024,20242,Spatial computing,1,False
+tag,Gaming,seasonal,Fall 2025,20253,Video Generation as a Primitive,1,False
+tag,Grocery,consolidated,March 2018,20180,Cleaner Commodities,1,False
+tag,Hardware,essays,RFS 5,20090,Development on Handhelds,1,False
+tag,Hardware,consolidated,March 2018,20180,Healthcare,1,False
+tag,Hardware,consolidated,April 2020,20201,Healthcare,1,False
+tag,Hardware,consolidated,undated version first captured 2022-03-02,20220,Healthcare,1,False
+tag,Hardware,consolidated,undated version first captured 2022-07-01,20222,Healthcare,1,False
+tag,Hardware,seasonal,Summer 2024,20242,A way to end cancer,1,False
+tag,Hardware,seasonal,Summer 2024,20242,Small fine-tuned models as an alternative to giant generic ones,1,False
+tag,Hardware,seasonal,Spring 2025,20251,AI Coding Agents for Hardware-Optimized Code,6,True
+tag,Hardware,seasonal,Spring 2025,20251,Startup Founders with Systems Programming Expertise,2,False
+tag,Hardware,seasonal,Spring 2026,20261,AI Guidance for Physical Work,1,False
+tag,Hardware,seasonal,Summer 2026,20262,Hardware Supply Chain,7,True
+tag,Hardware,seasonal,Summer 2026,20262,Inference Chips for Agent Workflows,1,False
+tag,Hardware,seasonal,Fall 2026,20263,The Future of American Defense,1,False
+tag,Healthcare,essays,RFS 10,20140,Breakthrough Technologies,6,False
+tag,Healthcare,consolidated,March 2014,20140,Healthcare,6,True
+tag,Healthcare,consolidated,July 2014,20142,Healthcare,6,True
+tag,Healthcare,consolidated,September 2014,20142,Healthcare,6,True
+tag,Healthcare,consolidated,August 2015,20152,Healthcare,6,True
+tag,Healthcare,consolidated,September 2016,20162,Healthcare,6,True
+tag,Healthcare,consolidated,September 2016,20162,Future of Work:,1,False
+tag,Healthcare,consolidated,March 2018,20180,Bio,1,False
+tag,Healthcare,consolidated,March 2018,20180,Future of Work:,1,False
+tag,Healthcare,consolidated,March 2018,20180,Healthcare,6,True
+tag,Healthcare,consolidated,March 2018,20180,Longevity and Anti-aging,1,False
+tag,Healthcare,consolidated,March 2018,20180,Government 2.0,1,False
+tag,Healthcare,consolidated,April 2020,20201,Bio,1,False
+tag,Healthcare,consolidated,April 2020,20201,Future of Work:,1,False
+tag,Healthcare,consolidated,April 2020,20201,Government 2.0,1,False
+tag,Healthcare,consolidated,April 2020,20201,Healthcare,6,True
+tag,Healthcare,consolidated,undated version first captured 2022-03-02,20220,Bio,1,False
+tag,Healthcare,consolidated,undated version first captured 2022-03-02,20220,Future of Work:,1,False
+tag,Healthcare,consolidated,undated version first captured 2022-03-02,20220,Government 2.0,1,False
+tag,Healthcare,consolidated,undated version first captured 2022-03-02,20220,Healthcare,6,True
+tag,Healthcare,consolidated,undated version first captured 2022-07-01,20222,Bio,1,False
+tag,Healthcare,consolidated,undated version first captured 2022-07-01,20222,Future of Work:,1,False
+tag,Healthcare,consolidated,undated version first captured 2022-07-01,20222,Government 2.0,1,False
+tag,Healthcare,consolidated,undated version first captured 2022-07-01,20222,Healthcare,6,True
+tag,Healthcare,seasonal,Summer 2024,20242,A way to end cancer,1,False
+tag,Healthcare,seasonal,Summer 2024,20242,Eliminating middlemen in healthcare,2,True
+tag,Healthcare,seasonal,Summer 2024,20242,Foundation models for biological systems,1,False
+tag,Healthcare,seasonal,Summer 2024,20242,The Managed Service Organization model for healthcare,3,True
+tag,Healthcare,seasonal,Summer 2025,20252,Healthcare AI,5,True
+tag,Healthcare,seasonal,Spring 2026,20261,AI Guidance for Physical Work,1,False
+tag,Healthcare,seasonal,Summer 2026,20262,AI-Native Service Companies,1,False
+tag,Housing,essays,RFS 10,20140,Breakthrough Technologies,2,False
+tag,Housing,consolidated,March 2014,20140,Transportation & Housing,2,True
+tag,Housing,consolidated,July 2014,20142,Transportation & Housing,2,True
+tag,Housing,consolidated,September 2014,20142,Transportation & Housing,2,True
+tag,Housing,consolidated,August 2015,20152,Transportation & Housing,2,True
+tag,Housing,consolidated,August 2015,20152,Underserved Communities,1,False
+tag,Housing,consolidated,September 2016,20162,Transportation & Housing,2,True
+tag,Housing,consolidated,September 2016,20162,Underserved Communities and Social Services,1,False
+tag,Housing,consolidated,March 2018,20180,Transportation & Housing,2,True
+tag,Housing,consolidated,March 2018,20180,Underserved Communities and Social Services,1,False
+tag,Housing,consolidated,March 2018,20180,Government 2.0,1,False
+tag,Housing,consolidated,April 2020,20201,Government 2.0,1,False
+tag,Housing,consolidated,April 2020,20201,Transportation and Housing,2,True
+tag,Housing,consolidated,April 2020,20201,Underserved Communities and Social Services,1,False
+tag,Housing,consolidated,undated version first captured 2022-03-02,20220,Government 2.0,1,False
+tag,Housing,consolidated,undated version first captured 2022-03-02,20220,Transportation and Housing,2,True
+tag,Housing,consolidated,undated version first captured 2022-03-02,20220,Underserved Communities and Social Services,1,False
+tag,Housing,consolidated,undated version first captured 2022-07-01,20222,Government 2.0,1,False
+tag,Housing,consolidated,undated version first captured 2022-07-01,20222,Transportation and Housing,2,True
+tag,Housing,consolidated,undated version first captured 2022-07-01,20222,Underserved Communities and Social Services,1,False
+tag,Human Resources,consolidated,July 2014,20142,One Million Jobs,1,False
+tag,Human Resources,consolidated,September 2014,20142,One Million Jobs,1,False
+tag,Human Resources,consolidated,August 2015,20152,One Million Jobs,1,False
+tag,Human Resources,consolidated,September 2016,20162,One Million Jobs,1,False
+tag,Human Resources,consolidated,March 2018,20180,One Million Jobs,1,False
+tag,Human Resources,consolidated,April 2020,20201,One Million Jobs,1,False
+tag,Human Resources,consolidated,undated version first captured 2022-03-02,20220,One Million Jobs,1,False
+tag,Human Resources,consolidated,undated version first captured 2022-07-01,20222,One Million Jobs,1,False
+tag,India,consolidated,September 2014,20142,Developing Countries,1,False
+tag,India,seasonal,Fall 2026,20263,The Best Time to Build in Crypto,1,False
+tag,Industrial,consolidated,March 2018,20180,Cleaner Commodities,1,False
+tag,Industrial,seasonal,Summer 2024,20242,Applying machine learning to robotics,1,False
+tag,Industrial,seasonal,Summer 2024,20242,Bring manufacturing back to America,3,False
+tag,Industrial,seasonal,Winter 2025,20250,Manufacture in the USA,3,False
+tag,Industrial,seasonal,Summer 2025,20252,Software Tools To Make Robots,1,False
+tag,Industrial,seasonal,Spring 2026,20261,Modern Metal Mills,1,False
+tag,Industrial,seasonal,Summer 2026,20262,Industrial Capabilities in Space,2,True
+tag,Industrial,seasonal,Summer 2026,20262,SaaS Challengers,1,False
+tag,Infrastructure,essays,RFS 4,20090,New Ways to Use Live Video,5,False
+tag,Infrastructure,essays,RFS 10,20140,Breakthrough Technologies,2,False
+tag,Infrastructure,consolidated,March 2014,20140,Internet Infrastructure,2,True
+tag,Infrastructure,consolidated,July 2014,20142,Internet Infrastructure,2,True
+tag,Infrastructure,consolidated,September 2014,20142,Developing Countries,1,False
+tag,Infrastructure,consolidated,September 2014,20142,Internet Infrastructure,2,True
+tag,Infrastructure,consolidated,September 2014,20142,Programming Tools,1,False
+tag,Infrastructure,consolidated,August 2015,20152,Global Infrastructure,4,True
+tag,Infrastructure,consolidated,August 2015,20152,Internet Infrastructure,2,True
+tag,Infrastructure,consolidated,August 2015,20152,Programming Tools,1,False
+tag,Infrastructure,consolidated,September 2016,20162,Programming Tools,1,False
+tag,Infrastructure,consolidated,March 2018,20180,Programming Tools,1,False
+tag,Infrastructure,consolidated,March 2018,20180,Response to COVID-19,1,False
+tag,Infrastructure,consolidated,April 2020,20201,Response to COVID-19,1,False
+tag,Infrastructure,consolidated,undated version first captured 2022-03-02,20220,Response to COVID-19,1,False
+tag,Infrastructure,seasonal,Winter 2025,20250,Fintech 2.0,1,False
+tag,Infrastructure,seasonal,Spring 2025,20251,A Secure AI App Store,1,False
+tag,Infrastructure,seasonal,Spring 2025,20251,Datacenters,2,False
+tag,Infrastructure,seasonal,Spring 2025,20251,Inference AI Infrastructure in the World of Test-Time Compute,2,True
+tag,Infrastructure,seasonal,Spring 2025,20251,Startup Founders with Systems Programming Expertise,1,False
+tag,Infrastructure,seasonal,Summer 2025,20252,Healthcare AI,1,False
+tag,Infrastructure,seasonal,Summer 2025,20252,Internal Agent Builder,3,False
+tag,Infrastructure,seasonal,Fall 2025,20253,Infrastructure for Multi-Agent Systems,1,True
+tag,Infrastructure,seasonal,Fall 2025,20253,Retraining Workers for the AI Economy,2,False
+tag,Infrastructure,seasonal,Fall 2025,20253,"The First 10-person, $100B Company",1,False
+tag,Infrastructure,seasonal,Fall 2025,20253,Video Generation as a Primitive,1,False
+tag,Infrastructure,seasonal,Spring 2026,20261,Stablecoin Financial Services,2,False
+tag,Infrastructure,seasonal,Fall 2026,20263,AI-Native Compliance Infrastructure,4,True
+tag,Infrastructure,seasonal,Fall 2026,20263,Self-Maintaining APIs,1,False
+tag,Infrastructure,seasonal,Fall 2026,20263,The Best Time to Build in Crypto,1,False
+tag,Insurance,seasonal,Summer 2024,20242,Eliminating middlemen in healthcare,1,False
+tag,Insurance,seasonal,Summer 2024,20242,LLMs for manual back office processes in legacy enterprises,1,False
+tag,Insurance,seasonal,Winter 2025,20250,Fintech 2.0,1,False
+tag,Insurance,seasonal,Spring 2025,20251,DocuSign 2.0,1,False
+tag,Insurance,seasonal,Summer 2026,20262,AI-Native Service Companies,1,False
+tag,International,seasonal,Winter 2025,20250,Fintech 2.0,1,False
+tag,Investing,consolidated,September 2014,20142,Financial Services,1,False
+tag,Investing,consolidated,August 2015,20152,Financial Services,1,False
+tag,Investing,seasonal,Summer 2024,20242,The Managed Service Organization model for healthcare,1,False
+tag,Kids,seasonal,Fall 2025,20253,Video Generation as a Primitive,1,False
+tag,Latin America,seasonal,Fall 2026,20263,The Best Time to Build in Crypto,1,False
+tag,Legal,essays,RFS 1,20090,The Future of Journalism,1,False
+tag,Legal,essays,RFS 2,20090,New Paths Through Product Space,1,False
+tag,Legal,essays,RFS 4,20090,New Ways to Use Live Video,1,False
+tag,Legal,essays,RFS 3,20090,Things Built on Twitter,1,False
+tag,Legal,essays,RFS 5,20090,Development on Handhelds,1,False
+tag,Legal,essays,RFS 6,20100,iPad Applications,1,False
+tag,Legal,essays,RFS 7,20100,Applications of Facebook Instant Personalization,1,False
+tag,Legal,essays,RFS 8,20110,Ephemeralization Apps,1,False
+tag,Legal,essays,RFS 9,20120,Kill Hollywood,1,False
+tag,Legal,essays,RFS 10,20140,Breakthrough Technologies,1,False
+tag,Legal,consolidated,March 2018,20180,A.I.,1,False
+tag,Legal,consolidated,April 2020,20201,A.I.,1,False
+tag,Legal,consolidated,undated version first captured 2022-03-02,20220,A.I.,1,False
+tag,Legal,consolidated,undated version first captured 2022-07-01,20222,A.I.,1,False
+tag,Legal,seasonal,Summer 2025,20252,Full-stack AI Companies,1,False
+tag,Legal,seasonal,Fall 2025,20253,Using LLMs Instead of Government Consulting,1,False
+tag,Legal,seasonal,Spring 2026,20261,AI-Native Agencies,1,False
+tag,Legal,seasonal,Fall 2026,20263,AI-Native Compliance Infrastructure,1,False
+tag,Live,essays,RFS 4,20090,New Ways to Use Live Video,8,True
+tag,Live,essays,RFS 10,20140,Breakthrough Technologies,1,False
+tag,Live,consolidated,March 2014,20140,Transportation & Housing,1,False
+tag,Live,consolidated,July 2014,20142,Transportation & Housing,1,False
+tag,Live,consolidated,September 2014,20142,Human Augmentation,1,False
+tag,Live,consolidated,September 2014,20142,Transportation & Housing,1,False
+tag,Live,consolidated,August 2015,20152,Human Augmentation,1,False
+tag,Live,consolidated,August 2015,20152,Transportation & Housing,1,False
+tag,Live,consolidated,August 2015,20152,Cities of the Future,1,False
+tag,Live,consolidated,September 2016,20162,Human Augmentation,1,False
+tag,Live,consolidated,September 2016,20162,Transportation & Housing,1,False
+tag,Live,consolidated,March 2018,20180,Longevity and Anti-aging,1,False
+tag,Live,consolidated,March 2018,20180,Transportation & Housing,1,False
+tag,Live,consolidated,April 2020,20201,Transportation and Housing,1,False
+tag,Live,consolidated,undated version first captured 2022-03-02,20220,Transportation and Housing,1,False
+tag,Live,consolidated,undated version first captured 2022-07-01,20222,Transportation and Housing,1,False
+tag,Live,seasonal,Summer 2024,20242,Stablecoin finance,1,False
+tag,Live,seasonal,Fall 2026,20263,Multiplayer AI,1,False
+tag,Logistics,seasonal,Summer 2026,20262,Hardware Supply Chain,1,False
+tag,Logistics,seasonal,Fall 2026,20263,Data for the Real World,1,False
+tag,Logistics,seasonal,Fall 2026,20263,The Future of American Defense,1,False
+tag,ML,seasonal,Summer 2024,20242,Bring manufacturing back to America,1,False
+tag,ML,seasonal,Summer 2024,20242,Using machine learning to simulate the physical world,2,False
+tag,ML,seasonal,Winter 2025,20250,Manufacture in the USA,1,False
+tag,ML,seasonal,Spring 2026,20261,Make LLMs Easy to Train,1,False
+tag,Machine Learning,seasonal,Summer 2024,20242,Applying machine learning to robotics,1,True
+tag,Machine Learning,seasonal,Summer 2024,20242,Using machine learning to simulate the physical world,1,True
+tag,Manufacturing,consolidated,March 2018,20180,A.I.,1,False
+tag,Manufacturing,consolidated,March 2018,20180,Bio,1,False
+tag,Manufacturing,consolidated,March 2018,20180,Healthcare,1,False
+tag,Manufacturing,consolidated,April 2020,20201,A.I.,1,False
+tag,Manufacturing,consolidated,April 2020,20201,Bio,1,False
+tag,Manufacturing,consolidated,April 2020,20201,Healthcare,1,False
+tag,Manufacturing,consolidated,undated version first captured 2022-03-02,20220,A.I.,1,False
+tag,Manufacturing,consolidated,undated version first captured 2022-03-02,20220,Bio,1,False
+tag,Manufacturing,consolidated,undated version first captured 2022-03-02,20220,Healthcare,1,False
+tag,Manufacturing,consolidated,undated version first captured 2022-07-01,20222,A.I.,1,False
+tag,Manufacturing,consolidated,undated version first captured 2022-07-01,20222,Bio,1,False
+tag,Manufacturing,consolidated,undated version first captured 2022-07-01,20222,Healthcare,1,False
+tag,Manufacturing,seasonal,Summer 2024,20242,Bring manufacturing back to America,5,True
+tag,Manufacturing,seasonal,Winter 2025,20250,Manufacture in the USA,3,False
+tag,Manufacturing,seasonal,Spring 2026,20261,AI Guidance for Physical Work,1,False
+tag,Manufacturing,seasonal,Summer 2026,20262,Hardware Supply Chain,1,False
+tag,Manufacturing,seasonal,Fall 2026,20263,The Future of American Defense,1,False
+tag,Marketing,seasonal,Summer 2024,20242,A way to end cancer,1,False
+tag,Marketplace,seasonal,Spring 2025,20251,A Secure AI App Store,1,False
+tag,Media,essays,RFS 1,20090,The Future of Journalism,2,False
+tag,Media,essays,RFS 9,20120,Kill Hollywood,1,False
+tag,Media,consolidated,September 2016,20162,Mass Media:,4,True
+tag,Media,consolidated,September 2016,20162,News:,1,False
+tag,Media,seasonal,Fall 2025,20253,Video Generation as a Primitive,1,False
+tag,Medical Devices,consolidated,September 2014,20142,Healthcare,1,False
+tag,Medical Devices,consolidated,August 2015,20152,Healthcare,1,False
+tag,Medical Devices,consolidated,September 2016,20162,Healthcare,1,False
+tag,Medical Devices,consolidated,March 2018,20180,Healthcare,2,False
+tag,Medical Devices,consolidated,April 2020,20201,Healthcare,2,False
+tag,Medical Devices,consolidated,undated version first captured 2022-03-02,20220,Healthcare,2,False
+tag,Medical Devices,consolidated,undated version first captured 2022-07-01,20222,Healthcare,2,False
+tag,Medical Devices,seasonal,Summer 2026,20262,Hardware Supply Chain,1,False
+tag,Mental Health,seasonal,Summer 2024,20242,The Managed Service Organization model for healthcare,1,False
+tag,Messaging,essays,RFS 3,20090,Things Built on Twitter,1,False
+tag,Mining,essays,RFS 1,20090,The Future of Journalism,1,False
+tag,Mining,seasonal,Winter 2025,20250,LLMs for chip design,1,False
+tag,Mining,seasonal,Summer 2025,20252,AI for Scientific Advancement,1,False
+tag,Mobility,consolidated,March 2018,20180,Education,1,False
+tag,Mobility,consolidated,April 2020,20201,Education,1,False
+tag,Mobility,consolidated,undated version first captured 2022-03-02,20220,Education,1,False
+tag,Mobility,consolidated,undated version first captured 2022-07-01,20222,Education,1,False
+tag,Monitoring,consolidated,March 2018,20180,Healthcare,1,False
+tag,Monitoring,consolidated,March 2018,20180,Response to COVID-19,1,False
+tag,Monitoring,consolidated,April 2020,20201,Healthcare,1,False
+tag,Monitoring,consolidated,April 2020,20201,Response to COVID-19,1,False
+tag,Monitoring,consolidated,undated version first captured 2022-03-02,20220,Healthcare,1,False
+tag,Monitoring,consolidated,undated version first captured 2022-03-02,20220,Response to COVID-19,1,False
+tag,Monitoring,consolidated,undated version first captured 2022-07-01,20222,Healthcare,1,False
+tag,Monitoring,seasonal,Summer 2024,20242,LLMs for manual back office processes in legacy enterprises,1,False
+tag,Monitoring,seasonal,Summer 2026,20262,Supply Chain 2.0 for Semiconductors,1,False
+tag,Monitoring,seasonal,Fall 2026,20263,AI for the Aging Population,1,False
+tag,Monitoring,seasonal,Fall 2026,20263,AI-Native Compliance Infrastructure,1,False
+tag,Music,seasonal,Summer 2024,20242,Stablecoin finance,1,False
+tag,Networks,seasonal,Summer 2026,20262,Hardware Supply Chain,1,False
+tag,Networks,seasonal,Fall 2026,20263,The Best Time to Build in Crypto,1,False
+tag,Notifications,seasonal,Summer 2025,20252,AI Residential Security,1,False
+tag,Open Source,seasonal,Summer 2024,20242,Commercial open source companies,6,True
+tag,Open Source,seasonal,Spring 2025,20251,AI Commercial Open Source Software (AICOSS),7,True
+tag,Open Source,seasonal,Spring 2025,20251,Startup Founders with Systems Programming Expertise,1,False
+tag,Operations,seasonal,Summer 2024,20242,Stablecoin finance,1,False
+tag,Operations,seasonal,Winter 2025,20250,Public safety technology,1,False
+tag,Operations,seasonal,Spring 2025,20251,The Future of Software Engineering,1,False
+tag,Operations,seasonal,Summer 2025,20252,AI for Scientific Advancement,1,False
+tag,Operations,seasonal,Spring 2026,20261,Large Spatial Models,1,False
+tag,Operations,seasonal,Fall 2026,20263,AI-Native Compliance Infrastructure,1,False
+tag,Operations,seasonal,Fall 2026,20263,New Operating Systems for the Physical World,1,False
+tag,Payments,consolidated,September 2014,20142,Developing Countries,1,False
+tag,Payments,seasonal,Summer 2024,20242,Stablecoin finance,1,False
+tag,Payments,seasonal,Winter 2025,20250,Fintech 2.0,1,False
+tag,Payments,seasonal,Spring 2025,20251,A Secure AI App Store,1,False
+tag,Payments,seasonal,Spring 2026,20261,Infra for Government Fraud Hunters,1,False
+tag,Payments,seasonal,Fall 2026,20263,The Best Time to Build in Crypto,1,False
+tag,Personalization,essays,RFS 7,20100,Applications of Facebook Instant Personalization,5,True
+tag,Personalization,seasonal,Summer 2026,20262,AI Personalized Medicine,1,False
+tag,Personalization,seasonal,Summer 2026,20262,Dynamic Software Interfaces,1,False
+tag,Privacy,seasonal,Summer 2024,20242,Small fine-tuned models as an alternative to giant generic ones,1,False
+tag,Privacy,seasonal,Winter 2025,20250,Public safety technology,1,False
+tag,Privacy,seasonal,Fall 2026,20263,Proving You're Human,1,False
+tag,Procurement,seasonal,Spring 2025,20251,Datacenters,1,False
+tag,Productivity,essays,RFS 10,20140,Breakthrough Technologies,1,False
+tag,Productivity,consolidated,March 2014,20140,Levers,1,False
+tag,Productivity,consolidated,July 2014,20142,Levers,1,False
+tag,Productivity,consolidated,March 2018,20180,Education,1,False
+tag,Productivity,consolidated,April 2020,20201,Education,1,False
+tag,Productivity,consolidated,undated version first captured 2022-03-02,20220,Education,1,False
+tag,Productivity,consolidated,undated version first captured 2022-07-01,20222,Education,1,False
+tag,Productivity,seasonal,Spring 2025,20251,Devtools for AI Agents,1,False
+tag,Productivity,seasonal,Summer 2025,20252,AI Personal Assistant,2,False
+tag,Radar,seasonal,Summer 2024,20242,New defense technology,1,False
+tag,Remittances,seasonal,Winter 2025,20250,Stablecoins 2.0,1,False
+tag,Remote,seasonal,Fall 2026,20263,Data for the Real World,1,False
+tag,Retail,essays,RFS 2,20090,New Paths Through Product Space,1,False
+tag,Retail,consolidated,September 2014,20142,Enterprise Software,1,False
+tag,Retail,consolidated,August 2015,20152,Enterprise Software,1,False
+tag,Retail,consolidated,September 2016,20162,Enterprise Software,1,False
+tag,Retail,consolidated,March 2018,20180,Brick and Mortar 2.0,4,False
+tag,Retail,consolidated,March 2018,20180,Enterprise Software,1,False
+tag,Retail,consolidated,April 2020,20201,Brick and Mortar 2.0,4,False
+tag,Retail,consolidated,April 2020,20201,Enterprise Software,1,False
+tag,Retail,consolidated,undated version first captured 2022-03-02,20220,Brick and Mortar 2.0,4,False
+tag,Retail,consolidated,undated version first captured 2022-03-02,20220,Enterprise Software,1,False
+tag,Retail,consolidated,undated version first captured 2022-07-01,20222,Brick and Mortar 2.0,4,False
+tag,Retail,consolidated,undated version first captured 2022-07-01,20222,Enterprise Software,1,False
+tag,Reviews,seasonal,Summer 2024,20242,LLMs for manual back office processes in legacy enterprises,1,False
+tag,Reviews,seasonal,Spring 2025,20251,A Secure AI App Store,1,False
+tag,Reviews,seasonal,Fall 2026,20263,Proving You're Human,1,False
+tag,Robotics,essays,RFS 10,20140,Breakthrough Technologies,1,False
+tag,Robotics,consolidated,March 2014,20140,Robotics,1,True
+tag,Robotics,consolidated,July 2014,20142,Robotics,1,True
+tag,Robotics,consolidated,September 2014,20142,Robotics,1,True
+tag,Robotics,consolidated,August 2015,20152,Robotics,1,True
+tag,Robotics,consolidated,September 2016,20162,Robotics,1,True
+tag,Robotics,consolidated,March 2018,20180,A.I.,1,False
+tag,Robotics,consolidated,March 2018,20180,Robotics,1,True
+tag,Robotics,consolidated,April 2020,20201,A.I.,1,False
+tag,Robotics,consolidated,undated version first captured 2022-03-02,20220,A.I.,1,False
+tag,Robotics,consolidated,undated version first captured 2022-07-01,20222,A.I.,1,False
+tag,Robotics,seasonal,Summer 2024,20242,Applying machine learning to robotics,5,True
+tag,Robotics,seasonal,Summer 2024,20242,Bring manufacturing back to America,2,False
+tag,Robotics,seasonal,Winter 2025,20250,Manufacture in the USA,2,False
+tag,Robotics,seasonal,Summer 2025,20252,Software Tools To Make Robots,3,False
+tag,Robotics,seasonal,Summer 2026,20262,AI for Low-Pesticide Agriculture,1,False
+tag,Robotics,seasonal,Fall 2026,20263,AI for the Aging Population,1,False
+tag,Robotics,seasonal,Fall 2026,20263,Data for the Real World,1,False
+tag,Robotics,seasonal,Fall 2026,20263,New Operating Systems for the Physical World,1,False
+tag,SaaS,seasonal,Spring 2025,20251,Vertical AI Agents,4,False
+tag,SaaS,seasonal,Fall 2025,20253,AI Native Enterprise Software,1,False
+tag,SaaS,seasonal,Summer 2026,20262,AI-Native Service Companies,1,False
+tag,SaaS,seasonal,Summer 2026,20262,SaaS Challengers,6,True
+tag,Sales,consolidated,March 2018,20180,Brick and Mortar 2.0,1,False
+tag,Sales,consolidated,April 2020,20201,Brick and Mortar 2.0,1,False
+tag,Sales,consolidated,undated version first captured 2022-03-02,20220,Brick and Mortar 2.0,1,False
+tag,Sales,consolidated,undated version first captured 2022-07-01,20222,Brick and Mortar 2.0,1,False
+tag,Sales,seasonal,Summer 2024,20242,AI to build enterprise software,2,False
+tag,Sales,seasonal,Summer 2024,20242,Commercial open source companies,2,False
+tag,Sales,seasonal,Spring 2025,20251,DocuSign 2.0,1,False
+tag,Sales,seasonal,Fall 2025,20253,AI Native Enterprise Software,1,False
+tag,Sales,seasonal,Fall 2026,20263,Multiplayer AI,1,False
+tag,Satellites,seasonal,Summer 2024,20242,Bring manufacturing back to America,1,False
+tag,Satellites,seasonal,Winter 2025,20250,AI-aided engineering tools,1,False
+tag,Satellites,seasonal,Winter 2025,20250,Manufacture in the USA,1,False
+tag,Scheduling,seasonal,Summer 2024,20242,The Managed Service Organization model for healthcare,1,False
+tag,Scheduling,seasonal,Summer 2025,20252,AI Personal Assistant,1,False
+tag,Scheduling,seasonal,Summer 2025,20252,AI Voice Assistants for Email,1,False
+tag,Scheduling,seasonal,Spring 2026,20261,Modern Metal Mills,1,False
+tag,Search,seasonal,Fall 2025,20253,Infrastructure for Multi-Agent Systems,1,False
+tag,Search,seasonal,Summer 2026,20262,Company Brain,1,False
+tag,Security,essays,RFS 10,20140,Breakthrough Technologies,1,False
+tag,Security,consolidated,March 2014,20140,Internet Infrastructure,1,False
+tag,Security,consolidated,July 2014,20142,Internet Infrastructure,1,False
+tag,Security,consolidated,September 2014,20142,Internet Infrastructure,1,False
+tag,Security,consolidated,August 2015,20152,Computer Security,1,True
+tag,Security,consolidated,August 2015,20152,Internet Infrastructure,1,False
+tag,Security,consolidated,September 2016,20162,Computer Security,1,True
+tag,Security,consolidated,March 2018,20180,Computer Security,1,True
+tag,Security,seasonal,Spring 2025,20251,The Future of Software Engineering,1,False
+tag,Security,seasonal,Summer 2025,20252,AI Residential Security,3,True
+tag,Semiconductors,seasonal,Summer 2026,20262,Supply Chain 2.0 for Semiconductors,1,True
+tag,Social,essays,RFS 9,20120,Kill Hollywood,1,False
+tag,Social,essays,RFS 10,20140,Breakthrough Technologies,1,False
+tag,Social,consolidated,March 2014,20140,Internet Infrastructure,1,False
+tag,Social,consolidated,July 2014,20142,Internet Infrastructure,1,False
+tag,Social,consolidated,September 2014,20142,Government,1,False
+tag,Social,consolidated,September 2016,20162,Underserved Communities and Social Services,2,True
+tag,Social,consolidated,March 2018,20180,Education,1,False
+tag,Social,consolidated,March 2018,20180,Underserved Communities and Social Services,2,True
+tag,Social,consolidated,March 2018,20180,Government 2.0,1,False
+tag,Social,consolidated,April 2020,20201,Education,1,False
+tag,Social,consolidated,April 2020,20201,Government 2.0,1,False
+tag,Social,consolidated,April 2020,20201,Underserved Communities and Social Services,2,True
+tag,Social,consolidated,undated version first captured 2022-03-02,20220,Education,1,False
+tag,Social,consolidated,undated version first captured 2022-03-02,20220,Government 2.0,1,False
+tag,Social,consolidated,undated version first captured 2022-03-02,20220,Underserved Communities and Social Services,2,True
+tag,Social,consolidated,undated version first captured 2022-07-01,20222,Education,1,False
+tag,Social,consolidated,undated version first captured 2022-07-01,20222,Government 2.0,1,False
+tag,Social,consolidated,undated version first captured 2022-07-01,20222,Underserved Communities and Social Services,2,True
+tag,Social,seasonal,Summer 2024,20242,Bring manufacturing back to America,1,False
+tag,Social,seasonal,Winter 2025,20250,Manufacture in the USA,1,False
+tag,Stocks,consolidated,September 2014,20142,Financial Services,1,False
+tag,Stocks,consolidated,August 2015,20152,Financial Services,1,False
+tag,Stocks,seasonal,Fall 2026,20263,The Best Time to Build in Crypto,1,False
+tag,Supply Chain,seasonal,Summer 2026,20262,Hardware Supply Chain,2,True
+tag,Supply Chain,seasonal,Summer 2026,20262,SaaS Challengers,1,False
+tag,Supply Chain,seasonal,Summer 2026,20262,Supply Chain 2.0 for Semiconductors,4,True
+tag,Synthetic Biology,consolidated,March 2018,20180,Bio,1,False
+tag,Synthetic Biology,consolidated,April 2020,20201,Bio,1,False
+tag,Synthetic Biology,consolidated,undated version first captured 2022-03-02,20220,Bio,1,False
+tag,Synthetic Biology,consolidated,undated version first captured 2022-07-01,20222,Bio,1,False
+tag,Telecommunications,consolidated,September 2014,20142,Telecommunications,1,True
+tag,Telecommunications,seasonal,Summer 2024,20242,Bring manufacturing back to America,1,False
+tag,Telecommunications,seasonal,Winter 2025,20250,Manufacture in the USA,1,False
+tag,Therapeutics,seasonal,Summer 2024,20242,A way to end cancer,2,False
+tag,Trading,seasonal,Spring 2025,20251,B2A: Software Where the Customers Will All Be Agents,1,False
+tag,Trading,seasonal,Spring 2026,20261,AI-Native Hedge Funds,1,False
+tag,Trading,seasonal,Fall 2026,20263,The Best Time to Build in Crypto,2,False
+tag,Transportation,essays,RFS 10,20140,Breakthrough Technologies,3,False
+tag,Transportation,consolidated,March 2014,20140,Transportation & Housing,3,True
+tag,Transportation,consolidated,July 2014,20142,Transportation & Housing,3,True
+tag,Transportation,consolidated,September 2014,20142,Transportation & Housing,4,True
+tag,Transportation,consolidated,August 2015,20152,Transportation & Housing,4,True
+tag,Transportation,consolidated,September 2016,20162,Transportation & Housing,4,True
+tag,Transportation,consolidated,March 2018,20180,Transportation & Housing,4,True
+tag,Transportation,consolidated,April 2020,20201,Transportation and Housing,4,True
+tag,Transportation,consolidated,undated version first captured 2022-03-02,20220,Transportation and Housing,4,True
+tag,Transportation,consolidated,undated version first captured 2022-07-01,20222,Transportation and Housing,4,True
+tag,Travel,seasonal,Summer 2024,20242,New space companies,1,False
+tag,Travel,seasonal,Winter 2025,20250,New space companies,1,False
+tag,Travel,seasonal,Spring 2025,20251,A Secure AI App Store,2,False
+tag,Travel,seasonal,Spring 2025,20251,B2A: Software Where the Customers Will All Be Agents,1,False
+tag,Travel,seasonal,Summer 2025,20252,AI Personal Assistant,1,False
+tag,Vaccines,consolidated,September 2014,20142,Biotech,1,False
+tag,Vaccines,consolidated,August 2015,20152,Biotech,1,False
+tag,Vaccines,consolidated,August 2015,20152,Global Health Non-profits,1,False
+tag,Vaccines,consolidated,September 2016,20162,Biotech,1,False
+tag,Vaccines,consolidated,September 2016,20162,Global Health Non-profits,1,False
+tag,Vaccines,consolidated,March 2018,20180,Bio,1,False
+tag,Vaccines,consolidated,March 2018,20180,Response to COVID-19,1,False
+tag,Vaccines,consolidated,April 2020,20201,Bio,1,False
+tag,Vaccines,consolidated,April 2020,20201,Response to COVID-19,1,False
+tag,Vaccines,consolidated,undated version first captured 2022-03-02,20220,Bio,1,False
+tag,Vaccines,consolidated,undated version first captured 2022-03-02,20220,Response to COVID-19,1,False
+tag,Vaccines,consolidated,undated version first captured 2022-07-01,20222,Bio,1,False
+tag,Video,essays,RFS 4,20090,New Ways to Use Live Video,9,True
+tag,Video,consolidated,March 2018,20180,Safeguards Against Fake Video,2,True
+tag,Video,seasonal,Winter 2025,20250,Public safety technology,1,False
+tag,Video,seasonal,Spring 2025,20251,Startup Founders with Systems Programming Expertise,1,False
+tag,Video,seasonal,Summer 2025,20252,AI Residential Security,2,False
+tag,Video,seasonal,Fall 2025,20253,Video Generation as a Primitive,10,True
+tag,Video,seasonal,Spring 2026,20261,AI-Native Agencies,1,False
+tag,Video,seasonal,Fall 2026,20263,Proving You're Human,3,False
+tag,Virtual Reality,consolidated,September 2014,20142,VR and AR,1,False
+tag,Virtual Reality,consolidated,August 2015,20152,VR and AR,1,False
+tag,Virtual Reality,consolidated,September 2016,20162,VR and AR,1,False
+tag,Virtual Reality,consolidated,March 2018,20180,VR and AR,1,False
+tag,Virtual Reality,consolidated,April 2020,20201,VR and AR,1,False
+tag,Virtual Reality,consolidated,undated version first captured 2022-03-02,20220,VR and AR,1,False
+tag,Virtual Reality,consolidated,undated version first captured 2022-07-01,20222,VR and AR,1,False
+tag,Weather,consolidated,September 2014,20142,Financial Services,1,False
+tag,Weather,consolidated,August 2015,20152,Financial Services,1,False
+tag,Weather,seasonal,Summer 2024,20242,Using machine learning to simulate the physical world,1,False
+tag,Weather,seasonal,Fall 2026,20263,Data for the Real World,2,False
+industry,B2B,seasonal,Summer 2024,20242,Applying machine learning to robotics,1,False
+industry,B2B,seasonal,Summer 2024,20242,Stablecoin finance,1,False
+industry,B2B,seasonal,Spring 2025,20251,Vertical AI Agents,4,False
+industry,B2B,seasonal,Summer 2025,20252,Software Tools To Make Robots,1,False
+industry,B2B,seasonal,Fall 2025,20253,AI Native Enterprise Software,1,False
+industry,Consumer,consolidated,March 2018,20180,Brick and Mortar 2.0,1,False
+industry,Consumer,consolidated,March 2018,20180,Cleaner Commodities,2,False
+industry,Consumer,consolidated,April 2020,20201,Brick and Mortar 2.0,1,False
+industry,Consumer,consolidated,undated version first captured 2022-03-02,20220,Brick and Mortar 2.0,1,False
+industry,Consumer,consolidated,undated version first captured 2022-07-01,20222,Brick and Mortar 2.0,1,False
+industry,Consumer,seasonal,Summer 2024,20242,A way to end cancer,1,False
+industry,Consumer,seasonal,Summer 2024,20242,Applying machine learning to robotics,1,False
+industry,Consumer,seasonal,Summer 2024,20242,Foundation models for biological systems,1,False
+industry,Consumer,seasonal,Summer 2024,20242,Stablecoin finance,1,False
+industry,Consumer,seasonal,Summer 2025,20252,Software Tools To Make Robots,1,False
+industry,Consumer,seasonal,Fall 2026,20263,AI-Powered Consumer Products for 1 Billion People,5,True
+industry,Consumer,seasonal,Fall 2026,20263,The Primer,1,False
+industry,Education,essays,RFS 6,20100,iPad Applications,1,False
+industry,Education,essays,RFS 10,20140,Breakthrough Technologies,3,False
+industry,Education,consolidated,March 2014,20140,Education,3,True
+industry,Education,consolidated,July 2014,20142,Education,3,True
+industry,Education,consolidated,September 2014,20142,Education,3,True
+industry,Education,consolidated,August 2015,20152,Education,3,True
+industry,Education,consolidated,September 2016,20162,Education,3,True
+industry,Education,consolidated,March 2018,20180,Education,5,True
+industry,Education,consolidated,March 2018,20180,Government 2.0,1,False
+industry,Education,consolidated,April 2020,20201,Education,5,True
+industry,Education,consolidated,April 2020,20201,Government 2.0,1,False
+industry,Education,consolidated,undated version first captured 2022-03-02,20220,Education,5,True
+industry,Education,consolidated,undated version first captured 2022-03-02,20220,Government 2.0,1,False
+industry,Education,consolidated,undated version first captured 2022-07-01,20222,Education,5,True
+industry,Education,consolidated,undated version first captured 2022-07-01,20222,Government 2.0,1,False
+industry,Education,seasonal,Summer 2025,20252,AI Personal Tutor for Everyone,1,False
+industry,Education,seasonal,Summer 2025,20252,The Future of Education,5,True
+industry,Education,seasonal,Fall 2026,20263,The Primer,1,False
+industry,Fintech,seasonal,Summer 2024,20242,Climate tech,1,False
+industry,Fintech,seasonal,Winter 2025,20250,Fintech 2.0,3,True
+industry,Government,essays,RFS 10,20140,Breakthrough Technologies,1,False
+industry,Government,consolidated,March 2014,20140,Internet Infrastructure,1,False
+industry,Government,consolidated,July 2014,20142,Internet Infrastructure,1,False
+industry,Government,consolidated,September 2014,20142,Government,3,True
+industry,Government,consolidated,August 2015,20152,Global Infrastructure,1,False
+industry,Government,consolidated,September 2016,20162,Underserved Communities and Social Services,1,False
+industry,Government,consolidated,March 2018,20180,Underserved Communities and Social Services,1,False
+industry,Government,consolidated,March 2018,20180,Government 2.0,2,True
+industry,Government,consolidated,April 2020,20201,Government 2.0,2,True
+industry,Government,consolidated,April 2020,20201,Underserved Communities and Social Services,1,False
+industry,Government,consolidated,undated version first captured 2022-03-02,20220,Government 2.0,2,True
+industry,Government,consolidated,undated version first captured 2022-03-02,20220,Underserved Communities and Social Services,1,False
+industry,Government,consolidated,undated version first captured 2022-07-01,20222,Government 2.0,2,True
+industry,Government,consolidated,undated version first captured 2022-07-01,20222,Underserved Communities and Social Services,1,False
+industry,Government,seasonal,Summer 2024,20242,Bring manufacturing back to America,1,False
+industry,Government,seasonal,Winter 2025,20250,Government software,8,True
+industry,Government,seasonal,Fall 2025,20253,Retraining Workers for the AI Economy,1,False
+industry,Government,seasonal,Fall 2025,20253,Using LLMs Instead of Government Consulting,8,True
+industry,Government,seasonal,Spring 2026,20261,AI for Government,6,True
+industry,Government,seasonal,Spring 2026,20261,Infra for Government Fraud Hunters,4,True
+industry,Government,seasonal,Fall 2026,20263,Compute at Sea,1,False
+industry,Government,seasonal,Fall 2026,20263,Data for the Real World,1,False
+industry,Healthcare,essays,RFS 10,20140,Breakthrough Technologies,6,False
+industry,Healthcare,consolidated,March 2014,20140,Healthcare,6,True
+industry,Healthcare,consolidated,July 2014,20142,Healthcare,6,True
+industry,Healthcare,consolidated,September 2014,20142,Healthcare,6,True
+industry,Healthcare,consolidated,August 2015,20152,Healthcare,6,True
+industry,Healthcare,consolidated,September 2016,20162,Healthcare,6,True
+industry,Healthcare,consolidated,September 2016,20162,Future of Work:,1,False
+industry,Healthcare,consolidated,March 2018,20180,Bio,1,False
+industry,Healthcare,consolidated,March 2018,20180,Future of Work:,1,False
+industry,Healthcare,consolidated,March 2018,20180,Healthcare,6,True
+industry,Healthcare,consolidated,March 2018,20180,Longevity and Anti-aging,1,False
+industry,Healthcare,consolidated,March 2018,20180,Government 2.0,1,False
+industry,Healthcare,consolidated,April 2020,20201,Bio,1,False
+industry,Healthcare,consolidated,April 2020,20201,Future of Work:,1,False
+industry,Healthcare,consolidated,April 2020,20201,Government 2.0,1,False
+industry,Healthcare,consolidated,April 2020,20201,Healthcare,6,True
+industry,Healthcare,consolidated,undated version first captured 2022-03-02,20220,Bio,1,False
+industry,Healthcare,consolidated,undated version first captured 2022-03-02,20220,Future of Work:,1,False
+industry,Healthcare,consolidated,undated version first captured 2022-03-02,20220,Government 2.0,1,False
+industry,Healthcare,consolidated,undated version first captured 2022-03-02,20220,Healthcare,6,True
+industry,Healthcare,consolidated,undated version first captured 2022-07-01,20222,Bio,1,False
+industry,Healthcare,consolidated,undated version first captured 2022-07-01,20222,Future of Work:,1,False
+industry,Healthcare,consolidated,undated version first captured 2022-07-01,20222,Government 2.0,1,False
+industry,Healthcare,consolidated,undated version first captured 2022-07-01,20222,Healthcare,6,True
+industry,Healthcare,seasonal,Summer 2024,20242,A way to end cancer,1,False
+industry,Healthcare,seasonal,Summer 2024,20242,Eliminating middlemen in healthcare,2,True
+industry,Healthcare,seasonal,Summer 2024,20242,Foundation models for biological systems,1,False
+industry,Healthcare,seasonal,Summer 2024,20242,The Managed Service Organization model for healthcare,3,True
+industry,Healthcare,seasonal,Summer 2025,20252,Healthcare AI,5,True
+industry,Healthcare,seasonal,Spring 2026,20261,AI Guidance for Physical Work,1,False
+industry,Healthcare,seasonal,Summer 2026,20262,AI-Native Service Companies,1,False
+subindustry_child,Agriculture,consolidated,September 2016,20162,Food and Farming:,1,False
+subindustry_child,Agriculture,consolidated,March 2018,20180,Bio,1,False
+subindustry_child,Agriculture,consolidated,March 2018,20180,Cellular Agriculture and Clean Meat,2,True
+subindustry_child,Agriculture,consolidated,April 2020,20201,Bio,1,False
+subindustry_child,Agriculture,consolidated,April 2020,20201,Cellular Agriculture and Clean Meat,2,True
+subindustry_child,Agriculture,consolidated,undated version first captured 2022-03-02,20220,Bio,1,False
+subindustry_child,Agriculture,consolidated,undated version first captured 2022-03-02,20220,Cellular Agriculture and Clean Meat,2,True
+subindustry_child,Agriculture,consolidated,undated version first captured 2022-07-01,20222,Bio,1,False
+subindustry_child,Agriculture,consolidated,undated version first captured 2022-07-01,20222,Cellular Agriculture and Clean Meat,2,True
+subindustry_child,Agriculture,seasonal,Summer 2026,20262,AI for Low-Pesticide Agriculture,3,True
+subindustry_child,Agriculture,seasonal,Fall 2026,20263,Data for the Real World,1,False
+subindustry_child,Climate,essays,RFS 10,20140,Breakthrough Technologies,1,False
+subindustry_child,Climate,consolidated,March 2014,20140,Science,1,False
+subindustry_child,Climate,consolidated,July 2014,20142,Science,1,False
+subindustry_child,Climate,consolidated,September 2014,20142,Science,1,False
+subindustry_child,Climate,consolidated,August 2015,20152,Science,1,False
+subindustry_child,Climate,consolidated,March 2018,20180,Carbon Removal Technologies,1,False
+subindustry_child,Climate,consolidated,April 2020,20201,Carbon Removal Technologies,1,False
+subindustry_child,Climate,consolidated,undated version first captured 2022-03-02,20220,Carbon Removal Technologies,1,False
+subindustry_child,Climate,consolidated,undated version first captured 2022-07-01,20222,Carbon Removal Technologies,1,False
+subindustry_child,Climate,seasonal,Summer 2024,20242,Climate tech,5,True
+subindustry_child,Construction,seasonal,Summer 2024,20242,Small fine-tuned models as an alternative to giant generic ones,1,False
+subindustry_child,Construction,seasonal,Spring 2025,20251,Datacenters,1,False
+subindustry_child,Construction,seasonal,Fall 2026,20263,Data for the Real World,1,False
+subindustry_child,Construction,seasonal,Fall 2026,20263,New Operating Systems for the Physical World,1,False
+subindustry_child,Content,essays,RFS 1,20090,The Future of Journalism,3,False
+subindustry_child,Content,essays,RFS 10,20140,Breakthrough Technologies,1,False
+subindustry_child,Content,consolidated,March 2014,20140,Education,1,False
+subindustry_child,Content,consolidated,July 2014,20142,Education,1,False
+subindustry_child,Content,consolidated,September 2014,20142,Education,1,False
+subindustry_child,Content,consolidated,September 2014,20142,Hollywood 2.0,3,False
+subindustry_child,Content,consolidated,August 2015,20152,Education,1,False
+subindustry_child,Content,consolidated,August 2015,20152,Hollywood 2.0,3,False
+subindustry_child,Content,consolidated,September 2016,20162,Education,1,False
+subindustry_child,Content,consolidated,September 2016,20162,Hollywood 2.0,3,False
+subindustry_child,Content,seasonal,Summer 2025,20252,AI Personal Tutor for Everyone,1,False
+subindustry_child,Defense,seasonal,Summer 2024,20242,New defense technology,4,True
+subindustry_child,Defense,seasonal,Summer 2026,20262,Counter-Swarm Defense,4,True
+subindustry_child,Defense,seasonal,Fall 2026,20263,The Future of American Defense,1,True
+subindustry_child,Diagnostics,consolidated,March 2018,20180,Healthcare,3,False
+subindustry_child,Diagnostics,consolidated,March 2018,20180,Response to COVID-19,1,False
+subindustry_child,Diagnostics,consolidated,April 2020,20201,Healthcare,3,False
+subindustry_child,Diagnostics,consolidated,April 2020,20201,Response to COVID-19,1,False
+subindustry_child,Diagnostics,consolidated,undated version first captured 2022-03-02,20220,Healthcare,3,False
+subindustry_child,Diagnostics,consolidated,undated version first captured 2022-03-02,20220,Response to COVID-19,1,False
+subindustry_child,Diagnostics,consolidated,undated version first captured 2022-07-01,20222,Healthcare,3,False
+subindustry_child,Diagnostics,seasonal,Summer 2026,20262,AI Personalized Medicine,2,False
+subindustry_child,Drones,seasonal,Summer 2026,20262,Counter-Swarm Defense,4,False
+subindustry_child,Drones,seasonal,Fall 2026,20263,The Future of American Defense,1,False
+subindustry_child,Energy,essays,RFS 9,20120,Kill Hollywood,1,False
+subindustry_child,Energy,essays,RFS 10,20140,Breakthrough Technologies,9,False
+subindustry_child,Energy,consolidated,March 2014,20140,Energy,8,True
+subindustry_child,Energy,consolidated,March 2014,20140,Transportation & Housing,1,False
+subindustry_child,Energy,consolidated,July 2014,20142,Energy,8,True
+subindustry_child,Energy,consolidated,July 2014,20142,Transportation & Housing,1,False
+subindustry_child,Energy,consolidated,September 2014,20142,Energy,8,True
+subindustry_child,Energy,consolidated,September 2014,20142,Transportation & Housing,1,False
+subindustry_child,Energy,consolidated,August 2015,20152,Energy,8,True
+subindustry_child,Energy,consolidated,August 2015,20152,Transportation & Housing,1,False
+subindustry_child,Energy,consolidated,September 2016,20162,Energy,8,True
+subindustry_child,Energy,consolidated,September 2016,20162,Transportation & Housing,1,False
+subindustry_child,Energy,consolidated,March 2018,20180,Cellular Agriculture and Clean Meat,1,False
+subindustry_child,Energy,consolidated,March 2018,20180,Energy,8,True
+subindustry_child,Energy,consolidated,March 2018,20180,Transportation & Housing,1,False
+subindustry_child,Energy,consolidated,April 2020,20201,Cellular Agriculture and Clean Meat,1,False
+subindustry_child,Energy,consolidated,April 2020,20201,Energy,8,True
+subindustry_child,Energy,consolidated,April 2020,20201,Transportation and Housing,1,False
+subindustry_child,Energy,consolidated,undated version first captured 2022-03-02,20220,Cellular Agriculture and Clean Meat,1,False
+subindustry_child,Energy,consolidated,undated version first captured 2022-03-02,20220,Energy,8,True
+subindustry_child,Energy,consolidated,undated version first captured 2022-03-02,20220,Transportation and Housing,1,False
+subindustry_child,Energy,consolidated,undated version first captured 2022-07-01,20222,Cellular Agriculture and Clean Meat,1,False
+subindustry_child,Energy,consolidated,undated version first captured 2022-07-01,20222,Energy,8,True
+subindustry_child,Energy,consolidated,undated version first captured 2022-07-01,20222,Transportation and Housing,1,False
+subindustry_child,Energy,seasonal,Summer 2024,20242,Climate tech,1,False
+subindustry_child,Energy,seasonal,Winter 2025,20250,LLMs for chip design,1,False
+subindustry_child,Energy,seasonal,Spring 2026,20261,Modern Metal Mills,5,False
+subindustry_child,Energy,seasonal,Fall 2026,20263,Data for the Real World,1,False
+subindustry_child,Gaming,seasonal,Summer 2024,20242,Spatial computing,1,False
+subindustry_child,Gaming,seasonal,Fall 2025,20253,Video Generation as a Primitive,1,False
+subindustry_child,Human Resources,consolidated,July 2014,20142,One Million Jobs,1,False
+subindustry_child,Human Resources,consolidated,September 2014,20142,One Million Jobs,1,False
+subindustry_child,Human Resources,consolidated,August 2015,20152,One Million Jobs,1,False
+subindustry_child,Human Resources,consolidated,September 2016,20162,One Million Jobs,1,False
+subindustry_child,Human Resources,consolidated,March 2018,20180,One Million Jobs,1,False
+subindustry_child,Human Resources,consolidated,April 2020,20201,One Million Jobs,1,False
+subindustry_child,Human Resources,consolidated,undated version first captured 2022-03-02,20220,One Million Jobs,1,False
+subindustry_child,Human Resources,consolidated,undated version first captured 2022-07-01,20222,One Million Jobs,1,False
+subindustry_child,Infrastructure,essays,RFS 4,20090,New Ways to Use Live Video,5,False
+subindustry_child,Infrastructure,essays,RFS 10,20140,Breakthrough Technologies,2,False
+subindustry_child,Infrastructure,consolidated,March 2014,20140,Internet Infrastructure,2,True
+subindustry_child,Infrastructure,consolidated,July 2014,20142,Internet Infrastructure,2,True
+subindustry_child,Infrastructure,consolidated,September 2014,20142,Developing Countries,1,False
+subindustry_child,Infrastructure,consolidated,September 2014,20142,Internet Infrastructure,2,True
+subindustry_child,Infrastructure,consolidated,September 2014,20142,Programming Tools,1,False
+subindustry_child,Infrastructure,consolidated,August 2015,20152,Global Infrastructure,4,True
+subindustry_child,Infrastructure,consolidated,August 2015,20152,Internet Infrastructure,2,True
+subindustry_child,Infrastructure,consolidated,August 2015,20152,Programming Tools,1,False
+subindustry_child,Infrastructure,consolidated,September 2016,20162,Programming Tools,1,False
+subindustry_child,Infrastructure,consolidated,March 2018,20180,Programming Tools,1,False
+subindustry_child,Infrastructure,consolidated,March 2018,20180,Response to COVID-19,1,False
+subindustry_child,Infrastructure,consolidated,April 2020,20201,Response to COVID-19,1,False
+subindustry_child,Infrastructure,consolidated,undated version first captured 2022-03-02,20220,Response to COVID-19,1,False
+subindustry_child,Infrastructure,seasonal,Winter 2025,20250,Fintech 2.0,1,False
+subindustry_child,Infrastructure,seasonal,Spring 2025,20251,A Secure AI App Store,1,False
+subindustry_child,Infrastructure,seasonal,Spring 2025,20251,Datacenters,2,False
+subindustry_child,Infrastructure,seasonal,Spring 2025,20251,Inference AI Infrastructure in the World of Test-Time Compute,2,True
+subindustry_child,Infrastructure,seasonal,Spring 2025,20251,Startup Founders with Systems Programming Expertise,1,False
+subindustry_child,Infrastructure,seasonal,Summer 2025,20252,Healthcare AI,1,False
+subindustry_child,Infrastructure,seasonal,Summer 2025,20252,Internal Agent Builder,3,False
+subindustry_child,Infrastructure,seasonal,Fall 2025,20253,Infrastructure for Multi-Agent Systems,1,True
+subindustry_child,Infrastructure,seasonal,Fall 2025,20253,Retraining Workers for the AI Economy,2,False
+subindustry_child,Infrastructure,seasonal,Fall 2025,20253,"The First 10-person, $100B Company",1,False
+subindustry_child,Infrastructure,seasonal,Fall 2025,20253,Video Generation as a Primitive,1,False
+subindustry_child,Infrastructure,seasonal,Spring 2026,20261,Stablecoin Financial Services,2,False
+subindustry_child,Infrastructure,seasonal,Fall 2026,20263,AI-Native Compliance Infrastructure,4,True
+subindustry_child,Infrastructure,seasonal,Fall 2026,20263,Self-Maintaining APIs,1,False
+subindustry_child,Infrastructure,seasonal,Fall 2026,20263,The Best Time to Build in Crypto,1,False
+subindustry_child,Insurance,seasonal,Summer 2024,20242,Eliminating middlemen in healthcare,1,False
+subindustry_child,Insurance,seasonal,Summer 2024,20242,LLMs for manual back office processes in legacy enterprises,1,False
+subindustry_child,Insurance,seasonal,Winter 2025,20250,Fintech 2.0,1,False
+subindustry_child,Insurance,seasonal,Spring 2025,20251,DocuSign 2.0,1,False
+subindustry_child,Insurance,seasonal,Summer 2026,20262,AI-Native Service Companies,1,False
+subindustry_child,Legal,essays,RFS 1,20090,The Future of Journalism,1,False
+subindustry_child,Legal,essays,RFS 2,20090,New Paths Through Product Space,1,False
+subindustry_child,Legal,essays,RFS 4,20090,New Ways to Use Live Video,1,False
+subindustry_child,Legal,essays,RFS 3,20090,Things Built on Twitter,1,False
+subindustry_child,Legal,essays,RFS 5,20090,Development on Handhelds,1,False
+subindustry_child,Legal,essays,RFS 6,20100,iPad Applications,1,False
+subindustry_child,Legal,essays,RFS 7,20100,Applications of Facebook Instant Personalization,1,False
+subindustry_child,Legal,essays,RFS 8,20110,Ephemeralization Apps,1,False
+subindustry_child,Legal,essays,RFS 9,20120,Kill Hollywood,1,False
+subindustry_child,Legal,essays,RFS 10,20140,Breakthrough Technologies,1,False
+subindustry_child,Legal,consolidated,March 2018,20180,A.I.,1,False
+subindustry_child,Legal,consolidated,April 2020,20201,A.I.,1,False
+subindustry_child,Legal,consolidated,undated version first captured 2022-03-02,20220,A.I.,1,False
+subindustry_child,Legal,consolidated,undated version first captured 2022-07-01,20222,A.I.,1,False
+subindustry_child,Legal,seasonal,Summer 2025,20252,Full-stack AI Companies,1,False
+subindustry_child,Legal,seasonal,Fall 2025,20253,Using LLMs Instead of Government Consulting,1,False
+subindustry_child,Legal,seasonal,Spring 2026,20261,AI-Native Agencies,1,False
+subindustry_child,Legal,seasonal,Fall 2026,20263,AI-Native Compliance Infrastructure,1,False
+subindustry_child,Marketing,seasonal,Summer 2024,20242,A way to end cancer,1,False
+subindustry_child,Medical Devices,consolidated,September 2014,20142,Healthcare,1,False
+subindustry_child,Medical Devices,consolidated,August 2015,20152,Healthcare,1,False
+subindustry_child,Medical Devices,consolidated,September 2016,20162,Healthcare,1,False
+subindustry_child,Medical Devices,consolidated,March 2018,20180,Healthcare,2,False
+subindustry_child,Medical Devices,consolidated,April 2020,20201,Healthcare,2,False
+subindustry_child,Medical Devices,consolidated,undated version first captured 2022-03-02,20220,Healthcare,2,False
+subindustry_child,Medical Devices,consolidated,undated version first captured 2022-07-01,20222,Healthcare,2,False
+subindustry_child,Medical Devices,seasonal,Summer 2026,20262,Hardware Supply Chain,1,False
+subindustry_child,Operations,seasonal,Summer 2024,20242,Stablecoin finance,1,False
+subindustry_child,Operations,seasonal,Winter 2025,20250,Public safety technology,1,False
+subindustry_child,Operations,seasonal,Spring 2025,20251,The Future of Software Engineering,1,False
+subindustry_child,Operations,seasonal,Summer 2025,20252,AI for Scientific Advancement,1,False
+subindustry_child,Operations,seasonal,Spring 2026,20261,Large Spatial Models,1,False
+subindustry_child,Operations,seasonal,Fall 2026,20263,AI-Native Compliance Infrastructure,1,False
+subindustry_child,Operations,seasonal,Fall 2026,20263,New Operating Systems for the Physical World,1,False
+subindustry_child,Payments,consolidated,September 2014,20142,Developing Countries,1,False
+subindustry_child,Payments,seasonal,Summer 2024,20242,Stablecoin finance,1,False
+subindustry_child,Payments,seasonal,Winter 2025,20250,Fintech 2.0,1,False
+subindustry_child,Payments,seasonal,Spring 2025,20251,A Secure AI App Store,1,False
+subindustry_child,Payments,seasonal,Spring 2026,20261,Infra for Government Fraud Hunters,1,False
+subindustry_child,Payments,seasonal,Fall 2026,20263,The Best Time to Build in Crypto,1,False
+subindustry_child,Productivity,essays,RFS 10,20140,Breakthrough Technologies,1,False
+subindustry_child,Productivity,consolidated,March 2014,20140,Levers,1,False
+subindustry_child,Productivity,consolidated,July 2014,20142,Levers,1,False
+subindustry_child,Productivity,consolidated,March 2018,20180,Education,1,False
+subindustry_child,Productivity,consolidated,April 2020,20201,Education,1,False
+subindustry_child,Productivity,consolidated,undated version first captured 2022-03-02,20220,Education,1,False
+subindustry_child,Productivity,consolidated,undated version first captured 2022-07-01,20222,Education,1,False
+subindustry_child,Productivity,seasonal,Spring 2025,20251,Devtools for AI Agents,1,False
+subindustry_child,Productivity,seasonal,Summer 2025,20252,AI Personal Assistant,2,False
+subindustry_child,Retail,essays,RFS 2,20090,New Paths Through Product Space,1,False
+subindustry_child,Retail,consolidated,September 2014,20142,Enterprise Software,1,False
+subindustry_child,Retail,consolidated,August 2015,20152,Enterprise Software,1,False
+subindustry_child,Retail,consolidated,September 2016,20162,Enterprise Software,1,False
+subindustry_child,Retail,consolidated,March 2018,20180,Brick and Mortar 2.0,4,False
+subindustry_child,Retail,consolidated,March 2018,20180,Enterprise Software,1,False
+subindustry_child,Retail,consolidated,April 2020,20201,Brick and Mortar 2.0,4,False
+subindustry_child,Retail,consolidated,April 2020,20201,Enterprise Software,1,False
+subindustry_child,Retail,consolidated,undated version first captured 2022-03-02,20220,Brick and Mortar 2.0,4,False
+subindustry_child,Retail,consolidated,undated version first captured 2022-03-02,20220,Enterprise Software,1,False
+subindustry_child,Retail,consolidated,undated version first captured 2022-07-01,20222,Brick and Mortar 2.0,4,False
+subindustry_child,Retail,consolidated,undated version first captured 2022-07-01,20222,Enterprise Software,1,False
+subindustry_child,Sales,consolidated,March 2018,20180,Brick and Mortar 2.0,1,False
+subindustry_child,Sales,consolidated,April 2020,20201,Brick and Mortar 2.0,1,False
+subindustry_child,Sales,consolidated,undated version first captured 2022-03-02,20220,Brick and Mortar 2.0,1,False
+subindustry_child,Sales,consolidated,undated version first captured 2022-07-01,20222,Brick and Mortar 2.0,1,False
+subindustry_child,Sales,seasonal,Summer 2024,20242,AI to build enterprise software,2,False
+subindustry_child,Sales,seasonal,Summer 2024,20242,Commercial open source companies,2,False
+subindustry_child,Sales,seasonal,Spring 2025,20251,DocuSign 2.0,1,False
+subindustry_child,Sales,seasonal,Fall 2025,20253,AI Native Enterprise Software,1,False
+subindustry_child,Sales,seasonal,Fall 2026,20263,Multiplayer AI,1,False
+subindustry_child,Security,essays,RFS 10,20140,Breakthrough Technologies,1,False
+subindustry_child,Security,consolidated,March 2014,20140,Internet Infrastructure,1,False
+subindustry_child,Security,consolidated,July 2014,20142,Internet Infrastructure,1,False
+subindustry_child,Security,consolidated,September 2014,20142,Internet Infrastructure,1,False
+subindustry_child,Security,consolidated,August 2015,20152,Computer Security,1,True
+subindustry_child,Security,consolidated,August 2015,20152,Internet Infrastructure,1,False
+subindustry_child,Security,consolidated,September 2016,20162,Computer Security,1,True
+subindustry_child,Security,consolidated,March 2018,20180,Computer Security,1,True
+subindustry_child,Security,seasonal,Spring 2025,20251,The Future of Software Engineering,1,False
+subindustry_child,Security,seasonal,Summer 2025,20252,AI Residential Security,3,True
+subindustry_child,Social,essays,RFS 9,20120,Kill Hollywood,1,False
+subindustry_child,Social,essays,RFS 10,20140,Breakthrough Technologies,1,False
+subindustry_child,Social,consolidated,March 2014,20140,Internet Infrastructure,1,False
+subindustry_child,Social,consolidated,July 2014,20142,Internet Infrastructure,1,False
+subindustry_child,Social,consolidated,September 2014,20142,Government,1,False
+subindustry_child,Social,consolidated,September 2016,20162,Underserved Communities and Social Services,2,True
+subindustry_child,Social,consolidated,March 2018,20180,Education,1,False
+subindustry_child,Social,consolidated,March 2018,20180,Underserved Communities and Social Services,2,True
+subindustry_child,Social,consolidated,March 2018,20180,Government 2.0,1,False
+subindustry_child,Social,consolidated,April 2020,20201,Education,1,False
+subindustry_child,Social,consolidated,April 2020,20201,Government 2.0,1,False
+subindustry_child,Social,consolidated,April 2020,20201,Underserved Communities and Social Services,2,True
+subindustry_child,Social,consolidated,undated version first captured 2022-03-02,20220,Education,1,False
+subindustry_child,Social,consolidated,undated version first captured 2022-03-02,20220,Government 2.0,1,False
+subindustry_child,Social,consolidated,undated version first captured 2022-03-02,20220,Underserved Communities and Social Services,2,True
+subindustry_child,Social,consolidated,undated version first captured 2022-07-01,20222,Education,1,False
+subindustry_child,Social,consolidated,undated version first captured 2022-07-01,20222,Government 2.0,1,False
+subindustry_child,Social,consolidated,undated version first captured 2022-07-01,20222,Underserved Communities and Social Services,2,True
+subindustry_child,Social,seasonal,Summer 2024,20242,Bring manufacturing back to America,1,False
+subindustry_child,Social,seasonal,Winter 2025,20250,Manufacture in the USA,1,False
+subindustry_child,Therapeutics,seasonal,Summer 2024,20242,A way to end cancer,2,False

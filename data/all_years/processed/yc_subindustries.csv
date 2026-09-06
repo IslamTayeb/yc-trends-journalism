@@ -1,0 +1,60 @@
+industry,subindustry,subindustry_child,companies,share_pct
+B2B,B2B,,637,10.27
+B2B,"B2B -> Engineering, Product and Design","Engineering, Product and Design",620,10.0
+B2B,B2B -> Infrastructure,Infrastructure,322,5.19
+B2B,B2B -> Productivity,Productivity,230,3.71
+Consumer,Consumer,,172,2.77
+Fintech,Fintech,,171,2.76
+B2B,B2B -> Marketing,Marketing,169,2.72
+B2B,B2B -> Operations,Operations,152,2.45
+Industrials,Industrials -> Manufacturing and Robotics,Manufacturing and Robotics,146,2.35
+Healthcare,Healthcare -> Healthcare IT,Healthcare IT,141,2.27
+B2B,B2B -> Supply Chain and Logistics,Supply Chain and Logistics,138,2.23
+B2B,B2B -> Finance and Accounting,Finance and Accounting,138,2.23
+B2B,B2B -> Sales,Sales,135,2.18
+B2B,B2B -> Retail,Retail,128,2.06
+B2B,B2B -> Analytics,Analytics,125,2.02
+Fintech,Fintech -> Payments,Payments,125,2.02
+Consumer,Consumer -> Home and Personal,Home and Personal,123,1.98
+Education,Education,,123,1.98
+B2B,B2B -> Security,Security,121,1.95
+Healthcare,Healthcare -> Consumer Health and Wellness,Consumer Health and Wellness,118,1.9
+Consumer,Consumer -> Content,Content,115,1.85
+Consumer,Consumer -> Social,Social,111,1.79
+Healthcare,Healthcare,,107,1.73
+Consumer,Consumer -> Food and Beverage,Food and Beverage,94,1.52
+Fintech,Fintech -> Consumer Finance,Consumer Finance,90,1.45
+Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,Housing and Real Estate,85,1.37
+B2B,B2B -> Human Resources,Human Resources,82,1.32
+B2B,B2B -> Recruiting and Talent,Recruiting and Talent,76,1.23
+Fintech,Fintech -> Credit and Lending,Credit and Lending,74,1.19
+Healthcare,Healthcare -> Healthcare Services,Healthcare Services,74,1.19
+Fintech,Fintech -> Banking and Exchange,Banking and Exchange,73,1.18
+Consumer,Consumer -> Gaming,Gaming,70,1.13
+Fintech,Fintech -> Insurance,Insurance,69,1.11
+Industrials,Industrials -> Aviation and Space,Aviation and Space,65,1.05
+Healthcare,Healthcare -> Therapeutics,Therapeutics,64,1.03
+B2B,B2B -> Legal,Legal,60,0.97
+Healthcare,Healthcare -> Drug Discovery and Delivery,Drug Discovery and Delivery,59,0.95
+Healthcare,Healthcare -> Diagnostics,Diagnostics,57,0.92
+Fintech,Fintech -> Asset Management,Asset Management,55,0.89
+Industrials,Industrials -> Climate,Climate,53,0.85
+Real Estate and Construction,Real Estate and Construction -> Construction,Construction,51,0.82
+Industrials,Industrials -> Energy,Energy,51,0.82
+Consumer,Consumer -> Apparel and Cosmetics,Apparel and Cosmetics,50,0.81
+Consumer,Consumer -> Consumer Electronics,Consumer Electronics,47,0.76
+Government,Government,,44,0.71
+Industrials,Industrials,,44,0.71
+Healthcare,Healthcare -> Medical Devices,Medical Devices,44,0.71
+Consumer,"Consumer -> Travel, Leisure and Tourism","Travel, Leisure and Tourism",36,0.58
+Healthcare,Healthcare -> Industrial Bio,Industrial Bio,33,0.53
+Industrials,Industrials -> Agriculture,Agriculture,31,0.5
+Consumer,Consumer -> Transportation Services,Transportation Services,27,0.44
+Real Estate and Construction,Real Estate and Construction,,26,0.42
+B2B,B2B -> Office Management,Office Management,25,0.4
+Industrials,Industrials -> Defense,Defense,25,0.4
+Industrials,Industrials -> Drones,Drones,23,0.37
+Industrials,Industrials -> Automotive,Automotive,21,0.34
+Consumer,Consumer -> Virtual and Augmented Reality,Virtual and Augmented Reality,20,0.32
+Consumer,Consumer -> Job and Career Services,Job and Career Services,19,0.31
+Unspecified,Unspecified,,18,0.29

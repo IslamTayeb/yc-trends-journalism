@@ -1,0 +1,60 @@
+subindustry,total_companies,batches_excluded_from_stats,first_observed_batch,latest_observed_batch,n_batches_present,peak_batch,peak_count,peak_share_pct,earliest_year,earliest_year_count,earliest_year_share_pct,earliest_batch_share_pct,latest_full_batch,latest_count,latest_share_pct,count_change,count_change_vs_earliest_year_avg,pp_change,rolling3_latest_share_pct,mean_share_full_batches_pct,newly_appearing,peaked_then_declined,early_share_pct,late_share_pct,median_share_pct,cv_share,emergence_class,rank_latest,rank_earliest_year,rank_change
+B2B,637,,Summer 2005,Fall 2026,33,Winter 2026,46,23.116,2005,1,11.111,11.111,Summer 2026,41,17.447,40,40.0,6.336,19.846,9.078,False,False,1.591,18.21,5.607,0.883,Emerging,1,2,1
+B2B -> Infrastructure,322,,Summer 2005,Fall 2026,46,Summer 2011,9,15.0,2005,1,11.111,11.111,Summer 2026,25,10.638,24,24.0,-0.473,10.476,5.075,False,False,10.53,9.934,4.807,0.602,Spiky,2,2,0
+Industrials -> Manufacturing and Robotics,146,,Winter 2007,Fall 2026,30,Summer 2026,24,10.213,2005,0,0.0,0.0,Summer 2026,24,10.213,24,24.0,10.213,6.632,2.321,True,False,0.757,8.44,1.521,1.004,Emerging,3,9,6
+Industrials,44,,Winter 2012,Summer 2026,15,Summer 2026,14,5.957,2005,0,0.0,0.0,Summer 2026,14,5.957,14,14.0,5.957,3.162,0.624,True,False,0.757,3.235,0.0,1.886,Emerging,4,9,5
+"B2B -> Engineering, Product and Design",620,,Summer 2007,Fall 2026,43,Fall 2024,16,17.021,2005,0,0.0,0.0,Summer 2026,14,5.957,14,14.0,5.957,7.907,9.839,True,True,7.727,7.338,8.974,0.436,Low-volume / mixed,4,9,5
+Healthcare,107,,Winter 2013,Summer 2026,25,Fall 2024,6,6.383,2005,0,0.0,0.0,Summer 2026,12,5.106,12,12.0,5.106,3.394,1.599,True,False,0.0,3.835,1.484,0.971,Emerging,6,9,3
+Industrials -> Defense,25,,Summer 2016,Summer 2026,9,Summer 2026,9,3.83,2005,0,0.0,0.0,Summer 2026,9,3.83,9,9.0,3.83,2.637,0.376,True,False,0.0,3.454,0.0,2.295,Emerging,7,9,2
+B2B -> Supply Chain and Logistics,138,,Summer 2012,Summer 2026,33,Winter 2019,9,4.639,2005,0,0.0,0.0,Summer 2026,8,3.404,8,8.0,3.404,2.15,2.155,True,False,0.0,2.471,2.126,0.516,Emerging,8,9,1
+B2B -> Security,121,,Summer 2005,Summer 2026,29,Spring 2025,8,5.594,2005,1,11.111,11.111,Summer 2026,7,2.979,6,6.0,-8.132,2.511,1.88,False,False,0.834,2.259,1.765,0.697,Spiky,9,2,-7
+B2B -> Operations,152,,Winter 2010,Winter 2027,32,Winter 2021,19,5.655,2005,0,0.0,0.0,Summer 2026,6,2.553,6,6.0,2.553,3.224,2.18,True,True,0.757,3.328,1.931,0.737,Emerging,10,9,-1
+B2B -> Finance and Accounting,138,,Winter 2006,Summer 2026,31,Winter 2014,4,5.405,2005,0,0.0,0.0,Summer 2026,6,2.553,6,6.0,2.553,2.031,2.055,True,False,0.0,1.789,1.907,0.71,Low-volume / mixed,10,9,-1
+Consumer,172,,Winter 2010,Fall 2026,28,Fall 2024,7,7.447,2005,0,0.0,0.0,Summer 2026,6,2.553,6,6.0,2.553,2.55,2.499,True,True,0.0,3.071,2.341,0.826,Emerging,10,9,-1
+Fintech,171,,Summer 2009,Summer 2026,26,Summer 2022,23,9.829,2005,0,0.0,0.0,Summer 2026,6,2.553,6,6.0,2.553,2.704,2.111,True,True,0.0,2.046,1.542,1.139,Emerging,10,9,-1
+Fintech -> Insurance,69,,Winter 2016,Fall 2026,24,Summer 2017,4,3.2,2005,0,0.0,0.0,Summer 2026,5,2.128,5,5.0,2.128,1.899,0.984,True,False,0.0,2.346,1.018,0.872,Emerging,14,9,-5
+B2B -> Analytics,125,,Summer 2005,Summer 2026,38,Summer 2011,3,5.0,2005,1,11.111,11.111,Summer 2026,5,2.128,4,4.0,-8.983,1.554,1.786,False,False,3.257,1.577,1.511,0.638,Spiky,14,2,-12
+B2B -> Productivity,230,,Summer 2005,Fall 2026,45,Winter 2012,6,9.091,2005,1,11.111,11.111,Summer 2026,4,1.702,3,3.0,-9.409,2.94,3.824,False,True,7.879,2.902,3.713,0.462,Declining,16,2,-14
+Healthcare -> Drug Discovery and Delivery,59,,Winter 2015,Summer 2026,20,Winter 2020,7,3.07,2005,0,0.0,0.0,Summer 2026,3,1.277,3,3.0,1.277,1.267,0.858,True,True,0.0,0.895,0.599,1.06,Spiky,17,9,-8
+Fintech -> Asset Management,55,,Winter 2011,Summer 2026,22,Winter 2014,2,2.703,2005,0,0.0,0.0,Summer 2026,3,1.277,3,3.0,1.277,1.28,0.836,True,False,0.0,1.921,0.803,1.012,Spiky,17,9,-8
+Industrials -> Aviation and Space,65,,Winter 2015,Fall 2026,25,Fall 2024,3,3.191,2005,0,0.0,0.0,Summer 2026,3,1.277,3,3.0,1.277,1.438,0.981,True,False,0.0,1.151,0.885,0.873,Spiky,17,9,-8
+Real Estate and Construction -> Construction,51,,Winter 2012,Summer 2026,25,Fall 2024,3,3.191,2005,0,0.0,0.0,Summer 2026,3,1.277,3,3.0,1.277,0.935,0.857,True,False,0.757,1.151,0.837,0.841,Spiky,17,9,-8
+Industrials -> Energy,51,,Summer 2014,Fall 2026,26,Winter 2026,6,3.015,2005,0,0.0,0.0,Summer 2026,3,1.277,3,3.0,1.277,1.773,0.824,True,True,0.0,1.151,0.733,0.919,Spiky,17,9,-8
+Real Estate and Construction -> Housing and Real Estate,85,,Winter 2009,Summer 2026,33,Winter 2017,5,4.31,2005,0,0.0,0.0,Summer 2026,3,1.277,3,3.0,1.277,0.426,1.523,True,True,3.181,0.638,1.403,0.765,Declining,17,9,-8
+Industrials -> Climate,53,,Winter 2014,Summer 2026,20,Summer 2017,4,3.2,2005,0,0.0,0.0,Summer 2026,2,0.851,2,2.0,0.851,0.451,0.759,True,False,0.0,0.425,0.692,1.086,Spiky,23,9,-14
+Consumer -> Gaming,70,,Summer 2006,Summer 2026,33,Summer 2011,2,3.333,2005,0,0.0,0.0,Summer 2026,2,0.851,2,2.0,0.851,1.128,1.021,True,False,3.181,0.939,0.906,0.949,Declining,23,9,-14
+Consumer -> Content,115,,Summer 2005,Summer 2026,41,Summer 2012,7,8.434,2005,1,11.111,11.111,Summer 2026,2,0.851,1,1.0,-10.26,0.455,1.797,False,True,4.697,0.682,1.53,0.957,Declining,23,2,-21
+Healthcare -> Consumer Health and Wellness,118,,Summer 2012,Summer 2026,30,Summer 2013,3,5.769,2005,0,0.0,0.0,Summer 2026,2,0.851,2,2.0,0.851,0.793,2.005,True,False,0.0,0.939,1.385,0.803,Spiky,23,9,-14
+B2B -> Sales,135,,Winter 2010,Summer 2026,33,Summer 2023,11,5.0,2005,0,0.0,0.0,Summer 2026,2,0.851,2,2.0,0.851,0.961,2.223,True,True,1.667,0.939,2.119,0.638,Low-volume / mixed,23,9,-14
+Government,44,,Summer 2014,Fall 2026,25,Summer 2017,4,3.2,2005,0,0.0,0.0,Summer 2026,2,0.851,2,2.0,0.851,0.455,0.794,True,False,0.0,0.682,0.682,1.021,Spiky,23,9,-14
+Healthcare -> Healthcare Services,74,,Summer 2011,Summer 2026,31,Winter 2018,6,4.11,2005,0,0.0,0.0,Summer 2026,2,0.851,2,2.0,0.851,1.302,1.299,True,True,1.591,1.451,1.118,0.732,Spiky,23,9,-14
+Healthcare -> Therapeutics,64,,Winter 2017,Summer 2026,19,Summer 2018,7,5.344,2005,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.313,0.912,True,True,0.0,0.47,0.47,1.368,Spiky,30,9,-21
+Industrials -> Agriculture,31,,Winter 2012,Summer 2026,19,Winter 2014,2,2.703,2005,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.31,0.669,True,False,0.757,0.213,0.432,1.212,Spiky,30,9,-21
+Fintech -> Consumer Finance,90,,Summer 2005,Summer 2026,36,Summer 2011,4,6.667,2005,1,11.111,11.111,Summer 2026,1,0.426,0,0.0,-10.685,0.99,1.431,False,False,4.091,0.982,1.244,0.815,Declining,30,2,-28
+Fintech -> Banking and Exchange,73,,Summer 2012,Summer 2026,28,Summer 2013,3,5.769,2005,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.648,1.345,True,False,0.0,0.47,1.171,0.918,Spiky,30,9,-21
+Healthcare -> Healthcare IT,141,,Winter 2011,Summer 2026,34,Summer 2014,4,5.128,2005,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.983,2.4,True,False,2.424,0.47,2.434,0.538,Low-volume / mixed,30,9,-21
+Education,123,,Summer 2009,Summer 2026,32,Summer 2012,5,6.024,2005,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.142,2.175,True,True,4.015,0.213,2.054,0.729,Declining,30,9,-21
+B2B -> Marketing,169,,Winter 2006,Summer 2026,45,Summer 2011,6,10.0,2005,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,1.677,2.979,True,True,8.03,2.264,2.327,0.716,Declining,30,9,-21
+B2B -> Recruiting and Talent,76,,Winter 2008,Summer 2026,29,Summer 2015,6,5.769,2005,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.822,1.416,True,True,2.349,0.982,1.01,0.962,Spiky,30,9,-21
+B2B -> Retail,128,,Summer 2008,Summer 2026,37,Summer 2013,4,7.692,2005,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.313,2.167,True,False,0.757,0.47,1.781,0.833,Spiky,30,9,-21
+Consumer -> Job and Career Services,19,,Summer 2009,Summer 2026,14,Summer 2017,2,1.6,2005,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,0.313,0.288,True,False,0.0,0.47,0.0,1.553,Low-volume / mixed,30,9,-21
+B2B -> Legal,60,,Summer 2011,Fall 2026,24,Summer 2013,2,3.846,2005,0,0.0,0.0,Summer 2026,1,0.426,1,1.0,0.426,1.489,1.051,True,False,0.834,0.726,0.679,1.022,Spiky,30,9,-21
+B2B -> Human Resources,82,,Summer 2009,Fall 2026,28,Summer 2015,5,4.808,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,1.325,True,True,1.515,0.0,1.111,0.954,Spiky,41,9,-32
+Consumer -> Apparel and Cosmetics,50,,Summer 2006,Winter 2025,25,Summer 2013,2,3.846,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,1.053,True,False,1.515,0.0,0.558,1.134,Spiky,41,9,-32
+B2B -> Office Management,25,,Winter 2011,Summer 2024,12,Winter 2014,5,6.757,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.612,True,True,0.0,0.0,0.0,2.38,Spiky,41,9,-32
+"Consumer -> Travel, Leisure and Tourism",36,,Summer 2007,Fall 2026,25,Summer 2015,3,2.885,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.654,True,False,0.0,0.0,0.254,1.352,Spiky,41,9,-32
+Consumer -> Transportation Services,27,,Summer 2009,Summer 2024,20,Summer 2014,3,3.846,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.678,True,False,3.181,0.0,0.351,1.459,Declining,41,9,-32
+Consumer -> Social,111,,Summer 2005,Fall 2025,37,Summer 2017,9,7.2,2005,2,22.222,22.222,Summer 2026,0,0.0,-2,-2.0,-22.222,0.0,1.898,False,True,6.364,0.0,1.385,1.037,Declining,41,1,-40
+Consumer -> Home and Personal,123,,Winter 2006,Winter 2023,32,Summer 2016,10,9.804,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,2.672,True,True,7.954,0.0,1.355,1.146,Declining,41,9,-32
+Consumer -> Food and Beverage,94,,Winter 2009,Fall 2026,28,Summer 2014,4,5.128,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,1.716,True,False,2.424,0.0,1.577,0.916,Declining,41,9,-32
+Consumer -> Consumer Electronics,47,,Summer 2009,Fall 2026,27,Summer 2013,4,7.692,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.677,1.121,True,False,0.834,0.513,0.643,1.477,Spiky,41,9,-32
+Consumer -> Virtual and Augmented Reality,20,,Winter 2012,Winter 2025,15,Winter 2018,3,2.055,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.452,True,False,0.757,0.0,0.0,1.487,Spiky,41,9,-32
+Fintech -> Credit and Lending,74,,Winter 2012,Spring 2026,26,Winter 2020,8,3.509,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.506,1.082,True,True,0.757,0.257,0.731,0.942,Spiky,41,9,-32
+Healthcare -> Diagnostics,57,,Summer 2014,Spring 2026,22,Summer 2017,6,4.8,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.171,0.99,True,True,0.0,0.257,0.54,1.18,Spiky,41,9,-32
+Fintech -> Payments,125,,Winter 2008,Spring 2026,30,Winter 2012,3,4.545,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.848,1.808,True,False,2.272,0.769,1.579,0.772,Low-volume / mixed,41,9,-32
+Healthcare -> Medical Devices,44,,Winter 2015,Spring 2026,17,Winter 2015,3,2.727,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.171,0.631,True,False,0.0,0.257,0.202,1.305,Spiky,41,9,-32
+Healthcare -> Industrial Bio,33,,Summer 2014,Spring 2026,18,Summer 2018,6,4.58,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.171,0.577,True,True,0.0,0.257,0.31,1.524,Spiky,41,9,-32
+Industrials -> Automotive,21,,Winter 2014,Summer 2025,15,Winter 2016,2,1.639,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.409,True,False,0.0,0.0,0.0,1.318,Low-volume / mixed,41,9,-32
+Industrials -> Drones,23,,Summer 2012,Fall 2026,16,Summer 2016,2,1.961,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.506,0.415,True,False,0.0,0.257,0.0,1.455,Low-volume / mixed,41,9,-32
+Real Estate and Construction,26,,Summer 2009,Spring 2026,13,Summer 2025,3,1.807,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.677,0.369,True,False,0.0,0.513,0.0,1.423,Low-volume / mixed,41,9,-32
+Unspecified,18,,Winter 2014,Winter 2017,7,Winter 2014,4,5.405,2005,0,0.0,0.0,Summer 2026,0,0.0,0,0.0,0.0,0.0,0.539,True,False,0.0,0.0,0.0,2.218,Spiky,41,9,-32

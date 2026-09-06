@@ -233,3 +233,8 @@ data/raw/yc-dataset/yc_directory.json
 
 # raw scraped HTML stays local only (parsed text is committed instead)
 data/raw/rfs/**/*.html
+
+# full-history run (START_YEAR=2005) kept for time-slice analysis; figures regenerable
+data/all_years/figures/
+data/all_years/*.xlsx
+data/all_years/report.md

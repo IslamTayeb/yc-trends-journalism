@@ -1,0 +1,337 @@
+tag,companies,share_pct,share_of_tagged_pct
+B2B,1124,18.12,21.12
+SaaS,1097,17.69,20.61
+Artificial Intelligence,998,16.09,18.75
+AI,890,14.35,16.72
+Fintech,705,11.37,13.25
+Developer Tools,548,8.84,10.3
+Marketplace,307,4.95,5.77
+Generative AI,255,4.11,4.79
+Consumer,249,4.01,4.68
+Machine Learning,236,3.81,4.43
+Healthcare,211,3.4,3.96
+E-commerce,192,3.1,3.61
+Analytics,186,3.0,3.49
+Health Tech,173,2.79,3.25
+Open Source,170,2.74,3.19
+Productivity,168,2.71,3.16
+Education,164,2.64,3.08
+AI Assistant,161,2.6,3.03
+Hardware,160,2.58,3.01
+Biotech,148,2.39,2.78
+Payments,146,2.35,2.74
+API,142,2.29,2.67
+Robotics,142,2.29,2.67
+Climate,141,2.27,2.65
+Logistics,133,2.14,2.5
+Infrastructure,132,2.13,2.48
+Enterprise Software,132,2.13,2.48
+Hard Tech,132,2.13,2.48
+Sales,118,1.9,2.22
+Digital Health,116,1.87,2.18
+Enterprise,113,1.82,2.12
+Marketing,110,1.77,2.07
+Consumer Health Services,109,1.76,2.05
+Data Engineering,107,1.73,2.01
+Finance,99,1.6,1.86
+Manufacturing,99,1.6,1.86
+Automation,95,1.53,1.79
+Security,93,1.5,1.75
+Crypto / Web3,93,1.5,1.75
+Supply Chain,91,1.47,1.71
+Video,89,1.44,1.67
+Gaming,88,1.42,1.65
+Insurance,84,1.35,1.58
+Real Estate,84,1.35,1.58
+Proptech,84,1.35,1.58
+Workflow Automation,79,1.27,1.48
+Computer Vision,78,1.26,1.47
+Social,75,1.21,1.41
+Construction,75,1.21,1.41
+HR Tech,74,1.19,1.39
+Compliance,74,1.19,1.39
+Recruiting,69,1.11,1.3
+Medical Devices,67,1.08,1.26
+Investing,64,1.03,1.2
+AIOps,62,1.0,1.16
+Community,58,0.94,1.09
+LegalTech,58,0.94,1.09
+Design Tools,57,0.92,1.07
+Delivery,54,0.87,1.01
+Energy,53,0.85,1.0
+GovTech,53,0.85,1.0
+Neobank,52,0.84,0.98
+Cloud Computing,52,0.84,0.98
+eLearning,52,0.84,0.98
+Entertainment,52,0.84,0.98
+DevOps,51,0.82,0.96
+Travel,49,0.79,0.92
+Retail,49,0.79,0.92
+Health & Wellness,49,0.79,0.92
+Advertising,48,0.77,0.9
+Cybersecurity,48,0.77,0.9
+Food Tech,48,0.77,0.9
+AI-Enhanced Learning,47,0.76,0.88
+Conversational AI,46,0.74,0.86
+Therapeutics,45,0.73,0.85
+IoT,44,0.71,0.83
+Aerospace,44,0.71,0.83
+Deep Learning,44,0.71,0.83
+Collaboration,44,0.71,0.83
+Reinforcement Learning,43,0.69,0.81
+Messaging,43,0.69,0.81
+Media,42,0.68,0.79
+E-Commerce,40,0.64,0.75
+Legal,40,0.64,0.75
+Sales Enablement,40,0.64,0.75
+Operations,38,0.61,0.71
+Healthcare IT,38,0.61,0.71
+Subscriptions,37,0.6,0.7
+Creator Economy,37,0.6,0.7
+Transportation,37,0.6,0.7
+Mental Health Tech,36,0.58,0.68
+AI-powered Drug Discovery,35,0.56,0.66
+India,35,0.56,0.66
+Consumer Finance,34,0.55,0.64
+Industrial,34,0.55,0.64
+Social Media,34,0.55,0.64
+Documents,34,0.55,0.64
+Drones,34,0.55,0.64
+Drug discovery,34,0.55,0.64
+Agriculture,34,0.55,0.64
+DevSecOps,33,0.53,0.62
+Synthetic Biology,33,0.53,0.62
+Robotic Process Automation,33,0.53,0.62
+No-code,33,0.53,0.62
+Data Science,32,0.52,0.6
+ClimateTech,32,0.52,0.6
+Diagnostics,32,0.52,0.6
+Grocery,32,0.52,0.6
+FinOps,31,0.5,0.58
+Telemedicine,30,0.48,0.56
+Data Visualization,30,0.48,0.56
+Customer Support,30,0.48,0.56
+Telehealth,30,0.48,0.56
+Food & Beverage,30,0.48,0.56
+Design,30,0.48,0.56
+Big Data,29,0.47,0.54
+Defense,29,0.47,0.54
+Health Insurance,28,0.45,0.53
+Genomics,28,0.45,0.53
+Customer Success,27,0.44,0.51
+Telecommunications,27,0.44,0.51
+Nonprofit,26,0.42,0.49
+Email,26,0.42,0.49
+Banking as a Service,26,0.42,0.49
+Automotive,24,0.39,0.45
+Databases,24,0.39,0.45
+Customer Service,24,0.39,0.45
+Augmented Reality,23,0.37,0.43
+Electric Vehicles,23,0.37,0.43
+Satellites,23,0.37,0.43
+Human Resources,22,0.35,0.41
+Social Network,22,0.35,0.41
+Oncology,22,0.35,0.41
+CRM,21,0.34,0.39
+Web Development,21,0.34,0.39
+NLP,21,0.34,0.39
+ML,21,0.34,0.39
+Space Exploration,20,0.32,0.38
+Housing,20,0.32,0.38
+Fashion,20,0.32,0.38
+Edtech,20,0.32,0.38
+Music,20,0.32,0.38
+Privacy,20,0.32,0.38
+Regtech,20,0.32,0.38
+Semiconductors,20,0.32,0.38
+Latin America,20,0.32,0.38
+Data Labeling,19,0.31,0.36
+Renewable Energy,19,0.31,0.36
+Fitness,19,0.31,0.36
+Solar Power,19,0.31,0.36
+Market Research,18,0.29,0.34
+Trading,18,0.29,0.34
+Sports Tech,18,0.29,0.34
+Neurotechnology,18,0.29,0.34
+Retail Tech,18,0.29,0.34
+Search,18,0.29,0.34
+SMB,18,0.29,0.34
+Home Services,17,0.27,0.32
+Lending,17,0.27,0.32
+Biotechnology,17,0.27,0.32
+Remote Work,16,0.26,0.3
+Restaurant Tech,16,0.26,0.3
+Identity,16,0.26,0.3
+Sustainability,16,0.26,0.3
+Payroll,16,0.26,0.3
+Monitoring,15,0.24,0.28
+Women's Health,15,0.24,0.28
+Warehouse Management Tech,14,0.23,0.26
+Team Collaboration,14,0.23,0.26
+Procurement,14,0.23,0.26
+Virtual Reality,14,0.23,0.26
+Kubernetes,14,0.23,0.26
+Gene Therapy,14,0.23,0.26
+Mobility,13,0.21,0.24
+Energy Storage,13,0.21,0.24
+Personalization,13,0.21,0.24
+Consumer Products,12,0.19,0.23
+DeFi,12,0.19,0.23
+Scheduling,12,0.19,0.23
+3D Printing,12,0.19,0.23
+Carbon Capture and Removal,12,0.19,0.23
+Electronics,12,0.19,0.23
+Airplanes,11,0.18,0.21
+APIs,11,0.18,0.21
+Autonomous Trucking,11,0.18,0.21
+Cryptocurrency,11,0.18,0.21
+Beauty,11,0.18,0.21
+Ghost Kitchens,11,0.18,0.21
+Nanotechnology,10,0.16,0.19
+Food Service Robots & Machines,10,0.16,0.19
+Fraud Detection,10,0.16,0.19
+Emerging Markets,9,0.15,0.17
+Sustainable Fashion,9,0.15,0.17
+Food,9,0.15,0.17
+Mental Health,9,0.15,0.17
+Sleep Tech,9,0.15,0.17
+Call Center,9,0.15,0.17
+Kids,9,0.15,0.17
+Chatbot,9,0.15,0.17
+Crowdfunding,9,0.15,0.17
+Investments,8,0.13,0.15
+Civic Tech,8,0.13,0.15
+Autonomous Delivery,8,0.13,0.15
+Fertility Tech,8,0.13,0.15
+Advanced Materials,8,0.13,0.15
+Primary Care,8,0.13,0.15
+Metaverse,8,0.13,0.15
+AR,7,0.11,0.13
+Anti-Aging,7,0.11,0.13
+Talent Acquisition,7,0.11,0.13
+Cannabis,7,0.11,0.13
+SMS,7,0.11,0.13
+Podcasts,7,0.11,0.13
+Smart Home Assistants,7,0.11,0.13
+Stocks,7,0.11,0.13
+Biometrics,7,0.11,0.13
+Furniture,6,0.1,0.11
+Speech Recognition,6,0.1,0.11
+Drug Delivery,6,0.1,0.11
+Geographic Information System,6,0.1,0.11
+Feedback,6,0.1,0.11
+Immigration,6,0.1,0.11
+Calendar,6,0.1,0.11
+Assistive Tech,6,0.1,0.11
+Chat,6,0.1,0.11
+Self-Driving Vehicles,6,0.1,0.11
+Remittances,6,0.1,0.11
+Remote,6,0.1,0.11
+Commercial Space Launch,6,0.1,0.11
+International,6,0.1,0.11
+Dating,6,0.1,0.11
+Cellular Agriculture,6,0.1,0.11
+Mining,6,0.1,0.11
+Live,6,0.1,0.11
+Smart Clothing,5,0.08,0.09
+Cell Therapy,5,0.08,0.09
+Cashierless Checkout,5,0.08,0.09
+Cloud Workload Protection,5,0.08,0.09
+Next-gen Network Security,5,0.08,0.09
+Careers,5,0.08,0.09
+Airlines,5,0.08,0.09
+Auto Commerce,5,0.08,0.09
+Fraud Prevention,5,0.08,0.09
+Femtech,5,0.08,0.09
+Billing,5,0.08,0.09
+Architecture,5,0.08,0.09
+Air Taxis,5,0.08,0.09
+SEO,5,0.08,0.09
+Crowdsourcing,5,0.08,0.09
+Nanosensors,5,0.08,0.09
+Medical Robotics,5,0.08,0.09
+Microfluidics,5,0.08,0.09
+Note-taking,5,0.08,0.09
+Nanomedicine,5,0.08,0.09
+Dental,5,0.08,0.09
+Rocketry,4,0.06,0.08
+COVID-19,4,0.06,0.08
+CRISPR,4,0.06,0.08
+Recommendation System,4,0.06,0.08
+Networks,4,0.06,0.08
+NFT,4,0.06,0.08
+Industrial Workplace Safety,4,0.06,0.08
+Swarm Robotics,4,0.06,0.08
+Hydrogen Energy,4,0.06,0.08
+Genetic Engineering,4,0.06,0.08
+Edge Computing Semiconductors,4,0.06,0.08
+Apparel,4,0.06,0.08
+Time Series,4,0.06,0.08
+Unmanned Vehicle,4,0.06,0.08
+Income Share Agreements,4,0.06,0.08
+Home Automation,4,0.06,0.08
+Quantum Computing,4,0.06,0.08
+Navigation,4,0.06,0.08
+Weather,3,0.05,0.06
+eSports,3,0.05,0.06
+Reviews,3,0.05,0.06
+Chatbots,3,0.05,0.06
+Bioplastic,3,0.05,0.06
+Robotic Surgery,3,0.05,0.06
+Cultured Meat,3,0.05,0.06
+Cryptography,3,0.05,0.06
+Location-based,3,0.05,0.06
+Culture,3,0.05,0.06
+Radar,3,0.05,0.06
+Booking,3,0.05,0.06
+Maritime,3,0.05,0.06
+Digital Freight Brokerage,3,0.05,0.06
+Diversity & Inclusion,3,0.05,0.06
+Sustainable Agriculture,3,0.05,0.06
+Fusion Energy,3,0.05,0.06
+Sustainable Tourism,3,0.05,0.06
+GraphQL,3,0.05,0.06
+Fundraising,3,0.05,0.06
+Trust & Safety,3,0.05,0.06
+China,3,0.05,0.06
+Pediatrics,3,0.05,0.06
+Microinsurance,3,0.05,0.06
+Vertical Farming,2,0.03,0.04
+VR Health,2,0.03,0.04
+Alternative Battery Tech,2,0.03,0.04
+Alternative Fuels,2,0.03,0.04
+Ticketing,2,0.03,0.04
+Indoor Mapping,2,0.03,0.04
+Election Tech,2,0.03,0.04
+Skincare,2,0.03,0.04
+Ridesharing,2,0.03,0.04
+Small Modular Reactors,2,0.03,0.04
+Blockchain,2,0.03,0.04
+Cloud Gaming,2,0.03,0.04
+Coding Bootcamps,2,0.03,0.04
+Notifications,2,0.03,0.04
+Referrals,2,0.03,0.04
+DAO,2,0.03,0.04
+Cultivated Meat,2,0.03,0.04
+Customization,2,0.03,0.04
+Conversational Banking,2,0.03,0.04
+IoT Security,2,0.03,0.04
+Plant-based Meat,2,0.03,0.04
+Batteryless IoT Sensors,1,0.02,0.02
+Art Trading Platforms,1,0.02,0.02
+Gardening,1,0.02,0.02
+Exascale Computing,1,0.02,0.02
+Vaccines,1,0.02,0.02
+Deepfake Detection,1,0.02,0.02
+Autonomous Shipping,1,0.02,0.02
+Livestock Health,1,0.02,0.02
+Computational Storage,1,0.02,0.02
+Lab-on-a-chip,1,0.02,0.02
+Psychedelics,1,0.02,0.02
+Cyber Insurance,1,0.02,0.02
+Lidar,1,0.02,0.02
+Clean Meat,1,0.02,0.02
+"Security Orchestration, Automation and Response (SOAR)",1,0.02,0.02
+Smart Locks,1,0.02,0.02
+Smart Waste Management,1,0.02,0.02
+3D Printed Foods,1,0.02,0.02

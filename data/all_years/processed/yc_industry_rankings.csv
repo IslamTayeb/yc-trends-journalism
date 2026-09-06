@@ -1,0 +1,10 @@
+industry,rank_earliest_year,rank_latest,rank_change,earliest_year_share_pct,latest_share_pct,pp_change,earliest_year_count,latest_count,latest_full_batch,major_mover
+B2B,1,1,0,55.556,51.915,-3.641,5,122,Summer 2026,True
+Industrials,4,2,2,0.0,23.83,23.83,0,56,Summer 2026,True
+Healthcare,4,3,1,0.0,8.936,8.936,0,21,Summer 2026,True
+Fintech,3,4,-1,11.111,6.809,-4.302,1,16,Summer 2026,True
+Consumer,2,5,-3,33.333,4.681,-28.652,3,11,Summer 2026,True
+Real Estate and Construction,4,6,-2,0.0,2.553,2.553,0,6,Summer 2026,False
+Government,4,7,-3,0.0,0.851,0.851,0,2,Summer 2026,False
+Education,4,8,-4,0.0,0.426,0.426,0,1,Summer 2026,False
+Unspecified,4,9,-5,0.0,0.0,0.0,0,0,Summer 2026,True

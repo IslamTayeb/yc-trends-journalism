@@ -1,1225 +1,1205 @@
 company_id,slug,field,raw_value,exported_value,match
-32198,riften,name,Riften,Riften,True
-32198,riften,slug,riften,riften,True
-32198,riften,batch,Summer 2026,Summer 2026,True
-32198,riften,website,https://riften.ai,https://riften.ai,True
-32198,riften,one_liner,Earned intelligence for every company,Earned intelligence for every company,True
-32198,riften,long_description,"Intelligence will be the most valuable asset a company owns. Today, almost every","Intelligence will be the most valuable asset a company owns. Today, almost every",True
-32198,riften,team_size,0,0.0,True
-32198,riften,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
-32198,riften,industry,B2B,B2B,True
-32198,riften,subindustry,B2B -> Infrastructure,B2B -> Infrastructure,True
-32198,riften,industries,"['B2B', 'Infrastructure']","['B2B', 'Infrastructure']",True
-32198,riften,tags,"['Artificial Intelligence', 'Developer Tools', 'Reinforcement Learning', 'Open S","['Artificial Intelligence', 'Developer Tools', 'Reinforcement Learning', 'Open S",True
-32198,riften,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-32198,riften,stage,Early,Early,True
-32198,riften,status,Active,Active,True
-32198,riften,isHiring,False,False,True
-32198,riften,nonprofit,False,False,True
-32198,riften,top_company,False,False,True
-32198,riften,launched_at,1785872995,1785872995,True
-32198,riften,former_names,[],[],True
-32198,riften,url,https://www.ycombinator.com/companies/riften,https://www.ycombinator.com/companies/riften,True
-32198,riften,n_year(derived),2026,2026,True
-32198,riften,n_subindustry_child(derived),Infrastructure,Infrastructure,True
-32198,riften,n_is_us(derived),True,True,True
-28073,playai,name,PlayAI,PlayAI,True
-28073,playai,slug,playai,playai,True
-28073,playai,batch,Winter 2023,Winter 2023,True
-28073,playai,website,https://play.ai/,https://play.ai/,True
-28073,playai,one_liner,Our mission is to make Voice AI accessible and useful to all.,Our mission is to make Voice AI accessible and useful to all.,True
-28073,playai,long_description,Play is a Voice AI company that specializes in building conversational voice mod,Play is a Voice AI company that specializes in building conversational voice mod,True
-28073,playai,team_size,35,35.0,True
-28073,playai,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
-28073,playai,industry,B2B,B2B,True
-28073,playai,subindustry,B2B,B2B,True
-28073,playai,industries,['B2B'],['B2B'],True
-28073,playai,tags,"['Generative AI', 'API']","['Generative AI', 'API']",True
-28073,playai,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
-28073,playai,stage,Early,Early,True
-28073,playai,status,Acquired,Acquired,True
-28073,playai,isHiring,False,False,True
-28073,playai,nonprofit,False,False,True
-28073,playai,top_company,False,False,True
-28073,playai,launched_at,1674701237,1674701237,True
-28073,playai,former_names,"['Play.ht', 'PlayHT', 'Play']","['Play.ht', 'PlayHT', 'Play']",True
-28073,playai,url,https://www.ycombinator.com/companies/playai,https://www.ycombinator.com/companies/playai,True
-28073,playai,n_year(derived),2023,2023,True
-28073,playai,n_subindustry_child(derived),,nan,True
-28073,playai,n_is_us(derived),True,True,True
-27268,materee,name,Materee,Materee,True
-27268,materee,slug,materee,materee,True
-27268,materee,batch,Summer 2022,Summer 2022,True
-27268,materee,website,https://materee.id,https://materee.id,True
-27268,materee,one_liner,E-commerce platform for construction materials in Indonesia,E-commerce platform for construction materials in Indonesia,True
-27268,materee,long_description,"Materee is an e-commerce platform for construction materials in Indonesia. 
+24251,pideaky,name,Pideaky,Pideaky,True
+24251,pideaky,slug,pideaky,pideaky,True
+24251,pideaky,batch,Summer 2021,Summer 2021,True
+24251,pideaky,website,https://pideaky.com/en/,https://pideaky.com/en/,True
+24251,pideaky,one_liner,We help offline LatAm SMBs manage and accelerate their cash-flow ,We help offline LatAm SMBs manage and accelerate their cash-flow ,True
+24251,pideaky,long_description,Pideaky helps offline LatAm SMBs manage and accelerate their cash flow through A,Pideaky helps offline LatAm SMBs manage and accelerate their cash flow through A,True
+24251,pideaky,team_size,3,3.0,True
+24251,pideaky,all_locations,"Monterrey, N.L., Mexico","Monterrey, N.L., Mexico",True
+24251,pideaky,industry,Fintech,Fintech,True
+24251,pideaky,subindustry,Fintech -> Payments,Fintech -> Payments,True
+24251,pideaky,industries,"['Fintech', 'Payments']","['Fintech', 'Payments']",True
+24251,pideaky,tags,['Fintech'],['Fintech'],True
+24251,pideaky,regions,"['Mexico', 'Latin America', 'Remote', 'Partly Remote']","['Mexico', 'Latin America', 'Remote', 'Partly Remote']",True
+24251,pideaky,stage,Early,Early,True
+24251,pideaky,status,Active,Active,True
+24251,pideaky,isHiring,False,False,True
+24251,pideaky,nonprofit,False,False,True
+24251,pideaky,top_company,False,False,True
+24251,pideaky,launched_at,1624598152,1624598152,True
+24251,pideaky,former_names,['ORCA Wireless S.A.P.I'],['ORCA Wireless S.A.P.I'],True
+24251,pideaky,url,https://www.ycombinator.com/companies/pideaky,https://www.ycombinator.com/companies/pideaky,True
+24251,pideaky,n_year(derived),2021,2021,True
+24251,pideaky,n_subindustry_child(derived),Payments,Payments,True
+24251,pideaky,n_is_us(derived),False,False,True
+23434,broad,name,Broad,Broad,True
+23434,broad,slug,broad,broad,True
+23434,broad,batch,Winter 2021,Winter 2021,True
+23434,broad,website,http://www.broad.app,http://www.broad.app,True
+23434,broad,one_liner,The multicurrency account and card for Brazilians,The multicurrency account and card for Brazilians,True
+23434,broad,long_description,Broad is building global financial products that enable life without borders.,Broad is building global financial products that enable life without borders.,True
+23434,broad,team_size,5,5.0,True
+23434,broad,all_locations,"London, England, United Kingdom; Remote","London, England, United Kingdom; Remote",True
+23434,broad,industry,Fintech,Fintech,True
+23434,broad,subindustry,Fintech -> Banking and Exchange,Fintech -> Banking and Exchange,True
+23434,broad,industries,"['Fintech', 'Banking and Exchange']","['Fintech', 'Banking and Exchange']",True
+23434,broad,tags,['Fintech'],['Fintech'],True
+23434,broad,regions,"['United Kingdom', 'Europe', 'Remote', 'Fully Remote']","['United Kingdom', 'Europe', 'Remote', 'Fully Remote']",True
+23434,broad,stage,Early,Early,True
+23434,broad,status,Active,Active,True
+23434,broad,isHiring,False,False,True
+23434,broad,nonprofit,False,False,True
+23434,broad,top_company,False,False,True
+23434,broad,launched_at,1614182017,1614182017,True
+23434,broad,former_names,[],[],True
+23434,broad,url,https://www.ycombinator.com/companies/broad,https://www.ycombinator.com/companies/broad,True
+23434,broad,n_year(derived),2021,2021,True
+23434,broad,n_subindustry_child(derived),Banking and Exchange,Banking and Exchange,True
+23434,broad,n_is_us(derived),False,False,True
+26669,mercator,name,Mercator,Mercator,True
+26669,mercator,slug,mercator,mercator,True
+26669,mercator,batch,Summer 2022,Summer 2022,True
+26669,mercator,website,http://www.mercator.tech,http://www.mercator.tech,True
+26669,mercator,one_liner,AI-assisted data analytics,AI-assisted data analytics,True
+26669,mercator,long_description,"Mercator is your AI-assisted data analytics platform for writing faster, cheaper","Mercator is your AI-assisted data analytics platform for writing faster, cheaper",True
+26669,mercator,team_size,2,2.0,True
+26669,mercator,all_locations,"San Francisco, CA, USA; Remote","San Francisco, CA, USA; Remote",True
+26669,mercator,industry,B2B,B2B,True
+26669,mercator,subindustry,B2B,B2B,True
+26669,mercator,industries,['B2B'],['B2B'],True
+26669,mercator,tags,"['Generative AI', 'SaaS', 'B2B']","['Generative AI', 'SaaS', 'B2B']",True
+26669,mercator,regions,"['United States of America', 'America / Canada', 'Remote', 'Fully Remote']","['United States of America', 'America / Canada', 'Remote', 'Fully Remote']",True
+26669,mercator,stage,Early,Early,True
+26669,mercator,status,Inactive,Inactive,True
+26669,mercator,isHiring,False,False,True
+26669,mercator,nonprofit,False,False,True
+26669,mercator,top_company,False,False,True
+26669,mercator,launched_at,1660079045,1660079045,True
+26669,mercator,former_names,"[""Quincy's""]","[""Quincy's""]",True
+26669,mercator,url,https://www.ycombinator.com/companies/mercator,https://www.ycombinator.com/companies/mercator,True
+26669,mercator,n_year(derived),2022,2022,True
+26669,mercator,n_subindustry_child(derived),,nan,True
+26669,mercator,n_is_us(derived),True,True,True
+29573,undermind,name,Undermind,Undermind,True
+29573,undermind,slug,undermind,undermind,True
+29573,undermind,batch,Summer 2024,Summer 2024,True
+29573,undermind,website,https://www.undermind.ai,https://www.undermind.ai,True
+29573,undermind,one_liner,An AI agent for scientific research,An AI agent for scientific research,True
+29573,undermind,long_description,"At Undermind, we're building a search engine that can handle extremely complex q","At Undermind, we're building a search engine that can handle extremely complex q",True
+29573,undermind,team_size,None,nan,True
+29573,undermind,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+29573,undermind,industry,B2B,B2B,True
+29573,undermind,subindustry,B2B,B2B,True
+29573,undermind,industries,['B2B'],['B2B'],True
+29573,undermind,tags,"['Machine Learning', 'Biotech', 'Search', 'AI']","['Machine Learning', 'Biotech', 'Search', 'AI']",True
+29573,undermind,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+29573,undermind,stage,Early,Early,True
+29573,undermind,status,Active,Active,True
+29573,undermind,isHiring,False,False,True
+29573,undermind,nonprofit,False,False,True
+29573,undermind,top_company,False,False,True
+29573,undermind,launched_at,1718632251,1718632251,True
+29573,undermind,former_names,[],[],True
+29573,undermind,url,https://www.ycombinator.com/companies/undermind,https://www.ycombinator.com/companies/undermind,True
+29573,undermind,n_year(derived),2024,2024,True
+29573,undermind,n_subindustry_child(derived),,nan,True
+29573,undermind,n_is_us(derived),True,True,True
+746,tech-in-asia,name,Tech in Asia,Tech in Asia,True
+746,tech-in-asia,slug,tech-in-asia,tech-in-asia,True
+746,tech-in-asia,batch,Winter 2015,Winter 2015,True
+746,tech-in-asia,website,http://techinasia.com,http://techinasia.com,True
+746,tech-in-asia,one_liner,Tech in Asia (YC W15) is the largest English-language technology…,Tech in Asia (YC W15) is the largest English-language technology…,True
+746,tech-in-asia,long_description,Tech in Asia (YC W15) is the largest English-language technology media company t,Tech in Asia (YC W15) is the largest English-language technology media company t,True
+746,tech-in-asia,team_size,70,70.0,True
+746,tech-in-asia,all_locations,"Singapore, Singapore","Singapore, Singapore",True
+746,tech-in-asia,industry,Consumer,Consumer,True
+746,tech-in-asia,subindustry,Consumer -> Content,Consumer -> Content,True
+746,tech-in-asia,industries,"['Consumer', 'Content']","['Consumer', 'Content']",True
+746,tech-in-asia,tags,['Media'],['Media'],True
+746,tech-in-asia,regions,"['Singapore', 'Southeast Asia', 'Remote', 'Partly Remote']","['Singapore', 'Southeast Asia', 'Remote', 'Partly Remote']",True
+746,tech-in-asia,stage,Early,Early,True
+746,tech-in-asia,status,Acquired,Acquired,True
+746,tech-in-asia,isHiring,False,False,True
+746,tech-in-asia,nonprofit,False,False,True
+746,tech-in-asia,top_company,False,False,True
+746,tech-in-asia,launched_at,1415700494,1415700494,True
+746,tech-in-asia,former_names,['Techlist'],['Techlist'],True
+746,tech-in-asia,url,https://www.ycombinator.com/companies/tech-in-asia,https://www.ycombinator.com/companies/tech-in-asia,True
+746,tech-in-asia,n_year(derived),2015,2015,True
+746,tech-in-asia,n_subindustry_child(derived),Content,Content,True
+746,tech-in-asia,n_is_us(derived),False,False,True
+63,carsabi,name,Carsabi,Carsabi,True
+63,carsabi,slug,carsabi,carsabi,True
+63,carsabi,batch,Winter 2012,Winter 2012,True
+63,carsabi,website,http://carsabi.com,http://carsabi.com,True
+63,carsabi,one_liner,Carsabi is the search engine for used cars,Carsabi is the search engine for used cars,True
+63,carsabi,long_description,Carsabi is the search engine for used cars,Carsabi is the search engine for used cars,True
+63,carsabi,team_size,2,2.0,True
+63,carsabi,all_locations,"San Francisco, CA, USA; Mountain View, CA, USA","San Francisco, CA, USA; Mountain View, CA, USA",True
+63,carsabi,industry,Consumer,Consumer,True
+63,carsabi,subindustry,Consumer -> Transportation Services,Consumer -> Transportation Services,True
+63,carsabi,industries,"['Consumer', 'Transportation Services']","['Consumer', 'Transportation Services']",True
+63,carsabi,tags,['Automotive'],['Automotive'],True
+63,carsabi,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+63,carsabi,stage,Early,Early,True
+63,carsabi,status,Inactive,Inactive,True
+63,carsabi,isHiring,False,False,True
+63,carsabi,nonprofit,False,False,True
+63,carsabi,top_company,False,False,True
+63,carsabi,launched_at,1322046092,1322046092,True
+63,carsabi,former_names,[],[],True
+63,carsabi,url,https://www.ycombinator.com/companies/carsabi,https://www.ycombinator.com/companies/carsabi,True
+63,carsabi,n_year(derived),2012,2012,True
+63,carsabi,n_subindustry_child(derived),Transportation Services,Transportation Services,True
+63,carsabi,n_is_us(derived),True,True,True
+29822,omnidock,name,omnidock,omnidock,True
+29822,omnidock,slug,omnidock,omnidock,True
+29822,omnidock,batch,Summer 2024,Summer 2024,True
+29822,omnidock,website,https://www.omnidock.com,https://www.omnidock.com,True
+29822,omnidock,one_liner,OS for global e-commerce expansion of brands & manufacturers,OS for global e-commerce expansion of brands & manufacturers,True
+29822,omnidock,long_description,Expanding to other geographies and marketplaces is a massive growth lever for br,Expanding to other geographies and marketplaces is a massive growth lever for br,True
+29822,omnidock,team_size,1,1.0,True
+29822,omnidock,all_locations,"Berlin, Berlin, Germany","Berlin, Berlin, Germany",True
+29822,omnidock,industry,B2B,B2B,True
+29822,omnidock,subindustry,B2B -> Operations,B2B -> Operations,True
+29822,omnidock,industries,"['B2B', 'Operations']","['B2B', 'Operations']",True
+29822,omnidock,tags,[],[],True
+29822,omnidock,regions,"['Germany', 'Europe']","['Germany', 'Europe']",True
+29822,omnidock,stage,Early,Early,True
+29822,omnidock,status,Active,Active,True
+29822,omnidock,isHiring,False,False,True
+29822,omnidock,nonprofit,False,False,True
+29822,omnidock,top_company,False,False,True
+29822,omnidock,launched_at,1723790505,1723790505,True
+29822,omnidock,former_names,['Omnidock'],['Omnidock'],True
+29822,omnidock,url,https://www.ycombinator.com/companies/omnidock,https://www.ycombinator.com/companies/omnidock,True
+29822,omnidock,n_year(derived),2024,2024,True
+29822,omnidock,n_subindustry_child(derived),Operations,Operations,True
+29822,omnidock,n_is_us(derived),False,False,True
+28827,airgoods,name,Airgoods,Airgoods,True
+28827,airgoods,slug,airgoods,airgoods,True
+28827,airgoods,batch,Summer 2023,Summer 2023,True
+28827,airgoods,website,https://airgoods.com/,https://airgoods.com/,True
+28827,airgoods,one_liner,The modern distributor for grocers.,The modern distributor for grocers.,True
+28827,airgoods,long_description,"Trusted by independent grocers across America, Airgoods is the AI-native distrib","Trusted by independent grocers across America, Airgoods is the AI-native distrib",True
+28827,airgoods,team_size,10,10.0,True
+28827,airgoods,all_locations,"New York City, NY, USA","New York City, NY, USA",True
+28827,airgoods,industry,B2B,B2B,True
+28827,airgoods,subindustry,B2B -> Retail,B2B -> Retail,True
+28827,airgoods,industries,"['B2B', 'Retail']","['B2B', 'Retail']",True
+28827,airgoods,tags,"['Grocery', 'Supply Chain', 'Food & Beverage']","['Grocery', 'Supply Chain', 'Food & Beverage']",True
+28827,airgoods,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+28827,airgoods,stage,Early,Early,True
+28827,airgoods,status,Active,Active,True
+28827,airgoods,isHiring,True,True,True
+28827,airgoods,nonprofit,False,False,True
+28827,airgoods,top_company,False,False,True
+28827,airgoods,launched_at,1689699732,1689699732,True
+28827,airgoods,former_names,['Stack'],['Stack'],True
+28827,airgoods,url,https://www.ycombinator.com/companies/airgoods,https://www.ycombinator.com/companies/airgoods,True
+28827,airgoods,n_year(derived),2023,2023,True
+28827,airgoods,n_subindustry_child(derived),Retail,Retail,True
+28827,airgoods,n_is_us(derived),True,True,True
+13273,dropbase,name,Dropbase,Dropbase,True
+13273,dropbase,slug,dropbase,dropbase,True
+13273,dropbase,batch,Winter 2020,Winter 2020,True
+13273,dropbase,website,https://dropbase.io,https://dropbase.io,True
+13273,dropbase,one_liner,AI app builder for internal tools. Build back-office software faster…,AI app builder for internal tools. Build back-office software faster…,True
+13273,dropbase,long_description,Dropbase is a prompt-based app builder that empowers developers to create custom,Dropbase is a prompt-based app builder that empowers developers to create custom,True
+13273,dropbase,team_size,8,8.0,True
+13273,dropbase,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+13273,dropbase,industry,B2B,B2B,True
+13273,dropbase,subindustry,B2B -> Operations,B2B -> Operations,True
+13273,dropbase,industries,"['B2B', 'Operations']","['B2B', 'Operations']",True
+13273,dropbase,tags,"['Developer Tools', 'SaaS', 'B2B', 'AI']","['Developer Tools', 'SaaS', 'B2B', 'AI']",True
+13273,dropbase,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+13273,dropbase,stage,Early,Early,True
+13273,dropbase,status,Inactive,Inactive,True
+13273,dropbase,isHiring,False,False,True
+13273,dropbase,nonprofit,False,False,True
+13273,dropbase,top_company,False,False,True
+13273,dropbase,launched_at,1584664576,1584664576,True
+13273,dropbase,former_names,"['Sanau', 'Castodia']","['Sanau', 'Castodia']",True
+13273,dropbase,url,https://www.ycombinator.com/companies/dropbase,https://www.ycombinator.com/companies/dropbase,True
+13273,dropbase,n_year(derived),2020,2020,True
+13273,dropbase,n_subindustry_child(derived),Operations,Operations,True
+13273,dropbase,n_is_us(derived),True,True,True
+30307,archon,name,Archon,Archon,True
+30307,archon,slug,archon,archon,True
+30307,archon,batch,Winter 2025,Winter 2025,True
+30307,archon,website,https://archon.inc,https://archon.inc,True
+30307,archon,one_liner,We help software companies sell to government.,We help software companies sell to government.,True
+30307,archon,long_description,Archon helps software companies sell to the government by cutting the required f,Archon helps software companies sell to the government by cutting the required f,True
+30307,archon,team_size,3,3.0,True
+30307,archon,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+30307,archon,industry,Government,Government,True
+30307,archon,subindustry,Government,Government,True
+30307,archon,industries,['Government'],['Government'],True
+30307,archon,tags,"['GovTech', 'Compliance', 'Cybersecurity', 'Cloud Computing']","['GovTech', 'Compliance', 'Cybersecurity', 'Cloud Computing']",True
+30307,archon,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+30307,archon,stage,Early,Early,True
+30307,archon,status,Active,Active,True
+30307,archon,isHiring,True,True,True
+30307,archon,nonprofit,False,False,True
+30307,archon,top_company,False,False,True
+30307,archon,launched_at,1738095676,1738095676,True
+30307,archon,former_names,['NEXUS'],['NEXUS'],True
+30307,archon,url,https://www.ycombinator.com/companies/archon,https://www.ycombinator.com/companies/archon,True
+30307,archon,n_year(derived),2025,2025,True
+30307,archon,n_subindustry_child(derived),,nan,True
+30307,archon,n_is_us(derived),True,True,True
+30046,cekura-ai,name,Cekura,Cekura,True
+30046,cekura-ai,slug,cekura-ai,cekura-ai,True
+30046,cekura-ai,batch,Fall 2024,Fall 2024,True
+30046,cekura-ai,website,https://www.cekura.ai/,https://www.cekura.ai/,True
+30046,cekura-ai,one_liner,Voice AI and Chat AI agents: Testing and Observability,Voice AI and Chat AI agents: Testing and Observability,True
+30046,cekura-ai,long_description,Cekura helps Conversational AI companies with automated QA. From pre-production ,Cekura helps Conversational AI companies with automated QA. From pre-production ,True
+30046,cekura-ai,team_size,15,15.0,True
+30046,cekura-ai,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+30046,cekura-ai,industry,B2B,B2B,True
+30046,cekura-ai,subindustry,"B2B -> Engineering, Product and Design","B2B -> Engineering, Product and Design",True
+30046,cekura-ai,industries,"['B2B', 'Engineering, Product and Design']","['B2B', 'Engineering, Product and Design']",True
+30046,cekura-ai,tags,"['Developer Tools', 'SaaS', 'B2B']","['Developer Tools', 'SaaS', 'B2B']",True
+30046,cekura-ai,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
+30046,cekura-ai,stage,Early,Early,True
+30046,cekura-ai,status,Active,Active,True
+30046,cekura-ai,isHiring,True,True,True
+30046,cekura-ai,nonprofit,False,False,True
+30046,cekura-ai,top_company,False,False,True
+30046,cekura-ai,launched_at,1728616885,1728616885,True
+30046,cekura-ai,former_names,"['Lex', 'Vocera', 'Cekura', 'Cekura (formerly Vocera)', 'Cekura', 'Cekura (forme","['Lex', 'Vocera', 'Cekura', 'Cekura (formerly Vocera)', 'Cekura', 'Cekura (forme",True
+30046,cekura-ai,url,https://www.ycombinator.com/companies/cekura-ai,https://www.ycombinator.com/companies/cekura-ai,True
+30046,cekura-ai,n_year(derived),2024,2024,True
+30046,cekura-ai,n_subindustry_child(derived),"Engineering, Product and Design","Engineering, Product and Design",True
+30046,cekura-ai,n_is_us(derived),True,True,True
+269,foodoro,name,Foodoro,Foodoro,True
+269,foodoro,slug,foodoro,foodoro,True
+269,foodoro,batch,Winter 2009,Winter 2009,True
+269,foodoro,website,http://foodoro.com,http://foodoro.com,True
+269,foodoro,one_liner,,,True
+269,foodoro,long_description,Foodoro is a marketplace where people can buy specialty food directly from artis,Foodoro is a marketplace where people can buy specialty food directly from artis,True
+269,foodoro,team_size,11,11.0,True
+269,foodoro,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+269,foodoro,industry,Consumer,Consumer,True
+269,foodoro,subindustry,Consumer -> Food and Beverage,Consumer -> Food and Beverage,True
+269,foodoro,industries,"['Consumer', 'Food and Beverage']","['Consumer', 'Food and Beverage']",True
+269,foodoro,tags,[],[],True
+269,foodoro,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+269,foodoro,stage,Early,Early,True
+269,foodoro,status,Inactive,Inactive,True
+269,foodoro,isHiring,False,False,True
+269,foodoro,nonprofit,False,False,True
+269,foodoro,top_company,False,False,True
+269,foodoro,launched_at,1326790834,1326790834,True
+269,foodoro,former_names,[],[],True
+269,foodoro,url,https://www.ycombinator.com/companies/foodoro,https://www.ycombinator.com/companies/foodoro,True
+269,foodoro,n_year(derived),2009,2009,True
+269,foodoro,n_subindustry_child(derived),Food and Beverage,Food and Beverage,True
+269,foodoro,n_is_us(derived),True,True,True
+435,profig,name,Profig,Profig,True
+435,profig,slug,profig,profig,True
+435,profig,batch,Summer 2012,Summer 2012,True
+435,profig,website,http://profig.com,http://profig.com,True
+435,profig,one_liner,The phone system for businesses. Manage everything from your company…,The phone system for businesses. Manage everything from your company…,True
+435,profig,long_description,"Profig provides transcriptions, call tracking, voice broadcasting, CRM integrati","Profig provides transcriptions, call tracking, voice broadcasting, CRM integrati",True
+435,profig,team_size,2,2.0,True
+435,profig,all_locations,"San Francisco, CA, USA; Mountain View, CA, USA","San Francisco, CA, USA; Mountain View, CA, USA",True
+435,profig,industry,B2B,B2B,True
+435,profig,subindustry,B2B -> Operations,B2B -> Operations,True
+435,profig,industries,"['B2B', 'Operations']","['B2B', 'Operations']",True
+435,profig,tags,['Telecommunications'],['Telecommunications'],True
+435,profig,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+435,profig,stage,Early,Early,True
+435,profig,status,Inactive,Inactive,True
+435,profig,isHiring,False,False,True
+435,profig,nonprofit,False,False,True
+435,profig,top_company,False,False,True
+435,profig,launched_at,1336096910,1336096910,True
+435,profig,former_names,[],[],True
+435,profig,url,https://www.ycombinator.com/companies/profig,https://www.ycombinator.com/companies/profig,True
+435,profig,n_year(derived),2012,2012,True
+435,profig,n_subindustry_child(derived),Operations,Operations,True
+435,profig,n_is_us(derived),True,True,True
+1888,phiar,name,Phiar,Phiar,True
+1888,phiar,slug,phiar,phiar,True
+1888,phiar,batch,Summer 2018,Summer 2018,True
+1888,phiar,website,https://www.phiar.net,https://www.phiar.net,True
+1888,phiar,one_liner,We are developing a revolutionary AI-powered augmented reality…,We are developing a revolutionary AI-powered augmented reality…,True
+1888,phiar,long_description,"At Phiar, we are building the first AI-powered AR navigation driving software so","At Phiar, we are building the first AI-powered AR navigation driving software so",True
+1888,phiar,team_size,12,12.0,True
+1888,phiar,all_locations,"San Francisco, CA, USA; Redwood City, CA, USA","San Francisco, CA, USA; Redwood City, CA, USA",True
+1888,phiar,industry,Industrials,Industrials,True
+1888,phiar,subindustry,Industrials -> Automotive,Industrials -> Automotive,True
+1888,phiar,industries,"['Industrials', 'Automotive']","['Industrials', 'Automotive']",True
+1888,phiar,tags,"['Artificial Intelligence', 'Machine Learning', 'Augmented Reality']","['Artificial Intelligence', 'Machine Learning', 'Augmented Reality']",True
+1888,phiar,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
+1888,phiar,stage,Early,Early,True
+1888,phiar,status,Acquired,Acquired,True
+1888,phiar,isHiring,False,False,True
+1888,phiar,nonprofit,False,False,True
+1888,phiar,top_company,False,False,True
+1888,phiar,launched_at,1524539151,1524539151,True
+1888,phiar,former_names,['Phair'],['Phair'],True
+1888,phiar,url,https://www.ycombinator.com/companies/phiar,https://www.ycombinator.com/companies/phiar,True
+1888,phiar,n_year(derived),2018,2018,True
+1888,phiar,n_subindustry_child(derived),Automotive,Automotive,True
+1888,phiar,n_is_us(derived),True,True,True
+12742,finlens,name,Finlens,Finlens,True
+12742,finlens,slug,finlens,finlens,True
+12742,finlens,batch,Winter 2020,Winter 2020,True
+12742,finlens,website,https://finlens.app,https://finlens.app,True
+12742,finlens,one_liner,AI Accounting for Founders & Accountants,AI Accounting for Founders & Accountants,True
+12742,finlens,long_description,"Finlens is an AI co-pilot for QuickBooks, built for founders and accounting firm","Finlens is an AI co-pilot for QuickBooks, built for founders and accounting firm",True
+12742,finlens,team_size,6,6.0,True
+12742,finlens,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+12742,finlens,industry,B2B,B2B,True
+12742,finlens,subindustry,B2B -> Finance and Accounting,B2B -> Finance and Accounting,True
+12742,finlens,industries,"['B2B', 'Finance and Accounting']","['B2B', 'Finance and Accounting']",True
+12742,finlens,tags,"['SaaS', 'Finance', 'B2B', 'AI']","['SaaS', 'Finance', 'B2B', 'AI']",True
+12742,finlens,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
+12742,finlens,stage,Early,Early,True
+12742,finlens,status,Active,Active,True
+12742,finlens,isHiring,False,False,True
+12742,finlens,nonprofit,False,False,True
+12742,finlens,top_company,False,False,True
+12742,finlens,launched_at,1583909491,1583909491,True
+12742,finlens,former_names,"['Authlayer', 'ZeFi']","['Authlayer', 'ZeFi']",True
+12742,finlens,url,https://www.ycombinator.com/companies/finlens,https://www.ycombinator.com/companies/finlens,True
+12742,finlens,n_year(derived),2020,2020,True
+12742,finlens,n_subindustry_child(derived),Finance and Accounting,Finance and Accounting,True
+12742,finlens,n_is_us(derived),True,True,True
+31333,perfectbit-inc,name,"PerfectBit, Inc.","PerfectBit, Inc.",True
+31333,perfectbit-inc,slug,perfectbit-inc,perfectbit-inc,True
+31333,perfectbit-inc,batch,Spring 2026,Spring 2026,True
+31333,perfectbit-inc,website,https://perfectbit.ai,https://perfectbit.ai,True
+31333,perfectbit-inc,one_liner,Correct by construction AI training data,Correct by construction AI training data,True
+31333,perfectbit-inc,long_description,We create a new kind of data for training AI models. Most LLMs are pre-trained o,We create a new kind of data for training AI models. Most LLMs are pre-trained o,True
+31333,perfectbit-inc,team_size,2,2.0,True
+31333,perfectbit-inc,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+31333,perfectbit-inc,industry,B2B,B2B,True
+31333,perfectbit-inc,subindustry,B2B,B2B,True
+31333,perfectbit-inc,industries,['B2B'],['B2B'],True
+31333,perfectbit-inc,tags,[],[],True
+31333,perfectbit-inc,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+31333,perfectbit-inc,stage,Early,Early,True
+31333,perfectbit-inc,status,Active,Active,True
+31333,perfectbit-inc,isHiring,True,True,True
+31333,perfectbit-inc,nonprofit,False,False,True
+31333,perfectbit-inc,top_company,False,False,True
+31333,perfectbit-inc,launched_at,1773359306,1773359306,True
+31333,perfectbit-inc,former_names,"['Gikl, Inc', 'PerfectBit']","['Gikl, Inc', 'PerfectBit']",True
+31333,perfectbit-inc,url,https://www.ycombinator.com/companies/perfectbit-inc,https://www.ycombinator.com/companies/perfectbit-inc,True
+31333,perfectbit-inc,n_year(derived),2026,2026,True
+31333,perfectbit-inc,n_subindustry_child(derived),,nan,True
+31333,perfectbit-inc,n_is_us(derived),True,True,True
+22049,virtually,name,Virtually,Virtually,True
+22049,virtually,slug,virtually,virtually,True
+22049,virtually,batch,Summer 2020,Summer 2020,True
+22049,virtually,website,https://tryvirtually.com/,https://tryvirtually.com/,True
+22049,virtually,one_liner,"The ""Shopify"" for Online Schools","The ""Shopify"" for Online Schools",True
+22049,virtually,long_description,"The first ever ""Student Relationship Manager"" for online schools to bridge the g","The first ever ""Student Relationship Manager"" for online schools to bridge the g",True
+22049,virtually,team_size,5,5.0,True
+22049,virtually,all_locations,"New York City, NY, USA; New York, NY, USA; Remote","New York City, NY, USA; New York, NY, USA; Remote",True
+22049,virtually,industry,B2B,B2B,True
+22049,virtually,subindustry,B2B,B2B,True
+22049,virtually,industries,['B2B'],['B2B'],True
+22049,virtually,tags,"['Education', 'SaaS', 'eLearning']","['Education', 'SaaS', 'eLearning']",True
+22049,virtually,regions,"['United States of America', 'America / Canada', 'Remote', 'Fully Remote']","['United States of America', 'America / Canada', 'Remote', 'Fully Remote']",True
+22049,virtually,stage,Early,Early,True
+22049,virtually,status,Inactive,Inactive,True
+22049,virtually,isHiring,False,False,True
+22049,virtually,nonprofit,False,False,True
+22049,virtually,top_company,False,False,True
+22049,virtually,launched_at,1594764442,1594764442,True
+22049,virtually,former_names,"['Virtually', 'Peervine']","['Virtually', 'Peervine']",True
+22049,virtually,url,https://www.ycombinator.com/companies/virtually,https://www.ycombinator.com/companies/virtually,True
+22049,virtually,n_year(derived),2020,2020,True
+22049,virtually,n_subindustry_child(derived),,nan,True
+22049,virtually,n_is_us(derived),True,True,True
+1638,cairns-health,name,Cairns Health,Cairns Health,True
+1638,cairns-health,slug,cairns-health,cairns-health,True
+1638,cairns-health,batch,Summer 2017,Summer 2017,True
+1638,cairns-health,website,https://www.cairns.ai,https://www.cairns.ai,True
+1638,cairns-health,one_liner,Your voice. Your health. We care.,Your voice. Your health. We care.,True
+1638,cairns-health,long_description,Cairns Health is creating a fundamentally better healthcare experience for peopl,Cairns Health is creating a fundamentally better healthcare experience for peopl,True
+1638,cairns-health,team_size,17,17.0,True
+1638,cairns-health,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+1638,cairns-health,industry,Healthcare,Healthcare,True
+1638,cairns-health,subindustry,Healthcare -> Consumer Health and Wellness,Healthcare -> Consumer Health and Wellness,True
+1638,cairns-health,industries,"['Healthcare', 'Consumer Health and Wellness']","['Healthcare', 'Consumer Health and Wellness']",True
+1638,cairns-health,tags,"['Hardware', 'Machine Learning', 'Consumer Health Services']","['Hardware', 'Machine Learning', 'Consumer Health Services']",True
+1638,cairns-health,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+1638,cairns-health,stage,Early,Early,True
+1638,cairns-health,status,Active,Active,True
+1638,cairns-health,isHiring,False,False,True
+1638,cairns-health,nonprofit,False,False,True
+1638,cairns-health,top_company,False,False,True
+1638,cairns-health,launched_at,1493693427,1493693427,True
+1638,cairns-health,former_names,"['Totemic Labs', 'Totemic', 'Koko']","['Totemic Labs', 'Totemic', 'Koko']",True
+1638,cairns-health,url,https://www.ycombinator.com/companies/cairns-health,https://www.ycombinator.com/companies/cairns-health,True
+1638,cairns-health,n_year(derived),2017,2017,True
+1638,cairns-health,n_subindustry_child(derived),Consumer Health and Wellness,Consumer Health and Wellness,True
+1638,cairns-health,n_is_us(derived),True,True,True
+1039,interstate-analytics,name,Interstate Analytics,Interstate Analytics,True
+1039,interstate-analytics,slug,interstate-analytics,interstate-analytics,True
+1039,interstate-analytics,batch,Winter 2016,Winter 2016,True
+1039,interstate-analytics,website,http://interstateanalytics.com,http://interstateanalytics.com,True
+1039,interstate-analytics,one_liner,Multi-Touch Marketing Analytics,Multi-Touch Marketing Analytics,True
+1039,interstate-analytics,long_description,Interstate Analytics helps marketers make smarter decisions. The customers of th,Interstate Analytics helps marketers make smarter decisions. The customers of th,True
+1039,interstate-analytics,team_size,2,2.0,True
+1039,interstate-analytics,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+1039,interstate-analytics,industry,B2B,B2B,True
+1039,interstate-analytics,subindustry,B2B -> Analytics,B2B -> Analytics,True
+1039,interstate-analytics,industries,"['B2B', 'Analytics']","['B2B', 'Analytics']",True
+1039,interstate-analytics,tags,"['Analytics', 'Marketing']","['Analytics', 'Marketing']",True
+1039,interstate-analytics,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+1039,interstate-analytics,stage,Early,Early,True
+1039,interstate-analytics,status,Inactive,Inactive,True
+1039,interstate-analytics,isHiring,False,False,True
+1039,interstate-analytics,nonprofit,False,False,True
+1039,interstate-analytics,top_company,False,False,True
+1039,interstate-analytics,launched_at,1447567516,1447567516,True
+1039,interstate-analytics,former_names,[],[],True
+1039,interstate-analytics,url,https://www.ycombinator.com/companies/interstate-analytics,https://www.ycombinator.com/companies/interstate-analytics,True
+1039,interstate-analytics,n_year(derived),2016,2016,True
+1039,interstate-analytics,n_subindustry_child(derived),Analytics,Analytics,True
+1039,interstate-analytics,n_is_us(derived),True,True,True
+1098,devcolor,name,DevColor,DevColor,True
+1098,devcolor,slug,devcolor,devcolor,True
+1098,devcolor,batch,Winter 2016,Winter 2016,True
+1098,devcolor,website,http://www.devcolor.org/,http://www.devcolor.org/,True
+1098,devcolor,one_liner,We give Black software engineers support they need to advance in tech.,We give Black software engineers support they need to advance in tech.,True
+1098,devcolor,long_description,dev/color is a non-profit organization that aims to maximize the impact of Black,dev/color is a non-profit organization that aims to maximize the impact of Black,True
+1098,devcolor,team_size,7,7.0,True
+1098,devcolor,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+1098,devcolor,industry,Unspecified,Unspecified,True
+1098,devcolor,subindustry,Unspecified,Unspecified,True
+1098,devcolor,industries,['Unspecified'],['Unspecified'],True
+1098,devcolor,tags,"['Education', 'Community', 'Diversity & Inclusion']","['Education', 'Community', 'Diversity & Inclusion']",True
+1098,devcolor,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+1098,devcolor,stage,Early,Early,True
+1098,devcolor,status,Active,Active,True
+1098,devcolor,isHiring,False,False,True
+1098,devcolor,nonprofit,True,True,True
+1098,devcolor,top_company,False,False,True
+1098,devcolor,launched_at,1451984715,1451984715,True
+1098,devcolor,former_names,[],[],True
+1098,devcolor,url,https://www.ycombinator.com/companies/devcolor,https://www.ycombinator.com/companies/devcolor,True
+1098,devcolor,n_year(derived),2016,2016,True
+1098,devcolor,n_subindustry_child(derived),,nan,True
+1098,devcolor,n_is_us(derived),True,True,True
+31095,asimov,name,Asimov,Asimov,True
+31095,asimov,slug,asimov,asimov,True
+31095,asimov,batch,Winter 2026,Winter 2026,True
+31095,asimov,website,https://tryasimov.ai/,https://tryasimov.ai/,True
+31095,asimov,one_liner,Real-world human movement data for humanoid robots,Real-world human movement data for humanoid robots,True
+31095,asimov,long_description,Asimov collects real-world human movement data from households and businesses to,Asimov collects real-world human movement data from households and businesses to,True
+31095,asimov,team_size,3,3.0,True
+31095,asimov,all_locations,"San Francisco, CA, USA; Remote","San Francisco, CA, USA; Remote",True
+31095,asimov,industry,Industrials,Industrials,True
+31095,asimov,subindustry,Industrials -> Manufacturing and Robotics,Industrials -> Manufacturing and Robotics,True
+31095,asimov,industries,"['Industrials', 'Manufacturing and Robotics']","['Industrials', 'Manufacturing and Robotics']",True
+31095,asimov,tags,[],[],True
+31095,asimov,regions,"['United States of America', 'America / Canada', 'Remote', 'Fully Remote']","['United States of America', 'America / Canada', 'Remote', 'Fully Remote']",True
+31095,asimov,stage,Early,Early,True
+31095,asimov,status,Active,Active,True
+31095,asimov,isHiring,True,True,True
+31095,asimov,nonprofit,False,False,True
+31095,asimov,top_company,False,False,True
+31095,asimov,launched_at,1770974844,1770974844,True
+31095,asimov,former_names,[],[],True
+31095,asimov,url,https://www.ycombinator.com/companies/asimov,https://www.ycombinator.com/companies/asimov,True
+31095,asimov,n_year(derived),2026,2026,True
+31095,asimov,n_subindustry_child(derived),Manufacturing and Robotics,Manufacturing and Robotics,True
+31095,asimov,n_is_us(derived),True,True,True
+398,omnivirt,name,OmniVirt,OmniVirt,True
+398,omnivirt,slug,omnivirt,omnivirt,True
+398,omnivirt,batch,Summer 2012,Summer 2012,True
+398,omnivirt,website,https://www.omnivirt.com,https://www.omnivirt.com,True
+398,omnivirt,one_liner,OmniVirt is the leading VR Advertising platform for brands and…,OmniVirt is the leading VR Advertising platform for brands and…,True
+398,omnivirt,long_description,OmniVirt is 360° Virtual Reality advertising platform for brands and publishers.,OmniVirt is 360° Virtual Reality advertising platform for brands and publishers.,True
+398,omnivirt,team_size,15,15.0,True
+398,omnivirt,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+398,omnivirt,industry,B2B,B2B,True
+398,omnivirt,subindustry,B2B -> Marketing,B2B -> Marketing,True
+398,omnivirt,industries,"['B2B', 'Marketing']","['B2B', 'Marketing']",True
+398,omnivirt,tags,['Advertising'],['Advertising'],True
+398,omnivirt,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+398,omnivirt,stage,Early,Early,True
+398,omnivirt,status,Acquired,Acquired,True
+398,omnivirt,isHiring,False,False,True
+398,omnivirt,nonprofit,False,False,True
+398,omnivirt,top_company,False,False,True
+398,omnivirt,launched_at,1336096574,1336096574,True
+398,omnivirt,former_names,"['Social Nation', 'AdsOptimal', 'OmniVirt', 'OmniVirt (Acquired)']","['Social Nation', 'AdsOptimal', 'OmniVirt', 'OmniVirt (Acquired)']",True
+398,omnivirt,url,https://www.ycombinator.com/companies/omnivirt,https://www.ycombinator.com/companies/omnivirt,True
+398,omnivirt,n_year(derived),2012,2012,True
+398,omnivirt,n_subindustry_child(derived),Marketing,Marketing,True
+398,omnivirt,n_is_us(derived),True,True,True
+12282,truora,name,Truora,Truora,True
+12282,truora,slug,truora,truora,True
+12282,truora,batch,Winter 2019,Winter 2019,True
+12282,truora,website,https://www.truora.com/,https://www.truora.com/,True
+12282,truora,one_liner,Reliable background checks & fraud prevention tools for Latin America.,Reliable background checks & fraud prevention tools for Latin America.,True
+12282,truora,long_description,Truora provides safe and reliable background checks and fraud prevention service,Truora provides safe and reliable background checks and fraud prevention service,True
+12282,truora,team_size,80,80.0,True
+12282,truora,all_locations,"Cali, Valle del Cauca, Colombia","Cali, Valle del Cauca, Colombia",True
+12282,truora,industry,B2B,B2B,True
+12282,truora,subindustry,B2B -> Operations,B2B -> Operations,True
+12282,truora,industries,"['B2B', 'Operations']","['B2B', 'Operations']",True
+12282,truora,tags,"['SaaS', 'Fraud Prevention']","['SaaS', 'Fraud Prevention']",True
+12282,truora,regions,"['Colombia', 'Latin America', 'Remote', 'Partly Remote']","['Colombia', 'Latin America', 'Remote', 'Partly Remote']",True
+12282,truora,stage,Growth,Growth,True
+12282,truora,status,Active,Active,True
+12282,truora,isHiring,False,False,True
+12282,truora,nonprofit,False,False,True
+12282,truora,top_company,False,False,True
+12282,truora,launched_at,1544068972,1544068972,True
+12282,truora,former_names,[],[],True
+12282,truora,url,https://www.ycombinator.com/companies/truora,https://www.ycombinator.com/companies/truora,True
+12282,truora,n_year(derived),2019,2019,True
+12282,truora,n_subindustry_child(derived),Operations,Operations,True
+12282,truora,n_is_us(derived),False,False,True
+12641,green-canopy-node,name,Green Canopy NODE,Green Canopy NODE,True
+12641,green-canopy-node,slug,green-canopy-node,green-canopy-node,True
+12641,green-canopy-node,batch,Summer 2019,Summer 2019,True
+12641,green-canopy-node,website,http://greencanopynode.com,http://greencanopynode.com,True
+12641,green-canopy-node,one_liner,Green Canopy NODE builds sustainable homes fast.,Green Canopy NODE builds sustainable homes fast.,True
+12641,green-canopy-node,long_description,"Construction costs are climbing out of control, there is a declining constructio","Construction costs are climbing out of control, there is a declining constructio",True
+12641,green-canopy-node,team_size,31,31.0,True
+12641,green-canopy-node,all_locations,"Seattle, WA, USA","Seattle, WA, USA",True
+12641,green-canopy-node,industry,Real Estate and Construction,Real Estate and Construction,True
+12641,green-canopy-node,subindustry,Real Estate and Construction -> Housing and Real Estate,Real Estate and Construction -> Housing and Real Estate,True
+12641,green-canopy-node,industries,"['Real Estate and Construction', 'Housing and Real Estate']","['Real Estate and Construction', 'Housing and Real Estate']",True
+12641,green-canopy-node,tags,"['Hardware', 'Housing', 'Proptech']","['Hardware', 'Housing', 'Proptech']",True
+12641,green-canopy-node,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
+12641,green-canopy-node,stage,Early,Early,True
+12641,green-canopy-node,status,Active,Active,True
+12641,green-canopy-node,isHiring,False,False,True
+12641,green-canopy-node,nonprofit,False,False,True
+12641,green-canopy-node,top_company,False,False,True
+12641,green-canopy-node,launched_at,1556761303,1556761303,True
+12641,green-canopy-node,former_names,"['NODE ECO', 'Inc', 'NODE']","['NODE ECO', 'Inc', 'NODE']",True
+12641,green-canopy-node,url,https://www.ycombinator.com/companies/green-canopy-node,https://www.ycombinator.com/companies/green-canopy-node,True
+12641,green-canopy-node,n_year(derived),2019,2019,True
+12641,green-canopy-node,n_subindustry_child(derived),Housing and Real Estate,Housing and Real Estate,True
+12641,green-canopy-node,n_is_us(derived),True,True,True
+26264,jutsoo,name,Jutsoo,Jutsoo,True
+26264,jutsoo,slug,jutsoo,jutsoo,True
+26264,jutsoo,batch,Winter 2022,Winter 2022,True
+26264,jutsoo,website,https://www.jutsoo.com/,https://www.jutsoo.com/,True
+26264,jutsoo,one_liner,All your corporate bank accounts connected under one platform,All your corporate bank accounts connected under one platform,True
+26264,jutsoo,long_description,Jutsoo is a modern treasury management platform that helps finance teams work sm,Jutsoo is a modern treasury management platform that helps finance teams work sm,True
+26264,jutsoo,team_size,12,12.0,True
+26264,jutsoo,all_locations,"Jakarta, Jakarta, Indonesia; Remote","Jakarta, Jakarta, Indonesia; Remote",True
+26264,jutsoo,industry,B2B,B2B,True
+26264,jutsoo,subindustry,B2B -> Finance and Accounting,B2B -> Finance and Accounting,True
+26264,jutsoo,industries,"['B2B', 'Finance and Accounting']","['B2B', 'Finance and Accounting']",True
+26264,jutsoo,tags,"['FinOps', 'Fintech', 'SaaS', 'B2B', 'Enterprise Software']","['FinOps', 'Fintech', 'SaaS', 'B2B', 'Enterprise Software']",True
+26264,jutsoo,regions,"['Indonesia', 'Southeast Asia', 'Remote', 'Fully Remote']","['Indonesia', 'Southeast Asia', 'Remote', 'Fully Remote']",True
+26264,jutsoo,stage,Early,Early,True
+26264,jutsoo,status,Active,Active,True
+26264,jutsoo,isHiring,False,False,True
+26264,jutsoo,nonprofit,False,False,True
+26264,jutsoo,top_company,False,False,True
+26264,jutsoo,launched_at,1643226584,1643226584,True
+26264,jutsoo,former_names,['Bananas'],['Bananas'],True
+26264,jutsoo,url,https://www.ycombinator.com/companies/jutsoo,https://www.ycombinator.com/companies/jutsoo,True
+26264,jutsoo,n_year(derived),2022,2022,True
+26264,jutsoo,n_subindustry_child(derived),Finance and Accounting,Finance and Accounting,True
+26264,jutsoo,n_is_us(derived),False,False,True
+23979,replo,name,Replo,Replo,True
+23979,replo,slug,replo,replo,True
+23979,replo,batch,Summer 2021,Summer 2021,True
+23979,replo,website,https://replo.app/,https://replo.app/,True
+23979,replo,one_liner,Sell anything,Sell anything,True
+23979,replo,long_description,Agents that help you sell anything on the internet. Come build what the next mil,Agents that help you sell anything on the internet. Come build what the next mil,True
+23979,replo,team_size,20,20.0,True
+23979,replo,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+23979,replo,industry,B2B,B2B,True
+23979,replo,subindustry,"B2B -> Engineering, Product and Design","B2B -> Engineering, Product and Design",True
+23979,replo,industries,"['B2B', 'Engineering, Product and Design']","['B2B', 'Engineering, Product and Design']",True
+23979,replo,tags,"['Artificial Intelligence', 'Developer Tools', 'Marketing', 'AI']","['Artificial Intelligence', 'Developer Tools', 'Marketing', 'AI']",True
+23979,replo,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+23979,replo,stage,Early,Early,True
+23979,replo,status,Active,Active,True
+23979,replo,isHiring,True,True,True
+23979,replo,nonprofit,False,False,True
+23979,replo,top_company,False,False,True
+23979,replo,launched_at,1627581948,1627581948,True
+23979,replo,former_names,"['Alchemy', 'Alchemy Commerce', 'Alchemy', 'Alchemy Commerce']","['Alchemy', 'Alchemy Commerce', 'Alchemy', 'Alchemy Commerce']",True
+23979,replo,url,https://www.ycombinator.com/companies/replo,https://www.ycombinator.com/companies/replo,True
+23979,replo,n_year(derived),2021,2021,True
+23979,replo,n_subindustry_child(derived),"Engineering, Product and Design","Engineering, Product and Design",True
+23979,replo,n_is_us(derived),True,True,True
+1668,bxblue,name,bxblue,bxblue,True
+1668,bxblue,slug,bxblue,bxblue,True
+1668,bxblue,batch,Summer 2017,Summer 2017,True
+1668,bxblue,website,http://www.bxblue.com.br,http://www.bxblue.com.br,True
+1668,bxblue,one_liner,bxblue is a marketplace for people with guaranteed income in Brazil.…,bxblue is a marketplace for people with guaranteed income in Brazil.…,True
+1668,bxblue,long_description,bxblue is a Y Combinator backed (S17) Personal loan marketplace for pensioners a,bxblue is a Y Combinator backed (S17) Personal loan marketplace for pensioners a,True
+1668,bxblue,team_size,28,28.0,True
+1668,bxblue,all_locations,"DF, Brazil; Remote","DF, Brazil; Remote",True
+1668,bxblue,industry,Fintech,Fintech,True
+1668,bxblue,subindustry,Fintech -> Credit and Lending,Fintech -> Credit and Lending,True
+1668,bxblue,industries,"['Fintech', 'Credit and Lending']","['Fintech', 'Credit and Lending']",True
+1668,bxblue,tags,['Fintech'],['Fintech'],True
+1668,bxblue,regions,"['Brazil', 'Latin America', 'Remote', 'Fully Remote']","['Brazil', 'Latin America', 'Remote', 'Fully Remote']",True
+1668,bxblue,stage,Growth,Growth,True
+1668,bxblue,status,Acquired,Acquired,True
+1668,bxblue,isHiring,False,False,True
+1668,bxblue,nonprofit,False,False,True
+1668,bxblue,top_company,False,False,True
+1668,bxblue,launched_at,1493860831,1493860831,True
+1668,bxblue,former_names,[],[],True
+1668,bxblue,url,https://www.ycombinator.com/companies/bxblue,https://www.ycombinator.com/companies/bxblue,True
+1668,bxblue,n_year(derived),2017,2017,True
+1668,bxblue,n_subindustry_child(derived),Credit and Lending,Credit and Lending,True
+1668,bxblue,n_is_us(derived),False,False,True
+665,craft-coffee,name,Craft Coffee,Craft Coffee,True
+665,craft-coffee,slug,craft-coffee,craft-coffee,True
+665,craft-coffee,batch,Summer 2014,Summer 2014,True
+665,craft-coffee,website,https://www.craftcoffee.com,https://www.craftcoffee.com,True
+665,craft-coffee,one_liner,Better coffee for less money,Better coffee for less money,True
+665,craft-coffee,long_description,,,True
+665,craft-coffee,team_size,None,nan,True
+665,craft-coffee,all_locations,"New York City, NY, USA; Brooklyn, NY, USA","New York City, NY, USA; Brooklyn, NY, USA",True
+665,craft-coffee,industry,Consumer,Consumer,True
+665,craft-coffee,subindustry,Consumer -> Food and Beverage,Consumer -> Food and Beverage,True
+665,craft-coffee,industries,"['Consumer', 'Food and Beverage']","['Consumer', 'Food and Beverage']",True
+665,craft-coffee,tags,"['Consumer', 'E-commerce']","['Consumer', 'E-commerce']",True
+665,craft-coffee,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
+665,craft-coffee,stage,Early,Early,True
+665,craft-coffee,status,Acquired,Acquired,True
+665,craft-coffee,isHiring,False,False,True
+665,craft-coffee,nonprofit,False,False,True
+665,craft-coffee,top_company,False,False,True
+665,craft-coffee,launched_at,1398907685,1398907685,True
+665,craft-coffee,former_names,[],[],True
+665,craft-coffee,url,https://www.ycombinator.com/companies/craft-coffee,https://www.ycombinator.com/companies/craft-coffee,True
+665,craft-coffee,n_year(derived),2014,2014,True
+665,craft-coffee,n_subindustry_child(derived),Food and Beverage,Food and Beverage,True
+665,craft-coffee,n_is_us(derived),True,True,True
+24064,confido,name,Confido,Confido,True
+24064,confido,slug,confido,confido,True
+24064,confido,batch,Summer 2021,Summer 2021,True
+24064,confido,website,https://www.confidotech.com,https://www.confidotech.com,True
+24064,confido,one_liner,AI-enabled financial automation and intelligence for CPG Brands,AI-enabled financial automation and intelligence for CPG Brands,True
+24064,confido,long_description,Confido is a next-generation financial automation and intelligence platform that,Confido is a next-generation financial automation and intelligence platform that,True
+24064,confido,team_size,65,65.0,True
+24064,confido,all_locations,"New York City, NY, USA","New York City, NY, USA",True
+24064,confido,industry,B2B,B2B,True
+24064,confido,subindustry,B2B -> Finance and Accounting,B2B -> Finance and Accounting,True
+24064,confido,industries,"['B2B', 'Finance and Accounting']","['B2B', 'Finance and Accounting']",True
+24064,confido,tags,"['Fintech', 'SaaS', 'B2B', 'Analytics', 'AI']","['Fintech', 'SaaS', 'B2B', 'Analytics', 'AI']",True
+24064,confido,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+24064,confido,stage,Growth,Growth,True
+24064,confido,status,Active,Active,True
+24064,confido,isHiring,True,True,True
+24064,confido,nonprofit,False,False,True
+24064,confido,top_company,False,False,True
+24064,confido,launched_at,1627617699,1627617699,True
+24064,confido,former_names,['OutFit'],['OutFit'],True
+24064,confido,url,https://www.ycombinator.com/companies/confido,https://www.ycombinator.com/companies/confido,True
+24064,confido,n_year(derived),2021,2021,True
+24064,confido,n_subindustry_child(derived),Finance and Accounting,Finance and Accounting,True
+24064,confido,n_is_us(derived),True,True,True
+31548,hyper-4,name,Hyper,Hyper,True
+31548,hyper-4,slug,hyper-4,hyper-4,True
+31548,hyper-4,batch,Spring 2026,Spring 2026,True
+31548,hyper-4,website,https://heyhyper.ai,https://heyhyper.ai,True
+31548,hyper-4,one_liner,Company brain that powers your AI employees,Company brain that powers your AI employees,True
+31548,hyper-4,long_description,Hyper is a shared brain that plugs into all information flowing inside a company,Hyper is a shared brain that plugs into all information flowing inside a company,True
+31548,hyper-4,team_size,2,2.0,True
+31548,hyper-4,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+31548,hyper-4,industry,B2B,B2B,True
+31548,hyper-4,subindustry,B2B -> Productivity,B2B -> Productivity,True
+31548,hyper-4,industries,"['B2B', 'Productivity']","['B2B', 'Productivity']",True
+31548,hyper-4,tags,[],[],True
+31548,hyper-4,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+31548,hyper-4,stage,Early,Early,True
+31548,hyper-4,status,Active,Active,True
+31548,hyper-4,isHiring,False,False,True
+31548,hyper-4,nonprofit,False,False,True
+31548,hyper-4,top_company,False,False,True
+31548,hyper-4,launched_at,1778140423,1778140423,True
+31548,hyper-4,former_names,[],[],True
+31548,hyper-4,url,https://www.ycombinator.com/companies/hyper-4,https://www.ycombinator.com/companies/hyper-4,True
+31548,hyper-4,n_year(derived),2026,2026,True
+31548,hyper-4,n_subindustry_child(derived),Productivity,Productivity,True
+31548,hyper-4,n_is_us(derived),True,True,True
+26736,array-labs,name,Array Labs,Array Labs,True
+26736,array-labs,slug,array-labs,array-labs,True
+26736,array-labs,batch,Summer 2022,Summer 2022,True
+26736,array-labs,website,https://www.arraylabs.io/,https://www.arraylabs.io/,True
+26736,array-labs,one_liner,We're building satellites to create a real-time 3D map of the world.,We're building satellites to create a real-time 3D map of the world.,True
+26736,array-labs,long_description,We're designing swarms of tiny satellites which will work together to create the,We're designing swarms of tiny satellites which will work together to create the,True
+26736,array-labs,team_size,30,30.0,True
+26736,array-labs,all_locations,"San Francisco, CA, USA; Sunnyvale, CA, USA","San Francisco, CA, USA; Sunnyvale, CA, USA",True
+26736,array-labs,industry,Industrials,Industrials,True
+26736,array-labs,subindustry,Industrials -> Aviation and Space,Industrials -> Aviation and Space,True
+26736,array-labs,industries,"['Industrials', 'Aviation and Space']","['Industrials', 'Aviation and Space']",True
+26736,array-labs,tags,['Satellites'],['Satellites'],True
+26736,array-labs,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+26736,array-labs,stage,Early,Early,True
+26736,array-labs,status,Active,Active,True
+26736,array-labs,isHiring,False,False,True
+26736,array-labs,nonprofit,False,False,True
+26736,array-labs,top_company,False,False,True
+26736,array-labs,launched_at,1659596762,1659596762,True
+26736,array-labs,former_names,[],[],True
+26736,array-labs,url,https://www.ycombinator.com/companies/array-labs,https://www.ycombinator.com/companies/array-labs,True
+26736,array-labs,n_year(derived),2022,2022,True
+26736,array-labs,n_subindustry_child(derived),Aviation and Space,Aviation and Space,True
+26736,array-labs,n_is_us(derived),True,True,True
+698,cheddar,name,Cheddar,Cheddar,True
+698,cheddar,slug,cheddar,cheddar,True
+698,cheddar,batch,Summer 2014,Summer 2014,True
+698,cheddar,website,http://cheddar.io,http://cheddar.io,True
+698,cheddar,one_liner,The Best Mobile Checking Account,The Best Mobile Checking Account,True
+698,cheddar,long_description,"Ditch your bare-bones, high-fee checking account. You deserve free and powerful ","Ditch your bare-bones, high-fee checking account. You deserve free and powerful ",True
+698,cheddar,team_size,2,2.0,True
+698,cheddar,all_locations,,,True
+698,cheddar,industry,Fintech,Fintech,True
+698,cheddar,subindustry,Fintech -> Banking and Exchange,Fintech -> Banking and Exchange,True
+698,cheddar,industries,"['Fintech', 'Banking and Exchange']","['Fintech', 'Banking and Exchange']",True
+698,cheddar,tags,"['Fintech', 'Neobank']","['Fintech', 'Neobank']",True
+698,cheddar,regions,['Unspecified'],['Unspecified'],True
+698,cheddar,stage,Early,Early,True
+698,cheddar,status,Inactive,Inactive,True
+698,cheddar,isHiring,False,False,True
+698,cheddar,nonprofit,False,False,True
+698,cheddar,top_company,False,False,True
+698,cheddar,launched_at,1398907951,1398907951,True
+698,cheddar,former_names,[],[],True
+698,cheddar,url,https://www.ycombinator.com/companies/cheddar,https://www.ycombinator.com/companies/cheddar,True
+698,cheddar,n_year(derived),2014,2014,True
+698,cheddar,n_subindustry_child(derived),Banking and Exchange,Banking and Exchange,True
+698,cheddar,n_is_us(derived),False,False,True
+27992,proglix,name,Proglix,Proglix,True
+27992,proglix,slug,proglix,proglix,True
+27992,proglix,batch,Winter 2023,Winter 2023,True
+27992,proglix,website,https://proglix.com/,https://proglix.com/,True
+27992,proglix,one_liner,B2B Marketplace for Steel Raw Materials,B2B Marketplace for Steel Raw Materials,True
+27992,proglix,long_description,Proglix is a marketplace for small and medium manufacturers to buy metal and ste,Proglix is a marketplace for small and medium manufacturers to buy metal and ste,True
+27992,proglix,team_size,25,25.0,True
+27992,proglix,all_locations,"Jakarta, Jakarta, Indonesia","Jakarta, Jakarta, Indonesia",True
+27992,proglix,industry,Industrials,Industrials,True
+27992,proglix,subindustry,Industrials,Industrials,True
+27992,proglix,industries,['Industrials'],['Industrials'],True
+27992,proglix,tags,"['Marketplace', 'B2B', 'Manufacturing', 'E-commerce']","['Marketplace', 'B2B', 'Manufacturing', 'E-commerce']",True
+27992,proglix,regions,"['Indonesia', 'Southeast Asia', 'Remote', 'Partly Remote']","['Indonesia', 'Southeast Asia', 'Remote', 'Partly Remote']",True
+27992,proglix,stage,Growth,Growth,True
+27992,proglix,status,Active,Active,True
+27992,proglix,isHiring,False,False,True
+27992,proglix,nonprofit,False,False,True
+27992,proglix,top_company,False,False,True
+27992,proglix,launched_at,1671782782,1671782782,True
+27992,proglix,former_names,[],[],True
+27992,proglix,url,https://www.ycombinator.com/companies/proglix,https://www.ycombinator.com/companies/proglix,True
+27992,proglix,n_year(derived),2023,2023,True
+27992,proglix,n_subindustry_child(derived),,nan,True
+27992,proglix,n_is_us(derived),False,False,True
+13400,hiresweet,name,HireSweet,HireSweet,True
+13400,hiresweet,slug,hiresweet,hiresweet,True
+13400,hiresweet,batch,Winter 2020,Winter 2020,True
+13400,hiresweet,website,http://www.hiresweet.com,http://www.hiresweet.com,True
+13400,hiresweet,one_liner,A talent acquisition software built for data-driven recruiting teams.,A talent acquisition software built for data-driven recruiting teams.,True
+13400,hiresweet,long_description,,,True
+13400,hiresweet,team_size,27,27.0,True
+13400,hiresweet,all_locations,"Paris, Île-de-France, France; San Francisco, CA, USA","Paris, Île-de-France, France; San Francisco, CA, USA",True
+13400,hiresweet,industry,B2B,B2B,True
+13400,hiresweet,subindustry,B2B -> Recruiting and Talent,B2B -> Recruiting and Talent,True
+13400,hiresweet,industries,"['B2B', 'Recruiting and Talent']","['B2B', 'Recruiting and Talent']",True
+13400,hiresweet,tags,"['Recruiting', 'HR Tech']","['Recruiting', 'HR Tech']",True
+13400,hiresweet,regions,"['France', 'United States of America', 'Europe', 'America / Canada']","['France', 'United States of America', 'Europe', 'America / Canada']",True
+13400,hiresweet,stage,Early,Early,True
+13400,hiresweet,status,Active,Active,True
+13400,hiresweet,isHiring,False,False,True
+13400,hiresweet,nonprofit,False,False,True
+13400,hiresweet,top_company,False,False,True
+13400,hiresweet,launched_at,1583787202,1583787202,True
+13400,hiresweet,former_names,[],[],True
+13400,hiresweet,url,https://www.ycombinator.com/companies/hiresweet,https://www.ycombinator.com/companies/hiresweet,True
+13400,hiresweet,n_year(derived),2020,2020,True
+13400,hiresweet,n_subindustry_child(derived),Recruiting and Talent,Recruiting and Talent,True
+13400,hiresweet,n_is_us(derived),True,True,True
+31390,wealor,name,Wealor,Wealor,True
+31390,wealor,slug,wealor,wealor,True
+31390,wealor,batch,Spring 2026,Spring 2026,True
+31390,wealor,website,https://wealor.ai/,https://wealor.ai/,True
+31390,wealor,one_liner,AI-native platform for wealth managers,AI-native platform for wealth managers,True
+31390,wealor,long_description,,,True
+31390,wealor,team_size,0,0.0,True
+31390,wealor,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+31390,wealor,industry,Fintech,Fintech,True
+31390,wealor,subindustry,Fintech -> Asset Management,Fintech -> Asset Management,True
+31390,wealor,industries,"['Fintech', 'Asset Management']","['Fintech', 'Asset Management']",True
+31390,wealor,tags,[],[],True
+31390,wealor,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+31390,wealor,stage,Early,Early,True
+31390,wealor,status,Active,Active,True
+31390,wealor,isHiring,False,False,True
+31390,wealor,nonprofit,False,False,True
+31390,wealor,top_company,False,False,True
+31390,wealor,launched_at,1779951603,1779951603,True
+31390,wealor,former_names,[],[],True
+31390,wealor,url,https://www.ycombinator.com/companies/wealor,https://www.ycombinator.com/companies/wealor,True
+31390,wealor,n_year(derived),2026,2026,True
+31390,wealor,n_subindustry_child(derived),Asset Management,Asset Management,True
+31390,wealor,n_is_us(derived),True,True,True
+30431,feyn,name,Feyn,Feyn,True
+30431,feyn,slug,feyn,feyn,True
+30431,feyn,batch,Spring 2025,Spring 2025,True
+30431,feyn,website,https://www.usefeyn.com,https://www.usefeyn.com,True
+30431,feyn,one_liner,Custom models trained on your data,Custom models trained on your data,True
+30431,feyn,long_description,Feyn is an end-to-end service for building custom models from your data. Our mod,Feyn is an end-to-end service for building custom models from your data. Our mod,True
+30431,feyn,team_size,3,3.0,True
+30431,feyn,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+30431,feyn,industry,B2B,B2B,True
+30431,feyn,subindustry,"B2B -> Engineering, Product and Design","B2B -> Engineering, Product and Design",True
+30431,feyn,industries,"['B2B', 'Engineering, Product and Design']","['B2B', 'Engineering, Product and Design']",True
+30431,feyn,tags,"['Artificial Intelligence', 'Developer Tools', 'AI', 'ML']","['Artificial Intelligence', 'Developer Tools', 'AI', 'ML']",True
+30431,feyn,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+30431,feyn,stage,Early,Early,True
+30431,feyn,status,Active,Active,True
+30431,feyn,isHiring,False,False,True
+30431,feyn,nonprofit,False,False,True
+30431,feyn,top_company,False,False,True
+30431,feyn,launched_at,1741421145,1741421145,True
+30431,feyn,former_names,['Chonkie'],['Chonkie'],True
+30431,feyn,url,https://www.ycombinator.com/companies/feyn,https://www.ycombinator.com/companies/feyn,True
+30431,feyn,n_year(derived),2025,2025,True
+30431,feyn,n_subindustry_child(derived),"Engineering, Product and Design","Engineering, Product and Design",True
+30431,feyn,n_is_us(derived),True,True,True
+479,buildzoom,name,BuildZoom,BuildZoom,True
+479,buildzoom,slug,buildzoom,buildzoom,True
+479,buildzoom,batch,Winter 2013,Winter 2013,True
+479,buildzoom,website,https://www.buildzoom.com,https://www.buildzoom.com,True
+479,buildzoom,one_liner,BuildZoom is a better way to remodel. We connect homeowners to the…,BuildZoom is a better way to remodel. We connect homeowners to the…,True
+479,buildzoom,long_description,BuildZoom is a better way to remodel. We connect homeowners to the most reliable,BuildZoom is a better way to remodel. We connect homeowners to the most reliable,True
+479,buildzoom,team_size,100,100.0,True
+479,buildzoom,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+479,buildzoom,industry,Consumer,Consumer,True
+479,buildzoom,subindustry,Consumer -> Home and Personal,Consumer -> Home and Personal,True
+479,buildzoom,industries,"['Consumer', 'Home and Personal']","['Consumer', 'Home and Personal']",True
+479,buildzoom,tags,"['Real Estate', 'Construction']","['Real Estate', 'Construction']",True
+479,buildzoom,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
+479,buildzoom,stage,Growth,Growth,True
+479,buildzoom,status,Acquired,Acquired,True
+479,buildzoom,isHiring,False,False,True
+479,buildzoom,nonprofit,False,False,True
+479,buildzoom,top_company,False,False,True
+479,buildzoom,launched_at,1354492677,1354492677,True
+479,buildzoom,former_names,[],[],True
+479,buildzoom,url,https://www.ycombinator.com/companies/buildzoom,https://www.ycombinator.com/companies/buildzoom,True
+479,buildzoom,n_year(derived),2013,2013,True
+479,buildzoom,n_subindustry_child(derived),Home and Personal,Home and Personal,True
+479,buildzoom,n_is_us(derived),True,True,True
+29420,alai,name,Alai,Alai,True
+29420,alai,slug,alai,alai,True
+29420,alai,batch,Winter 2024,Winter 2024,True
+29420,alai,website,https://getalai.com,https://getalai.com,True
+29420,alai,one_liner,Create high quality presentations quickly using AI,Create high quality presentations quickly using AI,True
+29420,alai,long_description,Alai makes it easy and quick to create high quality presentations with AI. Our u,Alai makes it easy and quick to create high quality presentations with AI. Our u,True
+29420,alai,team_size,5,5.0,True
+29420,alai,all_locations,,,True
+29420,alai,industry,B2B,B2B,True
+29420,alai,subindustry,B2B,B2B,True
+29420,alai,industries,['B2B'],['B2B'],True
+29420,alai,tags,"['Artificial Intelligence', 'Productivity']","['Artificial Intelligence', 'Productivity']",True
+29420,alai,regions,['Unspecified'],['Unspecified'],True
+29420,alai,stage,Early,Early,True
+29420,alai,status,Active,Active,True
+29420,alai,isHiring,False,False,True
+29420,alai,nonprofit,False,False,True
+29420,alai,top_company,False,False,True
+29420,alai,launched_at,1706649959,1706649959,True
+29420,alai,former_names,"['Speakwell AI', 'alai']","['Speakwell AI', 'alai']",True
+29420,alai,url,https://www.ycombinator.com/companies/alai,https://www.ycombinator.com/companies/alai,True
+29420,alai,n_year(derived),2024,2024,True
+29420,alai,n_subindustry_child(derived),,nan,True
+29420,alai,n_is_us(derived),False,False,True
+28087,rivet,name,Rivet,Rivet,True
+28087,rivet,slug,rivet,rivet,True
+28087,rivet,batch,Winter 2023,Winter 2023,True
+28087,rivet,website,https://rivet.dev,https://rivet.dev,True
+28087,rivet,one_liner,Rivet Actors are the primitive for stateful workloads,Rivet Actors are the primitive for stateful workloads,True
+28087,rivet,long_description,"Rivet Actors are the primitive for stateful workloads.
 
-C","Materee is an e-commerce platform for construction materials in Indonesia. 
+Built for AI agents, c","Rivet Actors are the primitive for stateful workloads.
 
-C",True
-27268,materee,team_size,20,20.0,True
-27268,materee,all_locations,"Jakarta, Jakarta, Indonesia","Jakarta, Jakarta, Indonesia",True
-27268,materee,industry,B2B,B2B,True
-27268,materee,subindustry,B2B,B2B,True
-27268,materee,industries,['B2B'],['B2B'],True
-27268,materee,tags,"['Construction', 'B2B']","['Construction', 'B2B']",True
-27268,materee,regions,"['Indonesia', 'Southeast Asia', 'Remote', 'Partly Remote']","['Indonesia', 'Southeast Asia', 'Remote', 'Partly Remote']",True
-27268,materee,stage,Early,Early,True
-27268,materee,status,Active,Active,True
-27268,materee,isHiring,False,False,True
-27268,materee,nonprofit,False,False,True
-27268,materee,top_company,False,False,True
-27268,materee,launched_at,1656434823,1656434823,True
-27268,materee,former_names,[],[],True
-27268,materee,url,https://www.ycombinator.com/companies/materee,https://www.ycombinator.com/companies/materee,True
-27268,materee,n_year(derived),2022,2022,True
-27268,materee,n_subindustry_child(derived),,nan,True
-27268,materee,n_is_us(derived),False,False,True
-29267,argon-ai-inc,name,"Argon AI, Inc.","Argon AI, Inc.",True
-29267,argon-ai-inc,slug,argon-ai-inc,argon-ai-inc,True
-29267,argon-ai-inc,batch,Winter 2024,Winter 2024,True
-29267,argon-ai-inc,website,https://www.argon-ai.com/,https://www.argon-ai.com/,True
-29267,argon-ai-inc,one_liner,AI for Pharma Intelligence ,AI for Pharma Intelligence ,True
-29267,argon-ai-inc,long_description,Argon AI is a platform where biopharma and life sciences professionals can execu,Argon AI is a platform where biopharma and life sciences professionals can execu,True
-29267,argon-ai-inc,team_size,2,2.0,True
-29267,argon-ai-inc,all_locations,"New York City, NY, USA","New York City, NY, USA",True
-29267,argon-ai-inc,industry,Healthcare,Healthcare,True
-29267,argon-ai-inc,subindustry,Healthcare,Healthcare,True
-29267,argon-ai-inc,industries,['Healthcare'],['Healthcare'],True
-29267,argon-ai-inc,tags,[],[],True
-29267,argon-ai-inc,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-29267,argon-ai-inc,stage,Early,Early,True
-29267,argon-ai-inc,status,Active,Active,True
-29267,argon-ai-inc,isHiring,False,False,True
-29267,argon-ai-inc,nonprofit,False,False,True
-29267,argon-ai-inc,top_company,False,False,True
-29267,argon-ai-inc,launched_at,1707499674,1707499674,True
-29267,argon-ai-inc,former_names,"['Incyte Bio', 'Inc.']","['Incyte Bio', 'Inc.']",True
-29267,argon-ai-inc,url,https://www.ycombinator.com/companies/argon-ai-inc,https://www.ycombinator.com/companies/argon-ai-inc,True
-29267,argon-ai-inc,n_year(derived),2024,2024,True
-29267,argon-ai-inc,n_subindustry_child(derived),,nan,True
-29267,argon-ai-inc,n_is_us(derived),True,True,True
-30062,karmen,name,Karmen,Karmen,True
-30062,karmen,slug,karmen,karmen,True
-30062,karmen,batch,Fall 2024,Fall 2024,True
-30062,karmen,website,https://www.karmenai.com,https://www.karmenai.com,True
-30062,karmen,one_liner,Your AI scheduling assistant for construction,Your AI scheduling assistant for construction,True
-30062,karmen,long_description,Karmen is an AI scheduling assistant for construction. Karmen builds your baseli,Karmen is an AI scheduling assistant for construction. Karmen builds your baseli,True
-30062,karmen,team_size,2,2.0,True
-30062,karmen,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
-30062,karmen,industry,Real Estate and Construction,Real Estate and Construction,True
-30062,karmen,subindustry,Real Estate and Construction -> Construction,Real Estate and Construction -> Construction,True
-30062,karmen,industries,"['Real Estate and Construction', 'Construction']","['Real Estate and Construction', 'Construction']",True
-30062,karmen,tags,[],[],True
-30062,karmen,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-30062,karmen,stage,Early,Early,True
-30062,karmen,status,Active,Active,True
-30062,karmen,isHiring,False,False,True
-30062,karmen,nonprofit,False,False,True
-30062,karmen,top_company,False,False,True
-30062,karmen,launched_at,1731024115,1731024115,True
-30062,karmen,former_names,[],[],True
-30062,karmen,url,https://www.ycombinator.com/companies/karmen,https://www.ycombinator.com/companies/karmen,True
-30062,karmen,n_year(derived),2024,2024,True
-30062,karmen,n_subindustry_child(derived),Construction,Construction,True
-30062,karmen,n_is_us(derived),True,True,True
-24354,cartpanda,name,Cartpanda,Cartpanda,True
-24354,cartpanda,slug,cartpanda,cartpanda,True
-24354,cartpanda,batch,Summer 2021,Summer 2021,True
-24354,cartpanda,website,https://cartpanda.com/,https://cartpanda.com/,True
-24354,cartpanda,one_liner,Global online sales platform,Global online sales platform,True
-24354,cartpanda,long_description,"As an ecommerce platform, we provide a complete ecosystem for creators and entre","As an ecommerce platform, we provide a complete ecosystem for creators and entre",True
-24354,cartpanda,team_size,60,60.0,True
-24354,cartpanda,all_locations,"São Paulo, SP, Brazil; Remote","São Paulo, SP, Brazil; Remote",True
-24354,cartpanda,industry,B2B,B2B,True
-24354,cartpanda,subindustry,B2B -> Sales,B2B -> Sales,True
-24354,cartpanda,industries,"['B2B', 'Sales']","['B2B', 'Sales']",True
-24354,cartpanda,tags,"['SaaS', 'E-commerce']","['SaaS', 'E-commerce']",True
-24354,cartpanda,regions,"['Brazil', 'Latin America', 'Remote', 'Fully Remote']","['Brazil', 'Latin America', 'Remote', 'Fully Remote']",True
-24354,cartpanda,stage,Early,Early,True
-24354,cartpanda,status,Active,Active,True
-24354,cartpanda,isHiring,False,False,True
-24354,cartpanda,nonprofit,False,False,True
-24354,cartpanda,top_company,False,False,True
-24354,cartpanda,launched_at,1626632842,1626632842,True
-24354,cartpanda,former_names,"['CartX', 'Cartpanda', 'cartpanda']","['CartX', 'Cartpanda', 'cartpanda']",True
-24354,cartpanda,url,https://www.ycombinator.com/companies/cartpanda,https://www.ycombinator.com/companies/cartpanda,True
-24354,cartpanda,n_year(derived),2021,2021,True
-24354,cartpanda,n_subindustry_child(derived),Sales,Sales,True
-24354,cartpanda,n_is_us(derived),False,False,True
-23613,magicbell,name,MagicBell,MagicBell,True
-23613,magicbell,slug,magicbell,magicbell,True
-23613,magicbell,batch,Winter 2021,Winter 2021,True
-23613,magicbell,website,https://www.magicbell.com,https://www.magicbell.com,True
-23613,magicbell,one_liner,The notification inbox for web/mobile applications.,The notification inbox for web/mobile applications.,True
-23613,magicbell,long_description,"MagicBell is the notification inbox for web & mobile apps.
-
-As consumers of ma","MagicBell is the notification inbox for web & mobile apps.
-
-As consumers of ma",True
-23613,magicbell,team_size,4,4.0,True
-23613,magicbell,all_locations,"Barcelona, CT, Spain; Remote","Barcelona, CT, Spain; Remote",True
-23613,magicbell,industry,B2B,B2B,True
-23613,magicbell,subindustry,"B2B -> Engineering, Product and Design","B2B -> Engineering, Product and Design",True
-23613,magicbell,industries,"['B2B', 'Engineering, Product and Design']","['B2B', 'Engineering, Product and Design']",True
-23613,magicbell,tags,"['Developer Tools', 'SaaS']","['Developer Tools', 'SaaS']",True
-23613,magicbell,regions,"['Spain', 'Europe', 'Remote', 'Fully Remote']","['Spain', 'Europe', 'Remote', 'Fully Remote']",True
-23613,magicbell,stage,Early,Early,True
-23613,magicbell,status,Active,Active,True
-23613,magicbell,isHiring,False,False,True
-23613,magicbell,nonprofit,False,False,True
-23613,magicbell,top_company,False,False,True
-23613,magicbell,launched_at,1612371227,1612371227,True
-23613,magicbell,former_names,[],[],True
-23613,magicbell,url,https://www.ycombinator.com/companies/magicbell,https://www.ycombinator.com/companies/magicbell,True
-23613,magicbell,n_year(derived),2021,2021,True
-23613,magicbell,n_subindustry_child(derived),"Engineering, Product and Design","Engineering, Product and Design",True
-23613,magicbell,n_is_us(derived),False,False,True
-30073,pearson-labs,name,Pearson Labs,Pearson Labs,True
-30073,pearson-labs,slug,pearson-labs,pearson-labs,True
-30073,pearson-labs,batch,Fall 2024,Fall 2024,True
-30073,pearson-labs,website,http://www.pearsonlabs.ai,http://www.pearsonlabs.ai,True
-30073,pearson-labs,one_liner,AI agents to automate corporate transactions,AI agents to automate corporate transactions,True
-30073,pearson-labs,long_description,Pearson builds AI agents to automate corporate transactions. Large law firms use,Pearson builds AI agents to automate corporate transactions. Large law firms use,True
-30073,pearson-labs,team_size,2,2.0,True
-30073,pearson-labs,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
-30073,pearson-labs,industry,B2B,B2B,True
-30073,pearson-labs,subindustry,B2B -> Legal,B2B -> Legal,True
-30073,pearson-labs,industries,"['B2B', 'Legal']","['B2B', 'Legal']",True
-30073,pearson-labs,tags,"['Artificial Intelligence', 'Generative AI', 'Legal', 'LegalTech']","['Artificial Intelligence', 'Generative AI', 'Legal', 'LegalTech']",True
-30073,pearson-labs,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-30073,pearson-labs,stage,Early,Early,True
-30073,pearson-labs,status,Active,Active,True
-30073,pearson-labs,isHiring,False,False,True
-30073,pearson-labs,nonprofit,False,False,True
-30073,pearson-labs,top_company,False,False,True
-30073,pearson-labs,launched_at,1731901982,1731901982,True
-30073,pearson-labs,former_names,[],[],True
-30073,pearson-labs,url,https://www.ycombinator.com/companies/pearson-labs,https://www.ycombinator.com/companies/pearson-labs,True
-30073,pearson-labs,n_year(derived),2024,2024,True
-30073,pearson-labs,n_subindustry_child(derived),Legal,Legal,True
-30073,pearson-labs,n_is_us(derived),True,True,True
-29435,terrakotta,name,Terrakotta,Terrakotta,True
-29435,terrakotta,slug,terrakotta,terrakotta,True
-29435,terrakotta,batch,Winter 2024,Winter 2024,True
-29435,terrakotta,website,https://www.terrakotta.ai/,https://www.terrakotta.ai/,True
-29435,terrakotta,one_liner,AI platform for phone-first sellers,AI platform for phone-first sellers,True
-29435,terrakotta,long_description,Terrakotta is a power-dialer that lets sales reps leave AI-generated voicemails.,Terrakotta is a power-dialer that lets sales reps leave AI-generated voicemails.,True
-29435,terrakotta,team_size,5,5.0,True
-29435,terrakotta,all_locations,"Seattle, WA, USA","Seattle, WA, USA",True
-29435,terrakotta,industry,B2B,B2B,True
-29435,terrakotta,subindustry,B2B -> Sales,B2B -> Sales,True
-29435,terrakotta,industries,"['B2B', 'Sales']","['B2B', 'Sales']",True
-29435,terrakotta,tags,"['Real Estate', 'Sales', 'Telecommunications', 'Home Services', 'Conversational ","['Real Estate', 'Sales', 'Telecommunications', 'Home Services', 'Conversational ",True
-29435,terrakotta,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-29435,terrakotta,stage,Early,Early,True
-29435,terrakotta,status,Active,Active,True
-29435,terrakotta,isHiring,True,True,True
-29435,terrakotta,nonprofit,False,False,True
-29435,terrakotta,top_company,False,False,True
-29435,terrakotta,launched_at,1704332820,1704332820,True
-29435,terrakotta,former_names,['Brandylion'],['Brandylion'],True
-29435,terrakotta,url,https://www.ycombinator.com/companies/terrakotta,https://www.ycombinator.com/companies/terrakotta,True
-29435,terrakotta,n_year(derived),2024,2024,True
-29435,terrakotta,n_subindustry_child(derived),Sales,Sales,True
-29435,terrakotta,n_is_us(derived),True,True,True
-25733,smarthelio,name,SmartHelio,SmartHelio,True
-25733,smarthelio,slug,smarthelio,smarthelio,True
-25733,smarthelio,batch,Winter 2022,Winter 2022,True
-25733,smarthelio,website,https://www.smarthelio.com/,https://www.smarthelio.com/,True
-25733,smarthelio,one_liner,Software to prevent downtime in a solar plant,Software to prevent downtime in a solar plant,True
-25733,smarthelio,long_description,SmartHelio provides a software that helps solar utilities automatically predict ,SmartHelio provides a software that helps solar utilities automatically predict ,True
-25733,smarthelio,team_size,25,25.0,True
-25733,smarthelio,all_locations,"Lausanne, VD, Switzerland","Lausanne, VD, Switzerland",True
-25733,smarthelio,industry,B2B,B2B,True
-25733,smarthelio,subindustry,B2B -> Analytics,B2B -> Analytics,True
-25733,smarthelio,industries,"['B2B', 'Analytics']","['B2B', 'Analytics']",True
-25733,smarthelio,tags,"['Solar Power', 'Climate', 'Enterprise Software', 'AI']","['Solar Power', 'Climate', 'Enterprise Software', 'AI']",True
-25733,smarthelio,regions,"['Switzerland', 'Europe']","['Switzerland', 'Europe']",True
-25733,smarthelio,stage,Early,Early,True
-25733,smarthelio,status,Active,Active,True
-25733,smarthelio,isHiring,False,False,True
-25733,smarthelio,nonprofit,False,False,True
-25733,smarthelio,top_company,False,False,True
-25733,smarthelio,launched_at,1643910540,1643910540,True
-25733,smarthelio,former_names,[],[],True
-25733,smarthelio,url,https://www.ycombinator.com/companies/smarthelio,https://www.ycombinator.com/companies/smarthelio,True
-25733,smarthelio,n_year(derived),2022,2022,True
-25733,smarthelio,n_subindustry_child(derived),Analytics,Analytics,True
-25733,smarthelio,n_is_us(derived),False,False,True
-30363,blindpay,name,BlindPay,BlindPay,True
-30363,blindpay,slug,blindpay,blindpay,True
-30363,blindpay,batch,Winter 2025,Winter 2025,True
-30363,blindpay,website,https://blindpay.com/,https://blindpay.com/,True
-30363,blindpay,one_liner,Stablecoin API for global payments,Stablecoin API for global payments,True
-30363,blindpay,long_description,BlindPay is a stablecoin API that enables companies to send and receive money wo,BlindPay is a stablecoin API that enables companies to send and receive money wo,True
-30363,blindpay,team_size,9,9.0,True
-30363,blindpay,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
-30363,blindpay,industry,Fintech,Fintech,True
-30363,blindpay,subindustry,Fintech -> Payments,Fintech -> Payments,True
-30363,blindpay,industries,"['Fintech', 'Payments']","['Fintech', 'Payments']",True
-30363,blindpay,tags,"['Developer Tools', 'Fintech', 'Crypto / Web3', 'Payments', 'API']","['Developer Tools', 'Fintech', 'Crypto / Web3', 'Payments', 'API']",True
-30363,blindpay,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-30363,blindpay,stage,Early,Early,True
-30363,blindpay,status,Active,Active,True
-30363,blindpay,isHiring,False,False,True
-30363,blindpay,nonprofit,False,False,True
-30363,blindpay,top_company,False,False,True
-30363,blindpay,launched_at,1737430094,1737430094,True
-30363,blindpay,former_names,[],[],True
-30363,blindpay,url,https://www.ycombinator.com/companies/blindpay,https://www.ycombinator.com/companies/blindpay,True
-30363,blindpay,n_year(derived),2025,2025,True
-30363,blindpay,n_subindustry_child(derived),Payments,Payments,True
-30363,blindpay,n_is_us(derived),True,True,True
-30126,roundabout-technologies,name,Roundabout Technologies,Roundabout Technologies,True
-30126,roundabout-technologies,slug,roundabout-technologies,roundabout-technologies,True
-30126,roundabout-technologies,batch,Fall 2024,Fall 2024,True
-30126,roundabout-technologies,website,https://roundabout.tech,https://roundabout.tech,True
-30126,roundabout-technologies,one_liner,Software for AI-powered traffic lights,Software for AI-powered traffic lights,True
-30126,roundabout-technologies,long_description,"Roundabout Technologies makes AI-powered traffic lights, allowing cities to redu","Roundabout Technologies makes AI-powered traffic lights, allowing cities to redu",True
-30126,roundabout-technologies,team_size,5,5.0,True
-30126,roundabout-technologies,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
-30126,roundabout-technologies,industry,Government,Government,True
-30126,roundabout-technologies,subindustry,Government,Government,True
-30126,roundabout-technologies,industries,['Government'],['Government'],True
-30126,roundabout-technologies,tags,[],[],True
-30126,roundabout-technologies,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-30126,roundabout-technologies,stage,Early,Early,True
-30126,roundabout-technologies,status,Active,Active,True
-30126,roundabout-technologies,isHiring,False,False,True
-30126,roundabout-technologies,nonprofit,False,False,True
-30126,roundabout-technologies,top_company,False,False,True
-30126,roundabout-technologies,launched_at,1730157813,1730157813,True
-30126,roundabout-technologies,former_names,[],[],True
-30126,roundabout-technologies,url,https://www.ycombinator.com/companies/roundabout-technologies,https://www.ycombinator.com/companies/roundabout-technologies,True
-30126,roundabout-technologies,n_year(derived),2024,2024,True
-30126,roundabout-technologies,n_subindustry_child(derived),,nan,True
-30126,roundabout-technologies,n_is_us(derived),True,True,True
-22955,coderhouse,name,Coderhouse,Coderhouse,True
-22955,coderhouse,slug,coderhouse,coderhouse,True
-22955,coderhouse,batch,Winter 2021,Winter 2021,True
-22955,coderhouse,website,https://www.coderhouse.com/,https://www.coderhouse.com/,True
-22955,coderhouse,one_liner,Effective and accessible online live education.,Effective and accessible online live education.,True
-22955,coderhouse,long_description,"A web app that offers live online courses in programming, design, data, online m","A web app that offers live online courses in programming, design, data, online m",True
-22955,coderhouse,team_size,225,225.0,True
-22955,coderhouse,all_locations,"Buenos Aires, CABA, Argentina","Buenos Aires, CABA, Argentina",True
-22955,coderhouse,industry,Education,Education,True
-22955,coderhouse,subindustry,Education,Education,True
-22955,coderhouse,industries,['Education'],['Education'],True
-22955,coderhouse,tags,"['Education', 'eLearning', 'Community']","['Education', 'eLearning', 'Community']",True
-22955,coderhouse,regions,"['Argentina', 'Latin America', 'Remote', 'Partly Remote']","['Argentina', 'Latin America', 'Remote', 'Partly Remote']",True
-22955,coderhouse,stage,Growth,Growth,True
-22955,coderhouse,status,Active,Active,True
-22955,coderhouse,isHiring,False,False,True
-22955,coderhouse,nonprofit,False,False,True
-22955,coderhouse,top_company,False,False,True
-22955,coderhouse,launched_at,1614875128,1614875128,True
-22955,coderhouse,former_names,[],[],True
-22955,coderhouse,url,https://www.ycombinator.com/companies/coderhouse,https://www.ycombinator.com/companies/coderhouse,True
-22955,coderhouse,n_year(derived),2021,2021,True
-22955,coderhouse,n_subindustry_child(derived),,nan,True
-22955,coderhouse,n_is_us(derived),False,False,True
-31284,origami-robotics,name,Origami Robotics,Origami Robotics,True
-31284,origami-robotics,slug,origami-robotics,origami-robotics,True
-31284,origami-robotics,batch,Winter 2026,Winter 2026,True
-31284,origami-robotics,website,https://www.origami-robotics.com,https://www.origami-robotics.com,True
-31284,origami-robotics,one_liner,Manipulate Anything Robot,Manipulate Anything Robot,True
-31284,origami-robotics,long_description,"We are building a ""manipulate anything"" model with the robot hardware that embod","We are building a ""manipulate anything"" model with the robot hardware that embod",True
-31284,origami-robotics,team_size,5,5.0,True
-31284,origami-robotics,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
-31284,origami-robotics,industry,Industrials,Industrials,True
-31284,origami-robotics,subindustry,Industrials,Industrials,True
-31284,origami-robotics,industries,['Industrials'],['Industrials'],True
-31284,origami-robotics,tags,[],[],True
-31284,origami-robotics,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-31284,origami-robotics,stage,Early,Early,True
-31284,origami-robotics,status,Active,Active,True
-31284,origami-robotics,isHiring,False,False,True
-31284,origami-robotics,nonprofit,False,False,True
-31284,origami-robotics,top_company,False,False,True
-31284,origami-robotics,launched_at,1770611317,1770611317,True
-31284,origami-robotics,former_names,[],[],True
-31284,origami-robotics,url,https://www.ycombinator.com/companies/origami-robotics,https://www.ycombinator.com/companies/origami-robotics,True
-31284,origami-robotics,n_year(derived),2026,2026,True
-31284,origami-robotics,n_subindustry_child(derived),,nan,True
-31284,origami-robotics,n_is_us(derived),True,True,True
-22738,pragmatic-leaders-ankai-inc,name,Pragmatic Leaders (Ankai Inc),Pragmatic Leaders (Ankai Inc),True
-22738,pragmatic-leaders-ankai-inc,slug,pragmatic-leaders-ankai-inc,pragmatic-leaders-ankai-inc,True
-22738,pragmatic-leaders-ankai-inc,batch,Winter 2021,Winter 2021,True
-22738,pragmatic-leaders-ankai-inc,website,"https://pragmaticleaders.io, https://ostronaut.com","https://pragmaticleaders.io, https://ostronaut.com",True
-22738,pragmatic-leaders-ankai-inc,one_liner,"AI-powered Corporate Training: Faster, Smarter, and More Effective","AI-powered Corporate Training: Faster, Smarter, and More Effective",True
-22738,pragmatic-leaders-ankai-inc,long_description,"Ostronaut is an AI-powered, SaaS-based corporate training solution built to tran","Ostronaut is an AI-powered, SaaS-based corporate training solution built to tran",True
-22738,pragmatic-leaders-ankai-inc,team_size,10,10.0,True
-22738,pragmatic-leaders-ankai-inc,all_locations,"Gurugram, HR, India; Remote","Gurugram, HR, India; Remote",True
-22738,pragmatic-leaders-ankai-inc,industry,B2B,B2B,True
-22738,pragmatic-leaders-ankai-inc,subindustry,B2B,B2B,True
-22738,pragmatic-leaders-ankai-inc,industries,['B2B'],['B2B'],True
-22738,pragmatic-leaders-ankai-inc,tags,"['Artificial Intelligence', 'SaaS', 'eLearning', 'Sales Enablement', 'AI']","['Artificial Intelligence', 'SaaS', 'eLearning', 'Sales Enablement', 'AI']",True
-22738,pragmatic-leaders-ankai-inc,regions,"['India', 'South Asia', 'Remote', 'Fully Remote']","['India', 'South Asia', 'Remote', 'Fully Remote']",True
-22738,pragmatic-leaders-ankai-inc,stage,Early,Early,True
-22738,pragmatic-leaders-ankai-inc,status,Active,Active,True
-22738,pragmatic-leaders-ankai-inc,isHiring,False,False,True
-22738,pragmatic-leaders-ankai-inc,nonprofit,False,False,True
-22738,pragmatic-leaders-ankai-inc,top_company,False,False,True
-22738,pragmatic-leaders-ankai-inc,launched_at,1614867326,1614867326,True
-22738,pragmatic-leaders-ankai-inc,former_names,"['Pragmatic Leaders Inc.', 'Pragmatic Leaders']","['Pragmatic Leaders Inc.', 'Pragmatic Leaders']",True
-22738,pragmatic-leaders-ankai-inc,url,https://www.ycombinator.com/companies/pragmatic-leaders-ankai-inc,https://www.ycombinator.com/companies/pragmatic-leaders-ankai-inc,True
-22738,pragmatic-leaders-ankai-inc,n_year(derived),2021,2021,True
-22738,pragmatic-leaders-ankai-inc,n_subindustry_child(derived),,nan,True
-22738,pragmatic-leaders-ankai-inc,n_is_us(derived),False,False,True
-25332,craniometrix,name,Craniometrix,Craniometrix,True
-25332,craniometrix,slug,craniometrix,craniometrix,True
-25332,craniometrix,batch,Winter 2022,Winter 2022,True
-25332,craniometrix,website,https://craniometrix.com,https://craniometrix.com,True
-25332,craniometrix,one_liner,Using AI to help dementia patients age at home,Using AI to help dementia patients age at home,True
-25332,craniometrix,long_description,"Craniometrix has raised over $21 million to help make dementia suck less.
-
-Dem","Craniometrix has raised over $21 million to help make dementia suck less.
-
-Dem",True
-25332,craniometrix,team_size,64,64.0,True
-25332,craniometrix,all_locations,"New York City, NY, USA","New York City, NY, USA",True
-25332,craniometrix,industry,Healthcare,Healthcare,True
-25332,craniometrix,subindustry,Healthcare,Healthcare,True
-25332,craniometrix,industries,['Healthcare'],['Healthcare'],True
-25332,craniometrix,tags,"['Neurotechnology', 'Health Tech', 'Digital Health']","['Neurotechnology', 'Health Tech', 'Digital Health']",True
-25332,craniometrix,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-25332,craniometrix,stage,Early,Early,True
-25332,craniometrix,status,Active,Active,True
-25332,craniometrix,isHiring,True,True,True
-25332,craniometrix,nonprofit,False,False,True
-25332,craniometrix,top_company,False,False,True
-25332,craniometrix,launched_at,1646050857,1646050857,True
-25332,craniometrix,former_names,[],[],True
-25332,craniometrix,url,https://www.ycombinator.com/companies/craniometrix,https://www.ycombinator.com/companies/craniometrix,True
-25332,craniometrix,n_year(derived),2022,2022,True
-25332,craniometrix,n_subindustry_child(derived),,nan,True
-25332,craniometrix,n_is_us(derived),True,True,True
-25356,spinach-ai,name,Spinach AI,Spinach AI,True
-25356,spinach-ai,slug,spinach-ai,spinach-ai,True
-25356,spinach-ai,batch,Winter 2022,Winter 2022,True
-25356,spinach-ai,website,https://spinach.ai,https://spinach.ai,True
-25356,spinach-ai,one_liner,The System of Action for Conversation Data,The System of Action for Conversation Data,True
-25356,spinach-ai,long_description,"Backed by Y Combinator, Zoom and Atlassian, Spinach AI is the system of action f","Backed by Y Combinator, Zoom and Atlassian, Spinach AI is the system of action f",True
-25356,spinach-ai,team_size,5,5.0,True
-25356,spinach-ai,all_locations,"Nashville, TN, USA; Remote","Nashville, TN, USA; Remote",True
-25356,spinach-ai,industry,B2B,B2B,True
-25356,spinach-ai,subindustry,B2B -> Productivity,B2B -> Productivity,True
-25356,spinach-ai,industries,"['B2B', 'Productivity']","['B2B', 'Productivity']",True
-25356,spinach-ai,tags,"['SaaS', 'Productivity', 'AI', 'Conversational AI', 'AI Assistant']","['SaaS', 'Productivity', 'AI', 'Conversational AI', 'AI Assistant']",True
-25356,spinach-ai,regions,"['United States of America', 'America / Canada', 'Remote', 'Fully Remote']","['United States of America', 'America / Canada', 'Remote', 'Fully Remote']",True
-25356,spinach-ai,stage,Early,Early,True
-25356,spinach-ai,status,Active,Active,True
-25356,spinach-ai,isHiring,False,False,True
-25356,spinach-ai,nonprofit,False,False,True
-25356,spinach-ai,top_company,False,False,True
-25356,spinach-ai,launched_at,1641876509,1641876509,True
-25356,spinach-ai,former_names,"['StayIn Inc.', 'spinach.io', 'Spinach.io']","['StayIn Inc.', 'spinach.io', 'Spinach.io']",True
-25356,spinach-ai,url,https://www.ycombinator.com/companies/spinach-ai,https://www.ycombinator.com/companies/spinach-ai,True
-25356,spinach-ai,n_year(derived),2022,2022,True
-25356,spinach-ai,n_subindustry_child(derived),Productivity,Productivity,True
-25356,spinach-ai,n_is_us(derived),True,True,True
-32484,edotenv,name,EdotEnv,EdotEnv,True
-32484,edotenv,slug,edotenv,edotenv,True
-32484,edotenv,batch,Summer 2026,Summer 2026,True
-32484,edotenv,website,https://edotenv.com,https://edotenv.com,True
-32484,edotenv,one_liner,A Quant Neolab building self-improving agents from quant trading,A Quant Neolab building self-improving agents from quant trading,True
-32484,edotenv,long_description,A Quant Neolab building toward RSI by leveraging markets as self-improving resea,A Quant Neolab building toward RSI by leveraging markets as self-improving resea,True
-32484,edotenv,team_size,2,2.0,True
-32484,edotenv,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
-32484,edotenv,industry,B2B,B2B,True
-32484,edotenv,subindustry,B2B,B2B,True
-32484,edotenv,industries,['B2B'],['B2B'],True
-32484,edotenv,tags,"['Reinforcement Learning', 'Time Series']","['Reinforcement Learning', 'Time Series']",True
-32484,edotenv,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-32484,edotenv,stage,Early,Early,True
-32484,edotenv,status,Active,Active,True
-32484,edotenv,isHiring,False,False,True
-32484,edotenv,nonprofit,False,False,True
-32484,edotenv,top_company,False,False,True
-32484,edotenv,launched_at,1786503507,1786503507,True
-32484,edotenv,former_names,[],[],True
-32484,edotenv,url,https://www.ycombinator.com/companies/edotenv,https://www.ycombinator.com/companies/edotenv,True
-32484,edotenv,n_year(derived),2026,2026,True
-32484,edotenv,n_subindustry_child(derived),,nan,True
-32484,edotenv,n_is_us(derived),True,True,True
-31352,marker,name,Marker,Marker,True
-31352,marker,slug,marker,marker,True
-31352,marker,batch,Summer 2026,Summer 2026,True
-31352,marker,website,https://onmarker.com,https://onmarker.com,True
-31352,marker,one_liner,Platform and FDEs for rebuilding businesses agent-first,Platform and FDEs for rebuilding businesses agent-first,True
-31352,marker,long_description,"Marker embeds with companies, learns how their organization actually works, and ","Marker embeds with companies, learns how their organization actually works, and ",True
-31352,marker,team_size,3,3.0,True
-31352,marker,all_locations,"San Francisco, CA, USA; Remote","San Francisco, CA, USA; Remote",True
-31352,marker,industry,B2B,B2B,True
-31352,marker,subindustry,B2B -> Productivity,B2B -> Productivity,True
-31352,marker,industries,"['B2B', 'Productivity']","['B2B', 'Productivity']",True
-31352,marker,tags,"['Artificial Intelligence', 'Generative AI', 'SaaS', 'B2B', 'Workflow Automation","['Artificial Intelligence', 'Generative AI', 'SaaS', 'B2B', 'Workflow Automation",True
-31352,marker,regions,"['United States of America', 'America / Canada', 'Remote', 'Fully Remote']","['United States of America', 'America / Canada', 'Remote', 'Fully Remote']",True
-31352,marker,stage,Early,Early,True
-31352,marker,status,Active,Active,True
-31352,marker,isHiring,False,False,True
-31352,marker,nonprofit,False,False,True
-31352,marker,top_company,False,False,True
-31352,marker,launched_at,1787016991,1787016991,True
-31352,marker,former_names,"['Widari', 'Widari Inc.']","['Widari', 'Widari Inc.']",True
-31352,marker,url,https://www.ycombinator.com/companies/marker,https://www.ycombinator.com/companies/marker,True
-31352,marker,n_year(derived),2026,2026,True
-31352,marker,n_subindustry_child(derived),Productivity,Productivity,True
-31352,marker,n_is_us(derived),True,True,True
-30996,axial,name,Axial,Axial,True
-30996,axial,slug,axial,axial,True
-30996,axial,batch,Fall 2025,Fall 2025,True
-30996,axial,website,https://axialcompute.com,https://axialcompute.com,True
-30996,axial,one_liner,Accelerated Physics Kernels for Computational Engineering,Accelerated Physics Kernels for Computational Engineering,True
-30996,axial,long_description,"Axial develops accelerated software for geometric computation, physical simulati","Axial develops accelerated software for geometric computation, physical simulati",True
-30996,axial,team_size,1,1.0,True
-30996,axial,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
-30996,axial,industry,Industrials,Industrials,True
-30996,axial,subindustry,Industrials -> Manufacturing and Robotics,Industrials -> Manufacturing and Robotics,True
-30996,axial,industries,"['Industrials', 'Manufacturing and Robotics']","['Industrials', 'Manufacturing and Robotics']",True
-30996,axial,tags,"['Artificial Intelligence', 'Manufacturing', 'Industrial']","['Artificial Intelligence', 'Manufacturing', 'Industrial']",True
-30996,axial,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-30996,axial,stage,Early,Early,True
-30996,axial,status,Active,Active,True
-30996,axial,isHiring,False,False,True
-30996,axial,nonprofit,False,False,True
-30996,axial,top_company,False,False,True
-30996,axial,launched_at,1757132336,1757132336,True
-30996,axial,former_names,"['Axial Composites Industries', 'Nerviom']","['Axial Composites Industries', 'Nerviom']",True
-30996,axial,url,https://www.ycombinator.com/companies/axial,https://www.ycombinator.com/companies/axial,True
-30996,axial,n_year(derived),2025,2025,True
-30996,axial,n_subindustry_child(derived),Manufacturing and Robotics,Manufacturing and Robotics,True
-30996,axial,n_is_us(derived),True,True,True
-27261,integrated-reasoning,name,Integrated Reasoning,Integrated Reasoning,True
-27261,integrated-reasoning,slug,integrated-reasoning,integrated-reasoning,True
-27261,integrated-reasoning,batch,Summer 2022,Summer 2022,True
-27261,integrated-reasoning,website,https://integrated-reasoning.com,https://integrated-reasoning.com,True
-27261,integrated-reasoning,one_liner,Faster processors for solving NP-complete problems,Faster processors for solving NP-complete problems,True
-27261,integrated-reasoning,long_description,Integrated Reasoning builds efficient computer processors that are tailored to t,Integrated Reasoning builds efficient computer processors that are tailored to t,True
-27261,integrated-reasoning,team_size,1,1.0,True
-27261,integrated-reasoning,all_locations,"San Diego, CA, USA; Kilauea, HI, USA; Remote","San Diego, CA, USA; Kilauea, HI, USA; Remote",True
-27261,integrated-reasoning,industry,B2B,B2B,True
-27261,integrated-reasoning,subindustry,"B2B -> Engineering, Product and Design","B2B -> Engineering, Product and Design",True
-27261,integrated-reasoning,industries,"['B2B', 'Engineering, Product and Design']","['B2B', 'Engineering, Product and Design']",True
-27261,integrated-reasoning,tags,"['Artificial Intelligence', 'Developer Tools', 'Hard Tech', 'Hardware', 'SaaS']","['Artificial Intelligence', 'Developer Tools', 'Hard Tech', 'Hardware', 'SaaS']",True
-27261,integrated-reasoning,regions,"['United States of America', 'America / Canada', 'Remote', 'Fully Remote']","['United States of America', 'America / Canada', 'Remote', 'Fully Remote']",True
-27261,integrated-reasoning,stage,Early,Early,True
-27261,integrated-reasoning,status,Active,Active,True
-27261,integrated-reasoning,isHiring,False,False,True
-27261,integrated-reasoning,nonprofit,False,False,True
-27261,integrated-reasoning,top_company,False,False,True
-27261,integrated-reasoning,launched_at,1656696534,1656696534,True
-27261,integrated-reasoning,former_names,[],[],True
-27261,integrated-reasoning,url,https://www.ycombinator.com/companies/integrated-reasoning,https://www.ycombinator.com/companies/integrated-reasoning,True
-27261,integrated-reasoning,n_year(derived),2022,2022,True
-27261,integrated-reasoning,n_subindustry_child(derived),"Engineering, Product and Design","Engineering, Product and Design",True
-27261,integrated-reasoning,n_is_us(derived),True,True,True
-24235,senpai-gg,name,SenpAI.GG,SenpAI.GG,True
-24235,senpai-gg,slug,senpai-gg,senpai-gg,True
-24235,senpai-gg,batch,Summer 2021,Summer 2021,True
-24235,senpai-gg,website,https://senpai.gg/,https://senpai.gg/,True
-24235,senpai-gg,one_liner,Personal gaming coach for PC gamers globally ,Personal gaming coach for PC gamers globally ,True
-24235,senpai-gg,long_description,SenpAI.gg is a gaming coach for the 1.4 billion PC gamers globally. SenpAI.gg’s ,SenpAI.gg is a gaming coach for the 1.4 billion PC gamers globally. SenpAI.gg’s ,True
-24235,senpai-gg,team_size,12,12.0,True
-24235,senpai-gg,all_locations,"Boston, MA, USA","Boston, MA, USA",True
-24235,senpai-gg,industry,Consumer,Consumer,True
-24235,senpai-gg,subindustry,Consumer -> Gaming,Consumer -> Gaming,True
-24235,senpai-gg,industries,"['Consumer', 'Gaming']","['Consumer', 'Gaming']",True
-24235,senpai-gg,tags,"['Artificial Intelligence', 'Assistive Tech', 'Gaming']","['Artificial Intelligence', 'Assistive Tech', 'Gaming']",True
-24235,senpai-gg,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
-24235,senpai-gg,stage,Early,Early,True
-24235,senpai-gg,status,Inactive,Inactive,True
-24235,senpai-gg,isHiring,False,False,True
-24235,senpai-gg,nonprofit,False,False,True
-24235,senpai-gg,top_company,False,False,True
-24235,senpai-gg,launched_at,1626116127,1626116127,True
-24235,senpai-gg,former_names,"['FalconAI Technologies', 'Inc.']","['FalconAI Technologies', 'Inc.']",True
-24235,senpai-gg,url,https://www.ycombinator.com/companies/senpai-gg,https://www.ycombinator.com/companies/senpai-gg,True
-24235,senpai-gg,n_year(derived),2021,2021,True
-24235,senpai-gg,n_subindustry_child(derived),Gaming,Gaming,True
-24235,senpai-gg,n_is_us(derived),True,True,True
-24601,humane-genomics,name,Humane Genomics,Humane Genomics,True
-24601,humane-genomics,slug,humane-genomics,humane-genomics,True
-24601,humane-genomics,batch,Summer 2021,Summer 2021,True
-24601,humane-genomics,website,https://humanegenomics.com,https://humanegenomics.com,True
-24601,humane-genomics,one_liner,A platform to make artificial viruses as cancer therapeutics.,A platform to make artificial viruses as cancer therapeutics.,True
-24601,humane-genomics,long_description,Humane Genomics has developed a platform to engineer cancer killing viruses. We ,Humane Genomics has developed a platform to engineer cancer killing viruses. We ,True
-24601,humane-genomics,team_size,5,5.0,True
-24601,humane-genomics,all_locations,"New York City, NY, USA; New York, NY, USA","New York City, NY, USA; New York, NY, USA",True
-24601,humane-genomics,industry,Healthcare,Healthcare,True
-24601,humane-genomics,subindustry,Healthcare -> Therapeutics,Healthcare -> Therapeutics,True
-24601,humane-genomics,industries,"['Healthcare', 'Therapeutics']","['Healthcare', 'Therapeutics']",True
-24601,humane-genomics,tags,"['Hard Tech', 'Synthetic Biology']","['Hard Tech', 'Synthetic Biology']",True
-24601,humane-genomics,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-24601,humane-genomics,stage,Early,Early,True
-24601,humane-genomics,status,Active,Active,True
-24601,humane-genomics,isHiring,False,False,True
-24601,humane-genomics,nonprofit,False,False,True
-24601,humane-genomics,top_company,False,False,True
-24601,humane-genomics,launched_at,1626893262,1626893262,True
-24601,humane-genomics,former_names,[],[],True
-24601,humane-genomics,url,https://www.ycombinator.com/companies/humane-genomics,https://www.ycombinator.com/companies/humane-genomics,True
-24601,humane-genomics,n_year(derived),2021,2021,True
-24601,humane-genomics,n_subindustry_child(derived),Therapeutics,Therapeutics,True
-24601,humane-genomics,n_is_us(derived),True,True,True
-24868,heo-robotics,name,HEO Robotics,HEO Robotics,True
-24868,heo-robotics,slug,heo-robotics,heo-robotics,True
-24868,heo-robotics,batch,Summer 2021,Summer 2021,True
-24868,heo-robotics,website,https://www.heo-robotics.com/,https://www.heo-robotics.com/,True
-24868,heo-robotics,one_liner,We visually monitor space objects for governments and defense,We visually monitor space objects for governments and defense,True
-24868,heo-robotics,long_description,HEO Robotics visually monitors satellites for governments and defence. We do thi,HEO Robotics visually monitors satellites for governments and defence. We do thi,True
-24868,heo-robotics,team_size,3,3.0,True
-24868,heo-robotics,all_locations,"Sydney, NSW, Australia","Sydney, NSW, Australia",True
-24868,heo-robotics,industry,Industrials,Industrials,True
-24868,heo-robotics,subindustry,Industrials -> Aviation and Space,Industrials -> Aviation and Space,True
-24868,heo-robotics,industries,"['Industrials', 'Aviation and Space']","['Industrials', 'Aviation and Space']",True
-24868,heo-robotics,tags,"['Space Exploration', 'Aerospace', 'Defense']","['Space Exploration', 'Aerospace', 'Defense']",True
-24868,heo-robotics,regions,"['Australia', 'Oceania']","['Australia', 'Oceania']",True
-24868,heo-robotics,stage,Growth,Growth,True
-24868,heo-robotics,status,Active,Active,True
-24868,heo-robotics,isHiring,False,False,True
-24868,heo-robotics,nonprofit,False,False,True
-24868,heo-robotics,top_company,False,False,True
-24868,heo-robotics,launched_at,1627433056,1627433056,True
-24868,heo-robotics,former_names,[],[],True
-24868,heo-robotics,url,https://www.ycombinator.com/companies/heo-robotics,https://www.ycombinator.com/companies/heo-robotics,True
-24868,heo-robotics,n_year(derived),2021,2021,True
-24868,heo-robotics,n_subindustry_child(derived),Aviation and Space,Aviation and Space,True
-24868,heo-robotics,n_is_us(derived),False,False,True
-30695,channel3,name,Channel3,Channel3,True
-30695,channel3,slug,channel3,channel3,True
-30695,channel3,batch,Summer 2025,Summer 2025,True
-30695,channel3,website,https://trychannel3.com,https://trychannel3.com,True
-30695,channel3,one_liner,Database of every product on the internet,Database of every product on the internet,True
-30695,channel3,long_description,"Channel3 is building a database of every product on the internet.
-
-Google and ","Channel3 is building a database of every product on the internet.
-
-Google and ",True
-30695,channel3,team_size,5,5.0,True
-30695,channel3,all_locations,"New York City, NY, USA","New York City, NY, USA",True
-30695,channel3,industry,B2B,B2B,True
-30695,channel3,subindustry,B2B -> Retail,B2B -> Retail,True
-30695,channel3,industries,"['B2B', 'Retail']","['B2B', 'Retail']",True
-30695,channel3,tags,"['Artificial Intelligence', 'E-commerce']","['Artificial Intelligence', 'E-commerce']",True
-30695,channel3,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-30695,channel3,stage,Early,Early,True
-30695,channel3,status,Active,Active,True
-30695,channel3,isHiring,True,True,True
-30695,channel3,nonprofit,False,False,True
-30695,channel3,top_company,False,False,True
-30695,channel3,launched_at,1752182938,1752182938,True
-30695,channel3,former_names,[],[],True
-30695,channel3,url,https://www.ycombinator.com/companies/channel3,https://www.ycombinator.com/companies/channel3,True
-30695,channel3,n_year(derived),2025,2025,True
-30695,channel3,n_subindustry_child(derived),Retail,Retail,True
-30695,channel3,n_is_us(derived),True,True,True
-32130,olam-labs,name,Olam Labs,Olam Labs,True
-32130,olam-labs,slug,olam-labs,olam-labs,True
-32130,olam-labs,batch,Summer 2026,Summer 2026,True
-32130,olam-labs,website,https://olamlabs.ai,https://olamlabs.ai,True
-32130,olam-labs,one_liner,Building multi-agent simulations for model evals and training.,Building multi-agent simulations for model evals and training.,True
-32130,olam-labs,long_description,"Multi-agent environments let us evaluate and train models in complex, simulated ","Multi-agent environments let us evaluate and train models in complex, simulated ",True
-32130,olam-labs,team_size,2,2.0,True
-32130,olam-labs,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
-32130,olam-labs,industry,B2B,B2B,True
-32130,olam-labs,subindustry,B2B,B2B,True
-32130,olam-labs,industries,['B2B'],['B2B'],True
-32130,olam-labs,tags,"['Artificial Intelligence', 'Reinforcement Learning', 'Gaming', 'Data Engineerin","['Artificial Intelligence', 'Reinforcement Learning', 'Gaming', 'Data Engineerin",True
-32130,olam-labs,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-32130,olam-labs,stage,Early,Early,True
-32130,olam-labs,status,Active,Active,True
-32130,olam-labs,isHiring,False,False,True
-32130,olam-labs,nonprofit,False,False,True
-32130,olam-labs,top_company,False,False,True
-32130,olam-labs,launched_at,1784577901,1784577901,True
-32130,olam-labs,former_names,['Gud Labs'],['Gud Labs'],True
-32130,olam-labs,url,https://www.ycombinator.com/companies/olam-labs,https://www.ycombinator.com/companies/olam-labs,True
-32130,olam-labs,n_year(derived),2026,2026,True
-32130,olam-labs,n_subindustry_child(derived),,nan,True
-32130,olam-labs,n_is_us(derived),True,True,True
-22878,popl,name,Popl,Popl,True
-22878,popl,slug,popl,popl,True
-22878,popl,batch,Winter 2021,Winter 2021,True
-22878,popl,website,https://popl.co/,https://popl.co/,True
-22878,popl,one_liner,Your AI GTM platform for In-Person Events,Your AI GTM platform for In-Person Events,True
-22878,popl,long_description,Popl is the AI GTM platform for in-person events — the data layer for everything,Popl is the AI GTM platform for in-person events — the data layer for everything,True
-22878,popl,team_size,60,60.0,True
-22878,popl,all_locations,"New York City, NY, USA; Remote","New York City, NY, USA; Remote",True
-22878,popl,industry,B2B,B2B,True
-22878,popl,subindustry,B2B,B2B,True
-22878,popl,industries,['B2B'],['B2B'],True
-22878,popl,tags,"['Artificial Intelligence', 'SaaS', 'B2B', 'Emerging Markets', 'AI']","['Artificial Intelligence', 'SaaS', 'B2B', 'Emerging Markets', 'AI']",True
-22878,popl,regions,"['United States of America', 'America / Canada', 'Remote', 'Fully Remote']","['United States of America', 'America / Canada', 'Remote', 'Fully Remote']",True
-22878,popl,stage,Early,Early,True
-22878,popl,status,Active,Active,True
-22878,popl,isHiring,True,True,True
-22878,popl,nonprofit,False,False,True
-22878,popl,top_company,False,False,True
-22878,popl,launched_at,1610523196,1610523196,True
-22878,popl,former_names,[],[],True
-22878,popl,url,https://www.ycombinator.com/companies/popl,https://www.ycombinator.com/companies/popl,True
-22878,popl,n_year(derived),2021,2021,True
-22878,popl,n_subindustry_child(derived),,nan,True
-22878,popl,n_is_us(derived),True,True,True
-25996,marathon-education,name,Marathon Education,Marathon Education,True
-25996,marathon-education,slug,marathon-education,marathon-education,True
-25996,marathon-education,batch,Winter 2022,Winter 2022,True
-25996,marathon-education,website,https://www.marathon.edu.vn,https://www.marathon.edu.vn,True
-25996,marathon-education,one_liner,We provide live after-school tutoring to K-12 students in Vietnam,We provide live after-school tutoring to K-12 students in Vietnam,True
-25996,marathon-education,long_description,Marathon Education provides live interactive tutoring classes to K-12 students i,Marathon Education provides live interactive tutoring classes to K-12 students i,True
-25996,marathon-education,team_size,20,20.0,True
-25996,marathon-education,all_locations,"Ho Chi Minh City, Ho Chi Minh City, Vietnam; Ho Chi Minh City, Vietnam; Remote","Ho Chi Minh City, Ho Chi Minh City, Vietnam; Ho Chi Minh City, Vietnam; Remote",True
-25996,marathon-education,industry,Education,Education,True
-25996,marathon-education,subindustry,Education,Education,True
-25996,marathon-education,industries,['Education'],['Education'],True
-25996,marathon-education,tags,['Education'],['Education'],True
-25996,marathon-education,regions,"['Vietnam', 'Southeast Asia', 'Remote', 'Fully Remote']","['Vietnam', 'Southeast Asia', 'Remote', 'Fully Remote']",True
-25996,marathon-education,stage,Early,Early,True
-25996,marathon-education,status,Inactive,Inactive,True
-25996,marathon-education,isHiring,False,False,True
-25996,marathon-education,nonprofit,False,False,True
-25996,marathon-education,top_company,False,False,True
-25996,marathon-education,launched_at,1640927442,1640927442,True
-25996,marathon-education,former_names,[],[],True
-25996,marathon-education,url,https://www.ycombinator.com/companies/marathon-education,https://www.ycombinator.com/companies/marathon-education,True
-25996,marathon-education,n_year(derived),2022,2022,True
-25996,marathon-education,n_subindustry_child(derived),,nan,True
-25996,marathon-education,n_is_us(derived),False,False,True
-25776,partna,name,Partna,Partna,True
-25776,partna,slug,partna,partna,True
-25776,partna,batch,Winter 2022,Winter 2022,True
-25776,partna,website,https://getpartna.com,https://getpartna.com,True
-25776,partna,one_liner,Unlock African payments,Unlock African payments,True
-25776,partna,long_description,"Stablecoin-powered payment infrastructure, to collect, convert, and settle betwe","Stablecoin-powered payment infrastructure, to collect, convert, and settle betwe",True
-25776,partna,team_size,8,8.0,True
-25776,partna,all_locations,"Wilmington, DE, USA; Remote","Wilmington, DE, USA; Remote",True
-25776,partna,industry,Fintech,Fintech,True
-25776,partna,subindustry,Fintech,Fintech,True
-25776,partna,industries,['Fintech'],['Fintech'],True
-25776,partna,tags,"['Fintech', 'Payments', 'Remittances']","['Fintech', 'Payments', 'Remittances']",True
-25776,partna,regions,"['United States of America', 'America / Canada', 'Remote', 'Fully Remote']","['United States of America', 'America / Canada', 'Remote', 'Fully Remote']",True
-25776,partna,stage,Early,Early,True
-25776,partna,status,Active,Active,True
-25776,partna,isHiring,False,False,True
-25776,partna,nonprofit,False,False,True
-25776,partna,top_company,False,False,True
-25776,partna,launched_at,1647334206,1647334206,True
-25776,partna,former_names,"['Coinprofile', 'Payourse (We built Coinprofile)', 'Payourse']","['Coinprofile', 'Payourse (We built Coinprofile)', 'Payourse']",True
-25776,partna,url,https://www.ycombinator.com/companies/partna,https://www.ycombinator.com/companies/partna,True
-25776,partna,n_year(derived),2022,2022,True
-25776,partna,n_subindustry_child(derived),,nan,True
-25776,partna,n_is_us(derived),True,True,True
-28823,craftwork,name,Craftwork,Craftwork,True
-28823,craftwork,slug,craftwork,craftwork,True
-28823,craftwork,batch,Summer 2023,Summer 2023,True
-28823,craftwork,website,https://craftwork.com/,https://craftwork.com/,True
-28823,craftwork,one_liner,Digital-native home painting franchise,Digital-native home painting franchise,True
-28823,craftwork,long_description,Craftwork is a full-service home painting company that uses software to dramatic,Craftwork is a full-service home painting company that uses software to dramatic,True
-28823,craftwork,team_size,50,50.0,True
-28823,craftwork,all_locations,"Charlotte, NC, USA","Charlotte, NC, USA",True
-28823,craftwork,industry,Real Estate and Construction,Real Estate and Construction,True
-28823,craftwork,subindustry,Real Estate and Construction -> Construction,Real Estate and Construction -> Construction,True
-28823,craftwork,industries,"['Real Estate and Construction', 'Construction']","['Real Estate and Construction', 'Construction']",True
-28823,craftwork,tags,"['Proptech', 'Home Services', 'Home Automation']","['Proptech', 'Home Services', 'Home Automation']",True
-28823,craftwork,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
-28823,craftwork,stage,Early,Early,True
-28823,craftwork,status,Active,Active,True
-28823,craftwork,isHiring,False,False,True
-28823,craftwork,nonprofit,False,False,True
-28823,craftwork,top_company,False,False,True
-28823,craftwork,launched_at,1689608644,1689608644,True
-28823,craftwork,former_names,[],[],True
-28823,craftwork,url,https://www.ycombinator.com/companies/craftwork,https://www.ycombinator.com/companies/craftwork,True
-28823,craftwork,n_year(derived),2023,2023,True
-28823,craftwork,n_subindustry_child(derived),Construction,Construction,True
-28823,craftwork,n_is_us(derived),True,True,True
-31989,pango,name,Pango,Pango,True
-31989,pango,slug,pango,pango,True
-31989,pango,batch,Summer 2026,Summer 2026,True
-31989,pango,website,https://pango.ai/,https://pango.ai/,True
-31989,pango,one_liner,Agentic OS for e-commerce operations,Agentic OS for e-commerce operations,True
-31989,pango,long_description,Pango is a platform for e-commerce companies to use natural language to build ag,Pango is a platform for e-commerce companies to use natural language to build ag,True
-31989,pango,team_size,5,5.0,True
-31989,pango,all_locations,"New York City, NY, USA","New York City, NY, USA",True
-31989,pango,industry,B2B,B2B,True
-31989,pango,subindustry,B2B -> Retail,B2B -> Retail,True
-31989,pango,industries,"['B2B', 'Retail']","['B2B', 'Retail']",True
-31989,pango,tags,"['Artificial Intelligence', 'Logistics', 'E-commerce', 'Retail']","['Artificial Intelligence', 'Logistics', 'E-commerce', 'Retail']",True
-31989,pango,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
-31989,pango,stage,Early,Early,True
-31989,pango,status,Active,Active,True
-31989,pango,isHiring,False,False,True
-31989,pango,nonprofit,False,False,True
-31989,pango,top_company,False,False,True
-31989,pango,launched_at,1781764394,1781764394,True
-31989,pango,former_names,[],[],True
-31989,pango,url,https://www.ycombinator.com/companies/pango,https://www.ycombinator.com/companies/pango,True
-31989,pango,n_year(derived),2026,2026,True
-31989,pango,n_subindustry_child(derived),Retail,Retail,True
-31989,pango,n_is_us(derived),True,True,True
-27915,rainmaker,name,Rainmaker,Rainmaker,True
-27915,rainmaker,slug,rainmaker,rainmaker,True
-27915,rainmaker,batch,Winter 2023,Winter 2023,True
-27915,rainmaker,website,http://www.rainmaker.nyc,http://www.rainmaker.nyc,True
-27915,rainmaker,one_liner,DeFi for Everyone,DeFi for Everyone,True
-27915,rainmaker,long_description,Rainmaker is an account abstraction-based crypto wallet that makes DeFi investin,Rainmaker is an account abstraction-based crypto wallet that makes DeFi investin,True
-27915,rainmaker,team_size,2,2.0,True
-27915,rainmaker,all_locations,,,True
-27915,rainmaker,industry,Fintech,Fintech,True
-27915,rainmaker,subindustry,Fintech -> Consumer Finance,Fintech -> Consumer Finance,True
-27915,rainmaker,industries,"['Fintech', 'Consumer Finance']","['Fintech', 'Consumer Finance']",True
-27915,rainmaker,tags,[],[],True
-27915,rainmaker,regions,['Unspecified'],['Unspecified'],True
-27915,rainmaker,stage,Early,Early,True
-27915,rainmaker,status,Active,Active,True
-27915,rainmaker,isHiring,False,False,True
-27915,rainmaker,nonprofit,False,False,True
-27915,rainmaker,top_company,False,False,True
-27915,rainmaker,launched_at,1678219500,1678219500,True
-27915,rainmaker,former_names,[],[],True
-27915,rainmaker,url,https://www.ycombinator.com/companies/rainmaker,https://www.ycombinator.com/companies/rainmaker,True
-27915,rainmaker,n_year(derived),2023,2023,True
-27915,rainmaker,n_subindustry_child(derived),Consumer Finance,Consumer Finance,True
-27915,rainmaker,n_is_us(derived),False,False,True
-24840,vedabio,name,VedaBio,VedaBio,True
-24840,vedabio,slug,vedabio,vedabio,True
-24840,vedabio,batch,Summer 2021,Summer 2021,True
-24840,vedabio,website,https://www.vedabio.com,https://www.vedabio.com,True
-24840,vedabio,one_liner,CRISPR powered Diagnostics with results in minutes.,CRISPR powered Diagnostics with results in minutes.,True
-24840,vedabio,long_description,Syndromic testing powered by engineered CRISPR enzymes. Get comprehensive result,Syndromic testing powered by engineered CRISPR enzymes. Get comprehensive result,True
-24840,vedabio,team_size,30,30.0,True
-24840,vedabio,all_locations,"San Diego, CA, USA; Urbana, IL, USA","San Diego, CA, USA; Urbana, IL, USA",True
-24840,vedabio,industry,Healthcare,Healthcare,True
-24840,vedabio,subindustry,Healthcare -> Diagnostics,Healthcare -> Diagnostics,True
-24840,vedabio,industries,"['Healthcare', 'Diagnostics']","['Healthcare', 'Diagnostics']",True
-24840,vedabio,tags,['Hard Tech'],['Hard Tech'],True
-24840,vedabio,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
-24840,vedabio,stage,Early,Early,True
-24840,vedabio,status,Active,Active,True
-24840,vedabio,isHiring,False,False,True
-24840,vedabio,nonprofit,False,False,True
-24840,vedabio,top_company,False,False,True
-24840,vedabio,launched_at,1626385432,1626385432,True
-24840,vedabio,former_names,"['LabSimply', 'Labsimply', 'Inc.']","['LabSimply', 'Labsimply', 'Inc.']",True
-24840,vedabio,url,https://www.ycombinator.com/companies/vedabio,https://www.ycombinator.com/companies/vedabio,True
-24840,vedabio,n_year(derived),2021,2021,True
-24840,vedabio,n_subindustry_child(derived),Diagnostics,Diagnostics,True
-24840,vedabio,n_is_us(derived),True,True,True
-23462,boitas-com,name,boitas.com,boitas.com,True
-23462,boitas-com,slug,boitas-com,boitas-com,True
-23462,boitas-com,batch,Winter 2021,Winter 2021,True
-23462,boitas-com,website,http://www.boitas.com,http://www.boitas.com,True
-23462,boitas-com,one_liner,Largest B2B eCommerce platform for SMBs in Latin America. ,Largest B2B eCommerce platform for SMBs in Latin America. ,True
-23462,boitas-com,long_description,"Boitas.com is a B2B Food Service platform that makes easy for restaurants, hotel","Boitas.com is a B2B Food Service platform that makes easy for restaurants, hotel",True
-23462,boitas-com,team_size,35,35.0,True
-23462,boitas-com,all_locations,"Monterrey, N.L., Mexico","Monterrey, N.L., Mexico",True
-23462,boitas-com,industry,B2B,B2B,True
-23462,boitas-com,subindustry,B2B -> Retail,B2B -> Retail,True
-23462,boitas-com,industries,"['B2B', 'Retail']","['B2B', 'Retail']",True
-23462,boitas-com,tags,['Marketplace'],['Marketplace'],True
-23462,boitas-com,regions,"['Mexico', 'Latin America', 'Remote', 'Partly Remote']","['Mexico', 'Latin America', 'Remote', 'Partly Remote']",True
-23462,boitas-com,stage,Early,Early,True
-23462,boitas-com,status,Inactive,Inactive,True
-23462,boitas-com,isHiring,False,False,True
-23462,boitas-com,nonprofit,False,False,True
-23462,boitas-com,top_company,False,False,True
-23462,boitas-com,launched_at,1616251758,1616251758,True
-23462,boitas-com,former_names,['BOITAS.COM'],['BOITAS.COM'],True
-23462,boitas-com,url,https://www.ycombinator.com/companies/boitas-com,https://www.ycombinator.com/companies/boitas-com,True
-23462,boitas-com,n_year(derived),2021,2021,True
-23462,boitas-com,n_subindustry_child(derived),Retail,Retail,True
-23462,boitas-com,n_is_us(derived),False,False,True
-33178,tovenai,name,TovenAI,TovenAI,True
-33178,tovenai,slug,tovenai,tovenai,True
-33178,tovenai,batch,Summer 2026,Summer 2026,True
-33178,tovenai,website,https://toven.ai,https://toven.ai,True
-33178,tovenai,one_liner,AI agents for compliance at institutional trading firms,AI agents for compliance at institutional trading firms,True
-33178,tovenai,long_description,"TovenAI builds a platform of AI agents that handle manual, data-intensive work f","TovenAI builds a platform of AI agents that handle manual, data-intensive work f",True
-33178,tovenai,team_size,2,2.0,True
-33178,tovenai,all_locations,"New York City, NY, USA","New York City, NY, USA",True
-33178,tovenai,industry,Fintech,Fintech,True
-33178,tovenai,subindustry,Fintech -> Banking and Exchange,Fintech -> Banking and Exchange,True
-33178,tovenai,industries,"['Fintech', 'Banking and Exchange']","['Fintech', 'Banking and Exchange']",True
-33178,tovenai,tags,"['Artificial Intelligence', 'Fintech', 'Compliance', 'Regtech']","['Artificial Intelligence', 'Fintech', 'Compliance', 'Regtech']",True
-33178,tovenai,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-33178,tovenai,stage,Early,Early,True
-33178,tovenai,status,Active,Active,True
-33178,tovenai,isHiring,False,False,True
-33178,tovenai,nonprofit,False,False,True
-33178,tovenai,top_company,False,False,True
-33178,tovenai,launched_at,1786560317,1786560317,True
-33178,tovenai,former_names,[],[],True
-33178,tovenai,url,https://www.ycombinator.com/companies/tovenai,https://www.ycombinator.com/companies/tovenai,True
-33178,tovenai,n_year(derived),2026,2026,True
-33178,tovenai,n_subindustry_child(derived),Banking and Exchange,Banking and Exchange,True
-33178,tovenai,n_is_us(derived),True,True,True
-27818,gluetrail,name,Gluetrail,Gluetrail,True
-27818,gluetrail,slug,gluetrail,gluetrail,True
-27818,gluetrail,batch,Winter 2023,Winter 2023,True
-27818,gluetrail,website,https://www.gluetrail.com,https://www.gluetrail.com,True
-27818,gluetrail,one_liner,Create step by step articles with screenshots and videos 10x faster,Create step by step articles with screenshots and videos 10x faster,True
-27818,gluetrail,long_description,Gluetrail is a chrome extension that allows you to create support/training/marke,Gluetrail is a chrome extension that allows you to create support/training/marke,True
-27818,gluetrail,team_size,2,2.0,True
-27818,gluetrail,all_locations,"Paris, Île-de-France, France; Remote","Paris, Île-de-France, France; Remote",True
-27818,gluetrail,industry,B2B,B2B,True
-27818,gluetrail,subindustry,B2B -> Marketing,B2B -> Marketing,True
-27818,gluetrail,industries,"['B2B', 'Marketing']","['B2B', 'Marketing']",True
-27818,gluetrail,tags,"['Artificial Intelligence', 'Productivity', 'Sales Enablement', 'Marketing', 'Cu","['Artificial Intelligence', 'Productivity', 'Sales Enablement', 'Marketing', 'Cu",True
-27818,gluetrail,regions,"['France', 'Europe', 'Remote', 'Fully Remote']","['France', 'Europe', 'Remote', 'Fully Remote']",True
-27818,gluetrail,stage,Early,Early,True
-27818,gluetrail,status,Inactive,Inactive,True
-27818,gluetrail,isHiring,False,False,True
-27818,gluetrail,nonprofit,False,False,True
-27818,gluetrail,top_company,False,False,True
-27818,gluetrail,launched_at,1670419850,1670419850,True
-27818,gluetrail,former_names,[],[],True
-27818,gluetrail,url,https://www.ycombinator.com/companies/gluetrail,https://www.ycombinator.com/companies/gluetrail,True
-27818,gluetrail,n_year(derived),2023,2023,True
-27818,gluetrail,n_subindustry_child(derived),Marketing,Marketing,True
-27818,gluetrail,n_is_us(derived),False,False,True
-30699,vibeflow,name,VibeFlow,VibeFlow,True
-30699,vibeflow,slug,vibeflow,vibeflow,True
-30699,vibeflow,batch,Summer 2025,Summer 2025,True
-30699,vibeflow,website,https://vibeflow.ai/,https://vibeflow.ai/,True
-30699,vibeflow,one_liner,AI content manager that grows your company's online presence,AI content manager that grows your company's online presence,True
-30699,vibeflow,long_description,"VibeFlow is the AI content manager, that hands-off creates and manages viral soc","VibeFlow is the AI content manager, that hands-off creates and manages viral soc",True
-30699,vibeflow,team_size,3,3.0,True
-30699,vibeflow,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
-30699,vibeflow,industry,B2B,B2B,True
-30699,vibeflow,subindustry,B2B,B2B,True
-30699,vibeflow,industries,['B2B'],['B2B'],True
-30699,vibeflow,tags,"['Artificial Intelligence', 'Developer Tools', 'Consumer', 'B2B']","['Artificial Intelligence', 'Developer Tools', 'Consumer', 'B2B']",True
-30699,vibeflow,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-30699,vibeflow,stage,Early,Early,True
-30699,vibeflow,status,Active,Active,True
-30699,vibeflow,isHiring,False,False,True
-30699,vibeflow,nonprofit,False,False,True
-30699,vibeflow,top_company,False,False,True
-30699,vibeflow,launched_at,1753078619,1753078619,True
-30699,vibeflow,former_names,[],[],True
-30699,vibeflow,url,https://www.ycombinator.com/companies/vibeflow,https://www.ycombinator.com/companies/vibeflow,True
-30699,vibeflow,n_year(derived),2025,2025,True
-30699,vibeflow,n_subindustry_child(derived),,nan,True
-30699,vibeflow,n_is_us(derived),True,True,True
-29080,smobi,name,Smobi,Smobi,True
-29080,smobi,slug,smobi,smobi,True
-29080,smobi,batch,Summer 2023,Summer 2023,True
-29080,smobi,website,https://smobi.com/,https://smobi.com/,True
-29080,smobi,one_liner,Send texts your customers actually want over RCS,Send texts your customers actually want over RCS,True
-29080,smobi,long_description,"Smobi is the AI-powered platform for branded, interactive business messaging, st","Smobi is the AI-powered platform for branded, interactive business messaging, st",True
-29080,smobi,team_size,4,4.0,True
-29080,smobi,all_locations,"New York City, NY, USA","New York City, NY, USA",True
-29080,smobi,industry,B2B,B2B,True
-29080,smobi,subindustry,B2B -> Marketing,B2B -> Marketing,True
-29080,smobi,industries,"['B2B', 'Marketing']","['B2B', 'Marketing']",True
-29080,smobi,tags,"['B2B', 'API', 'Marketing', 'SMS', 'Telecommunications']","['B2B', 'API', 'Marketing', 'SMS', 'Telecommunications']",True
-29080,smobi,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
-29080,smobi,stage,Early,Early,True
-29080,smobi,status,Active,Active,True
-29080,smobi,isHiring,False,False,True
-29080,smobi,nonprofit,False,False,True
-29080,smobi,top_company,False,False,True
-29080,smobi,launched_at,1689048246,1689048246,True
-29080,smobi,former_names,[],[],True
-29080,smobi,url,https://www.ycombinator.com/companies/smobi,https://www.ycombinator.com/companies/smobi,True
-29080,smobi,n_year(derived),2023,2023,True
-29080,smobi,n_subindustry_child(derived),Marketing,Marketing,True
-29080,smobi,n_is_us(derived),True,True,True
-22674,arnata,name,arnata,arnata,True
-22674,arnata,slug,arnata,arnata,True
-22674,arnata,batch,Winter 2021,Winter 2021,True
-22674,arnata,website,https://arnata.com,https://arnata.com,True
-22674,arnata,one_liner,AI workers for the logistics industry. ,AI workers for the logistics industry. ,True
-22674,arnata,long_description,,,True
-22674,arnata,team_size,15,15.0,True
-22674,arnata,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
-22674,arnata,industry,B2B,B2B,True
-22674,arnata,subindustry,B2B -> Supply Chain and Logistics,B2B -> Supply Chain and Logistics,True
-22674,arnata,industries,"['B2B', 'Supply Chain and Logistics']","['B2B', 'Supply Chain and Logistics']",True
-22674,arnata,tags,"['Artificial Intelligence', 'Generative AI', 'B2B', 'Logistics', 'Supply Chain']","['Artificial Intelligence', 'Generative AI', 'B2B', 'Logistics', 'Supply Chain']",True
-22674,arnata,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-22674,arnata,stage,Early,Early,True
-22674,arnata,status,Active,Active,True
-22674,arnata,isHiring,True,True,True
-22674,arnata,nonprofit,False,False,True
-22674,arnata,top_company,False,False,True
-22674,arnata,launched_at,1614807013,1614807013,True
-22674,arnata,former_names,"['Hub Technologies', 'Inc.', 'Zerobroker Technologies', 'Inc.', 'Zerobroker']","['Hub Technologies', 'Inc.', 'Zerobroker Technologies', 'Inc.', 'Zerobroker']",True
-22674,arnata,url,https://www.ycombinator.com/companies/arnata,https://www.ycombinator.com/companies/arnata,True
-22674,arnata,n_year(derived),2021,2021,True
-22674,arnata,n_subindustry_child(derived),Supply Chain and Logistics,Supply Chain and Logistics,True
-22674,arnata,n_is_us(derived),True,True,True
-29465,polar,name,Polar,Polar,True
-29465,polar,slug,polar,polar,True
-29465,polar,batch,Winter 2024,Winter 2024,True
-29465,polar,website,https://www.polarfi.com,https://www.polarfi.com,True
-29465,polar,one_liner,The smarter way to manage USD earnings globally,The smarter way to manage USD earnings globally,True
-29465,polar,long_description,"Polar helps remote workers, freelancers, and ship crew manage their USD earnings","Polar helps remote workers, freelancers, and ship crew manage their USD earnings",True
-29465,polar,team_size,2,2.0,True
-29465,polar,all_locations,"San Francisco, CA, USA; Remote","San Francisco, CA, USA; Remote",True
-29465,polar,industry,Fintech,Fintech,True
-29465,polar,subindustry,Fintech -> Consumer Finance,Fintech -> Consumer Finance,True
-29465,polar,industries,"['Fintech', 'Consumer Finance']","['Fintech', 'Consumer Finance']",True
-29465,polar,tags,"['Fintech', 'Crypto / Web3', 'Investing', 'Remittances', 'Neobank']","['Fintech', 'Crypto / Web3', 'Investing', 'Remittances', 'Neobank']",True
-29465,polar,regions,"['United States of America', 'America / Canada', 'Remote', 'Fully Remote']","['United States of America', 'America / Canada', 'Remote', 'Fully Remote']",True
-29465,polar,stage,Early,Early,True
-29465,polar,status,Active,Active,True
-29465,polar,isHiring,False,False,True
-29465,polar,nonprofit,False,False,True
-29465,polar,top_company,False,False,True
-29465,polar,launched_at,1708655609,1708655609,True
-29465,polar,former_names,"['Aria', 'GoldenBasis']","['Aria', 'GoldenBasis']",True
-29465,polar,url,https://www.ycombinator.com/companies/polar,https://www.ycombinator.com/companies/polar,True
-29465,polar,n_year(derived),2024,2024,True
-29465,polar,n_subindustry_child(derived),Consumer Finance,Consumer Finance,True
-29465,polar,n_is_us(derived),True,True,True
-25714,strong-compute,name,Strong Compute,Strong Compute,True
-25714,strong-compute,slug,strong-compute,strong-compute,True
-25714,strong-compute,batch,Winter 2022,Winter 2022,True
-25714,strong-compute,website,https://strongcompute.com,https://strongcompute.com,True
-25714,strong-compute,one_liner,10x-1000x faster compute for Neural Network training,10x-1000x faster compute for Neural Network training,True
-25714,strong-compute,long_description,"Strong Compute is building the future of Cloud Computing, priced by performance ","Strong Compute is building the future of Cloud Computing, priced by performance ",True
-25714,strong-compute,team_size,8,8.0,True
-25714,strong-compute,all_locations,"Sydney, NSW, Australia","Sydney, NSW, Australia",True
-25714,strong-compute,industry,B2B,B2B,True
-25714,strong-compute,subindustry,B2B,B2B,True
-25714,strong-compute,industries,['B2B'],['B2B'],True
-25714,strong-compute,tags,"['Artificial Intelligence', 'Machine Learning', 'Cloud Computing']","['Artificial Intelligence', 'Machine Learning', 'Cloud Computing']",True
-25714,strong-compute,regions,"['Australia', 'Oceania', 'Remote', 'Partly Remote']","['Australia', 'Oceania', 'Remote', 'Partly Remote']",True
-25714,strong-compute,stage,Early,Early,True
-25714,strong-compute,status,Active,Active,True
-25714,strong-compute,isHiring,True,True,True
-25714,strong-compute,nonprofit,False,False,True
-25714,strong-compute,top_company,False,False,True
-25714,strong-compute,launched_at,1646850573,1646850573,True
-25714,strong-compute,former_names,[],[],True
-25714,strong-compute,url,https://www.ycombinator.com/companies/strong-compute,https://www.ycombinator.com/companies/strong-compute,True
-25714,strong-compute,n_year(derived),2022,2022,True
-25714,strong-compute,n_subindustry_child(derived),,nan,True
-25714,strong-compute,n_is_us(derived),False,False,True
-30970,exonic,name,Exonic,Exonic,True
-30970,exonic,slug,exonic,exonic,True
-30970,exonic,batch,Fall 2025,Fall 2025,True
-30970,exonic,website,https://exonic.ai,https://exonic.ai,True
-30970,exonic,one_liner,Exonic is an AI-native cell and gene therapeutics company. ,Exonic is an AI-native cell and gene therapeutics company. ,True
-30970,exonic,long_description,"We program DNA sequences to be context-aware, unlocking new kinds of genetic the","We program DNA sequences to be context-aware, unlocking new kinds of genetic the",True
-30970,exonic,team_size,3,3.0,True
-30970,exonic,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
-30970,exonic,industry,Healthcare,Healthcare,True
-30970,exonic,subindustry,Healthcare -> Drug Discovery and Delivery,Healthcare -> Drug Discovery and Delivery,True
-30970,exonic,industries,"['Healthcare', 'Drug Discovery and Delivery']","['Healthcare', 'Drug Discovery and Delivery']",True
-30970,exonic,tags,[],[],True
-30970,exonic,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-30970,exonic,stage,Early,Early,True
-30970,exonic,status,Active,Active,True
-30970,exonic,isHiring,True,True,True
-30970,exonic,nonprofit,False,False,True
-30970,exonic,top_company,False,False,True
-30970,exonic,launched_at,1762663893,1762663893,True
-30970,exonic,former_names,[],[],True
-30970,exonic,url,https://www.ycombinator.com/companies/exonic,https://www.ycombinator.com/companies/exonic,True
-30970,exonic,n_year(derived),2025,2025,True
-30970,exonic,n_subindustry_child(derived),Drug Discovery and Delivery,Drug Discovery and Delivery,True
-30970,exonic,n_is_us(derived),True,True,True
-30325,roark,name,Roark,Roark,True
-30325,roark,slug,roark,roark,True
-30325,roark,batch,Winter 2025,Winter 2025,True
-30325,roark,website,https://roark.ai,https://roark.ai,True
-30325,roark,one_liner,"Test, monitor, and improve your voice agents","Test, monitor, and improve your voice agents",True
-30325,roark,long_description,"Roark helps teams test, monitor, and improve their voice agents.
-
-Voice AI is ","Roark helps teams test, monitor, and improve their voice agents.
-
-Voice AI is ",True
-30325,roark,team_size,3,3.0,True
-30325,roark,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
-30325,roark,industry,B2B,B2B,True
-30325,roark,subindustry,B2B -> Analytics,B2B -> Analytics,True
-30325,roark,industries,"['B2B', 'Analytics']","['B2B', 'Analytics']",True
-30325,roark,tags,"['Analytics', 'AI', 'Conversational AI']","['Analytics', 'AI', 'Conversational AI']",True
-30325,roark,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-30325,roark,stage,Early,Early,True
-30325,roark,status,Active,Active,True
-30325,roark,isHiring,False,False,True
-30325,roark,nonprofit,False,False,True
-30325,roark,top_company,False,False,True
-30325,roark,launched_at,1737797905,1737797905,True
-30325,roark,former_names,['Roark AI'],['Roark AI'],True
-30325,roark,url,https://www.ycombinator.com/companies/roark,https://www.ycombinator.com/companies/roark,True
-30325,roark,n_year(derived),2025,2025,True
-30325,roark,n_subindustry_child(derived),Analytics,Analytics,True
-30325,roark,n_is_us(derived),True,True,True
-22887,r2,name,R2,R2,True
-22887,r2,slug,r2,r2,True
-22887,r2,batch,Winter 2021,Winter 2021,True
-22887,r2,website,https://r2.co/,https://r2.co/,True
-22887,r2,one_liner,Embedded lending infrastructure,Embedded lending infrastructure,True
-22887,r2,long_description,R2 enables platforms to seamlessly offer capital to their SMB customers in Latin,R2 enables platforms to seamlessly offer capital to their SMB customers in Latin,True
-22887,r2,team_size,100,100.0,True
-22887,r2,all_locations,"Mexico City, CDMX, Mexico","Mexico City, CDMX, Mexico",True
-22887,r2,industry,Fintech,Fintech,True
-22887,r2,subindustry,Fintech -> Credit and Lending,Fintech -> Credit and Lending,True
-22887,r2,industries,"['Fintech', 'Credit and Lending']","['Fintech', 'Credit and Lending']",True
-22887,r2,tags,"['Fintech', 'B2B']","['Fintech', 'B2B']",True
-22887,r2,regions,"['Mexico', 'Latin America', 'Remote', 'Partly Remote']","['Mexico', 'Latin America', 'Remote', 'Partly Remote']",True
-22887,r2,stage,Growth,Growth,True
-22887,r2,status,Acquired,Acquired,True
-22887,r2,isHiring,False,False,True
-22887,r2,nonprofit,False,False,True
-22887,r2,top_company,False,False,True
-22887,r2,launched_at,1614661647,1614661647,True
-22887,r2,former_names,['R2 Capital'],['R2 Capital'],True
-22887,r2,url,https://www.ycombinator.com/companies/r2,https://www.ycombinator.com/companies/r2,True
-22887,r2,n_year(derived),2021,2021,True
-22887,r2,n_subindustry_child(derived),Credit and Lending,Credit and Lending,True
-22887,r2,n_is_us(derived),False,False,True
-29676,elevate-2,name,Elevate,Elevate,True
-29676,elevate-2,slug,elevate-2,elevate-2,True
-29676,elevate-2,batch,Summer 2024,Summer 2024,True
-29676,elevate-2,website,https://www.useelevate.dev/,https://www.useelevate.dev/,True
-29676,elevate-2,one_liner,Automated AI data integrations for roll-ups,Automated AI data integrations for roll-ups,True
-29676,elevate-2,long_description,"Elevate is bringing AI to private equity-backed roll-ups. 
-
-For example, one o","Elevate is bringing AI to private equity-backed roll-ups. 
-
-For example, one o",True
-29676,elevate-2,team_size,3,3.0,True
-29676,elevate-2,all_locations,"New York City, NY, USA","New York City, NY, USA",True
-29676,elevate-2,industry,B2B,B2B,True
-29676,elevate-2,subindustry,B2B,B2B,True
-29676,elevate-2,industries,['B2B'],['B2B'],True
-29676,elevate-2,tags,"['AIOps', 'Artificial Intelligence', 'Finance', 'B2B', 'Automation']","['AIOps', 'Artificial Intelligence', 'Finance', 'B2B', 'Automation']",True
-29676,elevate-2,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
-29676,elevate-2,stage,Early,Early,True
-29676,elevate-2,status,Active,Active,True
-29676,elevate-2,isHiring,True,True,True
-29676,elevate-2,nonprofit,False,False,True
-29676,elevate-2,top_company,False,False,True
-29676,elevate-2,launched_at,1718146562,1718146562,True
-29676,elevate-2,former_names,['Elev4te'],['Elev4te'],True
-29676,elevate-2,url,https://www.ycombinator.com/companies/elevate-2,https://www.ycombinator.com/companies/elevate-2,True
-29676,elevate-2,n_year(derived),2024,2024,True
-29676,elevate-2,n_subindustry_child(derived),,nan,True
-29676,elevate-2,n_is_us(derived),True,True,True
-29398,prosights,name,ProSights,ProSights,True
-29398,prosights,slug,prosights,prosights,True
-29398,prosights,batch,Winter 2024,Winter 2024,True
-29398,prosights,website,https://prosights.co/,https://prosights.co/,True
-29398,prosights,one_liner,ProSights is a data / AI transformation partner to PE-backed portcos.,ProSights is a data / AI transformation partner to PE-backed portcos.,True
-29398,prosights,long_description,,,True
-29398,prosights,team_size,14,14.0,True
-29398,prosights,all_locations,"New York City, NY, USA","New York City, NY, USA",True
-29398,prosights,industry,B2B,B2B,True
-29398,prosights,subindustry,B2B -> Operations,B2B -> Operations,True
-29398,prosights,industries,"['B2B', 'Operations']","['B2B', 'Operations']",True
-29398,prosights,tags,"['Artificial Intelligence', 'Fintech', 'Analytics', 'Enterprise Software', 'Inve","['Artificial Intelligence', 'Fintech', 'Analytics', 'Enterprise Software', 'Inve",True
-29398,prosights,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
-29398,prosights,stage,Early,Early,True
-29398,prosights,status,Active,Active,True
-29398,prosights,isHiring,True,True,True
-29398,prosights,nonprofit,False,False,True
-29398,prosights,top_company,False,False,True
-29398,prosights,launched_at,1711348390,1711348390,True
-29398,prosights,former_names,"['ProSights', 'Prosights']","['ProSights', 'Prosights']",True
-29398,prosights,url,https://www.ycombinator.com/companies/prosights,https://www.ycombinator.com/companies/prosights,True
-29398,prosights,n_year(derived),2024,2024,True
-29398,prosights,n_subindustry_child(derived),Operations,Operations,True
-29398,prosights,n_is_us(derived),True,True,True
-28830,revamp,name,Revamp,Revamp,True
-28830,revamp,slug,revamp,revamp,True
-28830,revamp,batch,Summer 2023,Summer 2023,True
-28830,revamp,website,https://www.getrevamp.ai,https://www.getrevamp.ai,True
-28830,revamp,one_liner,AI-Powered Customer Segmentation for eCommerce,AI-Powered Customer Segmentation for eCommerce,True
-28830,revamp,long_description,Revamp helps eCommerce brands and agencies understand customer behavior by creat,Revamp helps eCommerce brands and agencies understand customer behavior by creat,True
-28830,revamp,team_size,3,3.0,True
-28830,revamp,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
-28830,revamp,industry,B2B,B2B,True
-28830,revamp,subindustry,B2B -> Analytics,B2B -> Analytics,True
-28830,revamp,industries,"['B2B', 'Analytics']","['B2B', 'Analytics']",True
-28830,revamp,tags,[],[],True
-28830,revamp,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-28830,revamp,stage,Early,Early,True
-28830,revamp,status,Active,Active,True
-28830,revamp,isHiring,True,True,True
-28830,revamp,nonprofit,False,False,True
-28830,revamp,top_company,False,False,True
-28830,revamp,launched_at,1689724181,1689724181,True
-28830,revamp,former_names,"['Revamp.ai', 'Revamp AI']","['Revamp.ai', 'Revamp AI']",True
-28830,revamp,url,https://www.ycombinator.com/companies/revamp,https://www.ycombinator.com/companies/revamp,True
-28830,revamp,n_year(derived),2023,2023,True
-28830,revamp,n_subindustry_child(derived),Analytics,Analytics,True
-28830,revamp,n_is_us(derived),True,True,True
-25575,beam,name,Beam,Beam,True
-25575,beam,slug,beam,beam,True
-25575,beam,batch,Winter 2022,Winter 2022,True
-25575,beam,website,https://beam.cloud,https://beam.cloud,True
-25575,beam,one_liner,AI-Native Cloud Platform,AI-Native Cloud Platform,True
-25575,beam,long_description,"Beam is cloud platform for AI inference, sandboxes, and agents.","Beam is cloud platform for AI inference, sandboxes, and agents.",True
-25575,beam,team_size,5,5.0,True
-25575,beam,all_locations,"New York City, NY, USA","New York City, NY, USA",True
-25575,beam,industry,B2B,B2B,True
-25575,beam,subindustry,B2B -> Infrastructure,B2B -> Infrastructure,True
-25575,beam,industries,"['B2B', 'Infrastructure']","['B2B', 'Infrastructure']",True
-25575,beam,tags,"['Artificial Intelligence', 'Developer Tools', 'Open Source', 'Cloud Computing']","['Artificial Intelligence', 'Developer Tools', 'Open Source', 'Cloud Computing']",True
-25575,beam,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
-25575,beam,stage,Early,Early,True
-25575,beam,status,Active,Active,True
-25575,beam,isHiring,True,True,True
-25575,beam,nonprofit,False,False,True
-25575,beam,top_company,False,False,True
-25575,beam,launched_at,1641494547,1641494547,True
-25575,beam,former_names,['Slai'],['Slai'],True
-25575,beam,url,https://www.ycombinator.com/companies/beam,https://www.ycombinator.com/companies/beam,True
-25575,beam,n_year(derived),2022,2022,True
-25575,beam,n_subindustry_child(derived),Infrastructure,Infrastructure,True
-25575,beam,n_is_us(derived),True,True,True
-27860,dream3d,name,Dream3D,Dream3D,True
-27860,dream3d,slug,dream3d,dream3d,True
-27860,dream3d,batch,Winter 2023,Winter 2023,True
-27860,dream3d,website,https://dream3d.com,https://dream3d.com,True
-27860,dream3d,one_liner,We build tools to help humanity predict the future.,We build tools to help humanity predict the future.,True
-27860,dream3d,long_description,Dream3D is an AI research lab that builds tools to help humanity predict the fut,Dream3D is an AI research lab that builds tools to help humanity predict the fut,True
-27860,dream3d,team_size,3,3.0,True
-27860,dream3d,all_locations,"New York City, NY, USA","New York City, NY, USA",True
-27860,dream3d,industry,B2B,B2B,True
-27860,dream3d,subindustry,"B2B -> Engineering, Product and Design","B2B -> Engineering, Product and Design",True
-27860,dream3d,industries,"['B2B', 'Engineering, Product and Design']","['B2B', 'Engineering, Product and Design']",True
-27860,dream3d,tags,"['Artificial Intelligence', 'Generative AI', 'Computer Vision']","['Artificial Intelligence', 'Generative AI', 'Computer Vision']",True
-27860,dream3d,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
-27860,dream3d,stage,Early,Early,True
-27860,dream3d,status,Active,Active,True
-27860,dream3d,isHiring,True,True,True
-27860,dream3d,nonprofit,False,False,True
-27860,dream3d,top_company,False,False,True
-27860,dream3d,launched_at,1677865645,1677865645,True
-27860,dream3d,former_names,['MettaSpace'],['MettaSpace'],True
-27860,dream3d,url,https://www.ycombinator.com/companies/dream3d,https://www.ycombinator.com/companies/dream3d,True
-27860,dream3d,n_year(derived),2023,2023,True
-27860,dream3d,n_subindustry_child(derived),"Engineering, Product and Design","Engineering, Product and Design",True
-27860,dream3d,n_is_us(derived),True,True,True
-25946,propelauth,name,PropelAuth,PropelAuth,True
-25946,propelauth,slug,propelauth,propelauth,True
-25946,propelauth,batch,Winter 2022,Winter 2022,True
-25946,propelauth,website,https://www.propelauth.com,https://www.propelauth.com,True
-25946,propelauth,one_liner,Team-based authentication for B2B SaaS,Team-based authentication for B2B SaaS,True
-25946,propelauth,long_description,PropelAuth provides the right level of authentication for all stages of a compan,PropelAuth provides the right level of authentication for all stages of a compan,True
-25946,propelauth,team_size,5,5.0,True
-25946,propelauth,all_locations,"San Francisco, CA, USA; Remote","San Francisco, CA, USA; Remote",True
-25946,propelauth,industry,B2B,B2B,True
-25946,propelauth,subindustry,"B2B -> Engineering, Product and Design","B2B -> Engineering, Product and Design",True
-25946,propelauth,industries,"['B2B', 'Engineering, Product and Design']","['B2B', 'Engineering, Product and Design']",True
-25946,propelauth,tags,"['Developer Tools', 'SaaS', 'B2B', 'Identity']","['Developer Tools', 'SaaS', 'B2B', 'Identity']",True
-25946,propelauth,regions,"['United States of America', 'America / Canada', 'Remote', 'Fully Remote']","['United States of America', 'America / Canada', 'Remote', 'Fully Remote']",True
-25946,propelauth,stage,Early,Early,True
-25946,propelauth,status,Active,Active,True
-25946,propelauth,isHiring,True,True,True
-25946,propelauth,nonprofit,False,False,True
-25946,propelauth,top_company,False,False,True
-25946,propelauth,launched_at,1642107038,1642107038,True
-25946,propelauth,former_names,[],[],True
-25946,propelauth,url,https://www.ycombinator.com/companies/propelauth,https://www.ycombinator.com/companies/propelauth,True
-25946,propelauth,n_year(derived),2022,2022,True
-25946,propelauth,n_subindustry_child(derived),"Engineering, Product and Design","Engineering, Product and Design",True
-25946,propelauth,n_is_us(derived),True,True,True
+Built for AI agents, c",True
+28087,rivet,team_size,5,5.0,True
+28087,rivet,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+28087,rivet,industry,B2B,B2B,True
+28087,rivet,subindustry,B2B -> Infrastructure,B2B -> Infrastructure,True
+28087,rivet,industries,"['B2B', 'Infrastructure']","['B2B', 'Infrastructure']",True
+28087,rivet,tags,"['B2B', 'Open Source', 'Infrastructure']","['B2B', 'Open Source', 'Infrastructure']",True
+28087,rivet,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
+28087,rivet,stage,Early,Early,True
+28087,rivet,status,Active,Active,True
+28087,rivet,isHiring,True,True,True
+28087,rivet,nonprofit,False,False,True
+28087,rivet,top_company,False,False,True
+28087,rivet,launched_at,1675129787,1675129787,True
+28087,rivet,former_names,[],[],True
+28087,rivet,url,https://www.ycombinator.com/companies/rivet,https://www.ycombinator.com/companies/rivet,True
+28087,rivet,n_year(derived),2023,2023,True
+28087,rivet,n_subindustry_child(derived),Infrastructure,Infrastructure,True
+28087,rivet,n_is_us(derived),True,True,True
+25318,wereno,name,WeReno,WeReno,True
+25318,wereno,slug,wereno,wereno,True
+25318,wereno,batch,Winter 2022,Winter 2022,True
+25318,wereno,website,https://WeReno.com,https://WeReno.com,True
+25318,wereno,one_liner,AI owner's representative for commercial construction and renovations.,AI owner's representative for commercial construction and renovations.,True
+25318,wereno,long_description,WeReno is an AI owner's representative that helps building owners plan and manag,WeReno is an AI owner's representative that helps building owners plan and manag,True
+25318,wereno,team_size,12,12.0,True
+25318,wereno,all_locations,"Toronto, ON, Canada","Toronto, ON, Canada",True
+25318,wereno,industry,Real Estate and Construction,Real Estate and Construction,True
+25318,wereno,subindustry,Real Estate and Construction -> Construction,Real Estate and Construction -> Construction,True
+25318,wereno,industries,"['Real Estate and Construction', 'Construction']","['Real Estate and Construction', 'Construction']",True
+25318,wereno,tags,"['Artificial Intelligence', 'Real Estate', 'Construction', 'Proptech']","['Artificial Intelligence', 'Real Estate', 'Construction', 'Proptech']",True
+25318,wereno,regions,"['Canada', 'America / Canada', 'Remote', 'Partly Remote']","['Canada', 'America / Canada', 'Remote', 'Partly Remote']",True
+25318,wereno,stage,Early,Early,True
+25318,wereno,status,Active,Active,True
+25318,wereno,isHiring,False,False,True
+25318,wereno,nonprofit,False,False,True
+25318,wereno,top_company,False,False,True
+25318,wereno,launched_at,1647622736,1647622736,True
+25318,wereno,former_names,"['WeReno', 'Inc.', 'VIDCALL', 'Inc', 'WeReno', 'WeReno (Vidcall', 'Inc.)', 'WeRe","['WeReno', 'Inc.', 'VIDCALL', 'Inc', 'WeReno', 'WeReno (Vidcall', 'Inc.)', 'WeRe",True
+25318,wereno,url,https://www.ycombinator.com/companies/wereno,https://www.ycombinator.com/companies/wereno,True
+25318,wereno,n_year(derived),2022,2022,True
+25318,wereno,n_subindustry_child(derived),Construction,Construction,True
+25318,wereno,n_is_us(derived),False,False,True
+1841,zyper,name,Zyper,Zyper,True
+1841,zyper,slug,zyper,zyper,True
+1841,zyper,batch,Winter 2018,Winter 2018,True
+1841,zyper,website,https://zyper.com/,https://zyper.com/,True
+1841,zyper,one_liner,Recreating social networks for brands. ,Recreating social networks for brands. ,True
+1841,zyper,long_description,Zyper is a machine learning-led community marketing tool that enables brands to ,Zyper is a machine learning-led community marketing tool that enables brands to ,True
+1841,zyper,team_size,35,35.0,True
+1841,zyper,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+1841,zyper,industry,B2B,B2B,True
+1841,zyper,subindustry,B2B -> Marketing,B2B -> Marketing,True
+1841,zyper,industries,"['B2B', 'Marketing']","['B2B', 'Marketing']",True
+1841,zyper,tags,"['Social', 'Networks']","['Social', 'Networks']",True
+1841,zyper,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+1841,zyper,stage,Growth,Growth,True
+1841,zyper,status,Acquired,Acquired,True
+1841,zyper,isHiring,False,False,True
+1841,zyper,nonprofit,False,False,True
+1841,zyper,top_company,False,False,True
+1841,zyper,launched_at,1510221792,1510221792,True
+1841,zyper,former_names,[],[],True
+1841,zyper,url,https://www.ycombinator.com/companies/zyper,https://www.ycombinator.com/companies/zyper,True
+1841,zyper,n_year(derived),2018,2018,True
+1841,zyper,n_subindustry_child(derived),Marketing,Marketing,True
+1841,zyper,n_is_us(derived),True,True,True
+24194,aqua,name,Aqua,Aqua,True
+24194,aqua,slug,aqua,aqua,True
+24194,aqua,batch,Summer 2021,Summer 2021,True
+24194,aqua,website,https://www.investwithaqua.com,https://www.investwithaqua.com,True
+24194,aqua,one_liner,The AI-Native Turnkey Alternative Investment Platform (TAIP),The AI-Native Turnkey Alternative Investment Platform (TAIP),True
+24194,aqua,long_description,One platform to put your alternative assets on autopilot. ,One platform to put your alternative assets on autopilot. ,True
+24194,aqua,team_size,34,34.0,True
+24194,aqua,all_locations,"New York City, NY, USA","New York City, NY, USA",True
+24194,aqua,industry,Fintech,Fintech,True
+24194,aqua,subindustry,Fintech,Fintech,True
+24194,aqua,industries,['Fintech'],['Fintech'],True
+24194,aqua,tags,"['Fintech', 'Finance', 'Investing', 'Investments']","['Fintech', 'Finance', 'Investing', 'Investments']",True
+24194,aqua,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
+24194,aqua,stage,Early,Early,True
+24194,aqua,status,Active,Active,True
+24194,aqua,isHiring,True,True,True
+24194,aqua,nonprofit,False,False,True
+24194,aqua,top_company,False,False,True
+24194,aqua,launched_at,1629758458,1629758458,True
+24194,aqua,former_names,[],[],True
+24194,aqua,url,https://www.ycombinator.com/companies/aqua,https://www.ycombinator.com/companies/aqua,True
+24194,aqua,n_year(derived),2021,2021,True
+24194,aqua,n_subindustry_child(derived),,nan,True
+24194,aqua,n_is_us(derived),True,True,True
+12643,outtalent,name,Outtalent,Outtalent,True
+12643,outtalent,slug,outtalent,outtalent,True
+12643,outtalent,batch,Summer 2019,Summer 2019,True
+12643,outtalent,website,http://outtalent.com,http://outtalent.com,True
+12643,outtalent,one_liner,We help top engineers from emerging markets get jobs abroad at…,We help top engineers from emerging markets get jobs abroad at…,True
+12643,outtalent,long_description,"We started Outtalent because we believe that talent is equally distributed, but ","We started Outtalent because we believe that talent is equally distributed, but ",True
+12643,outtalent,team_size,8,8.0,True
+12643,outtalent,all_locations,"Bishkek, Chuy Province, Kyrgyzstan","Bishkek, Chuy Province, Kyrgyzstan",True
+12643,outtalent,industry,Education,Education,True
+12643,outtalent,subindustry,Education,Education,True
+12643,outtalent,industries,['Education'],['Education'],True
+12643,outtalent,tags,"['Education', 'Recruiting', 'Emerging Markets']","['Education', 'Recruiting', 'Emerging Markets']",True
+12643,outtalent,regions,"['Kyrgyzstan', 'Asia', 'Remote', 'Partly Remote']","['Kyrgyzstan', 'Asia', 'Remote', 'Partly Remote']",True
+12643,outtalent,stage,Early,Early,True
+12643,outtalent,status,Active,Active,True
+12643,outtalent,isHiring,False,False,True
+12643,outtalent,nonprofit,False,False,True
+12643,outtalent,top_company,False,False,True
+12643,outtalent,launched_at,1556761338,1556761338,True
+12643,outtalent,former_names,"['Asterisk', 'Outtalent (was Asterisk)']","['Asterisk', 'Outtalent (was Asterisk)']",True
+12643,outtalent,url,https://www.ycombinator.com/companies/outtalent,https://www.ycombinator.com/companies/outtalent,True
+12643,outtalent,n_year(derived),2019,2019,True
+12643,outtalent,n_subindustry_child(derived),,nan,True
+12643,outtalent,n_is_us(derived),False,False,True
+1795,sourcify,name,Sourcify,Sourcify,True
+1795,sourcify,slug,sourcify,sourcify,True
+1795,sourcify,batch,Winter 2018,Winter 2018,True
+1795,sourcify,website,https://www.sourcify.com/,https://www.sourcify.com/,True
+1795,sourcify,one_liner,Sourcify helps brands manufacture products in Asia.,Sourcify helps brands manufacture products in Asia.,True
+1795,sourcify,long_description,Sourcify is a profitable high growth sourcing platform that helps ecommerce bran,Sourcify is a profitable high growth sourcing platform that helps ecommerce bran,True
+1795,sourcify,team_size,15,15.0,True
+1795,sourcify,all_locations,"Salt Lake City, UT, USA; San Diego, CA, USA; Remote","Salt Lake City, UT, USA; San Diego, CA, USA; Remote",True
+1795,sourcify,industry,B2B,B2B,True
+1795,sourcify,subindustry,B2B -> Retail,B2B -> Retail,True
+1795,sourcify,industries,"['B2B', 'Retail']","['B2B', 'Retail']",True
+1795,sourcify,tags,"['Manufacturing', 'Supply Chain']","['Manufacturing', 'Supply Chain']",True
+1795,sourcify,regions,"['United States of America', 'America / Canada', 'Remote', 'Fully Remote']","['United States of America', 'America / Canada', 'Remote', 'Fully Remote']",True
+1795,sourcify,stage,Early,Early,True
+1795,sourcify,status,Active,Active,True
+1795,sourcify,isHiring,True,True,True
+1795,sourcify,nonprofit,False,False,True
+1795,sourcify,top_company,False,False,True
+1795,sourcify,launched_at,1510030960,1510030960,True
+1795,sourcify,former_names,[],[],True
+1795,sourcify,url,https://www.ycombinator.com/companies/sourcify,https://www.ycombinator.com/companies/sourcify,True
+1795,sourcify,n_year(derived),2018,2018,True
+1795,sourcify,n_subindustry_child(derived),Retail,Retail,True
+1795,sourcify,n_is_us(derived),True,True,True
+31511,arzana,name,Arzana,Arzana,True
+31511,arzana,slug,arzana,arzana,True
+31511,arzana,batch,Spring 2026,Spring 2026,True
+31511,arzana,website,https://www.arzana.com/,https://www.arzana.com/,True
+31511,arzana,one_liner,The autonomous ERP for every manufacturer,The autonomous ERP for every manufacturer,True
+31511,arzana,long_description,Arzana trains custom models on manufacturers' operational data to automate their,Arzana trains custom models on manufacturers' operational data to automate their,True
+31511,arzana,team_size,6,6.0,True
+31511,arzana,all_locations,"New York City, NY, USA","New York City, NY, USA",True
+31511,arzana,industry,B2B,B2B,True
+31511,arzana,subindustry,B2B -> Operations,B2B -> Operations,True
+31511,arzana,industries,"['B2B', 'Operations']","['B2B', 'Operations']",True
+31511,arzana,tags,[],[],True
+31511,arzana,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+31511,arzana,stage,Early,Early,True
+31511,arzana,status,Active,Active,True
+31511,arzana,isHiring,True,True,True
+31511,arzana,nonprofit,False,False,True
+31511,arzana,top_company,False,False,True
+31511,arzana,launched_at,1773098013,1773098013,True
+31511,arzana,former_names,[],[],True
+31511,arzana,url,https://www.ycombinator.com/companies/arzana,https://www.ycombinator.com/companies/arzana,True
+31511,arzana,n_year(derived),2026,2026,True
+31511,arzana,n_subindustry_child(derived),Operations,Operations,True
+31511,arzana,n_is_us(derived),True,True,True
+29429,velorum-therapeutics,name,Velorum Therapeutics,Velorum Therapeutics,True
+29429,velorum-therapeutics,slug,velorum-therapeutics,velorum-therapeutics,True
+29429,velorum-therapeutics,batch,Winter 2024,Winter 2024,True
+29429,velorum-therapeutics,website,https://www.velorumtx.com/,https://www.velorumtx.com/,True
+29429,velorum-therapeutics,one_liner,Breakthrough medicines unlocking the biology of heme,Breakthrough medicines unlocking the biology of heme,True
+29429,velorum-therapeutics,long_description,Velorum Therapeutics is developing breakthrough medicines by unlocking the biolo,Velorum Therapeutics is developing breakthrough medicines by unlocking the biolo,True
+29429,velorum-therapeutics,team_size,5,5.0,True
+29429,velorum-therapeutics,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+29429,velorum-therapeutics,industry,Healthcare,Healthcare,True
+29429,velorum-therapeutics,subindustry,Healthcare -> Therapeutics,Healthcare -> Therapeutics,True
+29429,velorum-therapeutics,industries,"['Healthcare', 'Therapeutics']","['Healthcare', 'Therapeutics']",True
+29429,velorum-therapeutics,tags,"['Biotech', 'Healthcare', 'Therapeutics', 'Drug discovery', 'Oncology']","['Biotech', 'Healthcare', 'Therapeutics', 'Drug discovery', 'Oncology']",True
+29429,velorum-therapeutics,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+29429,velorum-therapeutics,stage,Early,Early,True
+29429,velorum-therapeutics,status,Active,Active,True
+29429,velorum-therapeutics,isHiring,False,False,True
+29429,velorum-therapeutics,nonprofit,False,False,True
+29429,velorum-therapeutics,top_company,False,False,True
+29429,velorum-therapeutics,launched_at,1706719304,1706719304,True
+29429,velorum-therapeutics,former_names,[],[],True
+29429,velorum-therapeutics,url,https://www.ycombinator.com/companies/velorum-therapeutics,https://www.ycombinator.com/companies/velorum-therapeutics,True
+29429,velorum-therapeutics,n_year(derived),2024,2024,True
+29429,velorum-therapeutics,n_subindustry_child(derived),Therapeutics,Therapeutics,True
+29429,velorum-therapeutics,n_is_us(derived),True,True,True
+12260,axdraft,name,AXDRAFT,AXDRAFT,True
+12260,axdraft,slug,axdraft,axdraft,True
+12260,axdraft,batch,Winter 2019,Winter 2019,True
+12260,axdraft,website,https://axdraft.com,https://axdraft.com,True
+12260,axdraft,one_liner,"AXDRAFT helps corporations draft, negotiate and approve documents 10x…","AXDRAFT helps corporations draft, negotiate and approve documents 10x…",True
+12260,axdraft,long_description,AXDRAFT analyzes patterns in your legal documents and transforms drafting proces,AXDRAFT analyzes patterns in your legal documents and transforms drafting proces,True
+12260,axdraft,team_size,34,34.0,True
+12260,axdraft,all_locations,"Kyiv, Ukraine; Frankfurt, HE, Germany; Lviv, Lviv Oblast, Ukraine","Kyiv, Ukraine; Frankfurt, HE, Germany; Lviv, Lviv Oblast, Ukraine",True
+12260,axdraft,industry,B2B,B2B,True
+12260,axdraft,subindustry,B2B -> Legal,B2B -> Legal,True
+12260,axdraft,industries,"['B2B', 'Legal']","['B2B', 'Legal']",True
+12260,axdraft,tags,"['Machine Learning', 'SaaS', 'LegalTech']","['Machine Learning', 'SaaS', 'LegalTech']",True
+12260,axdraft,regions,"['Ukraine', 'Germany', 'Europe', 'Remote', 'Partly Remote']","['Ukraine', 'Germany', 'Europe', 'Remote', 'Partly Remote']",True
+12260,axdraft,stage,Early,Early,True
+12260,axdraft,status,Acquired,Acquired,True
+12260,axdraft,isHiring,False,False,True
+12260,axdraft,nonprofit,False,False,True
+12260,axdraft,top_company,False,False,True
+12260,axdraft,launched_at,1543978964,1543978964,True
+12260,axdraft,former_names,[],[],True
+12260,axdraft,url,https://www.ycombinator.com/companies/axdraft,https://www.ycombinator.com/companies/axdraft,True
+12260,axdraft,n_year(derived),2019,2019,True
+12260,axdraft,n_subindustry_child(derived),Legal,Legal,True
+12260,axdraft,n_is_us(derived),False,False,True
+433,bufferbox,name,BufferBox,BufferBox,True
+433,bufferbox,slug,bufferbox,bufferbox,True
+433,bufferbox,batch,Summer 2012,Summer 2012,True
+433,bufferbox,website,http://bufferbox.com,http://bufferbox.com,True
+433,bufferbox,one_liner,The future of package delivery. We are building a network of…,The future of package delivery. We are building a network of…,True
+433,bufferbox,long_description,BufferBox® Inc. is an innovation driven technology company that specializes in t,BufferBox® Inc. is an innovation driven technology company that specializes in t,True
+433,bufferbox,team_size,2,2.0,True
+433,bufferbox,all_locations,"Waterloo, ON, Canada","Waterloo, ON, Canada",True
+433,bufferbox,industry,Consumer,Consumer,True
+433,bufferbox,subindustry,Consumer -> Home and Personal,Consumer -> Home and Personal,True
+433,bufferbox,industries,"['Consumer', 'Home and Personal']","['Consumer', 'Home and Personal']",True
+433,bufferbox,tags,['E-commerce'],['E-commerce'],True
+433,bufferbox,regions,"['Canada', 'America / Canada']","['Canada', 'America / Canada']",True
+433,bufferbox,stage,Early,Early,True
+433,bufferbox,status,Acquired,Acquired,True
+433,bufferbox,isHiring,False,False,True
+433,bufferbox,nonprofit,False,False,True
+433,bufferbox,top_company,False,False,True
+433,bufferbox,launched_at,1336096890,1336096890,True
+433,bufferbox,former_names,['Bufferbox'],['Bufferbox'],True
+433,bufferbox,url,https://www.ycombinator.com/companies/bufferbox,https://www.ycombinator.com/companies/bufferbox,True
+433,bufferbox,n_year(derived),2012,2012,True
+433,bufferbox,n_subindustry_child(derived),Home and Personal,Home and Personal,True
+433,bufferbox,n_is_us(derived),False,False,True
+50,flutter,name,Flutter,Flutter,True
+50,flutter,slug,flutter,flutter,True
+50,flutter,batch,Winter 2012,Winter 2012,True
+50,flutter,website,http://flutterapp.com,http://flutterapp.com,True
+50,flutter,one_liner,Flutter combined computer vision technology with the built-in webcams…,Flutter combined computer vision technology with the built-in webcams…,True
+50,flutter,long_description,Flutter is recreating the magic of seeing someone in real-life for the first tim,Flutter is recreating the magic of seeing someone in real-life for the first tim,True
+50,flutter,team_size,2,2.0,True
+50,flutter,all_locations,"Los Angeles, CA, USA; Santa Monica, CA, USA","Los Angeles, CA, USA; Santa Monica, CA, USA",True
+50,flutter,industry,B2B,B2B,True
+50,flutter,subindustry,"B2B -> Engineering, Product and Design","B2B -> Engineering, Product and Design",True
+50,flutter,industries,"['B2B', 'Engineering, Product and Design']","['B2B', 'Engineering, Product and Design']",True
+50,flutter,tags,['Computer Vision'],['Computer Vision'],True
+50,flutter,regions,"['United States of America', 'America / Canada']","['United States of America', 'America / Canada']",True
+50,flutter,stage,Early,Early,True
+50,flutter,status,Acquired,Acquired,True
+50,flutter,isHiring,False,False,True
+50,flutter,nonprofit,False,False,True
+50,flutter,top_company,False,False,True
+50,flutter,launched_at,1322045950,1322045950,True
+50,flutter,former_names,[],[],True
+50,flutter,url,https://www.ycombinator.com/companies/flutter,https://www.ycombinator.com/companies/flutter,True
+50,flutter,n_year(derived),2012,2012,True
+50,flutter,n_subindustry_child(derived),"Engineering, Product and Design","Engineering, Product and Design",True
+50,flutter,n_is_us(derived),True,True,True
+30914,sunflower,name,Sunflower,Sunflower,True
+30914,sunflower,slug,sunflower,sunflower,True
+30914,sunflower,batch,Summer 2026,Summer 2026,True
+30914,sunflower,website,https://sunflowerclinic.com/,https://sunflowerclinic.com/,True
+30914,sunflower,one_liner,We are building an AI-native telemedicine clinic for addiction. 🌻,We are building an AI-native telemedicine clinic for addiction. 🌻,True
+30914,sunflower,long_description,Sunflower is building an AI-native telemedicine clinic for addiction. There are ,Sunflower is building an AI-native telemedicine clinic for addiction. There are ,True
+30914,sunflower,team_size,15,15.0,True
+30914,sunflower,all_locations,"San Francisco, CA, USA","San Francisco, CA, USA",True
+30914,sunflower,industry,Healthcare,Healthcare,True
+30914,sunflower,subindustry,Healthcare -> Healthcare Services,Healthcare -> Healthcare Services,True
+30914,sunflower,industries,"['Healthcare', 'Healthcare Services']","['Healthcare', 'Healthcare Services']",True
+30914,sunflower,tags,[],[],True
+30914,sunflower,regions,"['United States of America', 'America / Canada', 'Remote', 'Partly Remote']","['United States of America', 'America / Canada', 'Remote', 'Partly Remote']",True
+30914,sunflower,stage,Early,Early,True
+30914,sunflower,status,Active,Active,True
+30914,sunflower,isHiring,True,True,True
+30914,sunflower,nonprofit,False,False,True
+30914,sunflower,top_company,False,False,True
+30914,sunflower,launched_at,1757558729,1757558729,True
+30914,sunflower,former_names,[],[],True
+30914,sunflower,url,https://www.ycombinator.com/companies/sunflower,https://www.ycombinator.com/companies/sunflower,True
+30914,sunflower,n_year(derived),2026,2026,True
+30914,sunflower,n_subindustry_child(derived),Healthcare Services,Healthcare Services,True
+30914,sunflower,n_is_us(derived),True,True,True

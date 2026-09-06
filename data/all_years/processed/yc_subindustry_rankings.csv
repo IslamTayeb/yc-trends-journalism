@@ -1,0 +1,60 @@
+subindustry,rank_earliest_year,rank_latest,rank_change,earliest_year_share_pct,latest_share_pct,pp_change,earliest_year_count,latest_count,latest_full_batch,major_mover
+B2B,2,1,1,11.111,17.447,6.336,1,41,Summer 2026,True
+B2B -> Infrastructure,2,2,0,11.111,10.638,-0.473,1,25,Summer 2026,False
+Industrials -> Manufacturing and Robotics,9,3,6,0.0,10.213,10.213,0,24,Summer 2026,True
+Industrials,9,4,5,0.0,5.957,5.957,0,14,Summer 2026,True
+"B2B -> Engineering, Product and Design",9,4,5,0.0,5.957,5.957,0,14,Summer 2026,True
+Healthcare,9,6,3,0.0,5.106,5.106,0,12,Summer 2026,True
+Industrials -> Defense,9,7,2,0.0,3.83,3.83,0,9,Summer 2026,True
+B2B -> Supply Chain and Logistics,9,8,1,0.0,3.404,3.404,0,8,Summer 2026,True
+B2B -> Security,2,9,-7,11.111,2.979,-8.132,1,7,Summer 2026,True
+B2B -> Operations,9,10,-1,0.0,2.553,2.553,0,6,Summer 2026,False
+B2B -> Finance and Accounting,9,10,-1,0.0,2.553,2.553,0,6,Summer 2026,False
+Consumer,9,10,-1,0.0,2.553,2.553,0,6,Summer 2026,False
+Fintech,9,10,-1,0.0,2.553,2.553,0,6,Summer 2026,False
+Fintech -> Insurance,9,14,-5,0.0,2.128,2.128,0,5,Summer 2026,True
+B2B -> Analytics,2,14,-12,11.111,2.128,-8.983,1,5,Summer 2026,True
+B2B -> Productivity,2,16,-14,11.111,1.702,-9.409,1,4,Summer 2026,True
+Healthcare -> Drug Discovery and Delivery,9,17,-8,0.0,1.277,1.277,0,3,Summer 2026,True
+Fintech -> Asset Management,9,17,-8,0.0,1.277,1.277,0,3,Summer 2026,True
+Industrials -> Aviation and Space,9,17,-8,0.0,1.277,1.277,0,3,Summer 2026,True
+Real Estate and Construction -> Construction,9,17,-8,0.0,1.277,1.277,0,3,Summer 2026,True
+Industrials -> Energy,9,17,-8,0.0,1.277,1.277,0,3,Summer 2026,True
+Real Estate and Construction -> Housing and Real Estate,9,17,-8,0.0,1.277,1.277,0,3,Summer 2026,True
+Industrials -> Climate,9,23,-14,0.0,0.851,0.851,0,2,Summer 2026,True
+Consumer -> Gaming,9,23,-14,0.0,0.851,0.851,0,2,Summer 2026,True
+Consumer -> Content,2,23,-21,11.111,0.851,-10.26,1,2,Summer 2026,True
+Healthcare -> Consumer Health and Wellness,9,23,-14,0.0,0.851,0.851,0,2,Summer 2026,True
+B2B -> Sales,9,23,-14,0.0,0.851,0.851,0,2,Summer 2026,True
+Government,9,23,-14,0.0,0.851,0.851,0,2,Summer 2026,True
+Healthcare -> Healthcare Services,9,23,-14,0.0,0.851,0.851,0,2,Summer 2026,True
+Healthcare -> Therapeutics,9,30,-21,0.0,0.426,0.426,0,1,Summer 2026,True
+Industrials -> Agriculture,9,30,-21,0.0,0.426,0.426,0,1,Summer 2026,True
+Fintech -> Consumer Finance,2,30,-28,11.111,0.426,-10.685,1,1,Summer 2026,True
+Fintech -> Banking and Exchange,9,30,-21,0.0,0.426,0.426,0,1,Summer 2026,True
+Healthcare -> Healthcare IT,9,30,-21,0.0,0.426,0.426,0,1,Summer 2026,True
+Education,9,30,-21,0.0,0.426,0.426,0,1,Summer 2026,True
+B2B -> Marketing,9,30,-21,0.0,0.426,0.426,0,1,Summer 2026,True
+B2B -> Recruiting and Talent,9,30,-21,0.0,0.426,0.426,0,1,Summer 2026,True
+B2B -> Retail,9,30,-21,0.0,0.426,0.426,0,1,Summer 2026,True
+Consumer -> Job and Career Services,9,30,-21,0.0,0.426,0.426,0,1,Summer 2026,True
+B2B -> Legal,9,30,-21,0.0,0.426,0.426,0,1,Summer 2026,True
+B2B -> Human Resources,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+Consumer -> Apparel and Cosmetics,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+B2B -> Office Management,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+"Consumer -> Travel, Leisure and Tourism",9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+Consumer -> Transportation Services,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+Consumer -> Social,1,41,-40,22.222,0.0,-22.222,2,0,Summer 2026,True
+Consumer -> Home and Personal,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+Consumer -> Food and Beverage,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+Consumer -> Consumer Electronics,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+Consumer -> Virtual and Augmented Reality,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+Fintech -> Credit and Lending,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+Healthcare -> Diagnostics,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+Fintech -> Payments,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+Healthcare -> Medical Devices,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+Healthcare -> Industrial Bio,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+Industrials -> Automotive,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+Industrials -> Drones,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+Real Estate and Construction,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True
+Unspecified,9,41,-32,0.0,0.0,0.0,0,0,Summer 2026,True

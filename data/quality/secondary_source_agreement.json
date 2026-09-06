@@ -1,8 +1,8 @@
 {
- "companies_selected": 3729,
- "in_secondary": 3270,
- "coverage_pct": 87.69,
- "tags_identical_pct": 75.78,
- "industry_identical_pct": 97.68,
- "subindustry_identical_pct": 94.86
+ "companies_selected": 6202,
+ "in_secondary": 5741,
+ "coverage_pct": 92.57,
+ "tags_identical_pct": 85.18,
+ "industry_identical_pct": 98.54,
+ "subindustry_identical_pct": 96.73
 }
