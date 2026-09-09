@@ -371,7 +371,7 @@ def fig_trends(g, embed):
     top = s.header("§ Fig 3  ·  Search interest", "b",
                    "Searches for “gpt” barely registered around GPT-3, then took off after ChatGPT",
                    "Google Trends, worldwide web search, monthly, Sep 2018 to Sep 2026. Each row is indexed to its own peak.")
-    x0, x1 = 56, W - 32
+    x0, x1 = 56, W - GUTTER                      # same plot width as Fig 1 and 2; term labels sit in the gutter
     ph, gap, y_top = 112, 32, top + 36
     n = len(g)
     X = lambda i: x0 + i / (n - 1) * (x1 - x0)
@@ -393,7 +393,7 @@ def fig_trends(g, embed):
         xs, ys = [X(i) for i in range(n)], [Y(v) for v in vals]
         s.path(polyline(xs, ys) + f" L{xs[-1]:.1f},{Y(0):.1f} L{xs[0]:.1f},{Y(0):.1f} Z", f"area f-{tok}", 0, extra=' stroke="none"')
         s.path(polyline(xs, ys), f"ln s-{tok}", 2, title=f'"{term}" search interest')
-        s.text(x0 + 8, py0 + 16, f"“{term}”", f"lab mono f-{tok}")
+        s.text(x1 + 19, ys[-1] + 4.5, f"“{term}”", f"lab mono f-{tok}")
     for i, m in enumerate(g.month):
         if m.endswith("-01"):
             s.text(X(i), bottom + 20, m[:4], "tick mono m", "middle")
