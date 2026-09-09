@@ -31,11 +31,10 @@ W, MARGIN, GUTTER = 768, 24, 132              # GUTTER: right-hand space for dir
 CAP_LH, DEK_LH, H_LH = 19, 19, 26             # line heights for caption, dek, headline
 FONT_FILES = {"regular": FONTS / "OpenSans-Regular.ttf", "semibold": FONTS / "OpenSans-SemiBold.ttf",
               "bold": FONTS / "OpenSans-Bold.ttf", "mono": Path("/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf")}
-SEC = {"Fintech": "r"}                          # next-largest label takes the remaining usable ROYB token, translucent
-OTHER = {"Healthcare": "#059669", "Consumer": "#7c3aed", "Education": "#0d9488",
-         "Real Estate and Construction": "#d926a9", "Government": "#65a30d"}
-# with Fintech's red these sit ~45 degrees apart around the wheel (red, magenta, violet, teal, emerald, lime), skipping the
-# blue and orange bands reserved for B2B and Industrials; saturated hues that recede by opacity, not by desaturating
+SEC = {}                                     # highlighted-only ROYB tokens; every other series has its own hex below
+OTHER = {"Healthcare": "#22795e", "Consumer": "#855ec9", "Education": "#287972", "Real Estate and Construction": "#b54a98", "Government": "#60852b", "Fintech": "#ca4b4f"}
+# hues ~45 degrees apart (red, magenta, violet, teal, emerald, lime), skipping the blue and orange bands reserved for B2B and
+# Industrials; saturation at 60% of the source hues, then drawn at ALPHA opacity
 OTHER_CSS = "".join(f".imt .d{i}{{stroke:{c}}}.imt .dt{i}{{fill:{c}}}" for i, c in enumerate(OTHER.values()))
 ALPHA = {n: .45 for n in GRAY}
 
@@ -302,7 +301,7 @@ def fig_share(t, embed):
     # direct labels at the right edge, nudged apart, with a leader where a label had to move
     names = list(HI) + GRAY
     ends = [Y(series(n).iloc[-1].share_pct) for n in names]
-    lys = spread(ends, 16, y0, y1)
+    lys = spread(ends, 20, y0, y1)   # fans the cluster up into the gap below B2B; leaders point back to each line
     end_labels(s, names, ends, lys, X(npos - 1))
     s.footer(y1 + 46, ["A batch is one YC intake of startups; ticks mark batches, years their first batch (two a year to 2023,",
                        "three in 2024, four from 2025). Dashed: least-squares fits split at the ChatGPT rule, in points per year.",
@@ -314,12 +313,12 @@ def end_labels(s, names, ends, lys, xr):
     """Direct labels to the right of the last point (at xr), with a short leader where a label had to move."""
     for name, ye, yl in zip(names, ends, lys):
         tok = HI.get(name)
-        if abs(yl - ye) > 2:
-            s.line(xr + 5, ye, xr + 10, yl, f"s-{tok}" if tok else style(name)[0], 0.9)
+        op = "" if tok else f' opacity="{max(style(name)[3], .8)}"'
+        if abs(yl - ye) > 2:   # leader: short horizontal stub, then a diagonal to the label, same opacity as the label
+            s.path(f"M{xr + 5:.1f},{ye:.1f} H{xr + 8:.1f} L{xr + 15:.1f},{yl:.1f}", f"ln {f's-{tok}' if tok else style(name)[0]}", 1, extra=op)
         label = SHORT.get(name, name)
-        s.text(xr + 13, yl + 4.5, label, f"lab f-{tok}" if tok else f"labr {style(name)[1]}",
-               extra="" if tok else f' opacity="{max(style(name)[3], .8)}"')
-        assert xr + 13 + text_w(label, 14, "semibold") <= s.w - 8, label
+        s.text(xr + 19, yl + 4.5, label, f"lab f-{tok}" if tok else f"labr {style(name)[1]}", extra=op)
+        assert xr + 19 + text_w(label, 14, "semibold") <= s.w - 8, label
 
 
 # ---------------------------------------------------------------- figure 2: rank bump chart
