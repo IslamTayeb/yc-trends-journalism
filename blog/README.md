@@ -41,35 +41,14 @@ elements, so hovering shows batch, label and value when inline. No scripts, no e
 
 ## Series and colours
 
-Fig 1 shows five of YC's eight top-level labels. The window has a natural cut after five: B2B 2492 companies,
-Fintech 529, Healthcare 501, Consumer 428, Industrials 362, then Real Estate 113, Education 80, Government 30. The three
-context lines are the labels Industrials overtook, so they carry the story; the other three are in the CSV and in Fig 2.
-Line charts with more than five series turn into spaghetti (Datawrapper's guidance is 4 to 5 lines and at most 7 colours).
-
-| series | role | light | dark |
-|---|---|---|---|
-| B2B | highlight | `--roy-b` #0074c9 | same |
-| Industrials | highlight | `--roy-o` #ee7b00 | same |
-| Fintech | context, 0.7 opacity | #e11d48 | #e11d48 |
-| Healthcare | context, 0.7 opacity | #0f9d8a | #12a594 |
-| Consumer | context, 0.7 opacity | #8b5cf6 | #9f7aea |
-| Real Estate, Education, Government | background, Fig 2 only, 0.45 opacity | `--muted-foreground` | same |
-
-The three context hues were picked with a palette validator (OKLCH lightness band, chroma floor, colour-vision-deficiency
-and normal-vision separation, contrast) against the two brand colours, all pairs, in both modes. The site's red
-(#f52027) fails against the brand orange (too close for normal vision) and Fintech crosses Industrials in 2024 to 2026,
-so Fintech takes rose. Dark mode uses its own lighter step per hue rather than the light value.
-
-Sizing follows the site, measured 2026-09-09: the article column is `max-w-3xl` (768 px), body copy is 16 px Open Sans,
-figcaptions 14 px, h3 20 px. The SVGs use `viewBox` 768 × H with `width="100%"`, so inline in the column one SVG unit is
-one CSS pixel and the type renders at its nominal size: headline 20 px semibold, dek and caption 14 px, series labels
-14 px semibold, ticks, slope labels and source 12 px mono. Nothing is below 12 px. Headline and dek are wrapped by
-measuring the Open Sans TTFs in `fonts/`, so the script fails rather than clipping if copy gets longer.
-
-Embed as **inline SVG** in a `<figure class="article-media article-media-unframed">`. The site's `figure img` rule
-paints a fixed `#fafafa` 10 px frame, which would show as a white border in dark mode and would shrink the figure to
-748 px; inline SVG gets the full column and the figure's own themed ground. `figures/preview.html` shows the figures
-between paragraphs at the site's 16 px / 1.625 body rhythm.
+Fig 1 shows the five largest labels in the latest full batch (Summer 2026): B2B, Industrials, Healthcare, Fintech,
+Consumer. Fig 2 shows rank rows #1 to #5 plus a "#6+" row and draws every label that reaches the top five in a full
+batch (the same five). Only B2B and Industrials carry colour (`--roy-b`, `--roy-o`); everything else is one muted gray
+(`--muted-foreground` at 0.5 opacity, 1.6px) identified by its right-hand label. That is the Datawrapper / Economist
+convention for "one story, several context lines": more than five series turns into spaghetti, and colouring context
+lines makes readers hunt for meaning that is not there. A validated three-hue alternative (rose, teal, violet) is kept
+in `CONTEXT` in the script behind the `GRAY_ALL` switch, with its own dark-mode steps, in case a coloured version is
+ever wanted; the site's red was rejected for it because it is too close to the brand orange.
 
 ## Data notes
 

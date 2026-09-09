@@ -40,12 +40,16 @@ CONTEXT_CSS = "".join(f".imt .c{i}{{stroke:{lt}}}.imt .ct{i}{{fill:{lt}}}" for i
 CONTEXT_DARK = "".join(f".c{i}{{stroke:{dk}}}.ct{i}{{fill:{dk}}}" for i, (_, dk) in enumerate(CONTEXT.values()))
 
 
+GRAY_ALL = True   # every non-highlighted series in one muted gray (Datawrapper/Economist practice); CONTEXT hues kept for reference
+TOP_N = 5         # Fig 1: the N largest labels in the latest full batch; Fig 2: rank rows 1..N plus an "N+1 and below" row
+
+
 def style(name):
     """(stroke class, fill class, width, opacity) for a non-highlighted series."""
-    if name in CONTEXT:
+    if name in CONTEXT and not GRAY_ALL:
         i = list(CONTEXT).index(name)
         return f"c{i}", f"ct{i}", 2.0, .7
-    return "bg", "bgt", 1.6, .45
+    return "bg", "bgt", 1.6, .5
 
 
 # ---------------------------------------------------------------- data
@@ -288,7 +292,12 @@ def fig_share(t, embed):
     s.line(xe, y0 - 8, xe, y1, "ev")
     s.text(xe + 6, y0 + 4, "ChatGPT · Nov 2022", "tick mono")
     series = lambda name: t[t.industry == name].sort_values("pos")
-    for name in CONTEXT:
+    last_full = t[(~t.is_partial_batch) & (t.industry != "Unspecified")]
+    last_full = last_full[last_full.batch_order == last_full.batch_order.max()].sort_values("share_pct", ascending=False)
+    shown = list(last_full.industry.head(TOP_N))
+    assert all(h in shown for h in HI), shown
+    context = [n for n in shown if n not in HI]
+    for name in context:
         d = series(name)
         sc, _, w, al = style(name)
         s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln {sc}", w, title=name, extra=f' opacity="{al}"')
@@ -314,7 +323,7 @@ def fig_share(t, embed):
             s.dot(X(r.pos), Y(r.share_pct), 4.2, f"s-{tok} hollow",
                   f"{r.batch_code} · {name} · {r.share_pct:.1f}% ({r['count']} of {r.total_companies})")
     # direct labels at the right edge, nudged apart, with a leader where a label had to move
-    names = list(HI) + list(CONTEXT)
+    names = list(HI) + context
     ends = [Y(series(n).iloc[-1].share_pct) for n in names]
     lys = spread(ends, 22, y0, y1)   # fans the cluster up into the gap below B2B; leaders point back to each line
     end_labels(s, names, ends, lys, X(npos - 1))
@@ -341,22 +350,25 @@ def fig_rank(t, embed):
     top = s.header("§ Fig 2  ·  Industry rank per batch", "o",
                    "Industrials went from YC's fifth-largest industry label to its second",
                    "Rank of the eight top-level industry labels by company count within each batch, Winter 2019 to Fall 2026.")
-    x0, x1, y0 = 60, W - GUTTER, top + 40
-    y1 = y0 + 280                                   # 40 px per rank step
+    x0, x1, y0 = 64, W - GUTTER, top + 40
+    y1 = y0 + 46 * TOP_N                            # 46 px per rank step, last row is "N+1 and below"
     named = t[t.industry != "Unspecified"]
     batches = named.drop_duplicates("batch_code").sort_values("pos")
     npos = len(batches)
     X = lambda p: x0 + p / (npos - 1) * (x1 - x0)
-    Y = lambda r: y0 + (r - 1) / 7 * (y1 - y0)
-    for r in range(1, 8):
+    Y = lambda r: y0 + (min(int(r), TOP_N + 1) - 1) / TOP_N * (y1 - y0)
+    for r in range(1, TOP_N + 1):
         s.line(x0, Y(r), x1, Y(r), "grid")
-    for r in range(1, 9):
         s.text(x0 - 12, Y(r) + 4, f"#{r}", "tick mono m", "end")
+    s.text(x0 - 12, Y(TOP_N + 1) + 4, f"#{TOP_N + 1}+", "tick mono m", "end")
     year_axis(s, y1, x0, x1, [(X(b.pos), b.start_month[:4] if b.start_month.endswith("-01") else None) for _, b in batches.iterrows()])
     xe = X(month_pos(t, "S22", "W23", "2022-11"))
     s.line(xe, y0 - 26, xe, y1, "ev")
     s.text(xe + 6, y0 - 16, "ChatGPT · Nov 2022", "tick mono")
-    for name in BACKGROUND + list(CONTEXT) + list(HI):
+    reach = named[~named.is_partial_batch].groupby("industry")["rank"].min()   # full batches only
+    shown = [n for n in BACKGROUND + list(CONTEXT) if reach[n] <= TOP_N] + list(HI)   # every label that ever makes the top N
+    ends = []
+    for name in shown:
         d = named[named.industry == name].sort_values("pos")
         tok = HI.get(name)
         xs, ys = [X(p) for p in d.pos], [Y(r) for r in d["rank"]]
@@ -369,8 +381,12 @@ def fig_rank(t, embed):
             sc, _, w, al = style(name)
             s.path(scurve(xs, ys), f"ln {sc}", w + 0.2, title=name, extra=f' opacity="{al}"')
         r1 = d.iloc[-1]["rank"]
-        end_labels(s, [name], [Y(r1)], [Y(r1)], x1)
-    s.footer(y1 + 48, ["Each tick is one batch. A hollow dot is a batch with under 50 companies."], SOURCE_YC)
+        ends.append((name, Y(r1)))
+    names = [n for n, _ in ends]
+    lys = spread([y for _, y in ends], 20, y0, y1 + 8)
+    end_labels(s, names, [y for _, y in ends], lys, x1)
+    s.footer(y1 + 48, [f"Each tick is one batch. Ranks below #{TOP_N} are shown as #{TOP_N + 1}+.",
+                       "A hollow dot is a batch with under 50 companies."], SOURCE_YC)
     return s.write(FIG / "yc_industry_rank.svg")
 
 
