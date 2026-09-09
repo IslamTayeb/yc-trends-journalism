@@ -25,10 +25,10 @@ SOURCE_GT = "Source: Google Trends, worldwide web search, monthly, retrieved 202
 CREDIT = "Chart: Islam Tayeb · imt.sh"
 MONO = 'ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono",monospace'
 SEC = {"Fintech": "r"}                          # next-largest label takes the remaining usable ROYB token, translucent
-OTHER = {"Healthcare": "#16a34a", "Consumer": "#7c3aed", "Education": "#0891b2",
-         "Real Estate and Construction": "#db2777", "Government": "#4f46e5"}
-# green, violet, teal, pink, indigo: saturated secondary hues that avoid blue/orange (the highlights) and yellow (too light
-# to survive translucency on the off-white ground); they recede by opacity, not by desaturating
+OTHER = {"Healthcare": "#059669", "Consumer": "#7c3aed", "Education": "#0d9488",
+         "Real Estate and Construction": "#d926a9", "Government": "#65a30d"}
+# with Fintech's red these sit ~45 degrees apart around the wheel (red, magenta, violet, teal, emerald, lime), skipping the
+# blue and orange bands reserved for B2B and Industrials; saturated hues that recede by opacity, not by desaturating
 OTHER_CSS = "".join(f".imt .d{i}{{stroke:{c}}}.imt .dt{i}{{fill:{c}}}" for i, c in enumerate(OTHER.values()))
 ALPHA = {n: .45 for n in GRAY}
 
@@ -187,12 +187,12 @@ def month_pos(t, start_code, end_code, month):
 
 # ---------------------------------------------------------------- figure 1: share lines
 def fig_share(t, embed):
-    W, H = 800, 450
+    W, H = 800, 470
     s = Svg(W, H, embed)
     top = s.header("§ Fig 1  ·  YC batch composition", "r",
                    "B2B peaked at 69% of a YC batch in 2023. Industrials has tripled since 2019.",
                    ["Share of each batch's companies carrying YC's top-level industry label, Winter 2019 to Fall 2026."])
-    x0, x1, y0, y1 = 52, W - 150, top + 26, H - 88
+    x0, x1, y0, y1 = 52, W - 150, top + 26, H - 106
     batches = t.drop_duplicates("batch_code").sort_values("pos")
     npos = len(batches)
     X = lambda p: x0 + p / (npos - 1) * (x1 - x0)
@@ -200,8 +200,10 @@ def fig_share(t, embed):
     for v in (0, 25, 50, 75):
         s.line(x0, Y(v), x1, Y(v), "grid" if v else "axis")
         s.text(x0 - 8, Y(v) + 3.5, f"{v}%" if v else "0", "tick mono m", "end")
-    for _, b in batches.iterrows():
-        s.text(X(b.pos), y1 + 15, b.batch_code, "tick mono m", "middle")
+    for _, b in batches.iterrows():   # one tick per batch; year label at each year's first (Winter) batch
+        first = b.start_month.endswith("-01")
+        s.line(X(b.pos), y1, X(b.pos), y1 + (9 if first else 5), "axis")
+        if first: s.text(X(b.pos), y1 + 21, b.start_month[:4], "tick mono m", "middle")
     # ChatGPT rule, same cut as the trend segments
     pcut = month_pos(t, "S22", "W23", "2022-11")
     xe = X(pcut)
@@ -238,7 +240,8 @@ def fig_share(t, embed):
             s.line(X(npos - 1) + 5, ye, X(npos - 1) + 13, yl, f"s-{tok}" if tok else style(name)[0], 0.8)
         s.text(X(npos - 1) + 16, yl + 3.5, SHORT.get(name, name), f"lab f-{tok}" if tok else f"tick {style(name)[1]}",
                extra="" if tok else f' opacity="{max(style(name)[3], .8)}"')
-    s.footer(["Hollow marker: batch under 50 companies, excluded from the dashed least-squares fits (W19 to S22 and W23 to S26).",
+    s.footer(["One tick per batch, year at each year's first batch: YC ran two batches a year through 2023, three in 2024, four from 2025.",
+              "Dashed lines: least-squares fits, split at the ChatGPT rule. Hollow marker: batch under 50 companies, excluded from the fits.",
               "A company can carry more than one industry label. Unspecified (0 companies in this window) not shown."], SOURCE_YC)
     return s.write(FIG / "yc_b2b_vs_industrials.svg")
 
