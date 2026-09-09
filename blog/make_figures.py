@@ -613,6 +613,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-raster", action="store_true")
     ap.add_argument("--embed-fonts", action="store_true")
+    ap.add_argument("--variants", action="store_true", help="also write fig2_{curve,step,slope,tiles}.svg and fig2_variants.html")
     a = ap.parse_args()
     for d in (DATA, FIG): d.mkdir(parents=True, exist_ok=True)
     t, g = yc_rows(), trends_rows()
@@ -620,6 +621,6 @@ if __name__ == "__main__":
     headline_numbers(t, g)
     svgs = [fig_share(t, a.embed_fonts), fig_rank(t, a.embed_fonts), fig_trends(g, a.embed_fonts)]
     write_preview(svgs)
-    write_variants(t, a.embed_fonts)
-    print("wrote", ", ".join(p.name for p in svgs), "+ preview.html + fig2_variants.html")
+    if a.variants: write_variants(t, a.embed_fonts)
+    print("wrote", ", ".join(p.name for p in svgs), "+ preview.html")
     if not a.no_raster: rasterise(svgs)
