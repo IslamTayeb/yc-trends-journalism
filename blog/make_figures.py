@@ -339,7 +339,7 @@ def fig_share(t, embed):
             ys = [Y(a * pm + b)] + [Y(v) for v in near.share_pct]
             y = min(ys) - 18 if name == "Industrials" else max(ys) + 26      # clear of fit, solid line, marker and descenders
             s.text(X(pm), y, lab, f"tick mono f-{tok}", "middle")
-        s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln s-{tok}", 2.5)
+        s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln s-{tok}", 3.2)
         for _, r in d[d.is_partial_batch].iterrows():   # only the partial batch gets a marker (hollow)
             s.dot(X(r.pos), Y(r.share_pct), 4.2, f"s-{tok} hollow",
                   f"{r.batch_code} · {name} · {r.share_pct:.1f}% ({r['count']} of {r.total_companies})")
@@ -398,7 +398,7 @@ def fig_rank(t, embed, variant="curve", out="yc_industry_rank.svg"):
         tok = HI.get(name)
         xs, ys = [X(p) for p in d.pos], [Y(r) for r in d["rank"]]
         if tok:
-            s.path(connect(xs, ys), f"ln s-{tok}", 3.2)
+            s.path(connect(xs, ys), f"ln s-{tok}", 4)
             for _, r in d[d.is_partial_batch].iterrows():   # only the partial batch gets a marker (hollow)
                 s.dot(X(r.pos), Y(r["rank"]), 4.8, f"s-{tok} hollow",
                       f"{r.batch_code} · {name} · rank {r['rank']} ({r['count']} companies)")
@@ -518,7 +518,7 @@ def fig_trends(g, embed):
         vals = g[term].tolist()
         xs, ys = [X(i) for i in range(n)], [Y(v) for v in vals]
         s.path(polyline(xs, ys) + f" L{xs[-1]:.1f},{Y(0):.1f} L{xs[0]:.1f},{Y(0):.1f} Z", f"area f-{tok}", 0, extra=' stroke="none"')
-        s.path(polyline(xs, ys), f"ln s-{tok}", 2, title=f'"{term}" search interest')
+        s.path(polyline(xs, ys), f"ln s-{tok}", 2.75, title=f'"{term}" search interest')
         s.text(x0 + 8, py0 + 16, f"“{term}”", f"lab mono f-{tok}")
     year_axis(s, bottom, x0, x1, [(X(i), m[:4]) for i, m in enumerate(g.month) if m.endswith("-01")])
     s.footer(bottom + 44, ["Each row is scaled to its own busiest month, which is 100. So the rows show shape, not size.",
