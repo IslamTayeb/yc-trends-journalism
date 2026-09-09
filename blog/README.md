@@ -17,7 +17,7 @@ the dashboard before quoting them.
 | path | what |
 |---|---|
 | `data/yc_industry_share_w19_f26.csv` | one row per batch x top-level industry, W19 to F26: count, total companies, share of batch, partial flag, trend segment, rank |
-| `data/google_trends_ai_llm_gpt_worldwide_2018_2026.csv` | monthly worldwide index for "ai", "llm", "gpt", Sep 2018 to Sep 2026; `<1` stored as 0.5 and flagged in `lt1_flags` |
+| `data/google_trends_ai_llm_gpt_worldwide_2019_2026.csv` | monthly worldwide index for "ai", "llm", "gpt", Jan 2019 to Sep 2026; `<1` stored as 0.5 and flagged in `lt1_flags` |
 | `figures/yc_b2b_vs_industrials.svg` | Fig 1: share of batch, B2B and Industrials highlighted, two least-squares segments (W19 to S22, W23 to S26), ChatGPT rule |
 | `figures/yc_industry_rank.svg` | Fig 2: bump chart of industry rank by count within batch |
 | `figures/ai_search_interest.svg` | Fig 3: three stacked Google Trends panels with GPT-3 and ChatGPT rules |

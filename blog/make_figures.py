@@ -92,10 +92,10 @@ def trends_rows():
         d[f"{term}_lt1"] = d[term].astype(str).str.strip() == "<1"
         d[term] = d[term].astype(str).str.replace("<1", "0.5").astype(float)
         out = d if out is None else out.merge(d, on="month")
-    out = out[(out.month >= "2018-09") & (out.month <= "2026-09")].reset_index(drop=True)
+    out = out[(out.month >= "2019-01") & (out.month <= "2026-09")].reset_index(drop=True)   # same start year as Fig 1 and 2
     out["lt1_flags"] = out[["ai_lt1", "llm_lt1", "gpt_lt1"]].apply(lambda r: ",".join(t for t, f in zip(("ai", "llm", "gpt"), r) if f), axis=1)
     out = out[["month", "ai", "llm", "gpt", "lt1_flags"]]
-    out.to_csv(DATA / "google_trends_ai_llm_gpt_worldwide_2018_2026.csv", index=False)
+    out.to_csv(DATA / "google_trends_ai_llm_gpt_worldwide_2019_2026.csv", index=False)
     return out
 
 
@@ -502,7 +502,7 @@ def fig_trends(g, embed):
     s = Svg(embed)
     top = s.header("§ Fig 3  ·  Search interest", "b",
                    "Searches for “gpt” barely registered around GPT-3, then took off after ChatGPT",
-                   "Google Trends, worldwide web search, monthly, Sep 2018 to Sep 2026. Each row is indexed to its own peak.")
+                   "Google Trends, worldwide web search, monthly, Jan 2019 to Sep 2026. Each row is indexed to its own peak.")
     x0, x1 = 56, W - 32                          # term labels sit inside the panels, so the plot runs to the right margin
     ph, gap, y_top = 112, 32, top + 36
     n = len(g)
