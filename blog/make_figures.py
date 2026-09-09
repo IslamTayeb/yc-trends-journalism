@@ -495,7 +495,7 @@ def fig_trends(g, embed):
     top = s.header("§ Fig 3  ·  Search interest", "b",
                    "Searches for “gpt” barely registered around GPT-3, then took off after ChatGPT",
                    "Google Trends, worldwide web search, monthly, Sep 2018 to Sep 2026. Each row is indexed to its own peak.")
-    x0, x1 = 56, W - GUTTER                      # same plot width as Fig 1 and 2; term labels sit in the gutter
+    x0, x1 = 56, W - 32                          # term labels sit inside the panels, so the plot runs to the right margin
     ph, gap, y_top = 112, 32, top + 36
     n = len(g)
     X = lambda i: x0 + i / (n - 1) * (x1 - x0)
