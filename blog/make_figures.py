@@ -241,34 +241,7 @@ def font_faces():
     return "".join(faces)
 
 
-SMOOTH, OUT_SUFFIX = False, ""   # --smooth: value series drawn with monotone cubic curves; outputs get a _smooth suffix
-
-
 def polyline(xs, ys): return "M" + " L".join(f"{x:.1f},{y:.1f}" for x, y in zip(xs, ys))
-
-
-def monotone(xs, ys):
-    """Monotone cubic interpolation (Fritsch-Carlson, as d3.curveMonotoneX): smooth, never overshoots a data point."""
-    n = len(xs)
-    if n < 3: return polyline(xs, ys)
-    dx = [xs[i + 1] - xs[i] for i in range(n - 1)]
-    dy = [ys[i + 1] - ys[i] for i in range(n - 1)]
-    sl = [d / x for d, x in zip(dy, dx)]
-    m = [sl[0]] + [0.0] * (n - 2) + [sl[-1]]
-    for i in range(1, n - 1):
-        if sl[i - 1] * sl[i] <= 0: m[i] = 0.0
-        else:
-            w1, w2 = 2 * dx[i] + dx[i - 1], dx[i] + 2 * dx[i - 1]
-            m[i] = (w1 + w2) / (w1 / sl[i - 1] + w2 / sl[i])
-    d = [f"M{xs[0]:.1f},{ys[0]:.1f}"]
-    for i in range(n - 1):
-        h = dx[i] / 3
-        d.append(f"C{xs[i] + h:.1f},{ys[i] + m[i] * h:.1f} {xs[i + 1] - h:.1f},{ys[i + 1] - m[i + 1] * h:.1f} {xs[i + 1]:.1f},{ys[i + 1]:.1f}")
-    return " ".join(d)
-
-
-def series_path(xs, ys): return monotone(xs, ys) if SMOOTH else polyline(xs, ys)
-
 
 def steps(xs, ys):
     """Mid-step staircase: flat at each batch's value, vertical jump halfway to the next batch."""
@@ -347,7 +320,7 @@ def fig_share(t, embed):
     for name in context:
         d = series(name)
         sc, _, w, al = style(name)
-        s.path(series_path([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln {sc}", w, title=name, extra=f' opacity="{al}"')
+        s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln {sc}", w, title=name, extra=f' opacity="{al}"')
     for name, tok in HI.items():
         d = series(name)
         for seg in ("pre_w23", "w23_on"):
@@ -365,7 +338,7 @@ def fig_share(t, embed):
             ys = [Y(a * pm + b)] + [Y(v) for v in near.share_pct]
             y = min(ys) - 18 if name == "Industrials" else max(ys) + 26      # clear of fit, solid line, marker and descenders
             s.text(X(pm), y, lab, f"tick mono f-{tok}", "middle")
-        s.path(series_path([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln s-{tok}", 3.5)
+        s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln s-{tok}", 3.5)
         for _, r in d[d.is_partial_batch].iterrows():   # only the partial batch gets a marker (hollow)
             s.dot(X(r.pos), Y(r.share_pct), 4.2, f"s-{tok} hollow",
                   f"{r.batch_code} · {name} · {r.share_pct:.1f}% ({r['count']} of {r.total_companies})")
@@ -376,7 +349,7 @@ def fig_share(t, embed):
     end_labels(s, names, ends, lys, X(npos - 1))
     s.footer(y1 + 46, ["Each tick is one batch. Dashed lines show the trend, split at ChatGPT.",
                        "A hollow dot is a batch with under 50 companies, not in the trend."], SOURCE_YC)
-    return s.write(FIG / f"yc_b2b_vs_industrials{OUT_SUFFIX}.svg")
+    return s.write(FIG / "yc_b2b_vs_industrials.svg")
 
 
 def end_labels(s, names, ends, lys, xr):
@@ -392,12 +365,11 @@ def end_labels(s, names, ends, lys, xr):
 
 
 # ---------------------------------------------------------------- figure 2: rank bump chart
-def fig_rank(t, embed, variant="curve", out=None):
+def fig_rank(t, embed, variant="curve", out="yc_industry_rank.svg"):
     """variant: curve (bump chart), step (staircase), slope (first vs last full batch), tiles (rank matrix)."""
     if variant == "tiles": return fig_rank_tiles(t, embed, out)
     if variant == "slope": return fig_rank_slope(t, embed, out)
     connect = steps if variant == "step" else scurve
-    out = out or f"yc_industry_rank{OUT_SUFFIX}.svg"
     s = Svg(embed)
     top = s.header("§ Fig 2  ·  Industry rank per batch", "o",
                    "Industrials went from YC's fifth-largest industry label to its second",
@@ -544,13 +516,13 @@ def fig_trends(g, embed):
             s.text(x0 - 8, Y(v) + 4, str(v), "tick mono m", "end")
         vals = g[term].tolist()
         xs, ys = [X(i) for i in range(n)], [Y(v) for v in vals]
-        s.path(series_path(xs, ys) + f" L{xs[-1]:.1f},{Y(0):.1f} L{xs[0]:.1f},{Y(0):.1f} Z", f"area f-{tok}", 0, extra=' stroke="none"')
-        s.path(series_path(xs, ys), f"ln s-{tok}", 3.5, title=f'"{term}" search interest')
+        s.path(polyline(xs, ys) + f" L{xs[-1]:.1f},{Y(0):.1f} L{xs[0]:.1f},{Y(0):.1f} Z", f"area f-{tok}", 0, extra=' stroke="none"')
+        s.path(polyline(xs, ys), f"ln s-{tok}", 3.5, title=f'"{term}" search interest')
         s.text(x0 + 8, py0 + 16, f"“{term}”", f"lab mono f-{tok}")
     year_axis(s, bottom, x0, x1, [(X(i), m[:4]) for i, m in enumerate(g.month) if m.endswith("-01")])
     s.footer(bottom + 44, ["Each row is scaled to its own busiest month, which is 100. So the rows show shape, not size.",
                            "Before 2022, most searches for “llm” were about the law degree."], SOURCE_GT)
-    return s.write(FIG / f"ai_search_interest{OUT_SUFFIX}.svg")
+    return s.write(FIG / "ai_search_interest.svg")
 
 
 # ---------------------------------------------------------------- preview + raster
@@ -602,14 +574,14 @@ def write_variants(t, embed):
 def write_preview(svgs):
     figs = "".join(f'<figure class="article-media article-media-unframed" data-fig="{i + 1}">{p.read_text()}</figure>'
                    + (f"<p>{LOREM}</p>" if i == 0 else "") for i, p in enumerate(svgs))
-    (FIG / f"preview{OUT_SUFFIX}.html").write_text(PREVIEW.replace("FIGURES", f"<p>{LOREM}</p>" + figs))
+    (FIG / "preview.html").write_text(PREVIEW.replace("FIGURES", f"<p>{LOREM}</p>" + figs))
 
 
 def rasterise(svgs):
     chrome = shutil.which("google-chrome") or shutil.which("chromium") or shutil.which("chromium-browser")
     if not chrome:
         print("no Chrome found; skipping PNG/PDF"); return
-    url = (FIG / f"preview{OUT_SUFFIX}.html").resolve().as_uri()
+    url = (FIG / "preview.html").resolve().as_uri()
     base = [chrome, "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars", "--no-pdf-header-footer"]
     for i, p in enumerate(svgs):
         w, h = re.search(r'viewBox="0 0 (\d+) (\d+)"', p.read_text()).groups()
@@ -642,13 +614,11 @@ if __name__ == "__main__":
     ap.add_argument("--no-raster", action="store_true")
     ap.add_argument("--embed-fonts", action="store_true")
     ap.add_argument("--variants", action="store_true", help="also write fig2_{curve,step,slope,tiles}.svg and fig2_variants.html")
-    ap.add_argument("--smooth", action="store_true", help="monotone-cubic curves on Fig 1 and 3 (default: straight segments); writes *_smooth files")
     a = ap.parse_args()
     for d in (DATA, FIG): d.mkdir(parents=True, exist_ok=True)
     t, g = yc_rows(), trends_rows()
     set_shades(t)
     headline_numbers(t, g)
-    if a.smooth: SMOOTH, OUT_SUFFIX = True, "_smooth"
     svgs = [fig_share(t, a.embed_fonts), fig_rank(t, a.embed_fonts), fig_trends(g, a.embed_fonts)]
     write_preview(svgs)
     if a.variants: write_variants(t, a.embed_fonts)
