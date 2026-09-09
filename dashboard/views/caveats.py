@@ -22,6 +22,11 @@ directory index. Nothing is merged, renamed or inferred. Near-duplicate labels (
 **{cfg['TAG_COVERAGE_MAX_ZERO_TAG_PCT']}%** of companies have no tags is *low tag coverage*. Both stay on every time axis with hollow
 markers; the sidebar toggles decide whether they enter era tables.
 
+**Missing tags are removals, not a backlog.** Winter 2026 and Spring 2026 were almost fully tagged in the snapshots from
+February to June 2026; by July 2026 roughly 80% of their companies had an empty tag list while `industry` and `subindustry` were
+untouched. Fall 2025 went from 1% to about 20% zero-tag over the same months. The Summer 2026 batch is fully tagged. Treat tag
+shares for those batches as YC data withheld, not as companies without a category.
+
 **Retroactive relabeling.** YC edits labels on old companies. Monthly snapshots of the source since {ctx.prov.get('historical_snapshots', [['', '']])[0][1][:10] or '2024-08-22'}
 show how much each batch's labels changed between the first snapshot and the latest. The dashboard shows the *latest* labels.
 """)

@@ -28,7 +28,7 @@ No tests. `run_all.py` is the check: it aborts on spot-check mismatches and must
 ## Data gotchas
 
 - YC retroactively relabels companies; `AI` and `Artificial Intelligence` are swapped constantly. Keep them separate but treat as one measurement.
-- Winter 2026 and Spring 2026 are ~75% zero-tag; pre-2011 batches too.
+- Winter 2026 and Spring 2026 are ~75% zero-tag because YC *removed* tags between the June and July 2026 snapshots (industry/subindustry kept); Fall 2025 lost tags too (1% -> 20%). Pre-2011 batches were never tagged.
 - yc-oss/api history starts 2024-08-22. Wayback `id_` captures may be gzipped; the live `/rfs` page shows only the current edition.
 
 ## Hygiene
