@@ -237,8 +237,8 @@ def fig_share(t, embed):
     for name, ye, yl in zip(names, ends, lys):
         tok = HI.get(name)
         if abs(yl - ye) > 2:
-            s.line(X(npos - 1) + 5, ye, X(npos - 1) + 13, yl, f"s-{tok}" if tok else style(name)[0], 0.8)
-        s.text(X(npos - 1) + 16, yl + 3.5, SHORT.get(name, name), f"lab f-{tok}" if tok else f"tick {style(name)[1]}",
+            s.line(X(npos - 1) + 4, ye, X(npos - 1) + 9, yl, f"s-{tok}" if tok else style(name)[0], 0.8)
+        s.text(X(npos - 1) + 12, yl + 3.5, SHORT.get(name, name), f"lab f-{tok}" if tok else f"tick {style(name)[1]}",
                extra="" if tok else f' opacity="{max(style(name)[3], .8)}"')
     s.footer(["One tick per batch, year at each year's first batch: YC ran two batches a year through 2023, three in 2024, four from 2025.",
               "Dashed lines: least-squares fits, split at the ChatGPT rule. Hollow marker: batch under 50 companies, excluded from the fits.",
@@ -253,7 +253,7 @@ def fig_rank(t, embed):
     top = s.header("§ Fig 2  ·  Industry rank per batch", "o",
                    "Industrials went from YC's fifth-largest industry label to its second",
                    ["Rank of the eight top-level industry labels by number of companies within each batch, Winter 2019 to Fall 2026."])
-    x0, x1, y0, y1 = 62, W - 166, top + 36, H - 96
+    x0, x1, y0, y1 = 62, W - 150, top + 36, H - 96
     named = t[t.industry != "Unspecified"]
     batches = named.drop_duplicates("batch_code").sort_values("pos")
     npos = len(batches)
