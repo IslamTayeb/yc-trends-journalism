@@ -1,0 +1,190 @@
+batch_code,batch,batch_order,pos,start_month,industry,count,total_companies,share_pct,is_partial_batch,segment,rank
+W19,Winter 2019,20190,0,2019-01,B2B,81,194,41.753,False,pre_w23,1
+W19,Winter 2019,20190,0,2019-01,Consumer,37,194,19.072,False,pre_w23,2
+W19,Winter 2019,20190,0,2019-01,Education,7,194,3.608,False,pre_w23,6
+W19,Winter 2019,20190,0,2019-01,Fintech,22,194,11.34,False,pre_w23,4
+W19,Winter 2019,20190,0,2019-01,Government,2,194,1.031,False,pre_w23,8
+W19,Winter 2019,20190,0,2019-01,Healthcare,25,194,12.887,False,pre_w23,3
+W19,Winter 2019,20190,0,2019-01,Industrials,15,194,7.732,False,pre_w23,5
+W19,Winter 2019,20190,0,2019-01,Real Estate and Construction,5,194,2.577,False,pre_w23,7
+W19,Winter 2019,20190,0,2019-01,Unspecified,0,194,0.0,False,pre_w23,
+S19,Summer 2019,20192,1,2019-06,B2B,70,176,39.773,False,pre_w23,1
+S19,Summer 2019,20192,1,2019-06,Consumer,27,176,15.341,False,pre_w23,2
+S19,Summer 2019,20192,1,2019-06,Education,5,176,2.841,False,pre_w23,7
+S19,Summer 2019,20192,1,2019-06,Fintech,25,176,14.205,False,pre_w23,3
+S19,Summer 2019,20192,1,2019-06,Government,2,176,1.136,False,pre_w23,8
+S19,Summer 2019,20192,1,2019-06,Healthcare,24,176,13.636,False,pre_w23,4
+S19,Summer 2019,20192,1,2019-06,Industrials,12,176,6.818,False,pre_w23,5
+S19,Summer 2019,20192,1,2019-06,Real Estate and Construction,11,176,6.25,False,pre_w23,6
+S19,Summer 2019,20192,1,2019-06,Unspecified,0,176,0.0,False,pre_w23,
+W20,Winter 2020,20200,2,2020-01,B2B,100,228,43.86,False,pre_w23,1
+W20,Winter 2020,20200,2,2020-01,Consumer,29,228,12.719,False,pre_w23,4
+W20,Winter 2020,20200,2,2020-01,Education,5,228,2.193,False,pre_w23,7
+W20,Winter 2020,20200,2,2020-01,Fintech,32,228,14.035,False,pre_w23,3
+W20,Winter 2020,20200,2,2020-01,Government,0,228,0.0,False,pre_w23,8
+W20,Winter 2020,20200,2,2020-01,Healthcare,36,228,15.789,False,pre_w23,2
+W20,Winter 2020,20200,2,2020-01,Industrials,17,228,7.456,False,pre_w23,5
+W20,Winter 2020,20200,2,2020-01,Real Estate and Construction,9,228,3.947,False,pre_w23,6
+W20,Winter 2020,20200,2,2020-01,Unspecified,0,228,0.0,False,pre_w23,
+S20,Summer 2020,20202,3,2020-06,B2B,107,209,51.196,False,pre_w23,1
+S20,Summer 2020,20202,3,2020-06,Consumer,27,209,12.919,False,pre_w23,3
+S20,Summer 2020,20202,3,2020-06,Education,4,209,1.914,False,pre_w23,7
+S20,Summer 2020,20202,3,2020-06,Fintech,25,209,11.962,False,pre_w23,4
+S20,Summer 2020,20202,3,2020-06,Government,3,209,1.435,False,pre_w23,8
+S20,Summer 2020,20202,3,2020-06,Healthcare,32,209,15.311,False,pre_w23,2
+S20,Summer 2020,20202,3,2020-06,Industrials,6,209,2.871,False,pre_w23,5
+S20,Summer 2020,20202,3,2020-06,Real Estate and Construction,5,209,2.392,False,pre_w23,6
+S20,Summer 2020,20202,3,2020-06,Unspecified,0,209,0.0,False,pre_w23,
+W21,Winter 2021,20210,4,2021-01,B2B,162,336,48.214,False,pre_w23,1
+W21,Winter 2021,20210,4,2021-01,Consumer,39,336,11.607,False,pre_w23,4
+W21,Winter 2021,20210,4,2021-01,Education,13,336,3.869,False,pre_w23,6
+W21,Winter 2021,20210,4,2021-01,Fintech,51,336,15.179,False,pre_w23,2
+W21,Winter 2021,20210,4,2021-01,Government,1,336,0.298,False,pre_w23,8
+W21,Winter 2021,20210,4,2021-01,Healthcare,41,336,12.202,False,pre_w23,3
+W21,Winter 2021,20210,4,2021-01,Industrials,23,336,6.845,False,pre_w23,5
+W21,Winter 2021,20210,4,2021-01,Real Estate and Construction,6,336,1.786,False,pre_w23,7
+W21,Winter 2021,20210,4,2021-01,Unspecified,0,336,0.0,False,pre_w23,
+S21,Summer 2021,20212,5,2021-06,B2B,181,391,46.292,False,pre_w23,1
+S21,Summer 2021,20212,5,2021-06,Consumer,39,391,9.974,False,pre_w23,4
+S21,Summer 2021,20212,5,2021-06,Education,15,391,3.836,False,pre_w23,6
+S21,Summer 2021,20212,5,2021-06,Fintech,63,391,16.113,False,pre_w23,3
+S21,Summer 2021,20212,5,2021-06,Government,1,391,0.256,False,pre_w23,8
+S21,Summer 2021,20212,5,2021-06,Healthcare,64,391,16.368,False,pre_w23,2
+S21,Summer 2021,20212,5,2021-06,Industrials,20,391,5.115,False,pre_w23,5
+S21,Summer 2021,20212,5,2021-06,Real Estate and Construction,8,391,2.046,False,pre_w23,7
+S21,Summer 2021,20212,5,2021-06,Unspecified,0,391,0.0,False,pre_w23,
+W22,Winter 2022,20220,6,2022-01,B2B,179,398,44.975,False,pre_w23,1
+W22,Winter 2022,20220,6,2022-01,Consumer,38,398,9.548,False,pre_w23,4
+W22,Winter 2022,20220,6,2022-01,Education,8,398,2.01,False,pre_w23,7
+W22,Winter 2022,20220,6,2022-01,Fintech,90,398,22.613,False,pre_w23,2
+W22,Winter 2022,20220,6,2022-01,Government,1,398,0.251,False,pre_w23,8
+W22,Winter 2022,20220,6,2022-01,Healthcare,44,398,11.055,False,pre_w23,3
+W22,Winter 2022,20220,6,2022-01,Industrials,24,398,6.03,False,pre_w23,5
+W22,Winter 2022,20220,6,2022-01,Real Estate and Construction,14,398,3.518,False,pre_w23,6
+W22,Winter 2022,20220,6,2022-01,Unspecified,0,398,0.0,False,pre_w23,
+S22,Summer 2022,20222,7,2022-06,B2B,121,234,51.709,False,pre_w23,1
+S22,Summer 2022,20222,7,2022-06,Consumer,22,234,9.402,False,pre_w23,4
+S22,Summer 2022,20222,7,2022-06,Education,1,234,0.427,False,pre_w23,7
+S22,Summer 2022,20222,7,2022-06,Fintech,43,234,18.376,False,pre_w23,2
+S22,Summer 2022,20222,7,2022-06,Government,0,234,0.0,False,pre_w23,8
+S22,Summer 2022,20222,7,2022-06,Healthcare,24,234,10.256,False,pre_w23,3
+S22,Summer 2022,20222,7,2022-06,Industrials,14,234,5.983,False,pre_w23,5
+S22,Summer 2022,20222,7,2022-06,Real Estate and Construction,9,234,3.846,False,pre_w23,6
+S22,Summer 2022,20222,7,2022-06,Unspecified,0,234,0.0,False,pre_w23,
+W23,Winter 2023,20230,8,2023-01,B2B,184,274,67.153,False,w23_on,1
+W23,Winter 2023,20230,8,2023-01,Consumer,21,274,7.664,False,w23_on,4
+W23,Winter 2023,20230,8,2023-01,Education,3,274,1.095,False,w23_on,7
+W23,Winter 2023,20230,8,2023-01,Fintech,32,274,11.679,False,w23_on,2
+W23,Winter 2023,20230,8,2023-01,Government,1,274,0.365,False,w23_on,8
+W23,Winter 2023,20230,8,2023-01,Healthcare,23,274,8.394,False,w23_on,3
+W23,Winter 2023,20230,8,2023-01,Industrials,6,274,2.19,False,w23_on,5
+W23,Winter 2023,20230,8,2023-01,Real Estate and Construction,4,274,1.46,False,w23_on,6
+W23,Winter 2023,20230,8,2023-01,Unspecified,0,274,0.0,False,w23_on,
+S23,Summer 2023,20232,9,2023-06,B2B,152,220,69.091,False,w23_on,1
+S23,Summer 2023,20232,9,2023-06,Consumer,9,220,4.091,False,w23_on,4
+S23,Summer 2023,20232,9,2023-06,Education,3,220,1.364,False,w23_on,7
+S23,Summer 2023,20232,9,2023-06,Fintech,16,220,7.273,False,w23_on,3
+S23,Summer 2023,20232,9,2023-06,Government,0,220,0.0,False,w23_on,8
+S23,Summer 2023,20232,9,2023-06,Healthcare,28,220,12.727,False,w23_on,2
+S23,Summer 2023,20232,9,2023-06,Industrials,6,220,2.727,False,w23_on,5
+S23,Summer 2023,20232,9,2023-06,Real Estate and Construction,6,220,2.727,False,w23_on,6
+S23,Summer 2023,20232,9,2023-06,Unspecified,0,220,0.0,False,w23_on,
+W24,Winter 2024,20240,10,2024-01,B2B,156,248,62.903,False,w23_on,1
+W24,Winter 2024,20240,10,2024-01,Consumer,28,248,11.29,False,w23_on,3
+W24,Winter 2024,20240,10,2024-01,Education,3,248,1.21,False,w23_on,6
+W24,Winter 2024,20240,10,2024-01,Fintech,18,248,7.258,False,w23_on,4
+W24,Winter 2024,20240,10,2024-01,Government,1,248,0.403,False,w23_on,8
+W24,Winter 2024,20240,10,2024-01,Healthcare,29,248,11.694,False,w23_on,2
+W24,Winter 2024,20240,10,2024-01,Industrials,10,248,4.032,False,w23_on,5
+W24,Winter 2024,20240,10,2024-01,Real Estate and Construction,3,248,1.21,False,w23_on,7
+W24,Winter 2024,20240,10,2024-01,Unspecified,0,248,0.0,False,w23_on,
+S24,Summer 2024,20242,11,2024-06,B2B,160,248,64.516,False,w23_on,1
+S24,Summer 2024,20242,11,2024-06,Consumer,19,248,7.661,False,w23_on,4
+S24,Summer 2024,20242,11,2024-06,Education,1,248,0.403,False,w23_on,8
+S24,Summer 2024,20242,11,2024-06,Fintech,12,248,4.839,False,w23_on,5
+S24,Summer 2024,20242,11,2024-06,Government,4,248,1.613,False,w23_on,6
+S24,Summer 2024,20242,11,2024-06,Healthcare,23,248,9.274,False,w23_on,3
+S24,Summer 2024,20242,11,2024-06,Industrials,25,248,10.081,False,w23_on,2
+S24,Summer 2024,20242,11,2024-06,Real Estate and Construction,4,248,1.613,False,w23_on,7
+S24,Summer 2024,20242,11,2024-06,Unspecified,0,248,0.0,False,w23_on,
+F24,Fall 2024,20243,12,2024-09,B2B,57,94,60.638,False,w23_on,1
+F24,Fall 2024,20243,12,2024-09,Consumer,11,94,11.702,False,w23_on,2
+F24,Fall 2024,20243,12,2024-09,Education,1,94,1.064,False,w23_on,7
+F24,Fall 2024,20243,12,2024-09,Fintech,6,94,6.383,False,w23_on,4
+F24,Fall 2024,20243,12,2024-09,Government,1,94,1.064,False,w23_on,8
+F24,Fall 2024,20243,12,2024-09,Healthcare,9,94,9.574,False,w23_on,3
+F24,Fall 2024,20243,12,2024-09,Industrials,5,94,5.319,False,w23_on,5
+F24,Fall 2024,20243,12,2024-09,Real Estate and Construction,4,94,4.255,False,w23_on,6
+F24,Fall 2024,20243,12,2024-09,Unspecified,0,94,0.0,False,w23_on,
+W25,Winter 2025,20250,13,2025-01,B2B,104,166,62.651,False,w23_on,1
+W25,Winter 2025,20250,13,2025-01,Consumer,9,166,5.422,False,w23_on,5
+W25,Winter 2025,20250,13,2025-01,Education,5,166,3.012,False,w23_on,6
+W25,Winter 2025,20250,13,2025-01,Fintech,12,166,7.229,False,w23_on,3
+W25,Winter 2025,20250,13,2025-01,Government,4,166,2.41,False,w23_on,7
+W25,Winter 2025,20250,13,2025-01,Healthcare,11,166,6.627,False,w23_on,4
+W25,Winter 2025,20250,13,2025-01,Industrials,19,166,11.446,False,w23_on,2
+W25,Winter 2025,20250,13,2025-01,Real Estate and Construction,2,166,1.205,False,w23_on,8
+W25,Winter 2025,20250,13,2025-01,Unspecified,0,166,0.0,False,w23_on,
+X25,Spring 2025,20251,14,2025-04,B2B,97,143,67.832,False,w23_on,1
+X25,Spring 2025,20251,14,2025-04,Consumer,7,143,4.895,False,w23_on,4
+X25,Spring 2025,20251,14,2025-04,Education,3,143,2.098,False,w23_on,6
+X25,Spring 2025,20251,14,2025-04,Fintech,7,143,4.895,False,w23_on,5
+X25,Spring 2025,20251,14,2025-04,Government,2,143,1.399,False,w23_on,7
+X25,Spring 2025,20251,14,2025-04,Healthcare,11,143,7.692,False,w23_on,3
+X25,Spring 2025,20251,14,2025-04,Industrials,15,143,10.49,False,w23_on,2
+X25,Spring 2025,20251,14,2025-04,Real Estate and Construction,1,143,0.699,False,w23_on,8
+X25,Spring 2025,20251,14,2025-04,Unspecified,0,143,0.0,False,w23_on,
+S25,Summer 2025,20252,15,2025-06,B2B,112,166,67.47,False,w23_on,1
+S25,Summer 2025,20252,15,2025-06,Consumer,12,166,7.229,False,w23_on,3
+S25,Summer 2025,20252,15,2025-06,Education,2,166,1.205,False,w23_on,7
+S25,Summer 2025,20252,15,2025-06,Fintech,9,166,5.422,False,w23_on,5
+S25,Summer 2025,20252,15,2025-06,Government,1,166,0.602,False,w23_on,8
+S25,Summer 2025,20252,15,2025-06,Healthcare,12,166,7.229,False,w23_on,4
+S25,Summer 2025,20252,15,2025-06,Industrials,14,166,8.434,False,w23_on,2
+S25,Summer 2025,20252,15,2025-06,Real Estate and Construction,4,166,2.41,False,w23_on,6
+S25,Summer 2025,20252,15,2025-06,Unspecified,0,166,0.0,False,w23_on,
+F25,Fall 2025,20253,16,2025-09,B2B,89,146,60.959,False,w23_on,1
+F25,Fall 2025,20253,16,2025-09,Consumer,17,146,11.644,False,w23_on,2
+F25,Fall 2025,20253,16,2025-09,Education,0,146,0.0,False,w23_on,8
+F25,Fall 2025,20253,16,2025-09,Fintech,8,146,5.479,False,w23_on,5
+F25,Fall 2025,20253,16,2025-09,Government,2,146,1.37,False,w23_on,7
+F25,Fall 2025,20253,16,2025-09,Healthcare,11,146,7.534,False,w23_on,4
+F25,Fall 2025,20253,16,2025-09,Industrials,14,146,9.589,False,w23_on,3
+F25,Fall 2025,20253,16,2025-09,Real Estate and Construction,5,146,3.425,False,w23_on,6
+F25,Fall 2025,20253,16,2025-09,Unspecified,0,146,0.0,False,w23_on,
+W26,Winter 2026,20260,17,2026-01,B2B,126,199,63.317,False,w23_on,1
+W26,Winter 2026,20260,17,2026-01,Consumer,8,199,4.02,False,w23_on,5
+W26,Winter 2026,20260,17,2026-01,Education,0,199,0.0,False,w23_on,7
+W26,Winter 2026,20260,17,2026-01,Fintech,18,199,9.045,False,w23_on,3
+W26,Winter 2026,20260,17,2026-01,Government,0,199,0.0,False,w23_on,8
+W26,Winter 2026,20260,17,2026-01,Healthcare,16,199,8.04,False,w23_on,4
+W26,Winter 2026,20260,17,2026-01,Industrials,28,199,14.07,False,w23_on,2
+W26,Winter 2026,20260,17,2026-01,Real Estate and Construction,3,199,1.508,False,w23_on,6
+W26,Winter 2026,20260,17,2026-01,Unspecified,0,199,0.0,False,w23_on,
+X26,Spring 2026,20261,18,2026-04,B2B,114,195,58.462,False,w23_on,1
+X26,Spring 2026,20261,18,2026-04,Consumer,13,195,6.667,False,w23_on,5
+X26,Spring 2026,20261,18,2026-04,Education,0,195,0.0,False,w23_on,8
+X26,Spring 2026,20261,18,2026-04,Fintech,21,195,10.769,False,w23_on,3
+X26,Spring 2026,20261,18,2026-04,Government,1,195,0.513,False,w23_on,7
+X26,Spring 2026,20261,18,2026-04,Healthcare,17,195,8.718,False,w23_on,4
+X26,Spring 2026,20261,18,2026-04,Industrials,25,195,12.821,False,w23_on,2
+X26,Spring 2026,20261,18,2026-04,Real Estate and Construction,4,195,2.051,False,w23_on,6
+X26,Spring 2026,20261,18,2026-04,Unspecified,0,195,0.0,False,w23_on,
+S26,Summer 2026,20262,19,2026-06,B2B,122,235,51.915,False,w23_on,1
+S26,Summer 2026,20262,19,2026-06,Consumer,11,235,4.681,False,w23_on,5
+S26,Summer 2026,20262,19,2026-06,Education,1,235,0.426,False,w23_on,8
+S26,Summer 2026,20262,19,2026-06,Fintech,16,235,6.809,False,w23_on,4
+S26,Summer 2026,20262,19,2026-06,Government,2,235,0.851,False,w23_on,7
+S26,Summer 2026,20262,19,2026-06,Healthcare,21,235,8.936,False,w23_on,3
+S26,Summer 2026,20262,19,2026-06,Industrials,56,235,23.83,False,w23_on,2
+S26,Summer 2026,20262,19,2026-06,Real Estate and Construction,6,235,2.553,False,w23_on,6
+S26,Summer 2026,20262,19,2026-06,Unspecified,0,235,0.0,False,w23_on,
+F26,Fall 2026,20263,20,2026-09,B2B,18,35,51.429,True,w23_on,1
+F26,Fall 2026,20263,20,2026-09,Consumer,5,35,14.286,True,w23_on,3
+F26,Fall 2026,20263,20,2026-09,Education,0,35,0.0,True,w23_on,6
+F26,Fall 2026,20263,20,2026-09,Fintech,3,35,8.571,True,w23_on,4
+F26,Fall 2026,20263,20,2026-09,Government,1,35,2.857,True,w23_on,5
+F26,Fall 2026,20263,20,2026-09,Healthcare,0,35,0.0,True,w23_on,7
+F26,Fall 2026,20263,20,2026-09,Industrials,8,35,22.857,True,w23_on,2
+F26,Fall 2026,20263,20,2026-09,Real Estate and Construction,0,35,0.0,True,w23_on,8
+F26,Fall 2026,20263,20,2026-09,Unspecified,0,35,0.0,True,w23_on,

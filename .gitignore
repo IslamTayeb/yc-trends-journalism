@@ -241,3 +241,6 @@ data/all_years/report.md
 
 # dashboard: user-defined eras stay local
 dashboard/eras.local.json
+
+# blog figures: fonts are fetched by blog/make_figures.py instructions, not committed
+blog/fonts/
