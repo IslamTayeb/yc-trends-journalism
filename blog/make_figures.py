@@ -45,7 +45,8 @@ TOP_N = 5         # Fig 1: the N largest labels in the latest full batch; Fig 2:
 
 
 SHADE = {}        # industry -> gray opacity, darkest for the largest context label in the latest full batch (set in main)
-GRAY_STEPS = [.5]      # one shade; a size-ordered ramp was tried and rejected (implies a hierarchy that is not the story)
+GRAY_STEPS = [.31]     # ink token (black / white) at the opacity that blends to the old muted-gray-at-0.5; one shade only, a
+                       # size-ordered ramp was tried and rejected (implies a hierarchy that is not the story)
 
 
 def set_shades(t):
@@ -164,7 +165,7 @@ CSS = """
 .imt .dek,.imt .cap{font-size:14px}.imt .tick{font-size:12px}.imt .foot{font-size:12px}.imt .lab{font-size:14px;font-weight:600}.imt .labr{font-size:14px}
 .imt .ground{fill:var(--bg)}.imt .grid{stroke:var(--rule);opacity:.7}.imt .axis{stroke:var(--mut);opacity:.6}
 .imt .ev{stroke:var(--prule);stroke-width:1.1;stroke-dasharray:1.5 3.5;stroke-linecap:round}
-.imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}CTXCSS.imt .bg{stroke:var(--mut)}.imt .bgt{fill:var(--mut)}
+.imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}CTXCSS.imt .bg{stroke:var(--ink)}.imt .bgt{fill:var(--ink)}
 .imt .trend{stroke-dasharray:5 4;opacity:.8}.imt .hollow{fill:var(--bg)}
 .imt .s-r{stroke:var(--r)}.imt .s-o{stroke:var(--o)}.imt .s-y{stroke:var(--y)}.imt .s-b{stroke:var(--b)}
 .imt .f-r{fill:var(--r)}.imt .f-o{fill:var(--o)}.imt .f-y{fill:var(--y)}.imt .f-b{fill:var(--b)}
@@ -356,7 +357,7 @@ def end_labels(s, names, ends, lys, xr):
     """Direct labels to the right of the last point (at xr), with a short leader where a label had to move."""
     for name, ye, yl in zip(names, ends, lys):
         tok = HI.get(name)
-        op = "" if tok else f' opacity="{max(style(name)[3], .55)}"'
+        op = "" if tok else f' opacity="{max(style(name)[3], .4)}"'
         if abs(yl - ye) > 2:   # leader: short horizontal stub, then a diagonal to the label, same opacity as the label
             s.path(f"M{xr + 5:.1f},{ye:.1f} H{xr + 8:.1f} L{xr + 15:.1f},{yl:.1f}", f"ln {f's-{tok}' if tok else style(name)[0]}", 1, extra=op)
         label = SHORT.get(name, name)

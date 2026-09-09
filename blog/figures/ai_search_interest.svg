@@ -11,7 +11,7 @@
 .imt .dek,.imt .cap{font-size:14px}.imt .tick{font-size:12px}.imt .foot{font-size:12px}.imt .lab{font-size:14px;font-weight:600}.imt .labr{font-size:14px}
 .imt .ground{fill:var(--bg)}.imt .grid{stroke:var(--rule);opacity:.7}.imt .axis{stroke:var(--mut);opacity:.6}
 .imt .ev{stroke:var(--prule);stroke-width:1.1;stroke-dasharray:1.5 3.5;stroke-linecap:round}
-.imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}.imt .c0{stroke:#e11d48}.imt .ct0{fill:#e11d48}.imt .c1{stroke:#0f9d8a}.imt .ct1{fill:#0f9d8a}.imt .c2{stroke:#8b5cf6}.imt .ct2{fill:#8b5cf6}.imt .bg{stroke:var(--mut)}.imt .bgt{fill:var(--mut)}
+.imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}.imt .c0{stroke:#e11d48}.imt .ct0{fill:#e11d48}.imt .c1{stroke:#0f9d8a}.imt .ct1{fill:#0f9d8a}.imt .c2{stroke:#8b5cf6}.imt .ct2{fill:#8b5cf6}.imt .bg{stroke:var(--ink)}.imt .bgt{fill:var(--ink)}
 .imt .trend{stroke-dasharray:5 4;opacity:.8}.imt .hollow{fill:var(--bg)}
 .imt .s-r{stroke:var(--r)}.imt .s-o{stroke:var(--o)}.imt .s-y{stroke:var(--y)}.imt .s-b{stroke:var(--b)}
 .imt .f-r{fill:var(--r)}.imt .f-o{fill:var(--o)}.imt .f-y{fill:var(--y)}.imt .f-b{fill:var(--b)}
