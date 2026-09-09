@@ -319,11 +319,6 @@ def fig_trends(g, embed):
         s.path(polyline(xs, ys) + f" L{xs[-1]:.1f},{Y(0):.1f} L{xs[0]:.1f},{Y(0):.1f} Z", f"area f-{tok}", 0, extra=' stroke="none"')
         s.path(polyline(xs, ys), f"ln s-{tok}", 1.75, title=f'"{term}" search interest')
         s.text(x0 + 8, py0 + 14, f"“{term}”", f"lab mono f-{tok}")
-    # explicit GPT-3 note on the gpt row
-    gy0 = y_top + ph + gap
-    i20 = idx["2020-07"]
-    s.text(X(i20) + 8, gy0 + ph - 22, "below 1 on this index", "tick mono m")
-    s.text(X(i20) + 8, gy0 + ph - 10, "through Nov 2022", "tick mono m")
     for i, m in enumerate(g.month):
         if m.endswith("-01"):
             s.text(X(i), bottom + 16, m[:4], "tick mono m", "middle")
