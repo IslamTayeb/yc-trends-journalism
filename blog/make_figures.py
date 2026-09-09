@@ -243,6 +243,15 @@ def font_faces():
 def polyline(xs, ys): return "M" + " L".join(f"{x:.1f},{y:.1f}" for x, y in zip(xs, ys))
 
 
+def steps(xs, ys):
+    """Mid-step staircase: flat at each batch's value, vertical jump halfway to the next batch."""
+    d = [f"M{xs[0]:.1f},{ys[0]:.1f}"]
+    for (x1, y1), (x2, y2) in zip(zip(xs, ys), zip(xs[1:], ys[1:])):
+        mx = (x1 + x2) / 2
+        d.append(f"H{mx:.1f} V{y2:.1f} H{x2:.1f}")
+    return " ".join(d)
+
+
 def scurve(xs, ys):
     d = [f"M{xs[0]:.1f},{ys[0]:.1f}"]
     for (x1, y1), (x2, y2) in zip(zip(xs, ys), zip(xs[1:], ys[1:])):
@@ -356,7 +365,11 @@ def end_labels(s, names, ends, lys, xr):
 
 
 # ---------------------------------------------------------------- figure 2: rank bump chart
-def fig_rank(t, embed):
+def fig_rank(t, embed, variant="curve", out="yc_industry_rank.svg"):
+    """variant: curve (bump chart), step (staircase), slope (first vs last full batch), tiles (rank matrix)."""
+    if variant == "tiles": return fig_rank_tiles(t, embed, out)
+    if variant == "slope": return fig_rank_slope(t, embed, out)
+    connect = steps if variant == "step" else scurve
     s = Svg(embed)
     top = s.header("§ Fig 2  ·  Industry rank per batch", "o",
                    "Industrials went from YC's fifth-largest industry label to its second",
@@ -384,13 +397,13 @@ def fig_rank(t, embed):
         tok = HI.get(name)
         xs, ys = [X(p) for p in d.pos], [Y(r) for r in d["rank"]]
         if tok:
-            s.path(scurve(xs, ys), f"ln s-{tok}", 3.2)
+            s.path(connect(xs, ys), f"ln s-{tok}", 3.2)
             for _, r in d[d.is_partial_batch].iterrows():   # only the partial batch gets a marker (hollow)
                 s.dot(X(r.pos), Y(r["rank"]), 4.8, f"s-{tok} hollow",
                       f"{r.batch_code} · {name} · rank {r['rank']} ({r['count']} companies)")
         else:
             sc, _, w, al = style(name)
-            s.path(scurve(xs, ys), f"ln {sc}", w + 0.2, title=name, extra=f' opacity="{al}"')
+            s.path(connect(xs, ys), f"ln {sc}", w + 0.2, title=name, extra=f' opacity="{al}"')
         r1 = d.iloc[-1]["rank"]
         ends.append((name, Y(r1)))
     names = [n for n, _ in ends]
@@ -398,7 +411,82 @@ def fig_rank(t, embed):
     end_labels(s, names, [y for _, y in ends], lys, x1)
     s.footer(y1 + 48, [f"Each tick is one batch. Ranks below #{TOP_N} are shown as #{TOP_N + 1}+.",
                        "A hollow dot is a batch with under 50 companies."], SOURCE_YC)
-    return s.write(FIG / "yc_industry_rank.svg")
+    return s.write(FIG / out)
+
+
+def _rank_shown(t):
+    named = t[t.industry != "Unspecified"]
+    reach = named[~named.is_partial_batch].groupby("industry")["rank"].min()
+    return named, [n for n in BACKGROUND + list(CONTEXT) if reach[n] <= TOP_N] + list(HI)
+
+
+def fig_rank_slope(t, embed, out):
+    """Two columns: rank in the first batch and in the last full batch, one straight line per label."""
+    s = Svg(embed)
+    top = s.header("§ Fig 2  ·  Industry rank, first vs latest batch", "o",
+                   "Industrials went from YC's fifth-largest industry label to its second",
+                   "Rank of the eight top-level industry labels by company count, Winter 2019 and Summer 2026.")
+    named, shown = _rank_shown(t)
+    full = named[~named.is_partial_batch]
+    first, last = full[full.batch_order == full.batch_order.min()], full[full.batch_order == full.batch_order.max()]
+    x0, x1, y0 = 64 + 90, W - GUTTER - 90, top + 40
+    y1 = y0 + 46 * TOP_N
+    Y = lambda r: y0 + (min(int(r), TOP_N + 1) - 1) / TOP_N * (y1 - y0)
+    for r in range(1, TOP_N + 1):
+        s.line(x0, Y(r), x1, Y(r), "grid")
+    s.line(x0, Y(TOP_N + 1), x1, Y(TOP_N + 1), "axis")
+    for x, b in ((x0, first.batch.iloc[0]), (x1, last.batch.iloc[0])):
+        s.text(x, y1 + 22, b, "tick mono m", "middle")
+    for name in shown:
+        tok = HI.get(name)
+        ra, rb = first[first.industry == name]["rank"].iloc[0], last[last.industry == name]["rank"].iloc[0]
+        sc, _, w, al = style(name)
+        cls, sw, op = (f"ln s-{tok}", 3.2, "") if tok else (f"ln {sc}", w + 0.2, f' opacity="{al}"')
+        s.path(polyline([x0, x1], [Y(ra), Y(rb)]), cls, sw, title=name, extra=op)
+        for x, r in ((x0, ra), (x1, rb)):
+            s.dot(x, Y(r), 4.2, f"s-{tok} f-{tok}" if tok else f"{sc} {style(name)[1]}", f"{name} rank {r}")
+        lab_cls = f"lab f-{tok}" if tok else f"labr {style(name)[1]}"
+        s.text(x0 - 14, Y(ra) + 4.5, f"#{ra}  {SHORT.get(name, name)}", lab_cls, "end", extra=op)
+        s.text(x1 + 14, Y(rb) + 4.5, f"{SHORT.get(name, name)}  #{rb}", lab_cls, extra=op)
+    s.footer(y1 + 46, [f"Ranks below #{TOP_N} are shown as #{TOP_N + 1}+. Summer 2026 is the latest batch with 50 or more companies."], SOURCE_YC)
+    return s.write(FIG / out)
+
+
+def fig_rank_tiles(t, embed, out):
+    """Rank matrix: one row per label, one column per batch, the rank number in a cell shaded by rank."""
+    s = Svg(embed)
+    top = s.header("§ Fig 2  ·  Industry rank per batch", "o",
+                   "Industrials went from YC's fifth-largest industry label to its second",
+                   "Rank of the eight top-level industry labels by company count within each batch, Winter 2019 to Fall 2026.")
+    named, shown = _rank_shown(t)
+    batches = named.drop_duplicates("batch_code").sort_values("pos")
+    npos = len(batches)
+    last = named[(~named.is_partial_batch)]; last = last[last.batch_order == last.batch_order.max()].set_index("industry")["rank"]
+    rows = sorted(shown, key=lambda n: last[n])
+    x0, x1, y0 = 64, W - GUTTER, top + 40
+    cw, ch = (x1 - x0) / npos, 30
+    y1 = y0 + ch * len(rows)
+    for i, name in enumerate(rows):
+        tok = HI.get(name)
+        d = named[named.industry == name].set_index("pos")["rank"]
+        cy = y0 + i * ch
+        for _, b in batches.iterrows():
+            r = int(d[b.pos]); rr = min(r, TOP_N + 1)
+            cx = x0 + b.pos * cw
+            fill = f"f-{tok}" if tok else "bgt"
+            op = .12 + .78 * (TOP_N + 1 - rr) / TOP_N         # rank 1 darkest, N+1 lightest
+            s.add(f'<rect x="{cx + 1:.1f}" y="{cy + 1:.1f}" width="{cw - 2:.1f}" height="{ch - 2:.1f}" class="{fill}" opacity="{op:.2f}">'
+                  f"<title>{esc(b.batch_code)} · {esc(name)} · rank {r}</title></rect>")
+            s.text(cx + cw / 2, cy + ch / 2 + 4, str(r) if r <= TOP_N else f"{TOP_N + 1}+", "tick mono", "middle",
+                   extra=' style="fill:var(--ink)"' if op < .5 else ' style="fill:var(--bg)"')
+        s.text(x1 + 19, cy + ch / 2 + 4.5, SHORT.get(name, name), f"lab f-{tok}" if tok else "labr m")
+    year_axis(s, y1, x0, x1, [(x0 + (b.pos + .5) * cw, b.start_month[:4] if b.start_month.endswith("-01") else None) for _, b in batches.iterrows()])
+    xe = x0 + (month_pos(t, "S22", "W23", "2022-11") + .5) * cw
+    s.line(xe, y0 - 26, xe, y1, "ev")
+    s.text(xe + 6, y0 - 16, "ChatGPT · Nov 2022", "tick mono")
+    s.footer(y1 + 48, [f"Each column is one batch. Darker means a higher rank; ranks below #{TOP_N} are shown as {TOP_N + 1}+.",
+                       "Fall 2026 has under 50 companies."], SOURCE_YC)
+    return s.write(FIG / out)
 
 
 # ---------------------------------------------------------------- figure 3: search interest, three stacked panels
@@ -469,6 +557,20 @@ LOREM = ("Body copy at the site's 16px / 1.625 so the figure can be judged again
          "and the directory keeps that label long after the company has changed what it does.")
 
 
+VARIANTS = (("curve", "Bump chart, curved connectors (current)"), ("step", "Staircase: flat per batch, vertical jumps"),
+            ("slope", "Slope chart: first batch vs latest full batch"), ("tiles", "Rank matrix: one cell per batch"))
+
+
+def write_variants(t, embed):
+    parts = []
+    for v, title in VARIANTS:
+        p = fig_rank(t, embed, v, f"fig2_{v}.svg")
+        parts.append(f'<h2>{title}</h2><figure class="article-media article-media-unframed">{p.read_text()}</figure>')
+    html = PREVIEW.replace("FIGURES", "".join(parts)).replace("<title>Op-ed figures preview</title>", "<title>Fig 2 variants</title>")
+    html = html.replace("</style>", "h2{font:600 16px 'Open Sans',Arial,sans-serif;margin:40px 0 4px;color:var(--muted-foreground)}</style>")
+    (FIG / "fig2_variants.html").write_text(html)
+
+
 def write_preview(svgs):
     figs = "".join(f'<figure class="article-media article-media-unframed" data-fig="{i + 1}">{p.read_text()}</figure>'
                    + (f"<p>{LOREM}</p>" if i == 0 else "") for i, p in enumerate(svgs))
@@ -518,5 +620,6 @@ if __name__ == "__main__":
     headline_numbers(t, g)
     svgs = [fig_share(t, a.embed_fonts), fig_rank(t, a.embed_fonts), fig_trends(g, a.embed_fonts)]
     write_preview(svgs)
-    print("wrote", ", ".join(p.name for p in svgs), "+ preview.html")
+    write_variants(t, a.embed_fonts)
+    print("wrote", ", ".join(p.name for p in svgs), "+ preview.html + fig2_variants.html")
     if not a.no_raster: rasterise(svgs)
