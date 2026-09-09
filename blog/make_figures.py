@@ -24,11 +24,13 @@ SOURCE_YC = "Source: YC company directory via github.com/yc-oss/api, snapshot 20
 SOURCE_GT = "Source: Google Trends, worldwide web search, monthly, retrieved 2026-09-09."
 CREDIT = "Chart: Islam Tayeb · imt.sh"
 MONO = 'ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono",monospace'
-SEC = {"Fintech": "r", "Healthcare": "y"}      # next two largest labels: the remaining ROYB tokens, translucent
-OTHER = {"Consumer": "#7c3aed", "Real Estate and Construction": "#0891b2", "Education": "#16a34a", "Government": "#db2777"}
-# secondary mixes of the palette (violet, teal, green, pink), kept saturated and made to recede by opacity, not by desaturating
+SEC = {"Fintech": "r"}                          # next-largest label takes the remaining usable ROYB token, translucent
+OTHER = {"Healthcare": "#16a34a", "Consumer": "#7c3aed", "Education": "#0891b2",
+         "Real Estate and Construction": "#db2777", "Government": "#4f46e5"}
+# green, violet, teal, pink, indigo: saturated secondary hues that avoid blue/orange (the highlights) and yellow (too light
+# to survive translucency on the off-white ground); they recede by opacity, not by desaturating
 OTHER_CSS = "".join(f".imt .d{i}{{stroke:{c}}}.imt .dt{i}{{fill:{c}}}" for i, c in enumerate(OTHER.values()))
-ALPHA = {"Fintech": .45, "Healthcare": .8, "Consumer": .45, "Real Estate and Construction": .45, "Education": .45, "Government": .45}
+ALPHA = {n: .45 for n in GRAY}
 
 
 def style(name):
