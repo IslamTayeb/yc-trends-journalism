@@ -343,7 +343,7 @@ def fig_share(t, embed):
             near = d[(X(d.pos) >= X(pm) - half) & (X(d.pos) <= X(pm) + half)]   # points the label would sit over
             ys = [Y(a * pm + b)] + [Y(v) for v in near.share_pct]
             y = min(ys) - 18 if name == "Industrials" else max(ys) + 26      # clear of fit, solid line, marker and descenders
-            s.text(X(pm), y, lab, f"tick mono f-{tok}", "middle")
+            s.text(X(pm), y, lab, f"tick mono f-{tok}", "middle", extra=' font-weight="700"')
         s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln s-{tok}", 3.5)
     # direct labels at the right edge, nudged apart, with a leader where a label had to move
     names = list(HI) + context
