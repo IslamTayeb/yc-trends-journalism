@@ -19,7 +19,12 @@ SEASON_MONTH = {"Winter": 1, "Spring": 4, "Summer": 6, "Fall": 9}
 START, CUT, END = 20190, 20230, 20263          # W19 .. F26, second trend segment starts at W23
 MIN_PLOT_BATCH, MIN_FULL_BATCH = 5, 50         # same thresholds as config.yaml
 HI = {"B2B": "b", "Industrials": "o"}          # highlighted series -> roy token
-GRAY = ["Healthcare", "Fintech", "Consumer", "Real Estate and Construction", "Education", "Government"]
+CONTEXT = {"Fintech": ("#e11d48", "#e11d48"), "Healthcare": ("#0f9d8a", "#12a594"), "Consumer": ("#8b5cf6", "#9f7aea")}
+BACKGROUND = ["Real Estate and Construction", "Education", "Government"]   # Fig 2 only, one muted gray
+# Fig 1 shows five series: the two highlights plus the three labels Industrials overtook (each 400-530 companies in
+# the window; the next largest, Real Estate, has 113). Context hues were chosen with the dataviz palette validator
+# against the brand blue and orange, all pairs, light and dark: rose instead of the site red, which is too close to the
+# orange (delta E 14 normal vision) and crosses Industrials in 2024-26. Dark mode gets its own lighter step per hue.
 SHORT = {"Real Estate and Construction": "Real Estate"}   # display name only; YC's label is kept in the data
 SOURCE_YC = "Source: YC directory via github.com/yc-oss/api, snapshot 2026-09-06."
 SOURCE_GT = "Source: Google Trends, worldwide, monthly, retrieved 2026-09-09."
@@ -31,19 +36,16 @@ W, MARGIN, GUTTER = 768, 24, 132              # GUTTER: right-hand space for dir
 CAP_LH, DEK_LH, H_LH = 19, 19, 26             # line heights for caption, dek, headline
 FONT_FILES = {"regular": FONTS / "OpenSans-Regular.ttf", "semibold": FONTS / "OpenSans-SemiBold.ttf",
               "bold": FONTS / "OpenSans-Bold.ttf", "mono": Path("/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf")}
-SEC = {}                                     # highlighted-only ROYB tokens; every other series has its own hex below
-OTHER = {"Healthcare": "#386356", "Consumer": "#8c79ae", "Education": "#3c6561", "Real Estate and Construction": "#9a658c", "Government": "#5c6e42", "Fintech": "#aa6b6d"}
-# hues ~45 degrees apart (red, magenta, violet, teal, emerald, lime), skipping the blue and orange bands reserved for B2B and
-# Industrials; HSL saturation about 0.21-0.28 (half of half of the source hues), then drawn at ALPHA opacity
-OTHER_CSS = "".join(f".imt .d{i}{{stroke:{c}}}.imt .dt{i}{{fill:{c}}}" for i, c in enumerate(OTHER.values()))
-ALPHA = {n: .45 for n in GRAY}
+CONTEXT_CSS = "".join(f".imt .c{i}{{stroke:{lt}}}.imt .ct{i}{{fill:{lt}}}" for i, (lt, _) in enumerate(CONTEXT.values()))
+CONTEXT_DARK = "".join(f".c{i}{{stroke:{dk}}}.ct{i}{{fill:{dk}}}" for i, (_, dk) in enumerate(CONTEXT.values()))
 
 
 def style(name):
     """(stroke class, fill class, width, opacity) for a non-highlighted series."""
-    if name in SEC: return f"s-{SEC[name]}", f"f-{SEC[name]}", 2.1, ALPHA[name]
-    i = list(OTHER).index(name)
-    return f"d{i}", f"dt{i}", 2.0, ALPHA[name]
+    if name in CONTEXT:
+        i = list(CONTEXT).index(name)
+        return f"c{i}", f"ct{i}", 2.0, .7
+    return "bg", "bgt", 1.6, .45
 
 
 # ---------------------------------------------------------------- data
@@ -139,20 +141,22 @@ CSS = """
 --rule:var(--border,#dfdedb);--prule:var(--page-rule,#131110);--r:var(--roy-r,#f52027);--o:var(--roy-o,#ee7b00);
 --y:var(--roy-y,#ffba06);--b:var(--roy-b,#0074c9);font-family:"Open Sans",Arial,sans-serif;font-size:14px}
 @media (prefers-color-scheme:dark){.imt{--bg:var(--background,#1a1a1a);--ink:var(--foreground,#fafafa);
---mut:var(--muted-foreground,#a1a1a1);--rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555)}}
+--mut:var(--muted-foreground,#a1a1a1);--rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555)}CTXDARK_MEDIA}
 .dark .imt{--bg:var(--background,#1a1a1a);--ink:var(--foreground,#fafafa);--mut:var(--muted-foreground,#a1a1a1);
---rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555)}
+--rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555)}CTXDARK_CLASS
 .imt text{fill:var(--ink)}.imt .m{fill:var(--mut)}.imt .mono{font-family:MONO}
 .imt .kick{font-size:13px;font-weight:700;letter-spacing:.2em}.imt .h{font-size:20px;font-weight:600}
 .imt .dek,.imt .cap{font-size:14px}.imt .tick{font-size:12px}.imt .foot{font-size:12px}.imt .lab{font-size:14px;font-weight:600}.imt .labr{font-size:14px}
 .imt .ground{fill:var(--bg)}.imt .grid{stroke:var(--rule);opacity:.7}.imt .axis{stroke:var(--mut);opacity:.6}
 .imt .ev{stroke:var(--prule);stroke-width:1.1;stroke-dasharray:1.5 3.5;stroke-linecap:round}
-.imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}MUTEDCSS
+.imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}CTXCSS.imt .bg{stroke:var(--mut)}.imt .bgt{fill:var(--mut)}
 .imt .trend{stroke-dasharray:5 4;opacity:.8}.imt .hollow{fill:var(--bg)}
 .imt .s-r{stroke:var(--r)}.imt .s-o{stroke:var(--o)}.imt .s-y{stroke:var(--y)}.imt .s-b{stroke:var(--b)}
 .imt .f-r{fill:var(--r)}.imt .f-o{fill:var(--o)}.imt .f-y{fill:var(--y)}.imt .f-b{fill:var(--b)}
 .imt .area{opacity:.12}
-""".replace("MONO", MONO).replace("MUTEDCSS", OTHER_CSS)
+""".replace("MONO", MONO).replace("CTXCSS", CONTEXT_CSS) \
+    .replace("CTXDARK_MEDIA", CONTEXT_DARK.replace(".c", ".imt .c")) \
+    .replace("CTXDARK_CLASS", CONTEXT_DARK.replace(".c", ".dark .imt .c"))
 
 
 def esc(s): return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
@@ -252,6 +256,15 @@ def month_pos(t, start_code, end_code, month):
     return a.pos + (m(month) - m(a.start_month)) / (m(b.start_month) - m(a.start_month)) * (b.pos - a.pos)
 
 
+def year_axis(s, y, x0, x1, ticks):
+    """One time axis for every figure: baseline at y, 8px major tick with the year centred under it at each year's first
+    observation, 4px minor tick at every other observation (batches; monthly data passes only the year ticks)."""
+    s.line(x0, y, x1, y, "axis")
+    for x, year in ticks:
+        s.line(x, y, x, y + (8 if year else 4), "axis")
+        if year: s.text(x, y + 22, year, "tick mono m", "middle")
+
+
 # ---------------------------------------------------------------- figure 1: share lines
 def fig_share(t, embed):
     s = Svg(embed)
@@ -264,20 +277,18 @@ def fig_share(t, embed):
     npos = len(batches)
     X = lambda p: x0 + p / (npos - 1) * (x1 - x0)
     Y = lambda v: y1 - v / 75 * (y1 - y0)
+    for v in (25, 50, 75):
+        s.line(x0, Y(v), x1, Y(v), "grid")
     for v in (0, 25, 50, 75):
-        s.line(x0, Y(v), x1, Y(v), "grid" if v else "axis")
         s.text(x0 - 8, Y(v) + 4, f"{v}%" if v else "0", "tick mono m", "end")
-    for _, b in batches.iterrows():   # one tick per batch; year label at each year's first (Winter) batch
-        first = b.start_month.endswith("-01")
-        s.line(X(b.pos), y1, X(b.pos), y1 + (9 if first else 5), "axis")
-        if first: s.text(X(b.pos), y1 + 23, b.start_month[:4], "tick mono m", "middle")
+    year_axis(s, y1, x0, x1, [(X(b.pos), b.start_month[:4] if b.start_month.endswith("-01") else None) for _, b in batches.iterrows()])
     # ChatGPT rule, same cut as the trend segments
     pcut = month_pos(t, "S22", "W23", "2022-11")
     xe = X(pcut)
     s.line(xe, y0 - 8, xe, y1, "ev")
     s.text(xe + 6, y0 + 4, "ChatGPT · Nov 2022", "tick mono")
     series = lambda name: t[t.industry == name].sort_values("pos")
-    for name in GRAY:
+    for name in CONTEXT:
         d = series(name)
         sc, _, w, al = style(name)
         s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln {sc}", w, title=name, extra=f' opacity="{al}"')
@@ -303,9 +314,9 @@ def fig_share(t, embed):
             s.dot(X(r.pos), Y(r.share_pct), 4.2, f"s-{tok} {'hollow' if r.is_partial_batch else f'f-{tok}'}",
                   f"{r.batch_code} · {name} · {r.share_pct:.1f}% ({r['count']} of {r.total_companies})")
     # direct labels at the right edge, nudged apart, with a leader where a label had to move
-    names = list(HI) + GRAY
+    names = list(HI) + list(CONTEXT)
     ends = [Y(series(n).iloc[-1].share_pct) for n in names]
-    lys = spread(ends, 25, y0, y1)   # fans the cluster up into the gap below B2B; leaders point back to each line
+    lys = spread(ends, 22, y0, y1)   # fans the cluster up into the gap below B2B; leaders point back to each line
     end_labels(s, names, ends, lys, X(npos - 1))
     s.footer(y1 + 46, ["Each tick is one batch. Dashed lines show the trend, split at ChatGPT.",
                        "A hollow dot is a batch with under 50 companies, not in the trend."], SOURCE_YC)
@@ -337,17 +348,15 @@ def fig_rank(t, embed):
     npos = len(batches)
     X = lambda p: x0 + p / (npos - 1) * (x1 - x0)
     Y = lambda r: y0 + (r - 1) / 7 * (y1 - y0)
-    for r in range(1, 9):
+    for r in range(1, 8):
         s.line(x0, Y(r), x1, Y(r), "grid")
+    for r in range(1, 9):
         s.text(x0 - 12, Y(r) + 4, f"#{r}", "tick mono m", "end")
-    for _, b in batches.iterrows():   # one tick per batch; year label at each year's first (Winter) batch
-        first = b.start_month.endswith("-01")
-        s.line(X(b.pos), y1 + 4, X(b.pos), y1 + (11 if first else 7), "axis")
-        if first: s.text(X(b.pos), y1 + 25, b.start_month[:4], "tick mono m", "middle")
+    year_axis(s, y1, x0, x1, [(X(b.pos), b.start_month[:4] if b.start_month.endswith("-01") else None) for _, b in batches.iterrows()])
     xe = X(month_pos(t, "S22", "W23", "2022-11"))
-    s.line(xe, y0 - 26, xe, y1 + 4, "ev")
+    s.line(xe, y0 - 26, xe, y1, "ev")
     s.text(xe + 6, y0 - 16, "ChatGPT · Nov 2022", "tick mono")
-    for name in GRAY + list(HI):
+    for name in BACKGROUND + list(CONTEXT) + list(HI):
         d = named[named.industry == name].sort_values("pos")
         tok = HI.get(name)
         xs, ys = [X(p) for p in d.pos], [Y(r) for r in d["rank"]]
@@ -387,17 +396,15 @@ def fig_trends(g, embed):
         py1 = py0 + ph
         Y = lambda v: py1 - v / 100 * ph
         for v in (0, 50, 100):
-            s.line(x0, Y(v), x1, Y(v), "grid" if v else "axis")
+            if v: s.line(x0, Y(v), x1, Y(v), "grid")
+            elif k < 2: s.line(x0, Y(v), x1, Y(v), "axis")   # the last panel's baseline comes from year_axis
             s.text(x0 - 8, Y(v) + 4, str(v), "tick mono m", "end")
         vals = g[term].tolist()
         xs, ys = [X(i) for i in range(n)], [Y(v) for v in vals]
         s.path(polyline(xs, ys) + f" L{xs[-1]:.1f},{Y(0):.1f} L{xs[0]:.1f},{Y(0):.1f} Z", f"area f-{tok}", 0, extra=' stroke="none"')
         s.path(polyline(xs, ys), f"ln s-{tok}", 2, title=f'"{term}" search interest')
         s.text(x1 + 19, ys[-1] + 4.5, f"“{term}”", f"lab mono f-{tok}")
-    for i, m in enumerate(g.month):
-        if m.endswith("-01"):
-            s.text(X(i), bottom + 20, m[:4], "tick mono m", "middle")
-            s.line(X(i), bottom, X(i), bottom + 5, "axis")
+    year_axis(s, bottom, x0, x1, [(X(i), m[:4]) for i, m in enumerate(g.month) if m.endswith("-01")])
     s.footer(bottom + 44, ["Each row is scaled to its own busiest month, which is 100. So the rows show shape, not size.",
                            "Before 2022, most searches for “llm” were about the law degree."], SOURCE_GT)
     return s.write(FIG / "ai_search_interest.svg")
