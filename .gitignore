@@ -238,3 +238,6 @@ data/raw/rfs/**/*.html
 data/all_years/figures/
 data/all_years/*.xlsx
 data/all_years/report.md
+
+# dashboard: user-defined eras stay local
+dashboard/eras.local.json

@@ -12,6 +12,8 @@ dependencies = [
   "beautifulsoup4>=4.12",
   "lxml>=5",
   "requests>=2.31",
+  "streamlit>=1.38",
+  "plotly>=5.22",
 ]
 
 [build-system]
