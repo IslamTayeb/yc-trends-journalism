@@ -32,9 +32,9 @@ CAP_LH, DEK_LH, H_LH = 19, 19, 26             # line heights for caption, dek, h
 FONT_FILES = {"regular": FONTS / "OpenSans-Regular.ttf", "semibold": FONTS / "OpenSans-SemiBold.ttf",
               "bold": FONTS / "OpenSans-Bold.ttf", "mono": Path("/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf")}
 SEC = {}                                     # highlighted-only ROYB tokens; every other series has its own hex below
-OTHER = {"Healthcare": "#22795e", "Consumer": "#855ec9", "Education": "#287972", "Real Estate and Construction": "#b54a98", "Government": "#60852b", "Fintech": "#ca4b4f"}
+OTHER = {"Healthcare": "#386356", "Consumer": "#8c79ae", "Education": "#3c6561", "Real Estate and Construction": "#9a658c", "Government": "#5c6e42", "Fintech": "#aa6b6d"}
 # hues ~45 degrees apart (red, magenta, violet, teal, emerald, lime), skipping the blue and orange bands reserved for B2B and
-# Industrials; saturation at 60% of the source hues, then drawn at ALPHA opacity
+# Industrials; HSL saturation about 0.21-0.28 (half of half of the source hues), then drawn at ALPHA opacity
 OTHER_CSS = "".join(f".imt .d{i}{{stroke:{c}}}.imt .dt{i}{{fill:{c}}}" for i, c in enumerate(OTHER.values()))
 ALPHA = {n: .45 for n in GRAY}
 
