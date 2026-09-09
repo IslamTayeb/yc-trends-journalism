@@ -42,9 +42,9 @@ ALPHA = {n: .45 for n in GRAY}
 
 def style(name):
     """(stroke class, fill class, width, opacity) for a non-highlighted series."""
-    if name in SEC: return f"s-{SEC[name]}", f"f-{SEC[name]}", 1.8, ALPHA[name]
+    if name in SEC: return f"s-{SEC[name]}", f"f-{SEC[name]}", 2.1, ALPHA[name]
     i = list(OTHER).index(name)
-    return f"d{i}", f"dt{i}", 1.6, ALPHA[name]
+    return f"d{i}", f"dt{i}", 2.0, ALPHA[name]
 
 
 # ---------------------------------------------------------------- data
@@ -145,7 +145,7 @@ CSS = """
 --rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555)}
 .imt text{fill:var(--ink)}.imt .m{fill:var(--mut)}.imt .mono{font-family:MONO}
 .imt .kick{font-size:13px;font-weight:700;letter-spacing:.2em}.imt .h{font-size:20px;font-weight:600}
-.imt .dek,.imt .cap{font-size:14px}.imt .tick{font-size:12px}.imt .foot{font-size:12px}.imt .lab{font-size:14px;font-weight:600}
+.imt .dek,.imt .cap{font-size:14px}.imt .tick{font-size:12px}.imt .foot{font-size:12px}.imt .lab{font-size:14px;font-weight:600}.imt .labr{font-size:14px}
 .imt .ground{fill:var(--bg)}.imt .grid{stroke:var(--rule);opacity:.7}.imt .axis{stroke:var(--mut);opacity:.6}
 .imt .ev{stroke:var(--prule);stroke-width:1.1;stroke-dasharray:1.5 3.5;stroke-linecap:round}
 .imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}MUTEDCSS
@@ -317,7 +317,7 @@ def end_labels(s, names, ends, lys, xr):
         if abs(yl - ye) > 2:
             s.line(xr + 5, ye, xr + 10, yl, f"s-{tok}" if tok else style(name)[0], 0.9)
         label = SHORT.get(name, name)
-        s.text(xr + 13, yl + 4.5, label, f"lab f-{tok}" if tok else f"lab {style(name)[1]}",
+        s.text(xr + 13, yl + 4.5, label, f"lab f-{tok}" if tok else f"labr {style(name)[1]}",
                extra="" if tok else f' opacity="{max(style(name)[3], .8)}"')
         assert xr + 13 + text_w(label, 14, "semibold") <= s.w - 8, label
 
