@@ -45,7 +45,7 @@ TOP_N = 5         # Fig 1: the N largest labels in the latest full batch; Fig 2:
 
 
 SHADE = {}        # industry -> gray opacity, darkest for the largest context label in the latest full batch (set in main)
-GRAY_STEPS = [.8, .58, .38]
+GRAY_STEPS = [.5]      # one shade; a size-ordered ramp was tried and rejected (implies a hierarchy that is not the story)
 
 
 def set_shades(t):
