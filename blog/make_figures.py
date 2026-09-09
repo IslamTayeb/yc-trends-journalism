@@ -19,12 +19,12 @@ START, CUT, END = 20190, 20230, 20263          # W19 .. F26, second trend segmen
 MIN_PLOT_BATCH, MIN_FULL_BATCH = 5, 50         # same thresholds as config.yaml
 HI = {"B2B": "b", "Industrials": "o"}          # highlighted series -> roy token
 GRAY = ["Healthcare", "Fintech", "Consumer", "Real Estate and Construction", "Education", "Government"]
-SEC = {"Fintech": "r", "Healthcare": "y"}      # next two largest labels take the remaining ROYB accents
-NEUTRAL = ["Consumer", "Real Estate and Construction", "Education", "Government"]   # site neutrals, light / dark
-NEUTRAL_HEX = (("#6b6865", "#a1a1a1"), ("#8f8f86", "#8a8a8a"), ("#b0afa8", "#6e6e6e"), ("#c8c6c0", "#585858"))
-MUTED_CSS = ("".join(f".imt .d{i}{{stroke:{l}}}.imt .dt{i}{{fill:{l}}}" for i, (l, _) in enumerate(NEUTRAL_HEX))
-             + "@media (prefers-color-scheme:dark){" + "".join(f".imt .d{i}{{stroke:{d}}}.imt .dt{i}{{fill:{d}}}" for i, (_, d) in enumerate(NEUTRAL_HEX)) + "}"
-             + "".join(f".dark .imt .d{i}{{stroke:{d}}}.dark .imt .dt{i}{{fill:{d}}}" for i, (_, d) in enumerate(NEUTRAL_HEX)))
+SEC = {"Fintech": "r2", "Healthcare": "y2"}    # next two largest labels: darkened, desaturated red and yellow
+SEC_HEX = {"r2": "#a3555a", "y2": "#a8893a"}
+NEUTRAL = ["Consumer", "Real Estate and Construction", "Education", "Government"]   # desaturated hues away from ROYB
+NEUTRAL_HEX = ("#3f8c86", "#7a68a8", "#5f9a55", "#a8627a")   # teal, violet, green, rose; muted next to ROYB, mid lightness for both grounds
+MUTED_CSS = ("".join(f".imt .d{i}{{stroke:{c}}}.imt .dt{i}{{fill:{c}}}" for i, c in enumerate(NEUTRAL_HEX))
+             + "".join(f".imt .s-{k}{{stroke:{c}}}.imt .f-{k}{{fill:{c}}}" for k, c in SEC_HEX.items()))
 
 
 def style(name):
@@ -257,12 +257,14 @@ def fig_rank(t, embed):
     for r in range(1, 9):
         s.line(x0, Y(r), x1, Y(r), "grid")
         s.text(x0 - 14, Y(r) + 3.5, str(r), "tick mono m", "end")
-    for _, b in batches.iterrows():
-        s.text(X(b.pos), y1 + 18, b.batch_code, "tick mono m", "middle", ' font-size="9px"')
+    for _, b in batches.iterrows():   # year labels at each year's first (Winter) batch
+        if b.start_month.endswith("-01"):
+            s.line(X(b.pos), y1 + 4, X(b.pos), y1 + 9, "axis")
+            s.text(X(b.pos), y1 + 21, b.start_month[:4], "tick mono m", "middle")
     xe = X(month_pos(t, "S22", "W23", "2022-11"))
     s.line(xe, y0 - 24, xe, y1 + 4, "ev")
     s.text(xe + 5, y0 - 16, "ChatGPT · Nov 2022", "tick mono")
-    first, last = batches.iloc[0].batch_code, batches.iloc[-1].batch_code
+    first, last = batches.iloc[0].batch, batches.iloc[-1].batch
     for name in GRAY + list(HI):
         d = named[named.industry == name].sort_values("pos")
         tok = HI.get(name)
