@@ -48,11 +48,12 @@ def yc_rows():
     t["pos"] = t.batch_order.map({b: i for i, b in enumerate(order)})
     t["start_month"] = t.batch.map(lambda b: f"{b.split()[1]}-{SEASON_MONTH[b.split()[0]]:02d}")
     t["segment"] = np.where(t.batch_order < CUT, "pre_w23", "w23_on")
+    t["year_frac"] = t.start_month.map(lambda m: int(m[:4]) + (int(m[5:]) - 1) / 12)   # for slopes in pts per year
     named = t[t.industry != "Unspecified"].sort_values(["batch_order", "count", "industry"], ascending=[True, False, True])
     named["rank"] = named.groupby("batch_order").cumcount() + 1   # count desc, ties by name (dashboard: method="first")
     t = t.merge(named[["batch_order", "industry", "rank"]], how="left")
     t["rank"] = t["rank"].astype("Int64")
-    cols = ["batch_code", "batch", "batch_order", "pos", "start_month", "industry", "count", "total_companies",
+    cols = ["batch_code", "batch", "batch_order", "pos", "start_month", "year_frac", "industry", "count", "total_companies",
             "share_pct", "is_partial_batch", "segment", "rank"]
     t = t.sort_values(["batch_order", "industry"])[cols].reset_index(drop=True)
     t.to_csv(DATA / "yc_industry_share_w19_f26.csv", index=False)
@@ -220,12 +221,13 @@ def fig_share(t, embed):
             dd = d[d.segment == seg]
             solid = dd[~dd.is_partial_batch]
             a, b = fit(solid.pos, solid.share_pct)
+            ay, _ = fit(solid.year_frac, solid.share_pct)   # same fit against calendar time, for a unit readers know
             p0, p1 = (dd.pos.min(), pcut) if seg == "pre_w23" else (pcut, dd.pos.max())   # fits meet at the rule
             s.path(polyline([X(p0), X(p1)], [Y(a * p0 + b), Y(a * p1 + b)]), f"ln trend s-{tok}", 1.5,
-                   title=f"{name}, least-squares fit {solid.batch_code.iloc[0]}–{solid.batch_code.iloc[-1]}: {a:+.2f} pp per batch")
+                   title=f"{name}, least-squares fit {solid.batch.iloc[0]} to {solid.batch.iloc[-1]}: {ay:+.1f} points per year")
             pm = (p0 + p1) / 2    # slope label on each dashed segment: above for Industrials, below for B2B
             dy = -9 if name == "Industrials" else 19
-            s.text(X(pm), Y(a * pm + b) + dy, f"{a:+.1f} pp/batch", f"tick mono f-{tok}", "middle")
+            s.text(X(pm), Y(a * pm + b) + dy, f"{ay:+.1f} pts/yr", f"tick mono f-{tok}", "middle")
         s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln s-{tok}", 2.25)
         for _, r in d.iterrows():
             s.dot(X(r.pos), Y(r.share_pct), 3.6, f"s-{tok} {'hollow' if r.is_partial_batch else f'f-{tok}'}",
@@ -240,8 +242,8 @@ def fig_share(t, embed):
             s.line(X(npos - 1) + 4, ye, X(npos - 1) + 9, yl, f"s-{tok}" if tok else style(name)[0], 0.8)
         s.text(X(npos - 1) + 12, yl + 3.5, SHORT.get(name, name), f"lab f-{tok}" if tok else f"tick {style(name)[1]}",
                extra="" if tok else f' opacity="{max(style(name)[3], .8)}"')
-    s.footer(["One tick per batch, year at each year's first batch: YC ran two batches a year through 2023, three in 2024, four from 2025.",
-              "Dashed lines: least-squares fits, split at the ChatGPT rule. Hollow marker: batch under 50 companies, excluded from the fits.",
+    s.footer(["A batch is one YC intake of startups. One tick per batch, year at each year's first: two a year through 2023, three in 2024, four from 2025.",
+              "Dashed: least-squares fits split at the ChatGPT rule, slope in points per year. Hollow marker: batch under 50 companies, excluded.",
               "A company can carry more than one industry label. Unspecified (0 companies in this window) not shown."], SOURCE_YC)
     return s.write(FIG / "yc_b2b_vs_industrials.svg")
 
@@ -284,7 +286,7 @@ def fig_rank(t, embed):
         r1 = d.iloc[-1]["rank"]
         cls = f"lab f-{tok}" if tok else f"tick {style(name)[1]}"
         s.text(x1 + 12, Y(r1) + 3.5, SHORT.get(name, name), cls, extra="" if tok else f' opacity="{max(style(name)[3], .8)}"')
-    s.footer(["One tick per batch, year at each year's first batch: YC ran two batches a year through 2023, three in 2024, four from 2025.",
+    s.footer(["A batch is one YC intake of startups. One tick per batch, year at each year's first: two a year through 2023, three in 2024, four from 2025.",
               "Ties broken alphabetically. Hollow marker: batch with fewer than 50 companies."], SOURCE_YC)
     return s.write(FIG / "yc_industry_rank.svg")
 
@@ -384,8 +386,8 @@ def headline_numbers(t, g):
     for name in HI:
         d = t[(t.industry == name) & ~t.is_partial_batch]
         for seg in ("pre_w23", "w23_on"):
-            dd = d[d.segment == seg]; a, _ = fit(dd.pos, dd.share_pct)
-            print(f"  {name} {seg} ({dd.batch_code.iloc[0]}–{dd.batch_code.iloc[-1]}): {a:+.2f} pp per batch")
+            dd = d[d.segment == seg]; a, _ = fit(dd.pos, dd.share_pct); ay, _ = fit(dd.year_frac, dd.share_pct)
+            print(f"  {name} {seg} ({dd.batch_code.iloc[0]}–{dd.batch_code.iloc[-1]}): {a:+.2f} pp per batch, {ay:+.2f} pp per year")
     for term in ("ai", "gpt", "llm"):
         print(f'"{term}": peak {g.month[g[term].idxmax()]}, Nov 2022 {g[term][g.month == "2022-11"].iloc[0]:g}, '
               f'Jul 2020 {g[term][g.month == "2020-07"].iloc[0]:g}')
