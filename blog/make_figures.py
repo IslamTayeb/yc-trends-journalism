@@ -296,7 +296,7 @@ def fig_share(t, embed):
             half = text_w(lab, 12, "mono") / 2 + 6
             near = d[(X(d.pos) >= X(pm) - half) & (X(d.pos) <= X(pm) + half)]   # points the label would sit over
             ys = [Y(a * pm + b)] + [Y(v) for v in near.share_pct]
-            y = min(ys) - 14 if name == "Industrials" else max(ys) + 22      # clear of fit, solid line, marker and descenders
+            y = min(ys) - 18 if name == "Industrials" else max(ys) + 26      # clear of fit, solid line, marker and descenders
             s.text(X(pm), y, lab, f"tick mono f-{tok}", "middle")
         s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln s-{tok}", 2.5)
         for _, r in d.iterrows():
