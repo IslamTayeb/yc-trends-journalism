@@ -248,7 +248,7 @@ def fig_rank(t, embed):
     top = s.header("§ Fig 2  ·  Industry rank per batch", "o",
                    "Industrials went from YC's fifth-largest industry label to its second",
                    ["Rank of the eight top-level industry labels by number of companies within each batch, Winter 2019 to Fall 2026."])
-    x0, x1, y0, y1 = 196, W - 166, top + 36, H - 78
+    x0, x1, y0, y1 = 56, W - 166, top + 36, H - 78
     named = t[t.industry != "Unspecified"]
     batches = named.drop_duplicates("batch_code").sort_values("pos")
     npos = len(batches)
@@ -264,7 +264,7 @@ def fig_rank(t, embed):
     xe = X(month_pos(t, "S22", "W23", "2022-11"))
     s.line(xe, y0 - 24, xe, y1 + 4, "ev")
     s.text(xe + 5, y0 - 16, "ChatGPT · Nov 2022", "tick mono")
-    first, last = batches.iloc[0].batch, batches.iloc[-1].batch
+    last = batches.iloc[-1].batch
     for name in GRAY + list(HI):
         d = named[named.industry == name].sort_values("pos")
         tok = HI.get(name)
@@ -277,11 +277,9 @@ def fig_rank(t, embed):
         else:
             sc, _, w = style(name)
             s.path(scurve(xs, ys), f"ln {sc}", w + 0.2, title=name, extra=' opacity=".9"')
-        r0, r1 = d.iloc[0]["rank"], d.iloc[-1]["rank"]
+        r1 = d.iloc[-1]["rank"]
         cls = f"lab f-{tok}" if tok else f"tick {style(name)[1]}"
-        s.text(x0 - 34, Y(r0) + 3.5, SHORT.get(name, name), cls, "end")
         s.text(x1 + 12, Y(r1) + 3.5, SHORT.get(name, name), cls)
-    s.text(x0 - 34, y0 - 16, first, "tick mono m", "end")
     s.text(x1 + 12, y0 - 16, last, "tick mono m")
     s.footer(["Ties broken alphabetically. Hollow marker: batch with fewer than 50 companies."], SOURCE_YC)
     return s.write(FIG / "yc_industry_rank.svg")
