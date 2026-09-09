@@ -54,7 +54,8 @@ ever wanted; the site's red was rejected for it because it is too close to the b
 
 - Share = companies carrying the industry label / all companies in the batch (same denominator as the dashboard and
   `data/all_years/processed/yc_industry_trends.csv`). A company can carry more than one industry label.
-- F26 has 35 companies and is flagged partial: hollow marker, excluded from the fits. W27 (1 company) is dropped.
+- F26 has 35 companies and is flagged partial: it stays in the CSV but Fig 1 and Fig 2 drop it, so both run Winter 2019 to
+  Summer 2026. W27 (1 company) is dropped everywhere.
 - Rank ties are broken alphabetically. The dashboard uses pandas `method="first"`, which gives the same result on this
   window because ties only occur at zero.
 - Google Trends indexes each term to its own peak, so the three rows in Fig 3 compare in shape, not level. "gpt" is

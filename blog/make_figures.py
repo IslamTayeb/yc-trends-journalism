@@ -289,12 +289,18 @@ def year_axis(s, y, x0, x1, ticks):
         if year: s.text(x, y + 22, year, "tick mono m", "middle")
 
 
+def span(t):
+    b = t.drop_duplicates("batch_code").sort_values("pos").batch
+    return f"{b.iloc[0]} to {b.iloc[-1]}"
+
+
 # ---------------------------------------------------------------- figure 1: share lines
 def fig_share(t, embed):
+    t = t[~t.is_partial_batch]                      # F26 (35 companies) is dropped from the figures; it stays in the CSV
     s = Svg(embed)
     top = s.header("§ Fig 1  ·  YC batch composition", "r",
                    "B2B peaked at 69% of a YC batch in 2023. Industrials has tripled since 2019.",
-                   "Share of each batch's companies carrying YC's top-level industry label, Winter 2019 to Fall 2026.")
+                   f"Share of each batch's companies carrying YC's top-level industry label, {span(t)}.")
     x0, x1, y0 = 56, W - GUTTER, top + 30
     y1 = y0 + 290                                   # plot area 580 x 290, about 2:1
     batches = t.drop_duplicates("batch_code").sort_values("pos")
@@ -339,16 +345,12 @@ def fig_share(t, embed):
             y = min(ys) - 18 if name == "Industrials" else max(ys) + 26      # clear of fit, solid line, marker and descenders
             s.text(X(pm), y, lab, f"tick mono f-{tok}", "middle")
         s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln s-{tok}", 3.5)
-        for _, r in d[d.is_partial_batch].iterrows():   # only the partial batch gets a marker (hollow)
-            s.dot(X(r.pos), Y(r.share_pct), 4.2, f"s-{tok} hollow",
-                  f"{r.batch_code} · {name} · {r.share_pct:.1f}% ({r['count']} of {r.total_companies})")
     # direct labels at the right edge, nudged apart, with a leader where a label had to move
     names = list(HI) + context
     ends = [Y(series(n).iloc[-1].share_pct) for n in names]
     lys = spread(ends, 22, y0, y1)   # fans the cluster up into the gap below B2B; leaders point back to each line
     end_labels(s, names, ends, lys, X(npos - 1))
-    s.footer(y1 + 46, ["Each tick is one batch. Dashed lines show the trend, split at ChatGPT.",
-                       "A hollow dot is a batch with under 50 companies, not in the trend."], SOURCE_YC)
+    s.footer(y1 + 46, ["Each tick is one batch. Dashed lines show the trend, split at ChatGPT."], SOURCE_YC)
     return s.write(FIG / "yc_b2b_vs_industrials.svg")
 
 
@@ -370,10 +372,11 @@ def fig_rank(t, embed, variant="curve", out="yc_industry_rank.svg"):
     if variant == "tiles": return fig_rank_tiles(t, embed, out)
     if variant == "slope": return fig_rank_slope(t, embed, out)
     connect = steps if variant == "step" else scurve
+    t = t[~t.is_partial_batch]
     s = Svg(embed)
     top = s.header("§ Fig 2  ·  Industry rank per batch", "o",
                    "Industrials went from YC's fifth-largest industry label to its second",
-                   "Rank of the eight top-level industry labels by company count within each batch, Winter 2019 to Fall 2026.")
+                   f"Rank of the eight top-level industry labels by company count within each batch, {span(t)}.")
     x0, x1, y0 = 64, W - GUTTER, top + 40
     y1 = y0 + 46 * (TOP_N - 1)                      # 46 px per rank step; rank N sits on the baseline
     named = t[t.industry != "Unspecified"]
@@ -392,7 +395,7 @@ def fig_rank(t, embed, variant="curve", out="yc_industry_rank.svg"):
     s.text(xe + 6, y0 - 16, "ChatGPT · Nov 2022", "tick mono")
     reach = named[~named.is_partial_batch].groupby("industry")["rank"].min()   # full batches only
     shown = [n for n in BACKGROUND + list(CONTEXT) if reach[n] <= TOP_N] + list(HI)   # every label that ever makes the top N
-    ends = []
+    ends, tails = [], 0
     for name in shown:
         d = named[named.industry == name].sort_values("pos")
         tok = HI.get(name)
@@ -409,17 +412,13 @@ def fig_rank(t, embed, variant="curve", out="yc_industry_rank.svg"):
             if i and pts[i - 1][2] != inv:
                 (xa, ya, _), (xb, yb, _) = pts[i - 1], pts[i]
                 s.path(connect([xa, xb], [ya, yb]), cls, sw, title=f"{name} leaves the top {TOP_N}",
-                       extra=op + ' stroke-dasharray="1 6" clip-path="url(#rankclip)"')
-        if tok:
-            for _, r in d[d.is_partial_batch & (d["rank"] <= TOP_N)].iterrows():   # only the partial batch gets a marker (hollow)
-                s.dot(X(r.pos), Y(r["rank"]), 4.8, f"s-{tok} hollow",
-                      f"{r.batch_code} · {name} · rank {r['rank']} ({r['count']} companies)")
+                       extra=op + ' stroke-dasharray="1 6" clip-path="url(#rankclip)"'); tails += 1
         r1 = d.iloc[-1]["rank"]
         ends.append((name, min(Y(r1), y1)))
     names = [n for n, _ in ends]
     lys = spread([y for _, y in ends], 20, y0, y1 + 8)
     end_labels(s, names, [y for _, y in ends], lys, x1)
-    s.footer(y1 + 48, [f"Each tick is one batch. A dotted end means the label fell below #{TOP_N}. Hollow dot: a batch with under 50 companies."], SOURCE_YC)
+    s.footer(y1 + 48, ["Each tick is one batch." + (f" A dotted end means the label fell below #{TOP_N}." if tails else "")], SOURCE_YC)
     return s.write(FIG / out)
 
 
