@@ -375,16 +375,17 @@ def fig_rank(t, embed, variant="curve", out="yc_industry_rank.svg"):
                    "Industrials went from YC's fifth-largest industry label to its second",
                    "Rank of the eight top-level industry labels by company count within each batch, Winter 2019 to Fall 2026.")
     x0, x1, y0 = 64, W - GUTTER, top + 40
-    y1 = y0 + 46 * TOP_N                            # 46 px per rank step, last row is "N+1 and below"
+    y1 = y0 + 46 * (TOP_N - 1)                      # 46 px per rank step; rank N sits on the baseline
     named = t[t.industry != "Unspecified"]
     batches = named.drop_duplicates("batch_code").sort_values("pos")
     npos = len(batches)
     X = lambda p: x0 + p / (npos - 1) * (x1 - x0)
-    Y = lambda r: y0 + (min(int(r), TOP_N + 1) - 1) / TOP_N * (y1 - y0)
-    for r in range(1, TOP_N + 1):
+    Y = lambda r: y0 + (int(r) - 1) / (TOP_N - 1) * (y1 - y0)   # ranks below N land under the baseline and get clipped
+    for r in range(1, TOP_N):
         s.line(x0, Y(r), x1, Y(r), "grid")
+    for r in range(1, TOP_N + 1):
         s.text(x0 - 12, Y(r) + 4, f"#{r}", "tick mono m", "end")
-    s.text(x0 - 12, Y(TOP_N + 1) + 4, f"#{TOP_N + 1}+", "tick mono m", "end")
+    s.add(f'<defs><clipPath id="rankclip"><rect x="{x0 - 6}" y="{y0 - 6}" width="{x1 - x0 + 12}" height="{y1 - y0 + 6}"/></clipPath></defs>')
     year_axis(s, y1, x0, x1, [(X(b.pos), b.start_month[:4] if b.start_month.endswith("-01") else None) for _, b in batches.iterrows()])
     xe = X(month_pos(t, "S22", "W23", "2022-11"))
     s.line(xe, y0 - 26, xe, y1, "ev")
@@ -395,22 +396,30 @@ def fig_rank(t, embed, variant="curve", out="yc_industry_rank.svg"):
     for name in shown:
         d = named[named.industry == name].sort_values("pos")
         tok = HI.get(name)
-        xs, ys = [X(p) for p in d.pos], [Y(r) for r in d["rank"]]
+        sc, _, w, al = style(name)
+        cls, sw, op = (f"ln s-{tok}", 3.5, "") if tok else (f"ln {sc}", w + 0.2, f' opacity="{al}"')
+        pts = [(X(p), Y(r), r <= TOP_N) for p, r in zip(d.pos, d["rank"])]
+        # solid runs while the label is in the top N; a dotted, clipped segment where it leaves or re-enters the view
+        run = []
+        for i, (x, y, inv) in enumerate(pts):
+            if inv: run.append((x, y))
+            if (not inv or i == len(pts) - 1) and len(run) > 1:
+                s.path(connect(*zip(*run)), cls, sw, title=name, extra=op); run = []
+            elif not inv: run = []
+            if i and pts[i - 1][2] != inv:
+                (xa, ya, _), (xb, yb, _) = pts[i - 1], pts[i]
+                s.path(connect([xa, xb], [ya, yb]), cls, sw, title=f"{name} leaves the top {TOP_N}",
+                       extra=op + ' stroke-dasharray="1 6" clip-path="url(#rankclip)"')
         if tok:
-            s.path(connect(xs, ys), f"ln s-{tok}", 3.5)
-            for _, r in d[d.is_partial_batch].iterrows():   # only the partial batch gets a marker (hollow)
+            for _, r in d[d.is_partial_batch & (d["rank"] <= TOP_N)].iterrows():   # only the partial batch gets a marker (hollow)
                 s.dot(X(r.pos), Y(r["rank"]), 4.8, f"s-{tok} hollow",
                       f"{r.batch_code} · {name} · rank {r['rank']} ({r['count']} companies)")
-        else:
-            sc, _, w, al = style(name)
-            s.path(connect(xs, ys), f"ln {sc}", w + 0.2, title=name, extra=f' opacity="{al}"')
         r1 = d.iloc[-1]["rank"]
-        ends.append((name, Y(r1)))
+        ends.append((name, min(Y(r1), y1)))
     names = [n for n, _ in ends]
     lys = spread([y for _, y in ends], 20, y0, y1 + 8)
     end_labels(s, names, [y for _, y in ends], lys, x1)
-    s.footer(y1 + 48, [f"Each tick is one batch. Ranks below #{TOP_N} are shown as #{TOP_N + 1}+.",
-                       "A hollow dot is a batch with under 50 companies."], SOURCE_YC)
+    s.footer(y1 + 48, [f"Each tick is one batch. A dotted end means the label fell below #{TOP_N}. Hollow dot: a batch with under 50 companies."], SOURCE_YC)
     return s.write(FIG / out)
 
 
