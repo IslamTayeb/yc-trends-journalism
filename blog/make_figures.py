@@ -303,8 +303,8 @@ def fig_share(t, embed):
     ends = [Y(series(n).iloc[-1].share_pct) for n in names]
     lys = spread(ends, 20, y0, y1)   # fans the cluster up into the gap below B2B; leaders point back to each line
     end_labels(s, names, ends, lys, X(npos - 1))
-    s.footer(y1 + 46, ["A batch is one group of startups that YC funds together. Each tick is one batch.",
-                       "Dashed lines show the trend, split at ChatGPT. A hollow dot is a batch with under 50 companies, not in the trend."], SOURCE_YC)
+    s.footer(y1 + 46, ["Each tick is one batch. Dashed lines show the trend, split at ChatGPT.",
+                       "A hollow dot is a batch with under 50 companies, not in the trend."], SOURCE_YC)
     return s.write(FIG / "yc_b2b_vs_industrials.svg")
 
 
@@ -357,8 +357,7 @@ def fig_rank(t, embed):
             s.path(scurve(xs, ys), f"ln {sc}", w + 0.2, title=name, extra=f' opacity="{al}"')
         r1 = d.iloc[-1]["rank"]
         end_labels(s, [name], [Y(r1)], [Y(r1)], x1)
-    s.footer(y1 + 48, ["A batch is one group of startups that YC funds together. Each tick is one batch.",
-                       "A hollow dot is a batch with under 50 companies."], SOURCE_YC)
+    s.footer(y1 + 48, ["Each tick is one batch. A hollow dot is a batch with under 50 companies."], SOURCE_YC)
     return s.write(FIG / "yc_industry_rank.svg")
 
 
