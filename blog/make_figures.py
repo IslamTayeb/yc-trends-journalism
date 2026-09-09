@@ -19,7 +19,19 @@ START, CUT, END = 20190, 20230, 20263          # W19 .. F26, second trend segmen
 MIN_PLOT_BATCH, MIN_FULL_BATCH = 5, 50         # same thresholds as config.yaml
 HI = {"B2B": "b", "Industrials": "o"}          # highlighted series -> roy token
 GRAY = ["Healthcare", "Fintech", "Consumer", "Real Estate and Construction", "Education", "Government"]
-GRAY_ALPHA = dict(zip(GRAY, (.62, .5, .4, .32, .25, .19)))   # ink at stepped opacity, works on both grounds
+SEC = {"Fintech": "r", "Healthcare": "y"}      # next two largest labels take the remaining ROYB accents
+NEUTRAL = ["Consumer", "Real Estate and Construction", "Education", "Government"]   # site neutrals, light / dark
+NEUTRAL_HEX = (("#6b6865", "#a1a1a1"), ("#8f8f86", "#8a8a8a"), ("#b0afa8", "#6e6e6e"), ("#c8c6c0", "#585858"))
+MUTED_CSS = ("".join(f".imt .d{i}{{stroke:{l}}}.imt .dt{i}{{fill:{l}}}" for i, (l, _) in enumerate(NEUTRAL_HEX))
+             + "@media (prefers-color-scheme:dark){" + "".join(f".imt .d{i}{{stroke:{d}}}.imt .dt{i}{{fill:{d}}}" for i, (_, d) in enumerate(NEUTRAL_HEX)) + "}"
+             + "".join(f".dark .imt .d{i}{{stroke:{d}}}.dark .imt .dt{i}{{fill:{d}}}" for i, (_, d) in enumerate(NEUTRAL_HEX)))
+
+
+def style(name):
+    """(stroke class, fill class, width) for a non-highlighted series."""
+    if name in SEC: return f"s-{SEC[name]}", f"f-{SEC[name]}", 1.7
+    i = NEUTRAL.index(name)
+    return f"d{i}", f"dt{i}", 1.4
 SHORT = {"Real Estate and Construction": "Real Estate & Constr."}
 SOURCE_YC = "Source: YC company directory via github.com/yc-oss/api, snapshot 2026-09-06."
 SOURCE_GT = "Source: Google Trends, worldwide web search, monthly, retrieved 2026-09-09."
@@ -80,12 +92,12 @@ CSS = """
 .imt .dek,.imt .cap{font-size:12px}.imt .tick{font-size:10.5px}.imt .foot{font-size:10px}.imt .lab{font-size:11px;font-weight:700}
 .imt .ground{fill:var(--bg)}.imt .grid{stroke:var(--rule);opacity:.7}.imt .axis{stroke:var(--mut);opacity:.6}
 .imt .ev{stroke:var(--prule);stroke-width:1;stroke-dasharray:1.5 3.5;stroke-linecap:round}
-.imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}.imt .gray{stroke:var(--ink)}.imt .gtxt{fill:var(--ink)}
+.imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}MUTEDCSS
 .imt .trend{stroke-dasharray:5 4;opacity:.8}.imt .hollow{fill:var(--bg)}
 .imt .s-r{stroke:var(--r)}.imt .s-o{stroke:var(--o)}.imt .s-y{stroke:var(--y)}.imt .s-b{stroke:var(--b)}
 .imt .f-r{fill:var(--r)}.imt .f-o{fill:var(--o)}.imt .f-y{fill:var(--y)}.imt .f-b{fill:var(--b)}
 .imt .area{opacity:.12}
-""".replace("MONO", MONO)
+""".replace("MONO", MONO).replace("MUTEDCSS", MUTED_CSS)
 
 
 def esc(s): return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
@@ -190,25 +202,27 @@ def fig_share(t, embed):
     for _, b in batches.iterrows():
         s.text(X(b.pos), y1 + 15, b.batch_code, "tick mono m", "middle")
     # ChatGPT rule, same cut as the trend segments
-    xe = X(month_pos(t, "S22", "W23", "2022-11"))
+    pcut = month_pos(t, "S22", "W23", "2022-11")
+    xe = X(pcut)
     s.line(xe, y0 - 6, xe, y1, "ev")
     s.text(xe + 5, y0 + 4, "ChatGPT · Nov 2022", "tick mono")
     series = lambda name: t[t.industry == name].sort_values("pos")
     for name in GRAY:
         d = series(name)
-        s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), "ln gray", 1.4, title=name, extra=f' opacity="{GRAY_ALPHA[name]}"')
+        sc, _, w = style(name)
+        s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln {sc}", w, title=name, extra=' opacity=".9"')
     for name, tok in HI.items():
         d = series(name)
         for seg in ("pre_w23", "w23_on"):
             dd = d[d.segment == seg]
             solid = dd[~dd.is_partial_batch]
             a, b = fit(solid.pos, solid.share_pct)
-            p0, p1 = dd.pos.min(), dd.pos.max()
+            p0, p1 = (dd.pos.min(), pcut) if seg == "pre_w23" else (pcut, dd.pos.max())   # fits meet at the rule
             s.path(polyline([X(p0), X(p1)], [Y(a * p0 + b), Y(a * p1 + b)]), f"ln trend s-{tok}", 1.5,
                    title=f"{name}, least-squares fit {solid.batch_code.iloc[0]}–{solid.batch_code.iloc[-1]}: {a:+.2f} pp per batch")
-            if name == "Industrials":   # slope label above the middle of each dashed segment
-                pm = (p0 + p1) / 2
-                s.text(X(pm), Y(a * pm + b) - 9, f"{a:+.1f} pp/batch", f"tick mono f-{tok}", "middle")
+            pm = (p0 + p1) / 2    # slope label on each dashed segment: above for Industrials, below for B2B
+            dy = -9 if name == "Industrials" else 19
+            s.text(X(pm), Y(a * pm + b) + dy, f"{a:+.1f} pp/batch", f"tick mono f-{tok}", "middle")
         s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln s-{tok}", 2.25)
         for _, r in d.iterrows():
             s.dot(X(r.pos), Y(r.share_pct), 3.6, f"s-{tok} {'hollow' if r.is_partial_batch else f'f-{tok}'}",
@@ -220,9 +234,8 @@ def fig_share(t, embed):
     for name, ye, yl in zip(names, ends, lys):
         tok = HI.get(name)
         if abs(yl - ye) > 2:
-            s.line(X(npos - 1) + 5, ye, X(npos - 1) + 13, yl, "gray", 0.8) if not tok else s.line(X(npos - 1) + 5, ye, X(npos - 1) + 13, yl, f"s-{tok}", 0.8)
-        cls = f"lab f-{tok}" if tok else "tick gtxt"
-        s.text(X(npos - 1) + 16, yl + 3.5, SHORT.get(name, name), cls, extra="" if tok else f' opacity="{max(GRAY_ALPHA[name], .5)}"')
+            s.line(X(npos - 1) + 5, ye, X(npos - 1) + 13, yl, f"s-{tok}" if tok else style(name)[0], 0.8)
+        s.text(X(npos - 1) + 16, yl + 3.5, SHORT.get(name, name), f"lab f-{tok}" if tok else f"tick {style(name)[1]}")
     s.footer(["Hollow marker: batch under 50 companies, excluded from the dashed least-squares fits (W19 to S22 and W23 to S26).",
               "A company can carry more than one industry label. Unspecified (0 companies in this window) not shown."], SOURCE_YC)
     return s.write(FIG / "yc_b2b_vs_industrials.svg")
@@ -260,12 +273,12 @@ def fig_rank(t, embed):
                 s.dot(X(r.pos), Y(r["rank"]), 4.2, f"s-{tok} {'hollow' if r.is_partial_batch else f'f-{tok}'}",
                       f"{r.batch_code} · {name} · rank {r['rank']} ({r['count']} companies)")
         else:
-            s.path(scurve(xs, ys), "ln gray", 1.6, title=name, extra=f' opacity="{GRAY_ALPHA[name]}"')
+            sc, _, w = style(name)
+            s.path(scurve(xs, ys), f"ln {sc}", w + 0.2, title=name, extra=' opacity=".9"')
         r0, r1 = d.iloc[0]["rank"], d.iloc[-1]["rank"]
-        cls = f"lab f-{tok}" if tok else "tick gtxt"
-        ex = "" if tok else f' opacity="{max(GRAY_ALPHA[name], .5)}"'
-        s.text(x0 - 34, Y(r0) + 3.5, SHORT.get(name, name), cls, "end", ex)
-        s.text(x1 + 12, Y(r1) + 3.5, SHORT.get(name, name), cls, extra=ex)
+        cls = f"lab f-{tok}" if tok else f"tick {style(name)[1]}"
+        s.text(x0 - 34, Y(r0) + 3.5, SHORT.get(name, name), cls, "end")
+        s.text(x1 + 12, Y(r1) + 3.5, SHORT.get(name, name), cls)
     s.text(x0 - 34, y0 - 16, first, "tick mono m", "end")
     s.text(x1 + 12, y0 - 16, last, "tick mono m")
     s.footer(["Ties broken alphabetically. Hollow marker: batch with fewer than 50 companies."], SOURCE_YC)
