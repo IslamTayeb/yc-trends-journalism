@@ -14,22 +14,24 @@ FONT = "Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
 def style(fig: go.Figure, height: int = 420, y_title: str | None = None, title: str | None = None,
           legend: bool = True) -> go.Figure:
     fig.update_layout(
-        height=height, title=title, font=dict(family=FONT, color=INK, size=13),
+        height=height, font=dict(family=FONT, color=INK, size=13),
         paper_bgcolor=SURF, plot_bgcolor=SURF, margin=dict(l=10, r=10, t=50 if title else 30, b=10),
         hovermode="x unified", showlegend=legend,
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0, font=dict(size=12)),
     )
+    if title:
+        fig.update_layout(title=title)
     fig.update_xaxes(showgrid=False, linecolor=GRID, tickfont=dict(color=INK2, size=11))
-    fig.update_yaxes(gridcolor=GRID, zeroline=False, title=y_title, tickfont=dict(color=INK2, size=11),
+    fig.update_yaxes(gridcolor=GRID, zeroline=False, title=y_title or None, tickfont=dict(color=INK2, size=11),
                      rangemode="tozero")
     return fig
 
 
 def batch_axis(fig: go.Figure, meta: pd.DataFrame, row: int | None = None, col: int | None = None) -> None:
-    n = len(meta)
-    step = max(1, n // 16)
+    n = int(meta["pos"].max()) + 1
+    step = max(1, len(meta) // 16)
     ticks = meta.iloc[::step]
-    kw = dict(tickvals=ticks["pos"], ticktext=ticks["batch_code"], range=[-0.6, n - 0.4])
+    kw = dict(tickvals=ticks["pos"], ticktext=ticks["batch_code"], range=[int(meta["pos"].min()) - 0.6, n - 0.4])
     if row is not None:
         fig.update_xaxes(row=row, col=col, **kw)
     else:

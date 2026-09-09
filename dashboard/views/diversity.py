@@ -42,8 +42,9 @@ def render() -> None:
         d["total"] = d["total_companies"]
         rows.append(d)
     g = pd.concat(rows)
+    g = g[g['batch'].isin(ctx.plot_meta['batch'])]
     g["metric"] = pd.Categorical(g["metric"], categories=[METRICS[m] for m in chosen], ordered=True)
-    st.plotly_chart(CH.small_multiples(g.sort_values(["metric", "batch_order"]), "metric", "value", ctx.meta, ctx.eras,
+    st.plotly_chart(CH.small_multiples(g.sort_values(["metric", "batch_order"]), "metric", "value", ctx.plot_meta, ctx.eras,
                                        hollow_low_tag=True, ncols=min(3, len(chosen))), key="diversity_fig1", width="stretch")
     st.caption("Hollow markers: partial or low-tag-coverage batches, where tag-based metrics are unreliable.")
 

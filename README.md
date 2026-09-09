@@ -15,6 +15,14 @@ Phase 1 (this repo state): a reproducible pipeline over YC's public directory me
 | `data/quality/` | Cross-checks against the source's own list files, 50-record spot check, data-quality report |
 | `data/provenance.json` | Source commits, retrieval time, snapshot list |
 
+## Interactive dashboard
+
+```bash
+uv run streamlit run dashboard/app.py
+```
+
+A Streamlit explorer over the full-history tables in `data/all_years/processed/`. It ships with **no era annotations**: in the sidebar you pick the batches where a new era starts, name the eras, and every page re-aggregates (era bands on time charts, label share per era, pp changes and ratios between any two eras, tag co-occurrence per era, geography, concentration, a company explorer and the RFS timeline on the same axis). Eras persist in the URL (`?eras=...`) and, on "Save eras", in the gitignored `dashboard/eras.local.json`. Partial and low-tag-coverage batches are flagged, never silently dropped. Checks: `uv run python dashboard/_smoke.py` and `uv run python dashboard/_apptest_run.py`.
+
 ## Sources
 
 - **Primary:** [yc-oss/api](https://github.com/yc-oss/api) — daily dump of YC's public Algolia directory (6,203 companies, 2005-present). `companies/all.json` is committed under `data/raw/yc-oss-api/`; the git history of that repo (Aug 2024 onward) supplies monthly snapshots used to detect taxonomy changes.

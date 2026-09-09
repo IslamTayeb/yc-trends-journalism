@@ -20,15 +20,15 @@ def render() -> None:
     if not labels:
         st.info("Pick at least one label.")
         return
-    g = C.grid(by_batch, col, labels, ctx.meta)
+    g = C.grid(by_batch, col, labels, ctx.plot_meta)
     vcol = ctx.value_col()
     ytitle = C.MEASURES[measure]
 
     view = st.radio("Layout", ["One chart", "Small multiples"], horizontal=True, key="cat_layout", label_visibility="collapsed")
     if view == "One chart":
-        fig = CH.lines_by_batch(g, col, vcol, ctx.meta, ctx.eras, hollow_low_tag=tag_based, y_title=ytitle)
+        fig = CH.lines_by_batch(g, col, vcol, ctx.plot_meta, ctx.eras, hollow_low_tag=tag_based, y_title=ytitle)
     else:
-        fig = CH.small_multiples(g, col, vcol, ctx.meta, ctx.eras, hollow_low_tag=tag_based, y_title=ytitle)
+        fig = CH.small_multiples(g, col, vcol, ctx.plot_meta, ctx.eras, hollow_low_tag=tag_based, y_title=ytitle)
     st.plotly_chart(fig, key="categories_fig1", width="stretch")
     st.caption("Hollow markers: partial batches" + (" or low tag coverage batches" if tag_based else "") +
                ". Each point is one batch. " + (TAG_CAVEAT if tag_based else ""))
@@ -49,7 +49,7 @@ def render() -> None:
     with st.expander(f"Top {lt} labels per batch (rank chart)"):
         n = st.slider("Top N", 5, 25, 10, key="cat_bump_n")
         top = C.top_per_batch(by_batch, col, n)
-        st.plotly_chart(CH.bump(top, col, ctx.meta, ctx.eras, n), key="categories_fig3", width="stretch")
+        st.plotly_chart(CH.bump(top[top['batch'].isin(ctx.plot_meta['batch'])], col, ctx.plot_meta, ctx.eras, n), key="categories_fig3", width="stretch")
         st.caption("Rank by count within each batch; a line breaks where the label drops out of the top N.")
         download(top, f"{lt}_top_per_batch.csv")
 

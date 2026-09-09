@@ -38,15 +38,18 @@ def render() -> None:
 
     st.subheader(f"Movers: {era_a} → {era_b}")
     k = st.slider("Show top/bottom", 5, 40, 15, key="cmp_k")
-    gain = cmp.head(k)
-    loss = cmp.tail(k)
+    gain = cmp[cmp["pp_change"] > 0].head(k)
+    loss = cmp[(cmp["pp_change"] < 0) & ~cmp[col].isin(gain[col])].tail(k)
     l, r = st.columns(2)
     with l:
         st.markdown(f"**Largest gains** (pp of {C.MEASURES[measure].lower()})")
         st.plotly_chart(CH.diverging_bars(gain, col, "pp_change", x_title="percentage points"), key="era_compare_fig1", width="stretch")
     with r:
         st.markdown("**Largest losses**")
-        st.plotly_chart(CH.diverging_bars(loss, col, "pp_change", x_title="percentage points"), key="era_compare_fig2", width="stretch")
+        if loss.empty:
+            st.caption("No label lost share.")
+        else:
+          st.plotly_chart(CH.diverging_bars(loss, col, "pp_change", x_title="percentage points"), key="era_compare_fig2", width="stretch")
     st.markdown("**Ratio view** (share in B ÷ share in A; labels absent in A have no ratio)")
     ratio = cmp.dropna(subset=["ratio"]).sort_values("ratio", ascending=False)
     rr = st.columns(2)

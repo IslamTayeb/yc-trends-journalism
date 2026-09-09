@@ -31,8 +31,8 @@ def render() -> None:
     geo = ctx.with_era(ctx.tables["geo_trends"])
     metrics = {"us_share_pct": "US (United States of America in regions)", "non_us_share_pct": "Non-US",
                "remote_any_share_pct": "Any remote flag"}
-    g = _metric_grid(geo, metrics, ctx.meta)
-    st.plotly_chart(CH.lines_by_batch(g, "metric", "share_pct", ctx.meta, ctx.eras, y_title="share of batch (%)"),
+    g = _metric_grid(geo, metrics, ctx.plot_meta)
+    st.plotly_chart(CH.lines_by_batch(g, "metric", "share_pct", ctx.plot_meta, ctx.eras, y_title="share of batch (%)"),
                     width="stretch")
 
     st.subheader("By era")

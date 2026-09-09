@@ -51,6 +51,11 @@ class Ctx:
             out |= set(self.low_tag_batches)
         return tuple(sorted(out, key=lambda b: self.meta.set_index("batch").loc[b, "batch_order"]))
 
+    @property
+    def plot_meta(self) -> pd.DataFrame:
+        """Batches drawn on time-axis charts: those with at least MIN_PLOT_BATCH companies (tables keep all)."""
+        return self.meta[self.meta["total_companies"] >= int(self.cfg.get("MIN_PLOT_BATCH", 5))]
+
     def value_col(self) -> str:
         return "count" if self.measure == "count" else "share_pct"
 

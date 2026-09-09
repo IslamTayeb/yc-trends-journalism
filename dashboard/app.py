@@ -15,7 +15,7 @@ from views import overview, categories, era_compare, cooccurrence, geography, di
 st.set_page_config(page_title="YC by era", page_icon="🟧", layout="wide", initial_sidebar_state="expanded")
 
 PAGES = [
-    st.Page(overview.render, title="Overview", icon="🏠", url_path="overview", default=True),
+    st.Page(overview.render, title="Overview", icon="🏠", default=True),
     st.Page(categories.render, title="Categories over time", icon="📈", url_path="categories"),
     st.Page(era_compare.render, title="Compare eras", icon="⚖️", url_path="compare"),
     st.Page(cooccurrence.render, title="Tag co-occurrence", icon="🔗", url_path="cooccurrence"),
