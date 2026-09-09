@@ -21,7 +21,7 @@ the dashboard before quoting them.
 | `figures/yc_b2b_vs_industrials.svg` | Fig 1: share of batch, B2B and Industrials highlighted, two least-squares segments (W19 to S22, W23 to S26), ChatGPT rule |
 | `figures/yc_industry_rank.svg` | Fig 2: bump chart of industry rank by count within batch |
 | `figures/ai_search_interest.svg` | Fig 3: three stacked Google Trends panels with GPT-3 and ChatGPT rules |
-| `figures/*_light.png`, `*_dark.png` | 1600 px wide rasters of each figure in both themes |
+| `figures/*_light.png`, `*_dark.png` | 1536 px wide (2x) rasters of each figure in both themes |
 | `figures/*.pdf` | vector PDFs (text selectable) for the assignment |
 | `figures/preview.html` | all three inline with a light/dark toggle; `?fig=2&theme=dark` shows one figure alone (used for the rasters) |
 | `fonts/` | Open Sans TTFs, gitignored; fetch with the curl line below and symlink into `~/.local/share/fonts` so Chrome uses them |
@@ -39,7 +39,16 @@ toggle with no extra CSS; the `.dark` ancestor selector and `prefers-color-schem
 `<img>` or file it uses the fallbacks (light palette, dark under a dark OS theme). Points and lines carry `<title>`
 elements, so hovering shows batch, label and value when inline. No scripts, no external references.
 
-Widths are `viewBox` 800 with `width="100%"`, sized for the 768 px content column.
+Sizing follows the site, measured 2026-09-09: the article column is `max-w-3xl` (768 px), body copy is 16 px Open Sans,
+figcaptions 14 px, h3 20 px. The SVGs use `viewBox` 768 × H with `width="100%"`, so inline in the column one SVG unit is
+one CSS pixel and the type renders at its nominal size: headline 20 px semibold, dek and caption 14 px, series labels
+14 px semibold, ticks, slope labels and source 12 px mono. Nothing is below 12 px. Headline and dek are wrapped by
+measuring the Open Sans TTFs in `fonts/`, so the script fails rather than clipping if copy gets longer.
+
+Embed as **inline SVG** in a `<figure class="article-media article-media-unframed">`. The site's `figure img` rule
+paints a fixed `#fafafa` 10 px frame, which would show as a white border in dark mode and would shrink the figure to
+748 px; inline SVG gets the full column and the figure's own themed ground. `figures/preview.html` shows the figures
+between paragraphs at the site's 16 px / 1.625 body rhythm.
 
 ## Data notes
 

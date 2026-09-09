@@ -7,9 +7,10 @@
 Colours are CSS custom properties with fallbacks, so the same SVG picks up the site's tokens when inlined on
 imt.sh (light and dark) and still renders on its own, following prefers-color-scheme.
 """
-import argparse, base64, re, shutil, subprocess
+import argparse, base64, functools, re, shutil, subprocess
 from pathlib import Path
 import numpy as np, pandas as pd
+from PIL import ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
 BLOG, DATA, FIG, FONTS = (ROOT / "blog" / d for d in ("", "data", "figures", "fonts"))
@@ -20,10 +21,16 @@ MIN_PLOT_BATCH, MIN_FULL_BATCH = 5, 50         # same thresholds as config.yaml
 HI = {"B2B": "b", "Industrials": "o"}          # highlighted series -> roy token
 GRAY = ["Healthcare", "Fintech", "Consumer", "Real Estate and Construction", "Education", "Government"]
 SHORT = {"Real Estate and Construction": "Real Estate"}   # display name only; YC's label is kept in the data
-SOURCE_YC = "Source: YC company directory via github.com/yc-oss/api, snapshot 2026-09-06."
-SOURCE_GT = "Source: Google Trends, worldwide web search, monthly, retrieved 2026-09-09."
+SOURCE_YC = "Source: YC directory via github.com/yc-oss/api, snapshot 2026-09-06."
+SOURCE_GT = "Source: Google Trends, worldwide, monthly, retrieved 2026-09-09."
 CREDIT = "Chart: Islam Tayeb · imt.sh"
 MONO = 'ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono",monospace'
+# canvas: the site's article column is max-w-3xl = 768px, and inline SVG gets all of it, so 1 unit = 1 CSS px there.
+# type scale follows the site: figcaption 14px, h3 20px, mono meta 12-14px; nothing below 12px.
+W, MARGIN, GUTTER = 768, 24, 132              # GUTTER: right-hand space for direct labels (shared by Fig 1 and 2)
+CAP_LH, DEK_LH, H_LH = 19, 19, 26             # line heights for caption, dek, headline
+FONT_FILES = {"regular": FONTS / "OpenSans-Regular.ttf", "semibold": FONTS / "OpenSans-SemiBold.ttf",
+              "bold": FONTS / "OpenSans-Bold.ttf", "mono": Path("/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf")}
 SEC = {"Fintech": "r"}                          # next-largest label takes the remaining usable ROYB token, translucent
 OTHER = {"Healthcare": "#059669", "Consumer": "#7c3aed", "Education": "#0d9488",
          "Real Estate and Construction": "#d926a9", "Government": "#65a30d"}
@@ -35,9 +42,9 @@ ALPHA = {n: .45 for n in GRAY}
 
 def style(name):
     """(stroke class, fill class, width, opacity) for a non-highlighted series."""
-    if name in SEC: return f"s-{SEC[name]}", f"f-{SEC[name]}", 1.7, ALPHA[name]
+    if name in SEC: return f"s-{SEC[name]}", f"f-{SEC[name]}", 1.8, ALPHA[name]
     i = list(OTHER).index(name)
-    return f"d{i}", f"dt{i}", 1.5, ALPHA[name]
+    return f"d{i}", f"dt{i}", 1.6, ALPHA[name]
 
 
 # ---------------------------------------------------------------- data
@@ -75,6 +82,53 @@ def trends_rows():
     return out
 
 
+@functools.lru_cache(maxsize=None)
+def _font(face, size):
+    f = FONT_FILES[face]
+    return ImageFont.truetype(str(f), size * 4) if f.exists() else None   # measure at 4x for sub-pixel accuracy
+
+
+def text_w(s, size, face="regular", tracking=0.0):
+    """Rendered width in px of s at size px. DejaVu Sans Mono is wider than the site's SF Mono / Menlo, so mono is conservative."""
+    f = _font(face, size)
+    w = f.getlength(s) / 4 if f else 0.55 * size * len(s)
+    return w + tracking * size * len(s)
+
+
+def wrap(text, max_w, size, face="regular", balance=False):
+    """Word wrap to max_w px; text may be a list of sentences, which are joined with spaces.
+    balance=True keeps the line count but evens the lines out (like the site's text-wrap:balance on headings)."""
+    words = (" ".join(text) if isinstance(text, (list, tuple)) else text).split()
+
+    def greedy(limit):
+        lines, cur = [], ""
+        for w in words:
+            cand = f"{cur} {w}".strip()
+            if cur and text_w(cand, size, face) > limit: lines.append(cur); cur = w
+            else: cur = cand
+        return lines + ([cur] if cur else [])
+
+    lines = greedy(max_w)
+    if balance and len(lines) == 2:            # two lines: break after a sentence end or comma if both halves fit, else evenly
+        cands = []
+        for i in range(1, len(words)):
+            a, b = " ".join(words[:i]), " ".join(words[i:])
+            wa, wb = text_w(a, size, face), text_w(b, size, face)
+            if max(wa, wb) <= max_w:
+                punct = 0 if a.endswith((".", "?", "!")) else 1 if a.endswith((",", ";", ":")) else 2
+                cands.append((punct, abs(wa - wb), [a, b]))
+        if cands: return min(cands, key=lambda c: c[:2])[2]
+    if balance and len(lines) > 1:
+        lo, hi = max(text_w(w, size, face) for w in words), max_w
+        while hi - lo > 1:                        # smallest width that still gives the same number of lines
+            mid = (lo + hi) / 2
+            if len(greedy(mid)) == len(lines): hi = mid
+            else: lo = mid
+        lines = greedy(hi)
+    assert all(text_w(l, size, face) <= max_w for l in lines), lines
+    return lines
+
+
 def fit(pos, y):
     a, b = np.polyfit(np.asarray(pos, float), np.asarray(y, float), 1)
     return a, b
@@ -84,16 +138,16 @@ def fit(pos, y):
 CSS = """
 .imt{--bg:var(--background,#fafaf9);--ink:var(--foreground,#131110);--mut:var(--muted-foreground,#6b6865);
 --rule:var(--border,#dfdedb);--prule:var(--page-rule,#131110);--r:var(--roy-r,#f52027);--o:var(--roy-o,#ee7b00);
---y:var(--roy-y,#ffba06);--b:var(--roy-b,#0074c9);font-family:"Open Sans",Arial,sans-serif;font-size:13px}
+--y:var(--roy-y,#ffba06);--b:var(--roy-b,#0074c9);font-family:"Open Sans",Arial,sans-serif;font-size:14px}
 @media (prefers-color-scheme:dark){.imt{--bg:var(--background,#1a1a1a);--ink:var(--foreground,#fafafa);
 --mut:var(--muted-foreground,#a1a1a1);--rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555)}}
 .dark .imt{--bg:var(--background,#1a1a1a);--ink:var(--foreground,#fafafa);--mut:var(--muted-foreground,#a1a1a1);
 --rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555)}
 .imt text{fill:var(--ink)}.imt .m{fill:var(--mut)}.imt .mono{font-family:MONO}
-.imt .kick{font-size:11px;font-weight:700;letter-spacing:.2em}.imt .h{font-size:18px;font-weight:600}
-.imt .dek,.imt .cap{font-size:12px}.imt .tick{font-size:10.5px}.imt .foot{font-size:10px}.imt .lab{font-size:11px;font-weight:700}
+.imt .kick{font-size:13px;font-weight:700;letter-spacing:.2em}.imt .h{font-size:20px;font-weight:600}
+.imt .dek,.imt .cap{font-size:14px}.imt .tick{font-size:12px}.imt .foot{font-size:12px}.imt .lab{font-size:14px;font-weight:600}
 .imt .ground{fill:var(--bg)}.imt .grid{stroke:var(--rule);opacity:.7}.imt .axis{stroke:var(--mut);opacity:.6}
-.imt .ev{stroke:var(--prule);stroke-width:1;stroke-dasharray:1.5 3.5;stroke-linecap:round}
+.imt .ev{stroke:var(--prule);stroke-width:1.1;stroke-dasharray:1.5 3.5;stroke-linecap:round}
 .imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}MUTEDCSS
 .imt .trend{stroke-dasharray:5 4;opacity:.8}.imt .hollow{fill:var(--bg)}
 .imt .s-r{stroke:var(--r)}.imt .s-o{stroke:var(--o)}.imt .s-y{stroke:var(--y)}.imt .s-b{stroke:var(--b)}
@@ -106,11 +160,9 @@ def esc(s): return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">"
 
 
 class Svg:
-    def __init__(self, w, h, embed_fonts=False):
-        self.w, self.h, self.parts = w, h, []
-        css = CSS + (font_faces() if embed_fonts else "")
-        self.parts.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="100%" '
-                          f'class="imt" role="img"><style>{css}</style><rect class="ground" width="{w}" height="{h}"/>')
+    """Parts are collected top-down; the footer fixes the total height, so the opening tag is written last."""
+    def __init__(self, embed_fonts=False):
+        self.w, self.h, self.parts, self.embed = W, None, [], embed_fonts
 
     def add(self, s): self.parts.append(s)
 
@@ -126,22 +178,37 @@ class Svg:
 
     def dot(self, x, y, r, cls, title=None):
         t = f"<title>{esc(title)}</title>" if title else ""
-        self.add(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r}" class="{cls}" stroke-width="1.6">{t}</circle>')
+        self.add(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r}" class="{cls}" stroke-width="1.8">{t}</circle>')
 
     def header(self, kicker, tok, headline, dek):
-        self.text(24, 24, kicker.upper(), f"kick mono f-{tok}")
-        self.text(24, 50, headline, "h")
-        for i, d in enumerate(dek): self.text(24, 70 + 16 * i, d, "dek m")
-        return 70 + 16 * len(dek)
+        """Kicker, headline (wrapped at 20px semibold), dek (wrapped at 14px). Returns the baseline below the dek."""
+        wmax = self.w - 2 * MARGIN
+        self.text(MARGIN, 26, kicker.upper(), f"kick mono f-{tok}")
+        y = 54
+        for line in wrap(headline, wmax, 20, "semibold", balance=True):
+            self.text(MARGIN, y, line, "h"); y += H_LH
+        y -= H_LH - 22
+        for line in wrap(dek, wmax, 14, balance=True):
+            self.text(MARGIN, y, line, "dek m"); y += DEK_LH
+        return y - DEK_LH
 
-    def footer(self, caption, source):
-        y = self.h - 14 - 15 * len(caption)
-        for i, c in enumerate(caption): self.text(24, y + 15 * i, c, "cap m")
-        self.text(24, self.h - 12, source, "foot mono m")
-        self.text(self.w - 24, self.h - 12, CREDIT, "foot mono m", "end")
+    def footer(self, y, caption, source):
+        """Caption paragraph wrapped at 14px from baseline y, then the source/credit line; sets the figure height."""
+        lines = wrap(caption, self.w - 2 * MARGIN, 14)
+        for line in lines:
+            self.text(MARGIN, y, line, "cap m"); y += CAP_LH
+        y += 6
+        self.text(MARGIN, y, source, "foot mono m")
+        self.text(self.w - MARGIN, y, CREDIT, "foot mono m", "end")
+        assert text_w(source, 12, "mono") + text_w(CREDIT, 12, "mono") + 24 <= self.w - 2 * MARGIN, "footer line too wide"
+        self.h = y + 14
+        return lines
 
     def write(self, path):
-        path.write_text("".join(self.parts) + "</svg>\n")
+        css = CSS + (font_faces() if self.embed else "")
+        head = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {self.w} {self.h}" width="100%" class="imt" '
+                f'role="img"><style>{css}</style><rect class="ground" width="{self.w}" height="{self.h}"/>')
+        path.write_text(head + "".join(self.parts) + "</svg>\n")
         return path
 
 
@@ -188,28 +255,28 @@ def month_pos(t, start_code, end_code, month):
 
 # ---------------------------------------------------------------- figure 1: share lines
 def fig_share(t, embed):
-    W, H = 800, 470
-    s = Svg(W, H, embed)
+    s = Svg(embed)
     top = s.header("§ Fig 1  ·  YC batch composition", "r",
                    "B2B peaked at 69% of a YC batch in 2023. Industrials has tripled since 2019.",
-                   ["Share of each batch's companies carrying YC's top-level industry label, Winter 2019 to Fall 2026."])
-    x0, x1, y0, y1 = 52, W - 150, top + 26, H - 106
+                   "Share of each batch's companies carrying YC's top-level industry label, Winter 2019 to Fall 2026.")
+    x0, x1, y0 = 56, W - GUTTER, top + 30
+    y1 = y0 + 290                                   # plot area 580 x 290, about 2:1
     batches = t.drop_duplicates("batch_code").sort_values("pos")
     npos = len(batches)
     X = lambda p: x0 + p / (npos - 1) * (x1 - x0)
     Y = lambda v: y1 - v / 75 * (y1 - y0)
     for v in (0, 25, 50, 75):
         s.line(x0, Y(v), x1, Y(v), "grid" if v else "axis")
-        s.text(x0 - 8, Y(v) + 3.5, f"{v}%" if v else "0", "tick mono m", "end")
+        s.text(x0 - 8, Y(v) + 4, f"{v}%" if v else "0", "tick mono m", "end")
     for _, b in batches.iterrows():   # one tick per batch; year label at each year's first (Winter) batch
         first = b.start_month.endswith("-01")
         s.line(X(b.pos), y1, X(b.pos), y1 + (9 if first else 5), "axis")
-        if first: s.text(X(b.pos), y1 + 21, b.start_month[:4], "tick mono m", "middle")
+        if first: s.text(X(b.pos), y1 + 23, b.start_month[:4], "tick mono m", "middle")
     # ChatGPT rule, same cut as the trend segments
     pcut = month_pos(t, "S22", "W23", "2022-11")
     xe = X(pcut)
-    s.line(xe, y0 - 6, xe, y1, "ev")
-    s.text(xe + 5, y0 + 4, "ChatGPT · Nov 2022", "tick mono")
+    s.line(xe, y0 - 8, xe, y1, "ev")
+    s.text(xe + 6, y0 + 4, "ChatGPT · Nov 2022", "tick mono")
     series = lambda name: t[t.industry == name].sort_values("pos")
     for name in GRAY:
         d = series(name)
@@ -223,39 +290,46 @@ def fig_share(t, embed):
             a, b = fit(solid.pos, solid.share_pct)
             ay, _ = fit(solid.year_frac, solid.share_pct)   # same fit against calendar time, for a unit readers know
             p0, p1 = (dd.pos.min(), pcut) if seg == "pre_w23" else (pcut, dd.pos.max())   # fits meet at the rule
-            s.path(polyline([X(p0), X(p1)], [Y(a * p0 + b), Y(a * p1 + b)]), f"ln trend s-{tok}", 1.5,
+            s.path(polyline([X(p0), X(p1)], [Y(a * p0 + b), Y(a * p1 + b)]), f"ln trend s-{tok}", 1.6,
                    title=f"{name}, least-squares fit {solid.batch.iloc[0]} to {solid.batch.iloc[-1]}: {ay:+.1f} points per year")
             pm = (p0 + p1) / 2    # slope label on each dashed segment: above for Industrials, below for B2B
-            dy = -9 if name == "Industrials" else 19
+            dy = -10 if name == "Industrials" else 20
             s.text(X(pm), Y(a * pm + b) + dy, f"{ay:+.1f} pts/yr", f"tick mono f-{tok}", "middle")
-        s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln s-{tok}", 2.25)
+        s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln s-{tok}", 2.5)
         for _, r in d.iterrows():
-            s.dot(X(r.pos), Y(r.share_pct), 3.6, f"s-{tok} {'hollow' if r.is_partial_batch else f'f-{tok}'}",
+            s.dot(X(r.pos), Y(r.share_pct), 4.2, f"s-{tok} {'hollow' if r.is_partial_batch else f'f-{tok}'}",
                   f"{r.batch_code} · {name} · {r.share_pct:.1f}% ({r['count']} of {r.total_companies})")
     # direct labels at the right edge, nudged apart, with a leader where a label had to move
     names = list(HI) + GRAY
     ends = [Y(series(n).iloc[-1].share_pct) for n in names]
-    lys = spread(ends, 13, y0, y1)
+    lys = spread(ends, 16, y0, y1)
+    end_labels(s, names, ends, lys, X(npos - 1))
+    s.footer(y1 + 46, ["A batch is one YC intake of startups; ticks mark batches, years their first batch (two a year to 2023,",
+                       "three in 2024, four from 2025). Dashed: least-squares fits split at the ChatGPT rule, in points per year.",
+                       "Hollow marker: batch under 50 companies, excluded from the fits. A company can carry more than one label."], SOURCE_YC)
+    return s.write(FIG / "yc_b2b_vs_industrials.svg")
+
+
+def end_labels(s, names, ends, lys, xr):
+    """Direct labels to the right of the last point (at xr), with a short leader where a label had to move."""
     for name, ye, yl in zip(names, ends, lys):
         tok = HI.get(name)
         if abs(yl - ye) > 2:
-            s.line(X(npos - 1) + 4, ye, X(npos - 1) + 9, yl, f"s-{tok}" if tok else style(name)[0], 0.8)
-        s.text(X(npos - 1) + 12, yl + 3.5, SHORT.get(name, name), f"lab f-{tok}" if tok else f"tick {style(name)[1]}",
+            s.line(xr + 5, ye, xr + 10, yl, f"s-{tok}" if tok else style(name)[0], 0.9)
+        label = SHORT.get(name, name)
+        s.text(xr + 13, yl + 4.5, label, f"lab f-{tok}" if tok else f"lab {style(name)[1]}",
                extra="" if tok else f' opacity="{max(style(name)[3], .8)}"')
-    s.footer(["A batch is one YC intake of startups. One tick per batch, year at each year's first: two a year through 2023, three in 2024, four from 2025.",
-              "Dashed: least-squares fits split at the ChatGPT rule, slope in points per year. Hollow marker: batch under 50 companies, excluded.",
-              "A company can carry more than one industry label. Unspecified (0 companies in this window) not shown."], SOURCE_YC)
-    return s.write(FIG / "yc_b2b_vs_industrials.svg")
+        assert xr + 13 + text_w(label, 14, "semibold") <= s.w - 8, label
 
 
 # ---------------------------------------------------------------- figure 2: rank bump chart
 def fig_rank(t, embed):
-    W, H = 800, 455
-    s = Svg(W, H, embed)
+    s = Svg(embed)
     top = s.header("§ Fig 2  ·  Industry rank per batch", "o",
                    "Industrials went from YC's fifth-largest industry label to its second",
-                   ["Rank of the eight top-level industry labels by number of companies within each batch, Winter 2019 to Fall 2026."])
-    x0, x1, y0, y1 = 62, W - 150, top + 36, H - 96
+                   "Rank of the eight top-level industry labels by company count within each batch, Winter 2019 to Fall 2026.")
+    x0, x1, y0 = 60, W - GUTTER, top + 40
+    y1 = y0 + 280                                   # 40 px per rank step
     named = t[t.industry != "Unspecified"]
     batches = named.drop_duplicates("batch_code").sort_values("pos")
     npos = len(batches)
@@ -263,43 +337,41 @@ def fig_rank(t, embed):
     Y = lambda r: y0 + (r - 1) / 7 * (y1 - y0)
     for r in range(1, 9):
         s.line(x0, Y(r), x1, Y(r), "grid")
-        s.text(x0 - 12, Y(r) + 3.5, f"#{r}", "tick mono m", "end")
+        s.text(x0 - 12, Y(r) + 4, f"#{r}", "tick mono m", "end")
     for _, b in batches.iterrows():   # one tick per batch; year label at each year's first (Winter) batch
         first = b.start_month.endswith("-01")
         s.line(X(b.pos), y1 + 4, X(b.pos), y1 + (11 if first else 7), "axis")
-        if first: s.text(X(b.pos), y1 + 23, b.start_month[:4], "tick mono m", "middle")
+        if first: s.text(X(b.pos), y1 + 25, b.start_month[:4], "tick mono m", "middle")
     xe = X(month_pos(t, "S22", "W23", "2022-11"))
-    s.line(xe, y0 - 24, xe, y1 + 4, "ev")
-    s.text(xe + 5, y0 - 16, "ChatGPT · Nov 2022", "tick mono")
+    s.line(xe, y0 - 26, xe, y1 + 4, "ev")
+    s.text(xe + 6, y0 - 16, "ChatGPT · Nov 2022", "tick mono")
     for name in GRAY + list(HI):
         d = named[named.industry == name].sort_values("pos")
         tok = HI.get(name)
         xs, ys = [X(p) for p in d.pos], [Y(r) for r in d["rank"]]
         if tok:
-            s.path(scurve(xs, ys), f"ln s-{tok}", 3)
+            s.path(scurve(xs, ys), f"ln s-{tok}", 3.2)
             for _, r in d.iterrows():
-                s.dot(X(r.pos), Y(r["rank"]), 4.2, f"s-{tok} {'hollow' if r.is_partial_batch else f'f-{tok}'}",
+                s.dot(X(r.pos), Y(r["rank"]), 4.8, f"s-{tok} {'hollow' if r.is_partial_batch else f'f-{tok}'}",
                       f"{r.batch_code} · {name} · rank {r['rank']} ({r['count']} companies)")
         else:
             sc, _, w, al = style(name)
             s.path(scurve(xs, ys), f"ln {sc}", w + 0.2, title=name, extra=f' opacity="{al}"')
         r1 = d.iloc[-1]["rank"]
-        cls = f"lab f-{tok}" if tok else f"tick {style(name)[1]}"
-        s.text(x1 + 12, Y(r1) + 3.5, SHORT.get(name, name), cls, extra="" if tok else f' opacity="{max(style(name)[3], .8)}"')
-    s.footer(["A batch is one YC intake of startups. One tick per batch, year at each year's first: two a year through 2023, three in 2024, four from 2025.",
-              "Ties broken alphabetically. Hollow marker: batch with fewer than 50 companies."], SOURCE_YC)
+        end_labels(s, [name], [Y(r1)], [Y(r1)], x1)
+    s.footer(y1 + 48, ["A batch is one YC intake of startups; ticks mark batches, years their first batch (two a year to 2023,",
+                       "three in 2024, four from 2025). Ties broken alphabetically. Hollow marker: batch with fewer than 50 companies."], SOURCE_YC)
     return s.write(FIG / "yc_industry_rank.svg")
 
 
 # ---------------------------------------------------------------- figure 3: search interest, three stacked panels
 def fig_trends(g, embed):
-    W, H = 800, 600
-    s = Svg(W, H, embed)
+    s = Svg(embed)
     top = s.header("§ Fig 3  ·  Search interest", "b",
                    "Searches for “gpt” barely registered around GPT-3, then took off after ChatGPT",
-                   ["Google Trends, worldwide web search, monthly, Sep 2018 to Sep 2026. Each row is indexed to its own peak (100)."])
-    x0, x1 = 52, W - 36
-    ph, gap, y_top = 112, 30, top + 34
+                   "Google Trends, worldwide web search, monthly, Sep 2018 to Sep 2026. Each row is indexed to its own peak.")
+    x0, x1 = 56, W - 32
+    ph, gap, y_top = 112, 32, top + 36
     n = len(g)
     X = lambda i: x0 + i / (n - 1) * (x1 - x0)
     idx = {m: i for i, m in enumerate(g.month)}
@@ -307,26 +379,27 @@ def fig_trends(g, embed):
     bottom = y_top + 3 * ph + 2 * gap
     for month, label in (("2020-06", "GPT-3 · Jun 2020"), ("2022-11", "ChatGPT · Nov 2022")):
         xe = X(idx[month])
-        s.line(xe, y_top - 14, xe, bottom, "ev")
-        s.text(xe + 5, y_top - 5, label, "tick mono")
+        s.line(xe, y_top - 16, xe, bottom, "ev")
+        s.text(xe + 6, y_top - 6, label, "tick mono")
     for k, (term, tok) in enumerate(rows):
         py0 = y_top + k * (ph + gap)
         py1 = py0 + ph
         Y = lambda v: py1 - v / 100 * ph
         for v in (0, 50, 100):
             s.line(x0, Y(v), x1, Y(v), "grid" if v else "axis")
-            s.text(x0 - 8, Y(v) + 3.5, str(v), "tick mono m", "end")
+            s.text(x0 - 8, Y(v) + 4, str(v), "tick mono m", "end")
         vals = g[term].tolist()
         xs, ys = [X(i) for i in range(n)], [Y(v) for v in vals]
         s.path(polyline(xs, ys) + f" L{xs[-1]:.1f},{Y(0):.1f} L{xs[0]:.1f},{Y(0):.1f} Z", f"area f-{tok}", 0, extra=' stroke="none"')
-        s.path(polyline(xs, ys), f"ln s-{tok}", 1.75, title=f'"{term}" search interest')
-        s.text(x0 + 8, py0 + 14, f"“{term}”", f"lab mono f-{tok}")
+        s.path(polyline(xs, ys), f"ln s-{tok}", 2, title=f'"{term}" search interest')
+        s.text(x0 + 8, py0 + 16, f"“{term}”", f"lab mono f-{tok}")
     for i, m in enumerate(g.month):
         if m.endswith("-01"):
-            s.text(X(i), bottom + 16, m[:4], "tick mono m", "middle")
-            s.line(X(i), bottom, X(i), bottom + 4, "axis")
-    s.footer(['Rows are comparable in shape, not level: 100 is each term\'s own busiest month. "gpt" was below 1 every month until Nov 2022.',
-              '"llm" before 2022 is mostly the law degree; "gpt" also matched the disk-partition meaning. Google matches terms loosely.'], SOURCE_GT)
+            s.text(X(i), bottom + 20, m[:4], "tick mono m", "middle")
+            s.line(X(i), bottom, X(i), bottom + 5, "axis")
+    s.footer(bottom + 44, ['Rows are comparable in shape, not level: 100 is each term\'s own busiest month. "gpt" was below 1 every',
+                           'month until Nov 2022. "llm" before 2022 is mostly the law degree; "gpt" also matched the disk-partition meaning.',
+                           'Google matches terms loosely.'], SOURCE_GT)
     return s.write(FIG / "ai_search_interest.svg")
 
 
@@ -337,9 +410,10 @@ PREVIEW = """<!doctype html><html lang="en"><head><meta charset="utf-8"><title>O
 --roy-r:#f52027;--roy-o:#ee7b00;--roy-y:#ffba06;--roy-b:#0074c9;color-scheme:light}
 .dark{--background:#1a1a1a;--foreground:#fafafa;--muted-foreground:#a1a1a1;--border:#ffffff1a;--page-rule:#555;color-scheme:dark}
 html,body{margin:0;background:var(--background);color:var(--foreground);font-family:"Open Sans",Arial,sans-serif}
-main{max-width:768px;margin:0 auto;padding:0 20px}
-figure{margin:32px 0}svg{display:block;width:100%;height:auto}
-.solo main{max-width:none;padding:0}.solo figure{margin:0}
+main{max-width:768px;margin:0 auto;padding:0 20px;font-size:16px;line-height:1.625}   /* the site's article column and body copy */
+p{margin:16px 0}p.m{color:var(--muted-foreground);font-size:14px;line-height:1.375;font-style:italic;text-align:center}
+figure{margin:20px 0;max-width:100%}svg{display:block;width:100%;height:auto}   /* article-media-unframed: no 10px frame */
+.solo main{max-width:none;padding:0}.solo figure{margin:0}.solo p{display:none}
 button{font:12px ui-monospace,Menlo,monospace;background:none;color:var(--muted-foreground);border:1px dotted var(--border);padding:4px 8px;margin:12px 0}
 @page{margin:0}
 </style></head><body><main>
@@ -356,9 +430,15 @@ if(q.get('fig')){document.documentElement.classList.add('solo');document.querySe
 """
 
 
+LOREM = ("Body copy at the site's 16px / 1.625 so the figure can be judged against the type it will sit between. YC's "
+         "batches are the unit here: every company that goes through the accelerator is stamped with a season and a year, "
+         "and the directory keeps that label long after the company has changed what it does.")
+
+
 def write_preview(svgs):
-    figs = "".join(f'<figure data-fig="{i + 1}">{p.read_text()}</figure>' for i, p in enumerate(svgs))
-    (FIG / "preview.html").write_text(PREVIEW.replace("FIGURES", figs))
+    figs = "".join(f'<figure class="article-media article-media-unframed" data-fig="{i + 1}">{p.read_text()}</figure>'
+                   + (f"<p>{LOREM}</p>" if i == 0 else "") for i, p in enumerate(svgs))
+    (FIG / "preview.html").write_text(PREVIEW.replace("FIGURES", f"<p>{LOREM}</p>" + figs))
 
 
 def rasterise(svgs):
