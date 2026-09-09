@@ -430,7 +430,7 @@ def fig_trends(g, embed):
         xs, ys = [X(i) for i in range(n)], [Y(v) for v in vals]
         s.path(polyline(xs, ys) + f" L{xs[-1]:.1f},{Y(0):.1f} L{xs[0]:.1f},{Y(0):.1f} Z", f"area f-{tok}", 0, extra=' stroke="none"')
         s.path(polyline(xs, ys), f"ln s-{tok}", 2, title=f'"{term}" search interest')
-        s.text(x1 + 19, ys[-1] + 4.5, f"“{term}”", f"lab mono f-{tok}")
+        s.text(x0 + 8, py0 + 16, f"“{term}”", f"lab mono f-{tok}")
     year_axis(s, bottom, x0, x1, [(X(i), m[:4]) for i, m in enumerate(g.month) if m.endswith("-01")])
     s.footer(bottom + 44, ["Each row is scaled to its own busiest month, which is 100. So the rows show shape, not size.",
                            "Before 2022, most searches for “llm” were about the law degree."], SOURCE_GT)
