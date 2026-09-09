@@ -292,8 +292,12 @@ def fig_share(t, embed):
             s.path(polyline([X(p0), X(p1)], [Y(a * p0 + b), Y(a * p1 + b)]), f"ln trend s-{tok}", 1.6,
                    title=f"{name}, least-squares fit {solid.batch.iloc[0]} to {solid.batch.iloc[-1]}: {ay:+.1f} points per year")
             pm = (p0 + p1) / 2    # slope label on each dashed segment: above for Industrials, below for B2B
-            dy = -10 if name == "Industrials" else 20
-            s.text(X(pm), Y(a * pm + b) + dy, f"{ay:+.1f} pts/yr", f"tick mono f-{tok}", "middle")
+            lab = f"{ay:+.1f} pts/yr"
+            half = text_w(lab, 12, "mono") / 2 + 6
+            near = d[(X(d.pos) >= X(pm) - half) & (X(d.pos) <= X(pm) + half)]   # points the label would sit over
+            ys = [Y(a * pm + b)] + [Y(v) for v in near.share_pct]
+            y = min(ys) - 14 if name == "Industrials" else max(ys) + 22      # clear of fit, solid line, marker and descenders
+            s.text(X(pm), y, lab, f"tick mono f-{tok}", "middle")
         s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln s-{tok}", 2.5)
         for _, r in d.iterrows():
             s.dot(X(r.pos), Y(r.share_pct), 4.2, f"s-{tok} {'hollow' if r.is_partial_batch else f'f-{tok}'}",
@@ -301,7 +305,7 @@ def fig_share(t, embed):
     # direct labels at the right edge, nudged apart, with a leader where a label had to move
     names = list(HI) + GRAY
     ends = [Y(series(n).iloc[-1].share_pct) for n in names]
-    lys = spread(ends, 20, y0, y1)   # fans the cluster up into the gap below B2B; leaders point back to each line
+    lys = spread(ends, 25, y0, y1)   # fans the cluster up into the gap below B2B; leaders point back to each line
     end_labels(s, names, ends, lys, X(npos - 1))
     s.footer(y1 + 46, ["Each tick is one batch. Dashed lines show the trend, split at ChatGPT.",
                        "A hollow dot is a batch with under 50 companies, not in the trend."], SOURCE_YC)
