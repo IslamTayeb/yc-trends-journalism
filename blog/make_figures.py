@@ -310,8 +310,8 @@ def fig_share(t, embed):
             y = min(ys) - 18 if name == "Industrials" else max(ys) + 26      # clear of fit, solid line, marker and descenders
             s.text(X(pm), y, lab, f"tick mono f-{tok}", "middle")
         s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln s-{tok}", 2.5)
-        for _, r in d.iterrows():
-            s.dot(X(r.pos), Y(r.share_pct), 4.2, f"s-{tok} {'hollow' if r.is_partial_batch else f'f-{tok}'}",
+        for _, r in d[d.is_partial_batch].iterrows():   # only the partial batch gets a marker (hollow)
+            s.dot(X(r.pos), Y(r.share_pct), 4.2, f"s-{tok} hollow",
                   f"{r.batch_code} · {name} · {r.share_pct:.1f}% ({r['count']} of {r.total_companies})")
     # direct labels at the right edge, nudged apart, with a leader where a label had to move
     names = list(HI) + list(CONTEXT)
@@ -362,8 +362,8 @@ def fig_rank(t, embed):
         xs, ys = [X(p) for p in d.pos], [Y(r) for r in d["rank"]]
         if tok:
             s.path(scurve(xs, ys), f"ln s-{tok}", 3.2)
-            for _, r in d.iterrows():
-                s.dot(X(r.pos), Y(r["rank"]), 4.8, f"s-{tok} {'hollow' if r.is_partial_batch else f'f-{tok}'}",
+            for _, r in d[d.is_partial_batch].iterrows():   # only the partial batch gets a marker (hollow)
+                s.dot(X(r.pos), Y(r["rank"]), 4.8, f"s-{tok} hollow",
                       f"{r.batch_code} · {name} · rank {r['rank']} ({r['count']} companies)")
         else:
             sc, _, w, al = style(name)
