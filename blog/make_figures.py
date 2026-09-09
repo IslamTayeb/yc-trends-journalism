@@ -44,12 +44,23 @@ GRAY_ALL = True   # every non-highlighted series in one muted gray (Datawrapper/
 TOP_N = 5         # Fig 1: the N largest labels in the latest full batch; Fig 2: rank rows 1..N plus an "N+1 and below" row
 
 
+SHADE = {}        # industry -> gray opacity, darkest for the largest context label in the latest full batch (set in main)
+GRAY_STEPS = [.8, .58, .38]
+
+
+def set_shades(t):
+    full = t[(~t.is_partial_batch) & (t.industry != "Unspecified") & ~t.industry.isin(HI)]
+    last = full[full.batch_order == full.batch_order.max()].sort_values("share_pct", ascending=False)
+    for i, n in enumerate(last.industry):
+        SHADE[n] = GRAY_STEPS[min(i, len(GRAY_STEPS) - 1)]
+
+
 def style(name):
     """(stroke class, fill class, width, opacity) for a non-highlighted series."""
     if name in CONTEXT and not GRAY_ALL:
         i = list(CONTEXT).index(name)
         return f"c{i}", f"ct{i}", 2.0, .7
-    return "bg", "bgt", 1.6, .5
+    return "bg", "bgt", 1.6, SHADE.get(name, .38)
 
 
 # ---------------------------------------------------------------- data
@@ -336,7 +347,7 @@ def end_labels(s, names, ends, lys, xr):
     """Direct labels to the right of the last point (at xr), with a short leader where a label had to move."""
     for name, ye, yl in zip(names, ends, lys):
         tok = HI.get(name)
-        op = "" if tok else f' opacity="{max(style(name)[3], .8)}"'
+        op = "" if tok else f' opacity="{max(style(name)[3], .55)}"'
         if abs(yl - ye) > 2:   # leader: short horizontal stub, then a diagonal to the label, same opacity as the label
             s.path(f"M{xr + 5:.1f},{ye:.1f} H{xr + 8:.1f} L{xr + 15:.1f},{yl:.1f}", f"ln {f's-{tok}' if tok else style(name)[0]}", 1, extra=op)
         label = SHORT.get(name, name)
@@ -503,6 +514,7 @@ if __name__ == "__main__":
     a = ap.parse_args()
     for d in (DATA, FIG): d.mkdir(parents=True, exist_ok=True)
     t, g = yc_rows(), trends_rows()
+    set_shades(t)
     headline_numbers(t, g)
     svgs = [fig_share(t, a.embed_fonts), fig_rank(t, a.embed_fonts), fig_trends(g, a.embed_fonts)]
     write_preview(svgs)
