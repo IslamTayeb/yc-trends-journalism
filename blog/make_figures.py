@@ -19,24 +19,23 @@ START, CUT, END = 20190, 20230, 20263          # W19 .. F26, second trend segmen
 MIN_PLOT_BATCH, MIN_FULL_BATCH = 5, 50         # same thresholds as config.yaml
 HI = {"B2B": "b", "Industrials": "o"}          # highlighted series -> roy token
 GRAY = ["Healthcare", "Fintech", "Consumer", "Real Estate and Construction", "Education", "Government"]
-SEC = {"Fintech": "r2", "Healthcare": "y2"}    # next two largest labels: darkened, desaturated red and yellow
-SEC_HEX = {"r2": "#a3555a", "y2": "#a8893a"}
-NEUTRAL = ["Consumer", "Real Estate and Construction", "Education", "Government"]   # desaturated hues away from ROYB
-NEUTRAL_HEX = ("#3f8c86", "#7a68a8", "#5f9a55", "#a8627a")   # teal, violet, green, rose; muted next to ROYB, mid lightness for both grounds
-MUTED_CSS = ("".join(f".imt .d{i}{{stroke:{c}}}.imt .dt{i}{{fill:{c}}}" for i, c in enumerate(NEUTRAL_HEX))
-             + "".join(f".imt .s-{k}{{stroke:{c}}}.imt .f-{k}{{fill:{c}}}" for k, c in SEC_HEX.items()))
-
-
-def style(name):
-    """(stroke class, fill class, width) for a non-highlighted series."""
-    if name in SEC: return f"s-{SEC[name]}", f"f-{SEC[name]}", 1.7
-    i = NEUTRAL.index(name)
-    return f"d{i}", f"dt{i}", 1.4
 SHORT = {"Real Estate and Construction": "Real Estate & Constr."}
 SOURCE_YC = "Source: YC company directory via github.com/yc-oss/api, snapshot 2026-09-06."
 SOURCE_GT = "Source: Google Trends, worldwide web search, monthly, retrieved 2026-09-09."
 CREDIT = "Chart: Islam Tayeb · imt.sh"
 MONO = 'ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono",monospace'
+SEC = {"Fintech": "r", "Healthcare": "y"}      # next two largest labels: the remaining ROYB tokens, translucent
+OTHER = {"Consumer": "#7c3aed", "Real Estate and Construction": "#0891b2", "Education": "#16a34a", "Government": "#db2777"}
+# secondary mixes of the palette (violet, teal, green, pink), kept saturated and made to recede by opacity, not by desaturating
+OTHER_CSS = "".join(f".imt .d{i}{{stroke:{c}}}.imt .dt{i}{{fill:{c}}}" for i, c in enumerate(OTHER.values()))
+ALPHA = {"Fintech": .45, "Healthcare": .8, "Consumer": .45, "Real Estate and Construction": .45, "Education": .45, "Government": .45}
+
+
+def style(name):
+    """(stroke class, fill class, width, opacity) for a non-highlighted series."""
+    if name in SEC: return f"s-{SEC[name]}", f"f-{SEC[name]}", 1.7, ALPHA[name]
+    i = list(OTHER).index(name)
+    return f"d{i}", f"dt{i}", 1.5, ALPHA[name]
 
 
 # ---------------------------------------------------------------- data
@@ -97,7 +96,7 @@ CSS = """
 .imt .s-r{stroke:var(--r)}.imt .s-o{stroke:var(--o)}.imt .s-y{stroke:var(--y)}.imt .s-b{stroke:var(--b)}
 .imt .f-r{fill:var(--r)}.imt .f-o{fill:var(--o)}.imt .f-y{fill:var(--y)}.imt .f-b{fill:var(--b)}
 .imt .area{opacity:.12}
-""".replace("MONO", MONO).replace("MUTEDCSS", MUTED_CSS)
+""".replace("MONO", MONO).replace("MUTEDCSS", OTHER_CSS)
 
 
 def esc(s): return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
@@ -209,8 +208,8 @@ def fig_share(t, embed):
     series = lambda name: t[t.industry == name].sort_values("pos")
     for name in GRAY:
         d = series(name)
-        sc, _, w = style(name)
-        s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln {sc}", w, title=name, extra=' opacity=".9"')
+        sc, _, w, al = style(name)
+        s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln {sc}", w, title=name, extra=f' opacity="{al}"')
     for name, tok in HI.items():
         d = series(name)
         for seg in ("pre_w23", "w23_on"):
@@ -235,7 +234,8 @@ def fig_share(t, embed):
         tok = HI.get(name)
         if abs(yl - ye) > 2:
             s.line(X(npos - 1) + 5, ye, X(npos - 1) + 13, yl, f"s-{tok}" if tok else style(name)[0], 0.8)
-        s.text(X(npos - 1) + 16, yl + 3.5, SHORT.get(name, name), f"lab f-{tok}" if tok else f"tick {style(name)[1]}")
+        s.text(X(npos - 1) + 16, yl + 3.5, SHORT.get(name, name), f"lab f-{tok}" if tok else f"tick {style(name)[1]}",
+               extra="" if tok else f' opacity="{max(style(name)[3], .8)}"')
     s.footer(["Hollow marker: batch under 50 companies, excluded from the dashed least-squares fits (W19 to S22 and W23 to S26).",
               "A company can carry more than one industry label. Unspecified (0 companies in this window) not shown."], SOURCE_YC)
     return s.write(FIG / "yc_b2b_vs_industrials.svg")
@@ -243,12 +243,12 @@ def fig_share(t, embed):
 
 # ---------------------------------------------------------------- figure 2: rank bump chart
 def fig_rank(t, embed):
-    W, H = 800, 420
+    W, H = 800, 455
     s = Svg(W, H, embed)
     top = s.header("§ Fig 2  ·  Industry rank per batch", "o",
                    "Industrials went from YC's fifth-largest industry label to its second",
                    ["Rank of the eight top-level industry labels by number of companies within each batch, Winter 2019 to Fall 2026."])
-    x0, x1, y0, y1 = 56, W - 166, top + 36, H - 78
+    x0, x1, y0, y1 = 62, W - 166, top + 36, H - 96
     named = t[t.industry != "Unspecified"]
     batches = named.drop_duplicates("batch_code").sort_values("pos")
     npos = len(batches)
@@ -256,15 +256,14 @@ def fig_rank(t, embed):
     Y = lambda r: y0 + (r - 1) / 7 * (y1 - y0)
     for r in range(1, 9):
         s.line(x0, Y(r), x1, Y(r), "grid")
-        s.text(x0 - 14, Y(r) + 3.5, str(r), "tick mono m", "end")
-    for _, b in batches.iterrows():   # year labels at each year's first (Winter) batch
-        if b.start_month.endswith("-01"):
-            s.line(X(b.pos), y1 + 4, X(b.pos), y1 + 9, "axis")
-            s.text(X(b.pos), y1 + 21, b.start_month[:4], "tick mono m", "middle")
+        s.text(x0 - 12, Y(r) + 3.5, f"#{r}", "tick mono m", "end")
+    for _, b in batches.iterrows():   # one tick per batch; year label at each year's first (Winter) batch
+        first = b.start_month.endswith("-01")
+        s.line(X(b.pos), y1 + 4, X(b.pos), y1 + (11 if first else 7), "axis")
+        if first: s.text(X(b.pos), y1 + 23, b.start_month[:4], "tick mono m", "middle")
     xe = X(month_pos(t, "S22", "W23", "2022-11"))
     s.line(xe, y0 - 24, xe, y1 + 4, "ev")
     s.text(xe + 5, y0 - 16, "ChatGPT · Nov 2022", "tick mono")
-    last = batches.iloc[-1].batch
     for name in GRAY + list(HI):
         d = named[named.industry == name].sort_values("pos")
         tok = HI.get(name)
@@ -275,13 +274,13 @@ def fig_rank(t, embed):
                 s.dot(X(r.pos), Y(r["rank"]), 4.2, f"s-{tok} {'hollow' if r.is_partial_batch else f'f-{tok}'}",
                       f"{r.batch_code} · {name} · rank {r['rank']} ({r['count']} companies)")
         else:
-            sc, _, w = style(name)
-            s.path(scurve(xs, ys), f"ln {sc}", w + 0.2, title=name, extra=' opacity=".9"')
+            sc, _, w, al = style(name)
+            s.path(scurve(xs, ys), f"ln {sc}", w + 0.2, title=name, extra=f' opacity="{al}"')
         r1 = d.iloc[-1]["rank"]
         cls = f"lab f-{tok}" if tok else f"tick {style(name)[1]}"
-        s.text(x1 + 12, Y(r1) + 3.5, SHORT.get(name, name), cls)
-    s.text(x1 + 12, y0 - 16, last, "tick mono m")
-    s.footer(["Ties broken alphabetically. Hollow marker: batch with fewer than 50 companies."], SOURCE_YC)
+        s.text(x1 + 12, Y(r1) + 3.5, SHORT.get(name, name), cls, extra="" if tok else f' opacity="{max(style(name)[3], .8)}"')
+    s.footer(["One tick per batch, year at each year's first batch: YC ran two batches a year through 2023, three in 2024, four from 2025.",
+              "Ties broken alphabetically. Hollow marker: batch with fewer than 50 companies."], SOURCE_YC)
     return s.write(FIG / "yc_industry_rank.svg")
 
 
