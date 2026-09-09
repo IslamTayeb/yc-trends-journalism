@@ -1,6 +1,7 @@
 """Plotly helpers with the house style used in figures.py, plus era shading."""
 from __future__ import annotations
 
+import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
@@ -57,6 +58,43 @@ def add_era_bands(fig: go.Figure, eras: list[Era], annotate: bool = True, row=No
             fig.add_vline(**kw)
 
 
+def add_event_lines(fig: go.Figure, events: list[dict], annotate: bool = True, row=None, col=None) -> None:
+    for e in events or []:
+        kw = dict(x=e["pos"], line_width=2, line_color=e["color"], opacity=0.9)
+        if annotate and e["label"]:
+            kw.update(annotation_text=e["label"], annotation_position="top right",
+                      annotation=dict(font=dict(size=11, color=e["color"])))
+        if row is not None:
+            fig.add_vline(row=row, col=col, **kw)
+        else:
+            fig.add_vline(**kw)
+
+
+def _hollow(g: pd.DataFrame, hollow_low_tag: bool) -> pd.Series:
+    flags = g["is_partial_batch"].astype(bool)
+    if hollow_low_tag:
+        flags = flags | g["low_tag_coverage"].astype(bool)
+    return flags
+
+
+def trend_series(g: pd.DataFrame, value_col: str, kind: str | None, hollow_low_tag: bool) -> pd.DataFrame | None:
+    """Dashed trend for one label: 'linear' = least-squares fit over solid (non-hollow) points, evaluated on every
+    plotted batch; 'rolling' = centred 3-batch mean over solid points. Returns None for kind None."""
+    if not kind or kind == "none":
+        return None
+    solid = g[~_hollow(g, hollow_low_tag)]
+    if len(solid) < 3:
+        return None
+    if kind == "linear":
+        a, b = np.polyfit(solid["pos"].astype(float), solid[value_col].astype(float), 1)
+        x = g["pos"].astype(float)
+        return pd.DataFrame({"pos": x, "y": a * x + b})
+    if kind == "rolling":
+        r = solid[value_col].astype(float).rolling(3, center=True, min_periods=2).mean()
+        return pd.DataFrame({"pos": solid["pos"].astype(float), "y": r.values})
+    return None
+
+
 def _symbols(g: pd.DataFrame, hollow_low_tag: bool) -> list[str]:
     flags = g["is_partial_batch"].astype(bool)
     if hollow_low_tag:
@@ -66,7 +104,8 @@ def _symbols(g: pd.DataFrame, hollow_low_tag: bool) -> list[str]:
 
 def lines_by_batch(grid: pd.DataFrame, label_col: str, value_col: str, meta: pd.DataFrame, eras: list[Era],
                    hollow_low_tag: bool = False, y_title: str | None = None, height: int = 460,
-                   colors: dict[str, str] | None = None) -> go.Figure:
+                   colors: dict[str, str] | None = None, trend: str | None = None,
+                   events: list[dict] | None = None) -> go.Figure:
     fig = go.Figure()
     labels = list(grid[label_col].cat.categories) if hasattr(grid[label_col], "cat") else list(grid[label_col].unique())
     for i, lab in enumerate(labels):
@@ -76,16 +115,23 @@ def lines_by_batch(grid: pd.DataFrame, label_col: str, value_col: str, meta: pd.
             x=g["pos"], y=g[value_col], mode="lines+markers", name=str(lab),
             line=dict(color=color, width=2), marker=dict(symbol=_symbols(g, hollow_low_tag), size=7, color=color,
                                                           line=dict(width=1.5, color=color)),
-            customdata=g[["batch", "count", "total"]].values,
+            customdata=g[["batch", "count", "total"]].values, legendgroup=str(lab),
             hovertemplate="%{customdata[0]}<br>" + str(lab) + ": %{y}<br>n=%{customdata[1]} of %{customdata[2]}<extra></extra>",
         ))
+        tr = trend_series(g, value_col, trend, hollow_low_tag)
+        if tr is not None:
+            fig.add_trace(go.Scatter(x=tr["pos"], y=tr["y"], mode="lines", name=f"{lab} trend", showlegend=False,
+                                     legendgroup=str(lab), line=dict(color=color, width=1.5, dash="dash"), opacity=0.8,
+                                     hovertemplate=str(lab) + " trend: %{y:.1f}<extra></extra>"))
     add_era_bands(fig, eras)
+    add_event_lines(fig, events)
     batch_axis(fig, meta)
     return style(fig, height=height, y_title=y_title)
 
 
 def small_multiples(grid: pd.DataFrame, label_col: str, value_col: str, meta: pd.DataFrame, eras: list[Era],
-                    hollow_low_tag: bool = False, ncols: int = 3, y_title: str | None = None) -> go.Figure:
+                    hollow_low_tag: bool = False, ncols: int = 3, y_title: str | None = None,
+                    trend: str | None = None, events: list[dict] | None = None) -> go.Figure:
     labels = list(grid[label_col].cat.categories) if hasattr(grid[label_col], "cat") else list(grid[label_col].unique())
     nrows = max(1, -(-len(labels) // ncols))
     fig = make_subplots(rows=nrows, cols=ncols, subplot_titles=[str(l) for l in labels],
@@ -100,7 +146,13 @@ def small_multiples(grid: pd.DataFrame, label_col: str, value_col: str, meta: pd
             customdata=g[["batch", "count", "total"]].values,
             hovertemplate="%{customdata[0]}: %{y}<br>n=%{customdata[1]} of %{customdata[2]}<extra></extra>",
         ), row=r, col=c)
+        tr = trend_series(g, value_col, trend, hollow_low_tag)
+        if tr is not None:
+            fig.add_trace(go.Scatter(x=tr["pos"], y=tr["y"], mode="lines", showlegend=False,
+                                     line=dict(color=color, width=1.5, dash="dash"), opacity=0.8,
+                                     hovertemplate="trend: %{y:.1f}<extra></extra>"), row=r, col=c)
         add_era_bands(fig, eras, annotate=False, row=r, col=c)
+        add_event_lines(fig, events, annotate=False, row=r, col=c)
         batch_axis(fig, meta, row=r, col=c)
     style(fig, height=max(260, 230 * nrows), legend=False)
     fig.update_yaxes(title=None)
@@ -122,7 +174,8 @@ def heatmap(wide: pd.DataFrame, x_title: str = "", value_title: str = "", height
     return fig
 
 
-def bump(top: pd.DataFrame, label_col: str, meta: pd.DataFrame, eras: list[Era], n: int) -> go.Figure:
+def bump(top: pd.DataFrame, label_col: str, meta: pd.DataFrame, eras: list[Era], n: int,
+         events: list[dict] | None = None) -> go.Figure:
     fig = go.Figure()
     labels = top.groupby(label_col)["rank"].min().sort_values().index
     for i, lab in enumerate(labels):
@@ -134,6 +187,7 @@ def bump(top: pd.DataFrame, label_col: str, meta: pd.DataFrame, eras: list[Era],
             hovertemplate="%{customdata[0]}<br>" + str(lab) + " · rank %{y} · %{customdata[1]}% (n=%{customdata[2]})<extra></extra>",
         ))
     add_era_bands(fig, eras)
+    add_event_lines(fig, events)
     batch_axis(fig, meta)
     style(fig, height=max(420, 26 * n + 120), y_title="rank")
     fig.update_yaxes(autorange="reversed", dtick=1, rangemode="normal")

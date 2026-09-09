@@ -37,8 +37,13 @@ class Era:
         return asdict(self)
 
 
+DEFAULT_EVENTS = [{"month": "2022-11", "label": "Nov 2022", "color": "#e34948"}]
+EVENT_COLORS = {"red": "#e34948", "black": "#0b0b0b", "blue": "#2a78d6", "green": "#1baf7a", "orange": "#eb6834", "purple": "#4a3aa7"}
+SEASON_MONTH = {"Winter": 1, "Spring": 4, "Summer": 6, "Fall": 9}
+
+
 def empty_state() -> dict:
-    return {"cuts": [], "names": {}, "before_name": ""}
+    return {"cuts": [], "names": {}, "before_name": "", "events": [dict(e) for e in DEFAULT_EVENTS]}
 
 
 def load_state() -> dict:
@@ -63,8 +68,8 @@ def reset_saved() -> None:
 
 
 def state_to_param(state: dict) -> str:
-    return json.dumps({"cuts": state["cuts"], "names": state["names"], "before_name": state.get("before_name", "")},
-                      separators=(",", ":"))
+    return json.dumps({"cuts": state["cuts"], "names": state["names"], "before_name": state.get("before_name", ""),
+                       "events": state.get("events", [])}, separators=(",", ":"))
 
 
 def state_from_param(s: str) -> dict | None:
@@ -131,3 +136,47 @@ def era_names(eras: list[Era]) -> list[str]:
 
 def era_color_map(eras: list[Era]) -> dict[str, str]:
     return {e.name: e.color for e in eras} if eras else {"All": PAL[0]}
+
+
+# ---- dated event markers -----------------------------------------------------------
+
+def batch_start(batch: str) -> tuple[int, int]:
+    season, year = batch.split()
+    return int(year), SEASON_MONTH[season]
+
+
+def _months(y: int, m: int) -> int:
+    return y * 12 + (m - 1)
+
+
+def date_to_pos(month: str, meta: pd.DataFrame) -> float | None:
+    """Fractional x position of a YYYY-MM date on the batch axis: each batch sits at its start month
+    (Winter Jan, Spring Apr, Summer Jun, Fall Sep) and dates in between are interpolated."""
+    try:
+        y, m = (int(x) for x in month.strip()[:7].split("-"))
+    except ValueError:
+        return None
+    t = _months(y, m)
+    starts = [(_months(*batch_start(b)), float(pos)) for b, pos in zip(meta["batch"], meta["pos"])]
+    if not starts:
+        return None
+    if t <= starts[0][0]:
+        return starts[0][1] - (starts[0][0] - t) / 4.0
+    for (t0, p0), (t1, p1) in zip(starts, starts[1:]):
+        if t0 <= t <= t1:
+            return p0 + (p1 - p0) * (t - t0) / max(t1 - t0, 1)
+    tl, pl = starts[-1]
+    return pl + (t - tl) / 4.0
+
+
+def resolve_events(events: list[dict], meta: pd.DataFrame) -> list[dict]:
+    out = []
+    for e in events or []:
+        month = str(e.get("month", "")).strip()
+        pos = date_to_pos(month, meta) if month else None
+        if pos is None:
+            continue
+        color = e.get("color") or EVENT_COLORS["red"]
+        color = EVENT_COLORS.get(color, color)
+        out.append({"month": month, "label": str(e.get("label") or ""), "color": color, "pos": pos})
+    return out

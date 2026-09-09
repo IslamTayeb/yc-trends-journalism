@@ -29,6 +29,8 @@ class Ctx:
     state: dict = field(default_factory=E.empty_state)
     start_year: int = 2021
     end_year: int | None = None
+    trend: str | None = None      # None | linear | rolling
+    events: list[dict] = field(default_factory=list)   # resolved: month, label, color, pos
 
     # ---- helpers used by views -------------------------------------------------
     @property
@@ -76,7 +78,7 @@ class Ctx:
 
 
 def build(start_year: int, end_year: int | None, state: dict, measure: str,
-          exclude_partial: bool, exclude_low_tag: bool) -> Ctx:
+          exclude_partial: bool, exclude_low_tag: bool, trend: str | None = None) -> Ctx:
     tables = data.load_all()
     meta = data.window_meta(data.batch_meta(), start_year, end_year)
     era_list = E.build_eras(state, meta)
@@ -99,7 +101,8 @@ def build(start_year: int, end_year: int | None, state: dict, measure: str,
         companies=comp, tags=prep(tables["tags"]), industries=prep(tables["industries"]),
         subindustries=prep(tables["subindustries"]), tables=tables, measure=measure,
         exclude_partial=exclude_partial, exclude_low_tag=exclude_low_tag, state=state,
-        start_year=start_year, end_year=end_year,
+        start_year=start_year, end_year=end_year, trend=trend,
+        events=E.resolve_events(state.get("events", []), meta),
     )
 
 

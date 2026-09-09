@@ -7,7 +7,7 @@ import streamlit as st
 import charts as CH
 import compute as C
 import context as X
-from views._common import download, era_sizes, exclusion_note
+from views._common import download, era_sizes, exclusion_note, trend_toggle
 
 
 def _metric_grid(df: pd.DataFrame, metrics: dict[str, str], meta: pd.DataFrame) -> pd.DataFrame:
@@ -32,7 +32,8 @@ def render() -> None:
     metrics = {"us_share_pct": "US (United States of America in regions)", "non_us_share_pct": "Non-US",
                "remote_any_share_pct": "Any remote flag"}
     g = _metric_grid(geo, metrics, ctx.plot_meta)
-    st.plotly_chart(CH.lines_by_batch(g, "metric", "share_pct", ctx.plot_meta, ctx.eras, y_title="share of batch (%)"),
+    trend_toggle(ctx)
+    st.plotly_chart(CH.lines_by_batch(g, "metric", "share_pct", ctx.plot_meta, ctx.eras, y_title="share of batch (%)", trend=ctx.trend, events=ctx.events),
                     width="stretch")
 
     st.subheader("By era")

@@ -65,3 +65,12 @@ def label_picker(ctx: Ctx, label_type: str, by_batch: pd.DataFrame, col: str, ke
         chosen = c1.multiselect("Labels", options, default=default, key=f"{key}_ms",
                                 format_func=lambda o: f"{o} ({totals[o]})")
     return chosen
+
+
+def trend_toggle(ctx: Ctx, tag_based: bool = False) -> str | None:
+    """On/off switch for dashed linear-fit trend lines on every series in the chart below. Shared across pages."""
+    on = st.toggle("Trend lines", value=st.session_state.get("trend_on", False), key="trend_on",
+                   help="Least-squares line per series, fitted on solid points only (partial batches"
+                        + (" and low-tag-coverage batches" if tag_based else "") + " are left out of the fit).")
+    ctx.trend = "linear" if on else None
+    return ctx.trend

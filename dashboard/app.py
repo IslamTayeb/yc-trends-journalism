@@ -4,6 +4,7 @@ Run:  uv run streamlit run dashboard/app.py
 """
 from __future__ import annotations
 
+import pandas as pd
 import streamlit as st
 
 import context as X
@@ -37,7 +38,7 @@ def _init_state() -> None:
 
 def _reset_widgets() -> None:
     for k in list(st.session_state.keys()):
-        if k.startswith(("cuts_ms", "name_", "before_name_in", "years_rng")):
+        if k.startswith(("cuts_ms", "name_", "before_name_in", "years_rng", "events_ed")):
             del st.session_state[k]
 
 
@@ -70,7 +71,19 @@ def sidebar() -> X.Ctx:
             for c in cuts:
                 names[c] = st.text_input(f"Era starting {fmt[c]}", value=names.get(c, ""),
                                          placeholder=E.default_name(c, meta), key=f"name_{c}")
-        new_state = {"cuts": cuts, "names": {k: v for k, v in names.items() if v}, "before_name": before_name}
+        st.markdown("**Event markers**")
+        st.caption("Vertical lines at a month (YYYY-MM). A batch sits at its start month: Winter Jan, Spring Apr, Summer Jun, Fall Sep.")
+        ev_default = pd.DataFrame(state.get("events") or [], columns=["month", "label", "color"])
+        color_names = {v: k for k, v in E.EVENT_COLORS.items()}
+        ev_default["color"] = ev_default["color"].map(lambda c: color_names.get(c, c))
+        ev = st.data_editor(ev_default, num_rows="dynamic", hide_index=True, key="events_ed", width="stretch",
+                            column_config={"month": st.column_config.TextColumn("month", help="YYYY-MM", width="small"),
+                                           "label": st.column_config.TextColumn("label"),
+                                           "color": st.column_config.SelectboxColumn("color", options=list(E.EVENT_COLORS), width="small")})
+        events = [{"month": str(r["month"]).strip(), "label": ("" if pd.isna(r["label"]) else str(r["label"])),
+                   "color": E.EVENT_COLORS.get(r["color"], E.EVENT_COLORS["red"])}
+                  for _, r in ev.iterrows() if isinstance(r["month"], str) and r["month"].strip()]
+        new_state = {"cuts": cuts, "names": {k: v for k, v in names.items() if v}, "before_name": before_name, "events": events}
         st.session_state["era_state"] = new_state
         st.query_params["eras"] = E.state_to_param(new_state)
 

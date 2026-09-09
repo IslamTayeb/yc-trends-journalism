@@ -45,6 +45,11 @@ def render() -> None:
         x1 = _batch_date(nxt.iloc[0]["batch"]) if len(nxt) else _batch_date(e.end_batch) + dt.timedelta(days=120)
         fig.add_vrect(x0=x0, x1=x1, fillcolor=e.color, opacity=0.09, line_width=0, layer="below",
                       annotation_text=e.name, annotation_position="top left", annotation=dict(font=dict(size=11, color=e.color)))
+    for ev in ctx.events:
+        y, mth = (int(x) for x in ev["month"].split("-")[:2])
+        fig.add_vline(x=dt.date(y, mth, 1), line_width=2, line_color=ev["color"], opacity=0.9,
+                      annotation_text=ev["label"] or None, annotation_position="top right",
+                      annotation=dict(font=dict(size=11, color=ev["color"])))
     lo = min(ed["date"].min(), _batch_date(ctx.meta.iloc[0]["batch"]))
     hi = max(ed["date"].max(), _batch_date(ctx.meta.iloc[-1]["batch"])) + dt.timedelta(days=120)
     CH.style(fig, height=360, y_title="requests", legend=False)

@@ -33,6 +33,7 @@ def render() -> None:
         hovertemplate="%{customdata[0]} · %{customdata[1]}<br>%{y} companies · %{customdata[2]}% without tags<extra></extra>",
     ))
     CH.add_era_bands(fig, ctx.eras)
+    CH.add_event_lines(fig, ctx.events)
     CH.batch_axis(fig, m)
     CH.style(fig, height=380, y_title="companies in batch", legend=False)
     fig.update_layout(hovermode="closest")

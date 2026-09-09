@@ -47,7 +47,7 @@ show how much each batch's labels changed between the first snapshot and the lat
     g["metric"] = pd.Categorical(g["metric"], categories=[r["metric"].iloc[0] for r in rows], ordered=True)
     st.subheader("Share of each batch relabeled since the first snapshot")
     st.plotly_chart(CH.lines_by_batch(g.sort_values(["metric", "batch_order"]), "metric", "share_pct", ctx.meta, ctx.eras,
-                                      y_title="% of companies present in both snapshots"), key="caveats_fig1", width="stretch")
+                                      y_title="% of companies present in both snapshots", events=ctx.events), key="caveats_fig1", width="stretch")
     download(rl, "retroactive_relabeling_by_batch.csv")
 
     c1, c2 = st.columns(2)

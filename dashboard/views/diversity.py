@@ -6,7 +6,7 @@ import streamlit as st
 import charts as CH
 import compute as C
 import context as X
-from views._common import download, era_sizes, exclusion_note
+from views._common import download, era_sizes, exclusion_note, trend_toggle
 
 METRICS = {
     "unique_industries": "Unique top-level industries",
@@ -34,6 +34,7 @@ def render() -> None:
                             format_func=METRICS.get, key="div_metrics")
     if not chosen:
         return
+    trend_toggle(ctx, tag_based=True)
     rows = []
     for m in chosen:
         d = div[["batch", "pos", "batch_order", "is_partial_batch", "low_tag_coverage", "total_companies", m]].rename(columns={m: "value"})
@@ -45,7 +46,7 @@ def render() -> None:
     g = g[g['batch'].isin(ctx.plot_meta['batch'])]
     g["metric"] = pd.Categorical(g["metric"], categories=[METRICS[m] for m in chosen], ordered=True)
     st.plotly_chart(CH.small_multiples(g.sort_values(["metric", "batch_order"]), "metric", "value", ctx.plot_meta, ctx.eras,
-                                       hollow_low_tag=True, ncols=min(3, len(chosen))), key="diversity_fig1", width="stretch")
+                                       hollow_low_tag=True, ncols=min(3, len(chosen)), trend=ctx.trend, events=ctx.events), key="diversity_fig1", width="stretch")
     st.caption("Hollow markers: partial or low-tag-coverage batches, where tag-based metrics are unreliable.")
 
     st.subheader("By era (mean of batch values)")
