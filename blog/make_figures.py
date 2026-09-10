@@ -40,6 +40,8 @@ CONTEXT_CSS = "".join(f".imt .c{i}{{stroke:{lt}}}.imt .ct{i}{{fill:{lt}}}" for i
 CONTEXT_DARK = "".join(f".c{i}{{stroke:{dk}}}.ct{i}{{fill:{dk}}}" for i, (_, dk) in enumerate(CONTEXT.values()))
 
 
+BARE = False      # --bare: plot only (no ground, header or footer), light palette inlined, for Word / Docs where the
+                  # caption carries the title and source; written to figures/bare/ so the site SVGs are untouched
 GRAY_ALL = True   # every non-highlighted series in one muted gray (Datawrapper/Economist practice); CONTEXT hues kept for reference
 TOP_N = 5         # Fig 1: the N largest labels in the latest full batch; Fig 2: rank rows 1..N plus an "N+1 and below" row
 
@@ -201,6 +203,7 @@ class Svg:
 
     def header(self, kicker, tok, headline, dek):
         """Kicker, headline (wrapped at 20px semibold), dek (wrapped at 14px). Returns the baseline below the dek."""
+        if BARE: return 0
         wmax = self.w - 2 * MARGIN
         self.text(MARGIN, 26, kicker.upper(), f"kick mono f-{tok}")
         y = 54
@@ -213,6 +216,9 @@ class Svg:
 
     def footer(self, y, caption, source):
         """Caption paragraph wrapped at 14px from baseline y, then the source/credit line; sets the figure height."""
+        if BARE:
+            self.h = y - 16          # y arrives ~46px under the axis baseline; the year labels end ~26px under it
+            return []
         lines = wrap(caption, self.w - 2 * MARGIN, 14)
         for line in lines:
             self.text(MARGIN, y, line, "cap m"); y += CAP_LH
@@ -224,11 +230,69 @@ class Svg:
         return lines
 
     def write(self, path):
+        if BARE:
+            (FIG / "bare").mkdir(exist_ok=True)
+            path = FIG / "bare" / path.name
+            body = flatten_css("".join(self.parts))
+            path.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {self.w} {self.h}" width="{self.w}" '
+                            f'height="{self.h}" role="img">{body}</svg>\n')
+            return path
         css = CSS + (font_faces() if self.embed else "")
         head = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {self.w} {self.h}" width="100%" class="imt" '
                 f'role="img"><style>{css}</style><rect class="ground" width="{self.w}" height="{self.h}"/>')
         path.write_text(head + "".join(self.parts) + "</svg>\n")
         return path
+
+
+# Light-palette resolution of CSS above as inline presentation attributes, for renderers without <style> or var()
+# support (Word, Google Docs). Order matters: later entries win, mirroring the cascade in CSS.
+LIGHT = {"ink": "#131110", "mut": "#6b6865", "rule": "#dfdedb", "prule": "#131110",
+         "r": "#f52027", "o": "#ee7b00", "y": "#ffba06", "b": "#0074c9"}
+_SANS = "'Open Sans',Arial,sans-serif"                       # single quotes: these land inside a double-quoted attribute
+FLAT = {
+    "m": {"fill": LIGHT["mut"]}, "mono": {"font-family": MONO.replace('"', "'")},
+    "tick": {"font-size": "12"}, "lab": {"font-size": "14", "font-weight": "600"}, "labr": {"font-size": "14"},
+    "grid": {"stroke": LIGHT["rule"], "opacity": ".7"}, "axis": {"stroke": LIGHT["mut"], "opacity": ".6"},
+    "ev": {"stroke": LIGHT["prule"], "stroke-width": "1.1", "stroke-dasharray": "1.5 3.5", "stroke-linecap": "round"},
+    "ln": {"fill": "none", "stroke-linejoin": "round", "stroke-linecap": "round"},
+    **{f"c{i}": {"stroke": lt} for i, (lt, _) in enumerate(CONTEXT.values())},
+    **{f"ct{i}": {"fill": lt} for i, (lt, _) in enumerate(CONTEXT.values())},
+    "bg": {"stroke": LIGHT["ink"]}, "bgt": {"fill": LIGHT["ink"]},
+    "trend": {"stroke-dasharray": "5 4", "opacity": ".8"}, "hollow": {"fill": "#ffffff"},
+    **{f"s-{k}": {"stroke": LIGHT[k]} for k in "roby"}, **{f"f-{k}": {"fill": LIGHT[k]} for k in "roby"},
+    "area": {"opacity": ".12"},
+}
+
+
+def flatten_css(body):
+    """Replace class="..." on every element with the attributes the stylesheet would give it (light palette)."""
+    def one(m):
+        tag, attrs = m.group(1), m.group(2)
+        cm = re.search(r' class="([^"]*)"', attrs)
+        if not cm: return m.group(0)
+        classes = cm.group(1).split()
+        out = {"fill": LIGHT["ink"], "font-family": _SANS, "font-size": "14"} if tag == "text" else {}
+        for cls, a in FLAT.items():
+            if cls in classes: out.update(a)
+        attrs = attrs[:cm.start()] + attrs[cm.end():]
+        for k in out:   # stylesheet beats presentation attributes, so drop any the element already carries
+            attrs = re.sub(rf' {k}="[^"]*"', "", attrs)
+        return f"<{tag}{attrs}" + "".join(f' {k}="{v}"' for k, v in out.items()) + m.group(3)
+    return re.sub(r"<(text|line|path|circle|rect)((?:\s+[\w:-]+=\"[^\"]*\")*)(\s*/?>)", one, body)
+
+
+def rasterise_bare(svgs):
+    """Transparent 2x PNGs of the bare SVGs (Word's fallback image for the SVG), straight from the file."""
+    chrome = shutil.which("google-chrome") or shutil.which("chromium") or shutil.which("chromium-browser")
+    if not chrome:
+        print("no Chrome found; skipping bare PNGs"); return
+    for p in svgs:
+        w, h = re.search(r'viewBox="0 0 (\d+) (\d+)"', p.read_text()).groups()
+        subprocess.run([chrome, "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars",
+                        "--default-background-color=00000000", f"--screenshot={p.with_suffix('.png')}",
+                        f"--window-size={w},{h}", "--force-device-scale-factor=2", p.resolve().as_uri()],
+                       check=True, capture_output=True)
+        print("rasterised", p.name)
 
 
 def font_faces():
@@ -622,7 +686,14 @@ if __name__ == "__main__":
     ap.add_argument("--no-raster", action="store_true")
     ap.add_argument("--embed-fonts", action="store_true")
     ap.add_argument("--variants", action="store_true", help="also write fig2_{curve,step,slope,tiles}.svg and fig2_variants.html")
+    ap.add_argument("--bare", action="store_true", help="plot-only Fig 1 and 2 with inline styles into figures/bare/ (+ transparent PNG)")
     a = ap.parse_args()
+    if a.bare:
+        BARE = True
+        t = yc_rows(); set_shades(t)
+        svgs = [fig_share(t, False), fig_rank(t, False)]
+        rasterise_bare(svgs)
+        print("wrote", ", ".join(str(p.relative_to(ROOT)) for p in svgs)); raise SystemExit
     for d in (DATA, FIG): d.mkdir(parents=True, exist_ok=True)
     t, g = yc_rows(), trends_rows()
     set_shades(t)
