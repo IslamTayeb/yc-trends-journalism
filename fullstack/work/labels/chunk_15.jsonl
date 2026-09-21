@@ -1,0 +1,150 @@
+{"id": 27766, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI decision support sold to clinicians who keep treating patients"}
+{"id": 27818, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI content-creation tool sold to companies"}
+{"id": 27899, "category": "not_ai", "confidence": "high", "reason": "Corporate training platform, no AI"}
+{"id": 27843, "category": "full_stack_ai", "confidence": "medium", "reason": "Delivers done-for-you ad creative directly to brands via AI engine"}
+{"id": 27822, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI platform sold to government contractors"}
+{"id": 27943, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI compliance automation sold to financial firms"}
+{"id": 27710, "category": "not_ai", "confidence": "high", "reason": "Payroll/HR platform for construction, no AI"}
+{"id": 27855, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI agents automate tasks for property managers who keep operating"}
+{"id": 27919, "category": "ai_infra", "confidence": "high", "reason": "LLM observability platform for developers"}
+{"id": 28072, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI digital workers sold to companies"}
+{"id": 28091, "category": "sells_ai_to_industry", "confidence": "high", "reason": "Deal intelligence/coaching platform sold to sales teams"}
+{"id": 27956, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI scribe sold to PT/OT/SLP clinicians"}
+{"id": 27921, "category": "not_ai", "confidence": "high", "reason": "Insurance management platform for RE investors, no AI"}
+{"id": 27961, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI communication tools sold to law firms"}
+{"id": 27951, "category": "not_ai", "confidence": "medium", "reason": "Semantic layer for data teams, no explicit AI"}
+{"id": 27911, "category": "not_ai", "confidence": "high", "reason": "Architecture diagramming tool, no AI"}
+{"id": 27875, "category": "sells_ai_to_industry", "confidence": "low", "reason": "Procedural material tool for artists, agent-compatible"}
+{"id": 27705, "category": "sells_ai_to_industry", "confidence": "low", "reason": "AI data extraction engine, thin description"}
+{"id": 27957, "category": "not_ai", "confidence": "high", "reason": "Stablecoin payment rails fintech, no AI"}
+{"id": 27664, "category": "not_ai", "confidence": "high", "reason": "Secrets management platform, no AI"}
+{"id": 27881, "category": "ai_infra", "confidence": "medium", "reason": "Agent-building framework/platform for companies"}
+{"id": 28113, "category": "unclear", "confidence": "low", "reason": "Stealth, empty description"}
+{"id": 28159, "category": "not_ai", "confidence": "high", "reason": "Protein-drug biotech, no AI mentioned"}
+{"id": 28079, "category": "not_ai", "confidence": "high", "reason": "E-invoicing/tax API, no AI"}
+{"id": 27902, "category": "ai_other", "confidence": "low", "reason": "AI+blockchain 'intelligent contracts' concept, unclear fit"}
+{"id": 28074, "category": "ai_infra", "confidence": "high", "reason": "Open-source AIOps/alerting observability platform"}
+{"id": 27858, "category": "full_stack_ai", "confidence": "medium", "reason": "Delivers AI-powered virtual care directly to patients"}
+{"id": 27953, "category": "not_ai", "confidence": "high", "reason": "Crypto on/off ramp fintech, no AI"}
+{"id": 28218, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI drafts regulatory notices sold to compliance teams"}
+{"id": 27669, "category": "unclear", "confidence": "low", "reason": "Empty description and one-liner"}
+{"id": 27870, "category": "ai_infra", "confidence": "high", "reason": "Open-source LLM engineering/observability platform"}
+{"id": 27700, "category": "sells_ai_to_industry", "confidence": "high", "reason": "Medical language models sold to health systems"}
+{"id": 27201, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI drug-simulation service sold to pharma companies"}
+{"id": 27687, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI in-app guidance sold to product/support teams"}
+{"id": 28361, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI agents replace enterprise document workflows, sold to enterprises"}
+{"id": 27836, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI browser copilot sold to teams"}
+{"id": 27675, "category": "ai_other", "confidence": "low", "reason": "Consumer generative video app"}
+{"id": 28409, "category": "ai_infra", "confidence": "high", "reason": "Open-source LLM gateway for calling many model APIs"}
+{"id": 28090, "category": "not_ai", "confidence": "high", "reason": "Neobank LatAm, no AI"}
+{"id": 27985, "category": "not_ai", "confidence": "medium", "reason": "Software+ops platform for independent doulas, no AI"}
+{"id": 28129, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI pricing co-pilot sold to retail operators"}
+{"id": 27697, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI data mapping tool sold to companies"}
+{"id": 27713, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI incident-resolution platform sold to eng teams"}
+{"id": 27691, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI design tool sold to product teams"}
+{"id": 27909, "category": "ai_infra", "confidence": "medium", "reason": "Gen-AI evaluation/curation platform for AI builders"}
+{"id": 27989, "category": "sells_ai_to_industry", "confidence": "low", "reason": "AI+human translation SaaS integrated into gamedev workflow"}
+{"id": 28006, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI agents automate healthcare ops, sold to health systems"}
+{"id": 27677, "category": "not_ai", "confidence": "high", "reason": "Cloud SIEM security platform, no AI"}
+{"id": 28089, "category": "ai_other", "confidence": "medium", "reason": "Consumer AI personal-finance agent"}
+{"id": 27740, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI agent sold to AP/spend-management platforms"}
+{"id": 28183, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI context platform sold to private-equity firms"}
+{"id": 28421, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI OS sold to founders raising capital"}
+{"id": 27666, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI-based observability platform sold to dev/ops teams"}
+{"id": 28007, "category": "not_ai", "confidence": "high", "reason": "Payments infrastructure Colombia, no AI"}
+{"id": 27671, "category": "not_ai", "confidence": "medium", "reason": "Clinical-trial dashboard/automation, no explicit AI"}
+{"id": 28205, "category": "not_ai", "confidence": "high", "reason": "Cell/gene therapy biotech, no AI mentioned"}
+{"id": 27424, "category": "not_ai", "confidence": "medium", "reason": "R&D capitalization automation software, no explicit AI"}
+{"id": 28048, "category": "not_ai", "confidence": "medium", "reason": "CPG analytics platform, no explicit AI"}
+{"id": 27702, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI automation platform sold to insurance brokers"}
+{"id": 27728, "category": "not_ai", "confidence": "high", "reason": "Integrations API platform, no AI"}
+{"id": 27814, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI self-healing test agents sold to dev teams"}
+{"id": 27831, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "Spreadsheet tool with built-in AI sold to users"}
+{"id": 27859, "category": "full_stack_ai", "confidence": "medium", "reason": "AI agent itself coaches and invests in founders, replacing VC"}
+{"id": 27696, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI matches trials to patients, sold to doctors/trial sites"}
+{"id": 27958, "category": "not_ai", "confidence": "high", "reason": "Design tool for non-designers, no AI"}
+{"id": 27735, "category": "full_stack_ai", "confidence": "medium", "reason": "AI-native platform delivers ongoing tax compliance service directly to businesses"}
+{"id": 27965, "category": "not_ai", "confidence": "high", "reason": "eBPF distributed tracing tool, no AI"}
+{"id": 27815, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "Conversational AI ordering sold to restaurant chains"}
+{"id": 27762, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI platform sold to hardware engineering teams"}
+{"id": 27813, "category": "not_ai", "confidence": "high", "reason": "SaaS-ify docker platform, no AI"}
+{"id": 27674, "category": "not_ai", "confidence": "high", "reason": "SMS marketing/payments platform, no AI"}
+{"id": 27949, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "Self-service AI tax-credit software sold to businesses"}
+{"id": 28096, "category": "not_ai", "confidence": "low", "reason": "Product integrations tool, AI tag but no described AI role"}
+{"id": 27877, "category": "ai_infra", "confidence": "low", "reason": "Usage-metering infra for AI/API monetization"}
+{"id": 27816, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI customer-support automation sold to companies"}
+{"id": 27901, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI-powered EHR sold to independent clinicians"}
+{"id": 27924, "category": "not_ai", "confidence": "high", "reason": "Wind-powered vessel hardware, no AI"}
+{"id": 27868, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "Database interface with AI dashboards sold to companies"}
+{"id": 27823, "category": "not_ai", "confidence": "medium", "reason": "EV charger installation automation, no explicit AI"}
+{"id": 27898, "category": "ai_other", "confidence": "medium", "reason": "Consumer AI accountability app"}
+{"id": 27754, "category": "sells_ai_to_industry", "confidence": "low", "reason": "AI coaching platform sold to creators who deliver courses"}
+{"id": 27714, "category": "full_stack_ai", "confidence": "medium", "reason": "Building an AI-native bank itself, AI agents do leasing/collections/banking"}
+{"id": 28425, "category": "ai_other", "confidence": "medium", "reason": "Gen-AI enzyme design, company builds own enzyme pipeline"}
+{"id": 27694, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "Credit-risk AI tool sold to merchants"}
+{"id": 27725, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI support-response drafting tool sold to support teams"}
+{"id": 28045, "category": "not_ai", "confidence": "high", "reason": "B2B wholesale marketplace, no AI"}
+{"id": 28301, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI sales/GTM agents sold to GTM teams"}
+{"id": 28112, "category": "ai_other", "confidence": "low", "reason": "AI-driven automation for drug formulation R&D, unclear customer model"}
+{"id": 28175, "category": "not_ai", "confidence": "low", "reason": "Credit-product API, AI tag but no described AI function"}
+{"id": 28416, "category": "not_ai", "confidence": "low", "reason": "Git/code-review platform 'augmented by AI', core not AI-driven"}
+{"id": 27695, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI document automation sold to businesses"}
+{"id": 27837, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI platform sold to architecture/engineering firms"}
+{"id": 28073, "category": "ai_infra", "confidence": "medium", "reason": "Voice AI model/API platform for builders"}
+{"id": 27785, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI browser assistant automates insurance tasks for clinics"}
+{"id": 27880, "category": "unclear", "confidence": "low", "reason": "Entirely empty description"}
+{"id": 27846, "category": "not_ai", "confidence": "high", "reason": "Restaurant POS/inventory software, no AI"}
+{"id": 27821, "category": "ai_infra", "confidence": "high", "reason": "One-command deployment infra for ML models"}
+{"id": 27928, "category": "unclear", "confidence": "low", "reason": "'Coming soon', no real description"}
+{"id": 27992, "category": "not_ai", "confidence": "high", "reason": "B2B steel marketplace, no AI"}
+{"id": 27876, "category": "not_ai", "confidence": "high", "reason": "CRE integrations platform, no AI"}
+{"id": 28069, "category": "sells_ai_to_industry", "confidence": "high", "reason": "Agentic support platform sold to B2B companies"}
+{"id": 27878, "category": "full_stack_non_ai", "confidence": "low", "reason": "Operates/manages solar installation process directly, no AI"}
+{"id": 27960, "category": "not_ai", "confidence": "high", "reason": "Autonomous stratospheric platforms hardware, no AI"}
+{"id": 27915, "category": "not_ai", "confidence": "high", "reason": "DeFi crypto wallet app, no AI"}
+{"id": 27986, "category": "full_stack_ai", "confidence": "medium", "reason": "AI automates 80% of tax-service work delivered directly to consumers"}
+{"id": 27673, "category": "not_ai", "confidence": "medium", "reason": "App-building platform/framework, AI is incidental feature"}
+{"id": 27874, "category": "ai_infra", "confidence": "high", "reason": "Models and infra for coding agents"}
+{"id": 27850, "category": "not_ai", "confidence": "high", "reason": "Employee security tool, no AI"}
+{"id": 28098, "category": "not_ai", "confidence": "high", "reason": "Email API for developers, no AI"}
+{"id": 27983, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI OS sold to debt-settlement companies"}
+{"id": 28087, "category": "ai_infra", "confidence": "medium", "reason": "Stateful-workload infra primitive built for AI agents"}
+{"id": 27692, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI slide-deck automation sold to companies"}
+{"id": 27734, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI product-metadata tool sold to ecommerce teams"}
+{"id": 27583, "category": "full_stack_ai", "confidence": "low", "reason": "Creative agency making commercials directly for brands, AI/video tagged"}
+{"id": 27806, "category": "not_ai", "confidence": "high", "reason": "Neobank for ecommerce businesses, no AI"}
+{"id": 27941, "category": "sells_ai_to_industry", "confidence": "high", "reason": "Self-generating code knowledge base sold to dev teams"}
+{"id": 27808, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI workflow automation sold to auto lenders"}
+{"id": 27491, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI workforce sold to trades businesses"}
+{"id": 28018, "category": "not_ai", "confidence": "high", "reason": "Pharmacy ordering platform, no AI"}
+{"id": 27828, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "Diagnostic-test AI API sold to medical companies"}
+{"id": 28303, "category": "ai_other", "confidence": "medium", "reason": "Consumer AI news/podcast aggregator app"}
+{"id": 28368, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI codebase-maintenance tool sold to eng teams"}
+{"id": 27942, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI PR-failure resolution tool sold to dev teams"}
+{"id": 28221, "category": "sells_ai_to_industry", "confidence": "low", "reason": "Manufacturing root-cause Q&A tool sold to manufacturers"}
+{"id": 27987, "category": "not_ai", "confidence": "high", "reason": "B2B auto-dealer marketplace, no AI"}
+{"id": 27950, "category": "sells_ai_to_industry", "confidence": "low", "reason": "SQL knowledge-management tool sold to data teams"}
+{"id": 27892, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI phone agents sold to dealerships"}
+{"id": 27947, "category": "not_ai", "confidence": "low", "reason": "Human-made romance comics app, AI tag but not core"}
+{"id": 27984, "category": "not_ai", "confidence": "high", "reason": "Cloud warehousing/logistics platform, no AI"}
+{"id": 28192, "category": "not_ai", "confidence": "high", "reason": "Kubernetes PaaS platform, no AI"}
+{"id": 28082, "category": "not_ai", "confidence": "medium", "reason": "SaaS-management automation tool, no explicit AI"}
+{"id": 28413, "category": "not_ai", "confidence": "high", "reason": "Eyewear ordering/billing platform, no AI"}
+{"id": 28412, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI rebate-management tool sold to manufacturers"}
+{"id": 27667, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI agents deployed for enterprises, sold to them"}
+{"id": 27907, "category": "ai_other", "confidence": "medium", "reason": "Consumer AI-assisted storyboard/webcomic tool"}
+{"id": 28075, "category": "not_ai", "confidence": "high", "reason": "Hydrogen electric aircraft hardware, no AI"}
+{"id": 27684, "category": "sells_ai_to_industry", "confidence": "high", "reason": "Multi-lingual AI voice agents sold to businesses"}
+{"id": 27854, "category": "not_ai", "confidence": "high", "reason": "Cloud-marketplace sales platform, no AI"}
+{"id": 28107, "category": "not_ai", "confidence": "high", "reason": "API caching gateway, no AI"}
+{"id": 27978, "category": "ai_other", "confidence": "medium", "reason": "Consumer AI test-prep mentor app"}
+{"id": 27685, "category": "full_stack_ai", "confidence": "medium", "reason": "Agentic AI replaces agencies, delivers video-marketing service directly to brands"}
+{"id": 27897, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI teammates sold to ops/data teams"}
+{"id": 28080, "category": "unclear", "confidence": "low", "reason": "Empty description and one-liner"}
+{"id": 27811, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "Custom LLM automates referral paperwork between healthcare providers"}
+{"id": 28180, "category": "ai_infra", "confidence": "medium", "reason": "GPU/TPU acceleration infra for AI pipelines"}
+{"id": 28382, "category": "not_ai", "confidence": "high", "reason": "Bitcoin self-custody consumer app, no AI"}
+{"id": 27678, "category": "ai_infra", "confidence": "high", "reason": "LLM observability tool for developers"}
+{"id": 27707, "category": "not_ai", "confidence": "high", "reason": "Supply-chain integrations API, no AI"}
+{"id": 27680, "category": "ai_infra", "confidence": "high", "reason": "Open-source platform for building AI agents/workflows"}
+{"id": 27832, "category": "not_ai", "confidence": "high", "reason": "Rent-verification data API, no AI"}

@@ -1,0 +1,150 @@
+{"id": 12286, "category": "ai_other", "confidence": "medium", "reason": "AI-native biotech doing its own drug discovery, not a customer-facing service firm"}
+{"id": 12252, "category": "not_ai", "confidence": "medium", "reason": "Genomics research/services company; no AI stated"}
+{"id": 12006, "category": "sells_ai_to_industry", "confidence": "high", "reason": "Platform insurance companies use to run their business, not operated by AI Insurance itself"}
+{"id": 12260, "category": "sells_ai_to_industry", "confidence": "high", "reason": "Legal document drafting software sold to corporations, not a law firm"}
+{"id": 12344, "category": "full_stack_non_ai", "confidence": "medium", "reason": "Acts as intermediary buyer of homes itself; no AI mentioned"}
+{"id": 12242, "category": "full_stack_non_ai", "confidence": "medium", "reason": "Runs its own physical skill centres and placement; no AI doing core work"}
+{"id": 11990, "category": "unclear", "confidence": "low", "reason": "One-liner only, description empty"}
+{"id": 11935, "category": "not_ai", "confidence": "low", "reason": "Fulfillment platform for sellers to self-run ops; AI tag but undescribed"}
+{"id": 11923, "category": "not_ai", "confidence": "medium", "reason": "Consumer social app for neighboring families; no AI"}
+{"id": 12271, "category": "sells_ai_to_industry", "confidence": "high", "reason": "Generative AI images sold to fashion retailers, not operating retail itself"}
+{"id": 12119, "category": "not_ai", "confidence": "high", "reason": "API brokerage infrastructure for other companies; no AI"}
+{"id": 12136, "category": "not_ai", "confidence": "high", "reason": "EV charging hardware/service; no AI"}
+{"id": 11967, "category": "full_stack_non_ai", "confidence": "medium", "reason": "Operates as employer of record for staffing firms; no AI stated"}
+{"id": 12035, "category": "not_ai", "confidence": "medium", "reason": "Recruiting SaaS sold to talent teams; no AI functionality described"}
+{"id": 12034, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "Natural-language data querying tool sold to users/companies"}
+{"id": 12300, "category": "unclear", "confidence": "low", "reason": "Empty description, one-liner too thin"}
+{"id": 12012, "category": "not_ai", "confidence": "high", "reason": "Builds nuclear reactors to produce medical isotopes; no AI"}
+{"id": 12080, "category": "sells_ai_to_industry", "confidence": "high", "reason": "\"Plug & play AI\" analytics sold to retailers using their cameras"}
+{"id": 12047, "category": "not_ai", "confidence": "high", "reason": "Quantum computer hardware maker; no AI"}
+{"id": 12062, "category": "full_stack_ai", "confidence": "medium", "reason": "Company itself calls on behalf of customers, using ML to handle the call process"}
+{"id": 11978, "category": "not_ai", "confidence": "medium", "reason": "Referral SDK for startups; no AI"}
+{"id": 12003, "category": "not_ai", "confidence": "medium", "reason": "Product analytics data-quality tooling; no AI"}
+{"id": 12065, "category": "full_stack_ai", "confidence": "medium", "reason": "\"AI agent that saves you money on travel\" negotiates deals directly for customers"}
+{"id": 12372, "category": "not_ai", "confidence": "medium", "reason": "Contest automation software; no AI"}
+{"id": 12284, "category": "not_ai", "confidence": "low", "reason": "Social network for close friends; no AI, thin description"}
+{"id": 11992, "category": "ai_infra", "confidence": "medium", "reason": "API that embeds high-dimensional data for other builders"}
+{"id": 12020, "category": "not_ai", "confidence": "low", "reason": "Ordering software sold to restaurants; no AI stated"}
+{"id": 12250, "category": "not_ai", "confidence": "low", "reason": "Marketplace-tagged last-mile delivery; not stated as operator, no AI"}
+{"id": 12045, "category": "not_ai", "confidence": "low", "reason": "Sales-team note-taking SaaS; no AI"}
+{"id": 11944, "category": "not_ai", "confidence": "medium", "reason": "Sensor-enabled marketplace for repeat purchases; no AI"}
+{"id": 11976, "category": "ai_other", "confidence": "low", "reason": "\"AI-driven digital healthcare\" consumer brain-longevity product, thin description"}
+{"id": 11930, "category": "full_stack_non_ai", "confidence": "high", "reason": "Provides in-person medical infrastructure itself (diagnostics, nursing, phlebotomy); no AI"}
+{"id": 12042, "category": "sells_ai_to_industry", "confidence": "high", "reason": "\"Agentic AI platform for health systems\", sold to health systems"}
+{"id": 12371, "category": "not_ai", "confidence": "medium", "reason": "Creator monetization/payments platform; no AI"}
+{"id": 11927, "category": "not_ai", "confidence": "low", "reason": "1-click checkout for online stores; no AI, empty description"}
+{"id": 12175, "category": "not_ai", "confidence": "medium", "reason": "Notes/tasks workspace productivity tool; no AI"}
+{"id": 12072, "category": "full_stack_non_ai", "confidence": "medium", "reason": "Runs its own online school delivering the training itself; no AI"}
+{"id": 12074, "category": "full_stack_ai", "confidence": "high", "reason": "\"The autonomous tax firm\" that drafts agreements and implements fixes itself"}
+{"id": 12366, "category": "full_stack_non_ai", "confidence": "medium", "reason": "Operates the benefits/insurance concierge service itself; no AI"}
+{"id": 11948, "category": "ai_infra", "confidence": "high", "reason": "Data annotation/labeling platform for training AI models"}
+{"id": 11964, "category": "not_ai", "confidence": "medium", "reason": "No-code app builder; no AI"}
+{"id": 12068, "category": "not_ai", "confidence": "medium", "reason": "Workplace perks marketplace; no AI"}
+{"id": 12257, "category": "full_stack_non_ai", "confidence": "low", "reason": "Runs its own furniture rental subscription service; no AI"}
+{"id": 12078, "category": "not_ai", "confidence": "medium", "reason": "Private group social app; no AI"}
+{"id": 11991, "category": "full_stack_ai", "confidence": "medium", "reason": "Delivers phone service directly to families; \"AI-powered check-in calls\" do the core monitoring"}
+{"id": 11954, "category": "not_ai", "confidence": "medium", "reason": "White-label community platform sold to companies; no AI"}
+{"id": 11972, "category": "not_ai", "confidence": "low", "reason": "Software for commercial services industry; no AI stated, thin"}
+{"id": 12280, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI agents that write content/fix bugs sold to dev/content teams via CMS"}
+{"id": 11985, "category": "not_ai", "confidence": "medium", "reason": "Academic operations SaaS for institutions; no AI"}
+{"id": 12248, "category": "not_ai", "confidence": "medium", "reason": "BNPL fintech; no AI stated"}
+{"id": 12262, "category": "not_ai", "confidence": "medium", "reason": "Ecommerce operating-system platform sold to merchants; no AI"}
+{"id": 12093, "category": "not_ai", "confidence": "medium", "reason": "CI/CD pipeline engine; no AI"}
+{"id": 12079, "category": "full_stack_non_ai", "confidence": "high", "reason": "Runs its own telehealth clinic monitoring chronic patients; no AI"}
+{"id": 12258, "category": "not_ai", "confidence": "medium", "reason": "Data pipeline diagnosis tool for engineers; no AI"}
+{"id": 12064, "category": "sells_ai_to_industry", "confidence": "low", "reason": "All-in-one payroll/HR platform businesses use, \"AI-powered tools\" as a feature"}
+{"id": 12005, "category": "sells_ai_to_industry", "confidence": "high", "reason": "\"AI-powered sales coaching\" software sold to sales teams"}
+{"id": 11955, "category": "not_ai", "confidence": "low", "reason": "Managed equipment data pipelines for manufacturers; no AI"}
+{"id": 12014, "category": "unclear", "confidence": "low", "reason": "Entirely empty listing"}
+{"id": 12266, "category": "not_ai", "confidence": "medium", "reason": "On-demand test environments for engineering teams; no AI"}
+{"id": 12015, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI/NLP tool that turns documents into structured data, sold as product"}
+{"id": 12038, "category": "not_ai", "confidence": "medium", "reason": "Smart-home access IoT hardware; no AI core"}
+{"id": 12070, "category": "not_ai", "confidence": "medium", "reason": "Secrets management platform; no AI"}
+{"id": 11962, "category": "unclear", "confidence": "low", "reason": "Payment fraud reduction, no description to judge AI or full-stack status"}
+{"id": 12358, "category": "not_ai", "confidence": "medium", "reason": "Plant-based dairy manufacturer; no AI"}
+{"id": 12245, "category": "not_ai", "confidence": "medium", "reason": "Peer-to-peer online learning marketplace; doesn't employ instructors, no AI"}
+{"id": 12031, "category": "not_ai", "confidence": "low", "reason": "Digital payments infrastructure; no AI, thin description"}
+{"id": 12251, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI-powered SaaS recruitment platform sold to companies like Walmart"}
+{"id": 12210, "category": "not_ai", "confidence": "medium", "reason": "Develops/commercializes therapeutics itself; no AI stated"}
+{"id": 12013, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI QA bots sold as testing tool to game studios"}
+{"id": 12046, "category": "unclear", "confidence": "low", "reason": "Entirely empty listing besides Biotech tag"}
+{"id": 12247, "category": "not_ai", "confidence": "medium", "reason": "All-in-one SaaS platform for creators; no AI"}
+{"id": 12279, "category": "not_ai", "confidence": "medium", "reason": "Marketplace dispatching orders to delivery services, not operating deliveries itself; no AI"}
+{"id": 11974, "category": "full_stack_non_ai", "confidence": "low", "reason": "Vertically integrated cannabis delivery retailer; no AI"}
+{"id": 11924, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI-powered learning/coaching platform sold to sales teams"}
+{"id": 12002, "category": "not_ai", "confidence": "medium", "reason": "Job-simulation platform partnering with employers; no AI"}
+{"id": 12264, "category": "full_stack_non_ai", "confidence": "low", "reason": "Operates as the wholesale supplier/distributor to restaurants itself; no AI"}
+{"id": 12073, "category": "not_ai", "confidence": "medium", "reason": "Unified banking-data API sold to companies; no AI"}
+{"id": 11921, "category": "not_ai", "confidence": "medium", "reason": "Fuzz-testing-as-a-service dev tool; no AI"}
+{"id": 11931, "category": "not_ai", "confidence": "medium", "reason": "Enterprise spatial-data SaaS/marketplace; no AI"}
+{"id": 12256, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "\"AI-first\" no-code app builder sold to businesses"}
+{"id": 12273, "category": "not_ai", "confidence": "medium", "reason": "Crypto derivatives exchange; no AI"}
+{"id": 11984, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "Internal link/search productivity tools \"powered by AI\" sold to companies"}
+{"id": 11957, "category": "full_stack_non_ai", "confidence": "medium", "reason": "Licensed retail electric provider delivering energy itself; no AI"}
+{"id": 12043, "category": "not_ai", "confidence": "medium", "reason": "Payments/compliance software for construction suppliers; no AI"}
+{"id": 11975, "category": "sells_ai_to_industry", "confidence": "high", "reason": "\"Build AI Agents\" for businesses to communicate with their own customers"}
+{"id": 12089, "category": "not_ai", "confidence": "medium", "reason": "Electric airplane manufacturer; no AI"}
+{"id": 11982, "category": "not_ai", "confidence": "medium", "reason": "Feedback repository tool for product teams; no AI"}
+{"id": 12090, "category": "ai_other", "confidence": "high", "reason": "AI-powered digital sleep journal, a consumer AI app"}
+{"id": 12274, "category": "not_ai", "confidence": "low", "reason": "At-home hormone tracking device; no AI stated, thin description"}
+{"id": 11937, "category": "not_ai", "confidence": "medium", "reason": "Extensible iOS browser; no AI"}
+{"id": 12077, "category": "full_stack_ai", "confidence": "medium", "reason": "Operates its own \"automated digital pathology lab\" as the diagnostic service provider"}
+{"id": 12056, "category": "not_ai", "confidence": "medium", "reason": "Smart-gel drug-delivery materials platform; no AI"}
+{"id": 11925, "category": "not_ai", "confidence": "medium", "reason": "Fuel-agnostic engine manufacturer; no AI"}
+{"id": 11938, "category": "not_ai", "confidence": "low", "reason": "Cash management advisory for businesses; no AI, not clearly full-stack"}
+{"id": 12084, "category": "not_ai", "confidence": "medium", "reason": "VTOL aircraft hardware manufacturer; no AI"}
+{"id": 2019, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "Chatbot/sales tool sold to SMB and corporate clients on WeChat"}
+{"id": 11943, "category": "not_ai", "confidence": "medium", "reason": "Regulated event-contracts trading exchange; no AI"}
+{"id": 11940, "category": "full_stack_ai", "confidence": "high", "reason": "Company itself files tax returns for customers; \"we use AI to automate most of the prep work\""}
+{"id": 12246, "category": "not_ai", "confidence": "low", "reason": "E-signature/identity verification platform; no AI stated"}
+{"id": 11941, "category": "not_ai", "confidence": "medium", "reason": "Marketplace matching renters/housemates, not operating rentals; no AI"}
+{"id": 12244, "category": "full_stack_non_ai", "confidence": "low", "reason": "Fintech -> Credit and Lending; functions as auto-ownership lender itself, no AI"}
+{"id": 11979, "category": "not_ai", "confidence": "medium", "reason": "Biotech developing cell therapy for vets to administer; no AI"}
+{"id": 12057, "category": "sells_ai_to_industry", "confidence": "low", "reason": "\"Generative AI for frontline worker hiring\", recruiting/marketplace tech"}
+{"id": 12276, "category": "full_stack_non_ai", "confidence": "medium", "reason": "Positions itself as property managers' maintenance department; automation not stated as AI"}
+{"id": 12255, "category": "full_stack_non_ai", "confidence": "medium", "reason": "Operates its own on-demand delivery superapp; no AI"}
+{"id": 12362, "category": "not_ai", "confidence": "low", "reason": "Collectibles marketplace with expert verification; no AI"}
+{"id": 12041, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "Computer-vision checkout tech sold to restaurant partners who run the stores"}
+{"id": 12096, "category": "not_ai", "confidence": "high", "reason": "Industrial CO2-to-graphite materials process; no AI"}
+{"id": 12267, "category": "full_stack_ai", "confidence": "high", "reason": "Operates autonomous trucks itself to automate freight shipping; robots run as a service"}
+{"id": 11977, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "ML-based security toolkit sold to medical device vendors"}
+{"id": 12356, "category": "not_ai", "confidence": "medium", "reason": "IoT device reliability platform for developers; no AI"}
+{"id": 11983, "category": "not_ai", "confidence": "medium", "reason": "Business identity/compliance API sold to fintech companies; no AI"}
+{"id": 12053, "category": "full_stack_ai", "confidence": "medium", "reason": "QA-as-a-service company operates its own robots to test apps for customers"}
+{"id": 12235, "category": "not_ai", "confidence": "medium", "reason": "Crypto investing app; no AI"}
+{"id": 12236, "category": "not_ai", "confidence": "medium", "reason": "Cross-border payments/stablecoin rails; no AI"}
+{"id": 11995, "category": "full_stack_non_ai", "confidence": "medium", "reason": "Operates as the cannabis wholesale distributor itself; no AI"}
+{"id": 12325, "category": "not_ai", "confidence": "medium", "reason": "Frozen beauty products manufacturer; no AI"}
+{"id": 11968, "category": "full_stack_non_ai", "confidence": "low", "reason": "Operates its own farms delivering food to restaurants; Robotics tag not elaborated"}
+{"id": 12237, "category": "full_stack_non_ai", "confidence": "low", "reason": "Operates as the freight forwarder itself; \"models and algorithms\" not clearly AI"}
+{"id": 12297, "category": "not_ai", "confidence": "medium", "reason": "Fundraising SaaS for campaigns/nonprofits; no AI"}
+{"id": 12032, "category": "not_ai", "confidence": "medium", "reason": "Cloud dev environments tool; no AI"}
+{"id": 12094, "category": "not_ai", "confidence": "medium", "reason": "Nonprofit open-data publication; no AI"}
+{"id": 12283, "category": "sells_ai_to_industry", "confidence": "high", "reason": "Outbound AI agents sold to enterprises in education, insurance, travel"}
+{"id": 11895, "category": "sells_ai_to_industry", "confidence": "high", "reason": "Custom hardware/edge AI/software sold to manufacturers to catch defects"}
+{"id": 12067, "category": "not_ai", "confidence": "medium", "reason": "Diagnostic device/software sold to health professionals; no AI stated"}
+{"id": 11936, "category": "ai_other", "confidence": "medium", "reason": "AI-verified marketplace matching funders to reforestation projects it doesn't operate"}
+{"id": 11926, "category": "full_stack_non_ai", "confidence": "medium", "reason": "\"Parker is a digital bank\"; operates as the bank itself, no AI"}
+{"id": 11942, "category": "not_ai", "confidence": "medium", "reason": "Indoor AR navigation tool for technicians; no AI"}
+{"id": 12033, "category": "not_ai", "confidence": "low", "reason": "Personal clothing ecommerce store; empty description"}
+{"id": 12281, "category": "not_ai", "confidence": "medium", "reason": "Memberships SaaS/marketplace for event organizers; no AI"}
+{"id": 11971, "category": "not_ai", "confidence": "medium", "reason": "IoT door hardware; no AI, empty description"}
+{"id": 11934, "category": "full_stack_non_ai", "confidence": "low", "reason": "Operates as B2B fresh-food supplier/distributor itself; no AI, thin description"}
+{"id": 11969, "category": "not_ai", "confidence": "medium", "reason": "SMS marketing SaaS for merchants; no AI"}
+{"id": 11965, "category": "not_ai", "confidence": "low", "reason": "No-code web testing tool; no AI tag despite adaptive selectors"}
+{"id": 12036, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "ML-based patient data platform used by drug developers and advocacy groups"}
+{"id": 12287, "category": "not_ai", "confidence": "medium", "reason": "Synthetic electrofuels manufacturer; no AI"}
+{"id": 12261, "category": "not_ai", "confidence": "medium", "reason": "Ride-sharing marketplace where drivers pay subscription, not employed; no AI"}
+{"id": 12259, "category": "full_stack_non_ai", "confidence": "medium", "reason": "Operates its own network of health-screening kiosks; no AI, just IoT"}
+{"id": 12063, "category": "sells_ai_to_industry", "confidence": "high", "reason": "\"AI driven assessment tool\" sold to organizations for hiring"}
+{"id": 12071, "category": "not_ai", "confidence": "medium", "reason": "AR heads-up-display hardware for soldiers; no AI stated"}
+{"id": 12088, "category": "unclear", "confidence": "low", "reason": "One generic one-liner, no tags, no description"}
+{"id": 12011, "category": "ai_other", "confidence": "low", "reason": "AI drug-discovery biotech tag, description empty, not a service-delivery firm"}
+{"id": 12263, "category": "not_ai", "confidence": "medium", "reason": "Multiplayer gaming SDK/platform; no AI"}
+{"id": 11994, "category": "ai_infra", "confidence": "medium", "reason": "API/SDK to help businesses integrate language models into their apps"}
+{"id": 12374, "category": "full_stack_non_ai", "confidence": "medium", "reason": "Acts as the fee financier/lender for schools itself; no AI"}
+{"id": 11963, "category": "not_ai", "confidence": "medium", "reason": "Video platform for scientists to share research; no AI"}
+{"id": 1898, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "\"Talent AI\" hiring-quality SaaS, ML tags, sold to companies"}
+{"id": 12238, "category": "full_stack_non_ai", "confidence": "medium", "reason": "Provides working capital directly to exporters, acting as the lender; no AI"}
+{"id": 12393, "category": "not_ai", "confidence": "medium", "reason": "Marketplace connecting consumers with home chefs, not employing them; no AI"}
+{"id": 12241, "category": "not_ai", "confidence": "medium", "reason": "Cell-based cultivated-meat manufacturer; no AI"}

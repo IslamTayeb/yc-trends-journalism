@@ -244,3 +244,5 @@ dashboard/eras.local.json
 
 # blog figures: fonts are fetched by blog/make_figures.py instructions, not committed
 blog/fonts/
+
+fullstack/work/chunks/

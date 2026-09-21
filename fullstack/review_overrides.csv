@@ -1,0 +1,56 @@
+id,category,confidence,note
+12062,ai_other,medium,consumer call-skipping utility; no industry replaced
+12065,ai_other,medium,consumer deal-finding app
+11991,ai_other,medium,phone service; AI check-in calls are a feature not the core work
+12267,ai_other,medium,builds autonomous trucks; operating a freight service not stated
+12841,not_ai,medium,tax-filing app; no AI stated
+12619,sells_ai_to_industry,high,"""we help healthcare providers treat"" - sold to providers"
+13412,ai_other,medium,consumer investing app; AI role thin
+13224,ai_other,medium,consumer reading app; no description
+13087,ai_other,medium,robotic tire-changing systems; own service operation not stated
+13479,ai_other,low,robots for office buildings; description is a video link
+13109,ai_other,medium,AI-curated TV ad network; no incumbent service replaced
+22043,ai_other,medium,ingredients product company
+21992,ai_other,medium,AI drug-discovery biotech (convention: ai_other)
+22786,ai_other,medium,develops driverless fleets; own transport service not stated
+23062,full_stack_non_ai,medium,outsourced clinical Q&A service; AI only in tags
+22661,full_stack_non_ai,medium,online eye exam service; AI only in tags
+22875,ai_other,medium,builds concrete robots; contractor role not stated
+24589,ai_other,low,advertising blimps; AI not stated
+24095,ai_other,medium,consumer smartphone lab-test product
+24506,ai_other,medium,consumer language-learning app
+25711,full_stack_non_ai,low,robo-advisory; no AI stated
+27906,sells_ai_to_industry,medium,influencer platform used by brands' own teams
+27714,sells_ai_to_industry,medium,first product is AI agents sold to property managers
+27583,full_stack_non_ai,low,creative company; AI only in tags
+28799,sells_ai_to_industry,high,automates insurance calls for practices; AI employee sold to clinics
+28867,sells_ai_to_industry,high,AI front-office agents sold to clinics
+29122,sells_ai_to_industry,medium,AI voice agents sold to healthcare businesses
+29288,sells_ai_to_industry,high,AI receptionist sold to dental practices
+29339,sells_ai_to_industry,high,AI communication layer sold to clinics
+29499,full_stack_non_ai,low,duty-drawback filing service; AI not stated
+29841,not_ai,low,estate-settlement platform; AI not stated
+29844,ai_other,medium,truck-capacity index exposed via APIs; marketplace infrastructure
+29597,not_ai,medium,automated refuelling stations; hardware not AI
+29850,sells_ai_to_industry,medium,warranty platform merchants embed
+30109,sells_ai_to_industry,medium,platform for doctors to open their own clinics
+30049,ai_other,low,genomic prediction for IVF; biotech convention
+30051,unclear,low,three-line manifesto; no business described
+30299,ai_other,medium,consumer exam-prep app
+30463,ai_other,medium,"""Duolingo for Math"" consumer app"
+30509,ai_other,medium,building data-centre robots; own service operation not stated
+30471,sells_ai_to_industry,medium,browser-automation tool sold to businesses
+30919,sells_ai_to_industry,high,AI call answering sold to hotel groups
+30922,ai_other,medium,personal-finance recommendations app calling itself a bank
+30965,ai_other,low,builds surveillance aircraft sold to the military
+30875,sells_ai_to_industry,low,AI-native security tooling; service model not stated
+30860,ai_other,medium,private-markets trading venue
+31372,sells_ai_to_industry,medium,agents sold to short-term-rental property managers (first wedge)
+31457,ai_other,medium,prediction market
+31532,unclear,low,one-liner only
+33805,sells_ai_to_industry,medium,software connected to customers' energy equipment
+33016,ai_other,medium,personalised mRNA vaccine biotech
+32170,ai_other,medium,probiotic product company
+32171,sells_ai_to_industry,medium,"""all you have to do is click send"" - tool for SMBs"
+31569,ai_other,medium,building data-centre robots; deployment starts 2027
+32948,full_stack_non_ai,low,managed procurement service; AI not stated

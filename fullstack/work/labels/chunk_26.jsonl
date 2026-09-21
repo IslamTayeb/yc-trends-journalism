@@ -1,0 +1,150 @@
+{"id": 31170, "category": "ai_other", "confidence": "medium", "reason": "AI research lab discovering scientific results, not a service or infra product"}
+{"id": 31256, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI QA engineer sold to engineering teams"}
+{"id": 30913, "category": "ai_infra", "confidence": "high", "reason": "retrieval/search infra for agents"}
+{"id": 31178, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "agentic video editor sold to marketing teams"}
+{"id": 31311, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI outbound platform sold to GTM teams"}
+{"id": 31207, "category": "sells_ai_to_industry", "confidence": "high", "reason": "sales intelligence tool sold to reps"}
+{"id": 31295, "category": "ai_infra", "confidence": "medium", "reason": "AI cost observability/FinOps tool for AI spend"}
+{"id": 31110, "category": "ai_infra", "confidence": "medium", "reason": "helps companies align/distill models"}
+{"id": 31040, "category": "not_ai", "confidence": "high", "reason": "collectible card marketplace, no AI"}
+{"id": 31113, "category": "ai_other", "confidence": "medium", "reason": "AI drug discovery pipeline, not a customer-facing service"}
+{"id": 31185, "category": "ai_infra", "confidence": "high", "reason": "AIOps agent monitoring ML infrastructure for engineers"}
+{"id": 31233, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI agents sold to equipment dealers"}
+{"id": 31025, "category": "sells_ai_to_industry", "confidence": "high", "reason": "automates prior-auth for practices, practices still operate"}
+{"id": 31140, "category": "ai_other", "confidence": "medium", "reason": "consumer app that generates games from prompts"}
+{"id": 31104, "category": "sells_ai_to_industry", "confidence": "low", "reason": "automation sold to teams, thin description"}
+{"id": 31164, "category": "ai_infra", "confidence": "high", "reason": "LLM context-compression API for agents/RAG"}
+{"id": 31303, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI procurement software sold to energy clients"}
+{"id": 31162, "category": "ai_other", "confidence": "medium", "reason": "AI research for experiment design, not sold as product"}
+{"id": 31196, "category": "ai_other", "confidence": "medium", "reason": "AI radar hardware sold for autonomous vehicles"}
+{"id": 31212, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI orchestration software sold to satellite operators"}
+{"id": 31260, "category": "sells_ai_to_industry", "confidence": "high", "reason": "agentic underwriting tools sold to mortgage lenders"}
+{"id": 31241, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI production support sold to engineering teams"}
+{"id": 31051, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI data/context layer sold to CPG brands"}
+{"id": 31016, "category": "not_ai", "confidence": "medium", "reason": "impersonation monitoring service, no AI stated"}
+{"id": 31128, "category": "ai_infra", "confidence": "high", "reason": "unified inference/routing platform for engineering teams"}
+{"id": 31287, "category": "not_ai", "confidence": "high", "reason": "tankless dive gear hardware, no AI"}
+{"id": 31080, "category": "sells_ai_to_industry", "confidence": "high", "reason": "in-house AI models sold as KYC/fraud API"}
+{"id": 31225, "category": "ai_other", "confidence": "medium", "reason": "AI-driven drug discovery, not a customer service"}
+{"id": 31090, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "automates record review for insurers/legal teams"}
+{"id": 31229, "category": "not_ai", "confidence": "medium", "reason": "TikTok-based language app, no AI stated"}
+{"id": 31149, "category": "sells_ai_to_industry", "confidence": "high", "reason": "document workflow automation sold to enterprises"}
+{"id": 31199, "category": "sells_ai_to_industry", "confidence": "high", "reason": "agentic dev environment sold to engineering teams"}
+{"id": 31186, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI reconciliation agent sold to payments companies"}
+{"id": 31111, "category": "ai_infra", "confidence": "high", "reason": "interpretability SDK for foundation model builders"}
+{"id": 31058, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "data insights platform sold to clinics"}
+{"id": 31247, "category": "full_stack_ai", "confidence": "high", "reason": "\"legislative consulting firm staffed by AI agents\""}
+{"id": 31187, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI agents sold to banks"}
+{"id": 31152, "category": "ai_infra", "confidence": "high", "reason": "RL training environments sold to robotics companies"}
+{"id": 31289, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI-native CRM sold to startups"}
+{"id": 31243, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI project management platform sold to contractors"}
+{"id": 31239, "category": "ai_other", "confidence": "medium", "reason": "AI wearable hardware sold as consumer product"}
+{"id": 31204, "category": "not_ai", "confidence": "medium", "reason": "cultural attention trading exchange, no AI stated"}
+{"id": 31048, "category": "sells_ai_to_industry", "confidence": "high", "reason": "agents sold to corporate accounting teams"}
+{"id": 30635, "category": "not_ai", "confidence": "high", "reason": "lunar construction hardware company, no AI"}
+{"id": 30973, "category": "ai_other", "confidence": "low", "reason": "robots for space R&D, thin description"}
+{"id": 31240, "category": "full_stack_ai", "confidence": "high", "reason": "\"elite AI law firm\" delivering legal work itself"}
+{"id": 31255, "category": "not_ai", "confidence": "medium", "reason": "payroll/payments API, not AI performing work"}
+{"id": 31030, "category": "sells_ai_to_industry", "confidence": "high", "reason": "decisional AI layer sold to logistics operators"}
+{"id": 31062, "category": "not_ai", "confidence": "medium", "reason": "robot parts manufacturing, no AI stated"}
+{"id": 31205, "category": "ai_infra", "confidence": "high", "reason": "physical-AI data/sensor infra sold to AI labs"}
+{"id": 31165, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI SRE agent sold to companies"}
+{"id": 31168, "category": "not_ai", "confidence": "medium", "reason": "mobile trading app, no functional AI described"}
+{"id": 31197, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "automates inventory processing sold to insurers"}
+{"id": 31023, "category": "sells_ai_to_industry", "confidence": "high", "reason": "physics-AI digital twins sold to facilities"}
+{"id": 31179, "category": "sells_ai_to_industry", "confidence": "high", "reason": "workflow automation sold to enterprise teams"}
+{"id": 31274, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "FDE platform sold to companies, not itself the operator"}
+{"id": 31083, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI underwriting platform sold to lenders"}
+{"id": 31084, "category": "ai_infra", "confidence": "medium", "reason": "cloud hosting for agent instances"}
+{"id": 31120, "category": "not_ai", "confidence": "high", "reason": "battery pack manufacturing, no AI"}
+{"id": 31089, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI agents sold to hotel groups"}
+{"id": 31173, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI ad optimization sold to Amazon brands"}
+{"id": 31101, "category": "full_stack_ai", "confidence": "high", "reason": "\"AI-native immigration law firm\" filing petitions itself"}
+{"id": 31094, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI camera analysis sold to businesses"}
+{"id": 31087, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI product manager tool sold to product teams"}
+{"id": 31137, "category": "ai_infra", "confidence": "high", "reason": "training data licensing for frontier AI teams"}
+{"id": 31160, "category": "sells_ai_to_industry", "confidence": "high", "reason": "surgical planning AI sold to surgeons/hospitals"}
+{"id": 31036, "category": "ai_other", "confidence": "medium", "reason": "digital-twin modeling tech, thin description"}
+{"id": 31306, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI video platform sold to filmmakers"}
+{"id": 31253, "category": "not_ai", "confidence": "medium", "reason": "payments infrastructure, not AI performing work"}
+{"id": 31188, "category": "sells_ai_to_industry", "confidence": "high", "reason": "proactive AI sold to dealmakers"}
+{"id": 31210, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI DevOps agent sold to engineering teams"}
+{"id": 28879, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI data analyst sold to consumer brands"}
+{"id": 31144, "category": "not_ai", "confidence": "low", "reason": "drone-detection radar, no AI stated"}
+{"id": 31091, "category": "ai_other", "confidence": "high", "reason": "robot chef hardware sold as consumer product"}
+{"id": 31269, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "agentic admin service sold to care organizations"}
+{"id": 31252, "category": "ai_infra", "confidence": "high", "reason": "harness engineering platform for agent prompts/evals"}
+{"id": 31146, "category": "full_stack_ai", "confidence": "high", "reason": "\"global AI-native law firm\" closing deals itself"}
+{"id": 31132, "category": "sells_ai_to_industry", "confidence": "high", "reason": "fraud-detection AI sold to companies"}
+{"id": 31019, "category": "ai_other", "confidence": "medium", "reason": "AGI research lab, not sold as product"}
+{"id": 31141, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI vision QA sold to fish farms"}
+{"id": 31081, "category": "ai_infra", "confidence": "high", "reason": "simulation environments for robotics training/eval"}
+{"id": 31163, "category": "sells_ai_to_industry", "confidence": "high", "reason": "voice AI interpreter sold to providers"}
+{"id": 31116, "category": "ai_infra", "confidence": "medium", "reason": "spec-driven agent framework for developers"}
+{"id": 31284, "category": "ai_other", "confidence": "medium", "reason": "robot/model company deploying hardware to industries"}
+{"id": 31064, "category": "ai_infra", "confidence": "medium", "reason": "patient cancer datasets licensed to pharma/AI companies"}
+{"id": 31154, "category": "not_ai", "confidence": "medium", "reason": "agent payment/discovery infra, not AI itself"}
+{"id": 31283, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI-native OS sold to libraries"}
+{"id": 30641, "category": "full_stack_ai", "confidence": "medium", "reason": "AI-powered billing services delivered by the company itself"}
+{"id": 31171, "category": "ai_infra", "confidence": "high", "reason": "real-time vision inference platform for developers"}
+{"id": 31208, "category": "ai_infra", "confidence": "medium", "reason": "AI tool/spend visibility and routing platform"}
+{"id": 30927, "category": "sells_ai_to_industry", "confidence": "high", "reason": "internal-audit automation sold to companies"}
+{"id": 31126, "category": "full_stack_non_ai", "confidence": "medium", "reason": "fiduciary financial advisor firm, AI role unstated"}
+{"id": 31077, "category": "full_stack_ai", "confidence": "high", "reason": "AI workflows plus licensed brokers, is the brokerage"}
+{"id": 31174, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI pentesting agents sold to companies"}
+{"id": 31183, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI booking system sold to dental practices"}
+{"id": 31175, "category": "ai_other", "confidence": "high", "reason": "AI sandbox game, consumer product"}
+{"id": 31066, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI licensing agent sold to regulated companies"}
+{"id": 31153, "category": "sells_ai_to_industry", "confidence": "high", "reason": "recruiting automation sold to companies, not a staffing firm"}
+{"id": 31114, "category": "ai_infra", "confidence": "high", "reason": "photonic networking for AI compute"}
+{"id": 31214, "category": "ai_other", "confidence": "high", "reason": "AI voice recorder hardware, consumer product"}
+{"id": 30765, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI agents sold to automate customer success"}
+{"id": 31217, "category": "ai_infra", "confidence": "high", "reason": "simulation environments to train/evaluate agents"}
+{"id": 31275, "category": "unclear", "confidence": "high", "reason": "no description of product or business model"}
+{"id": 31177, "category": "full_stack_ai", "confidence": "high", "reason": "\"full-stack medical provider\" with AI acting as physician"}
+{"id": 31106, "category": "sells_ai_to_industry", "confidence": "high", "reason": "video intelligence tool sold to security teams"}
+{"id": 31169, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI loan OS sold to banks/fintechs"}
+{"id": 31155, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI outbound engine sold to PE teams"}
+{"id": 31082, "category": "ai_infra", "confidence": "medium", "reason": "cost-optimization layer on top of Claude Code"}
+{"id": 31097, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI drawing automation sold to engineers"}
+{"id": 31145, "category": "sells_ai_to_industry", "confidence": "high", "reason": "UI automation agent sold to businesses"}
+{"id": 31195, "category": "ai_other", "confidence": "high", "reason": "AI marketplace matching hardware buyers and suppliers"}
+{"id": 31302, "category": "ai_other", "confidence": "high", "reason": "consumer AI content-generation app"}
+{"id": 31232, "category": "ai_other", "confidence": "low", "reason": "robots sold/deployed to automate warehouse manipulation"}
+{"id": 31200, "category": "ai_infra", "confidence": "high", "reason": "platform to train, benchmark and deploy agents"}
+{"id": 31189, "category": "sells_ai_to_industry", "confidence": "high", "reason": "automotive-ops AI sold to auto retailers"}
+{"id": 31176, "category": "sells_ai_to_industry", "confidence": "high", "reason": "regulatory research agent sold to life-science teams"}
+{"id": 31276, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI drafting agents sold to regulatory teams"}
+{"id": 31201, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI growth engine sold to home-services businesses"}
+{"id": 31135, "category": "ai_other", "confidence": "low", "reason": "robots deployed to automate fleet depots"}
+{"id": 31280, "category": "ai_infra", "confidence": "high", "reason": "verification/training-signal infrastructure for AI systems"}
+{"id": 31085, "category": "sells_ai_to_industry", "confidence": "high", "reason": "admin automation sold to infusion clinics"}
+{"id": 31088, "category": "ai_infra", "confidence": "high", "reason": "on-device AI SDK and control plane"}
+{"id": 31147, "category": "ai_infra", "confidence": "high", "reason": "guardrail API that validates agent actions"}
+{"id": 31206, "category": "sells_ai_to_industry", "confidence": "high", "reason": "multilingual voice agents sold to organizations"}
+{"id": 31136, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "outsourced scheduling service sold to hospitals"}
+{"id": 31180, "category": "ai_other", "confidence": "medium", "reason": "autonomous strike drones sold as defense hardware"}
+{"id": 31100, "category": "ai_infra", "confidence": "high", "reason": "\"Datadog for Agent Reliability\", observability platform"}
+{"id": 31227, "category": "not_ai", "confidence": "medium", "reason": "trading execution infra, no AI stated"}
+{"id": 31224, "category": "ai_other", "confidence": "low", "reason": "container-unloading robots deployed at warehouses"}
+{"id": 31300, "category": "ai_infra", "confidence": "high", "reason": "agents label/deliver video datasets for AI labs"}
+{"id": 30639, "category": "not_ai", "confidence": "medium", "reason": "iMessage marketing channel, no AI stated"}
+{"id": 31254, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "messaging platform to build/run agents, sold to teams"}
+{"id": 31203, "category": "sells_ai_to_industry", "confidence": "high", "reason": "agent-discoverability marketing suite sold to brands"}
+{"id": 31133, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "desktop app moving agent context, sold to dev teams"}
+{"id": 31151, "category": "sells_ai_to_industry", "confidence": "high", "reason": "no-code tool sold to non-engineers on teams"}
+{"id": 31159, "category": "not_ai", "confidence": "medium", "reason": "financial infra for agent payments, not AI itself"}
+{"id": 31273, "category": "not_ai", "confidence": "high", "reason": "borderless neobank, no AI stated"}
+{"id": 31245, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI grid-planning software sold to utilities"}
+{"id": 31167, "category": "sells_ai_to_industry", "confidence": "high", "reason": "agentic patent-litigation tool sold to law firms"}
+{"id": 31108, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "foundation models sold to pharmaceutical companies"}
+{"id": 31181, "category": "ai_infra", "confidence": "high", "reason": "tooling, evals and training environments for science AI"}
+{"id": 31262, "category": "ai_infra", "confidence": "medium", "reason": "builds interaction/foundation models for voice agents"}
+{"id": 31127, "category": "sells_ai_to_industry", "confidence": "high", "reason": "AI operating system sold to medspas"}
+{"id": 31172, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI transformation consulting sold to operations teams"}
+{"id": 31158, "category": "ai_other", "confidence": "low", "reason": "AI uranium exploration, not a customer-facing service"}
+{"id": 31250, "category": "ai_infra", "confidence": "high", "reason": "compression middleware for LLM context"}
+{"id": 31191, "category": "unclear", "confidence": "medium", "reason": "research lab description too thin to classify"}
+{"id": 30905, "category": "full_stack_ai", "confidence": "high", "reason": "AI sources deals; \"our brokers take them to close\""}
+{"id": 31244, "category": "sells_ai_to_industry", "confidence": "medium", "reason": "AI workspace/agents sold to professionals"}
+{"id": 31296, "category": "not_ai", "confidence": "high", "reason": "crypto deposit infrastructure, no AI"}
