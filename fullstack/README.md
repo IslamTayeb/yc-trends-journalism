@@ -9,7 +9,8 @@ stays out of `data/processed`, `report.md` and the dashboard.
 uv run python fullstack/prepare_chunks.py      # work/chunks/chunk_NN.jsonl from data/all_years/processed (gitignored, regenerable)
 # classify: each chunk is read by a Claude agent against rubric.md and written to work/labels/chunk_NN.jsonl (committed)
 uv run python fullstack/collect.py             # validates every id is labelled once, applies review_overrides.csv -> data/yc_fullstack_labels.csv, data/yc_fullstack_by_batch.csv
-uv run python fullstack/make_figure.py         # figures/yc_fullstack_ai.svg (+ PNG light/dark, PDF), same styling as blog/
+uv run python fullstack/make_figure.py         # figures/yc_fullstack_ai.svg, yc_fullstack_industry.svg (+ PNG light/dark, PDF, preview.html), same styling as blog/
+uv run python fullstack/make_figure.py --bare  # figures/bare/: plot-only versions with inlined styles + transparent PNG, for Word / Docs
 ```
 
 ## Files
@@ -21,7 +22,10 @@ uv run python fullstack/make_figure.py         # figures/yc_fullstack_ai.svg (+ 
 | `review_overrides.csv` | second pass: every first-pass `full_stack_ai` was re-read by one reviewer; the 55 that did not hold are moved here with a note |
 | `data/yc_fullstack_labels.csv` | one row per company with YC's fields, the category, a plain-English `caption`, confidence and the reason |
 | `data/yc_fullstack_by_batch.csv` | per batch: count per category, share of batch, share among AI companies, high-confidence count |
-| `figures/yc_fullstack_ai.svg` | Fig 4: share of batch that is full-stack AI, with rules at ChatGPT (Nov 2022) and the RFS (Jun 2025); PNG light/dark, PDF, preview.html alongside |
+| `data/yc_fullstack_by_industry.csv` | per YC top-level industry: count and share among full-stack AI companies vs among all companies, Winter 2023 to Summer 2026, and the ratio |
+| `figures/yc_fullstack_ai.svg` | Fig 4: share of batch that is full-stack AI, with rules at ChatGPT (Nov 2022) and the RFS (Jun 2025) |
+| `figures/yc_fullstack_industry.svg` | Fig 5: dumbbell per YC industry, share among full-stack AI companies (blue) vs among all companies (gray), post-ChatGPT full batches |
+| `figures/*_light.png`, `*_dark.png`, `*.pdf`, `preview.html`, `bare/` | rasters, vector PDFs, side-by-side preview with theme toggle, and plot-only versions, as in `blog/figures` |
 
 ## Categories
 
