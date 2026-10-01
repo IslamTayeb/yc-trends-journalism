@@ -152,7 +152,12 @@ if __name__ == "__main__":
     ap.add_argument("--no-raster", action="store_true")
     ap.add_argument("--embed-fonts", action="store_true")
     ap.add_argument("--bare", action="store_true", help="plot-only Fig 4 and 5 with inline styles into figures/bare/ (+ transparent PNG)")
+    ap.add_argument("--site", action="store_true", help="plot-only Fig 4 and 5 keeping the theme tokens, into figures/site/ for imt.sh")
     a = ap.parse_args()
+    if a.site:
+        mf.BARE, mf.SITE, mf.FIG = True, True, FIG
+        svgs = [fig(rows(), False), fig_industry(industry_rows(), False)]
+        print("wrote", ", ".join(str(p.relative_to(ROOT)) for p in svgs)); raise SystemExit
     if a.bare:
         mf.BARE, mf.FIG = True, FIG                    # Svg.write then lands in fullstack/figures/bare/ with the blog's flattened styles
         svgs = [fig(rows(), False), fig_industry(industry_rows(), False)]

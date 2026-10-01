@@ -42,6 +42,8 @@ CONTEXT_DARK = "".join(f".c{i}{{stroke:{dk}}}.ct{i}{{fill:{dk}}}" for i, (_, dk)
 
 BARE = False      # --bare: plot only (no ground, header or footer), light palette inlined, for Word / Docs where the
                   # caption carries the title and source; written to figures/bare/ so the site SVGs are untouched
+SITE = False      # --site: the --bare layout but keeping the theme-token CSS and no ground, for inlining on imt.sh under an
+                  # HTML figcaption; written to figures/site/
 GRAY_ALL = True   # every non-highlighted series in one muted gray (Datawrapper/Economist practice); CONTEXT hues kept for reference
 TOP_N = 5         # Fig 1: the N largest labels in the latest full batch; Fig 2: rank rows 1..N plus an "N+1 and below" row
 
@@ -230,6 +232,12 @@ class Svg:
         return lines
 
     def write(self, path):
+        if SITE:
+            (FIG / "site").mkdir(exist_ok=True)
+            path = FIG / "site" / path.name
+            path.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {self.w} {self.h}" width="100%" class="imt" '
+                            f'role="img"><style>{CSS}</style>{"".join(self.parts)}</svg>\n')
+            return path
         if BARE:
             (FIG / "bare").mkdir(exist_ok=True)
             path = FIG / "bare" / path.name
@@ -687,7 +695,13 @@ if __name__ == "__main__":
     ap.add_argument("--embed-fonts", action="store_true")
     ap.add_argument("--variants", action="store_true", help="also write fig2_{curve,step,slope,tiles}.svg and fig2_variants.html")
     ap.add_argument("--bare", action="store_true", help="plot-only Fig 1 and 2 with inline styles into figures/bare/ (+ transparent PNG)")
+    ap.add_argument("--site", action="store_true", help="plot-only Fig 1 and 2 keeping the theme tokens, into figures/site/ for imt.sh")
     a = ap.parse_args()
+    if a.site:
+        BARE = SITE = True
+        t = yc_rows(); set_shades(t)
+        svgs = [fig_share(t, False), fig_rank(t, False)]
+        print("wrote", ", ".join(str(p.relative_to(ROOT)) for p in svgs)); raise SystemExit
     if a.bare:
         BARE = True
         t = yc_rows(); set_shades(t)
