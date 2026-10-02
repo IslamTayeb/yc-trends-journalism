@@ -49,7 +49,9 @@ TOP_N = 5         # Fig 1: the N largest labels in the latest full batch; Fig 2:
 
 
 SHADE = {}        # industry -> gray opacity, darkest for the largest context label in the latest full batch (set in main)
-GRAY_STEPS = [.31]     # ink token (black / white) at the opacity that blends to the old muted-gray-at-0.5; one shade only, a
+GRAY_STEPS = [.31]     # label text only: ink token at the opacity that blends to the old muted-gray-at-0.5. Context STROKES use
+                       # the solid --bgl gray (#b4b2b0 light, #5f5f5f dark, the same blend) with no opacity, so crossings do not
+                       # stack brighter where the gray lines overlap. One shade only, a
                        # size-ordered ramp was tried and rejected (implies a hierarchy that is not the story)
 
 
@@ -158,18 +160,18 @@ def fit(pos, y):
 # ---------------------------------------------------------------- svg helpers
 CSS = """
 .imt{--bg:var(--background,#fafaf9);--ink:var(--foreground,#131110);--mut:var(--muted-foreground,#6b6865);
---rule:var(--border,#dfdedb);--prule:var(--page-rule,#131110);--r:var(--roy-r,#f52027);--o:var(--roy-o,#ee7b00);
+--rule:var(--border,#dfdedb);--prule:var(--page-rule,#131110);--bgl:#b4b2b0;--r:var(--roy-r,#f52027);--o:var(--roy-o,#ee7b00);
 --y:var(--roy-y,#ffba06);--b:var(--roy-b,#0074c9);font-family:"Open Sans",Arial,sans-serif;font-size:14px}
 @media (prefers-color-scheme:dark){.imt{--bg:var(--background,#1a1a1a);--ink:var(--foreground,#fafafa);
---mut:var(--muted-foreground,#a1a1a1);--rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555)}CTXDARK_MEDIA}
+--mut:var(--muted-foreground,#a1a1a1);--rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555);--bgl:#5f5f5f}CTXDARK_MEDIA}
 .dark .imt{--bg:var(--background,#1a1a1a);--ink:var(--foreground,#fafafa);--mut:var(--muted-foreground,#a1a1a1);
---rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555)}CTXDARK_CLASS
+--rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555);--bgl:#5f5f5f}CTXDARK_CLASS
 .imt text{fill:var(--ink)}.imt .m{fill:var(--mut)}.imt .mono{font-family:MONO}
 .imt .kick{font-size:13px;font-weight:700;letter-spacing:.2em}.imt .h{font-size:20px;font-weight:600}
 .imt .dek,.imt .cap{font-size:14px}.imt .tick{font-size:12px}.imt .foot{font-size:12px}.imt .lab{font-size:14px;font-weight:600}.imt .labr{font-size:14px}
 .imt .ground{fill:var(--bg)}.imt .grid{stroke:var(--rule);opacity:.7}.imt .axis{stroke:var(--mut);opacity:.6}
 .imt .ev{stroke:var(--prule);stroke-width:1.1;stroke-dasharray:1.5 3.5;stroke-linecap:round}
-.imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}CTXCSS.imt .bg{stroke:var(--ink)}.imt .bgt{fill:var(--ink)}
+.imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}CTXCSS.imt .bg{stroke:var(--bgl)}.imt .bgt{fill:var(--ink)}
 .imt .trend{stroke-dasharray:5 4;opacity:.8}.imt .hollow{fill:var(--bg)}
 .imt .s-r{stroke:var(--r)}.imt .s-o{stroke:var(--o)}.imt .s-y{stroke:var(--y)}.imt .s-b{stroke:var(--b)}
 .imt .f-r{fill:var(--r)}.imt .f-o{fill:var(--o)}.imt .f-y{fill:var(--y)}.imt .f-b{fill:var(--b)}
@@ -265,7 +267,7 @@ FLAT = {
     "ln": {"fill": "none", "stroke-linejoin": "round", "stroke-linecap": "round"},
     **{f"c{i}": {"stroke": lt} for i, (lt, _) in enumerate(CONTEXT.values())},
     **{f"ct{i}": {"fill": lt} for i, (lt, _) in enumerate(CONTEXT.values())},
-    "bg": {"stroke": LIGHT["ink"]}, "bgt": {"fill": LIGHT["ink"]},
+    "bg": {"stroke": "#b4b2b0"}, "bgt": {"fill": LIGHT["ink"]},
     "trend": {"stroke-dasharray": "5 4", "opacity": ".8"}, "hollow": {"fill": "#ffffff"},
     **{f"s-{k}": {"stroke": LIGHT[k]} for k in "roby"}, **{f"f-{k}": {"fill": LIGHT[k]} for k in "roby"},
     "area": {"opacity": ".12"},
@@ -398,7 +400,7 @@ def fig_share(t, embed):
     for name in context:
         d = series(name)
         sc, _, w, al = style(name)
-        s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln {sc}", w, title=name, extra=f' opacity="{al}"')
+        s.path(polyline([X(p) for p in d.pos], [Y(v) for v in d.share_pct]), f"ln {sc}", w, title=name)
     for name, tok in HI.items():
         d = series(name)
         for seg in ("pre_w23", "w23_on"):
@@ -432,7 +434,7 @@ def end_labels(s, names, ends, lys, xr):
         tok = HI.get(name)
         op = "" if tok else f' opacity="{max(style(name)[3], .4)}"'
         if abs(yl - ye) > 2:   # leader: short horizontal stub, then a diagonal to the label, same opacity as the label
-            s.path(f"M{xr + 5:.1f},{ye:.1f} H{xr + 8:.1f} L{xr + 15:.1f},{yl:.1f}", f"ln {f's-{tok}' if tok else style(name)[0]}", 1, extra=op)
+            s.path(f"M{xr + 5:.1f},{ye:.1f} H{xr + 8:.1f} L{xr + 15:.1f},{yl:.1f}", f"ln {f's-{tok}' if tok else style(name)[0]}", 1)
         label = SHORT.get(name, name)
         s.text(xr + 19, yl + 4.5, label, f"lab f-{tok}" if tok else f"labr {style(name)[1]}", extra=op)
         assert xr + 19 + text_w(label, 14, "semibold") <= s.w - 8, label
@@ -472,7 +474,7 @@ def fig_rank(t, embed, variant="curve", out="yc_industry_rank.svg"):
         d = named[named.industry == name].sort_values("pos")
         tok = HI.get(name)
         sc, _, w, al = style(name)
-        cls, sw, op = (f"ln s-{tok}", 3.5, "") if tok else (f"ln {sc}", w + 0.2, f' opacity="{al}"')
+        cls, sw, op = (f"ln s-{tok}", 3.5, "") if tok else (f"ln {sc}", w + 0.2, "")
         pts = [(X(p), Y(r), r <= TOP_N) for p, r in zip(d.pos, d["rank"])]
         # solid runs while the label is in the top N; a dotted, clipped segment where it leaves or re-enters the view
         run = []
@@ -521,7 +523,7 @@ def fig_rank_slope(t, embed, out):
         tok = HI.get(name)
         ra, rb = first[first.industry == name]["rank"].iloc[0], last[last.industry == name]["rank"].iloc[0]
         sc, _, w, al = style(name)
-        cls, sw, op = (f"ln s-{tok}", 3.2, "") if tok else (f"ln {sc}", w + 0.2, f' opacity="{al}"')
+        cls, sw, op = (f"ln s-{tok}", 3.2, "") if tok else (f"ln {sc}", w + 0.2, "")
         s.path(polyline([x0, x1], [Y(ra), Y(rb)]), cls, sw, title=name, extra=op)
         for x, r in ((x0, ra), (x1, rb)):
             s.dot(x, Y(r), 4.2, f"s-{tok} f-{tok}" if tok else f"{sc} {style(name)[1]}", f"{name} rank {r}")

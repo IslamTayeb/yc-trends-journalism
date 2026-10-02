@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 545" width="100%" class="imt" role="img"><style>
 .imt{--bg:var(--background,#fafaf9);--ink:var(--foreground,#131110);--mut:var(--muted-foreground,#6b6865);
---rule:var(--border,#dfdedb);--prule:var(--page-rule,#131110);--r:var(--roy-r,#f52027);--o:var(--roy-o,#ee7b00);
+--rule:var(--border,#dfdedb);--prule:var(--page-rule,#131110);--bgl:#b4b2b0;--r:var(--roy-r,#f52027);--o:var(--roy-o,#ee7b00);
 --y:var(--roy-y,#ffba06);--b:var(--roy-b,#0074c9);font-family:"Open Sans",Arial,sans-serif;font-size:14px}
 @media (prefers-color-scheme:dark){.imt{--bg:var(--background,#1a1a1a);--ink:var(--foreground,#fafafa);
---mut:var(--muted-foreground,#a1a1a1);--rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555)}.imt .c0{stroke:#e11d48}.imt .ct0{fill:#e11d48}.imt .c1{stroke:#12a594}.imt .ct1{fill:#12a594}.imt .c2{stroke:#9f7aea}.imt .ct2{fill:#9f7aea}}
+--mut:var(--muted-foreground,#a1a1a1);--rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555);--bgl:#5f5f5f}.imt .c0{stroke:#e11d48}.imt .ct0{fill:#e11d48}.imt .c1{stroke:#12a594}.imt .ct1{fill:#12a594}.imt .c2{stroke:#9f7aea}.imt .ct2{fill:#9f7aea}}
 .dark .imt{--bg:var(--background,#1a1a1a);--ink:var(--foreground,#fafafa);--mut:var(--muted-foreground,#a1a1a1);
---rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555)}.dark .imt .c0{stroke:#e11d48}.dark .imt .ct0{fill:#e11d48}.dark .imt .c1{stroke:#12a594}.dark .imt .ct1{fill:#12a594}.dark .imt .c2{stroke:#9f7aea}.dark .imt .ct2{fill:#9f7aea}
+--rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555);--bgl:#5f5f5f}.dark .imt .c0{stroke:#e11d48}.dark .imt .ct0{fill:#e11d48}.dark .imt .c1{stroke:#12a594}.dark .imt .ct1{fill:#12a594}.dark .imt .c2{stroke:#9f7aea}.dark .imt .ct2{fill:#9f7aea}
 .imt text{fill:var(--ink)}.imt .m{fill:var(--mut)}.imt .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono",monospace}
 .imt .kick{font-size:13px;font-weight:700;letter-spacing:.2em}.imt .h{font-size:20px;font-weight:600}
 .imt .dek,.imt .cap{font-size:14px}.imt .tick{font-size:12px}.imt .foot{font-size:12px}.imt .lab{font-size:14px;font-weight:600}.imt .labr{font-size:14px}
 .imt .ground{fill:var(--bg)}.imt .grid{stroke:var(--rule);opacity:.7}.imt .axis{stroke:var(--mut);opacity:.6}
 .imt .ev{stroke:var(--prule);stroke-width:1.1;stroke-dasharray:1.5 3.5;stroke-linecap:round}
-.imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}.imt .c0{stroke:#e11d48}.imt .ct0{fill:#e11d48}.imt .c1{stroke:#0f9d8a}.imt .ct1{fill:#0f9d8a}.imt .c2{stroke:#8b5cf6}.imt .ct2{fill:#8b5cf6}.imt .bg{stroke:var(--ink)}.imt .bgt{fill:var(--ink)}
+.imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}.imt .c0{stroke:#e11d48}.imt .ct0{fill:#e11d48}.imt .c1{stroke:#0f9d8a}.imt .ct1{fill:#0f9d8a}.imt .c2{stroke:#8b5cf6}.imt .ct2{fill:#8b5cf6}.imt .bg{stroke:var(--bgl)}.imt .bgt{fill:var(--ink)}
 .imt .trend{stroke-dasharray:5 4;opacity:.8}.imt .hollow{fill:var(--bg)}
 .imt .s-r{stroke:var(--r)}.imt .s-o{stroke:var(--o)}.imt .s-y{stroke:var(--y)}.imt .s-b{stroke:var(--b)}
 .imt .f-r{fill:var(--r)}.imt .f-o{fill:var(--o)}.imt .f-y{fill:var(--y)}.imt .f-b{fill:var(--b)}
