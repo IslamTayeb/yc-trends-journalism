@@ -112,7 +112,6 @@ def fig_industry(t, embed):
         s.text(x0 - 52, y + 5, short.get(r.industry, r.industry), "labr", "end")
         s.path(f"M{xa:.1f},{y:.1f} L{xb:.1f},{y:.1f}", "ln bg", 2.2)
         s.dot(xa, y, 4.2, "bg bgt", f"{r.industry}: {r.share_all_pct:.0f}% of all companies ({r.n_all})")
-        s.add(s.parts.pop().replace('stroke-width="1.8"', 'stroke-width="1.8" opacity="0.4"'))
         s.dot(xb, y, 4.2, "s-b f-b", f"{r.industry}: {r.share_full_stack_ai_pct:.0f}% of full-stack AI companies ({r.n_full_stack_ai})")
         # value labels on the outside of each dot
         left, right = (xa, xb) if xa < xb else (xb, xa)

@@ -49,8 +49,8 @@ TOP_N = 5         # Fig 1: the N largest labels in the latest full batch; Fig 2:
 
 
 SHADE = {}        # industry -> gray opacity, darkest for the largest context label in the latest full batch (set in main)
-GRAY_STEPS = [.31]     # label text only: ink token at the opacity that blends to the old muted-gray-at-0.5. Context STROKES use
-                       # the solid --bgl gray (#b4b2b0 light, #5f5f5f dark, the same blend) with no opacity, so crossings do not
+GRAY_STEPS = [.31]     # legacy shade value, no longer drawn: context strokes AND labels use
+                       # the solid --bgl gray (site token --chart-context, falling back to #a5a3a1 light / #6b6b6b dark) with no opacity, so crossings do not
                        # stack brighter where the gray lines overlap. One shade only, a
                        # size-ordered ramp was tried and rejected (implies a hierarchy that is not the story)
 
@@ -160,18 +160,18 @@ def fit(pos, y):
 # ---------------------------------------------------------------- svg helpers
 CSS = """
 .imt{--bg:var(--background,#fafaf9);--ink:var(--foreground,#131110);--mut:var(--muted-foreground,#6b6865);
---rule:var(--border,#dfdedb);--prule:var(--page-rule,#131110);--bgl:#b4b2b0;--r:var(--roy-r,#f52027);--o:var(--roy-o,#ee7b00);
+--rule:var(--border,#dfdedb);--prule:var(--page-rule,#131110);--bgl:var(--chart-context,#a5a3a1);--r:var(--roy-r,#f52027);--o:var(--roy-o,#ee7b00);
 --y:var(--roy-y,#ffba06);--b:var(--roy-b,#0074c9);font-family:"Open Sans",Arial,sans-serif;font-size:14px}
 @media (prefers-color-scheme:dark){.imt{--bg:var(--background,#1a1a1a);--ink:var(--foreground,#fafafa);
---mut:var(--muted-foreground,#a1a1a1);--rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555);--bgl:#5f5f5f}CTXDARK_MEDIA}
+--mut:var(--muted-foreground,#a1a1a1);--rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555);--bgl:var(--chart-context,#6b6b6b)}CTXDARK_MEDIA}
 .dark .imt{--bg:var(--background,#1a1a1a);--ink:var(--foreground,#fafafa);--mut:var(--muted-foreground,#a1a1a1);
---rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555);--bgl:#5f5f5f}CTXDARK_CLASS
+--rule:var(--border,#ffffff1a);--prule:var(--page-rule,#555);--bgl:var(--chart-context,#6b6b6b)}CTXDARK_CLASS
 .imt text{fill:var(--ink)}.imt .m{fill:var(--mut)}.imt .mono{font-family:MONO}
 .imt .kick{font-size:13px;font-weight:700;letter-spacing:.2em}.imt .h{font-size:20px;font-weight:600}
 .imt .dek,.imt .cap{font-size:14px}.imt .tick{font-size:12px}.imt .foot{font-size:12px}.imt .lab{font-size:14px;font-weight:600}.imt .labr{font-size:14px}
 .imt .ground{fill:var(--bg)}.imt .grid{stroke:var(--rule);opacity:.7}.imt .axis{stroke:var(--mut);opacity:.6}
 .imt .ev{stroke:var(--prule);stroke-width:1.1;stroke-dasharray:1.5 3.5;stroke-linecap:round}
-.imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}CTXCSS.imt .bg{stroke:var(--bgl)}.imt .bgt{fill:var(--ink)}
+.imt .ln{fill:none;stroke-linejoin:round;stroke-linecap:round}CTXCSS.imt .bg{stroke:var(--bgl)}.imt .bgt{fill:var(--bgl)}
 .imt .trend{stroke-dasharray:5 4;opacity:.8}.imt .hollow{fill:var(--bg)}
 .imt .s-r{stroke:var(--r)}.imt .s-o{stroke:var(--o)}.imt .s-y{stroke:var(--y)}.imt .s-b{stroke:var(--b)}
 .imt .f-r{fill:var(--r)}.imt .f-o{fill:var(--o)}.imt .f-y{fill:var(--y)}.imt .f-b{fill:var(--b)}
@@ -267,7 +267,7 @@ FLAT = {
     "ln": {"fill": "none", "stroke-linejoin": "round", "stroke-linecap": "round"},
     **{f"c{i}": {"stroke": lt} for i, (lt, _) in enumerate(CONTEXT.values())},
     **{f"ct{i}": {"fill": lt} for i, (lt, _) in enumerate(CONTEXT.values())},
-    "bg": {"stroke": "#b4b2b0"}, "bgt": {"fill": LIGHT["ink"]},
+    "bg": {"stroke": "#a5a3a1"}, "bgt": {"fill": "#a5a3a1"},
     "trend": {"stroke-dasharray": "5 4", "opacity": ".8"}, "hollow": {"fill": "#ffffff"},
     **{f"s-{k}": {"stroke": LIGHT[k]} for k in "roby"}, **{f"f-{k}": {"fill": LIGHT[k]} for k in "roby"},
     "area": {"opacity": ".12"},
@@ -432,7 +432,7 @@ def end_labels(s, names, ends, lys, xr):
     """Direct labels to the right of the last point (at xr), with a short leader where a label had to move."""
     for name, ye, yl in zip(names, ends, lys):
         tok = HI.get(name)
-        op = "" if tok else f' opacity="{max(style(name)[3], .4)}"'
+        op = ""   # context labels take the solid --bgl gray, same as their lines
         if abs(yl - ye) > 2:   # leader: short horizontal stub, then a diagonal to the label, same opacity as the label
             s.path(f"M{xr + 5:.1f},{ye:.1f} H{xr + 8:.1f} L{xr + 15:.1f},{yl:.1f}", f"ln {f's-{tok}' if tok else style(name)[0]}", 1)
         label = SHORT.get(name, name)
